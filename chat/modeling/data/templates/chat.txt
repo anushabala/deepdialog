@@ -1,0 +1,3 @@
+hey,CHAT,0
+hi,CHAT,0
+hello,CHAT,0
