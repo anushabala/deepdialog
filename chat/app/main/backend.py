@@ -7,6 +7,7 @@ import time
 import logging
 import uuid
 from flask import Markup
+from .chatbot import ChatBot
 
 logger = logging.getLogger(__name__)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -94,11 +95,12 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios):
+    def __init__(self, config, scenarios, bots):
         self.config = config
 
         self.conn = sqlite3.connect(config["db"]["location"])
         self.scenarios = scenarios
+        self.bots = bots
 
     def close(self):
         self.conn.close()
@@ -338,23 +340,26 @@ class BackendConnection(object):
                 except ConnectionTimeoutException:
                     return False
 
-                try:
-                    u2 = self._get_user_info(cursor, u.partner_id, assumed_status=Status.Chat)
-                except UnexpectedStatusException:
-                    self._end_chat_and_transition_to_waiting(cursor, userid, None, message=Messages.PartnerLeftRoom,
-                                                             partner_message=None)
-                    return False
-                except StatusTimeoutException:
-                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.ChatExpired,
-                                                             partner_message=Messages.ChatExpired)
-                    return False
-                except ConnectionTimeoutException:
-                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id,
-                                                             message=Messages.PartnerLeftRoom,
-                                                             partner_message=Messages.YouLeftRoom)
-                    return False
+                if not self.is_user_partner_bot(userid):
+                    try:
+                        u2 = self._get_user_info(cursor, u.partner_id, assumed_status=Status.Chat)
+                    except UnexpectedStatusException:
+                        self._end_chat_and_transition_to_waiting(cursor, userid, None, message=Messages.PartnerLeftRoom,
+                                                                 partner_message=None)
+                        return False
+                    except StatusTimeoutException:
+                        self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.ChatExpired,
+                                                                 partner_message=Messages.ChatExpired)
+                        return False
+                    except ConnectionTimeoutException:
+                        self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id,
+                                                                 message=Messages.PartnerLeftRoom,
+                                                                 partner_message=Messages.YouLeftRoom)
+                        return False
 
-                return u.room_id == u2.room_id
+                    return u.room_id == u2.room_id
+
+                return True
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
@@ -602,10 +607,9 @@ class BackendConnection(object):
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
-    def attempt_join_room(self, userid):
+    # todo change this
+    def attempt_join_room(self, userid, use_bot=True):
         def _get_other_waiting_users(cursor, userid):
-            # NOTE: we could try to handle single task as another waiting mode
-            #       we could also even interrupt single task mode (requires e.g. periodic polling by client during SingleTask mode)
             cursor.execute("SELECT name FROM ActiveUsers WHERE name!=? AND status=? AND connected_status=1",
                            (userid, Status.Waiting))
             userids = [r[0] for r in cursor.fetchall()]
@@ -620,6 +624,22 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
+                if use_bot:
+                    scenario_id = random.choice(list(self.scenarios.keys()))
+                    next_room_id = _get_max_room_id(cursor) + 1
+                    my_agent_index = random.choice([0, 1])
+                    bot = ChatBot(scenario_id, 1 - my_agent_index)
+                    self.bots[userid] = bot
+                    self._update_user(cursor, userid,
+                                      status=Status.Chat,
+                                      room_id=next_room_id,
+                                      partner_id=0,
+                                      scenario_id=scenario_id,
+                                      agent_index=my_agent_index,
+                                      selected_index=-1,
+                                      message="")
+                    return next_room_id
+
                 others = _get_other_waiting_users(cursor, userid)
                 logger.debug("Found %d other unpaired users" % len(others))
                 if len(others) > 0:
@@ -651,3 +671,10 @@ class BackendConnection(object):
                     return None
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
+
+    def is_user_partner_bot(self, userid):
+        return self.bots[userid] is not None
+
+    def get_user_bot(self, userid):
+        return self.bots[userid]
+

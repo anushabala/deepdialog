@@ -7,6 +7,8 @@ from .utils import get_backend
 from .backend import Status
 from .routes import userid
 import logging
+import time
+import random
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
 logger = logging.getLogger(__name__)
@@ -38,7 +40,6 @@ def connect():
 @socketio.on('is_chat_valid', namespace='/chat')
 def check_valid_chat(data):
     backend = get_backend()
-
     if backend.is_chat_valid(userid()):
         logger.debug("Chat is still valid for user %s" % userid_prefix())
         return {'valid': True}
@@ -73,19 +74,35 @@ def joined(message):
     A status message is broadcast to all people in the room."""
     start_chat()
     join_room(session["room"])
+    backend = get_backend()
     logger.debug("User %s joined chat room %d" % (userid_prefix(), session["room"]))
-    emit_message_to_partner("Your friend has entered the room.", status_message=True)
+    if backend.is_user_partner_bot(userid()):
+        bot = backend.get_user_bot(userid())
+        msg = bot.start_chat()
+        time.sleep(1)
+        write_to_file(msg)
+        emit_message_to_self("Friend: {}".format(msg))
+    else:
+        emit_message_to_partner("Your friend has entered the room.", status_message=True)
 
 
 @socketio.on('text', namespace='/chat')
 def text(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
+    backend = get_backend()
     msg = message['msg']
     write_to_file(msg)
     logger.debug("User %s said: %s" % (userid_prefix(), msg))
     emit_message_to_self("You: {}".format(msg))
-    emit_message_to_partner("Friend: {}".format(msg))
+    if backend.is_user_partner_bot(userid()):
+        bot = backend.get_user_bot(userid())
+        bot.receive(msg)
+        time.sleep(random.uniform(2,4))
+        bot_message = bot.send()
+        emit_message_to_self("Friend: {}".format(bot_message))
+    else:
+        emit_message_to_partner("Friend: {}".format(msg))
 
 
 @socketio.on('pick', namespace='/chat')

@@ -53,6 +53,7 @@ if __name__ == '__main__':
     app.config["user_params"] = params
     app.config["scenarios"] = scenarios_dict
     app.config["outcomes"] = defaultdict(lambda : -1)
+    app.config["bots"] = defaultdict(None)
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
 
