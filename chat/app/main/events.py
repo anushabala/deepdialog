@@ -26,6 +26,7 @@ def userid_prefix():
 @socketio.on('connect', namespace='/main')
 def connect():
     backend = get_backend()
+    print session
     backend.connect(userid())
     logger.info("User %s established connection on non-chat template" % userid_prefix())
 
@@ -98,7 +99,7 @@ def text(message):
     if backend.is_user_partner_bot(userid()):
         bot = backend.get_user_bot(userid())
         bot.receive(msg)
-        time.sleep(random.uniform(2,4))
+        # time.sleep(random.uniform(2,4))
         bot_message = bot.send()
         emit_message_to_self("Friend: {}".format(bot_message))
     else:
