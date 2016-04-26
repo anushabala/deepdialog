@@ -1,6 +1,6 @@
 from flask import session, request
 from flask import current_app as app
-from flask.ext.socketio import emit, join_room, leave_room
+from flask.ext.socketio import emit, join_room, leave_room, send
 from .. import socketio
 from datetime import datetime
 from .utils import get_backend
@@ -26,7 +26,6 @@ def userid_prefix():
 @socketio.on('connect', namespace='/main')
 def connect():
     backend = get_backend()
-    print session
     backend.connect(userid())
     logger.info("User %s established connection on non-chat template" % userid_prefix())
 
@@ -79,12 +78,36 @@ def joined(message):
     logger.debug("User %s joined chat room %d" % (userid_prefix(), session["room"]))
     if backend.is_user_partner_bot(userid()):
         bot = backend.get_user_bot(userid())
-        msg = bot.start_chat()
+        selection, msg = bot.send()
         time.sleep(1)
         write_to_file(msg)
+        emit_message_to_self("Your friend has entered the room.", status_message=True)
         emit_message_to_self("Friend: {}".format(msg))
     else:
         emit_message_to_partner("Your friend has entered the room.", status_message=True)
+
+
+@socketio.on('check_bot', namespace='/chat')
+def bot(message):
+    backend = get_backend()
+    bot = backend.get_user_bot(userid())
+    # time.sleep(random.uniform(2,4))
+    bot_selection, bot_message = bot.send()
+    if bot_selection:
+        chat_info = backend.get_chat_info(userid())
+        selection, is_match = backend.make_bot_selection(userid(), bot_selection)
+        if is_match:
+            emit_message_to_self("Both users have selected: \"{}\"".format(bot_selection))
+            emit('endchat',
+                {'message': "You've completed this task! Redirecting you..."},
+                room=session["room"])
+        else:
+            emit_message_to_self("Your friend has selected:\"{}\"".format(bot_selection))
+        write_outcome(-1, selection, chat_info)
+
+    # print "bot has message ", bot_message
+    if bot_message is not None:
+        emit_message_to_self("Friend: {}".format(bot_message))
 
 
 @socketio.on('text', namespace='/chat')
@@ -97,11 +120,9 @@ def text(message):
     logger.debug("User %s said: %s" % (userid_prefix(), msg))
     emit_message_to_self("You: {}".format(msg))
     if backend.is_user_partner_bot(userid()):
+        backend = get_backend()
         bot = backend.get_user_bot(userid())
-        bot.receive(msg)
-        # time.sleep(random.uniform(2,4))
-        bot_message = bot.send()
-        emit_message_to_self("Friend: {}".format(bot_message))
+        bot.receive(str(msg))
     else:
         emit_message_to_partner("Friend: {}".format(msg))
 
@@ -112,23 +133,27 @@ def pick(message):
     The message is sent to all people in the room."""
     backend = get_backend()
     chat_info = backend.get_chat_info(userid())
-    restaurant_id = int(message['restaurant'])
-    if restaurant_id == -1:
+    selection_id = int(message['restaurant'])
+    if selection_id == -1:
         return
     room = session["room"]
-    restaurant, is_match = backend.pick_restaurant(userid(), restaurant_id)
-    logger.debug("User %s in room %d selected: %s" % (userid_prefix(), room, restaurant))
+    selection, is_match = backend.pick_restaurant(userid(), selection_id)
+    if backend.is_user_partner_bot(userid()):
+        bot = backend.get_user_bot(userid())
+        bot.partner_selection(selection)
+
+    logger.debug("User %s in room %d selected: %s" % (userid_prefix(), room, selection))
     if is_match:
         logger.info("User %s selection matches with partner selection" % userid_prefix())
-        emit_message_to_chat_room("Both users have selected: \"{}\"".format(restaurant), status_message=True)
+        emit_message_to_chat_room("Both users have selected: \"{}\"".format(selection), status_message=True)
         emit('endchat',
              {'message': "You've completed this task! Redirecting you..."},
              room=room)
     else:
         logger.debug("User %s selection doesn't match with partner selection" % userid_prefix())
-        emit_message_to_partner("Your friend has selected: \"{}\"".format(restaurant), status_message=True)
-        emit_message_to_self("You selected: \"{}\"".format(restaurant), status_message=True)
-    write_outcome(restaurant_id, restaurant, chat_info)
+        emit_message_to_partner("Your friend has selected: \"{}\"".format(selection), status_message=True)
+        emit_message_to_self("You selected: \"{}\"".format(selection), status_message=True)
+    write_outcome(selection_id, selection, chat_info)
 
 
 @socketio.on('disconnect', namespace='/chat')

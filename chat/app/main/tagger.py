@@ -4,9 +4,11 @@ __author__ = 'anushabala'
 import json
 import os
 import re
+from collections import defaultdict
+import random
+import csv
 
-
-entity_pattern = r'<w+>'
+entity_pattern = r'<\w+>'
 
 
 class Entity(object):
@@ -19,6 +21,19 @@ class Entity(object):
     @classmethod
     def types(cls):
         return [cls.FULL_NAME, cls.FIRST_NAME, cls.SCHOOL_NAME, cls.MAJOR, cls.COMPANY_NAME]
+
+    @classmethod
+    def to_str(cls, type):
+        if type == Entity.FULL_NAME:
+            return "<fullName>"
+        if type == Entity.FULL_NAME:
+            return "<firstName>"
+        if type == Entity.SCHOOL_NAME:
+            return "<schoolName>"
+        if type == Entity.MAJOR:
+            return "<major>"
+        if type == Entity.COMPANY_NAME:
+            return "<companyName>"
 
 
 class TemplateType(object):
@@ -58,14 +73,21 @@ class Template(object):
             return []
         return re.findall(entity_pattern, self.text)
 
+    def fill(self, matched_entities, named_entities):
+        out = self.text
+        for i in range(0, len(named_entities)):
+            entity = matched_entities[i]
+            out = out.replace(entity, named_entities[i], 1)
+        return out
+
 
 class EntityTagger(object):
     scenarios = []
     templates = {template_type:[] for template_type in TemplateType.types()}
     entities = {entity:set() for entity in Entity.types()}
 
-    def __init__(self, scenarios_file, templates_dir, synonyms_file=None):
-        self.load_scenarios(open(scenarios_file, 'r'))
+    def __init__(self, scenarios, templates_dir, synonyms_file=None):
+        self.scenarios = scenarios
         if synonyms_file:
             self.load_synonyms(synonyms_file)
         self.load_entities()
@@ -78,7 +100,7 @@ class EntityTagger(object):
         self.scenarios = json.load(scenarios_file, encoding='utf-8')
 
     def load_entities(self):
-        for scenario in self.scenarios:
+        for (key, scenario) in self.scenarios.iteritems():
             connection = scenario["connection"]["info"]
             self.entities[Entity.MAJOR].add(connection["school"]["major"].lower())
             self.entities[Entity.SCHOOL_NAME].add(connection["school"]["name"].lower())
@@ -96,7 +118,7 @@ class EntityTagger(object):
                 self.entities[Entity.FULL_NAME].add(name)
                 self.entities[Entity.FIRST_NAME].add(name.split()[0])
 
-                for friend in agent_info["friends"]:
+                for friend in agent["friends"]:
                     self.entities[Entity.MAJOR].add(friend["school"]["major"].lower())
                     self.entities[Entity.SCHOOL_NAME].add(friend["school"]["name"].lower())
                     self.entities[Entity.COMPANY_NAME].add(friend["company"]["name"].lower())
@@ -105,10 +127,13 @@ class EntityTagger(object):
                     self.entities[Entity.FIRST_NAME].add(name.split()[0])
 
     def tag_sentence(self, sentence):
+        # todo do prefix match and return confidences
+        # todo edit distances
+        print sentence
         sentence = sentence.strip().lower()
         sentence_mod = sentence.translate(string.maketrans("",""), string.punctuation)
         sentence_mod = sentence_mod.split()
-        found_entities = {}
+        found_entities = defaultdict(list)
 
         for i in range(0, len(sentence_mod)):
             word = sentence_mod[i]
@@ -116,23 +141,43 @@ class EntityTagger(object):
                 try:
                     next_word = sentence_mod[i+1]
                     if "%s %s" % (word, next_word) in self.entities[Entity.FULL_NAME]:
-                        found_entities[Entity.FULL_NAME] = "%s %s" % (word, next_word)
+                        found_entities[Entity.FULL_NAME].append("%s %s" % (word, next_word))
                     else:
-                        found_entities[Entity.FIRST_NAME] = word
+                        found_entities[Entity.FIRST_NAME].append(word)
                 except IndexError:
-                    found_entities[Entity.FIRST_NAME] = word
+                    found_entities[Entity.FIRST_NAME].append(word)
             elif word in self.entities[Entity.MAJOR]:
-                found_entities[Entity.MAJOR] = word
+                found_entities[Entity.MAJOR].append(word)
             elif word in self.entities[Entity.SCHOOL_NAME]:
-                found_entities[Entity.SCHOOL_NAME] = word
+                found_entities[Entity.SCHOOL_NAME].append(word)
             elif word in self.entities[Entity.COMPANY_NAME]:
-                found_entities[Entity.COMPANY_NAME] = word
+                found_entities[Entity.COMPANY_NAME].append(word)
 
+        # try bi and tri grams
+        for i in range(0, len(sentence_mod)):
+            if i+2 <= len(sentence_mod):
+                bigram = " ".join(sentence_mod[i:i+2])
+                if bigram in self.entities[Entity.MAJOR]:
+                    found_entities[Entity.MAJOR].append(word)
+                elif bigram in self.entities[Entity.SCHOOL_NAME]:
+                    found_entities[Entity.SCHOOL_NAME].append(word)
+                elif bigram in self.entities[Entity.COMPANY_NAME]:
+                    found_entities[Entity.COMPANY_NAME].append(word)
+            if i+3 <= len(sentence_mod):
+                trigram = " ".join(sentence_mod[i:i+2])
+                if trigram in self.entities[Entity.MAJOR]:
+                    found_entities[Entity.MAJOR].append(word)
+                elif trigram in self.entities[Entity.SCHOOL_NAME]:
+                    found_entities[Entity.SCHOOL_NAME].append(word)
+                elif trigram in self.entities[Entity.COMPANY_NAME]:
+                    found_entities[Entity.COMPANY_NAME].append(word)
+
+        print "[Tagger] Tagged sentence %s\tEntities:" % sentence, found_entities
         return found_entities
 
     def load_templates(self, templates_dir):
         for filename in os.listdir(templates_dir):
-            f = open(os.path.join(templates_dir, filename))
+            reader = csv.reader(open(os.path.join(templates_dir, filename)))
             t_type = TemplateType.ASK
             if "chat" in filename:
                 t_type = TemplateType.CHAT
@@ -140,10 +185,11 @@ class EntityTagger(object):
                 t_type = TemplateType.SUGGEST
             elif "tell" in filename:
                 t_type = TemplateType.TELL
-            for line in f.readlines():
-                line = line.strip().split(',')
+            for line in reader:
+                if line[0].startswith('#') or len(line) < 3:
+                    continue
                 template = Template(line[0], line[2], line[1])
                 self.templates[t_type].append(template)
 
-    def generate(self, type, subtype, entities=[]):
-        pass
+    def get_template(self, type):
+        return random.choice(self.templates[type])

@@ -59,8 +59,6 @@ def index():
     elif 'key' not in session:
         session['key'] = key
 
-
-
     status = backend.get_updated_status(userid())
     logger.info("Got updated status %s for user %s" % (Status._names[status], userid()[:6]))
     session["mturk"] = True if request.args.get('mturk') and int(request.args.get('mturk')) == 1 else None
@@ -100,7 +98,8 @@ def index():
                                scenario=chat_info.scenario,
                                agent=chat_info.agent_info,
                                num_seconds=chat_info.num_seconds,
-                               config=presentation_config)
+                               config=presentation_config,
+                               bot=1)
 
 
 def clear_session():

@@ -8,6 +8,7 @@ import logging
 import uuid
 from flask import Markup
 from .chatbot import ChatBot
+from .tagger import EntityTagger, Entity, TemplateType, Template
 
 logger = logging.getLogger(__name__)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -95,12 +96,14 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots):
+    def __init__(self, config, scenarios, bots, bot_selections):
         self.config = config
 
         self.conn = sqlite3.connect(config["db"]["location"])
         self.scenarios = scenarios
+        self.tagger = EntityTagger(scenarios, config["bots"]["templates"])
         self.bots = bots
+        self.bot_selections = bot_selections
 
     def close(self):
         self.conn.close()
@@ -431,17 +434,29 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 self._update_user(cursor, userid, selected_index=restaurant_index)
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
-
-                cursor.execute(
-                    "SELECT name, selected_index,cumulative_points,num_chats_completed FROM ActiveUsers WHERE room_id=? AND name!=?",
-                    (u.room_id, userid))
-                other_userid, other_restaurant_index, other_P, other_num_chats_completed = self._ensure_not_none(
-                    cursor.fetchone(), BadChatException)
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
-
                 restaurant_name = scenario["agents"][u.agent_index]["friends"][restaurant_index]["name"]
-                other_name = scenario["agents"][1-u.agent_index]["friends"][other_restaurant_index]["name"]
+                if not self.is_user_partner_bot(userid):
+                    cursor.execute(
+                        "SELECT name, selected_index,cumulative_points,num_chats_completed FROM ActiveUsers WHERE room_id=? AND name!=?",
+                        (u.room_id, userid))
+                    other_userid, other_restaurant_index, other_P, other_num_chats_completed = self._ensure_not_none(
+                        cursor.fetchone(), BadChatException)
+
+
+                    other_name = scenario["agents"][1-u.agent_index]["friends"][other_restaurant_index]["name"]
+                else:
+                    other_name = self.bot_selections[userid]
+                    if restaurant_name == other_name:
+                        Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
+                        is_optimal = _is_optimal_choice(scenario, u.agent_index, restaurant_name, Pdelta)
+                        if is_optimal:
+                            _user_finished(cursor, userid, P, Pdelta, Pdelta, u.num_chats_completed)
+                            return restaurant_name, True
+                    else:
+                        return restaurant_name, False
+
                 if restaurant_name == other_name:
                     # Match
                     logger.info("User %s restaurant selection matches with partner's. Selected restaurant: %s" % (
@@ -628,7 +643,7 @@ class BackendConnection(object):
                     scenario_id = random.choice(list(self.scenarios.keys()))
                     next_room_id = _get_max_room_id(cursor) + 1
                     my_agent_index = random.choice([0, 1])
-                    bot = ChatBot(scenario_id, 1 - my_agent_index)
+                    bot = ChatBot(self.scenarios[scenario_id], 1 - my_agent_index, self.tagger)
                     self.bots[userid] = bot
                     self._update_user(cursor, userid,
                                       status=Status.Chat,
@@ -677,4 +692,63 @@ class BackendConnection(object):
 
     def get_user_bot(self, userid):
         return self.bots[userid]
+
+    def make_bot_selection(self, userid, bot_selection):
+        def _get_points(scenario, agent_index, restaurant_name):
+            result = scenario["connection"]["info"]["name"]
+            if result == restaurant_name:
+                return 5
+            return 0
+
+        def _user_finished(cursor, userid, prev_points, my_points, other_points, prev_chats_completed, optimal_choice=None):
+            message = "<h3>Great, you've finished the chat! You scored {} points and your friend scored {} points.</h3>".format(
+                my_points, other_points)
+            logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
+                        (userid[:6], prev_points, my_points, prev_points + my_points))
+            self.bots[userid] = None
+            if optimal_choice:
+                # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
+                self._update_user(cursor, userid, status=Status.Finished, message=message,
+                                  cumulative_points=prev_points + my_points,
+                                  num_chats_completed=prev_chats_completed + 1,
+                                  bonus=0)
+            else:
+                # message += "<p>You chose the best restaurant given your preferences!<p>"
+                self._update_user(cursor, userid, status=Status.Finished, message=message,
+                                  cumulative_points=prev_points + my_points,
+                                  num_chats_completed=prev_chats_completed + 1,
+                                  bonus=1
+                                  )
+
+        def _is_optimal_choice(scenario, agent_index, restaurant_name, user_points):
+            # top_choice = scenario["agents"][agent_index]["sorted_restaurants"][0]["name"]
+            # best_points = scenario["agents"][agent_index]["sorted_restaurants"][0]["utility"]
+            # second_choice = scenario["agents"][agent_index]["sorted_restaurants"][1]["name"]
+            # optimal = {"name":top_choice, "points":best_points}
+            result = scenario["connection"]["info"]["name"]
+            return restaurant_name == result
+
+        try:
+            with self.conn:
+                self.bot_selections[userid] = bot_selection
+                cursor = self.conn.cursor()
+                # self._update_user(cursor, userid, selected_index=restaurant_index)
+                u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
+                P = u.cumulative_points
+                scenario = self.scenarios[u.scenario_id]
+
+                user_selection = scenario["agents"][u.agent_index]["friends"][u.selected_index]["name"]
+                if user_selection == bot_selection:
+                    Pdelta = _get_points(scenario, u.agent_index, user_selection)
+                    is_optimal = _is_optimal_choice(scenario, u.agent_index, user_selection, Pdelta)
+                    if is_optimal:
+                        _user_finished(cursor, userid, P, Pdelta, Pdelta, u.num_chats_completed)
+                        return bot_selection, True
+                else:
+                    return bot_selection, False
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+
 

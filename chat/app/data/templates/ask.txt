@@ -1,0 +1,13 @@
+"what's your school, major, and company?",ASK_ALL,0
+"school major company?",ASK_ALL,0
+"major school company?",ASK_ALL,0
+"major, school, company?",ASK_ALL,0
+"what's all your information (major school company)",ASK_ALL,0
+# only works if tell always happens AFTER ask
+"you?",ASK_ALL,0
+"what about you?",ASK_ALL,0
+"what about you",ASK_ALL,0
+#"what was your school and major",ASK_SCHOOL_MAJOR,0
+#"where do you work?",ASK_COMPANY,0
+#"what's the name of your company",ASK_COMPANY,0
+#"what's your major",ASK_MAJOR,0

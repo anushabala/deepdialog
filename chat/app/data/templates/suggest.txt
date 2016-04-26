@@ -1,0 +1,12 @@
+"<fullName>?",SUGGEST,1
+"<firstName>?",SUGGEST,1
+"<firstName>, <firstName>?",SUGGEST,2
+"<firstName>, <firstName>, <firstName>?",SUGGEST,3
+#"do you know <fullName>?",SUGGEST,1
+#"do you know <firstName>?",SUGGEST,1
+#"do you know <firstName> or <firstName>?",SUGGEST,2
+#"do you know <firstName>, <firstName>, <firstName>?",SUGGEST,2
+#"do you know <fullName> or <fullName>?",SUGGEST,2
+#"do you know either of these people: <fullName>, <fullName>",SUGGEST,2
+#"do you know any of these people <fullName>, <fullName>, <fullName>",SUGGEST,3
+#"do you know <fullName>, <fullName>, <fullName>?",SUGGEST,3

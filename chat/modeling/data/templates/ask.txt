@@ -1,5 +1,0 @@
-"what's your school, major, and company?",ASK_ALL
-"what was your school and major",ASK_SCHOOL_MAJOR,0
-"where do you work?",ASK_COMPANY,0
-"what's the name of your company",ASK_COMPANY,0
-"what's your major",ASK_MAJOR,0

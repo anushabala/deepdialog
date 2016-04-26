@@ -133,6 +133,10 @@
                     }
                 });
             }
+            
+            function getBotResponse() {
+            	socket.emit('check_bot', {});
+            }
 
         </script>
         
@@ -174,7 +178,11 @@
 					function init() {
 					  var deadline = new Date(Date.parse(new Date()) + {{ num_seconds }} * 1000);
 					  initializeClock('clockdiv', deadline);
-				        }
+					  console.log({{bot}});
+					  if ({{ bot }} == 1) {
+						var botInterval = setInterval(getBotResponse, 1000);
+					  }
+					}
         </script>
     </head>
     <body onload='init()' oncopy="return false" oncut="return false" onpaste="return false">
