@@ -56,6 +56,8 @@ class FriendNetwork(object):
             if other_friend.name != friend.name:
                 if friend.same_major_and_school(other_friend):
                     potential_friends.append(other_friend)
+                # elif friend.same_school(other_friend):
+                #     potential_friends.append(other_friend)
                 elif friend.same_company(other_friend):
                     potential_friends.append(other_friend)
         return potential_friends
@@ -160,6 +162,7 @@ class ScenarioGenerator(object):
             user2_friends = user2_friends[:num_friends]
 
         ctr = 0
+        print len(user1_friends), len(user2_friends)
         while ctr < len(self.network.friends) and len(user1_friends) < num_friends:
             friend = self.network.friends[ctr]
             if friend == user1 or friend == user2 or friend == connection:
@@ -253,7 +256,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument('--size', type=int, default=150, help='Size of network to generate')
+    parser.add_argument('--size', type=int, default=100, help='Size of network to generate')
     parser.add_argument('--output', type=str, default='data/scenarios.json', help='File to write networks to.')
     parser.add_argument('--num_scenarios', type=int, default=100, help='Number of scenarios to generate')
     parser.add_argument('--scenario_dir', default='data/scenarios', help='File to write scenario to')

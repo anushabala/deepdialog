@@ -23,7 +23,8 @@ def get_backend():
     if backend is None:
         scenario_ids = sorted(app.config["scenarios"].keys())
         backend = g._backend = BackendConnection(app.config["user_params"], app.config["scenarios"],
-                                                 app.config["bots"], app.config["bot_selections"])
+                                                 app.config["bots"], app.config["bot_selections"],
+                                                 app.config["tagger"])
     return backend
 
 

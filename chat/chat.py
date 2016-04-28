@@ -10,6 +10,9 @@ import logging
 
 
 # initialize database with table for chat rooms and active users
+from app.main.tagger import EntityTagger
+
+
 def init_database(db_file):
     conn = sqlite3.connect(db_file)
     c = conn.cursor()
@@ -17,6 +20,7 @@ def init_database(db_file):
     c.execute('''CREATE TABLE ActiveUsers (name text unique, status integer, status_timestamp integer, connected_status integer, connected_timestamp integer, message text, room_id integer, partner_id text, scenario_id text, agent_index integer, selected_index integer, single_task_id text, num_single_tasks_completed integer, num_chats_completed integer, cumulative_points integer, bonus integer)''')
     c.execute('''CREATE TABLE SingleTasks (name text, scenario_id text, selected_index integer, selected_restaurant text, start_text text)''')
     c.execute('''CREATE TABLE CompletedTasks (name text, mturk_code text, num_single_tasks_completed integer, num_chats_completed integer, bonus integer)''')
+    c.execute('''CREATE TABLE Surveys (name text, partner_type text, how_mechanical integer, how_effective integer)''')
     #c.execute('''CREATE TABLE Chatrooms (room_id integer, scenario_id text)''')
     conn.commit()
     conn.close()
@@ -55,6 +59,7 @@ if __name__ == '__main__':
     app.config["outcomes"] = defaultdict(lambda : -1)
     app.config["bots"] = defaultdict(None)
     app.config["bot_selections"] = defaultdict(str)
+    app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
 

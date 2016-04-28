@@ -39,3 +39,8 @@ class UserChatSession(object):
                 "scenario": self.scenario,
                 "agent_info": self.agent_info,
                 "num_seconds": self.num_seconds}
+
+
+class SurveySession(object):
+    def __init__(self):
+        pass

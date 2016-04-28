@@ -81,20 +81,70 @@ class Template(object):
         return out
 
 
+def get_prefixes(entity, min_length=3, max_length=5):
+    prefixes = []
+    words = entity.split()
+    for word in words:
+        if len(word) < max_length:
+            continue
+        for i in range(min_length, max_length):
+            prefixes.append(word[:i])
+    return prefixes
+
+
+def get_acronyms(entity):
+    words = entity.split()
+    if len(words) < 2:
+        return []
+    return ["".join([w[0] for w in words])]
+
+
+def find_unique_words(entity, all_entities):
+    words = entity.split()
+    unique_words = []
+    if len(words) == 1:
+        return []
+    for word in words:
+        unique = True
+        for other_entity in all_entities:
+            if word in other_entity:
+                unique = False
+        if unique:
+            if word != entity:
+                unique_words.append(word)
+
+    return []
+
+
 class EntityTagger(object):
     scenarios = []
     templates = {template_type:[] for template_type in TemplateType.types()}
     entities = {entity:set() for entity in Entity.types()}
+    synonyms = {entity:defaultdict(list) for entity in Entity.types()}
 
-    def __init__(self, scenarios, templates_dir, synonyms_file=None):
+    def __init__(self, scenarios, templates_dir):
         self.scenarios = scenarios
-        if synonyms_file:
-            self.load_synonyms(synonyms_file)
         self.load_entities()
+        self.compute_synonyms()
         self.load_templates(templates_dir)
 
-    def load_synonyms(self, synonyms_file):
-        raise NotImplementedError
+    def compute_synonyms(self):
+        print "computing synonyms"
+        print self.synonyms.keys()
+        for entity_type in self.synonyms.keys():
+            syn_dict = self.synonyms[entity_type]
+            if entity_type == Entity.FULL_NAME or entity_type == Entity.FIRST_NAME:
+                continue
+            for entity in self.entities[entity_type]:
+
+                entity_synonyms = []
+                entity_synonyms.extend(get_prefixes(entity))
+                entity_synonyms.extend(get_acronyms(entity))
+                entity_synonyms.extend(find_unique_words(entity, self.entities[entity_type]))
+                for syn in entity_synonyms:
+                    syn_dict[syn].append(entity)
+
+
 
     def load_scenarios(self, scenarios_file):
         self.scenarios = json.load(scenarios_file, encoding='utf-8')
@@ -126,6 +176,17 @@ class EntityTagger(object):
                     self.entities[Entity.FULL_NAME].add(name)
                     self.entities[Entity.FIRST_NAME].add(name.split()[0])
 
+    def possible_prefix_matches(self, word):
+        possible_matches = defaultdict(list)
+        prefixes = get_prefixes(word)
+        for prefix in prefixes:
+            for entity_type in Entity.types():
+                if entity_type == Entity.FIRST_NAME or entity_type == Entity.FULL_NAME:
+                    continue
+                if prefix in self.synonyms[entity_type].keys():
+                    possible_matches[entity_type].extend(self.synonyms[entity_type][prefix])
+        return possible_matches
+
     def tag_sentence(self, sentence):
         # todo do prefix match and return confidences
         # todo edit distances
@@ -134,7 +195,7 @@ class EntityTagger(object):
         sentence_mod = sentence.translate(string.maketrans("",""), string.punctuation)
         sentence_mod = sentence_mod.split()
         found_entities = defaultdict(list)
-
+        possible_entities = defaultdict(list)
         for i in range(0, len(sentence_mod)):
             word = sentence_mod[i]
             if word in self.entities[Entity.FIRST_NAME]:
@@ -153,27 +214,43 @@ class EntityTagger(object):
             elif word in self.entities[Entity.COMPANY_NAME]:
                 found_entities[Entity.COMPANY_NAME].append(word)
 
-        # try bi and tri grams
+        # # try bi and tri grams
+        # for i in range(0, len(sentence_mod)):
+        #     if i+2 <= len(sentence_mod):
+        #         bigram = " ".join(sentence_mod[i:i+2])
+        #         if bigram in self.entities[Entity.MAJOR]:
+        #             found_entities[Entity.MAJOR].append(word)
+        #         elif bigram in self.entities[Entity.SCHOOL_NAME]:
+        #             found_entities[Entity.SCHOOL_NAME].append(word)
+        #         elif bigram in self.entities[Entity.COMPANY_NAME]:
+        #             found_entities[Entity.COMPANY_NAME].append(word)
+        #     if i+3 <= len(sentence_mod):
+        #         trigram = " ".join(sentence_mod[i:i+2])
+        #         if trigram in self.entities[Entity.MAJOR]:
+        #             found_entities[Entity.MAJOR].append(word)
+        #         elif trigram in self.entities[Entity.SCHOOL_NAME]:
+        #             found_entities[Entity.SCHOOL_NAME].append(word)
+        #         elif trigram in self.entities[Entity.COMPANY_NAME]:
+        #             found_entities[Entity.COMPANY_NAME].append(word)
+
+        # check if word matches any possible synonym
         for i in range(0, len(sentence_mod)):
-            if i+2 <= len(sentence_mod):
-                bigram = " ".join(sentence_mod[i:i+2])
-                if bigram in self.entities[Entity.MAJOR]:
-                    found_entities[Entity.MAJOR].append(word)
-                elif bigram in self.entities[Entity.SCHOOL_NAME]:
-                    found_entities[Entity.SCHOOL_NAME].append(word)
-                elif bigram in self.entities[Entity.COMPANY_NAME]:
-                    found_entities[Entity.COMPANY_NAME].append(word)
-            if i+3 <= len(sentence_mod):
-                trigram = " ".join(sentence_mod[i:i+2])
-                if trigram in self.entities[Entity.MAJOR]:
-                    found_entities[Entity.MAJOR].append(word)
-                elif trigram in self.entities[Entity.SCHOOL_NAME]:
-                    found_entities[Entity.SCHOOL_NAME].append(word)
-                elif trigram in self.entities[Entity.COMPANY_NAME]:
-                    found_entities[Entity.COMPANY_NAME].append(word)
+            word = sentence_mod[i]
+            for entity_type in self.synonyms.keys():
+                possible_entities[entity_type].extend(self.synonyms[entity_type][word])
+
+
+        # check if prefix of any word matches a possible prefix in the dict
+        for i in range(0, len(sentence_mod)):
+            word = sentence_mod[i]
+            possible_matches = self.possible_prefix_matches(word)
+            for entity_type in possible_matches.keys():
+                possible_entities[entity_type].extend(possible_matches[entity_type])
 
         print "[Tagger] Tagged sentence %s\tEntities:" % sentence, found_entities
-        return found_entities
+        print "[Tagger] Possible matches\t", possible_entities
+        possible_entities = {key:set(entities) for (key, entities) in possible_entities.items()}
+        return found_entities, possible_entities
 
     def load_templates(self, templates_dir):
         for filename in os.listdir(templates_dir):
@@ -191,5 +268,11 @@ class EntityTagger(object):
                 template = Template(line[0], line[2], line[1])
                 self.templates[t_type].append(template)
 
-    def get_template(self, type):
-        return random.choice(self.templates[type])
+    def get_template(self, type, subtype=None):
+        templates = self.templates[type]
+        if subtype is not None:
+            templates = []
+            for template in self.templates[type]:
+                if template.type == subtype:
+                    templates.append(template)
+        return random.choice(templates)

@@ -16,6 +16,7 @@ handler.setLevel(logging.INFO)
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
+
 def set_or_get_userid():
     if "sid" in session and session["sid"]:
         return userid()
@@ -100,6 +101,8 @@ def index():
                                num_seconds=chat_info.num_seconds,
                                config=presentation_config,
                                bot=1)
+    elif status == Status.Survey:
+        return render_template('survey.html')
 
 
 def clear_session():

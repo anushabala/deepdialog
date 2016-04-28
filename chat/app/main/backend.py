@@ -19,8 +19,8 @@ logger.addHandler(handler)
 
 
 class Status(object):
-    Waiting, Chat, SingleTask, Finished = range(4)
-    _names = ["waiting", "chat", "single_task", "finished"]
+    Waiting, Chat, SingleTask, Finished, Survey = range(5)
+    _names = ["waiting", "chat", "single_task", "finished", "survey"]
 
     @staticmethod
     def from_str(s):
@@ -32,10 +32,16 @@ class Status(object):
             return Status.SingleTask
         if Status._names.index(s) == 3:
             return Status.Finished
+        if Status._names.index(s) == 4:
+            return Status.Survey
 
     def to_str(self):
         return self._names[self]
 
+class Partner(object):
+    BaselineBot = 'bot'
+    Human = 'human'
+    LSTMBot = 'lstm'
 
 def current_timestamp_in_seconds():
     return int(time.mktime(datetime.datetime.now().timetuple()))
@@ -96,12 +102,13 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots, bot_selections):
+    def __init__(self, config, scenarios, bots, bot_selections, tagger):
         self.config = config
 
         self.conn = sqlite3.connect(config["db"]["location"])
+        self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
         self.scenarios = scenarios
-        self.tagger = EntityTagger(scenarios, config["bots"]["templates"])
+        self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
 
@@ -213,6 +220,13 @@ class BackendConnection(object):
                         self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='',
                                           num_single_tasks_completed=0)
                         return Status.Waiting
+                    elif u.status == Status.Survey:
+                        if isinstance(e, ConnectionTimeoutException):
+                            logger.info('ConnectionTimeOutException in survey state. Updating to connected and reentering waiting state.' % userid[:6])
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting,
+                                              num_single_tasks_completed=0)
+
+                        return Status.Survey
                     else:
                         raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
 
@@ -407,15 +421,16 @@ class BackendConnection(object):
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
+            new_status = Status.Survey if self.do_survey else Status.Finished
             if optimal_choice:
                 # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
-                self._update_user(cursor, userid, status=Status.Finished, message=message,
+                self._update_user(cursor, userid, status=new_status, message=message,
                                   cumulative_points=prev_points + my_points,
                                   num_chats_completed=prev_chats_completed + 1,
                                   bonus=0)
             else:
                 # message += "<p>You chose the best restaurant given your preferences!<p>"
-                self._update_user(cursor, userid, status=Status.Finished, message=message,
+                self._update_user(cursor, userid, status=new_status, message=message,
                                   cumulative_points=prev_points + my_points,
                                   num_chats_completed=prev_chats_completed + 1,
                                   bonus=1
@@ -569,6 +584,24 @@ class BackendConnection(object):
             u = self._get_user_info_unchecked(cursor, userid)
             return u.message
 
+    def _submit_survey(self, userid, data):
+        def _user_finished(userid):
+            # message = "<h3>Great, you've finished this task!</h3>"
+            logger.info("Updating user %s to status FINISHED from status survey" % userid)
+            self._update_user(cursor, userid, status=Status.Finished)
+
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                partner_name = Partner.Human
+                if self.is_user_partner_bot(userid):
+                    partner_name = Partner.BaselineBot
+                cursor.execute('INSERT INTO Surveys VALUES (?,?,?,?)',
+                               (userid, partner_name, data['question1'], data['question2']))
+                _user_finished(userid)
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
     def submit_single_task(self, userid, user_input):
         def _complete_task_and_wait(cursor, userid, num_finished):
             message = "Great, you've finished {} exercises! Waiting a few seconds for someone to chat with...".format(
@@ -706,15 +739,16 @@ class BackendConnection(object):
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
             self.bots[userid] = None
+            new_status = Status.Survey if self.do_survey else Status.Finished
             if optimal_choice:
                 # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
-                self._update_user(cursor, userid, status=Status.Finished, message=message,
+                self._update_user(cursor, userid, status=new_status, message=message,
                                   cumulative_points=prev_points + my_points,
                                   num_chats_completed=prev_chats_completed + 1,
                                   bonus=0)
             else:
                 # message += "<p>You chose the best restaurant given your preferences!<p>"
-                self._update_user(cursor, userid, status=Status.Finished, message=message,
+                self._update_user(cursor, userid, status=new_status, message=message,
                                   cumulative_points=prev_points + my_points,
                                   num_chats_completed=prev_chats_completed + 1,
                                   bonus=1
