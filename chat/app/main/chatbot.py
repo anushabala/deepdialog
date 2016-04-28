@@ -60,6 +60,9 @@ class ChatBot(object):
         self.text_addition = None
         self.template_type = None
 
+    def start(self):
+        self.last_message_timestamp = datetime.datetime.now()
+
     def init_probabilities(self):
         for friend in self.friends:
             self.probabilities[friend["name"].lower()] = 1.0/len(self.friends)
@@ -136,20 +139,18 @@ class ChatBot(object):
         self.last_message_timestamp = datetime.datetime.now()
         self.my_turn = True
         found_entities, possible_entities = self.tagger.tag_sentence(message)
-        # todo set state to select and update probabilities if partner selects the mutual friend
-        # todo low priority maybe also say "no i don't know them" + next message if selection isn't mutual friend
         self.update_probabilities(found_entities)
         self.update_probabilities(possible_entities, guess=True)
 
     def partner_selection(self, selection):
         print "<partner selection>", selection
         if selection.lower() in self.probabilities.keys():
+
             self.state = ChatState.SELECT_FINAL
             self.my_turn = True
             self.set_final_probability(selection.lower())
             self.rerank_friends()
         else:
-            # todo send message "no i don't know"
             pass
 
     def send(self):
@@ -159,12 +160,14 @@ class ChatBot(object):
                 return None, None
             else:
                 selection = self.selection
+                self.last_message_timestamp = datetime.datetime.now()
                 self.selection = None
                 return selection, None
 
         if self.next_text is not None:
-                delay = float(len(self.next_text))/self.CHAR_RATE
-                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay*1000) > datetime.datetime.now():
+                delay = float(len(self.next_text))/self.CHAR_RATE * 1000 + self.EPSILON
+                print "Text send delay: %s %s" % (self.next_text, delay)
+                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
                     return None, None
                 else:
                     ret_text = self.next_text
@@ -191,6 +194,7 @@ class ChatBot(object):
                 else:
                     self.template_type = None
                     self.state = ChatState.ASK
+                    self.my_turn = False
             elif self.state == ChatState.ASK:
                 self.my_turn = False
                 self.state = ChatState.SUGGEST
@@ -200,7 +204,7 @@ class ChatBot(object):
             elif self.state == ChatState.SELECT_GUESS:
                 self.my_turn = False
                 self.state = ChatState.SUGGEST
-                if self.selection is not None:
+                if self.selection is None:
                     self.selection = selection = self.full_names_cased[self.ranked_friends[0]]
             elif self.state == ChatState.SELECT_FINAL:
                 self.state = ChatState.FINISHED
@@ -218,8 +222,9 @@ class ChatBot(object):
                     self.selection = None
                     return selection, None
             self.next_text = self.generate_text()
-            delay = float(len(self.next_text)/self.CHAR_RATE)
-            if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0, milliseconds=delay*1000) > datetime.datetime.now():
+            delay = float(len(self.next_text)/self.CHAR_RATE) * 1000 + self.EPSILON
+            print "Text send delay: %s %s" % (self.next_text, delay)
+            if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0, milliseconds=delay) > datetime.datetime.now():
                 self.selection = None
                 return None, None
             else:

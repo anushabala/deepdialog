@@ -1,0 +1,5 @@
+"no, i don't know them",REJECT,0
+"nope",REJECT,0
+"nah",REJECT,0
+"nope, don't know them",REJECT,0
+"nope, that's not the answer",REJECT,0

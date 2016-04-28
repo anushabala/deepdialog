@@ -1,0 +1,7 @@
+"yep, that's the right answer",ACCEPT,0
+"yeah, that's the mutual friend",ACCEPT,0
+"yes!",ACCEPT,0
+"yep!",ACCEPT,0
+"yep",ACCEPT,0
+"yeah",ACCEPT,0
+"yes",ACCEPT,0

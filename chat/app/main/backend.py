@@ -222,7 +222,7 @@ class BackendConnection(object):
                         return Status.Waiting
                     elif u.status == Status.Survey:
                         if isinstance(e, ConnectionTimeoutException):
-                            logger.info('ConnectionTimeOutException in survey state. Updating to connected and reentering waiting state.' % userid[:6])
+                            logger.info('ConnectionTimeOutException for user %s in survey state. Updating to connected and reentering waiting state.' % userid[:6])
                             self._update_user(cursor, userid, connected_status=1, status=Status.Waiting,
                                               num_single_tasks_completed=0)
 

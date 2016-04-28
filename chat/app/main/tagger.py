@@ -41,10 +41,12 @@ class TemplateType(object):
     SUGGEST=2
     ASK=3
     TELL=4
+    ACCEPT=5
+    REJECT=6
 
     @classmethod
     def types(cls):
-        return [cls.CHAT, cls.SUGGEST, cls.ASK, cls.TELL]
+        return [cls.CHAT, cls.SUGGEST, cls.ASK, cls.TELL, cls.ACCEPT, cls.REJECT]
 
     @classmethod
     def subtypes(cls, type):
@@ -262,6 +264,10 @@ class EntityTagger(object):
                 t_type = TemplateType.SUGGEST
             elif "tell" in filename:
                 t_type = TemplateType.TELL
+            elif "accept" in filename:
+                t_type = TemplateType.ACCEPT
+            elif "reject" in filename:
+                t_type = TemplateType.REJECT
             for line in reader:
                 if line[0].startswith('#') or len(line) < 3:
                     continue

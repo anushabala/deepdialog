@@ -78,11 +78,8 @@ def joined(message):
     logger.debug("User %s joined chat room %d" % (userid_prefix(), session["room"]))
     if backend.is_user_partner_bot(userid()):
         bot = backend.get_user_bot(userid())
-        selection, msg = bot.send()
-        time.sleep(1)
-        write_to_file(msg)
+        bot.start()
         emit_message_to_self("Your friend has entered the room.", status_message=True)
-        emit_message_to_self("Friend: {}".format(msg))
     else:
         emit_message_to_partner("Your friend has entered the room.", status_message=True)
 
