@@ -5,6 +5,6 @@
 "do you know <fullName>?",SUGGEST,1
 "hmm, do you know <firstName>?",SUGGEST,1
 "are <firstName> or <firstName> on your list?",SUGGEST,2
-"do you know <firstName>, <firstName>, <firstName>?",SUGGEST,2
+"do you know <firstName>, <firstName> or <firstName>?",SUGGEST,2
 "do you know <fullName> or <fullName>?",SUGGEST,2
-"do you know any of these people <fullName>, <fullName>, <fullName>",SUGGEST,3
+"do you know <fullName> <fullName> or <fullName>?",SUGGEST,3

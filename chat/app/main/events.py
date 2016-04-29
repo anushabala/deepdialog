@@ -68,6 +68,13 @@ def submit_task(data):
     backend.submit_single_task(userid(), data)
 
 
+@socketio.on('submit_survey', namespace='/main')
+def submit_survey(data):
+    backend = get_backend()
+    logger.debug("User %s submitted survey. Form data: %s" % (userid_prefix(), str(data)))
+    backend.submit_survey(userid(), data)
+
+
 @socketio.on('joined', namespace='/chat')
 def joined(message):
     """Sent by clients when they enter a room.
@@ -91,7 +98,6 @@ def bot(message):
     # time.sleep(random.uniform(2,4))
     bot_selection, bot_message = bot.send()
     if bot_selection:
-        chat_info = backend.get_chat_info(userid())
         selection, is_match = backend.make_bot_selection(userid(), bot_selection)
         if is_match:
             emit_message_to_self("Both users have selected: \"{}\"".format(bot_selection))
@@ -100,11 +106,12 @@ def bot(message):
                 room=session["room"])
         else:
             emit_message_to_self("Your friend has selected:\"{}\"".format(bot_selection))
-        write_outcome(-1, selection, chat_info)
+        write_bot_log({"selection":selection})
 
     # print "bot has message ", bot_message
     if bot_message is not None:
         emit_message_to_self("Friend: {}".format(bot_message))
+        write_bot_log({"message":bot_message})
 
 
 @socketio.on('text', namespace='/chat')
@@ -119,7 +126,8 @@ def text(message):
     if backend.is_user_partner_bot(userid()):
         backend = get_backend()
         bot = backend.get_user_bot(userid())
-        bot.receive(str(msg))
+        data = bot.receive(str(msg))
+        write_bot_log(data)
     else:
         emit_message_to_partner("Friend: {}".format(msg))
 
@@ -228,6 +236,31 @@ def write_to_file(message):
                   (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
                    str(chat_info.agent_index), message))
     outfile.close()
+
+
+def write_bot_log(bot_metadata):
+    chat_info = get_backend().get_chat_info(userid())
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
+    if "message" in bot_metadata.keys():
+        outfile.write("%s\t%s\tBOT\t%s\n" %
+                      (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                       bot_metadata["message"]))
+    if "confident_tags" in bot_metadata.keys():
+        outfile.write("%s\t%s\tTAGS\t%s\n" %
+                      (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                       bot_metadata["confident_tags"]))
+    if "possible_tags" in bot_metadata.keys():
+        outfile.write("%s\t%s\tSYNONYMS\t%s\n" %
+                      (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                       bot_metadata["possible_tags"]))
+    if "probs" in bot_metadata.keys():
+        outfile.write("%s\t%s\tPROBABILITIES\t%s\n" %
+                      (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                       bot_metadata["probs"]))
+    if "selection" in bot_metadata.keys():
+        outfile.write("%s\t%s\tBOT\tSelected:\t%s\n" %
+                      (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                       bot_metadata["selection"]))
 
 
 def write_outcome(idx, name, chat_info):

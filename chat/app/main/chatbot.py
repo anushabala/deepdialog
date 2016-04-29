@@ -10,19 +10,19 @@ import time
 
 def softmax(x):
     exp_x = np.exp(x)
-    return exp_x/np.sum(exp_x)
+    return exp_x / np.sum(exp_x)
 
 
 class ChatState(object):
-    CHAT=1
-    ASK=2
-    TELL=3
-    SUGGEST=4
-    SELECT_GUESS=5
-    SELECT_FINAL=6
-    ACCEPT=7
-    REJECT=8
-    FINISHED=9
+    CHAT = 1
+    ASK = 2
+    TELL = 3
+    SUGGEST = 4
+    SELECT_GUESS = 5
+    SELECT_FINAL = 6
+    ACCEPT = 7
+    REJECT = 8
+    FINISHED = 9
 
 
 class ChatBot(object):
@@ -30,9 +30,9 @@ class ChatBot(object):
     FULL_NAME_BOOST = 1
     PROB_BOOST_DIRECT_MENTION = 1
     PROB_BOOST_SYNONYM = 0.5
-    CHAR_RATE = 7.5
+    CHAR_RATE = 9.5
     SELECTION_DELAY = 2000
-    EPSILON = 1000
+    EPSILON = 1500
 
     def __init__(self, scenario, agent_num, tagger):
         self.scenario = scenario
@@ -54,7 +54,7 @@ class ChatBot(object):
         self.ranked_friends = [friend["name"] for friend in self.friends]
         self.init_probabilities()
         self.create_mappings()
-        self.friend_ctr= 0
+        self.friend_ctr = 0
         self.selection = None
         self.next_text = None
         self.text_addition = None
@@ -65,7 +65,7 @@ class ChatBot(object):
 
     def init_probabilities(self):
         for friend in self.friends:
-            self.probabilities[friend["name"].lower()] = 1.0/len(self.friends)
+            self.probabilities[friend["name"].lower()] = 1.0 / len(self.friends)
 
     def rerank_friends(self):
         self.ranked_friends = [x[0] for x in sorted(self.probabilities.items(),
@@ -82,10 +82,6 @@ class ChatBot(object):
             self.major_to_friends[friend["school"]["major"].lower()].append(name.lower())
             self.company_to_friends[friend["company"]["name"].lower()].append(name.lower())
             self.first_names_to_friends[first_name.lower()].append(name.lower())
-        print self.school_to_friends
-        print self.major_to_friends
-        print self.company_to_friends
-        print self.first_names_to_friends
 
     def set_final_probability(self, name):
         for friend in self.probabilities.keys():
@@ -102,9 +98,10 @@ class ChatBot(object):
             if entity_type == Entity.to_str(Entity.FULL_NAME):
                 for entity in entities:
                     if entity in self.probabilities.keys():
-                        print "Full name mentioned: boost score %2.2f and set state to select (name: %s)" % (self.FULL_NAME_BOOST, entity)
+                        print "Full name mentioned: boost score %2.2f and set state to select (name: %s)" % (
+                        self.FULL_NAME_BOOST, entity)
                         self.probabilities[entity] += self.FULL_NAME_BOOST
-                        self.state = ChatState.SELECT_GUESS
+                        self.state = ChatState.ACCEPT
                         self.selection = self.full_names_cased[entity]
             else:
                 mapping = self.first_names_to_friends
@@ -122,8 +119,9 @@ class ChatBot(object):
                                 print "<%s> Direct mention boost for %s" % (entity, friend)
                                 self.probabilities[friend] += self.PROB_BOOST_DIRECT_MENTION
                                 if entity_type == Entity.FIRST_NAME:
-                                    print "First name mentioned: boost score %2.2f and set state to select (name: %s)" % (self.FULL_NAME_BOOST, friend)
-                                    self.state = ChatState.SELECT_GUESS
+                                    print "First name mentioned: boost score %2.2f and set state to select (name: %s)" % (
+                                    self.FULL_NAME_BOOST, friend)
+                                    self.state = ChatState.ACCEPT
                                     self.selection = self.full_names_cased[friend]
                             else:
                                 print "<%s> Synonym boost for %s" % (entity, friend)
@@ -131,7 +129,7 @@ class ChatBot(object):
 
         items = self.probabilities.items()
         raw_probabilities = softmax([item[1] for item in items])
-        self.probabilities = {items[i][0]:raw_probabilities[i] for i in range(0, len(items))}
+        self.probabilities = {items[i][0]: raw_probabilities[i] for i in range(0, len(items))}
         print "Number of ranked friends: %d" % len(self.probabilities.keys())
         self.rerank_friends()
 
@@ -141,6 +139,32 @@ class ChatBot(object):
         found_entities, possible_entities = self.tagger.tag_sentence(message)
         self.update_probabilities(found_entities)
         self.update_probabilities(possible_entities, guess=True)
+        ret_data = {"probs": self._get_probability_string(),
+                    "confident_tags": self._get_entities_string(found_entities),
+                    "possible_tags": self._get_entities_string(possible_entities)}
+        return ret_data
+
+    def _get_probability_string(self):
+        sorted_probs = sorted(self.probabilities.items(),
+                              key=operator.itemgetter(1),
+                              reverse=True)
+        s = ""
+        for (key, value) in sorted_probs:
+            s += "(%s, %2.2f),  " % (key, value)
+
+        s = s.strip(',')
+        return s
+
+    def _get_entities_string(self, entities):
+        s = ""
+        for entity_type in entities.keys():
+            s += "[%s:" % entity_type
+            for ent in entities[entity_type]:
+                s += " %s," % ent
+            s = s.strip(',')
+            s += "],"
+        s = s.strip(',')
+        return s
 
     def partner_selection(self, selection):
         print "<partner selection>", selection
@@ -151,30 +175,53 @@ class ChatBot(object):
             self.set_final_probability(selection.lower())
             self.rerank_friends()
         else:
-            pass
+            self.my_turn = True
+            self.state = ChatState.REJECT
+
+    def end_chat(self):
+        self.state = ChatState.FINISHED
 
     def send(self):
-        if self.selection is not None:
+        # if accept or reject, try to return immediately
+        if self.state == ChatState.ACCEPT or self.state == ChatState.REJECT:
+            if self.next_text is None:
+                self.next_text = self.generate_text()
+
+        if self.selection is not None and self.state != ChatState.ACCEPT and self.state != ChatState.REJECT:
             delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
-            if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0, milliseconds=delay) > datetime.datetime.now():
+            if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0,
+                                                                milliseconds=delay) > datetime.datetime.now():
                 return None, None
             else:
                 selection = self.selection
                 self.last_message_timestamp = datetime.datetime.now()
+                print "RETURNING SELECTION, current state ", self.state
                 self.selection = None
+                if self.state == ChatState.SELECT_FINAL:
+                    self.state = ChatState.FINISHED
+                    self.my_turn = False
+                elif self.state == ChatState.SELECT_GUESS:
+                    self.state = ChatState.SUGGEST
+                    self.my_turn = False
                 return selection, None
 
         if self.next_text is not None:
-                delay = float(len(self.next_text))/self.CHAR_RATE * 1000 + self.EPSILON
-                print "Text send delay: %s %s" % (self.next_text, delay)
-                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
-                    return None, None
-                else:
-                    ret_text = self.next_text
-                    self.next_text = None
-                    self.last_message_timestamp = datetime.datetime.now()
-                    print ret_text
-                    return None, ret_text.lower()
+            delay = float(len(self.next_text)) / self.CHAR_RATE * 1000 + self.EPSILON
+            if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
+                return None, None
+            else:
+                ret_text = self.next_text
+                self.next_text = None
+                self.last_message_timestamp = datetime.datetime.now()
+                print ret_text
+                if self.state == ChatState.ACCEPT:
+                    if self.selection is None:
+                        self.state = ChatState.SELECT_FINAL
+                    else:
+                        self.state = ChatState.SELECT_GUESS
+                elif self.state == ChatState.REJECT:
+                    self.state = ChatState.SUGGEST
+                return None, ret_text.lower()
 
         if not self.my_turn:
             return None, None
@@ -215,16 +262,17 @@ class ChatBot(object):
                 # make selection
                 self.next_text = None
                 delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
-                if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0, milliseconds=delay) > datetime.datetime.now():
+                if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0,
+                                                                    milliseconds=delay) > datetime.datetime.now():
                     return None, None
                 else:
                     self.last_message_timestamp = datetime.datetime.now()
                     self.selection = None
                     return selection, None
             self.next_text = self.generate_text()
-            delay = float(len(self.next_text)/self.CHAR_RATE) * 1000 + self.EPSILON
-            print "Text send delay: %s %s" % (self.next_text, delay)
-            if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0, milliseconds=delay) > datetime.datetime.now():
+            delay = float(len(self.next_text) / self.CHAR_RATE) * 1000 + self.EPSILON
+            if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0,
+                                                                milliseconds=delay) > datetime.datetime.now():
                 self.selection = None
                 return None, None
             else:
@@ -246,6 +294,10 @@ class ChatBot(object):
         elif self.state == ChatState.SUGGEST:
             template = self.tagger.get_template(TemplateType.SUGGEST)
             text = self.fill_in_template(template)
+        elif self.state == ChatState.ACCEPT:
+            text = self.tagger.get_template(TemplateType.ACCEPT).text
+        elif self.state == ChatState.REJECT:
+            text = self.tagger.get_template(TemplateType.REJECT).text
         else:
             text = None
 
@@ -279,4 +331,4 @@ class ChatBot(object):
         return template.fill(entities, named_entities)
 
     def start_chat(self):
-        return "hey" # todo choose from template
+        return "hey"  # todo choose from template

@@ -1,6 +1,6 @@
-"I'm <schoolName>, <major>, <companyName>",TELL_ALL,3
-"I'm from <schoolName>, <major>, <companyName>",TELL_ALL,3
-"I'm from <schoolName>, studied <major>, work at<companyName>",TELL_ALL,3
-"I went to <schoolName>, majored in <major>, work at <companyName>",TELL_ALL,3
+"i'm <schoolName>, <major>, <companyName>",TELL_ALL,3
+"i'm from <schoolName>, <major>, <companyName>",TELL_ALL,3
+"i'm from <schoolName>, studied <major>, work at <companyName>",TELL_ALL,3
+"i went to <schoolName>, majored in <major>, work at <companyName>",TELL_ALL,3
 "i went to <schoolName> and majored in <major>",TELL_SCHOOL_MAJOR,2
-"i work at <companyName>",TELL_COMPANY,1
+"work at <companyName>",TELL_COMPANY,1

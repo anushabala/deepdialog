@@ -94,13 +94,16 @@ def index():
         chat_info = backend.get_chat_info(userid())
         presentation_config = app.config["user_params"]["status_params"]["chat"]["presentation_config"]
         session["room"] = chat_info.room_id
+        bot = 0
+        if backend.is_user_partner_bot(userid()):
+            bot = 1
         return render_template('chat.html',
                                room=chat_info.room_id,
                                scenario=chat_info.scenario,
                                agent=chat_info.agent_info,
                                num_seconds=chat_info.num_seconds,
                                config=presentation_config,
-                               bot=1)
+                               bot=bot)
     elif status == Status.Survey:
         return render_template('survey.html')
 

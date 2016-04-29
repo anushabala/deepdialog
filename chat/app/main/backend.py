@@ -8,7 +8,7 @@ import logging
 import uuid
 from flask import Markup
 from .chatbot import ChatBot
-from .tagger import EntityTagger, Entity, TemplateType, Template
+import random
 
 logger = logging.getLogger(__name__)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -111,6 +111,7 @@ class BackendConnection(object):
         self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
+        self.bot_probability = 0.3
 
     def close(self):
         self.conn.close()
@@ -135,6 +136,7 @@ class BackendConnection(object):
                     if u.status == Status.Waiting:
                         logger.debug("User %s is waiting. Checking if other users are available for chat..")
                         self.attempt_join_room(userid)
+                        print "Sanity check", self.bots[userid]
                         u = self._get_user_info(cursor, userid, assumed_status=assumed_status)
                     logger.debug("Returning TRUE (user status hasn't changed)")
                     return True
@@ -154,8 +156,11 @@ class BackendConnection(object):
         try:
             with self.conn:
                 cursor = self.conn.cursor()
-                u = self._get_user_info_unchecked(cursor, userid)
-                return True if u.connected_status == 1 else False
+                try:
+                    u = self._get_user_info(cursor, userid)
+                    return True if u.connected_status == 1 else False
+                except (UnexpectedStatusException, ConnectionTimeoutException, StatusTimeoutException) as e:
+                    return False
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
@@ -210,6 +215,13 @@ class BackendConnection(object):
                                 "Chat timed out for user %s. Leaving chat room and entering waiting state.." % userid[
                                                                                                                :6])
                             message = Messages.ChatExpired
+
+                        if self.is_user_partner_bot(userid):
+                            user_bot = self.bots[userid]
+                            user_bot.end_chat()
+                            self.bots[userid] = None
+                            self.bot_selections[userid] = None
+
                         self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                                  partner_message=message)
                         return Status.Waiting
@@ -219,6 +231,12 @@ class BackendConnection(object):
                                                                                                                                         :6])
                         self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='',
                                           num_single_tasks_completed=0)
+                        if self.is_user_partner_bot(userid):
+                            user_bot = self.bots[userid]
+                            user_bot.end_chat()
+                            self.bots[userid] = None
+                            self.bot_selections[userid] = None
+
                         return Status.Waiting
                     elif u.status == Status.Survey:
                         if isinstance(e, ConnectionTimeoutException):
@@ -226,7 +244,8 @@ class BackendConnection(object):
                             self._update_user(cursor, userid, connected_status=1, status=Status.Waiting,
                                               num_single_tasks_completed=0)
 
-                        return Status.Survey
+                            return Status.Waiting
+                        return Status.Survey # this should never happen because surveys can't time out
                     else:
                         raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
 
@@ -421,6 +440,9 @@ class BackendConnection(object):
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
+            if self.is_user_partner_bot(userid):
+                self.bots[userid] = None
+                self.bot_selections[userid] = None
             new_status = Status.Survey if self.do_survey else Status.Finished
             if optimal_choice:
                 # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
@@ -452,16 +474,7 @@ class BackendConnection(object):
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
                 restaurant_name = scenario["agents"][u.agent_index]["friends"][restaurant_index]["name"]
-                if not self.is_user_partner_bot(userid):
-                    cursor.execute(
-                        "SELECT name, selected_index,cumulative_points,num_chats_completed FROM ActiveUsers WHERE room_id=? AND name!=?",
-                        (u.room_id, userid))
-                    other_userid, other_restaurant_index, other_P, other_num_chats_completed = self._ensure_not_none(
-                        cursor.fetchone(), BadChatException)
-
-
-                    other_name = scenario["agents"][1-u.agent_index]["friends"][other_restaurant_index]["name"]
-                else:
+                if self.is_user_partner_bot(userid):
                     other_name = self.bot_selections[userid]
                     if restaurant_name == other_name:
                         Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
@@ -472,6 +485,14 @@ class BackendConnection(object):
                     else:
                         return restaurant_name, False
 
+                cursor.execute(
+                    "SELECT name, selected_index,cumulative_points,num_chats_completed FROM ActiveUsers WHERE room_id=? AND name!=?",
+                    (u.room_id, userid))
+                other_userid, other_restaurant_index, other_P, other_num_chats_completed = self._ensure_not_none(
+                    cursor.fetchone(), BadChatException)
+                if other_restaurant_index == -1:
+                    return restaurant_name, False
+                other_name = scenario["agents"][1-u.agent_index]["friends"][other_restaurant_index]["name"]
                 if restaurant_name == other_name:
                     # Match
                     logger.info("User %s restaurant selection matches with partner's. Selected restaurant: %s" % (
@@ -584,7 +605,7 @@ class BackendConnection(object):
             u = self._get_user_info_unchecked(cursor, userid)
             return u.message
 
-    def _submit_survey(self, userid, data):
+    def submit_survey(self, userid, data):
         def _user_finished(userid):
             # message = "<h3>Great, you've finished this task!</h3>"
             logger.info("Updating user %s to status FINISHED from status survey" % userid)
@@ -655,8 +676,25 @@ class BackendConnection(object):
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
-    # todo change this
     def attempt_join_room(self, userid, use_bot=True):
+        def _pair_with_bot(userid):
+            scenario_id = random.choice(list(self.scenarios.keys()))
+            next_room_id = _get_max_room_id(cursor) + 1
+            my_agent_index = random.choice([0, 1])
+            bot = ChatBot(self.scenarios[scenario_id], 1 - my_agent_index, self.tagger)
+            print "PAIRING WITH BOT"
+            self.bots[userid] = bot
+            print self.bots[userid]
+            self._update_user(cursor, userid,
+                              status=Status.Chat,
+                              room_id=next_room_id,
+                              partner_id=0,
+                              scenario_id=scenario_id,
+                              agent_index=my_agent_index,
+                              selected_index=-1,
+                              message="")
+            return next_room_id
+
         def _get_other_waiting_users(cursor, userid):
             cursor.execute("SELECT name FROM ActiveUsers WHERE name!=? AND status=? AND connected_status=1",
                            (userid, Status.Waiting))
@@ -672,25 +710,25 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
-                if use_bot:
-                    scenario_id = random.choice(list(self.scenarios.keys()))
-                    next_room_id = _get_max_room_id(cursor) + 1
-                    my_agent_index = random.choice([0, 1])
-                    bot = ChatBot(self.scenarios[scenario_id], 1 - my_agent_index, self.tagger)
-                    self.bots[userid] = bot
-                    self._update_user(cursor, userid,
-                                      status=Status.Chat,
-                                      room_id=next_room_id,
-                                      partner_id=0,
-                                      scenario_id=scenario_id,
-                                      agent_index=my_agent_index,
-                                      selected_index=-1,
-                                      message="")
-                    return next_room_id
-
                 others = _get_other_waiting_users(cursor, userid)
                 logger.debug("Found %d other unpaired users" % len(others))
+                if len(others) == 0:
+                    r = random.random()
+                    if use_bot and r < self.bot_probability:
+                        print r, "NO OTHER USERS AVAILABLE, PAIRING WITH BOT"
+                        room_id = _pair_with_bot(userid)
+                        return room_id
+                    else:
+                        print r, "NO USERS AVAILABLE, WAITING"
+                        return None
                 if len(others) > 0:
+                    r = random.random()
+                    if use_bot and r < self.bot_probability:
+                        print r, "OTHER USERS AVAILABLE, PAIRING WITH BOT"
+                        room_id = _pair_with_bot(userid)
+                        return room_id
+
+                    print r, "OTHER USERS AVAILABLE, PAIRING WITH HUMAN"
                     scenario_id = random.choice(list(self.scenarios.keys()))
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor) + 1
@@ -721,9 +759,11 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def is_user_partner_bot(self, userid):
-        return self.bots[userid] is not None
+        return userid in self.bots.keys() and self.bots[userid] is not None
 
     def get_user_bot(self, userid):
+        if userid not in self.bots.keys():
+            return None
         return self.bots[userid]
 
     def make_bot_selection(self, userid, bot_selection):
@@ -739,6 +779,7 @@ class BackendConnection(object):
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
             self.bots[userid] = None
+            self.bot_selections[userid] = None
             new_status = Status.Survey if self.do_survey else Status.Finished
             if optimal_choice:
                 # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
@@ -770,7 +811,8 @@ class BackendConnection(object):
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
-
+                if u.selected_index == -1:
+                    return bot_selection, False
                 user_selection = scenario["agents"][u.agent_index]["friends"][u.selected_index]["name"]
                 if user_selection == bot_selection:
                     Pdelta = _get_points(scenario, u.agent_index, user_selection)
