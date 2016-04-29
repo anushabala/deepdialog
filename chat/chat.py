@@ -21,6 +21,8 @@ def init_database(db_file):
     c.execute('''CREATE TABLE SingleTasks (name text, scenario_id text, selected_index integer, selected_restaurant text, start_text text)''')
     c.execute('''CREATE TABLE CompletedTasks (name text, mturk_code text, num_single_tasks_completed integer, num_chats_completed integer, bonus integer)''')
     c.execute('''CREATE TABLE Surveys (name text, partner_type text, how_mechanical integer, how_effective integer)''')
+    c.execute('''CREATE TABLE ChatCounts (id integer, humans integer, bots integer, prob real)''')
+    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0, 0.25)''')
     #c.execute('''CREATE TABLE Chatrooms (room_id integer, scenario_id text)''')
     conn.commit()
     conn.close()

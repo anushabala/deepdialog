@@ -71,7 +71,6 @@ class ChatBot(object):
         self.ranked_friends = [x[0] for x in sorted(self.probabilities.items(),
                                                     key=operator.itemgetter(1),
                                                     reverse=True)]
-        print sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
 
     def create_mappings(self):
         for friend in self.friends:
@@ -98,8 +97,6 @@ class ChatBot(object):
             if entity_type == Entity.to_str(Entity.FULL_NAME):
                 for entity in entities:
                     if entity in self.probabilities.keys():
-                        print "Full name mentioned: boost score %2.2f and set state to select (name: %s)" % (
-                        self.FULL_NAME_BOOST, entity)
                         self.probabilities[entity] += self.FULL_NAME_BOOST
                         self.state = ChatState.ACCEPT
                         self.selection = self.full_names_cased[entity]
@@ -116,21 +113,16 @@ class ChatBot(object):
                     for friend in mapping[entity]:
                         if friend in self.probabilities.keys():
                             if not guess:
-                                print "<%s> Direct mention boost for %s" % (entity, friend)
                                 self.probabilities[friend] += self.PROB_BOOST_DIRECT_MENTION
                                 if entity_type == Entity.FIRST_NAME:
-                                    print "First name mentioned: boost score %2.2f and set state to select (name: %s)" % (
-                                    self.FULL_NAME_BOOST, friend)
                                     self.state = ChatState.ACCEPT
                                     self.selection = self.full_names_cased[friend]
                             else:
-                                print "<%s> Synonym boost for %s" % (entity, friend)
                                 self.probabilities[friend] += self.PROB_BOOST_SYNONYM
 
         items = self.probabilities.items()
         raw_probabilities = softmax([item[1] for item in items])
         self.probabilities = {items[i][0]: raw_probabilities[i] for i in range(0, len(items))}
-        print "Number of ranked friends: %d" % len(self.probabilities.keys())
         self.rerank_friends()
 
     def receive(self, message):
@@ -211,7 +203,6 @@ class ChatBot(object):
                 ret_text = self.next_text
                 self.next_text = None
                 self.last_message_timestamp = datetime.datetime.now()
-                print ret_text
                 if self.state == ChatState.ACCEPT:
                     if self.selection is None:
                         self.state = ChatState.SELECT_FINAL

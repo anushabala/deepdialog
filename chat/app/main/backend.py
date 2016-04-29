@@ -106,12 +106,16 @@ class BackendConnection(object):
         self.config = config
 
         self.conn = sqlite3.connect(config["db"]["location"])
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT prob FROM ChatCounts WHERE id=1''')
+            self.bot_probability = cursor.fetchone()[0]
         self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
         self.scenarios = scenarios
         self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
-        self.bot_probability = 0.3
+
 
     def close(self):
         self.conn.close()
@@ -678,6 +682,42 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def attempt_join_room(self, userid, use_bot=True):
+        def _change_bot_probability(cursor):
+            humans, bots, total = _get_num_chats(cursor)
+            if total == 0:  # only change probabilities every 50 chats or so
+                return
+            humans = float(humans)/total
+            if total % 50 == 0:
+                if 0.4 <= humans <= 0.6:
+                    return
+                if humans < 0.4 and self.bot_probability >= 0.15:
+                    self.bot_probability -= 0.1
+                    print "Decreased bot probability to ", self.bot_probability
+                    cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
+                if humans > 0.6 and self.bot_probability <= 0.85:
+                    self.bot_probability += 0.1
+                    print "Increased bot probability to ", self.bot_probability
+                    cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
+
+        def _get_num_chats(cursor):
+            cursor.execute("SELECT humans, bots FROM ChatCounts WHERE id=?", (1,))
+            x = cursor.fetchone()
+            humans = x[0]
+            bots = x[1]
+            return humans, bots, humans+bots
+
+        def _add_bot_chat(cursor):
+            cursor.execute("SELECT bots from ChatCounts WHERE id=?", (1,))
+            x = cursor.fetchone()
+            bots = x[0]
+            cursor.execute("UPDATE ChatCounts SET bots=? WHERE id=?", (bots+1, 1))
+
+        def _add_human_chat(cursor):
+            cursor.execute("SELECT humans from ChatCounts WHERE id=?", (1,))
+            x = cursor.fetchone()
+            humans = x[0]
+            cursor.execute("UPDATE ChatCounts SET humans=? WHERE id=?", (humans+1, 1))
+
         def _pair_with_bot(userid):
             scenario_id = random.choice(list(self.scenarios.keys()))
             next_room_id = _get_max_room_id(cursor) + 1
@@ -708,6 +748,9 @@ class BackendConnection(object):
             logger.debug("Attempting to find room for user %s" % userid[:6])
             with self.conn:
                 cursor = self.conn.cursor()
+
+                _change_bot_probability(cursor)
+
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 others = _get_other_waiting_users(cursor, userid)
                 logger.debug("Found %d other unpaired users" % len(others))
@@ -715,6 +758,7 @@ class BackendConnection(object):
                     r = random.random()
                     if use_bot and r < self.bot_probability:
                         room_id = _pair_with_bot(userid)
+                        _add_bot_chat(cursor)
                         return room_id
                     else:
                         return None
@@ -722,8 +766,10 @@ class BackendConnection(object):
                     r = random.random()
                     if use_bot and r < self.bot_probability:
                         room_id = _pair_with_bot(userid)
+                        _add_bot_chat(cursor)
                         return room_id
 
+                    _add_human_chat(cursor)
                     scenario_id = random.choice(list(self.scenarios.keys()))
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor) + 1
