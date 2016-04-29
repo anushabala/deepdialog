@@ -136,7 +136,6 @@ class BackendConnection(object):
                     if u.status == Status.Waiting:
                         logger.debug("User %s is waiting. Checking if other users are available for chat..")
                         self.attempt_join_room(userid)
-                        print "Sanity check", self.bots[userid]
                         u = self._get_user_info(cursor, userid, assumed_status=assumed_status)
                     logger.debug("Returning TRUE (user status hasn't changed)")
                     return True
@@ -440,9 +439,6 @@ class BackendConnection(object):
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
-            if self.is_user_partner_bot(userid):
-                self.bots[userid] = None
-                self.bot_selections[userid] = None
             new_status = Status.Survey if self.do_survey else Status.Finished
             if optimal_choice:
                 # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
@@ -475,6 +471,8 @@ class BackendConnection(object):
                 scenario = self.scenarios[u.scenario_id]
                 restaurant_name = scenario["agents"][u.agent_index]["friends"][restaurant_index]["name"]
                 if self.is_user_partner_bot(userid):
+                    if userid not in self.bot_selections.keys():
+                        return restaurant_name, False
                     other_name = self.bot_selections[userid]
                     if restaurant_name == other_name:
                         Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
@@ -610,6 +608,9 @@ class BackendConnection(object):
             # message = "<h3>Great, you've finished this task!</h3>"
             logger.info("Updating user %s to status FINISHED from status survey" % userid)
             self._update_user(cursor, userid, status=Status.Finished)
+            if self.is_user_partner_bot(userid):
+                self.bots[userid] = None
+                self.bot_selections[userid] = None
 
         try:
             with self.conn:
@@ -778,8 +779,6 @@ class BackendConnection(object):
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
-            self.bots[userid] = None
-            self.bot_selections[userid] = None
             new_status = Status.Survey if self.do_survey else Status.Finished
             if optimal_choice:
                 # message += "<p>The best restaurant you could have chosen, given your preferences, was <b>%s</b> (%d points).</p>" % (optimal_choice["name"], optimal_choice["points"])
@@ -812,6 +811,7 @@ class BackendConnection(object):
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
                 if u.selected_index == -1:
+                    print "NO USER SELECTION, NO MATCH FOR BOT SELECTION"
                     return bot_selection, False
                 user_selection = scenario["agents"][u.agent_index]["friends"][u.selected_index]["name"]
                 if user_selection == bot_selection:

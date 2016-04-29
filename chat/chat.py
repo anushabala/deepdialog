@@ -58,7 +58,7 @@ if __name__ == '__main__':
     app.config["scenarios"] = scenarios_dict
     app.config["outcomes"] = defaultdict(lambda : -1)
     app.config["bots"] = defaultdict(None)
-    app.config["bot_selections"] = defaultdict(str)
+    app.config["bot_selections"] = defaultdict(None)
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)

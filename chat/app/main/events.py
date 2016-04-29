@@ -97,6 +97,8 @@ def bot(message):
     bot = backend.get_user_bot(userid())
     # time.sleep(random.uniform(2,4))
     bot_selection, bot_message = bot.send()
+    print "bot made selection: ", bot_selection
+    chat_info = get_backend().get_chat_info(userid())
     if bot_selection:
         selection, is_match = backend.make_bot_selection(userid(), bot_selection)
         if is_match:
@@ -106,12 +108,12 @@ def bot(message):
                 room=session["room"])
         else:
             emit_message_to_self("Your friend has selected:\"{}\"".format(bot_selection))
-        write_bot_log({"selection":selection})
+        write_bot_log({"selection":selection}, chat_info)
 
     # print "bot has message ", bot_message
     if bot_message is not None:
         emit_message_to_self("Friend: {}".format(bot_message))
-        write_bot_log({"message":bot_message})
+        write_bot_log({"message":bot_message}, chat_info)
 
 
 @socketio.on('text', namespace='/chat')
@@ -123,11 +125,12 @@ def text(message):
     write_to_file(msg)
     logger.debug("User %s said: %s" % (userid_prefix(), msg))
     emit_message_to_self("You: {}".format(msg))
+    chat_info = backend.get_chat_info(userid())
     if backend.is_user_partner_bot(userid()):
         backend = get_backend()
         bot = backend.get_user_bot(userid())
         data = bot.receive(str(msg))
-        write_bot_log(data)
+        write_bot_log(data, chat_info)
     else:
         emit_message_to_partner("Friend: {}".format(msg))
 
@@ -238,8 +241,8 @@ def write_to_file(message):
     outfile.close()
 
 
-def write_bot_log(bot_metadata):
-    chat_info = get_backend().get_chat_info(userid())
+def write_bot_log(bot_metadata, chat_info):
+
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
     if "message" in bot_metadata.keys():
         outfile.write("%s\t%s\tBOT\t%s\n" %

@@ -31,7 +31,7 @@ class ChatBot(object):
     PROB_BOOST_DIRECT_MENTION = 1
     PROB_BOOST_SYNONYM = 0.5
     CHAR_RATE = 9.5
-    SELECTION_DELAY = 2000
+    SELECTION_DELAY = 1000
     EPSILON = 1500
 
     def __init__(self, scenario, agent_num, tagger):
@@ -167,9 +167,8 @@ class ChatBot(object):
         return s
 
     def partner_selection(self, selection):
-        print "<partner selection>", selection
+        self.last_message_timestamp = datetime.datetime.now()
         if selection.lower() in self.probabilities.keys():
-
             self.state = ChatState.SELECT_FINAL
             self.my_turn = True
             self.set_final_probability(selection.lower())
@@ -195,7 +194,6 @@ class ChatBot(object):
             else:
                 selection = self.selection
                 self.last_message_timestamp = datetime.datetime.now()
-                print "RETURNING SELECTION, current state ", self.state
                 self.selection = None
                 if self.state == ChatState.SELECT_FINAL:
                     self.state = ChatState.FINISHED
@@ -262,6 +260,7 @@ class ChatBot(object):
                 # make selection
                 self.next_text = None
                 delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
+                print "SELECTION DELAY",delay
                 if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0,
                                                                     milliseconds=delay) > datetime.datetime.now():
                     return None, None
