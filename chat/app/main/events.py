@@ -263,8 +263,11 @@ def write_bot_log(bot_metadata, chat_info):
                       (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
                        bot_metadata["selection"]))
 
+    outfile.close()
+
 
 def write_outcome(idx, name, chat_info):
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\tSelected %d:\t%s\n" %
                   (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"], chat_info.agent_index, idx, name))
+    outfile.close()
