@@ -260,7 +260,6 @@ class ChatBot(object):
                 # make selection
                 self.next_text = None
                 delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
-                print "SELECTION DELAY",delay
                 if self.last_message_timestamp + datetime.timedelta(days=0, seconds=0,
                                                                     milliseconds=delay) > datetime.datetime.now():
                     return None, None
@@ -279,7 +278,6 @@ class ChatBot(object):
                 self.next_text = None
                 self.selection = None
                 self.last_message_timestamp = datetime.datetime.now()
-                print ret_text
                 return selection, ret_text.lower()
 
     def generate_text(self):

@@ -683,9 +683,7 @@ class BackendConnection(object):
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0, 1])
             bot = ChatBot(self.scenarios[scenario_id], 1 - my_agent_index, self.tagger)
-            print "PAIRING WITH BOT"
             self.bots[userid] = bot
-            print self.bots[userid]
             self._update_user(cursor, userid,
                               status=Status.Chat,
                               room_id=next_room_id,
@@ -716,20 +714,16 @@ class BackendConnection(object):
                 if len(others) == 0:
                     r = random.random()
                     if use_bot and r < self.bot_probability:
-                        print r, "NO OTHER USERS AVAILABLE, PAIRING WITH BOT"
                         room_id = _pair_with_bot(userid)
                         return room_id
                     else:
-                        print r, "NO USERS AVAILABLE, WAITING"
                         return None
                 if len(others) > 0:
                     r = random.random()
                     if use_bot and r < self.bot_probability:
-                        print r, "OTHER USERS AVAILABLE, PAIRING WITH BOT"
                         room_id = _pair_with_bot(userid)
                         return room_id
 
-                    print r, "OTHER USERS AVAILABLE, PAIRING WITH HUMAN"
                     scenario_id = random.choice(list(self.scenarios.keys()))
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor) + 1
