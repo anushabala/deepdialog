@@ -681,7 +681,7 @@ class BackendConnection(object):
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
-    def attempt_join_room(self, userid, use_bot=True):
+    def attempt_join_room(self, userid, use_bot=False):
         def _change_bot_probability(cursor):
             humans, bots, total = _get_num_chats(cursor)
             if total == 0:  # only change probabilities every 50 chats or so
@@ -748,8 +748,8 @@ class BackendConnection(object):
             logger.debug("Attempting to find room for user %s" % userid[:6])
             with self.conn:
                 cursor = self.conn.cursor()
-
-                _change_bot_probability(cursor)
+                if use_bot:
+                    _change_bot_probability(cursor)
 
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 others = _get_other_waiting_users(cursor, userid)

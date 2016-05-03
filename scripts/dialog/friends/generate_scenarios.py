@@ -54,7 +54,7 @@ class FriendNetwork(object):
         potential_friends = []
         for other_friend in self.friends:
             if other_friend.name != friend.name:
-                if friend.same_major_and_school(other_friend):
+                if friend.same_hobbies(other_friend):
                     potential_friends.append(other_friend)
                 # elif friend.same_school(other_friend):
                 #     potential_friends.append(other_friend)
@@ -71,7 +71,7 @@ class FriendNetwork(object):
             for friend in my_friends:
                 other_friends = self.relationships[friend]
                 connections = [f for f in other_friends if f not in my_friends and f not in added_friends
-                               and not f.same_school(person) and not f.same_company(person)]
+                               and not f.same_profession(person) and not f.same_company(person)]
                 second_degree.extend([(person, connection, friend) for connection in connections])
 
         return second_degree
@@ -118,10 +118,10 @@ class NetworkGenerator(object):
     def create_relationships(self, friend, potential_friends):
         for other_friend in potential_friends:
             p = 0
-            if friend.same_major_and_school(other_friend):
+            if friend.same_hobbies(other_friend):
                 p += np.random.uniform(0, self.same_major_and_school)
                 # print "same major and school", p
-            elif friend.same_school(other_friend):
+            elif friend.same_profession(other_friend):
                 p += np.random.uniform(0, self.same_school)
                 # print "same school", p
 
@@ -139,7 +139,7 @@ class NetworkGenerator(object):
 class ScenarioGenerator(object):
     def __init__(self, network):
         self.network = network
-        self.second_degrees = network.find_second_degree_friends()
+        self.second_degrees = network.find_scenario_candidates()
 
     def generate_scenario(self, num_friends=50):
         scenario = {}
