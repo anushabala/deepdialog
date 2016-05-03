@@ -131,8 +131,6 @@ class EntityTagger(object):
         self.load_templates(templates_dir)
 
     def compute_synonyms(self):
-        print "computing synonyms"
-        print self.synonyms.keys()
         for entity_type in self.synonyms.keys():
             syn_dict = self.synonyms[entity_type]
             if entity_type == Entity.FULL_NAME or entity_type == Entity.FIRST_NAME:
@@ -192,7 +190,6 @@ class EntityTagger(object):
     def tag_sentence(self, sentence):
         # todo do prefix match and return confidences
         # todo edit distances
-        print sentence
         sentence = sentence.strip().lower()
         sentence_mod = sentence.translate(string.maketrans("",""), string.punctuation)
         sentence_mod = sentence_mod.split()
@@ -249,8 +246,8 @@ class EntityTagger(object):
             for entity_type in possible_matches.keys():
                 possible_entities[entity_type].extend(possible_matches[entity_type])
 
-        print "[Tagger] Tagged sentence %s\tEntities:" % sentence, found_entities
-        print "[Tagger] Possible matches\t", possible_entities
+        #print "[Tagger] Tagged sentence %s\tEntities:" % sentence, found_entities
+        #print "[Tagger] Possible matches\t", possible_entities
         possible_entities = {key:set(entities) for (key, entities) in possible_entities.items()}
         return found_entities, possible_entities
 

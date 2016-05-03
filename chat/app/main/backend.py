@@ -115,6 +115,7 @@ class BackendConnection(object):
         self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
+        self.waiting_bot_probability = 0.4
 
 
     def close(self):
@@ -692,11 +693,11 @@ class BackendConnection(object):
                     return
                 if humans < 0.4 and self.bot_probability >= 0.15:
                     self.bot_probability -= 0.1
-                    print "Decreased bot probability to ", self.bot_probability
+                    #print "Decreased bot probability to ", self.bot_probability
                     cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
                 if humans > 0.6 and self.bot_probability <= 0.85:
                     self.bot_probability += 0.1
-                    print "Increased bot probability to ", self.bot_probability
+                    #print "Increased bot probability to ", self.bot_probability
                     cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
 
         def _get_num_chats(cursor):
@@ -756,7 +757,7 @@ class BackendConnection(object):
                 logger.debug("Found %d other unpaired users" % len(others))
                 if len(others) == 0:
                     r = random.random()
-                    if use_bot and r < self.bot_probability:
+                    if use_bot and r < self.waiting_bot_probability:
                         room_id = _pair_with_bot(userid)
                         _add_bot_chat(cursor)
                         return room_id
@@ -851,7 +852,6 @@ class BackendConnection(object):
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
                 if u.selected_index == -1:
-                    print "NO USER SELECTION, NO MATCH FOR BOT SELECTION"
                     return bot_selection, False
                 user_selection = scenario["agents"][u.agent_index]["friends"][u.selected_index]["name"]
                 if user_selection == bot_selection:
