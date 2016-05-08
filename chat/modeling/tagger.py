@@ -9,6 +9,11 @@ import random
 import csv
 
 entity_pattern = r'<\w+>'
+SPECIAL_WORDS = ['select', 'say', 'name', 'my']
+
+class UnsupportedOperationError(Exception):
+    def __init__(self, value):
+        Exception.__init__(self, value)
 
 
 class Entity(object):
@@ -26,7 +31,7 @@ class Entity(object):
     def to_str(cls, type):
         if type == Entity.FULL_NAME:
             return "<fullName>"
-        if type == Entity.FULL_NAME:
+        if type == Entity.FIRST_NAME:
             return "<firstName>"
         if type == Entity.SCHOOL_NAME:
             return "<schoolName>"
@@ -35,6 +40,18 @@ class Entity(object):
         if type == Entity.COMPANY_NAME:
             return "<companyName>"
 
+    @classmethod
+    def to_tag(cls, type):
+        if type == Entity.FULL_NAME:
+            return "FRIEND_FULL_NAME"
+        if type == Entity.FIRST_NAME:
+            return "FRIEND_FULL_NAME"
+        if type == Entity.SCHOOL_NAME:
+            return "MY_SCHOOL"
+        if type == Entity.MAJOR:
+            return "MY_MAJOR"
+        if type == Entity.COMPANY_NAME:
+            return "MY_COMPANY"
 
 class TemplateType(object):
     CHAT=1
@@ -91,6 +108,8 @@ def get_prefixes(entity, min_length=3, max_length=5):
             continue
         for i in range(min_length, max_length):
             prefixes.append(word[:i])
+            # if word[:i] == 'penn':
+            #     print prefixes
     return prefixes
 
 
@@ -102,20 +121,21 @@ def get_acronyms(entity):
 
 
 def find_unique_words(entity, all_entities):
-    words = entity.split()
+    mod_entity = str(entity).translate(string.maketrans("",""), string.punctuation)
+    words = mod_entity.split()
     unique_words = []
     if len(words) == 1:
         return []
     for word in words:
         unique = True
         for other_entity in all_entities:
-            if word in other_entity:
+            if word in other_entity and other_entity != entity:
                 unique = False
         if unique:
             if word != entity:
                 unique_words.append(word)
 
-    return []
+    return unique_words
 
 
 class EntityTagger(object):
@@ -124,11 +144,15 @@ class EntityTagger(object):
     entities = {entity:set() for entity in Entity.types()}
     synonyms = {entity:defaultdict(list) for entity in Entity.types()}
 
-    def __init__(self, scenarios, templates_dir):
+    def __init__(self, scenarios, templates_dir=None):
         self.scenarios = scenarios
         self.load_entities()
         self.compute_synonyms()
-        self.load_templates(templates_dir)
+        if templates_dir:
+            self.tag_only = False
+            self.load_templates(templates_dir)
+        else:
+            self.tag_only = True
 
     def compute_synonyms(self):
         for entity_type in self.synonyms.keys():
@@ -138,13 +162,13 @@ class EntityTagger(object):
             for entity in self.entities[entity_type]:
 
                 entity_synonyms = []
-                entity_synonyms.extend(get_prefixes(entity))
-                entity_synonyms.extend(get_acronyms(entity))
-                entity_synonyms.extend(find_unique_words(entity, self.entities[entity_type]))
+                entity_synonyms.extend(get_prefixes(entity.lower()))
+                entity_synonyms.extend(get_acronyms(entity.lower()))
+                entity_synonyms.extend(find_unique_words(entity.lower(), self.entities[entity_type]))
+                if entity_type == Entity.SCHOOL_NAME:
+                    print entity_synonyms
                 for syn in entity_synonyms:
                     syn_dict[syn].append(entity)
-
-
 
     def load_scenarios(self, scenarios_file):
         self.scenarios = json.load(scenarios_file, encoding='utf-8')
@@ -153,7 +177,9 @@ class EntityTagger(object):
         for (key, scenario) in self.scenarios.iteritems():
             connection = scenario["connection"]["info"]
             self.entities[Entity.MAJOR].add(connection["school"]["major"].lower())
-            self.entities[Entity.SCHOOL_NAME].add(connection["school"]["name"].lower())
+            school_name = connection["school"]["name"].lower()
+            school_name = str(school_name).translate(string.maketrans("",""), string.punctuation).replace("  ", " ")
+            self.entities[Entity.SCHOOL_NAME].add(school_name)
             self.entities[Entity.COMPANY_NAME].add(connection["company"]["name"].lower())
             name = connection["name"].lower()
             self.entities[Entity.FULL_NAME].add(name)
@@ -162,7 +188,10 @@ class EntityTagger(object):
             for agent in scenario["agents"]:
                 agent_info = agent["info"]
                 self.entities[Entity.MAJOR].add(agent_info["school"]["major"].lower())
-                self.entities[Entity.SCHOOL_NAME].add(agent_info["school"]["name"].lower())
+                school_name = agent_info["school"]["name"].lower()
+                school_name = str(school_name).translate(string.maketrans("",""), string.punctuation).replace("  ", " ")
+                self.entities[Entity.SCHOOL_NAME].add(school_name)
+                self.entities[Entity.SCHOOL_NAME].add(school_name)
                 self.entities[Entity.COMPANY_NAME].add(agent_info["company"]["name"].lower())
                 name = connection["name"].lower()
                 self.entities[Entity.FULL_NAME].add(name)
@@ -170,7 +199,9 @@ class EntityTagger(object):
 
                 for friend in agent["friends"]:
                     self.entities[Entity.MAJOR].add(friend["school"]["major"].lower())
-                    self.entities[Entity.SCHOOL_NAME].add(friend["school"]["name"].lower())
+                    school_name = friend["school"]["name"].lower()
+                    school_name = str(school_name).translate(string.maketrans("",""), string.punctuation).replace("  ", " ")
+                    self.entities[Entity.SCHOOL_NAME].add(school_name)
                     self.entities[Entity.COMPANY_NAME].add(friend["company"]["name"].lower())
                     name = friend["name"].lower()
                     self.entities[Entity.FULL_NAME].add(name)
@@ -184,12 +215,30 @@ class EntityTagger(object):
                 if entity_type == Entity.FIRST_NAME or entity_type == Entity.FULL_NAME:
                     continue
                 if prefix in self.synonyms[entity_type].keys():
-                    possible_matches[entity_type].extend(self.synonyms[entity_type][prefix])
+                    possible_matches[entity_type].append(prefix)
+                    #todo somehow pass the actual entity name back to chatbot!! but the synonym itself is needed for
+                    # sentence tagging so don't change this
         return possible_matches
 
+    def ensure_unique(self, found_entities, possible_entities):
+        unique_possible_matches = defaultdict(list)
+        for entity_type in Entity.types():
+            entities = found_entities[entity_type]
+            for synonym in possible_entities[entity_type]:
+                matches = self.synonyms[entity_type][synonym]
+                not_subset = False
+                for entity in matches:
+                    if entity not in entities:
+                        not_subset = True
+                # if synonym == 'penn':
+                #     print matches
+                #     print not_subset
+                if not_subset:
+                    unique_possible_matches[entity_type].append(synonym)
+
+        return unique_possible_matches
+
     def tag_sentence(self, sentence):
-        # todo do prefix match and return confidences
-        # todo edit distances
         sentence = sentence.strip().lower()
         sentence_mod = sentence.translate(string.maketrans("",""), string.punctuation)
         sentence_mod = sentence_mod.split()
@@ -203,51 +252,77 @@ class EntityTagger(object):
                     if "%s %s" % (word, next_word) in self.entities[Entity.FULL_NAME]:
                         found_entities[Entity.FULL_NAME].append("%s %s" % (word, next_word))
                     else:
+                        if word in SPECIAL_WORDS:
+                            continue
                         found_entities[Entity.FIRST_NAME].append(word)
                 except IndexError:
                     found_entities[Entity.FIRST_NAME].append(word)
-            elif word in self.entities[Entity.MAJOR]:
+            elif word in self.entities[Entity.MAJOR] and word not in SPECIAL_WORDS:
                 found_entities[Entity.MAJOR].append(word)
-            elif word in self.entities[Entity.SCHOOL_NAME]:
+            elif word in self.entities[Entity.SCHOOL_NAME] and word not in SPECIAL_WORDS:
                 found_entities[Entity.SCHOOL_NAME].append(word)
-            elif word in self.entities[Entity.COMPANY_NAME]:
+            elif word in self.entities[Entity.COMPANY_NAME] and word not in SPECIAL_WORDS:
                 found_entities[Entity.COMPANY_NAME].append(word)
 
-        # # try bi and tri grams
-        # for i in range(0, len(sentence_mod)):
-        #     if i+2 <= len(sentence_mod):
-        #         bigram = " ".join(sentence_mod[i:i+2])
-        #         if bigram in self.entities[Entity.MAJOR]:
-        #             found_entities[Entity.MAJOR].append(word)
-        #         elif bigram in self.entities[Entity.SCHOOL_NAME]:
-        #             found_entities[Entity.SCHOOL_NAME].append(word)
-        #         elif bigram in self.entities[Entity.COMPANY_NAME]:
-        #             found_entities[Entity.COMPANY_NAME].append(word)
-        #     if i+3 <= len(sentence_mod):
-        #         trigram = " ".join(sentence_mod[i:i+2])
-        #         if trigram in self.entities[Entity.MAJOR]:
-        #             found_entities[Entity.MAJOR].append(word)
-        #         elif trigram in self.entities[Entity.SCHOOL_NAME]:
-        #             found_entities[Entity.SCHOOL_NAME].append(word)
-        #         elif trigram in self.entities[Entity.COMPANY_NAME]:
-        #             found_entities[Entity.COMPANY_NAME].append(word)
+        # try bi and tri grams
+        for i in range(0, len(sentence_mod)):
+            word = sentence_mod[i]
+            if word in SPECIAL_WORDS:
+                continue
+            # if "nena" in sentence_mod:
+            #     print sentence_mod, i
+            if i+2 <= len(sentence_mod):
+                bigram = " ".join(sentence_mod[i:i+2])
+                if bigram in self.entities[Entity.MAJOR]:
+                    found_entities[Entity.MAJOR].append(bigram)
+                elif bigram in self.entities[Entity.SCHOOL_NAME]:
+                    found_entities[Entity.SCHOOL_NAME].append(bigram)
+                elif bigram in self.entities[Entity.COMPANY_NAME]:
+                    found_entities[Entity.COMPANY_NAME].append(bigram)
+                # if "nena" in bigram:
+                #     print sentence_mod, '"',bigram,'"', found_entities
+            if i+3 <= len(sentence_mod):
+                trigram = " ".join(sentence_mod[i:i+3])
+                if trigram in self.entities[Entity.MAJOR]:
+                    found_entities[Entity.MAJOR].append(trigram)
+                elif trigram in self.entities[Entity.SCHOOL_NAME]:
 
+                    found_entities[Entity.SCHOOL_NAME].append(trigram)
+                elif trigram in self.entities[Entity.COMPANY_NAME]:
+                    found_entities[Entity.COMPANY_NAME].append(trigram)
+
+            if i+4 <= len(sentence_mod):
+                trigram = " ".join(sentence_mod[i:i+4])
+                if trigram in self.entities[Entity.MAJOR]:
+                    found_entities[Entity.MAJOR].append(trigram)
+                elif trigram in self.entities[Entity.SCHOOL_NAME]:
+                    found_entities[Entity.SCHOOL_NAME].append(trigram)
+                elif trigram in self.entities[Entity.COMPANY_NAME]:
+                    found_entities[Entity.COMPANY_NAME].append(trigram)
         # check if word matches any possible synonym
         for i in range(0, len(sentence_mod)):
             word = sentence_mod[i]
+            if word in SPECIAL_WORDS:
+                continue
             for entity_type in self.synonyms.keys():
-                possible_entities[entity_type].extend(self.synonyms[entity_type][word])
+                if len(self.synonyms[entity_type][word]) > 0:
+                    # print entity_type, word, self.synonyms[entity_type][word]
+                    possible_entities[entity_type].append(word)
+                # if word == 'penn':
+                    # print self.synonyms[entity_type][word]
+                    # print possible_entities[entity_type]
+        # print "possible", possible_entities
 
+        # # check if prefix of any word matches a possible prefix in the dict
+        # for i in range(0, len(sentence_mod)):
+        #     word = sentence_mod[i]
+        #     if word in SPECIAL_WORDS:
+        #         continue
+        #     possible_matches = self.possible_prefix_matches(word)
+        #     for entity_type in possible_matches.keys():
+        #         possible_entities[entity_type].extend(possible_matches[entity_type])
 
-        # check if prefix of any word matches a possible prefix in the dict
-        for i in range(0, len(sentence_mod)):
-            word = sentence_mod[i]
-            possible_matches = self.possible_prefix_matches(word)
-            for entity_type in possible_matches.keys():
-                possible_entities[entity_type].extend(possible_matches[entity_type])
-
-        #print "[Tagger] Tagged sentence %s\tEntities:" % sentence, found_entities
-        #print "[Tagger] Possible matches\t", possible_entities
+        possible_entities = self.ensure_unique(found_entities, possible_entities)
         possible_entities = {key:set(entities) for (key, entities) in possible_entities.items()}
         return found_entities, possible_entities
 
@@ -272,6 +347,9 @@ class EntityTagger(object):
                 self.templates[t_type].append(template)
 
     def get_template(self, type, subtype=None):
+        if self.tag_only:
+            raise UnsupportedOperationError("Template selection not supported: EntityTagger instance was defined "
+                                            "in tagger-only mode.")
         templates = self.templates[type]
         if subtype is not None:
             templates = []

@@ -1,5 +1,4 @@
 from __future__ import with_statement
-import random
 import sqlite3
 from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, FinishedSession
 import datetime
@@ -7,7 +6,7 @@ import time
 import logging
 import uuid
 from flask import Markup
-from .chatbot import ChatBot
+from chat.modeling.chatbot import ChatBot
 import random
 
 logger = logging.getLogger(__name__)

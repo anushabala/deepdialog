@@ -10,7 +10,7 @@ import logging
 
 
 # initialize database with table for chat rooms and active users
-from app.main.tagger import EntityTagger
+from chat.modeling.tagger import EntityTagger
 
 
 def init_database(db_file):

@@ -77,7 +77,7 @@ def parse_transcript(transcript_file, include_bots=False):
                 choice_match = re.match(restaurant_regex, " ".join(line[3:]))
                 if choice_match:
                     choices[agent_num] = choice_match.group(1)
-                    dialogue.append((agent_num, "SELECT NAME "+choices[agent_num]))
+                    dialogue.append((agent_num, "SELECT NAME "+choices[agent_num].lower()))
                 elif line[3] == SELECT_RESTAURANT:
                     choices[agent_num] = line[4]
             else:
