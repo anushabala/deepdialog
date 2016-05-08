@@ -226,18 +226,6 @@
 						{{ agent["info"]["name"] }}
 						</td>
 				  </tr>
-				  <tr>
-						<td>School</td>
-						<td>
-						{{ agent["info"]["profession"]["name"] }}
-						</td>
-				  </tr>
-				  <tr>
-						<td>Hobbies</td>
-						<td>
-						{{ agent["info"]["hobbies"]["names"][0] }}, {{ agent["info"]["hobbies"]["names"][1] }} 
-						</td>
-				  </tr>
 			</table>
 
 
@@ -246,7 +234,8 @@
 	    <thead>
 	    <tr>
 	    <th>Name</th>
-	    <th>School</th>
+	    <th>Prefer Indoors/Outdoors?</th>
+	    <th>Morning/Evening Person?</th>
 	    <th>Hobby</th>
 	    <th>Hobby</th>
 	    </tr>
@@ -255,7 +244,8 @@
             {% for friend in agent["friends"] %}
             <tr>
 				<td><b>{{ friend["name"] }}</b></td>
-				<td>{{ friend["profession"]["name"]}}</td> 
+				<td>{{ friend["indoors"]["name"]}}</td> 
+				<td>{{ friend["morning"]["name"]}}</td> 
 				<td>{{ friend["hobbies"]["names"][0] }}</td> 
 				<td>{{ friend["hobbies"]["names"][1] }}</td> 
 	    	</tr>

@@ -433,7 +433,7 @@ class BackendConnection(object):
 
     def pick_restaurant(self, userid, restaurant_index):
         def _get_points(scenario, agent_index, restaurant_name):
-            result = scenario["connection"]["info"]["name"]
+            result = scenario["agents"][agent_index]["connection"]["name"]
             if result == restaurant_name:
                 return 5
             return 0
@@ -458,13 +458,13 @@ class BackendConnection(object):
                                   bonus=1
                                   )
 
-        def _is_optimal_choice(scenario, agent_index, restaurant_name, user_points):
+        def _is_optimal_choice(scenario, agent_index, choice):
             # top_choice = scenario["agents"][agent_index]["sorted_restaurants"][0]["name"]
             # best_points = scenario["agents"][agent_index]["sorted_restaurants"][0]["utility"]
             # second_choice = scenario["agents"][agent_index]["sorted_restaurants"][1]["name"]
             # optimal = {"name":top_choice, "points":best_points}
-            result = scenario["connection"]["info"]["name"]
-            return restaurant_name == result
+            result = scenario["agents"][agent_index]["connection"]["name"]
+            return choice == result
 
         try:
             with self.conn:
@@ -473,19 +473,19 @@ class BackendConnection(object):
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
-                restaurant_name = scenario["agents"][u.agent_index]["friends"][restaurant_index]["name"]
+                choice = scenario["agents"][u.agent_index]["friends"][restaurant_index]["name"]
                 if self.is_user_partner_bot(userid):
                     if userid not in self.bot_selections.keys():
-                        return restaurant_name, False
+                        return choice, False
                     other_name = self.bot_selections[userid]
-                    if restaurant_name == other_name:
-                        Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
-                        is_optimal = _is_optimal_choice(scenario, u.agent_index, restaurant_name, Pdelta)
+                    if choice == other_name:
+                        Pdelta = _get_points(scenario, u.agent_index, choice)
+                        is_optimal = _is_optimal_choice(scenario, u.agent_index, choice, Pdelta)
                         if is_optimal:
                             _user_finished(cursor, userid, P, Pdelta, Pdelta, u.num_chats_completed)
-                            return restaurant_name, True
+                            return choice, True
                     else:
-                        return restaurant_name, False
+                        return choice, False
 
                 cursor.execute(
                     "SELECT name, selected_index,cumulative_points,num_chats_completed FROM ActiveUsers WHERE room_id=? AND name!=?",
@@ -493,34 +493,29 @@ class BackendConnection(object):
                 other_userid, other_restaurant_index, other_P, other_num_chats_completed = self._ensure_not_none(
                     cursor.fetchone(), BadChatException)
                 if other_restaurant_index == -1:
-                    return restaurant_name, False
+                    return choice, False
                 other_name = scenario["agents"][1-u.agent_index]["friends"][other_restaurant_index]["name"]
-                if restaurant_name == other_name:
+
+                other_optimal = _is_optimal_choice(scenario, 1-u.agent_index, other_name)
+                optimal = _is_optimal_choice(scenario, u.agent_index, choice)
+                if other_optimal and optimal:
                     # Match
+                    Pdelta = _get_points(scenario, u.agent_index, choice)
+                    other_Pdelta = _get_points(scenario, 1 - u.agent_index, choice)
                     logger.info("User %s restaurant selection matches with partner's. Selected restaurant: %s" % (
-                        userid[:6], restaurant_name))
-                    Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
-                    other_Pdelta = _get_points(scenario, 1 - u.agent_index, restaurant_name)
+                        userid[:6], choice))
+
                     logger.info("User %s got %d points, User %s got %d points" % (
                         userid[:6], Pdelta, other_userid[:6], other_Pdelta))
 
-                    is_optimal = _is_optimal_choice(scenario, u.agent_index, restaurant_name, Pdelta)
-                    other_is_optimal = _is_optimal_choice(scenario, 1 - u.agent_index,
-                                                                                restaurant_name, other_Pdelta)
-                    if is_optimal:
-                        _user_finished(cursor, userid, P, Pdelta, other_Pdelta, u.num_chats_completed)
-                    else:
-                        _user_finished(cursor, userid, P, Pdelta, other_Pdelta, u.num_chats_completed)
-                    if other_is_optimal:
-                        _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta, other_num_chats_completed)
-                    else:
-                        _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta, other_num_chats_completed)
-                    return restaurant_name, True
+                    _user_finished(cursor, userid, P, Pdelta, other_Pdelta, u.num_chats_completed)
+                    _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta, other_num_chats_completed)
+                    return choice, True
                 else:
                     logger.debug("User %s selection (%d) doesn't match with partner's selection (%d). " %
                                  (userid[:6], restaurant_index, other_restaurant_index))
                     # Non match
-                    return restaurant_name, False
+                    return choice, False
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")

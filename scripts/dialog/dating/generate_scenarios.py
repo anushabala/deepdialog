@@ -11,20 +11,25 @@ import uuid
 
 
 class Friend(object):
-    def __init__(self, name, profession, hobby_1, hobby_2):
+    def __init__(self, name, indoors, morning, hobby_1, hobby_2):
         self.name = name
-        self.profession = {'name': profession}
+        self.indoors = {'name': indoors}
+        self.morning = {'name': morning}
         self.hobbies = {'names': [hobby_1, hobby_2]}
 
     def __info__(self):
         return {
             "name": self.name,
-            "profession": self.profession,
+            "indoors": self.indoors,
+            "morning": self.morning,
             "hobbies": self.hobbies,
         }
 
-    def same_profession(self, other_friend):
-        return self.profession["name"] == other_friend.profession["name"]
+    def same_morning(self, other_friend):
+        return self.morning["name"] == other_friend.morning["name"]
+
+    def same_indoors(self, other_friend):
+        return self.indoors["name"] == other_friend.indoors["name"]
 
     def same_hobbies(self, other_friend):
         hobbies = self.hobbies['names']
@@ -35,7 +40,7 @@ class Friend(object):
         return hobbies_match
 
     def compatible(self, other_friend):
-        return self.same_profession(other_friend) and self.same_hobbies(other_friend)
+        return self.same_indoors(other_friend) and self.same_hobbies(other_friend) and self.same_morning(other_friend)
 
 
 class FriendNetwork(object):
@@ -88,14 +93,15 @@ class FriendNetwork(object):
 
 
 class NetworkGenerator(object):
-    professions = ['Engineer', 'Architect', 'Interior Designer', 'Investment Banker', 'Lawyer']
-
+    indoors_choices = ['Indoors','Outdoors']
+    morning_choices = ['Morning', 'Evening']
     hobbies = ['Hiking', 'Road Trips', 'Snorkeling', 'Foodie', 'Movies', 'Traveling', 'Reading', 'Cooking']
 
     def generate_random_friend(self, name):
-        profession = np.random.choice(self.professions)
+        indoors = np.random.choice(self.indoors_choices)
+        morning = np.random.choice(self.morning_choices)
         hobbies = np.random.choice(self.hobbies, size=(2,), replace=False)
-        return Friend(name, profession, hobbies[0], hobbies[1])
+        return Friend(name, indoors, morning, hobbies[0], hobbies[1])
 
     def __init__(self, N=50, names_file='data/person_names.txt'):
         self.network_size = N
@@ -130,11 +136,13 @@ class ScenarioGenerator(object):
         second_friend = candidates[3]
         user1_friends = [first_friend]
         user2_friends = [second_friend]
-        scenario["connection"] = {"first": first_friend.__info__(), "second": second_friend.__info__()}
-        scenario["agents"] = [{"info": user1.__info__()}, {"info": user2.__info__()}]
+        scenario["agents"] = [{"info": user1.__info__(),
+                               "connection": first_friend.__info__()},
+                              {"info": user2.__info__(),
+                               "connection": second_friend.__info__()}]
 
         # add all friends of each user except their mutual friends (apart from the one common connection)
-        user1_friends.extend([f for f in self.network.relationships[user1] if f not in self.network.relationships[user2] and f not in user1_friends and f !=second_friend and f!=first_friend])
+        user1_friends.extend([f for f in self.network.relationships[user1] if f not in self.network.relationships[user2] and f not in user1_friends and f !=second_friend and f!=first_friend and not f.compatible(second_friend)])
         for other_friend in self.network.relationships[user2]:
             if other_friend in user1_friends:
                 continue
@@ -170,6 +178,8 @@ class ScenarioGenerator(object):
             if not_compatible_at_all:
                 user1_friends.append(friend)
                 ctr += 1
+            else:
+                ctr += 1
 
         ctr = 0
         while ctr < len(self.network.friends) and len(user2_friends) < num_friends:
@@ -188,6 +198,8 @@ class ScenarioGenerator(object):
             if not_compatible_at_all:
                 user2_friends.append(friend)
                 ctr += 1
+            else:
+                ctr+=1
 
         # print len(user1_friends), len(user2_friends)
         np.random.shuffle(user1_friends)
@@ -226,11 +238,9 @@ class ScenarioGenerator(object):
 def write_user(info, outfile, fewer_lines=False):
     outfile.write("\tName: %s" % info["name"])
     outfile.write("\n")
-    outfile.write("\tProfession: %s" % info["profession"]["name"])
-    if fewer_lines:
-        outfile.write("\t")
-    else:
-        outfile.write("\n")
+    outfile.write("\tIndoors/Outdoors: %s" % info["indoors"]["name"])
+    outfile.write("\tMorning/Evening: %s" % info["morning"]["name"])
+    outfile.write("\n")
     outfile.write("\tHobbies: %s" % ", ".join(info["hobbies"]["names"]))
     outfile.write("\n\n")
 
@@ -268,7 +278,7 @@ def main(args):
         scen_file_1 = open(os.path.join(args.scenario_dir, 'scenario%d_User1.out' % i,), 'w')
         scen_file_2 = open(os.path.join(args.scenario_dir, 'scenario%d_User2.out' % i,), 'w')
         scenario_gen = ScenarioGenerator(generator.network)
-        scenario = scenario_gen.generate_scenario(num_friends=5)
+        scenario = scenario_gen.generate_scenario(num_friends=6)
         scenario["uuid"] = str(uuid.uuid4())
         scenarios.append(scenario)
         write_scenario_to_readable_file(scenario, scen_file_1, scen_file_2)

@@ -71,7 +71,7 @@ class FriendNetwork(object):
             for friend in my_friends:
                 other_friends = self.relationships[friend]
                 connections = [f for f in other_friends if f not in my_friends and f not in added_friends
-                               and not f.same_profession(person) and not f.same_company(person)]
+                               and not f.same_indoors(person) and not f.same_company(person)]
                 second_degree.extend([(person, connection, friend) for connection in connections])
 
         return second_degree
@@ -121,7 +121,7 @@ class NetworkGenerator(object):
             if friend.same_hobbies(other_friend):
                 p += np.random.uniform(0, self.same_major_and_school)
                 # print "same major and school", p
-            elif friend.same_profession(other_friend):
+            elif friend.same_indoors(other_friend):
                 p += np.random.uniform(0, self.same_school)
                 # print "same school", p
 
