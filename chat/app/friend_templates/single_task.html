@@ -82,17 +82,20 @@
     </head>
     <body oncopy="return false" oncut="return false" onpaste="return false">
     <div id="questions">
-        <h2>Negotiation Game: Where Should We Eat?</h2>
+        <h2>Let's Set Our Friends Up!</h2>
         <h4>
-            There are no other users online at the moment - practice your negotiation skills in the meantime!
+            There are no other users online at the moment - please answer a few short questions in the meantime!
         </h4>
         <p>
-            Imagine that you've just met someone new online, and you want to find out whether you have any mutual friends. </br>
-            <b>Your information</b> (school, major, company) are on the <b>right</b>, as well as a list of <b>your friends</b>, with their information.
+            You and your friend decide that you want to set two of your friends up on a date. 
+            In order to do so, you need to find out which two of your friends have the most in common. 
+            For each of your friends, you know one of their hobbies, and 
+            whether they prefer indoors or outdoors, and mornings or evenings.</br>
+            Your list of friends is <b> on the right </b>.
         </p>
         <hr>
         <h4>
-            What is the first thing you would say to find out which friends you have in common with this new user? </br>Please do not enter greetings or other fillers like "hi", "what's your name", etc.
+            What is the first thing you would say to find out which of your friends have the most in common? </br>Please do not enter greetings or other fillers like "hi", "what's your name", etc.
         </h4>
 
         <div id="textError" class="error" style="display:none"><h3>Please enter your response in the box.</h3></div>
@@ -113,24 +116,6 @@
 						{{ agent["info"]["name"] }}
 						</td>
 				  </tr>
-				  <tr>
-						<td>School</td>
-						<td>
-						{{ agent["info"]["school"]["name"] }}
-						</td>
-				  </tr>
-				  <tr>
-						<td>Major</td>
-						<td>
-						{{ agent["info"]["school"]["major"] }}
-						</td>
-				  </tr>
-				  <tr>
-						<td>Company</td>
-						<td>
-						{{ agent["info"]["company"]["name"] }}
-						</td>
-				  </tr>
 			</table>
 
 
@@ -148,9 +133,9 @@
             {% for friend in agent["friends"] %}
             <tr>
 				<td><b>{{ friend["name"] }}</b></td>
-				<td>{{ friend["school"]["name"]}}</td> 
-				<td>{{ friend["school"]["major"]}}</td> 
-				<td>{{ friend["company"]["name"]}}</td> 
+				<td>{{ friend["indoors"]["name"]}}</td> 
+				<td>{{ friend["morning"]["name"]}}</td> 
+				<td>{{ friend["hobby"]["name"]}}</td> 
 	    	</tr>
 	    {% endfor %}
 	    </tbody>

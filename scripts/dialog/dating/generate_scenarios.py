@@ -11,18 +11,18 @@ import uuid
 
 
 class Friend(object):
-    def __init__(self, name, indoors, morning, hobby_1, hobby_2):
+    def __init__(self, name, indoors, morning, hobby):
         self.name = name
         self.indoors = {'name': indoors}
         self.morning = {'name': morning}
-        self.hobbies = {'names': [hobby_1, hobby_2]}
+        self.hobby = {'name': hobby}
 
     def __info__(self):
         return {
             "name": self.name,
             "indoors": self.indoors,
             "morning": self.morning,
-            "hobbies": self.hobbies,
+            "hobby": self.hobby,
         }
 
     def same_morning(self, other_friend):
@@ -32,12 +32,7 @@ class Friend(object):
         return self.indoors["name"] == other_friend.indoors["name"]
 
     def same_hobbies(self, other_friend):
-        hobbies = self.hobbies['names']
-        hobbies_match = True
-        for hobby in hobbies:
-            if hobby not in other_friend.hobbies['names']:
-                hobbies_match = False
-        return hobbies_match
+        return self.hobby["name"] == other_friend.hobby["name"]
 
     def compatible(self, other_friend):
         return self.same_indoors(other_friend) and self.same_hobbies(other_friend) and self.same_morning(other_friend)
@@ -100,8 +95,8 @@ class NetworkGenerator(object):
     def generate_random_friend(self, name):
         indoors = np.random.choice(self.indoors_choices)
         morning = np.random.choice(self.morning_choices)
-        hobbies = np.random.choice(self.hobbies, size=(2,), replace=False)
-        return Friend(name, indoors, morning, hobbies[0], hobbies[1])
+        hobby = np.random.choice(self.hobbies)
+        return Friend(name, indoors, morning, hobby)
 
     def __init__(self, N=50, names_file='data/person_names.txt'):
         self.network_size = N
@@ -241,7 +236,7 @@ def write_user(info, outfile, fewer_lines=False):
     outfile.write("\tIndoors/Outdoors: %s" % info["indoors"]["name"])
     outfile.write("\tMorning/Evening: %s" % info["morning"]["name"])
     outfile.write("\n")
-    outfile.write("\tHobbies: %s" % ", ".join(info["hobbies"]["names"]))
+    outfile.write("\tHobby: %s" % ", ".join(info["hobby"]["name"]))
     outfile.write("\n\n")
 
 

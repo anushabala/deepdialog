@@ -501,7 +501,7 @@ class BackendConnection(object):
                 if other_optimal and optimal:
                     # Match
                     Pdelta = _get_points(scenario, u.agent_index, choice)
-                    other_Pdelta = _get_points(scenario, 1 - u.agent_index, choice)
+                    other_Pdelta = _get_points(scenario, 1 - u.agent_index, other_name)
                     logger.info("User %s restaurant selection matches with partner's. Selected restaurant: %s" % (
                         userid[:6], choice))
 
