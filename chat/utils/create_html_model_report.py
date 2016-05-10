@@ -72,6 +72,7 @@ if __name__ == "__main__":
     parser.add_argument('--out', default='reports/', help='Directory to output report to')
     parser.add_argument('--filename', required=True, help='Filename to output report to')
     parser.add_argument('--results', required=True, help='File containing model results')
+    parser.add_argument('--replace_entities', type=bool, default=False, help='Flag indicating whether to replace entity tags by entities or not')
 
     args = parser.parse_args()
     if not os.path.exists(args.out):
