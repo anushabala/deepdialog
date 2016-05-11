@@ -2,54 +2,42 @@ __author__ = 'anushabala'
 
 import os
 from argparse import ArgumentParser
+from transcript_utils import parse_transcript_dating, parse_transcript, load_scenarios, NO_OUTCOME
 
 
-def parse_transcript(name, html_lines):
-    inp = open(name, 'r')
-    chat_name = name[name.rfind('/')+1:]
+def create_html_lines(chat_name, transcript, html_lines):
     selections = {0:None, 1:None}
     chat_html= ['<h4>%s</h4>' % chat_name, '<table border=\"1\", style=\"border-collapse: collapse\">', '<tr>', '<td width=\"50%%\">']
     ended = 0
     current_user = -1
-    first_user = -1
-    closed_table = False
-    for line in inp.readlines():
-        line = line.strip().split('\t')
-        print line
-        if len(line) == 2:
-            ended += 1
-            # if ended == 2:
-            #     chat_html.append('</table>')
-            #     closed_table = True
-        elif len(line) == 4 or len(line) == 5:
-            if 'joined' not in line[-1]:
-                user = int(line[2][-1])
-                if first_user < 0:
-                    first_user = user
-                if user != current_user and current_user >= 0:
-                    chat_html.append('</td>')
-                    if current_user != first_user:
-                        chat_html.append('</tr><tr>')
-                    chat_html.append('<td width=\"50%%\">')
-                elif current_user >= 0:
-                    chat_html.append('<br>')
+    print transcript["dialogue"]
+    if len(transcript["dialogue"]) == 0:
+        print "Empty transcript, %s" % chat_name
+        return False
+    first_user = transcript["dialogue"][0][0]
 
-                current_user = user
-                if len(line) == 4:
-                    chat_html.append(line[-1])
-                else:
-                    selections[user] = line[-1]
-                    chat_html.append('SELECT %s' % line[-1])
+    print transcript["dialogue"]
+    for (user, line) in transcript["dialogue"]:
+        print line
+        if user != current_user and current_user >= 0:
+            chat_html.append('</td>')
+            if current_user != first_user:
+                chat_html.append('</tr><tr>')
+            chat_html.append('<td width=\"50%%\">')
+        elif current_user >= 0:
+            chat_html.append('<br>')
+
+        chat_html.append(line)
+        current_user = user
 
     if current_user == first_user:
-        chat_html.append('</td><td width=\"50%%\">LEFT</td></tr>')
-    completed = False
-    if selections[0] == selections[1] and selections[0] is not None:
-        completed = True
+        chat_html.append('</td><td width=\"50%%\">  </td></tr>')
+    else:
+        chat_html.append('</tr>')
 
-    if not closed_table:
-        chat_html.append('</table>')
+    chat_html.append('</table>')
     chat_html.append('<br>')
+    completed = True if transcript['outcome'] != NO_OUTCOME else False
 
     if completed:
         chat_html.insert(0, '<div style=\"color:#0000FF\">')
@@ -62,14 +50,18 @@ def parse_transcript(name, html_lines):
     return completed
 
 
-def aggregate_chats(dirname):
+def aggregate_chats(scenario_type='friends'):
     html = ['<!DOCTYPE html>','<html>']
     chats = []
     total = 0
     num_completed = 0
     for f in os.listdir(args.dir):
         print f
-        completed = parse_transcript(os.path.join(args.dir, f), chats)
+        if scenario_type == 'friends':
+            transcript = parse_transcript(os.path.join(args.dir, f))
+        else:
+            transcript = parse_transcript_dating(os.path.join(args.dir, f), scenarios)
+        completed = create_html_lines(f, transcript, chats)
         if completed:
             num_completed += 1
         total += 1
@@ -82,11 +74,16 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument('--dir', type=str, default='transcripts', help='Path to directory containing transcripts')
     parser.add_argument('--output_dir', type=str, required=False, default='output', help='Path to directory to write HTML output to.')
+    parser.add_argument('--output_name', type=str, required=True, help='Name of file to write report to')
+    parser.add_argument('--scenarios_file', type=str, default='../friend_scenarios.json', help='Path to file containing scenarios')
+    parser.add_argument("--scenario_type", type=str, default='friends', choices=['friends', 'dating'], help='Type of scenario (friends or dating)')
     args = parser.parse_args()
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
-    outfile = open(os.path.join(args.output_dir, 'report.html'), 'w')
-    html_lines = aggregate_chats(args.dir)
+
+    scenarios = load_scenarios(args.scenarios_file)
+    outfile = open(os.path.join(args.output_dir, args.output_name+'.html'), 'w')
+    html_lines = aggregate_chats(args.scenario_type)
 
     for line in html_lines:
         outfile.write(line+"\n")

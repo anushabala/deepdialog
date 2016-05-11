@@ -6,6 +6,7 @@ user_regex = r'User ([0-9])'
 restaurant_regex = 'Selected [0-9]+: (.*)'
 user_id_regex = r'User ([0-9]) has user ID (.*)'
 SELECT_RESTAURANT = 'Selected restaurant:'
+COMPLETE = 'COMPLETE'
 NO_OUTCOME = "NO_OUTCOME"
 TOO_SHORT = "TOO_SHORT"
 SHORT = "SHORT"
@@ -95,6 +96,71 @@ def parse_transcript(transcript_file, include_bots=False):
     else:
         if 0 in choices.keys() and 1 in choices.keys() and choices[0] == choices[1]:
             transcript["outcome"] = choices[0]
+
+    infile.close()
+    return transcript
+
+
+def parse_transcript_dating(transcript_file, scenarios, include_bots=False):
+    infile = open(transcript_file, 'r')
+    transcript = {}
+    choices = {}
+    ids = {}
+    dialogue = []
+    transcript["ids"] = ids
+    transcript["choices"] = choices
+    transcript["dialogue"] = dialogue
+
+    for line in infile.readlines():
+        line = line.strip().split("\t")
+        if line[1] == '---' or (len(line) == 4 and line[-1] == 'joined'):
+            continue
+        if "scenario" not in transcript.keys():
+            scenario_id = line[1]
+            transcript["scenario"] = scenario_id
+
+        id_match = re.match(user_id_regex, line[2])
+        if id_match:
+            agent_num = int(id_match.group(1))
+            ids[agent_num] = id_match.group(2)
+        else:
+            agent_num = BOT_NUM
+            if line[2] == BOT:
+                if not include_bots:
+                    return None
+            elif line[2].strip() in BOT_METADATA:
+                if not include_bots:
+                    return None
+                else:
+                    continue
+            else:
+                user_match = re.match(user_regex, line[2])
+                agent_num = int(user_match.group(1))
+            if len(line) == 5:
+                choice_match = re.match(restaurant_regex, " ".join(line[3:]))
+                if choice_match:
+                    choices[agent_num] = choice_match.group(1)
+                    dialogue.append((agent_num, "SELECT NAME "+choices[agent_num]))
+                elif line[3] == SELECT_RESTAURANT:
+                    choices[agent_num] = line[4]
+            else:
+                try:
+                    dialogue.append((agent_num, line[3]))
+                except IndexError:
+                    continue
+
+    transcript["outcome"] = NO_OUTCOME
+    if include_bots:
+        keys = choices.keys()
+        for key in keys:
+            if key != BOT_NUM and choices[key] == choices[BOT_NUM]:
+                transcript["outcome"] = choices[key]
+    else:
+        if 0 in choices.keys() and 1 in choices.keys():
+            scenario = scenarios[transcript["scenario"]]
+            agents = scenario["agents"]
+            if choices[0] == agents[0]["connection"]["name"] and choices[1] == agents[1]["connection"]["name"]:
+                transcript["outcome"] = COMPLETE
 
     infile.close()
     return transcript
