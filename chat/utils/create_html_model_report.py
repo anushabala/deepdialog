@@ -2,26 +2,47 @@ __author__ = 'anushabala'
 from argparse import ArgumentParser
 import json
 import os
+from chat.modeling.tagger import Entity
+from chat.modeling.chatbot import ChatBot
+from transcript_utils import load_scenarios
 
 SEQ_DELIM = "</s>"
 SAY_DELIM = "SAY "
 START = "START"
+SELECT = "SELECT NAME"
 COL_WIDTH="\"30%%\""
 OUTPUT_STYLE="\"color:#4400FF\""
 REGULAR_STYLE="\"color:#000000\""
 
-def split_seq_into_sentences(s):
-    s = s.split(SAY_DELIM)
-    if s[0].strip() == START and len(s) > 1:
-        s.pop(0)
-    return s
+
+def split_seq_into_sentences(seqs):
+    seqs = seqs.split(SAY_DELIM)
+    if seqs[0].strip() == START and len(seqs) > 1:
+        seqs.pop(0)
+    new_seqs = []
+    for s in seqs:
+        if SELECT in s:
+            i = s.index(SELECT)
+            new_seqs.append(s[:i])
+            new_seqs.append(s[i:])
+        else:
+            new_seqs.append(s)
+    return new_seqs
 
 
-def parse_transcripts(name, html_lines):
+def replace_my_entities(s, bot):
+    pass
+
+
+def parse_transcripts(name, html_lines, replace_entities=False, scenario_ids=None, scenarios=None):
     results_json = json.load(open(name, 'r'))
+
+    if replace_entities:
+        assert len(scenario_ids) == len(results_json)
 
     ctr = 0
     for result in results_json:
+
         ctr += 1
         chat_html= ['<h3>Chat_%d</h3>' % ctr, '<table border=\"2\", style=\"border-collapse: collapse\">']
         model_input = [x.replace(SEQ_DELIM, "").strip() for x in result["x"]]
@@ -35,6 +56,9 @@ def parse_transcripts(name, html_lines):
         for i in range(0, len(model_input)):
             inp = split_seq_into_sentences(model_input[i])
             m_out = split_seq_into_sentences(model_out[i])
+            if replace_entities:
+                # do some stuff
+                pass
             m_ref = split_seq_into_sentences(model_ref[i])
 
             chat_html.append("</tr><tr>")
@@ -55,13 +79,17 @@ def parse_transcripts(name, html_lines):
         html_lines.extend(chat_html)
 
 
-
 def aggregate_chats(args):
     html = ['<!DOCTYPE html>','<html>']
     chats = []
     total = 0
     num_completed = 0
-    parse_transcripts(args.results, chats)
+    if args.replace_entities:
+        ids = [line.strip() for line in open(args.ids, 'r').readlines()]
+        scenarios = load_scenarios(args.scenarios)
+        parse_transcripts(args.results, chats, args.replace_entities, ids, scenarios)
+    else:
+        parse_transcripts(args.results, chats)
 
     html.extend(chats)
     html.append('</html>')
@@ -73,8 +101,10 @@ if __name__ == "__main__":
     parser.add_argument('--filename', required=True, help='Filename to output report to')
     parser.add_argument('--results', required=True, help='File containing model results')
     parser.add_argument('--replace_entities', type=bool, default=False, help='Flag indicating whether to replace entity tags by entities or not')
-
+    parser.add_argument('--ids', type=str, help='File to load scenario ids from')
+    parser.add_argument('--scenarios', type=str, help='File to load scenarios from')
     args = parser.parse_args()
+
     if not os.path.exists(args.out):
         os.makedirs(args.out)
 
