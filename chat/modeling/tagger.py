@@ -43,15 +43,15 @@ class Entity(object):
     @classmethod
     def to_tag(cls, type):
         if type == Entity.FULL_NAME:
-            return "FRIEND_FULL_NAME"
+            return "<T:FRIEND>"
         if type == Entity.FIRST_NAME:
-            return "FRIEND_FULL_NAME"
+            return "<T:FRIEND>"
         if type == Entity.SCHOOL_NAME:
-            return "MY_SCHOOL"
+            return "<T:SCHOOL>"
         if type == Entity.MAJOR:
-            return "MY_MAJOR"
+            return "<T:MAJOR>"
         if type == Entity.COMPANY_NAME:
-            return "MY_COMPANY"
+            return "<T:COMPANY>"
 
 class TemplateType(object):
     CHAT=1
@@ -165,8 +165,8 @@ class EntityTagger(object):
                 entity_synonyms.extend(get_prefixes(entity.lower()))
                 entity_synonyms.extend(get_acronyms(entity.lower()))
                 entity_synonyms.extend(find_unique_words(entity.lower(), self.entities[entity_type]))
-                if entity_type == Entity.SCHOOL_NAME:
-                    print entity_synonyms
+                # if entity_type == Entity.SCHOOL_NAME:
+                #     print entity_synonyms
                 for syn in entity_synonyms:
                     syn_dict[syn].append(entity)
 
@@ -238,7 +238,63 @@ class EntityTagger(object):
 
         return unique_possible_matches
 
-    def tag_sentence(self, sentence):
+    def get_features(self, entity, entity_type, scenario, agent_idx):
+        tag = Entity.to_tag(entity_type)
+        if entity_type == Entity.FIRST_NAME:
+            my_friends = scenario["agents"][agent_idx]["friends"]
+            found = False
+            for friend in my_friends:
+                name = friend["name"].lower()
+                if entity == name.split()[0]:
+                    found = True
+                    tag += "_<F:KNOWN>"
+            if not found:
+                tag += "_<F:UNKNOWN>"
+        elif entity_type == Entity.FULL_NAME:
+            my_friends = scenario["agents"][agent_idx]["friends"]
+            found = False
+            for friend in my_friends:
+                name = friend["name"].lower()
+                if entity == name:
+                    found = True
+                    tag += "_<F:KNOWN>"
+            if not found:
+                tag += "_<F:UNKNOWN>"
+        elif entity_type == Entity.SCHOOL_NAME:
+            my_school = scenario["agents"][agent_idx]["info"]["school"]["name"].lower()
+            if entity == my_school:
+                tag += "_<F:MATCH_ME>"
+            my_friends = scenario["agents"][agent_idx]["friends"]
+            for friend in my_friends:
+                school = friend["school"]["name"]
+                if entity == school:
+                    tag += "_<F:MATCH_FRIEND>"
+                    break
+        elif entity_type == Entity.COMPANY_NAME:
+            my_company = scenario["agents"][agent_idx]["info"]["company"]["name"].lower()
+            if entity == my_company:
+                tag += "_<F:MATCH_ME>"
+            my_friends = scenario["agents"][agent_idx]["friends"]
+            for friend in my_friends:
+                company = friend["company"]["name"]
+                if entity == company:
+                    tag += "_<F:MATCH_FRIEND>"
+                    break
+        elif entity_type == Entity.MAJOR:
+            my_major = scenario["agents"][agent_idx]["info"]["school"]["major"].lower()
+            if entity == my_major:
+                tag += "_<F:MATCH_ME>"
+            my_friends = scenario["agents"][agent_idx]["friends"]
+            for friend in my_friends:
+                major = friend["school"]["major"]
+                if entity == major:
+                    tag += "_<F:MATCH_FRIEND>"
+                    break
+
+        return tag
+
+    def tag_sentence(self, sentence, include_features=False, scenario=None, agent_idx=-1):
+        features = defaultdict(str)
         sentence = sentence.strip().lower()
         sentence_mod = sentence.translate(string.maketrans("",""), string.punctuation)
         sentence_mod = sentence_mod.split()
@@ -250,19 +306,38 @@ class EntityTagger(object):
                 try:
                     next_word = sentence_mod[i+1]
                     if "%s %s" % (word, next_word) in self.entities[Entity.FULL_NAME]:
-                        found_entities[Entity.FULL_NAME].append("%s %s" % (word, next_word))
+                        token = "%s %s" % (word, next_word)
+                        found_entities[Entity.FULL_NAME].append(token)
+                        if include_features:
+                            f = self.get_features(token, Entity.FULL_NAME, scenario, agent_idx)
+                            features[token] = f
                     else:
                         if word in SPECIAL_WORDS:
                             continue
                         found_entities[Entity.FIRST_NAME].append(word)
+                        if include_features:
+                            f = self.get_features(word, Entity.FIRST_NAME, scenario, agent_idx)
+                            features[word] = f
                 except IndexError:
                     found_entities[Entity.FIRST_NAME].append(word)
+                    if include_features:
+                        f = self.get_features(word, Entity.FIRST_NAME, scenario, agent_idx)
+                        features[word] = f
             elif word in self.entities[Entity.MAJOR] and word not in SPECIAL_WORDS:
                 found_entities[Entity.MAJOR].append(word)
+                if include_features:
+                    f = self.get_features(word, Entity.MAJOR, scenario, agent_idx)
+                    features[word] = f
             elif word in self.entities[Entity.SCHOOL_NAME] and word not in SPECIAL_WORDS:
                 found_entities[Entity.SCHOOL_NAME].append(word)
+                if include_features:
+                    f = self.get_features(word, Entity.SCHOOL_NAME, scenario, agent_idx)
+                    features[word] = f
             elif word in self.entities[Entity.COMPANY_NAME] and word not in SPECIAL_WORDS:
                 found_entities[Entity.COMPANY_NAME].append(word)
+                if include_features:
+                    f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
+                    features[word] = f
 
         # try bi and tri grams
         for i in range(0, len(sentence_mod)):
@@ -275,30 +350,56 @@ class EntityTagger(object):
                 bigram = " ".join(sentence_mod[i:i+2])
                 if bigram in self.entities[Entity.MAJOR]:
                     found_entities[Entity.MAJOR].append(bigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.MAJOR, scenario, agent_idx)
+                        features[bigram] = f
                 elif bigram in self.entities[Entity.SCHOOL_NAME]:
                     found_entities[Entity.SCHOOL_NAME].append(bigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.SCHOOL_NAME, scenario, agent_idx)
+                        features[bigram] = f
                 elif bigram in self.entities[Entity.COMPANY_NAME]:
                     found_entities[Entity.COMPANY_NAME].append(bigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
+                        features[bigram] = f
                 # if "nena" in bigram:
                 #     print sentence_mod, '"',bigram,'"', found_entities
             if i+3 <= len(sentence_mod):
                 trigram = " ".join(sentence_mod[i:i+3])
                 if trigram in self.entities[Entity.MAJOR]:
                     found_entities[Entity.MAJOR].append(trigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.MAJOR, scenario, agent_idx)
+                        features[trigram] = f
                 elif trigram in self.entities[Entity.SCHOOL_NAME]:
-
                     found_entities[Entity.SCHOOL_NAME].append(trigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.SCHOOL_NAME, scenario, agent_idx)
+                        features[trigram] = f
                 elif trigram in self.entities[Entity.COMPANY_NAME]:
                     found_entities[Entity.COMPANY_NAME].append(trigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
+                        features[trigram] = f
 
             if i+4 <= len(sentence_mod):
                 trigram = " ".join(sentence_mod[i:i+4])
                 if trigram in self.entities[Entity.MAJOR]:
                     found_entities[Entity.MAJOR].append(trigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.MAJOR, scenario, agent_idx)
+                        features[trigram] = f
                 elif trigram in self.entities[Entity.SCHOOL_NAME]:
                     found_entities[Entity.SCHOOL_NAME].append(trigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.SCHOOL_NAME, scenario, agent_idx)
+                        features[trigram] = f
                 elif trigram in self.entities[Entity.COMPANY_NAME]:
                     found_entities[Entity.COMPANY_NAME].append(trigram)
+                    if include_features:
+                        f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
+                        features[trigram] = f
         # check if word matches any possible synonym
         for i in range(0, len(sentence_mod)):
             word = sentence_mod[i]
@@ -308,6 +409,10 @@ class EntityTagger(object):
                 if len(self.synonyms[entity_type][word]) > 0:
                     # print entity_type, word, self.synonyms[entity_type][word]
                     possible_entities[entity_type].append(word)
+                    if include_features:
+                        entity = self.synonyms[entity_type][word][0]
+                        f = self.get_features(entity, entity_type, scenario, agent_idx)
+                        features[word] = f
                 # if word == 'penn':
                     # print self.synonyms[entity_type][word]
                     # print possible_entities[entity_type]
@@ -324,6 +429,8 @@ class EntityTagger(object):
 
         possible_entities = self.ensure_unique(found_entities, possible_entities)
         possible_entities = {key:set(entities) for (key, entities) in possible_entities.items()}
+        if include_features:
+            return found_entities, possible_entities, features
         return found_entities, possible_entities
 
     def load_templates(self, templates_dir):
