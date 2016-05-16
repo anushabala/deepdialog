@@ -14,15 +14,43 @@ MAX_NAME_COUNT = 5
 MAX_SELECT_COUNT = 2
 tagger = None
 SEQ_DELIMITER = " | "
+MENTION_WINDOW=3
 
 
-def tag_sequence(seq, scenario, agent_idx=-1, include_features=False):
+def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_mentions_by_me=None, prev_mentions_by_friend=None):
     if include_features:
         found_entities, possible_entities, features = tagger.tag_sentence(seq, include_features, scenario, agent_idx)
     else:
         found_entities, possible_entities = tagger.tag_sentence(seq)
 
     all_entities = [found_entities, possible_entities]
+    all_matched_tokens = []
+    if include_features:
+        for entity_dict in all_entities:
+            for entity_type in entity_dict.keys():
+                all_matched_tokens.extend(entity_dict[entity_type])
+
+        for mentioned in prev_mentions_by_friend:
+            if mentioned in all_matched_tokens:
+                features[mentioned] += "_<F:MENTIONED_BY_FRIEND>"
+            elif " " in mentioned:
+                split = mentioned.split()
+                if split[0] in all_matched_tokens:
+                    features[split[0]] += "_<F:MENTIONED_BY_FRIEND>"
+                elif split[1] in all_matched_tokens:
+                    features[split[1]] += "_<F:MENTIONED_BY_FRIEND>"
+
+        for mentioned in prev_mentions_by_me:
+            if mentioned in all_matched_tokens:
+                features[mentioned] += "_<F:MENTIONED_BY_ME>"
+            elif " " in mentioned:
+                split = mentioned.split()
+                if split[0] in all_matched_tokens:
+                    features[split[0]] += "_<F:MENTIONED_BY_ME>"
+                elif split[1] in all_matched_tokens:
+                    features[split[1]] += "_<F:MENTIONED_BY_ME>"
+
+
     # print found_entities, possible_entities
     sentence = seq.strip().split()
     # print sentence
@@ -79,7 +107,8 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False):
     #         for token in matched_tokens:
     #             if " " in token:
     #                 sentence = sentence.replace(token, Entity.to_tag(entity_type))
-
+    if include_features:
+        return sentence, all_matched_tokens
     return sentence
 
 
@@ -110,6 +139,7 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
     bot_user = -2
     seq_in = []
     seq_out = []
+    prev_mentions = {}
     if reverse:
         seq_out.append("START")
     current_seq = seq_in
@@ -122,7 +152,9 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
         if current_user < -1:
             current_user = user_num
             first_user = user_num
+            prev_mentions[first_user] = []
             other_user = 1 - first_user
+            prev_mentions[other_user] = []
             bot_user = other_user
             if reverse:
                 bot_user = first_user
@@ -132,7 +164,19 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
             text_to_add = current_text.strip()
             if tag_sentences:
                 print text_to_add
-                text_to_add = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user, include_features=include_features)
+                if include_features:
+                    my_mentions_flattened = []
+                    for mentions in prev_mentions[current_user]:
+                        my_mentions_flattened.extend(mentions)
+                    friend_mentions_flattened = []
+                    for mentions in prev_mentions[1 - current_user]:
+                        friend_mentions_flattened.extend(mentions)
+                    text_to_add, new_mentions = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user, include_features=include_features, prev_mentions_by_me=my_mentions_flattened, prev_mentions_by_friend=friend_mentions_flattened)
+                    if len(prev_mentions[current_user]) > MENTION_WINDOW:
+                        prev_mentions[current_user].pop(0)
+                    prev_mentions[current_user].append(new_mentions)
+                else:
+                    text_to_add = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user)
                 print text_to_add
                 # print "------"
             current_seq.append(text_to_add)
@@ -148,7 +192,19 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
     text_to_add = current_text.strip()
     if tag_sentences:
         print text_to_add
-        text_to_add = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user, include_features=include_features)
+        if include_features:
+            my_mentions_flattened = []
+            for mentions in prev_mentions[current_user]:
+                my_mentions_flattened.extend(mentions)
+            friend_mentions_flattened = []
+            for mentions in prev_mentions[1 - current_user]:
+                friend_mentions_flattened.extend(mentions)
+            text_to_add, new_mentions = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user, include_features=include_features, prev_mentions_by_me=my_mentions_flattened, prev_mentions_by_friend=friend_mentions_flattened)
+            if len(prev_mentions[current_user]) > MENTION_WINDOW:
+                prev_mentions[current_user].pop(0)
+            prev_mentions[current_user].append(new_mentions)
+        else:
+            text_to_add = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user)
         print text_to_add
     current_seq.append(text_to_add)
     if len(seq_in) < len(seq_out):
