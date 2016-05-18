@@ -32,26 +32,47 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
 
         for mentioned in prev_mentions_by_friend:
             if mentioned in all_matched_tokens:
-                features[mentioned] += "_<F:MENTIONED_BY_FRIEND>"
+                if "_<F:MENTIONED_BY_FRIEND>" not in features[mentioned]:
+                    features[mentioned] += "_<F:MENTIONED_BY_FRIEND>"
             elif " " in mentioned:
                 split = mentioned.split()
-                if split[0] in all_matched_tokens:
-                    features[split[0]] += "_<F:MENTIONED_BY_FRIEND>"
-                elif split[1] in all_matched_tokens:
-                    features[split[1]] += "_<F:MENTIONED_BY_FRIEND>"
+                for part in split:
+                    if part in all_matched_tokens:
+                        if "_<F:MENTIONED_BY_FRIEND>" not in features[part]:
+                            features[part] += "_<F:MENTIONED_BY_FRIEND>"
+            else:
+                for token in all_matched_tokens:
+                    if " " in token:
+                        split = token.split()
+                        # if "geissler" in token:
+
+                        for part in split:
+                            if part == mentioned:
+                                if "_<F:MENTIONED_BY_FRIEND>" not in features[token]:
+                                    features[token] += "_<F:MENTIONED_BY_FRIEND>"
 
         for mentioned in prev_mentions_by_me:
             if mentioned in all_matched_tokens:
-                features[mentioned] += "_<F:MENTIONED_BY_ME>"
+                if "_<F:MENTIONED_BY_ME>" not in features[mentioned]:
+                    features[mentioned] += "_<F:MENTIONED_BY_ME>"
             elif " " in mentioned:
                 split = mentioned.split()
-                if split[0] in all_matched_tokens:
-                    features[split[0]] += "_<F:MENTIONED_BY_ME>"
-                elif split[1] in all_matched_tokens:
-                    features[split[1]] += "_<F:MENTIONED_BY_ME>"
+                for part in split:
+                    if part in all_matched_tokens:
+                        if "_<F:MENTIONED_BY_ME>" not in features[part]:
+                            features[part] += "_<F:MENTIONED_BY_ME>"
+            else:
+                for token in all_matched_tokens:
+                    if " " in token:
+                        # if "geissler" in token:
+                        #     print all_matched_tokens
+                        #     print mentioned
+                        split = token.split()
+                        for part in split:
+                            if part in mentioned:
+                                if "_<F:MENTIONED_BY_ME>" not in features[token]:
+                                    features[token] += "_<F:MENTIONED_BY_ME>"
 
-
-    # print found_entities, possible_entities
     sentence = seq.strip().split()
     # print sentence
     new_sentence = []
@@ -73,7 +94,7 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                                 if include_features:
                                     new_sentence.append(features[token])
                                 else:
-                                    new_sentence.append(Entity.to_tag(entity_type))
+                                    new_sentence.append("<%s>" % Entity.to_tag(entity_type))
                                 # if "krone" in split_token:
                                 #     print "SENTENCE", sentence
                                 #     print split_token
@@ -90,7 +111,7 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                         if include_features:
                             new_sentence.append(features[token])
                         else:
-                            new_sentence.append(Entity.to_tag(entity_type))
+                            new_sentence.append("<%s>" % Entity.to_tag(entity_type))
                         i+=1
                     else:
                         new_sentence.append(sentence[i])

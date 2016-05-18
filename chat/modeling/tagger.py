@@ -43,15 +43,15 @@ class Entity(object):
     @classmethod
     def to_tag(cls, type):
         if type == Entity.FULL_NAME:
-            return "<T:FRIEND>"
+            return "T:FRIEND"
         if type == Entity.FIRST_NAME:
-            return "<T:FRIEND>"
+            return "T:FRIEND"
         if type == Entity.SCHOOL_NAME:
-            return "<T:SCHOOL>"
+            return "T:SCHOOL"
         if type == Entity.MAJOR:
-            return "<T:MAJOR>"
+            return "T:MAJOR"
         if type == Entity.COMPANY_NAME:
-            return "<T:COMPANY>"
+            return "T:COMPANY"
 
 class TemplateType(object):
     CHAT=1
@@ -239,7 +239,7 @@ class EntityTagger(object):
         return unique_possible_matches
 
     def get_features(self, entity, entity_type, scenario, agent_idx):
-        tag = Entity.to_tag(entity_type)
+        tag = "<%s>" % Entity.to_tag(entity_type)
         if entity_type == Entity.FIRST_NAME:
             my_friends = scenario["agents"][agent_idx]["friends"]
             found = False
@@ -266,7 +266,7 @@ class EntityTagger(object):
                 tag += "_<F:MATCH_ME>"
             my_friends = scenario["agents"][agent_idx]["friends"]
             for friend in my_friends:
-                school = friend["school"]["name"]
+                school = friend["school"]["name"].lower().replace(" - ", " ") # todo generalize to all punctuation
                 if entity == school:
                     tag += "_<F:MATCH_FRIEND>"
                     break
@@ -276,7 +276,7 @@ class EntityTagger(object):
                 tag += "_<F:MATCH_ME>"
             my_friends = scenario["agents"][agent_idx]["friends"]
             for friend in my_friends:
-                company = friend["company"]["name"]
+                company = friend["company"]["name"].lower()
                 if entity == company:
                     tag += "_<F:MATCH_FRIEND>"
                     break
@@ -286,7 +286,7 @@ class EntityTagger(object):
                 tag += "_<F:MATCH_ME>"
             my_friends = scenario["agents"][agent_idx]["friends"]
             for friend in my_friends:
-                major = friend["school"]["major"]
+                major = friend["school"]["major"].lower()
                 if entity == major:
                     tag += "_<F:MATCH_FRIEND>"
                     break
