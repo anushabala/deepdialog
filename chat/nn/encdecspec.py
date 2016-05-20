@@ -1,5 +1,5 @@
 """Specifies a particular instance of an encoder-decoder model."""
-from chat.nn.vocabulary import RawVocabulary
+from vocabulary import RawVocabulary
 from gru import GRULayer
 from lstm import LSTMLayer
 from spec import Spec
