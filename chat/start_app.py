@@ -68,12 +68,15 @@ if __name__ == '__main__':
     app.config["lstm_selections"] = defaultdict(None)
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
-    print "Loading model from %s" % params["lstms"]["model"]
-    spec = specutil.load(params["lstms"]["model"])
-    print "finished unpickling"
-    model = EncoderDecoderModel(spec)
-    print "finished creating model after setup"
-    app.config["model"] = model
+    if params["lstms"]["use_lstms"]:
+        print "Loading model from %s" % params["lstms"]["model"]
+        spec = specutil.load(params["lstms"]["model"])
+        print "finished unpickling"
+        model = EncoderDecoderModel(spec)
+        print "finished creating model after setup"
+        app.config["model"] = model
+    else:
+        app.config["model"] = None
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
     socketio.run(app, host=args.host)

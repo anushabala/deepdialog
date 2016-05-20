@@ -4,55 +4,68 @@
 
 	<style>
 
-	  .clearfix {
-	  overflow: auto;
-	  }
+	.clearfix {
+	overflow: auto;
+	}
 
-	  .points {
-	  color: #009933;
-	  }
+	.points {
+	color: #009933;
+	}
 
-	  div#chat_container {
-	  float:left;
-	  width: 40%;
-	  }
+	div#chat_container {
+	float:left;
+	width: 40%;
+	}
 
-	  div#info_container {
-	  margin-left: 42%;
-	  }
+	div#info_container {
+	margin-left: 42%;
+	color:#004d00;
+	}
 
-	  textarea#chat {
-	  width: 100%;
-	  rows: 10;
-	  cols: 100;
-	  height: 25%;
-	  }
+	div#preferences {
+	float:left;
+	}
+	
+	div#icon {
+	float:right;
+	}
+	textarea#chat {
+	width: 100%;
+	rows: 10;
+	cols: 100;
+	height: 25%;
+	color:#004d00;
+	}
 
-	  img.heart {
-	  height: 15px;
-	  width: 15px;
-	  }
+	img.heart {
+	height: 15px;
+	width: 15px;
+	}
 
-	  img.dollar {
-	  height: 16px;
-	  width: 9px;
-	  }
+	img.dollar {
+	height: 16px;
+	width: 9px;
+	}
 
-	  input#text {
-	  width: 100%;
-	  }
-	  
-	  td {
-	  padding: 0 15px 0 15px;
-	  }
-	  
-	  #instructions > p,li {
-	  font-size:18px;
-	  }
-	  
-	  table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
-    	content: " \25B4\25BE" 
-		}
+	input#text {
+	width: 100%;
+	}
+
+	td {
+	padding: 0 15px 0 15px;
+	}
+
+	#instructions > p,li {
+	font-size:18px;
+	}
+
+	table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+	content: " \25B4\25BE" 
+	}
+		
+	table.sortable {
+	color:#004d00;
+	}
 
 #clockdiv{
     display: inline-block;
@@ -189,16 +202,24 @@
       <div class="clearfix">
     <div id="chat_container">
     <div id="instructions">
-        <h1>Who's Our Mutual Friend?</h1>
+        <h1 style="color:#004d00">Who's Our Mutual Friend?</h1>
         <p>
             You and another user online have exactly one mutual friend in common. Your goal is to find that mutual friend!
         </p>
 	<h2>Instructions</h2>
 	<ul>
-	  <li> Look at <b>your information</b> (your school and company), and the list of <b>your friends</b> at right. </li>
-	  <li> Use the <b>chat box below</b> to find out more about the other user and discover your mutual friend. </li>
-	  <li> Once you've found out who it is, select their name from the <b>drop down list on the right</b>.
-	  <li style="color:#FF0000"><b>Please select names carefully</b>. If you select a name once, the website will not allow you to select another name for 10 seconds after your first selection.</li>
+		<li style="color:#FF0000">Please use <b> natural sentences </b> as much as possible.
+			<ul>
+				<li style="color:#FF0000"> <b>Do:<b> went to brown, majored in cs</li>
+				<li style="color:#FF0000"> <b>Don't do:<b> brown cs</li>
+			</ul>
+		 </li>
+		<li style="color:#FF0000">Avoid listing out the names of your friends.</li>
+		<li> Look at <b>your information</b> (your school and company), and the list of <b>your friends</b> at right. </li>
+		<li> Use the <b>chat box below</b> to find out more about the other user and discover your mutual friend. </li>
+		<li> Once you've found out who it is, select their name from the <b>drop down list on the right</b>.
+		<li style="color:#FF0000"><b>Please select names carefully</b>. If you select a name once, the website will not allow you to select another name for 10 seconds after your first selection.</li>
+	  
 	</ul>
 	</div>
 
@@ -217,68 +238,71 @@
 
     <div id="info_container">
         <div id="preferences">
-
-            <h3>Your information</h3>
-            <table class="cuisine_preferences_list">
-					<tr>
-						<td>Name</td>
-						<td>
-						{{ agent["info"]["name"] }}
-						</td>
-				  </tr>
-				  <tr>
-						<td>School</td>
-						<td>
-						{{ agent["info"]["school"]["name"] }}
-						</td>
-				  </tr>
-				  <tr>
-						<td>Major</td>
-						<td>
-						{{ agent["info"]["school"]["major"] }}
-						</td>
-				  </tr>
-				  <tr>
-						<td>Company</td>
-						<td>
-						{{ agent["info"]["company"]["name"] }}
-						</td>
-				  </tr>
-			</table>
-
-
+			<div id="my_prefs" style="float:left">
+				<h3>Your information</h3>
+				<table class="cuisine_preferences_list">
+						<tr>
+							<td>Name</td>
+							<td>
+							{{ agent["info"]["name"] }}
+							</td>
+					  </tr>
+					  <tr>
+							<td>School</td>
+							<td>
+							{{ agent["info"]["school"]["name"] }}
+							</td>
+					  </tr>
+					  <tr>
+							<td>Major</td>
+							<td>
+							{{ agent["info"]["school"]["major"] }}
+							</td>
+					  </tr>
+					  <tr>
+							<td>Company</td>
+							<td>
+							{{ agent["info"]["company"]["name"] }}
+							</td>
+					  </tr>
+				</table>
+			</div>
+			<div id="icon">
+				<img height="120" width="120" src="{{ url_for('static', filename='img/handshake.jpg') }}"/>
+			</div>
+		<div id="friends" style="float:left">
             <h3>Your friends</h3>
-	    <table class="sortable">
-	    <thead>
-	    <tr>
-	    <th>Name</th>
-	    <th>School</th>
-	    <th>Major</th>
-	    <th>Company</th>
-	    </tr>
-	    </thead>
-	    <tbody>
-            {% for friend in agent["friends"] %}
-            <tr>
-				<td><b>{{ friend["name"] }}</b></td>
-				<td>{{ friend["school"]["name"]}}</td> 
-				<td>{{ friend["school"]["major"]}}</td> 
-				<td>{{ friend["company"]["name"]}}</td> 
-	    	</tr>
-	    {% endfor %}
-	    </tbody>
-	    </table>
+			<table class="sortable">
+			<thead>
+			<tr>
+			<th>Name</th>
+			<th>School</th>
+			<th>Major</th>
+			<th>Company</th>
+			</tr>
+			</thead>
+			<tbody>
+				{% for friend in agent["friends"] %}
+				<tr>
+					<td><b>{{ friend["name"] }}</b></td>
+					<td>{{ friend["school"]["name"]}}</td> 
+					<td>{{ friend["school"]["major"]}}</td> 
+					<td>{{ friend["company"]["name"]}}</td> 
+				</tr>
+			{% endfor %}
+			</tbody>
+			</table>
+			<h3>Choose a friend below:</h3>
+				<select id="ddRestaurants">
+					<option value="-1">Select a friend</option>
+					{% set ctr = 0 %}
+					{% for friend in agent["friends"] %}
+					<option value={{ctr}}>{{ friend["name"] }}</option>
+					{% set ctr = ctr + 1 %}
+					{% endfor %}
+				</select>
         </div>
-
-        	<h3>Choose a friend below:</h3>
-            <select id="ddRestaurants">
-            	<option value="-1">Select a friend</option>
-                {% set ctr = 0 %}
-                {% for friend in agent["friends"] %}
-                <option value={{ctr}}>{{ friend["name"] }}</option>
-                {% set ctr = ctr + 1 %}
-                {% endfor %}
-            </select>
+        </div>
 
     </div>
     </div>
