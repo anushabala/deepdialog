@@ -55,6 +55,7 @@ class Spec(object):
             + self.in_vocabulary.get_theano_params()
             + self.out_vocabulary.get_theano_params())
 
+
   def get_all_shared(self):
     """Get all shared theano varaibles.
 
