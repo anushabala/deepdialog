@@ -43,10 +43,12 @@ class EncoderDecoderSpec(Spec):
         enc_state = self.encoder.__getstate__()
         invoc_state = self.in_vocabulary.__getstate__()
         outvoc_state = self.out_vocabulary.__getstate__()
-        return dec_state, enc_state, invoc_state, outvoc_state
+        return self.hidden_size, dec_state, enc_state, invoc_state, outvoc_state
 
     def __setstate__(self, state):
-        dec_state, enc_state, invoc_state, outvoc_state = state
+        hidden_size, dec_state, enc_state, invoc_state, outvoc_state = state
+
+        self.hidden_size = hidden_size
         # todo generify this
         inword_list, inemb_size, infloat_type, in_emb_mat = invoc_state
         self.in_vocabulary = RawVocabulary(inword_list, inemb_size, infloat_type)

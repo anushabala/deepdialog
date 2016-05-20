@@ -110,7 +110,7 @@ class RawVocabulary(Vocabulary):
     def __setstate__(self, state):
         self.emb_mat = theano.shared(
             name='vocab_emb_mat',
-            value=emb_mat.astype(theano.config.floatX)
+            value=state.astype(theano.config.floatX)
         )
 
 
