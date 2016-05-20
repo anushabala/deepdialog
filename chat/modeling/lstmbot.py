@@ -256,6 +256,7 @@ class LSTMChatBot(ChatBotBase):
                     choices = [c for c in choices if c not in all_entities]
                     entity = np.random.choice(choices)
 
+            my_mentions_flat[tag].add(entity)
             new_sentence.append(entity)
             new_mentions[tag].append(entity)
             print "New sentence:", new_sentence
