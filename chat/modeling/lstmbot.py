@@ -159,11 +159,12 @@ class LSTMChatBot(ChatBotBase):
             my_mentions_flat = defaultdict(set)
             for mentions_dict in self.my_mentions:
                 for entity_type in mentions_dict.keys():
-                    my_mentions_flat[entity_type].update(mentions_dict)
+                    my_mentions_flat[entity_type].update(mentions_dict[entity_type])
+
             partner_mentions_flat = defaultdict(set)
             for mentions_dict in self.partner_mentions:
                 for entity_type in mentions_dict.keys():
-                    partner_mentions_flat[entity_type].update(mentions_dict)
+                    partner_mentions_flat[entity_type].update(mentions_dict[entity_type])
 
             print "my mentions flat", my_mentions_flat
             print "partner mentions flat", partner_mentions_flat
