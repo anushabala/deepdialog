@@ -82,7 +82,12 @@ class LSTMLayer(RNNLayer):
 
     def __getstate__(self):
         print "calling get_params from LSTM layer to pickle"
-        h_0 = numpy.asarray(self.h0.get_value())
+        if hasattr(self, 'h0'):
+            has_init = True
+            h_0 = numpy.asarray(self.h0.get_value())
+        else:
+            has_init = False
+            h_0 = None
         wi = numpy.asarray(self.wi.get_value())
         ui = numpy.asarray(self.ui.get_value())
         wf = numpy.asarray(self.wf.get_value())
@@ -92,16 +97,25 @@ class LSTMLayer(RNNLayer):
         wc = numpy.asarray(self.wc.get_value())
         uc = numpy.asarray(self.uc.get_value())
 
-        w_out = numpy.asarray(self.w_out.get_value())
+        if hasattr(self, 'w_out'):
+            has_out = True
+            w_out = numpy.asarray(self.w_out.get_value())
+        else:
+            w_out = None
+            has_out = False
 
-        return h_0, wi, ui, wf, uf, wo, uo, wc, uc, w_out
+        return has_init, h_0, wi, ui, wf, uf, wo, uo, wc, uc, has_out, w_out
 
     def __setstate__(self, state):
         print "calling get_params from LSTM layer to unpickle"
-        h_0, wi, ui, wf, uf, wo, uo, wc, uc, w_out = state
-        self.h0 = theano.shared(
-            name='h0',
-            value=h_0.astype(theano.config.floatX))
+        has_init, h_0, wi, ui, wf, uf, wo, uo, wc, uc, has_out, w_out = state
+        if has_init:
+            self.h0 = theano.shared(
+                name='h0',
+                value=h_0.astype(theano.config.floatX))
+            init_state_params = [self.h0]
+        else:
+            init_state_params = []
         self.wi = theano.shared(
             name='wi',
             value=wi.astype(theano.config.floatX))
@@ -126,9 +140,21 @@ class LSTMLayer(RNNLayer):
         self.uc = theano.shared(
             name='uc',
             value=uc.astype(theano.config.floatX))
-        self.w_out = theano.shared(
-            name='w_out',
-            value=w_out.astype(theano.config.floatX))
+
+        recurrence_params = [
+            self.wi, self.ui, self.wf, self.uf,
+            self.wo, self.uo, self.wc, self.uc,
+        ]
+
+        if has_out:
+            self.w_out = theano.shared(
+                name='w_out',
+                value=w_out.astype(theano.config.floatX))
+            output_params = [self.w_out]
+        else:
+            output_params = []
+
+        self.params = init_state_params + recurrence_params + output_params
 
     def step(self, x_t, c_h_prev):
         input_t = self.f_embedding(x_t)
