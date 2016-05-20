@@ -1,4 +1,5 @@
 """Specifies a particular instance of an encoder-decoder model."""
+from chat.nn.vocabulary import RawVocabulary
 from gru import GRULayer
 from lstm import LSTMLayer
 from spec import Spec
@@ -19,7 +20,7 @@ class EncoderDecoderSpec(Spec):
     def get_local_params(self):
         return self.encoder.params + self.decoder.params
 
-    def create_layer(self, vocab, hidden_size, is_encoder):
+    def create_layer(self, vocab, hidden_size, is_encoder, create_vars=True):
         raise NotImplementedError
 
     def get_init_state(self):
@@ -44,17 +45,27 @@ class EncoderDecoderSpec(Spec):
         outvoc_state = self.out_vocabulary.__getstate__()
         return dec_state, enc_state, invoc_state, outvoc_state
 
-    def __setstate(self, state):
+    def __setstate__(self, state):
         dec_state, enc_state, invoc_state, outvoc_state = state
-        self.decoder.__setstate__(dec_state)
+        # todo generify this
+        inword_list, inemb_size, infloat_type, in_emb_mat = invoc_state
+        self.in_vocabulary = RawVocabulary(inword_list, inemb_size, infloat_type)
+        self.in_vocabulary.__setstate__(in_emb_mat)
+
+        outword_list, outemb_size, outfloat_type, out_emb_mat = outvoc_state
+        self.out_vocabulary = RawVocabulary(outword_list, outemb_size, outfloat_type)
+        self.out_vocabulary.__setstate__(out_emb_mat)
+
+        self.encoder = self.create_layer(self.in_vocabulary, self.hidden_size, True, False)
         self.encoder.__setstate__(enc_state)
-        self.in_vocabulary.__setstate__(invoc_state)
-        self.out_vocabulary.__setstate__(outvoc_state)
+        self.decoder = self.create_layer(self.out_vocabulary, self.hidden_size, False, False)
+        self.decoder.__setstate__(dec_state)
+
 
 class VanillaEncDecSpec(EncoderDecoderSpec):
     """Encoder-decoder model with vanilla RNN recurrent units."""
 
-    def create_layer(self, vocab, hidden_size, is_encoder):
+    def create_layer(self, vocab, hidden_size, is_encoder, create_vars=True):
         return VanillaRNNLayer(vocab, hidden_size,
                                create_init_state=is_encoder,
                                create_output_layer=not is_encoder)
@@ -63,7 +74,7 @@ class VanillaEncDecSpec(EncoderDecoderSpec):
 class GRUEncDecSpec(EncoderDecoderSpec):
     """Encoder-decoder model with GRU recurrent units."""
 
-    def create_layer(self, vocab, hidden_size, is_encoder):
+    def create_layer(self, vocab, hidden_size, is_encoder, create_vars=True):
         return GRULayer(vocab, hidden_size,
                         create_init_state=is_encoder,
                         create_output_layer=not is_encoder)
@@ -72,7 +83,8 @@ class GRUEncDecSpec(EncoderDecoderSpec):
 class LSTMEncDecSpec(EncoderDecoderSpec):
     """Encoder-decoder model with LSTM recurrent units."""
 
-    def create_layer(self, vocab, hidden_size, is_encoder):
+    def create_layer(self, vocab, hidden_size, is_encoder, create_vars=True):
         return LSTMLayer(vocab, hidden_size,
                          create_init_state=is_encoder,
-                         create_output_layer=not is_encoder)
+                         create_output_layer=not is_encoder,
+                         create_vars=create_vars)

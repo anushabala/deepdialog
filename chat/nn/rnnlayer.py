@@ -1,32 +1,35 @@
 """Abstract class that specifies parameters of a recurrent layer."""
 
+
 class RNNLayer(object):
-  """Abstract class that sepcifies parameters of a recurrent layer.
-  
-  Conventions used by this class (shared with spec.py):
-    nh: dimension of hidden layer
-    nw: number of words in the vocabulary
-    de: dimension of word embeddings
-  """ 
-  def __init__(self, vocab, hidden_size, 
-               create_init_state=False, create_output_layer=False):
-    self.vocab = vocab
-    self.de = vocab.emb_size
-    self.nh = hidden_size
-    self.nw = vocab.size()
-    self.create_vars(create_init_state, create_output_layer)
+    """Abstract class that sepcifies parameters of a recurrent layer.
 
-  def create_vars(self):
-    raise NotImplementedError
+    Conventions used by this class (shared with spec.py):
+      nh: dimension of hidden layer
+      nw: number of words in the vocabulary
+      de: dimension of word embeddings
+    """
 
-  def get_init_state(self):
-    raise NotImplementedError
+    def __init__(self, vocab, hidden_size,
+                 create_init_state=False, create_output_layer=False, create_vars=True):
+        self.vocab = vocab
+        self.de = vocab.emb_size
+        self.nh = hidden_size
+        self.nw = vocab.size()
+        if create_vars:
+            self.create_vars(create_init_state, create_output_layer)
 
-  def step(self, x_t, h_prev):
-    raise NotImplementedError
+    def create_vars(self):
+        raise NotImplementedError
 
-  def write(self, h_t):
-    raise NotImplementedError
+    def get_init_state(self):
+        raise NotImplementedError
 
-  def f_embedding(self, i):
-    return self.vocab.get_theano_embedding(i)
+    def step(self, x_t, h_prev):
+        raise NotImplementedError
+
+    def write(self, h_t):
+        raise NotImplementedError
+
+    def f_embedding(self, i):
+        return self.vocab.get_theano_embedding(i)
