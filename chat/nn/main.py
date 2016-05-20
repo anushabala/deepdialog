@@ -324,7 +324,7 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout
   if fout:
     eval_info = []
 
-  for idx, pairs, kwargs in enumerate(dataset):
+  for idx, (pairs, kwargs) in enumerate(dataset):
     x_words = []
     y_words = []
     x_inds = []

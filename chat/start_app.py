@@ -1,5 +1,6 @@
 #!/bin/env python
 from collections import defaultdict
+import sys
 from app import create_app, socketio
 import sqlite3
 import os
@@ -42,7 +43,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     params_file = args.p
     with open(params_file) as fin:
-        params = json.load(fin)
+       params = json.load(fin)
 
     if os.path.exists(params["db"]["location"]):
         os.remove(params["db"]["location"])
@@ -66,5 +67,4 @@ if __name__ == '__main__':
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
-
     socketio.run(app, host=args.host)

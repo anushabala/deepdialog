@@ -4,12 +4,19 @@ import operator
 from chat.modeling.chatbot import ChatBotBase
 from chat.nn import spec as specutil
 from chat.nn import encdecspec
+import sys
+
 from collections import defaultdict
 from chat.nn.encoderdecoder import EncoderDecoderModel
+import chat.nn.vocabulary as vocabulary
 from chat.nn.vocabulary import Vocabulary
 import numpy as np
 from chat.modeling.tagger import Entity
 import datetime
+
+sys.modules['encdecspec'] = encdecspec
+sys.modules['vocabulary'] = vocabulary
+
 
 __author__ = 'anushabala'
 
