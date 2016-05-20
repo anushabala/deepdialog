@@ -81,7 +81,6 @@ class LSTMLayer(RNNLayer):
         return self.h0
 
     def __getstate__(self):
-        print "calling get_params from LSTM layer to pickle"
         if hasattr(self, 'h0'):
             has_init = True
             h_0 = numpy.asarray(self.h0.get_value())
@@ -110,6 +109,7 @@ class LSTMLayer(RNNLayer):
         print "calling get_params from LSTM layer to unpickle"
         has_init, h_0, wi, ui, wf, uf, wo, uo, wc, uc, has_out, w_out = state
         if has_init:
+            print "layer has initial hidden state"
             self.h0 = theano.shared(
                 name='h0',
                 value=h_0.astype(theano.config.floatX))
@@ -165,6 +165,7 @@ class LSTMLayer(RNNLayer):
         c_tilde_t = T.tanh(T.dot(input_t, self.wc) + T.dot(h_prev, self.uc))
         c_t = f_t * c_prev + i_t * c_tilde_t
         h_t = o_t * T.tanh(c_t)
+        print "made LSTM step"
         return self.pack(c_t, h_t)
 
     def write(self, c_h_t):

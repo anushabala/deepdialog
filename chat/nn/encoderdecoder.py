@@ -16,8 +16,8 @@ class EncoderDecoderModel(NeuralModel):
         self.setup_encoder()
         self.setup_decoder_step()
         self.setup_decoder_write()
-        if not test_only:
-            self.setup_backprop()
+        # if not test_only:
+        self.setup_backprop()
 
     def setup_encoder(self):
         """Run the encoder.  Used at test time."""

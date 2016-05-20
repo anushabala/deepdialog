@@ -752,7 +752,7 @@ class BackendConnection(object):
             scenario_id = random.choice(list(self.scenarios.keys()))
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0,1])
-            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger, self.config["lstms"]["model"])
+            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger, self.lstm_model)
             print "backend: got bot"
             self.bots[userid] = bot
             print "backend: updating user status"

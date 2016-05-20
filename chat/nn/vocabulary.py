@@ -81,7 +81,7 @@ class Vocabulary:
 class RawVocabulary(Vocabulary):
     """A vocabulary that's initialized randomly."""
 
-    def __init__(self, word_list, emb_size, float_type=numpy.float64):
+    def __init__(self, word_list, emb_size, float_type=numpy.float64, init_embedding=True):
         """Create the vocabulary.
 
         Args:
@@ -94,9 +94,10 @@ class RawVocabulary(Vocabulary):
         self.float_type = float_type
 
         # Embedding matrix
-        self.emb_mat = theano.shared(
-            name='vocab_emb_mat',
-            value=0.2 * numpy.random.uniform(-1.0, 1.0, (self.size(), emb_size)).astype(theano.config.floatX))
+        if init_embedding:
+            self.emb_mat = theano.shared(
+                name='vocab_emb_mat',
+                value=0.2 * numpy.random.uniform(-1.0, 1.0, (self.size(), emb_size)).astype(theano.config.floatX))
 
     def get_theano_embedding(self, i):
         return self.emb_mat[i]
@@ -105,7 +106,7 @@ class RawVocabulary(Vocabulary):
         return [self.emb_mat]
 
     def __getstate__(self):
-        return self.word_list, self.emb_size, self.float_type, numpy.asarray(self.emb_mat.get_value())
+        return self.word_list[2:], self.emb_size, self.float_type, numpy.asarray(self.emb_mat.get_value())
 
     def __setstate__(self, state):
         self.emb_mat = theano.shared(

@@ -46,7 +46,7 @@ class NeuralModel(object):
         print "starting setup"
         self.setup()
         print "setup complete"
-        print >> sys.stderr, 'Setup complete.'
+        # print >> sys.stderr, 'Setup complete.'
 
     def setup(self, test_only=False):
         """Do all necessary setup (e.g. compile theano functions)."""

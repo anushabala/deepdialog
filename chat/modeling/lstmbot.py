@@ -72,7 +72,7 @@ class LSTMChatBot(ChatBotBase):
     CHAR_RATE = 9.5
     SELECTION_DELAY = 1000
     EPSILON = 1500
-    MAX_OUT_LEN = 100
+    MAX_OUT_LEN = 50
     MENTION_WINDOW = 3
 
     def __init__(self, scenario, agent_num, tagger, model):
@@ -82,9 +82,10 @@ class LSTMChatBot(ChatBotBase):
         self.full_names_cased = {}
         self.probabilities = {}
         self.my_info = scenario["agents"][agent_num]["info"]
-        self.my_turn = True
+        self.my_turn = False
         self.tagger = tagger
         self.model = model
+        self._started = False
 
         self.in_vocabulary = model.spec.in_vocabulary
         self.out_vocabulary = model.spec.out_vocabulary
@@ -92,6 +93,7 @@ class LSTMChatBot(ChatBotBase):
         self.my_mentions = []
         self.partner_mentions = []
         self.h_t = self.model.spec.get_init_state().eval()
+        # print self.h_t
         print "got initial hidden state"
         self.last_message_timestamp = datetime.datetime.now()
         self._ended = False
@@ -108,6 +110,8 @@ class LSTMChatBot(ChatBotBase):
             self.full_names_cased[name.lower()] = name
 
     def rerank_friends(self, new_partner_mentions):
+        if len(new_partner_mentions.keys()) == 0:
+            return
         for entity_type in new_partner_mentions.keys():
             mentions = new_partner_mentions[entity_type]
             for friend in self.friends:
@@ -132,11 +136,13 @@ class LSTMChatBot(ChatBotBase):
                         self.probabilities[name] += 1
 
     def replace_entities(self, tagged_seq):
-        tagged_seq = tagged_seq.lower()
+        print "LSTM tagged output:", tagged_seq
+        # tagged_seq = tagged_seq.lower()
+        tagged_seq = tagged_seq.replace(Vocabulary.END_OF_SENTENCE, "")
         tokens = tagged_seq.strip().split()
         new_sentence = []
-        my_info = self.scenario["agents"][self.agent_num]["info"]
-        partner_info = self.scenario["agents"][1-self.agent_num]["info"]
+        my_info = self.scenario["agents"][self.agent_num]
+        partner_info = self.scenario["agents"][1-self.agent_num]
         new_mentions = defaultdict(list)
 
         for token in tokens:
@@ -154,30 +160,46 @@ class LSTMChatBot(ChatBotBase):
             for mentions_dict in self.my_mentions:
                 for entity_type in mentions_dict.keys():
                     my_mentions_flat[entity_type].update(mentions_dict)
-            friend_mentions_flat = defaultdict(set)
+            partner_mentions_flat = defaultdict(set)
             for mentions_dict in self.partner_mentions:
                 for entity_type in mentions_dict.keys():
-                    friend_mentions_flat[entity_type].update(mentions_dict)
+                    partner_mentions_flat[entity_type].update(mentions_dict)
 
             choices = []
             entity = None
-            if "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" in features:
-                choices = [c for c in my_mentions_flat[tag] if c in friend_mentions_flat[tag]]
-                if len(choices) == 0:
+            try:
+                if "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" in features:
+                    choices = [c for c in my_mentions_flat[tag] if c in partner_mentions_flat[tag]]
+                    assert len(choices) > 0
+                    # if len(my_mentions_flat[tag]) > 0:
+                    #     choices = []
+                    # pass
+                elif "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" not in features:
+                    choices = [c for c in partner_mentions_flat[tag] if c not in my_mentions_flat[tag]]
+                    assert len(choices) > 0
                     # this should never happen, todo again default
-                    pass
-            elif "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" not in features:
-                choices = [c for c in friend_mentions_flat[tag] if c not in my_mentions_flat[tag]]
-                if len(choices) == 0:
+                    # pass
+                elif "F:MENTIONED_BY_ME" in features and "F:MENTIONED_BY_FRIEND" not in features:
+                    choices = [c for c in my_mentions_flat[tag] if c not in partner_mentions_flat[tag]]
+                    assert len(choices) > 0
                     # this should never happen, todo again default
-                    pass
-            elif "F:MENTIONED_BY_ME" in features and "F:MENTIONED_BY_FRIEND" not in features:
-                choices =  [c for c in my_mentions_flat[tag] if c not in friend_mentions_flat[tag]]
-                # this should never happen, todo again default
-            else:
-                # no mentions at all
+                else:
+                    # no mentions at all
+                    all_entities = get_all_entities_with_tag(tag, my_info)
+                    print all_entities, tag
+                    choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in partner_mentions_flat[tag]]
+                    assert len(choices) > 0
+            except AssertionError:
+                # print choices
+                # print tag, features
+                # print self.my_mentions
+                # print my_mentions_flat[tag]
+                # print self.partner_mentions
+                # print partner_mentions_flat[tag]
+                # print "Mention tag mismatch; ignoring mention tags entirely"
                 all_entities = get_all_entities_with_tag(tag, my_info)
-                choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in friend_mentions_flat[tag]]
+                choices = all_entities
+                print choices
 
             if tag == Entity.to_tag(Entity.FIRST_NAME):
                 if "F:UNKNOWN" in features:
@@ -191,6 +213,8 @@ class LSTMChatBot(ChatBotBase):
                     entity = np.random.choice(choices)
                 elif "F:KNOWN" in features:
                     sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
+                    print sorted_probs
+                    print choices
                     sorted_choices = [a[0] for a in sorted_probs if a in choices]
                     entity = sorted_choices[0]
                 else:
@@ -199,14 +223,14 @@ class LSTMChatBot(ChatBotBase):
                     sorted_choices = [a[0] for a in sorted_probs if a in choices]
                     entity = sorted_choices[0]
             else:
-                if "MATCH_ME" in features:
+                if "F:MATCH_ME" in features:
                     if tag == Entity.to_tag(Entity.SCHOOL_NAME):
                         entity = my_info["info"]["school"]["name"]
                     elif tag == Entity.to_tag(Entity.MAJOR):
                         entity = my_info["info"]["school"]["major"]
                     elif tag == Entity.to_tag(Entity.COMPANY_NAME):
                         entity = my_info["info"]["company"]["name"]
-                elif "MATCH_FRIEND" in features:
+                elif "F:MATCH_FRIEND" in features:
                     all_entities = get_all_entities_with_tag(tag, my_info)
                     if tag == Entity.to_tag(Entity.SCHOOL_NAME):
                         my_entity = my_info["info"]["school"]["name"]
@@ -236,8 +260,11 @@ class LSTMChatBot(ChatBotBase):
     def send(self):
         if self._ended:
             return None, None
+
         if not self.my_turn:
             # just send earlier messages if any
+            if len(self.next_messages) == 0:
+                return None, None
             next_message = self.next_messages[0]
             if SELECT in next_message:
                 delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
@@ -265,7 +292,8 @@ class LSTMChatBot(ChatBotBase):
                 y_t = np.argmax(write_dist)
                 p_y_t = write_dist[y_t] # probs for printing, if needed
                 pred_inds.append(y_t)
-                self.h_t = self.model._decoder_step(y_t, self.h_t)
+                h_t = self.model._decoder_step(y_t, self.h_t)
+                self.h_t = h_t
                 if y_t == Vocabulary.END_OF_SENTENCE_INDEX:
                     break
 
@@ -432,13 +460,27 @@ class LSTMChatBot(ChatBotBase):
             return
         self.last_message_timestamp = datetime.datetime.now()
         found_entities, possible_entities, features = self.tagger.tag_sentence(message, include_features=True, scenario=self.scenario, agent_idx=self.agent_num)
+
+        if not self._started:
+            if START not in message:
+                message = START + " " + message
+            self._started = True
+
         tagged_msg, new_mentions = self.replace_with_tags(message, found_entities, possible_entities, features)
+
+        print "Message received: ", tagged_msg
         self.rerank_friends(new_mentions)
         self.update_mentions(new_mentions)
         self.my_turn = True
 
         x_inds = self.in_vocabulary.sentence_to_indices(tagged_msg)
+        print x_inds
         self.h_t = self.model._encode(x_inds, self.h_t)
+
+        ret_data = {"probs": self._get_probability_string(),
+                    "confident_tags": self._get_entities_string(found_entities),
+                    "possible_tags": self._get_entities_string(possible_entities)}
+        return ret_data
 
     def init_probabilities(self):
         for friend in self.friends:
@@ -456,5 +498,8 @@ class LSTMChatBot(ChatBotBase):
         self.my_turn = False
         self._ended = True
 
-    def start_chat(self):
-        pass
+    def start(self):
+        if self.my_turn:
+            self.receive(START)
+        else:
+            pass

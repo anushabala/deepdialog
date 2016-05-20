@@ -407,6 +407,7 @@ class EntityTagger(object):
                 continue
             for entity_type in self.synonyms.keys():
                 if len(self.synonyms[entity_type][word]) > 0:
+                    print "Found %s in synonyms dictionary" % word
                     # print entity_type, word, self.synonyms[entity_type][word]
 
                     if include_features:
@@ -415,7 +416,9 @@ class EntityTagger(object):
                         f = self.get_features(entity, entity_type, scenario, agent_idx)
                         features[word] = f
                     else:
-                        possible_entities[entity_type].extend(self.synonyms[entity_type][word])
+                        print self.synonyms[entity_type][word]
+                        possible_entities[entity_type].append(word)
+                        print "Adding to possible entities", possible_entities
                 # if word == 'penn':
                     # print self.synonyms[entity_type][word]
                     # print possible_entities[entity_type]

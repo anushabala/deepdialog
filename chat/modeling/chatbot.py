@@ -26,6 +26,7 @@ class ChatState(object):
 
 
 class ChatBotBase(object):
+    probabilities = {}
     def start(self):
         raise NotImplementedError
 
@@ -46,6 +47,28 @@ class ChatBotBase(object):
 
     def start_chat(self):
         raise NotImplementedError
+
+    def _get_probability_string(self):
+        sorted_probs = sorted(self.probabilities.items(),
+                              key=operator.itemgetter(1),
+                              reverse=True)
+        s = ""
+        for (key, value) in sorted_probs:
+            s += "(%s, %2.2f),  " % (key, value)
+
+        s = s.strip(',')
+        return s
+
+    def _get_entities_string(self, entities):
+        s = ""
+        for entity_type in entities.keys():
+            s += "[%s:" % entity_type
+            for ent in entities[entity_type]:
+                s += " %s," % ent
+            s = s.strip(',')
+            s += "],"
+        s = s.strip(',')
+        return s
 
 
 class ChatBot(ChatBotBase):
@@ -85,6 +108,7 @@ class ChatBot(ChatBotBase):
 
     def start(self):
         self.last_message_timestamp = datetime.datetime.now()
+
 
     def init_probabilities(self):
         for friend in self.friends:
@@ -152,34 +176,13 @@ class ChatBot(ChatBotBase):
         self.last_message_timestamp = datetime.datetime.now()
         self.my_turn = True
         found_entities, possible_entities = self.tagger.tag_sentence(message)
+
         self.update_probabilities(found_entities)
         self.update_probabilities(possible_entities, guess=True)
         ret_data = {"probs": self._get_probability_string(),
                     "confident_tags": self._get_entities_string(found_entities),
                     "possible_tags": self._get_entities_string(possible_entities)}
         return ret_data
-
-    def _get_probability_string(self):
-        sorted_probs = sorted(self.probabilities.items(),
-                              key=operator.itemgetter(1),
-                              reverse=True)
-        s = ""
-        for (key, value) in sorted_probs:
-            s += "(%s, %2.2f),  " % (key, value)
-
-        s = s.strip(',')
-        return s
-
-    def _get_entities_string(self, entities):
-        s = ""
-        for entity_type in entities.keys():
-            s += "[%s:" % entity_type
-            for ent in entities[entity_type]:
-                s += " %s," % ent
-            s = s.strip(',')
-            s += "],"
-        s = s.strip(',')
-        return s
 
     def partner_selection(self, selection):
         self.last_message_timestamp = datetime.datetime.now()
