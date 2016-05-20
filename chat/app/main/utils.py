@@ -24,7 +24,7 @@ def get_backend():
         scenario_ids = sorted(app.config["scenarios"].keys())
         backend = g._backend = BackendConnection(app.config["user_params"], app.config["scenarios"],
                                                  app.config["bots"], app.config["bot_selections"],
-                                                 app.config["tagger"])
+                                                 app.config["tagger"], app.config["model"])
     return backend
 
 

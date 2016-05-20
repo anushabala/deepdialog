@@ -7,6 +7,8 @@ import os
 import shutil
 import json
 from argparse import ArgumentParser
+from nn import spec as specutil
+from nn.encoderdecoder import EncoderDecoderModel
 import logging
 
 
@@ -65,6 +67,13 @@ if __name__ == '__main__':
     app.config["bot_selections"] = defaultdict(None)
     app.config["lstm_selections"] = defaultdict(None)
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
+
+    print "Loading model from %s" % params["lstms"]["model"]
+    spec = specutil.load(params["lstms"]["model"])
+    print "finished unpickling"
+    model = EncoderDecoderModel(spec)
+    print "finished creating model after setup"
+    app.config["model"] = model
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
     socketio.run(app, host=args.host)

@@ -104,9 +104,9 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots, bot_selections, tagger):
+    def __init__(self, config, scenarios, bots, bot_selections, tagger, lstm_model):
         self.config = config
-
+        self.lstm_model = lstm_model
         self.conn = sqlite3.connect(config["db"]["location"])
         with self.conn:
             cursor = self.conn.cursor()
@@ -753,7 +753,9 @@ class BackendConnection(object):
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0,1])
             bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger, self.config["lstms"]["model"])
+            print "backend: got bot"
             self.bots[userid] = bot
+            print "backend: updating user status"
             self._update_user(cursor, userid,
                               status=Status.Chat,
                               room_id=next_room_id,

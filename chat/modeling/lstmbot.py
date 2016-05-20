@@ -75,7 +75,7 @@ class LSTMChatBot(ChatBotBase):
     MAX_OUT_LEN = 100
     MENTION_WINDOW = 3
 
-    def __init__(self, scenario, agent_num, tagger, model_path):
+    def __init__(self, scenario, agent_num, tagger, model):
         self.scenario = scenario
         self.agent_num = agent_num
         self.friends = scenario["agents"][agent_num]["friends"]
@@ -84,16 +84,15 @@ class LSTMChatBot(ChatBotBase):
         self.my_info = scenario["agents"][agent_num]["info"]
         self.my_turn = True
         self.tagger = tagger
-        print "Loading model from %s" % model_path
-        spec = specutil.load(model_path)
-        #self.spec = spec
-        self.model = EncoderDecoderModel(spec)
-        self.in_vocabulary = spec.in_vocabulary
-        self.out_vocabulary = spec.out_vocabulary
-        self.hidden_size = spec.hidden_size
+        self.model = model
+
+        self.in_vocabulary = model.spec.in_vocabulary
+        self.out_vocabulary = model.spec.out_vocabulary
+        self.hidden_size = model.spec.hidden_size
         self.my_mentions = []
         self.partner_mentions = []
         self.h_t = self.model.spec.get_init_state().eval()
+        print "got initial hidden state"
         self.last_message_timestamp = datetime.datetime.now()
         self._ended = False
         self.partner_selected_connection = False
@@ -101,6 +100,7 @@ class LSTMChatBot(ChatBotBase):
         self.next_messages = []
         self.create_mappings()
         self.init_probabilities()
+        print "finished initializing probabilities"
 
     def create_mappings(self):
         for friend in self.friends:
