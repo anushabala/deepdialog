@@ -165,6 +165,8 @@ class LSTMChatBot(ChatBotBase):
                 for entity_type in mentions_dict.keys():
                     partner_mentions_flat[entity_type].update(mentions_dict)
 
+            print "my mentions flat", my_mentions_flat
+            print "partner mentions flat", partner_mentions_flat
             choices = []
             entity = None
             try:
@@ -200,7 +202,7 @@ class LSTMChatBot(ChatBotBase):
                 all_entities = get_all_entities_with_tag(tag, my_info)
                 choices = all_entities
                 print choices
-
+            print "choices after mentions:", choices
             if tag == Entity.to_tag(Entity.FIRST_NAME):
                 if "F:UNKNOWN" in features:
                     try:
