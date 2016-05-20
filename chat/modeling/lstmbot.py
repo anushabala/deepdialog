@@ -215,7 +215,7 @@ class LSTMChatBot(ChatBotBase):
                     sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
                     print sorted_probs
                     print choices
-                    sorted_choices = [a[0] for a in sorted_probs if a in choices]
+                    sorted_choices = [a[0] for a in sorted_probs if a[0] in choices]
                     entity = sorted_choices[0]
                 else:
                     # todo maybe raise an error! must always generate either known or unknown friend
@@ -238,7 +238,9 @@ class LSTMChatBot(ChatBotBase):
                         my_entity = my_info["info"]["school"]["major"]
                     else:
                         my_entity = my_info["info"]["company"]["name"]
+                    print "MATCH FRIEND FEATURE: ", all_entities
                     choices = [c for c in all_entities if c in choices and c != my_entity]
+                    print choices
                     entity = np.random.choice(choices)
                 else:
                     # must be something that's been mentioned
@@ -301,6 +303,8 @@ class LSTMChatBot(ChatBotBase):
             y_with_entities, new_mentions = self.replace_entities(y_words)
             self.update_mentions(new_mentions, mine=True)
             messages = split_into_utterances(y_with_entities)
+            if messages[0] == '':
+                messages.pop(0)
 
             # OVERRIDE LSTM OUTPUT IF PARTNER SELECTION MADE BUT BOT DOESN'T GENERATE SELECTION CORRECTLY
             self.next_messages.extend(messages)
@@ -331,7 +335,7 @@ class LSTMChatBot(ChatBotBase):
 
     def replace_with_tags(self, seq, found_entities, possible_entities, features):
         seq = seq.strip().lower()
-        seq = seq.translate(string.maketrans("",""), string.punctuation)
+        seq = str(seq).translate(string.maketrans("",""), string.punctuation)
         sentence = seq.split()
         new_sentence = []
 
@@ -342,20 +346,23 @@ class LSTMChatBot(ChatBotBase):
             for entity_type in entity_dict.keys():
                 all_matched_tokens.extend(entity_dict[entity_type])
 
+        print found_entities
+        print possible_entities
         new_mentions = defaultdict(list)
         for entity_dict in all_entities:
             for entity_type in entity_dict.keys():
                 for mentioned in entity_dict[entity_type]:
-                    if mentioned in self.tagger.synonyms[entity_type].keys():
+                    if mentioned in self.tagger.synonyms[entity_type].keys() and len(self.tagger.synonyms[entity_type][mentioned]) > 0:
                         new_mentions[Entity.to_tag(entity_type)].extend(self.tagger.synonyms[entity_type][mentioned])
                     else:
                         new_mentions[Entity.to_tag(entity_type)].append(mentioned)
 
-
+        print new_mentions
         friend_mentions_flat = []
         for d in self.partner_mentions:
             for entity_type in d.keys():
                 friend_mentions_flat.extend(d[entity_type])
+        print friend_mentions_flat
         my_mentions_flat = []
         for d in self.my_mentions:
             for entity_type in d.keys():
@@ -451,26 +458,43 @@ class LSTMChatBot(ChatBotBase):
 
     def update_mentions(self, new_mentions, mine=False):
         to_update = self.my_mentions if mine else self.partner_mentions
+        print "Updating (mine=%s)" % str(mine)
+        print "before:", to_update
+        print "new:", new_mentions
         if len(to_update) >= self.MENTION_WINDOW:
             to_update.pop(0)
-            to_update.append(new_mentions)
+        to_update.append(new_mentions)
+        print "after:", to_update
 
     def receive(self, message):
         if self._ended:
             return
         self.last_message_timestamp = datetime.datetime.now()
-        found_entities, possible_entities, features = self.tagger.tag_sentence(message, include_features=True, scenario=self.scenario, agent_idx=self.agent_num)
+        selection = False
+        if SELECT in message:
+            selection = True
+            message = message.replace(SELECT, "")
 
-        if not self._started:
-            if START not in message:
-                message = START + " " + message
-            self._started = True
+        print "Raw message received:", message
+        found_entities, possible_entities, features = self.tagger.tag_sentence(message, include_features=True, scenario=self.scenario, agent_idx=self.agent_num)
 
         tagged_msg, new_mentions = self.replace_with_tags(message, found_entities, possible_entities, features)
 
-        print "Message received: ", tagged_msg
+        if not self._started:
+            if START not in message:
+                tagged_msg = START + " " + tagged_msg.strip()
+            self._started = True
+
+        if message != "" and not selection:
+            tagged_msg = SAY_DELIM + tagged_msg.strip()
+        elif selection:
+            tagged_msg = SELECT + " " + tagged_msg.strip()
+
+        print "Tagged message received: ", tagged_msg
+        print "New mentions:", new_mentions
         self.rerank_friends(new_mentions)
         self.update_mentions(new_mentions)
+        print "Friend mentions:", self.partner_mentions
         self.my_turn = True
 
         x_inds = self.in_vocabulary.sentence_to_indices(tagged_msg)
@@ -500,6 +524,6 @@ class LSTMChatBot(ChatBotBase):
 
     def start(self):
         if self.my_turn:
-            self.receive(START)
+            self.receive("")
         else:
             pass

@@ -51,11 +51,11 @@ class EncoderDecoderSpec(Spec):
         self.hidden_size = hidden_size
         # todo generify this
         inword_list, inemb_size, infloat_type, in_emb_mat = invoc_state
-        self.in_vocabulary = RawVocabulary(inword_list, inemb_size, infloat_type)
+        self.in_vocabulary = RawVocabulary(inword_list[2:], inemb_size, infloat_type)
         self.in_vocabulary.__setstate__(in_emb_mat)
 
         outword_list, outemb_size, outfloat_type, out_emb_mat = outvoc_state
-        self.out_vocabulary = RawVocabulary(outword_list, outemb_size, outfloat_type)
+        self.out_vocabulary = RawVocabulary(outword_list[2:], outemb_size, outfloat_type)
         self.out_vocabulary.__setstate__(out_emb_mat)
 
         self.encoder = self.create_layer(self.in_vocabulary, self.hidden_size, True, False)

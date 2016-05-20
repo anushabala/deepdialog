@@ -296,7 +296,7 @@ class EntityTagger(object):
     def tag_sentence(self, sentence, include_features=False, scenario=None, agent_idx=-1):
         features = defaultdict(str)
         sentence = sentence.strip().lower()
-        sentence_mod = sentence.translate(string.maketrans("",""), string.punctuation)
+        sentence_mod = str(sentence).translate(string.maketrans("",""), string.punctuation)
         sentence_mod = sentence_mod.split()
         found_entities = defaultdict(list)
         possible_entities = defaultdict(list)
