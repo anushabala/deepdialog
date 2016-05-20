@@ -25,7 +25,30 @@ class ChatState(object):
     FINISHED = 9
 
 
-class ChatBot(object):
+class ChatBotBase(object):
+    def start(self):
+        raise NotImplementedError
+
+    def init_probabilities(self):
+        raise NotImplementedError
+
+    def receive(self, message):
+        raise NotImplementedError
+
+    def partner_selection(self, selection):
+        raise NotImplementedError
+
+    def send(self):
+        raise NotImplementedError
+
+    def end_chat(self):
+        raise NotImplementedError
+
+    def start_chat(self):
+        raise NotImplementedError
+
+
+class ChatBot(ChatBotBase):
     # todo change this later so tagger returns confidences
     FULL_NAME_BOOST = 1
     PROB_BOOST_DIRECT_MENTION = 1

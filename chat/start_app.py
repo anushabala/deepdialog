@@ -10,7 +10,7 @@ import logging
 
 
 # initialize database with table for chat rooms and active users
-from chat.modeling.tagger import EntityTagger
+from modeling.tagger import EntityTagger
 
 
 def init_database(db_file):
@@ -21,8 +21,8 @@ def init_database(db_file):
     c.execute('''CREATE TABLE SingleTasks (name text, scenario_id text, selected_index integer, selected_restaurant text, start_text text)''')
     c.execute('''CREATE TABLE CompletedTasks (name text, mturk_code text, num_single_tasks_completed integer, num_chats_completed integer, bonus integer)''')
     c.execute('''CREATE TABLE Surveys (name text, partner_type text, how_mechanical integer, how_effective integer)''')
-    c.execute('''CREATE TABLE ChatCounts (id integer, humans integer, bots integer, prob real)''')
-    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0, 0.25)''')
+    c.execute('''CREATE TABLE ChatCounts (id integer, humans integer, bots integer, lstms integer, prob_bot real, prob_lstm real)''')
+    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0,0,0,0.15)''')
     #c.execute('''CREATE TABLE Chatrooms (room_id integer, scenario_id text)''')
     conn.commit()
     conn.close()
@@ -60,7 +60,9 @@ if __name__ == '__main__':
     app.config["scenarios"] = scenarios_dict
     app.config["outcomes"] = defaultdict(lambda : -1)
     app.config["bots"] = defaultdict(None)
+    app.config["lstms"] = defaultdict(None)
     app.config["bot_selections"] = defaultdict(None)
+    app.config["lstm_selections"] = defaultdict(None)
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)

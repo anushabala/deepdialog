@@ -1,4 +1,5 @@
 __author__ = 'anushabala'
+
 from argparse import ArgumentParser
 from transcript_utils import load_scenarios, parse_transcript, is_transcript_valid
 import os

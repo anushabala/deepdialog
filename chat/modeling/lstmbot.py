@@ -1,0 +1,453 @@
+import random
+import string
+import operator
+from chat.modeling.chatbot import ChatBotBase
+from chat.nn import spec as specutil
+from chat.nn import encdecspec
+from collections import defaultdict
+from chat.nn.encoderdecoder import EncoderDecoderModel
+from chat.nn.vocabulary import Vocabulary
+import numpy as np
+from chat.modeling.tagger import Entity
+import datetime
+
+__author__ = 'anushabala'
+
+START = "START"
+SELECT = "SELECT NAME"
+SAY_DELIM = "SAY "
+
+
+def get_tag_and_features(token):
+    if "<" not in token and ">" not in token:
+        # not a tagged entity, return nonetypes
+        return None, None
+
+    token = token.split(">_<")
+    assert len(token) > 0
+
+    tag = token[0].strip("<>")
+    if len(token) == 1:
+        return tag, None
+
+    features = [t.strip("<>") for t in token[1:]]
+    return tag, features
+
+
+def get_all_entities_with_tag(tag, json_info):
+    if tag == Entity.to_tag(Entity.FULL_NAME):
+        return list({friend["name"].lower() for friend in json_info["friends"]})
+    if tag == Entity.to_tag(Entity.COMPANY_NAME):
+        return list({friend["company"]["name"].lower() for friend in json_info["friends"]})
+    if tag == Entity.to_tag(Entity.SCHOOL_NAME):
+        return list({friend["school"]["name"].lower() for friend in json_info["friends"]})
+    if tag == Entity.to_tag(Entity.MAJOR):
+        return list({friend["school"]["major"].lower() for friend in json_info["friends"]})
+
+
+def split_into_utterances(pred_seq):
+    seqs = pred_seq.split(SAY_DELIM)
+    print "splitting", seqs
+    if seqs[0].strip() == START and len(seqs) > 1:
+        seqs.pop(0)
+    new_seqs = []
+    for s in seqs:
+        if SELECT in s:
+            i = s.index(SELECT)
+            new_seqs.append(s[:i])
+            new_seqs.append(s[i:])
+        else:
+            new_seqs.append(s)
+    return new_seqs
+
+
+class LSTMChatBot(ChatBotBase):
+    CHAR_RATE = 9.5
+    SELECTION_DELAY = 1000
+    EPSILON = 1500
+    MAX_OUT_LEN = 100
+    MENTION_WINDOW = 3
+
+    def __init__(self, scenario, agent_num, tagger, model_path):
+        self.scenario = scenario
+        self.agent_num = agent_num
+        self.friends = scenario["agents"][agent_num]["friends"]
+        self.full_names_cased = {}
+        self.probabilities = {}
+        self.my_info = scenario["agents"][agent_num]["info"]
+        self.my_turn = True
+        self.tagger = tagger
+        print "Loading model from %s" % model_path
+        spec = specutil.load(model_path)
+        #self.spec = spec
+        self.model = EncoderDecoderModel(spec)
+        self.in_vocabulary = spec.in_vocabulary
+        self.out_vocabulary = spec.out_vocabulary
+        self.hidden_size = spec.hidden_size
+        self.my_mentions = []
+        self.partner_mentions = []
+        self.h_t = self.model.spec.get_init_state().eval()
+        self.last_message_timestamp = datetime.datetime.now()
+        self._ended = False
+        self.partner_selected_connection = False
+        self.partner_selection_message = None
+        self.next_messages = []
+        self.create_mappings()
+        self.init_probabilities()
+
+    def create_mappings(self):
+        for friend in self.friends:
+            name = friend["name"]
+            self.full_names_cased[name.lower()] = name
+
+    def rerank_friends(self, new_partner_mentions):
+        for entity_type in new_partner_mentions.keys():
+            mentions = new_partner_mentions[entity_type]
+            for friend in self.friends:
+                name = friend["name"].lower()
+                first_name = friend["name"].lower().split()[0]
+                if entity_type == Entity.to_tag(Entity.FIRST_NAME):
+                    if name in mentions:
+                        self.probabilities[name] += 1
+                    elif first_name in mentions:
+                        self.probabilities[name] += 1
+                elif entity_type == Entity.to_tag(Entity.MAJOR):
+                    major = friend["school"]["major"].lower()
+                    if major in mentions:
+                        self.probabilities[name] += 1
+                elif entity_type == Entity.to_tag(Entity.SCHOOL_NAME):
+                    school = friend["school"]["name"].lower()
+                    if school in mentions:
+                        self.probabilities[name] += 1
+                elif entity_type == Entity.to_tag(Entity.COMPANY_NAME):
+                    company = friend["company"]["name"].lower()
+                    if company in mentions:
+                        self.probabilities[name] += 1
+
+    def replace_entities(self, tagged_seq):
+        tagged_seq = tagged_seq.lower()
+        tokens = tagged_seq.strip().split()
+        new_sentence = []
+        my_info = self.scenario["agents"][self.agent_num]["info"]
+        partner_info = self.scenario["agents"][1-self.agent_num]["info"]
+        new_mentions = defaultdict(list)
+
+        for token in tokens:
+            tag, features = get_tag_and_features(token)
+            if tag is None:
+                new_sentence.append(token)
+                continue
+
+            if features is None:
+                # this should never happen? the bot should never generate something that doesn't match its information
+                # todo default to some random behavior here, pass for now
+                continue
+
+            my_mentions_flat = defaultdict(set)
+            for mentions_dict in self.my_mentions:
+                for entity_type in mentions_dict.keys():
+                    my_mentions_flat[entity_type].update(mentions_dict)
+            friend_mentions_flat = defaultdict(set)
+            for mentions_dict in self.partner_mentions:
+                for entity_type in mentions_dict.keys():
+                    friend_mentions_flat[entity_type].update(mentions_dict)
+
+            choices = []
+            entity = None
+            if "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" in features:
+                choices = [c for c in my_mentions_flat[tag] if c in friend_mentions_flat[tag]]
+                if len(choices) == 0:
+                    # this should never happen, todo again default
+                    pass
+            elif "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" not in features:
+                choices = [c for c in friend_mentions_flat[tag] if c not in my_mentions_flat[tag]]
+                if len(choices) == 0:
+                    # this should never happen, todo again default
+                    pass
+            elif "F:MENTIONED_BY_ME" in features and "F:MENTIONED_BY_FRIEND" not in features:
+                choices =  [c for c in my_mentions_flat[tag] if c not in friend_mentions_flat[tag]]
+                # this should never happen, todo again default
+            else:
+                # no mentions at all
+                all_entities = get_all_entities_with_tag(tag, my_info)
+                choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in friend_mentions_flat[tag]]
+
+            if tag == Entity.to_tag(Entity.FIRST_NAME):
+                if "F:UNKNOWN" in features:
+                    try:
+                        assert "F:MENTIONED_BY_FRIEND" in features and len(choices) > 0
+                    except AssertionError:
+                        # todo do something here, can't generate unknown friend without previous mentions
+                        pass
+                    partner_friends = get_all_entities_with_tag(tag, partner_info)
+                    choices = [c for c in partner_friends if c in choices]
+                    entity = np.random.choice(choices)
+                elif "F:KNOWN" in features:
+                    sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
+                    sorted_choices = [a[0] for a in sorted_probs if a in choices]
+                    entity = sorted_choices[0]
+                else:
+                    # todo maybe raise an error! must always generate either known or unknown friend
+                    sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
+                    sorted_choices = [a[0] for a in sorted_probs if a in choices]
+                    entity = sorted_choices[0]
+            else:
+                if "MATCH_ME" in features:
+                    if tag == Entity.to_tag(Entity.SCHOOL_NAME):
+                        entity = my_info["info"]["school"]["name"]
+                    elif tag == Entity.to_tag(Entity.MAJOR):
+                        entity = my_info["info"]["school"]["major"]
+                    elif tag == Entity.to_tag(Entity.COMPANY_NAME):
+                        entity = my_info["info"]["company"]["name"]
+                elif "MATCH_FRIEND" in features:
+                    all_entities = get_all_entities_with_tag(tag, my_info)
+                    if tag == Entity.to_tag(Entity.SCHOOL_NAME):
+                        my_entity = my_info["info"]["school"]["name"]
+                    elif tag == Entity.to_tag(Entity.MAJOR):
+                        my_entity = my_info["info"]["school"]["major"]
+                    else:
+                        my_entity = my_info["info"]["company"]["name"]
+                    choices = [c for c in all_entities if c in choices and c != my_entity]
+                    entity = np.random.choice(choices)
+                else:
+                    # must be something that's been mentioned
+                    try:
+                        assert "F:MENTIONED_BY_FRIEND" in features and len(choices) > 0
+                    except AssertionError:
+                        # todo do something default
+                        pass
+                    all_entities = get_all_entities_with_tag(tag, my_info)
+                    choices = [c for c in choices if c not in all_entities]
+                    entity = np.random.choice(choices)
+
+            new_sentence.append(entity)
+            new_mentions[tag].append(entity)
+            print "New sentence:", new_sentence
+
+        return " ".join(new_sentence), new_mentions
+
+    def send(self):
+        if self._ended:
+            return None, None
+        if not self.my_turn:
+            # just send earlier messages if any
+            next_message = self.next_messages[0]
+            if SELECT in next_message:
+                delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
+                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
+                    return None, None
+                else:
+                    ret_text = self.next_messages.pop(0)
+                    selection = ret_text.replace(SELECT, "").strip()
+                    if selection in self.full_names_cased.keys():
+                        selection = self.full_names_cased[selection]
+                    return selection, None
+            else:
+                delay = float(len(next_message)) / self.CHAR_RATE * 1000 + random.uniform(0, self.EPSILON)
+                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
+                    return None, None
+                else:
+                    ret_text = self.next_messages.pop(0).lower()
+                    return None, ret_text
+
+        if self.my_turn:
+            pred_inds = []
+
+            for i in range(self.MAX_OUT_LEN):
+                write_dist = self.model._decoder_write(self.h_t)
+                y_t = np.argmax(write_dist)
+                p_y_t = write_dist[y_t] # probs for printing, if needed
+                pred_inds.append(y_t)
+                self.h_t = self.model._decoder_step(y_t, self.h_t)
+                if y_t == Vocabulary.END_OF_SENTENCE_INDEX:
+                    break
+
+            y_words = self.out_vocabulary.indices_to_sentence(pred_inds)
+            y_with_entities, new_mentions = self.replace_entities(y_words)
+            self.update_mentions(new_mentions, mine=True)
+            messages = split_into_utterances(y_with_entities)
+
+            # OVERRIDE LSTM OUTPUT IF PARTNER SELECTION MADE BUT BOT DOESN'T GENERATE SELECTION CORRECTLY
+            self.next_messages.extend(messages)
+            if self.partner_selected_connection and self.partner_selection_message not in self.next_messages:
+                self.next_messages = []
+                self.next_messages.append(self.partner_selection_message)
+
+            self.my_turn = False
+
+            next_message = self.next_messages[0]
+            if SELECT in next_message:
+                delay = self.SELECTION_DELAY + random.uniform(0, self.EPSILON)
+                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
+                    return None, None
+                else:
+                    ret_text = self.next_messages.pop(0)
+                    selection = ret_text.replace(SELECT, "").strip()
+                    if selection in self.full_names_cased.keys():
+                        selection = self.full_names_cased[selection]
+                    return selection, None
+            else:
+                delay = float(len(next_message)) / self.CHAR_RATE * 1000 + random.uniform(0, self.EPSILON)
+                if self.last_message_timestamp + datetime.timedelta(milliseconds=delay) > datetime.datetime.now():
+                    return None, None
+                else:
+                    ret_text = self.next_messages.pop(0).lower()
+                    return None, ret_text
+
+    def replace_with_tags(self, seq, found_entities, possible_entities, features):
+        seq = seq.strip().lower()
+        seq = seq.translate(string.maketrans("",""), string.punctuation)
+        sentence = seq.split()
+        new_sentence = []
+
+        all_entities = [found_entities, possible_entities]
+        all_matched_tokens = []
+
+        for entity_dict in all_entities:
+            for entity_type in entity_dict.keys():
+                all_matched_tokens.extend(entity_dict[entity_type])
+
+        new_mentions = defaultdict(list)
+        for entity_dict in all_entities:
+            for entity_type in entity_dict.keys():
+                for mentioned in entity_dict[entity_type]:
+                    if mentioned in self.tagger.synonyms[entity_type].keys():
+                        new_mentions[Entity.to_tag(entity_type)].extend(self.tagger.synonyms[entity_type][mentioned])
+                    else:
+                        new_mentions[Entity.to_tag(entity_type)].append(mentioned)
+
+
+        friend_mentions_flat = []
+        for d in self.partner_mentions:
+            for entity_type in d.keys():
+                friend_mentions_flat.extend(d[entity_type])
+        my_mentions_flat = []
+        for d in self.my_mentions:
+            for entity_type in d.keys():
+                my_mentions_flat.extend(d[entity_type])
+
+        for mentioned in friend_mentions_flat:
+            if mentioned in all_matched_tokens:
+                if "_<F:MENTIONED_BY_FRIEND>" not in features[mentioned]:
+                    features[mentioned] += "_<F:MENTIONED_BY_FRIEND>"
+            elif " " in mentioned:
+                split = mentioned.split()
+                for part in split:
+                    if part in all_matched_tokens:
+                        if "_<F:MENTIONED_BY_FRIEND>" not in features[part]:
+                            features[part] += "_<F:MENTIONED_BY_FRIEND>"
+            else:
+                for token in all_matched_tokens:
+                    if " " in token:
+                        split = token.split()
+
+                        for part in split:
+                            if part == mentioned:
+                                if "_<F:MENTIONED_BY_FRIEND>" not in features[token]:
+                                    features[token] += "_<F:MENTIONED_BY_FRIEND>"
+
+        for mentioned in my_mentions_flat:
+            if mentioned in all_matched_tokens:
+                if "_<F:MENTIONED_BY_ME>" not in features[mentioned]:
+                    features[mentioned] += "_<F:MENTIONED_BY_ME>"
+            elif " " in mentioned:
+                split = mentioned.split()
+                for part in split:
+                    if part in all_matched_tokens:
+                        if "_<F:MENTIONED_BY_ME>" not in features[part]:
+                            features[part] += "_<F:MENTIONED_BY_ME>"
+            else:
+                for token in all_matched_tokens:
+                    if " " in token:
+                        split = token.split()
+                        for part in split:
+                            if part in mentioned:
+                                if "_<F:MENTIONED_BY_ME>" not in features[token]:
+                                    features[token] += "_<F:MENTIONED_BY_ME>"
+
+        # print sentence
+        for entity_type in Entity.types():
+            for entity_dict in all_entities:
+                if entity_type not in entity_dict.keys():
+                    continue
+                matched_tokens = entity_dict[entity_type]
+                # if entity_type == Entity.SCHOOL_NAME:
+                #     print matched_tokens
+                for token in matched_tokens:
+                    i = 0
+                    while i < len(sentence):
+                        if " " in token:
+                            split_token = [t.strip() for t in token.split()]
+                            try:
+                                sentence_tokens = [w.strip() for w in sentence[i:i+len(split_token)]]
+                                if split_token == sentence_tokens:
+                                    new_sentence.append("<%s>" % Entity.to_tag(entity_type))
+                                    # if "krone" in split_token:
+                                    #     print "SENTENCE", sentence
+                                    #     print split_token
+                                    #     print sentence_tokens, i
+                                    #     print new_sentence
+                                    i += len(split_token)
+                                else:
+                                    new_sentence.append(sentence[i])
+                                    i += 1
+                            except IndexError:
+                                new_sentence.append(sentence[i])
+                                i+=1
+                        elif token == sentence[i]:
+                            new_sentence.append(features[token])
+                            i+=1
+                        else:
+                            new_sentence.append(sentence[i])
+                            i+=1
+                    sentence = new_sentence
+                    # print sentence
+                    new_sentence = []
+
+        sentence = " ".join(sentence)
+        # print sentence
+        # for entity_type in Entity.types():
+        #     for entity_dict in all_entities:
+        #         matched_tokens = entity_dict[entity_type]
+        #         for token in matched_tokens:
+        #             if " " in token:
+        #                 sentence = sentence.replace(token, Entity.to_tag(entity_type))
+        return sentence, new_mentions
+
+    def update_mentions(self, new_mentions, mine=False):
+        to_update = self.my_mentions if mine else self.partner_mentions
+        if len(to_update) >= self.MENTION_WINDOW:
+            to_update.pop(0)
+            to_update.append(new_mentions)
+
+    def receive(self, message):
+        if self._ended:
+            return
+        self.last_message_timestamp = datetime.datetime.now()
+        found_entities, possible_entities, features = self.tagger.tag_sentence(message, include_features=True, scenario=self.scenario, agent_idx=self.agent_num)
+        tagged_msg, new_mentions = self.replace_with_tags(message, found_entities, possible_entities, features)
+        self.rerank_friends(new_mentions)
+        self.update_mentions(new_mentions)
+        self.my_turn = True
+
+        x_inds = self.in_vocabulary.sentence_to_indices(tagged_msg)
+        self.h_t = self.model._encode(x_inds, self.h_t)
+
+    def init_probabilities(self):
+        for friend in self.friends:
+            self.probabilities[friend["name"].lower()] = 0.0
+
+    def partner_selection(self, selection):
+        selection = selection.lower()
+        selection_message = "%s %s" % (SELECT, selection.lower())
+        self.receive(selection_message)
+        if selection in self.probabilities.keys():
+            self.partner_selected_connection = True
+            self.partner_selection_message = selection_message
+
+    def end_chat(self):
+        self.my_turn = False
+        self._ended = True
+
+    def start_chat(self):
+        pass
