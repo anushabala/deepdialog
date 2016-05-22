@@ -4,7 +4,7 @@ import os
 from argparse import ArgumentParser
 
 
-def parse_transcript(name, html_lines):
+def parse_transcript(name, complete_html_lines, incomplete_html_lines):
     inp = open(name, 'r')
     chat_name = name[name.rfind('/')+1:]
     selections = {0:None, 1:None}
@@ -57,24 +57,29 @@ def parse_transcript(name, html_lines):
         chat_html.insert(0, '<div style=\"color:#FF0000\">')
     chat_html.append('</div>')
 
-    html_lines.extend(chat_html)
+    if completed:
+        complete_html_lines.extend(chat_html)
+    else:
+        incomplete_html_lines.extend(chat_html)
 
     return completed
 
 
 def aggregate_chats(dirname):
     html = ['<!DOCTYPE html>','<html>']
-    chats = []
+    completed_chats = []
+    incomplete_chats = []
     total = 0
     num_completed = 0
     for f in os.listdir(args.dir):
         print f
-        completed = parse_transcript(os.path.join(args.dir, f), chats)
+        completed = parse_transcript(os.path.join(args.dir, f), completed_chats, incomplete_chats)
         if completed:
             num_completed += 1
         total += 1
     html.extend(['<h3>Total number of chats: %d</h3>' % total, '<h3>Number of chats completed: %d</h3>' % num_completed])
-    html.extend(chats)
+    html.extend(completed_chats)
+    html.extend(incomplete_chats)
     html.append('</html>')
     return html
 
@@ -82,10 +87,11 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument('--dir', type=str, default='transcripts', help='Path to directory containing transcripts')
     parser.add_argument('--output_dir', type=str, required=False, default='output', help='Path to directory to write HTML output to.')
+    parser.add_argument('--output_file', type=str, required=True, help='Name of file to write report to')
     args = parser.parse_args()
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
-    outfile = open(os.path.join(args.output_dir, 'report.html'), 'w')
+    outfile = open(os.path.join(args.output_dir, args.output_file), 'w')
     html_lines = aggregate_chats(args.dir)
 
     for line in html_lines:

@@ -13,6 +13,7 @@ VALID = "VALID"
 SELECT_TEXT = "SELECT NAME"
 MAX_NAME_COUNT = 5
 MAX_SELECT_COUNT = 2
+MAX_CONSECUTIVE_COUNT = 3
 tagger = None
 SEQ_DELIMITER = " | "
 MENTION_WINDOW=3
@@ -41,16 +42,14 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                     if part in all_matched_tokens:
                         if "_<F:MENTIONED_BY_FRIEND>" not in features[part]:
                             features[part] += "_<F:MENTIONED_BY_FRIEND>"
-            else:
-                for token in all_matched_tokens:
-                    if " " in token:
-                        split = token.split()
-                        # if "geissler" in token:
-
-                        for part in split:
-                            if part == mentioned:
-                                if "_<F:MENTIONED_BY_FRIEND>" not in features[token]:
-                                    features[token] += "_<F:MENTIONED_BY_FRIEND>"
+            for token in all_matched_tokens:
+                token = token.lower()
+                if " " in token:
+                    split = token.split()
+                    for part in split:
+                        if part == mentioned:
+                            if "_<F:MENTIONED_BY_FRIEND>" not in features[token]:
+                                features[token] += "_<F:MENTIONED_BY_FRIEND>"
 
         for mentioned in prev_mentions_by_me:
             if mentioned in all_matched_tokens:
@@ -62,17 +61,17 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                     if part in all_matched_tokens:
                         if "_<F:MENTIONED_BY_ME>" not in features[part]:
                             features[part] += "_<F:MENTIONED_BY_ME>"
-            else:
-                for token in all_matched_tokens:
-                    if " " in token:
-                        # if "geissler" in token:
-                        #     print all_matched_tokens
-                        #     print mentioned
-                        split = token.split()
-                        for part in split:
-                            if part in mentioned:
-                                if "_<F:MENTIONED_BY_ME>" not in features[token]:
-                                    features[token] += "_<F:MENTIONED_BY_ME>"
+            for token in all_matched_tokens:
+                if " " in token:
+                    token = token.lower()
+                    # if "geissler" in token:
+                    #     print all_matched_tokens
+                    #     print mentioned
+                    split = token.split()
+                    for part in split:
+                        if part in mentioned:
+                            if "_<F:MENTIONED_BY_ME>" not in features[token]:
+                                features[token] += "_<F:MENTIONED_BY_ME>"
 
     sentence = seq.strip().split()
     # print sentence
@@ -88,12 +87,14 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                 i = 0
                 while i < len(sentence):
                     if " " in token:
-                        split_token = [t.strip() for t in token.split()]
+                        split_token = [t.strip() for t in token.lower().split()]
                         try:
                             sentence_tokens = [w.strip() for w in sentence[i:i+len(split_token)]]
                             if split_token == sentence_tokens:
                                 if include_features:
+
                                     new_sentence.append(features[token])
+
                                 else:
                                     new_sentence.append("<%s>" % Entity.to_tag(entity_type))
                                 # if "krone" in split_token:
@@ -110,6 +111,8 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                             i+=1
                     elif token == sentence[i]:
                         if include_features:
+                            # if "birgit" in token:
+                                # print features[token]
                             new_sentence.append(features[token])
                         else:
                             new_sentence.append("<%s>" % Entity.to_tag(entity_type))
@@ -120,7 +123,6 @@ def tag_sequence(seq, scenario, agent_idx=-1, include_features=False, prev_menti
                 sentence = new_sentence
                 # print sentence
                 new_sentence = []
-
     sentence = " ".join(sentence)
     # print sentence
     # for entity_type in Entity.types():
@@ -185,7 +187,6 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
         if user_num != current_user:
             text_to_add = current_text.strip()
             if tag_sentences:
-                print text_to_add
                 if include_features:
                     my_mentions_flattened = []
                     for mentions in prev_mentions[current_user]:
@@ -199,7 +200,6 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
                     prev_mentions[current_user].append(new_mentions)
                 else:
                     text_to_add = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user)
-                print text_to_add
                 # print "------"
             current_seq.append(text_to_add)
             current_text = ""
@@ -213,7 +213,6 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
 
     text_to_add = current_text.strip()
     if tag_sentences:
-        print text_to_add
         if include_features:
             my_mentions_flattened = []
             for mentions in prev_mentions[current_user]:
@@ -227,7 +226,6 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
             prev_mentions[current_user].append(new_mentions)
         else:
             text_to_add = tag_sequence(text_to_add, scenarios[transcript["scenario"]], bot_user)
-        print text_to_add
     current_seq.append(text_to_add)
     if len(seq_in) < len(seq_out):
         seq_in.append("PASS")
@@ -237,6 +235,7 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
     try:
         assert len(seq_in) == len(seq_out)
     except AssertionError:
+        print "LENGTH OF SEQUENCES DOESN'T MATCH"
         print dialogue
         print seq_in
         print seq_out
@@ -256,12 +255,53 @@ def get_sequences_from_transcript(transcript, scenarios, reverse=False, include_
 
 def is_degenerate(seq):
     sentences = seq.split(SEQ_DELIMITER)
+    max_consecutive_selections = 0
+    consecutive_selections = 0
+    max_listings = 0
+    consecutive_listings = 0
+    prev_listing = False
+    prev_selection = False
     for s in sentences:
-        if s.count(Entity.to_tag(Entity.FULL_NAME)) > MAX_NAME_COUNT or s.count(SELECT_TEXT) > MAX_SELECT_COUNT:
+        select_count = s.count(SELECT_TEXT)
+        name_count = s.count(Entity.to_tag((Entity.FULL_NAME))) - select_count
+        assert name_count >= 0
+        if name_count > MAX_NAME_COUNT or select_count > MAX_SELECT_COUNT:
             return True
+        if select_count > 0:
+            if prev_selection:
+                consecutive_selections += 1
+            else:
+                consecutive_selections = 1
+            prev_selection = True
+        else:
+            prev_selection = False
+            if consecutive_selections > max_consecutive_selections:
+                max_consecutive_selections = consecutive_selections
+        if name_count > 0:
+            if prev_listing:
+                consecutive_listings += 1
+            else:
+                consecutive_listings = 1
+            prev_listing = True
+        else:
+            prev_listing = False
+            if consecutive_listings > max_listings:
+                max_listings = consecutive_listings
+
+    if max_listings > MAX_NAME_COUNT:
+        print seq
+        print "too many consecutive name mentions"
+        print max_listings
+        return True
+    if max_consecutive_selections > MAX_SELECT_COUNT:
+        print "too many consecutive selections"
+        print seq
+        print max_consecutive_selections
+        return True
+
     return False
 
-    
+
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--scenarios", type=str, default='../scenarios.json', help='File containing JSON scenarios')
@@ -311,21 +351,20 @@ if __name__ == "__main__":
                                                             include_metadata=args.include_metadata,
                                                             tag_sentences=args.tag_entities,
                                                             include_features=args.include_features)
-
             if is_degenerate(in_seq) or is_degenerate(out_seq):
-                # print "degenerate example, skipping", transcript
-                # print in_seq, out_seq
-                # print "---"
+                print "degenerate example, skipping", transcript
+                print in_seq, out_seq
+                print "---"
                 degenerate_ctr += 1
                 continue
             r = random.random()
-            if 0 <= r < 0.6:
+            if 0 <= r < 0.8:
                 train_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
                 train_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
                 if args.include_metadata or args.tag_entities:
                     train_ids.write("%s\n" % transcript["scenario"])
                     train_ids.write("%s\n" % transcript["scenario"])
-            elif 0.6 <= r < 0.8:
+            elif 0.8 <= r < 0.1:
                 val_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
                 val_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
                 if args.include_metadata or args.tag_entities:

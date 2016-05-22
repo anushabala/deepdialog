@@ -382,15 +382,15 @@ class LSTMChatBot(ChatBotBase):
                     if part in all_matched_tokens:
                         if "_<F:MENTIONED_BY_FRIEND>" not in features[part]:
                             features[part] += "_<F:MENTIONED_BY_FRIEND>"
-            else:
-                for token in all_matched_tokens:
-                    if " " in token:
-                        split = token.split()
+            for token in all_matched_tokens:
+                token = token.lower()
+                if " " in token:
+                    split = token.split()
 
-                        for part in split:
-                            if part == mentioned:
-                                if "_<F:MENTIONED_BY_FRIEND>" not in features[token]:
-                                    features[token] += "_<F:MENTIONED_BY_FRIEND>"
+                    for part in split:
+                        if part == mentioned:
+                            if "_<F:MENTIONED_BY_FRIEND>" not in features[token]:
+                                features[token] += "_<F:MENTIONED_BY_FRIEND>"
 
         for mentioned in my_mentions_flat:
             if mentioned in all_matched_tokens:
@@ -402,14 +402,14 @@ class LSTMChatBot(ChatBotBase):
                     if part in all_matched_tokens:
                         if "_<F:MENTIONED_BY_ME>" not in features[part]:
                             features[part] += "_<F:MENTIONED_BY_ME>"
-            else:
-                for token in all_matched_tokens:
-                    if " " in token:
-                        split = token.split()
-                        for part in split:
-                            if part in mentioned:
-                                if "_<F:MENTIONED_BY_ME>" not in features[token]:
-                                    features[token] += "_<F:MENTIONED_BY_ME>"
+            for token in all_matched_tokens:
+                token = token.lower()
+                if " " in token:
+                    split = token.split()
+                    for part in split:
+                        if part in mentioned:
+                            if "_<F:MENTIONED_BY_ME>" not in features[token]:
+                                features[token] += "_<F:MENTIONED_BY_ME>"
 
         # print sentence
         for entity_type in Entity.types():
