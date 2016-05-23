@@ -364,7 +364,8 @@ class LSTMChatBot(ChatBotBase):
                     else:
                         if mentioned in self.first_names_to_full_names.keys():
                             new_mentions[Entity.to_tag(entity_type)].append(self.first_names_to_full_names[mentioned])
-                        new_mentions[Entity.to_tag(entity_type)].append(mentioned)
+                        else:
+                            new_mentions[Entity.to_tag(entity_type)].append(mentioned)
 
         print new_mentions
         friend_mentions_flat = []
