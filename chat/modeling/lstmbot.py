@@ -80,6 +80,7 @@ class LSTMChatBot(ChatBotBase):
         self.agent_num = agent_num
         self.friends = scenario["agents"][agent_num]["friends"]
         self.full_names_cased = {}
+        self.first_names_to_full_names = {}
         self.probabilities = {}
         self.my_info = scenario["agents"][agent_num]["info"]
         self.my_turn = False
@@ -108,6 +109,8 @@ class LSTMChatBot(ChatBotBase):
         for friend in self.friends:
             name = friend["name"]
             self.full_names_cased[name.lower()] = name
+            first_name = friend["name"].lower().split()[0]
+            self.first_names_to_full_names[first_name] = name.lower()
 
     def rerank_friends(self, new_partner_mentions):
         if len(new_partner_mentions.keys()) == 0:
@@ -145,6 +148,16 @@ class LSTMChatBot(ChatBotBase):
         partner_info = self.scenario["agents"][1-self.agent_num]
         new_mentions = defaultdict(list)
 
+        my_mentions_flat = defaultdict(set)
+        for mentions_dict in self.my_mentions:
+            for entity_type in mentions_dict.keys():
+                my_mentions_flat[entity_type].update(mentions_dict[entity_type])
+
+        partner_mentions_flat = defaultdict(set)
+        for mentions_dict in self.partner_mentions:
+            for entity_type in mentions_dict.keys():
+                partner_mentions_flat[entity_type].update(mentions_dict[entity_type])
+
         for token in tokens:
             tag, features = get_tag_and_features(token)
             if tag is None:
@@ -155,16 +168,6 @@ class LSTMChatBot(ChatBotBase):
                 # this should never happen? the bot should never generate something that doesn't match its information
                 # todo default to some random behavior here, pass for now
                 continue
-
-            my_mentions_flat = defaultdict(set)
-            for mentions_dict in self.my_mentions:
-                for entity_type in mentions_dict.keys():
-                    my_mentions_flat[entity_type].update(mentions_dict[entity_type])
-
-            partner_mentions_flat = defaultdict(set)
-            for mentions_dict in self.partner_mentions:
-                for entity_type in mentions_dict.keys():
-                    partner_mentions_flat[entity_type].update(mentions_dict[entity_type])
 
             print "my mentions flat", my_mentions_flat
             print "partner mentions flat", partner_mentions_flat
@@ -359,6 +362,8 @@ class LSTMChatBot(ChatBotBase):
                     if mentioned in self.tagger.synonyms[entity_type].keys() and len(self.tagger.synonyms[entity_type][mentioned]) > 0:
                         new_mentions[Entity.to_tag(entity_type)].extend(self.tagger.synonyms[entity_type][mentioned])
                     else:
+                        if mentioned in self.first_names_to_full_names.keys():
+                            new_mentions[Entity.to_tag(entity_type)].append(self.first_names_to_full_names[mentioned])
                         new_mentions[Entity.to_tag(entity_type)].append(mentioned)
 
         print new_mentions
