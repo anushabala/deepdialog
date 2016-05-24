@@ -18,15 +18,18 @@
 	  }
 
 	  div#info_container {
-	  margin-left: 52%;
-	  }
+		margin-left: 52%;
+		color:#2929a3;
+		}
 
 	  textarea#chat {
-	  width: 100%;
-	  rows: 10;
-	  cols: 100;
-	  height: 25%;
-	  }
+		width: 100%;
+		rows: 10;
+		cols: 100;
+		height: 25%;
+		color:#2929a3;
+		font-size:14px;
+		}
 
 	  img.heart {
 	  height: 15px;
@@ -47,12 +50,16 @@
 	  }
 	  
 	  #instructions > p,li {
-	  font-size:18px;
+	  font-size:17px;
 	  }
 	  
 	  table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     	content: " \25B4\25BE" 
 		}
+		
+	table.sortable {
+	color:#2929a3;
+	}
 
 #clockdiv{
     display: inline-block;
@@ -189,16 +196,23 @@
       <div class="clearfix">
     <div id="chat_container">
     <div id="instructions">
-        <h1>Let's Set Our Friends Up!</h1>
+        <h1 style="color:#2929a3">Let's Set Our Friends Up!</h1>
         <p>
             You and another friend want to set two of your friends up on a date. For each of your friends, you know their favorite hobby, and whether they like indoors/outdoors and mornings/evenings. Find the best match by picking the pair of friends who have the most in common! (Hint: There's exactly one pair that has all three in common.)
         </p>
 	<h2>Instructions</h2>
 	<ul>
+		<li style="color:#cc0000">Please use <b> natural sentences </b> as much as possible.
+			<ul>
+				<li style="color:#2929a3"> <b>Do:<b> i have a friend who likes outdoors, mornings, and reading</li>
+				<li style="color:#cc0000"> <b>Don't do:<b> i have an o/m/reading friend</li>
+			</ul>
+		 </li>
+		 <li style="color:#cc0000"> Avoid simply listing out all of your friends' attributes.</li>
 	  <li> Look at the list of <b>your friends</b> at right. </li>
 	  <li> Use the <b>chat box below</b> to find out more about the other user's friends and find the best pair. </li>
 	  <li> Once you're done, select <b> your </b> friend's name from the <b>drop down list on the right</b>.
-	  <li style="color:#FF0000"><b>Please select names carefully</b>. If you select a name once, the website will not allow you to select another name for 10 seconds after your first selection.</li>
+	  <li style="color:#cc0000"><b>Please select names carefully</b>. If you select a name once, the website will not allow you to select another name for 10 seconds after your first selection.</li>
 	</ul>
 	</div>
 
@@ -217,18 +231,23 @@
 
     <div id="info_container">
         <div id="preferences">
-
-            <h3>Your information</h3>
-            <table class="cuisine_preferences_list">
-					<tr>
-						<td>Name</td>
-						<td>
-						{{ agent["info"]["name"] }}
-						</td>
-				  </tr>
-			</table>
-
-
+        	<div id="top">
+			<div id="my_prefs" style="float:left">
+				<h3>Your information</h3>
+				<table class="cuisine_preferences_list">
+						<tr>
+							<td>Name</td>
+							<td>
+							{{ agent["info"]["name"] }}
+							</td>
+					  </tr>
+				</table>
+			</div>
+			<div id="icon" style="float:right">
+				<img height="120" width="120" src="{{ url_for('static', filename='img/heart.png') }}"/>
+			</div>
+			</div>
+		<div style="float:left">
             <h3>Your friends</h3>
 	    <table class="sortable">
 	    <thead>
@@ -250,9 +269,7 @@
 	    {% endfor %}
 	    </tbody>
 	    </table>
-        </div>
-
-        	<h3>Choose a friend below:</h3>
+	    <h3>Choose a friend below:</h3>
             <select id="ddRestaurants">
             	<option value="-1">Select a friend</option>
                 {% set ctr = 0 %}
@@ -261,6 +278,10 @@
                 {% set ctr = ctr + 1 %}
                 {% endfor %}
             </select>
+	    </div>
+        </div>
+
+        	
 
     </div>
     </div>
