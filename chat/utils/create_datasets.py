@@ -339,7 +339,7 @@ if __name__ == "__main__":
             invalid[reason] += 1
         else:
             invalid[VALID] += 1
-            # print transcript
+
             in_seq, out_seq, agent_idx, scenario_id = get_sequences_from_transcript(transcript,
                                                             scenarios,
                                                             include_metadata=args.include_metadata,
@@ -358,13 +358,13 @@ if __name__ == "__main__":
                 degenerate_ctr += 1
                 continue
             r = random.random()
-            if 0 <= r < 0.8:
+            if 0 <= r < 0.9:
                 train_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
                 train_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
                 if args.include_metadata or args.tag_entities:
                     train_ids.write("%s\n" % transcript["scenario"])
                     train_ids.write("%s\n" % transcript["scenario"])
-            elif 0.8 <= r < 0.1:
+            elif 0.9 <= r < 1:
                 val_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
                 val_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
                 if args.include_metadata or args.tag_entities:

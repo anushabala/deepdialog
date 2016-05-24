@@ -1,4 +1,5 @@
 import string
+import sys
 
 __author__ = 'anushabala'
 import json
@@ -10,6 +11,7 @@ import csv
 
 entity_pattern = r'<\w+>'
 SPECIAL_WORDS = ['select', 'say', 'name', 'my']
+alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', ' ']
 
 class UnsupportedOperationError(Exception):
     def __init__(self, value):
@@ -117,7 +119,67 @@ def get_acronyms(entity):
     words = entity.split()
     if len(words) < 2:
         return []
-    return ["".join([w[0] for w in words])]
+    acronyms = ["".join([w[0] for w in words])]
+    if "of" in words:
+        acronym = ''
+        for w in words:
+            acronym += w[0] if w != 'of' else ' '+w+' '
+        acronym = acronym.strip()
+        acronyms.append(acronym)
+
+    return acronyms
+
+
+def get_single_edits_for_word(entity):
+    edits = set()
+    edit_types = ['ins', 'del', 'sub', 'trans']
+    for edit in edit_types:
+        for i in range(0, len(entity)):
+            prefix = entity[0:i]
+            if edit == 'ins':
+                suffix = entity[i:]
+                for c in alphabet:
+                    new_word = prefix + c + suffix
+                    new_word = new_word.strip()
+                    if new_word != entity:
+                        edits.add(new_word)
+            elif edit == 'del':
+                suffix = entity[i+1:]
+                new_word = prefix + suffix
+                new_word = new_word.strip()
+                edits.add(new_word)
+            elif edit == 'sub':
+                suffix = entity[i+1:]
+                for c in alphabet:
+                    if c != entity[i]:
+                        new_word = prefix + c + suffix
+                        new_word = new_word.strip()
+                        if new_word != entity:
+                            edits.add(new_word)
+            elif edit == 'trans':
+                for j in range(i+1, len(entity)):
+                    mid = entity[i+1:j]
+                    suffix = entity[j+1:]
+                    new_word = prefix + entity[j] + mid + entity[i] + suffix
+                    new_word = new_word.strip()
+                    if new_word != entity:
+                        edits.add(new_word)
+    return edits
+
+
+def get_entity_edits(entity, num_edits=1):
+    prev_level = [entity]
+    edits = set()
+    for i in range(0, num_edits):
+        for word in prev_level:
+            edits.update(get_single_edits_for_word(word))
+            edits = set([t for t in edits if t not in prev_level and t != entity])
+
+        prev_level = set()
+        prev_level.update(edits)
+        edits = set()
+
+    return prev_level
 
 
 def find_unique_words(entity, all_entities):
@@ -134,7 +196,11 @@ def find_unique_words(entity, all_entities):
         if unique:
             if word != entity:
                 unique_words.append(word)
+    edits = []
+    for word in unique_words:
+        edits.extend(get_entity_edits(word))
 
+    unique_words.extend(edits)
     return unique_words
 
 
@@ -165,6 +231,7 @@ class EntityTagger(object):
                 entity_synonyms.extend(get_prefixes(entity.lower()))
                 entity_synonyms.extend(get_acronyms(entity.lower()))
                 entity_synonyms.extend(find_unique_words(entity.lower(), self.entities[entity_type]))
+                entity_synonyms.extend(get_entity_edits(entity, num_edits=1))
                 # if entity_type == Entity.SCHOOL_NAME:
                 #     print entity_synonyms
                 for syn in entity_synonyms:
@@ -363,6 +430,20 @@ class EntityTagger(object):
                     if include_features:
                         f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
                         features[bigram] = f
+                else:
+                    for entity_type in self.synonyms.keys():
+                        if len(self.synonyms[entity_type][bigram]) > 0:
+                            # print "Found %s in synonyms dictionary" % word
+                            # print entity_type, word, self.synonyms[entity_type][word]
+
+                            if include_features:
+                                possible_entities[entity_type].append(bigram)
+                                entity = self.synonyms[entity_type][bigram][0]
+                                f = self.get_features(entity, entity_type, scenario, agent_idx)
+                                features[bigram] = f
+                            else:
+                                # print self.synonyms[entity_type][word]
+                                possible_entities[entity_type].append(bigram)
                 # if "nena" in bigram:
                 #     print sentence_mod, '"',bigram,'"', found_entities
             if i+3 <= len(sentence_mod):
@@ -382,6 +463,20 @@ class EntityTagger(object):
                     if include_features:
                         f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
                         features[trigram] = f
+                else:
+                    for entity_type in self.synonyms.keys():
+                        if len(self.synonyms[entity_type][trigram]) > 0:
+                            # print "Found %s in synonyms dictionary" % word
+                            # print entity_type, word, self.synonyms[entity_type][word]
+
+                            if include_features:
+                                possible_entities[entity_type].append(trigram)
+                                entity = self.synonyms[entity_type][trigram][0]
+                                f = self.get_features(entity, entity_type, scenario, agent_idx)
+                                features[trigram] = f
+                            else:
+                                # print self.synonyms[entity_type][word]
+                                possible_entities[entity_type].append(trigram)
 
             if i+4 <= len(sentence_mod):
                 trigram = " ".join(sentence_mod[i:i+4])
@@ -400,6 +495,20 @@ class EntityTagger(object):
                     if include_features:
                         f = self.get_features(word, Entity.COMPANY_NAME, scenario, agent_idx)
                         features[trigram] = f
+                else:
+                    for entity_type in self.synonyms.keys():
+                        if len(self.synonyms[entity_type][trigram]) > 0:
+                            # print "Found %s in synonyms dictionary" % word
+                            # print entity_type, word, self.synonyms[entity_type][word]
+
+                            if include_features:
+                                possible_entities[entity_type].append(trigram)
+                                entity = self.synonyms[entity_type][trigram][0]
+                                f = self.get_features(entity, entity_type, scenario, agent_idx)
+                                features[trigram] = f
+                            else:
+                                # print self.synonyms[entity_type][word]
+                                possible_entities[entity_type].append(trigram)
         # check if word matches any possible synonym
         for i in range(0, len(sentence_mod)):
             word = sentence_mod[i]

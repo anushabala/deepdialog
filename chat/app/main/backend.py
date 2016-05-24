@@ -114,6 +114,7 @@ class BackendConnection(object):
             probs = cursor.fetchone()
             self.bot_probability = probs[0]
             self.lstm_probability = probs[1]
+            self.human_probability = 1 - (self.bot_probability + self.lstm_probability)
 
         self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
         self.scenarios = scenarios
@@ -688,11 +689,30 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def attempt_join_room(self, userid, use_bot=True):
+        def _redistribute_probabilities(probs_and_ratios):
+            lower_bound = min(1/len(probs_and_ratios) - 0.1, 0.05)
+            upper_bound = min(1/len(probs_and_ratios) + 0.1, 0.95)
         def _change_bot_probability(cursor):
             humans, bots, lstms, total = _get_num_chats(cursor)
             if total == 0:  # only change probabilities every 50 chats or so
                 return
             #todo fix this later (lstms)
+            # humans = float(humans)/total
+            # bots = float(bots)/total
+            # lstms = float(lstms)/total
+            #
+            # if 0.2 <= bots <= 0.4 and 0.2 <= humans <= 0.4 and 0.2 <= lstms <= 0.4:
+            #     return
+            # if bots <= 0.2:
+            #     if humans >= 0.4 and self.human_probability >= 0.15:
+            #         self.human_probability -= 0.1
+            #     if lstms >= 0.4 >= 0.15:
+            #         self.lstm_probability -= 0.1
+            #     self.bot_probability = 1 - (self.lstm_probability+ self.human_probability)
+            # if humans <= 0.2:
+            #     if bots >= 0.4 and self.bot_probability >=0.15:
+            #         self.bot_probability -= 0.1
+            #     if lstms >= 0.4 and self.lstm_probability >= 0.4
             # humans = float(humans)/total
             # if total % 50 == 0:
             #     if 0.25 <= humans <= 0.4:
