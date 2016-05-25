@@ -40,7 +40,6 @@ def get_tag_and_features(token):
     features = [t.strip("<>") for t in token[1:]]
     return tag, features
 
-
 def get_all_entities_with_tag(tag, json_info):
     if tag == Entity.to_tag(Entity.FULL_NAME):
         return list({friend["name"].lower() for friend in json_info["friends"]})
@@ -69,13 +68,13 @@ def split_into_utterances(pred_seq):
 
 
 class LSTMChatBot(ChatBotBase):
-    CHAR_RATE = 9.5
+    CHAR_RATE = 11
     SELECTION_DELAY = 1000
     EPSILON = 1500
     MAX_OUT_LEN = 50
     MENTION_WINDOW = 3
 
-    def __init__(self, scenario, agent_num, tagger, model):
+    def __init__(self, scenario, agent_num, tagger, model, include_features=True, name='LSTM'):
         self.scenario = scenario
         self.agent_num = agent_num
         self.friends = scenario["agents"][agent_num]["friends"]
@@ -83,10 +82,14 @@ class LSTMChatBot(ChatBotBase):
         self.first_names_to_full_names = {}
         self.probabilities = {}
         self.my_info = scenario["agents"][agent_num]["info"]
-        self.my_turn = False
+        r = np.random.random()
+        self.my_turn = True if r < 0.5 else False
+        print "My turn: ", self.my_turn
         self.tagger = tagger
+        self.name = name
         self.model = model
         self._started = False
+        self.include_features = include_features
 
         self.in_vocabulary = model.spec.in_vocabulary
         self.out_vocabulary = model.spec.out_vocabulary
@@ -138,7 +141,57 @@ class LSTMChatBot(ChatBotBase):
                     if company in mentions:
                         self.probabilities[name] += 1
 
+    def replace_entites_no_features(self, tagged_seq):
+        print "LSTM tagged output:", tagged_seq
+        # tagged_seq = tagged_seq.lower()
+        tagged_seq = tagged_seq.replace(Vocabulary.END_OF_SENTENCE, "")
+        tokens = tagged_seq.strip().split()
+        new_sentence = []
+        my_info = self.scenario["agents"][self.agent_num]
+        partner_info = self.scenario["agents"][1-self.agent_num]
+        new_mentions = defaultdict(list)
+
+        my_mentions_flat = defaultdict(set)
+        for mentions_dict in self.my_mentions:
+            for entity_type in mentions_dict.keys():
+                my_mentions_flat[entity_type].update(mentions_dict[entity_type])
+
+        for token in tokens:
+            tag, _ = get_tag_and_features(token)
+            if tag is None:
+                new_sentence.append(token)
+                continue
+
+            all_entities = get_all_entities_with_tag(tag, my_info)
+            print token, tag
+            if tag == Entity.to_tag(Entity.FIRST_NAME):
+                sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
+                sorted_choices = [a[0] for a in sorted_probs if a[0] not in my_mentions_flat[tag]]
+                entity = sorted_choices[0]
+            else:
+                if tag == Entity.to_tag(Entity.SCHOOL_NAME):
+                    entity = my_info["info"]["school"]["name"]
+                elif tag == Entity.to_tag(Entity.MAJOR):
+                    entity = my_info["info"]["school"]["major"]
+                elif tag == Entity.to_tag(Entity.COMPANY_NAME):
+                    entity = my_info["info"]["company"]["name"]
+
+                if entity in my_mentions_flat[tag]:
+                    choices = [c for c in all_entities if c not in my_mentions_flat[tag]]
+                    if len(choices) > 0:
+                        entity = np.random.choice(choices)
+                    else:
+                        entity = np.random.choice(all_entities)
+
+            my_mentions_flat[tag].add(entity)
+            new_sentence.append(entity)
+            new_mentions[tag].append(entity)
+            print "New sentence:", new_sentence
+        return " ".join(new_sentence), new_mentions
+
     def replace_entities(self, tagged_seq):
+        if not self.include_features:
+            return self.replace_entites_no_features(tagged_seq)
         print "LSTM tagged output:", tagged_seq
         # tagged_seq = tagged_seq.lower()
         tagged_seq = tagged_seq.replace(Vocabulary.END_OF_SENTENCE, "")
@@ -433,7 +486,10 @@ class LSTMChatBot(ChatBotBase):
                             try:
                                 sentence_tokens = [w.strip() for w in sentence[i:i+len(split_token)]]
                                 if split_token == sentence_tokens:
-                                    new_sentence.append("<%s>" % Entity.to_tag(entity_type))
+                                    if self.include_features:
+                                        new_sentence.append("%s" % features[" ".join(sentence_tokens)])
+                                    else:
+                                        new_sentence.append("<%s>" % Entity.to_tag(entity_type))
                                     # if "krone" in split_token:
                                     #     print "SENTENCE", sentence
                                     #     print split_token
@@ -447,7 +503,10 @@ class LSTMChatBot(ChatBotBase):
                                 new_sentence.append(sentence[i])
                                 i+=1
                         elif token == sentence[i]:
-                            new_sentence.append(features[token])
+                            if self.include_features:
+                                new_sentence.append(features[token])
+                            else:
+                                new_sentence.append("<%s>" % Entity.to_tag(entity_type))
                             i+=1
                         else:
                             new_sentence.append(sentence[i])

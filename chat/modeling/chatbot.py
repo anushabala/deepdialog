@@ -27,6 +27,7 @@ class ChatState(object):
 
 class ChatBotBase(object):
     probabilities = {}
+    name = "DEFAULT_BOT"
     def start(self):
         raise NotImplementedError
 
@@ -80,13 +81,15 @@ class ChatBot(ChatBotBase):
     SELECTION_DELAY = 1000
     EPSILON = 1500
 
-    def __init__(self, scenario, agent_num, tagger):
+    def __init__(self, scenario, agent_num, tagger, name='DEFAULT_BOT'):
         self.scenario = scenario
         self.agent_num = agent_num
         self.friends = scenario["agents"][agent_num]["friends"]
         self.my_info = scenario["agents"][agent_num]["info"]
         self.my_turn = True
         self.tagger = tagger
+        self.name = name
+
         self.state = None
         self.last_message_timestamp = datetime.datetime.now()
         self.probabilities = {}

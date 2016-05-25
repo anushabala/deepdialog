@@ -1,4 +1,5 @@
 #!/bin/env python
+import codecs
 from collections import defaultdict
 import sys
 from app import create_app, socketio
@@ -24,8 +25,8 @@ def init_database(db_file):
     c.execute('''CREATE TABLE SingleTasks (name text, scenario_id text, selected_index integer, selected_restaurant text, start_text text)''')
     c.execute('''CREATE TABLE CompletedTasks (name text, mturk_code text, num_single_tasks_completed integer, num_chats_completed integer, bonus integer)''')
     c.execute('''CREATE TABLE Surveys (name text, partner_type text, how_mechanical integer, how_effective integer)''')
-    c.execute('''CREATE TABLE ChatCounts (id integer, humans integer, bots integer, lstms integer, prob_bot real, prob_lstm real)''')
-    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0,0,0,0.15)''')
+    c.execute('''CREATE TABLE ChatCounts (id integer, humans integer, bots integer, lstms_feat integer, lstms_unfeat integer, prob_bot real, prob_lstm_feat real, prob_lstm_unfeat real)''')
+    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0,0,0,0.25,0.25,0.25)''')
     #c.execute('''CREATE TABLE Chatrooms (room_id integer, scenario_id text)''')
     conn.commit()
     conn.close()
@@ -55,7 +56,7 @@ if __name__ == '__main__':
     templates_dir = params["templates_dir"]
     app = create_app(debug=True, templates_dir=templates_dir)
 
-    with open(params["scenarios_json_file"]) as fin:
+    with codecs.open(params["scenarios_json_file"]) as fin:
         scenarios = json.load(fin)
         scenarios_dict = {v["uuid"]:v for v in scenarios}
 
@@ -69,14 +70,18 @@ if __name__ == '__main__':
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
     if params["lstms"]["use_lstms"]:
-        print "Loading model from %s" % params["lstms"]["model"]
-        spec = specutil.load(params["lstms"]["model"])
-        print "finished unpickling"
+        print "Loading model without features from %s" % params["lstms"]["model"]["lstm_unfeat"]
+        spec = specutil.load(params["lstms"]["model"]["lstm_unfeat"])
         model = EncoderDecoderModel(spec)
-        print "finished creating model after setup"
-        app.config["model"] = model
+        app.config["lstm_unfeat"] = model
+
+        print "Loading model with features from from %s" % params["lstms"]["model"]["lstm_feat"]
+        spec = specutil.load(params["lstms"]["model"]["lstm_feat"])
+        feat_model = EncoderDecoderModel(spec)
+        app.config["lstm_feat"] = feat_model
     else:
-        app.config["model"] = None
+        app.config["lstm_feat"] = None
+        app.config["lstm_unfeat"] = None
 
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
     socketio.run(app, host=args.host)

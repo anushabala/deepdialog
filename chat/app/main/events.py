@@ -107,11 +107,11 @@ def bot(message):
                 room=session["room"])
         else:
             emit_message_to_self("Your friend has selected:\"{}\"".format(bot_selection))
-        write_bot_log({"selection":selection}, chat_info)
+        write_bot_log({"name":bot.name, "selection":selection}, chat_info)
 
-    if bot_message is not None:
+    if bot_message is not None and "PASS" not in bot_message:
         emit_message_to_self("Friend: {}".format(bot_message))
-        write_bot_log({"message":bot_message}, chat_info)
+        write_bot_log({"name":bot.name, "message":bot_message}, chat_info)
 
 
 @socketio.on('text', namespace='/chat')
@@ -128,6 +128,7 @@ def text(message):
         backend = get_backend()
         bot = backend.get_user_bot(userid())
         data = bot.receive(str(msg))
+        data["name"] = bot.name
         write_bot_log(data, chat_info)
     else:
         emit_message_to_partner("Friend: {}".format(msg))
@@ -242,10 +243,11 @@ def write_to_file(message):
 def write_bot_log(bot_metadata, chat_info):
 
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
+    name = bot_metadata["name"]
     if "message" in bot_metadata.keys():
-        outfile.write("%s\t%s\tBOT\t%s\n" %
+        outfile.write("%s\t%s\t%s\t%s\n" %
                       (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
-                       bot_metadata["message"]))
+                       name, bot_metadata["message"]))
     if "confident_tags" in bot_metadata.keys():
         outfile.write("%s\t%s\tTAGS\t%s\n" %
                       (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
@@ -259,8 +261,9 @@ def write_bot_log(bot_metadata, chat_info):
                       (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
                        bot_metadata["probs"]))
     if "selection" in bot_metadata.keys():
-        outfile.write("%s\t%s\tBOT\tSelected:\t%s\n" %
+        outfile.write("%s\t%s\t%s\tSelected:\t%s\n" %
                       (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                       name,
                        bot_metadata["selection"]))
 
     outfile.close()

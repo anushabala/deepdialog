@@ -104,17 +104,19 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots, bot_selections, tagger, lstm_model):
+    def __init__(self, config, scenarios, bots, bot_selections, tagger, featurized_lstm_model, unfeaturized_lstm):
         self.config = config
-        self.lstm_model = lstm_model
+        self.featurized_lstm = featurized_lstm_model
+        self.unfeaturized_lstm = unfeaturized_lstm
         self.conn = sqlite3.connect(config["db"]["location"])
         with self.conn:
             cursor = self.conn.cursor()
-            cursor.execute('''SELECT prob_bot, prob_lstm FROM ChatCounts WHERE id=1''')
+            cursor.execute('''SELECT prob_bot, prob_lstm_feat, prob_lstm_unfeat FROM ChatCounts WHERE id=1''')
             probs = cursor.fetchone()
             self.bot_probability = probs[0]
             self.lstm_probability = probs[1]
-            self.human_probability = 1 - (self.bot_probability + self.lstm_probability)
+            self.lstm_unfeaturized_probability = probs[2]
+            self.human_probability = 1 - (self.bot_probability + self.lstm_probability + self.lstm_unfeaturized_probability)
 
         self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
         self.scenarios = scenarios
@@ -122,7 +124,8 @@ class BackendConnection(object):
         self.bots = bots
         self.bot_selections = bot_selections
         self.waiting_bot_probability = 0
-        self.waiting_lstm_probability = 0.4
+        self.waiting_lstm_probability = 0
+        self.waiting_lstm_unfeaturized_probability = 0.9
 
     def close(self):
         self.conn.close()
@@ -727,12 +730,13 @@ class BackendConnection(object):
             #         cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
 
         def _get_num_chats(cursor):
-            cursor.execute("SELECT humans, bots, lstms FROM ChatCounts WHERE id=?", (1,))
+            cursor.execute("SELECT humans, bots, lstms_feat, lstms_unfeat FROM ChatCounts WHERE id=?", (1,))
             x = cursor.fetchone()
             humans = x[0]
             bots = x[1]
-            lstms = x[2]
-            return humans, bots, lstms, humans+bots
+            lstms_feat = x[2]
+            lstms_unfeat = x[3]
+            return humans, bots, lstms_feat, lstms_unfeat, humans+bots
 
         def _add_bot_chat(cursor):
             cursor.execute("SELECT bots from ChatCounts WHERE id=?", (1,))
@@ -746,11 +750,12 @@ class BackendConnection(object):
             humans = x[0]
             cursor.execute("UPDATE ChatCounts SET humans=? WHERE id=?", (humans+1, 1))
 
-        def _add_lstm_chat(cursor):
-            cursor.execute("SELECT lstms from ChatCounts WHERE id=?", (1,))
+        def _add_lstm_chat(cursor, featurized=True):
+            key = "lstms_feat" if featurized else "lstms_unfeat"
+            cursor.execute("SELECT %s from ChatCounts WHERE id=?" % key, (1,))
             x = cursor.fetchone()
             lstms = x[0]
-            cursor.execute("UPDATE ChatCounts SET lstms=? WHERE id=?", (lstms+1, 1))
+            cursor.execute("UPDATE ChatCounts SET %s=? WHERE id=?" % key, (lstms+1, 1))
 
         def _pair_with_bot(userid):
             scenario_id = random.choice(list(self.scenarios.keys()))
@@ -768,14 +773,13 @@ class BackendConnection(object):
                               message="")
             return next_room_id
 
-        def _pair_with_lstm(userid):
+        def _pair_with_lstm(userid, model=self.featurized_lstm):
             scenario_id = random.choice(list(self.scenarios.keys()))
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0,1])
-            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger, self.lstm_model)
-            print "backend: got bot"
+            name = "LSTM_FEATURIZED" if model == self.featurized_lstm else "LSTM_UNFEATURIZED"
+            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger, model, name=name)
             self.bots[userid] = bot
-            print "backend: updating user status"
             self._update_user(cursor, userid,
                               status=Status.Chat,
                               room_id=next_room_id,
@@ -801,7 +805,7 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
 
-                _change_bot_probability(cursor)
+                # _change_bot_probability(cursor)
 
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 others = _get_other_waiting_users(cursor, userid)
@@ -812,11 +816,20 @@ class BackendConnection(object):
                         if r < self.waiting_bot_probability:
                             room_id = _pair_with_bot(userid)
                             _add_bot_chat(cursor)
+                            print "Pairing with baseline", r
                             return room_id
-                        elif self.waiting_bot_probability < r < self.waiting_bot_probability + self.waiting_lstm_probability:
-                            room_id = _pair_with_lstm(userid)
+                        elif self.waiting_bot_probability <= r < self.waiting_bot_probability + self.waiting_lstm_probability:
+                            room_id = _pair_with_lstm(userid, self.featurized_lstm)
+                            print "Pairing with featurized LSTM", r
                             _add_lstm_chat(cursor)
                             return room_id
+                        elif self.waiting_bot_probability + self.waiting_lstm_probability <= r < self.waiting_bot_probability + self.waiting_lstm_probability + self.waiting_lstm_unfeaturized_probability:
+                            room_id = _pair_with_lstm(userid, self.unfeaturized_lstm)
+                            print "Pairing with unfeaturized LSTM", r
+                            _add_lstm_chat(cursor)
+                            return room_id
+                        else:
+                            return None
                     else:
                         return None
                 if len(others) > 0:
@@ -826,8 +839,12 @@ class BackendConnection(object):
                             room_id = _pair_with_bot(userid)
                             _add_bot_chat(cursor)
                             return room_id
-                        elif self.bot_probability < r < self.bot_probability + self.lstm_probability:
-                            room_id = _pair_with_lstm(userid)
+                        elif self.bot_probability <= r < self.bot_probability + self.lstm_probability:
+                            room_id = _pair_with_lstm(userid, self.featurized_lstm)
+                            _add_lstm_chat(cursor)
+                            return room_id
+                        elif self.bot_probability + self.lstm_probability <= r < self.bot_probability + self.lstm_probability + self.lstm_unfeaturized_probability:
+                            room_id = _pair_with_lstm(userid, self.unfeaturized_lstm)
                             _add_lstm_chat(cursor)
                             return room_id
 

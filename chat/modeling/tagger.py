@@ -183,7 +183,7 @@ def get_entity_edits(entity, num_edits=1):
 
 
 def find_unique_words(entity, all_entities):
-    mod_entity = str(entity).translate(string.maketrans("",""), string.punctuation)
+    mod_entity = str(entity.strip()).translate(string.maketrans("",""), string.punctuation)
     words = mod_entity.split()
     unique_words = []
     if len(words) == 1:
@@ -223,22 +223,26 @@ class EntityTagger(object):
     def compute_synonyms(self):
         for entity_type in self.synonyms.keys():
             syn_dict = self.synonyms[entity_type]
-            if entity_type == Entity.FULL_NAME or entity_type == Entity.FIRST_NAME:
-                continue
+
             for entity in self.entities[entity_type]:
 
                 entity_synonyms = []
-                entity_synonyms.extend(get_prefixes(entity.lower()))
-                entity_synonyms.extend(get_acronyms(entity.lower()))
-                entity_synonyms.extend(find_unique_words(entity.lower(), self.entities[entity_type]))
-                entity_synonyms.extend(get_entity_edits(entity, num_edits=1))
+                if entity_type != Entity.FULL_NAME and entity_type != Entity.FIRST_NAME:
+                    entity_synonyms.extend(get_prefixes(entity.lower()))
+                    entity_synonyms.extend(get_acronyms(entity.lower()))
+                    entity_synonyms.extend(find_unique_words(entity.lower(), self.entities[entity_type]))
+                    entity_synonyms.extend(get_entity_edits(entity, num_edits=1))
+                else:
+                    first_name = entity.split(" ")[0]
+                    entity_synonyms.extend(get_entity_edits(first_name, num_edits=1))
+                    entity_synonyms.extend(get_entity_edits(entity, num_edits=1))
                 # if entity_type == Entity.SCHOOL_NAME:
                 #     print entity_synonyms
                 for syn in entity_synonyms:
                     syn_dict[syn].append(entity)
 
     def load_scenarios(self, scenarios_file):
-        self.scenarios = json.load(scenarios_file, encoding='utf-8')
+        self.scenarios = json.load(scenarios_file)
 
     def load_entities(self):
         for (key, scenario) in self.scenarios.iteritems():
