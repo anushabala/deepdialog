@@ -828,7 +828,7 @@ class BackendConnection(object):
                         elif self.waiting_bot_probability + self.waiting_lstm_probability <= r < self.waiting_bot_probability + self.waiting_lstm_probability + self.waiting_lstm_unfeaturized_probability:
                             room_id = _pair_with_lstm(userid, self.unfeaturized_lstm)
                             print "Pairing with unfeaturized LSTM", r
-                            _add_lstm_chat(cursor)
+                            _add_lstm_chat(cursor, featurized=False)
                             return room_id
                         else:
                             return None
@@ -847,7 +847,7 @@ class BackendConnection(object):
                             return room_id
                         elif self.bot_probability + self.lstm_probability <= r < self.bot_probability + self.lstm_probability + self.lstm_unfeaturized_probability:
                             room_id = _pair_with_lstm(userid, self.unfeaturized_lstm)
-                            _add_lstm_chat(cursor)
+                            _add_lstm_chat(cursor, featurized=False)
                             return room_id
 
                     _add_human_chat(cursor)

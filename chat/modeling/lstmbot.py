@@ -221,8 +221,8 @@ class LSTMChatBot(ChatBotBase):
                 # todo default to some random behavior here, pass for now
                 continue
 
-            print "my mentions flat", my_mentions_flat
-            print "partner mentions flat", partner_mentions_flat
+            # print "my mentions flat", my_mentions_flat
+            # print "partner mentions flat", partner_mentions_flat
             choices = []
             entity = None
             try:
@@ -244,23 +244,23 @@ class LSTMChatBot(ChatBotBase):
                 else:
                     # no mentions at all
                     all_entities = get_all_entities_with_tag(tag, my_info)
-                    print all_entities, tag
-                    print my_mentions_flat[tag]
-                    print partner_mentions_flat[tag]
+                    # print all_entities, tag
+                    # print my_mentions_flat[tag]
+                    # print partner_mentions_flat[tag]
                     choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in partner_mentions_flat[tag]]
                     assert len(choices) > 0
             except AssertionError:
-                print choices
-                print tag, features
-                print self.my_mentions
-                print my_mentions_flat[tag]
-                print self.partner_mentions
-                print partner_mentions_flat[tag]
-                print "Mention tag mismatch; ignoring mention tags entirely"
+                # print choices
+                # print tag, features
+                # print self.my_mentions
+                # print my_mentions_flat[tag]
+                # print self.partner_mentions
+                # print partner_mentions_flat[tag]
+                # print "Mention tag mismatch; ignoring mention tags entirely"
                 all_entities = get_all_entities_with_tag(tag, my_info)
                 choices = all_entities
-                print choices
-            print "choices after mentions:", choices
+                # print choices
+            # print "choices after mentions:", choices
             if tag == Entity.to_tag(Entity.FIRST_NAME):
                 if "F:UNKNOWN" in features:
                     try:
@@ -273,8 +273,8 @@ class LSTMChatBot(ChatBotBase):
                     entity = np.random.choice(choices)
                 elif "F:KNOWN" in features:
                     sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
-                    print sorted_probs
-                    print choices
+                    # print sorted_probs
+                    # print choices
                     sorted_choices = [a[0] for a in sorted_probs if a[0] in choices]
                     if len(sorted_choices) == 0:
                         entity = sorted_probs[0] #fallback if all else fails
