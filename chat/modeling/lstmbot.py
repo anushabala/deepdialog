@@ -185,13 +185,13 @@ class LSTMChatBot(ChatBotBase):
             my_mentions_flat[tag].add(entity)
             new_sentence.append(entity)
             new_mentions[tag].append(entity)
-            print "New sentence:", new_sentence
+            # print "New sentence:", new_sentence
         return " ".join(new_sentence), new_mentions
 
     def replace_entities(self, tagged_seq):
+        # print "LSTM tagged output:", tagged_seq
         if not self.include_features:
             return self.replace_entites_no_features(tagged_seq)
-        print "LSTM tagged output:", tagged_seq
         # tagged_seq = tagged_seq.lower()
         tagged_seq = tagged_seq.replace(Vocabulary.END_OF_SENTENCE, "")
         tokens = tagged_seq.strip().split()
@@ -341,6 +341,7 @@ class LSTMChatBot(ChatBotBase):
                     selection = ret_text.replace(SELECT, "").strip()
                     if selection in self.full_names_cased.keys():
                         selection = self.full_names_cased[selection]
+                    self.last_message_timestamp = datetime.datetime.now()
                     return selection, None
             else:
                 delay = float(len(next_message)) / self.CHAR_RATE * 1000 + random.uniform(0, self.EPSILON)
@@ -348,6 +349,7 @@ class LSTMChatBot(ChatBotBase):
                     return None, None
                 else:
                     ret_text = self.next_messages.pop(0).lower()
+                    self.last_message_timestamp = datetime.datetime.now()
                     return None, ret_text
 
         if self.my_turn:
@@ -388,6 +390,7 @@ class LSTMChatBot(ChatBotBase):
                     selection = ret_text.replace(SELECT, "").strip()
                     if selection in self.full_names_cased.keys():
                         selection = self.full_names_cased[selection]
+                    self.last_message_timestamp = datetime.datetime.now()
                     return selection, None
             else:
                 delay = float(len(next_message)) / self.CHAR_RATE * 1000 + random.uniform(0, self.EPSILON)
@@ -395,6 +398,7 @@ class LSTMChatBot(ChatBotBase):
                     return None, None
                 else:
                     ret_text = self.next_messages.pop(0).lower()
+                    self.last_message_timestamp = datetime.datetime.now()
                     return None, ret_text
 
     def replace_with_tags(self, seq, found_entities, possible_entities, features):
