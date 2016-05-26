@@ -67,7 +67,7 @@ def split_into_utterances(pred_seq):
 
 
 class LSTMChatBot(ChatBotBase):
-    CHAR_RATE = 11
+    CHAR_RATE = 10.5
     SELECTION_DELAY = 1000
     EPSILON = 1500
     MAX_OUT_LEN = 50
