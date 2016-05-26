@@ -53,7 +53,6 @@ def get_all_entities_with_tag(tag, json_info):
 
 def split_into_utterances(pred_seq):
     seqs = pred_seq.split(SAY_DELIM)
-    print "splitting", seqs
     if seqs[0].strip() == START and len(seqs) > 1:
         seqs.pop(0)
     new_seqs = []
@@ -84,7 +83,7 @@ class LSTMChatBot(ChatBotBase):
         self.my_info = scenario["agents"][agent_num]["info"]
         r = np.random.random()
         self.my_turn = True if r < 0.5 else False
-        print "My turn: ", self.my_turn
+        # print "My turn: ", self.my_turn
         self.tagger = tagger
         self.name = name
         self.model = model
@@ -98,7 +97,7 @@ class LSTMChatBot(ChatBotBase):
         self.partner_mentions = []
         self.h_t = self.model.spec.get_init_state().eval()
         # print self.h_t
-        print "got initial hidden state"
+        # print "got initial hidden state"
         self.last_message_timestamp = datetime.datetime.now()
         self._ended = False
         self.partner_selected_connection = False
@@ -106,7 +105,7 @@ class LSTMChatBot(ChatBotBase):
         self.next_messages = []
         self.create_mappings()
         self.init_probabilities()
-        print "finished initializing probabilities"
+        # print "finished initializing probabilities"
 
     def create_mappings(self):
         for friend in self.friends:
@@ -142,7 +141,7 @@ class LSTMChatBot(ChatBotBase):
                         self.probabilities[name] += 1
 
     def replace_entites_no_features(self, tagged_seq):
-        print "LSTM tagged output:", tagged_seq
+        # print "LSTM tagged output:", tagged_seq
         # tagged_seq = tagged_seq.lower()
         tagged_seq = tagged_seq.replace(Vocabulary.END_OF_SENTENCE, "")
         tokens = tagged_seq.strip().split()
@@ -163,7 +162,7 @@ class LSTMChatBot(ChatBotBase):
                 continue
 
             all_entities = get_all_entities_with_tag(tag, my_info)
-            print token, tag
+            # print token, tag
             if tag == Entity.to_tag(Entity.FIRST_NAME):
                 sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
                 sorted_choices = [a[0] for a in sorted_probs if a[0] not in my_mentions_flat[tag]]
@@ -246,16 +245,18 @@ class LSTMChatBot(ChatBotBase):
                     # no mentions at all
                     all_entities = get_all_entities_with_tag(tag, my_info)
                     print all_entities, tag
+                    print my_mentions_flat[tag]
+                    print partner_mentions_flat[tag]
                     choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in partner_mentions_flat[tag]]
                     assert len(choices) > 0
             except AssertionError:
-                # print choices
-                # print tag, features
-                # print self.my_mentions
-                # print my_mentions_flat[tag]
-                # print self.partner_mentions
-                # print partner_mentions_flat[tag]
-                # print "Mention tag mismatch; ignoring mention tags entirely"
+                print choices
+                print tag, features
+                print self.my_mentions
+                print my_mentions_flat[tag]
+                print self.partner_mentions
+                print partner_mentions_flat[tag]
+                print "Mention tag mismatch; ignoring mention tags entirely"
                 all_entities = get_all_entities_with_tag(tag, my_info)
                 choices = all_entities
                 print choices
@@ -275,7 +276,10 @@ class LSTMChatBot(ChatBotBase):
                     print sorted_probs
                     print choices
                     sorted_choices = [a[0] for a in sorted_probs if a[0] in choices]
-                    entity = sorted_choices[0]
+                    if len(sorted_choices) == 0:
+                        entity = sorted_probs[0] #fallback if all else fails
+                    else:
+                        entity = sorted_choices[0]
                 else:
                     # todo maybe raise an error! must always generate either known or unknown friend
                     sorted_probs = sorted(self.probabilities.items(), key=operator.itemgetter(1), reverse=True)
@@ -297,9 +301,9 @@ class LSTMChatBot(ChatBotBase):
                         my_entity = my_info["info"]["school"]["major"]
                     else:
                         my_entity = my_info["info"]["company"]["name"]
-                    print "MATCH FRIEND FEATURE: ", all_entities
+                    # print "MATCH FRIEND FEATURE: ", all_entities
                     choices = [c for c in all_entities if c in choices and c != my_entity]
-                    print choices
+                    # print choices
                     entity = np.random.choice(choices)
                 else:
                     # must be something that's been mentioned
@@ -315,7 +319,7 @@ class LSTMChatBot(ChatBotBase):
             my_mentions_flat[tag].add(entity)
             new_sentence.append(entity)
             new_mentions[tag].append(entity)
-            print "New sentence:", new_sentence
+            # print "New sentence:", new_sentence
 
         return " ".join(new_sentence), new_mentions
 
@@ -406,8 +410,8 @@ class LSTMChatBot(ChatBotBase):
             for entity_type in entity_dict.keys():
                 all_matched_tokens.extend(entity_dict[entity_type])
 
-        print found_entities
-        print possible_entities
+        # print found_entities
+        # print possible_entities
         new_mentions = defaultdict(list)
         for entity_dict in all_entities:
             for entity_type in entity_dict.keys():
@@ -420,12 +424,12 @@ class LSTMChatBot(ChatBotBase):
                         else:
                             new_mentions[Entity.to_tag(entity_type)].append(mentioned)
 
-        print new_mentions
+        # print new_mentions
         friend_mentions_flat = []
         for d in self.partner_mentions:
             for entity_type in d.keys():
                 friend_mentions_flat.extend(d[entity_type])
-        print friend_mentions_flat
+        # print friend_mentions_flat
         my_mentions_flat = []
         for d in self.my_mentions:
             for entity_type in d.keys():
@@ -527,13 +531,13 @@ class LSTMChatBot(ChatBotBase):
 
     def update_mentions(self, new_mentions, mine=False):
         to_update = self.my_mentions if mine else self.partner_mentions
-        print "Updating (mine=%s)" % str(mine)
-        print "before:", to_update
-        print "new:", new_mentions
+        # print "Updating (mine=%s)" % str(mine)
+        # print "before:", to_update
+        # print "new:", new_mentions
         if len(to_update) >= self.MENTION_WINDOW:
             to_update.pop(0)
         to_update.append(new_mentions)
-        print "after:", to_update
+        # print "after:", to_update
 
     def receive(self, message):
         if self._ended:
@@ -544,7 +548,7 @@ class LSTMChatBot(ChatBotBase):
             selection = True
             message = message.replace(SELECT, "")
 
-        print "Raw message received:", message
+        # print "Raw message received:", message
         found_entities, possible_entities, features = self.tagger.tag_sentence(message, include_features=True, scenario=self.scenario, agent_idx=self.agent_num)
 
         tagged_msg, new_mentions = self.replace_with_tags(message, found_entities, possible_entities, features)
@@ -559,15 +563,15 @@ class LSTMChatBot(ChatBotBase):
         elif selection:
             tagged_msg = SELECT + " " + tagged_msg.strip()
 
-        print "Tagged message received: ", tagged_msg
-        print "New mentions:", new_mentions
+        # print "Tagged message received: ", tagged_msg
+        # print "New mentions:", new_mentions
         self.rerank_friends(new_mentions)
         self.update_mentions(new_mentions)
-        print "Friend mentions:", self.partner_mentions
+        # print "Friend mentions:", self.partner_mentions
         self.my_turn = True
 
         x_inds = self.in_vocabulary.sentence_to_indices(tagged_msg)
-        print x_inds
+        # print x_inds
         self.h_t = self.model._encode(x_inds, self.h_t)
 
         ret_data = {"probs": self._get_probability_string(),

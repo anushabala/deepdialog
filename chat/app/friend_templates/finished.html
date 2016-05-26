@@ -1,21 +1,23 @@
 <html>
     <head>
+    	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css')}}">
         <title>Thank You!</title>
         <style>
         #content > p{
-        font-size:18px;
+        font-size:16px;
         }
         </style>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script> 
     </head>
     <body>
     <div id="content">
         <h2>Who's Our Mutual Friend?</h2>
-        {{ finished_message }}	
+        <p>{{ finished_message }}</p>
 	</div>
 	<div id="mturk">
 		{% if mturk_code is not none %}
 		<hr>	
-		<h3>Thanks for completing this HIT! Please copy and paste this code into the HIT on Mechanical Turk: {{ mturk_code }}</h3>
+		<h4>Thanks for completing this HIT! Please copy and paste this code into the HIT on Mechanical Turk: {{ mturk_code }}</h4>
 		{% endif %}
 	</div>
 

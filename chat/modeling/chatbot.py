@@ -79,7 +79,7 @@ class ChatBot(ChatBotBase):
     PROB_BOOST_SYNONYM = 0.5
     CHAR_RATE = 9.5
     SELECTION_DELAY = 1000
-    EPSILON = 1500
+    EPSILON = 1000
 
     def __init__(self, scenario, agent_num, tagger, name='DEFAULT_BOT'):
         self.scenario = scenario
@@ -158,8 +158,11 @@ class ChatBot(ChatBotBase):
                     mapping = self.major_to_friends
                 elif entity_type == Entity.to_str(Entity.SCHOOL_NAME):
                     mapping = self.school_to_friends
-
+                # print "found entities for type: %s" % entity_type, entities
                 for entity in entities:
+                    # print entity
+                    # print mapping[entity]
+                    # print "----"
                     for friend in mapping[entity]:
                         if friend in self.probabilities.keys():
                             if not guess:
@@ -179,7 +182,7 @@ class ChatBot(ChatBotBase):
         self.last_message_timestamp = datetime.datetime.now()
         self.my_turn = True
         found_entities, possible_entities = self.tagger.tag_sentence(message)
-
+        # print "synonyms from tagger:", possible_entities
         self.update_probabilities(found_entities)
         self.update_probabilities(possible_entities, guess=True)
         ret_data = {"probs": self._get_probability_string(),

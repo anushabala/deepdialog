@@ -295,8 +295,10 @@ class EntityTagger(object):
         unique_possible_matches = defaultdict(list)
         for entity_type in Entity.types():
             entities = found_entities[entity_type]
+            # print "exact match entities found:", entity_type, entities
             for synonym in possible_entities[entity_type]:
                 matches = self.synonyms[entity_type][synonym]
+                # print "matches found for synonym:", entity_type, synonym, matches
                 not_subset = False
                 for entity in matches:
                     if entity not in entities:
@@ -304,6 +306,7 @@ class EntityTagger(object):
                 # if synonym == 'penn':
                 #     print matches
                 #     print not_subset
+                # print not_subset
                 if not_subset:
                     unique_possible_matches[entity_type].append(synonym)
 
@@ -531,6 +534,9 @@ class EntityTagger(object):
                     else:
                         # print self.synonyms[entity_type][word]
                         possible_entities[entity_type].append(word)
+                        # possible_entities[entity_type].extend(self.synonyms[entity_type][word])
+                        # print "Found synonym for %s, %s" % (word, entity_type)
+                        # print possible_entities[entity_type]
                         # print "Adding to possible entities", possible_entities
                 # if word == 'penn':
                     # print self.synonyms[entity_type][word]
@@ -546,8 +552,18 @@ class EntityTagger(object):
         #     for entity_type in possible_matches.keys():
         #         possible_entities[entity_type].extend(possible_matches[entity_type])
 
+        # print "possible entities in tagger before ensure unique", possible_entities
         possible_entities = self.ensure_unique(found_entities, possible_entities)
+        if not include_features:
+            # replace all synonyms by entity
+            new_possible_entities = defaultdict(list)
+            for entity_type in possible_entities.keys():
+                synonyms = possible_entities[entity_type]
+                for syn in synonyms:
+                    new_possible_entities[entity_type].extend(self.synonyms[entity_type][syn])
+            possible_entities = new_possible_entities
         possible_entities = {key:set(entities) for (key, entities) in possible_entities.items()}
+        # print "possible entities in tagger:", possible_entities
         if include_features:
             return found_entities, possible_entities, features
         return found_entities, possible_entities

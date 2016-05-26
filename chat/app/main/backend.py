@@ -123,9 +123,9 @@ class BackendConnection(object):
         self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
-        self.waiting_bot_probability = 0
-        self.waiting_lstm_probability = 0
-        self.waiting_lstm_unfeaturized_probability = 0.9
+        self.waiting_bot_probability = 0.2
+        self.waiting_lstm_probability = 0.2
+        self.waiting_lstm_unfeaturized_probability = 0.2
 
     def close(self):
         self.conn.close()
@@ -449,7 +449,7 @@ class BackendConnection(object):
             return 0
 
         def _user_finished(cursor, userid, prev_points, my_points, other_points, prev_chats_completed, optimal_choice=None):
-            message = "<h3>Great, you've finished the chat! You scored {} points and your friend scored {} points.</h3>".format(
+            message = "Great, you've finished the chat! You scored {} points and your friend scored {} points.".format(
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
@@ -631,7 +631,7 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 partner_name = Partner.Human
                 if self.is_user_partner_bot(userid):
-                    partner_name = Partner.BaselineBot
+                    partner_name = self.get_user_bot(userid).name
                 cursor.execute('INSERT INTO Surveys VALUES (?,?,?,?)',
                                (userid, partner_name, data['question1'], data['question2']))
                 _user_finished(userid)
@@ -647,7 +647,7 @@ class BackendConnection(object):
                               num_single_tasks_completed=num_finished)
 
         def _complete_task_and_finished(cursor, userid, num_finished):
-            message = "<h3>Great, you've finished {} exercises!</h3>".format(num_finished)
+            message = "Great, you've finished {} exercises!".format(num_finished)
             logger.info(
                 "Updating user info for user %s after single task completion - transition to FINISHED" % userid[:6])
             self._update_user(cursor, userid, status=Status.Finished, message=message,
@@ -778,7 +778,9 @@ class BackendConnection(object):
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0,1])
             name = "LSTM_FEATURIZED" if model == self.featurized_lstm else "LSTM_UNFEATURIZED"
-            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger, model, name=name)
+            include_features = True if model == self.featurized_lstm else False
+            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger,
+                              model, name=name, include_features=include_features)
             self.bots[userid] = bot
             self._update_user(cursor, userid,
                               status=Status.Chat,
@@ -894,7 +896,7 @@ class BackendConnection(object):
             return 0
 
         def _user_finished(cursor, userid, prev_points, my_points, other_points, prev_chats_completed, optimal_choice=None):
-            message = "<h3>Great, you've finished the chat! You scored {} points and your friend scored {} points.</h3>".format(
+            message = "Great, you've finished the chat! You scored {} points and your friend scored {} points.".format(
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" %
                         (userid[:6], prev_points, my_points, prev_points + my_points))
