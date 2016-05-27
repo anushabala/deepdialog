@@ -3,15 +3,15 @@ import re
 import json
 
 user_regex = r'User ([0-9])'
-restaurant_regex = 'Selected [0-9]+: (.*)'
+restaurant_regex = 'Selected *[0-9]*: (.*)'
 user_id_regex = r'User ([0-9]) has user ID (.*)'
 SELECT_RESTAURANT = 'Selected restaurant:'
 NO_OUTCOME = "NO_OUTCOME"
 TOO_SHORT = "TOO_SHORT"
 SHORT = "SHORT"
-BOT = "BOT"
+BOTS = ["DEFAULT_BOT", "LSTM_UNFEATURIZED", "LSTM_FEATURIZED"]
+HUMAN = "human"
 BOT_METADATA = ["TAGS", "SYNONYMS", "PROBABILITIES"]
-BOT_NUM = -1
 
 
 def load_scenarios(scenarios_file):
@@ -47,6 +47,7 @@ def parse_transcript(transcript_file, include_bots=False):
     transcript["ids"] = ids
     transcript["choices"] = choices
     transcript["dialogue"] = dialogue
+    BOT_NUM = None
 
     for line in infile.readlines():
         line = line.strip().split("\t")
@@ -61,8 +62,11 @@ def parse_transcript(transcript_file, include_bots=False):
             agent_num = int(id_match.group(1))
             ids[agent_num] = id_match.group(2)
         else:
-            agent_num = BOT_NUM
-            if line[2] == BOT:
+            agent_num = line[2]
+
+            if line[2] in BOTS:
+                BOT_NUM = agent_num
+                transcript["BOT_TYPE"] = line[2]
                 if not include_bots:
                     return None
             elif line[2].strip() in BOT_METADATA:
@@ -71,12 +75,17 @@ def parse_transcript(transcript_file, include_bots=False):
                 else:
                     continue
             else:
+                transcript["BOT_TYPE"] = HUMAN
                 user_match = re.match(user_regex, line[2])
                 agent_num = int(user_match.group(1))
+                # print agent_num
             if len(line) == 5:
                 choice_match = re.match(restaurant_regex, " ".join(line[3:]))
                 if choice_match:
                     choices[agent_num] = choice_match.group(1)
+                    # print line
+                    # print agent_num
+                    # print choices[agent_num]
                     dialogue.append((agent_num, "SELECT NAME "+choices[agent_num].lower()))
                 elif line[3] == SELECT_RESTAURANT:
                     choices[agent_num] = line[4]
@@ -87,10 +96,12 @@ def parse_transcript(transcript_file, include_bots=False):
                     continue
 
     transcript["outcome"] = NO_OUTCOME
-    if include_bots:
+    if include_bots and BOT_NUM is not None:
         keys = choices.keys()
+
+        # print keys
         for key in keys:
-            if key != BOT_NUM and choices[key] == choices[BOT_NUM]:
+            if key != BOT_NUM and BOT_NUM in choices.keys() and choices[key] == choices[BOT_NUM]:
                 transcript["outcome"] = choices[key]
     else:
         if 0 in choices.keys() and 1 in choices.keys() and choices[0] == choices[1]:

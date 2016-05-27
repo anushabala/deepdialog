@@ -225,6 +225,8 @@ class LSTMChatBot(ChatBotBase):
             # print "partner mentions flat", partner_mentions_flat
             choices = []
             entity = None
+
+            # make sure that we never mention something twice in the same set of utterances
             try:
                 if "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" in features:
                     choices = [c for c in my_mentions_flat[tag] if c in partner_mentions_flat[tag]]
@@ -233,12 +235,12 @@ class LSTMChatBot(ChatBotBase):
                     #     choices = []
                     # pass
                 elif "F:MENTIONED_BY_FRIEND" in features and "F:MENTIONED_BY_ME" not in features:
-                    choices = [c for c in partner_mentions_flat[tag] if c not in my_mentions_flat[tag]]
+                    choices = [c for c in partner_mentions_flat[tag] if c not in my_mentions_flat[tag] and c not in new_mentions[tag]]
                     assert len(choices) > 0
                     # this should never happen, todo again default
                     # pass
                 elif "F:MENTIONED_BY_ME" in features and "F:MENTIONED_BY_FRIEND" not in features:
-                    choices = [c for c in my_mentions_flat[tag] if c not in partner_mentions_flat[tag]]
+                    choices = [c for c in my_mentions_flat[tag] if c not in partner_mentions_flat[tag] and c not in new_mentions[tag]]
                     assert len(choices) > 0
                     # this should never happen, todo again default
                 else:
@@ -247,7 +249,7 @@ class LSTMChatBot(ChatBotBase):
                     # print all_entities, tag
                     # print my_mentions_flat[tag]
                     # print partner_mentions_flat[tag]
-                    choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in partner_mentions_flat[tag]]
+                    choices = [c for c in all_entities if c not in my_mentions_flat[tag] and c not in partner_mentions_flat[tag] and c not in new_mentions[tag]]
                     assert len(choices) > 0
             except AssertionError:
                 # print choices
@@ -258,7 +260,7 @@ class LSTMChatBot(ChatBotBase):
                 # print partner_mentions_flat[tag]
                 # print "Mention tag mismatch; ignoring mention tags entirely"
                 all_entities = get_all_entities_with_tag(tag, my_info)
-                choices = all_entities
+                choices = [c for c in all_entities if c not in new_mentions[tag]]
                 # print choices
             # print "choices after mentions:", choices
             if tag == Entity.to_tag(Entity.FIRST_NAME):
@@ -277,7 +279,7 @@ class LSTMChatBot(ChatBotBase):
                     # print choices
                     sorted_choices = [a[0] for a in sorted_probs if a[0] in choices]
                     if len(sorted_choices) == 0:
-                        entity = sorted_probs[0] #fallback if all else fails
+                        entity = sorted_probs[0][0] #fallback if all else fails
                     else:
                         entity = sorted_choices[0]
                 else:
