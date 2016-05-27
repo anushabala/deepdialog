@@ -17,7 +17,7 @@ import logging
 from modeling.tagger import EntityTagger
 
 
-def init_database(db_file):
+def init_database(db_file, bot_probability=0.0):
     conn = sqlite3.connect(db_file)
     c = conn.cursor()
     # number: room number, participants: number of participants (0 - 2)
@@ -26,7 +26,7 @@ def init_database(db_file):
     c.execute('''CREATE TABLE CompletedTasks (name text, mturk_code text, num_single_tasks_completed integer, num_chats_completed integer, bonus integer)''')
     c.execute('''CREATE TABLE Surveys (name text, partner_type text, how_mechanical integer, how_effective integer)''')
     c.execute('''CREATE TABLE ChatCounts (id integer, humans integer, bots integer, lstms_feat integer, lstms_unfeat integer, prob_bot real, prob_lstm_feat real, prob_lstm_unfeat real)''')
-    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0,0,0,0.25,0.25,0.25)''')
+    c.execute('''INSERT INTO ChatCounts VALUES (1,0,0,0,0,?,?,?)''', (bot_probability["bot"], bot_probability["lstm_feat"], bot_probability["lstm_unfeat"]))
     #c.execute('''CREATE TABLE Chatrooms (room_id integer, scenario_id text)''')
     conn.commit()
     conn.close()
@@ -42,6 +42,7 @@ if __name__ == '__main__':
     parser.add_argument('-p', help="File containing app configuration params", type=str,
                         default="params.json")
     parser.add_argument('--host', help="Host IP address to run app on - defaults to localhost", type=str, default="127.0.0.1")
+    parser.add_argument('--port', help="Port to run app on", type=int, default=5000)
     parser.add_argument('--log', help="File to log app output to", type=str, default="chat.log")
     args = parser.parse_args()
     params_file = args.p
@@ -51,7 +52,6 @@ if __name__ == '__main__':
     if os.path.exists(params["db"]["location"]):
         os.remove(params["db"]["location"])
 
-    init_database(params["db"]["location"])
     clear_data(params["logging"]["chat_dir"])
     templates_dir = params["templates_dir"]
     app = create_app(debug=True, templates_dir=templates_dir)
@@ -69,19 +69,42 @@ if __name__ == '__main__':
     app.config["lstm_selections"] = defaultdict(None)
     app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
 
-    if params["lstms"]["use_lstms"]:
-        print "Loading model without features from %s" % params["lstms"]["model"]["lstm_unfeat"]
-        spec = specutil.load(params["lstms"]["model"]["lstm_unfeat"])
-        model = EncoderDecoderModel(spec)
-        app.config["lstm_unfeat"] = model
+    num_bots = 0
+    app.config["bot_waiting_probability"] = {}
+    app.config["bot_probability"] = {}
 
-        print "Loading model with features from from %s" % params["lstms"]["model"]["lstm_feat"]
-        spec = specutil.load(params["lstms"]["model"]["lstm_feat"])
+    all_models = ["lstm_unfeat", "lstm_feat", "bot"]
+    models = []
+    if params["lstms"]["use_feat_lstm"]:
+        num_bots += 1
+        print "Loading model with features from from %s" % params["lstms"]["lstm_feat"]
+        spec = specutil.load(params["lstms"]["lstm_feat"])
         feat_model = EncoderDecoderModel(spec)
         app.config["lstm_feat"] = feat_model
+        models.append("lstm_feat")
     else:
         app.config["lstm_feat"] = None
+    if params["lstms"]["use_unfeat_lstm"]:
+        num_bots += 1
+        print "Loading model without features from %s" % params["lstms"]["lstm_unfeat"]
+        spec = specutil.load(params["lstms"]["lstm_unfeat"])
+        model = EncoderDecoderModel(spec)
+        app.config["lstm_unfeat"] = model
+        models.append("lstm_unfeat")
+    else:
         app.config["lstm_unfeat"] = None
 
+    if params["use_bots"]:
+        num_bots += 1
+        app.config["use_bots"] = True
+        models.append("bot")
+    else:
+        app.config["use_bots"] = False
+
+    bot_waiting_probability = 1.0/num_bots if num_bots > 0 else 0
+    bot_probability = 1.0/(num_bots+1) if num_bots > 0 else 0
+    app.config["bot_waiting_probability"] = {m:bot_waiting_probability if m in models else 0 for m in all_models}
+    app.config["bot_probability"] = {m:bot_probability if m in models else 0 for m in all_models}
+    init_database(params["db"]["location"], bot_probability=app.config["bot_probability"])
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
-    socketio.run(app, host=args.host)
+    socketio.run(app, host=args.host, port=args.port)

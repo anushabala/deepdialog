@@ -104,7 +104,7 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots, bot_selections, tagger, featurized_lstm_model, unfeaturized_lstm):
+    def __init__(self, config, scenarios, bots, bot_selections, tagger, featurized_lstm_model, unfeaturized_lstm, bot_waiting_probabilities):
         self.config = config
         self.featurized_lstm = featurized_lstm_model
         self.unfeaturized_lstm = unfeaturized_lstm
@@ -123,9 +123,9 @@ class BackendConnection(object):
         self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
-        self.waiting_bot_probability = 0.2
-        self.waiting_lstm_probability = 0.2
-        self.waiting_lstm_unfeaturized_probability = 0.2
+        self.waiting_bot_probability = bot_waiting_probabilities["bot"]
+        self.waiting_lstm_probability = bot_waiting_probabilities["lstm_feat"]
+        self.waiting_lstm_unfeaturized_probability = bot_waiting_probabilities["lstm_unfeat"]
 
     def close(self):
         self.conn.close()
