@@ -304,10 +304,10 @@ def is_degenerate(seq):
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument("--scenarios", type=str, default='../scenarios.json', help='File containing JSON scenarios')
-    parser.add_argument("--transcripts", type=str, default='../transcripts', help='Directory containing chat transcripts')
-    parser.add_argument("--out_dir", type=str, default='../transcripts_with_prefs', help='Directory to write output transcripts to')
-    parser.add_argument('--prefix', type=str, default='friends.seq2seq.rel.aligned')
+    parser.add_argument("--scenarios", type=str, help='File containing JSON scenarios', required=True)
+    parser.add_argument("--transcripts", type=str, help='Directory containing chat transcripts', nargs='+', required=True)
+    parser.add_argument("--out_dir", type=str, help='Directory to write output transcripts to', required=True)
+    parser.add_argument('--prefix', type=str, required=True)
     parser.add_argument('--include_metadata', action='store_true')
     parser.add_argument('--tag_entities', action='store_true')
     parser.add_argument('--include_features', action='store_true')
@@ -319,63 +319,64 @@ if __name__ == "__main__":
 
     tagger = EntityTagger(scenarios)
 
-    train_out = codecs.open(os.path.join(out_dir, prefix)+'.train', 'a', encoding='utf-8')
-    val_out = codecs.open(os.path.join(out_dir, prefix)+'.val', 'a', encoding='utf-8')
-    test_out = codecs.open(os.path.join(out_dir, prefix)+'.test', 'a', encoding='utf-8')
+    train_out = codecs.open(os.path.join(out_dir, prefix)+'.train', 'w', encoding='utf-8')
+    val_out = codecs.open(os.path.join(out_dir, prefix)+'.val', 'w', encoding='utf-8')
+    test_out = codecs.open(os.path.join(out_dir, prefix)+'.test', 'w', encoding='utf-8')
     if args.include_metadata or args.tag_entities:
-        train_ids = open(os.path.join(out_dir, prefix)+'.train_ids', 'a')
-        val_ids = open(os.path.join(out_dir, prefix)+'.val_ids', 'a')
-        test_ids = open(os.path.join(out_dir, prefix)+'.test_ids', 'a')
+        train_ids = open(os.path.join(out_dir, prefix)+'.train_ids', 'w')
+        val_ids = open(os.path.join(out_dir, prefix)+'.val_ids', 'w')
+        test_ids = open(os.path.join(out_dir, prefix)+'.test_ids', 'w')
     degenerate_ctr = 0
     invalid = {NO_OUTCOME: 0, VALID: 0}
 
-    for name in os.listdir(args.transcripts):
-        f = os.path.join(args.transcripts, name)
-        transcript = parse_transcript(f, include_bots=False)
-        if transcript is None:
-            continue
-        valid, reason = is_transcript_valid(transcript)
-        if not valid:
-            invalid[reason] += 1
-        else:
-            invalid[VALID] += 1
-
-            in_seq, out_seq, agent_idx, scenario_id = get_sequences_from_transcript(transcript,
-                                                            scenarios,
-                                                            include_metadata=args.include_metadata,
-                                                            tag_sentences=args.tag_entities,
-                                                            include_features=args.include_features)
-            in_rev, out_rev, agent_idx_rev, scenario_id_rev = get_sequences_from_transcript(transcript,
-                                                            scenarios,
-                                                            reverse=True,
-                                                            include_metadata=args.include_metadata,
-                                                            tag_sentences=args.tag_entities,
-                                                            include_features=args.include_features)
-            if is_degenerate(in_seq) or is_degenerate(out_seq):
-                print "degenerate example, skipping", transcript
-                print in_seq, out_seq
-                print "---"
-                degenerate_ctr += 1
+    for transcript_dir in args.transcripts:
+        for name in os.listdir(transcript_dir):
+            f = os.path.join(transcript_dir, name)
+            transcript = parse_transcript(f, include_bots=False)
+            if transcript is None:
                 continue
-            r = random.random()
-            if 0 <= r < 0.9:
-                train_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
-                train_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
-                if args.include_metadata or args.tag_entities:
-                    train_ids.write("%s\n" % transcript["scenario"])
-                    train_ids.write("%s\n" % transcript["scenario"])
-            elif 0.9 <= r < 1:
-                val_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
-                val_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
-                if args.include_metadata or args.tag_entities:
-                    val_ids.write("%s\n" % transcript["scenario"])
-                    val_ids.write("%s\n" % transcript["scenario"])
+            valid, reason = is_transcript_valid(transcript)
+            if not valid:
+                invalid[reason] += 1
             else:
-                test_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
-                test_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
-                if args.include_metadata or args.tag_entities:
-                    test_ids.write("%s\n" % transcript["scenario"])
-                    test_ids.write("%s\n" % transcript["scenario"])
+                invalid[VALID] += 1
+
+                in_seq, out_seq, agent_idx, scenario_id = get_sequences_from_transcript(transcript,
+                                                                scenarios,
+                                                                include_metadata=args.include_metadata,
+                                                                tag_sentences=args.tag_entities,
+                                                                include_features=args.include_features)
+                in_rev, out_rev, agent_idx_rev, scenario_id_rev = get_sequences_from_transcript(transcript,
+                                                                scenarios,
+                                                                reverse=True,
+                                                                include_metadata=args.include_metadata,
+                                                                tag_sentences=args.tag_entities,
+                                                                include_features=args.include_features)
+                if is_degenerate(in_seq) or is_degenerate(out_seq):
+                    print "degenerate example, skipping", transcript
+                    print in_seq, out_seq
+                    print "---"
+                    degenerate_ctr += 1
+                    continue
+                r = random.random()
+                if 0 <= r < 0.9:
+                    train_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
+                    train_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
+                    if args.include_metadata or args.tag_entities:
+                        train_ids.write("%s\n" % transcript["scenario"])
+                        train_ids.write("%s\n" % transcript["scenario"])
+                elif 0.9 <= r < 1:
+                    val_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
+                    val_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
+                    if args.include_metadata or args.tag_entities:
+                        val_ids.write("%s\n" % transcript["scenario"])
+                        val_ids.write("%s\n" % transcript["scenario"])
+                else:
+                    test_out.write("%s\t%s\t%d\t%s\n" % (in_seq, out_seq, agent_idx, scenario_id))
+                    test_out.write("%s\t%s\t%d\t%s\n" % (in_rev, out_rev, agent_idx_rev, scenario_id_rev))
+                    if args.include_metadata or args.tag_entities:
+                        test_ids.write("%s\n" % transcript["scenario"])
+                        test_ids.write("%s\n" % transcript["scenario"])
 
     train_out.close()
     val_out.close()
