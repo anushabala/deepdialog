@@ -165,7 +165,7 @@ class LSTMLayer(RNNLayer):
         c_tilde_t = T.tanh(T.dot(input_t, self.wc) + T.dot(h_prev, self.uc))
         c_t = f_t * c_prev + i_t * c_tilde_t
         h_t = o_t * T.tanh(c_t)
-        print "made LSTM step"
+        print "LSTMLayer.step()"
         return self.pack(c_t, h_t)
 
     def write(self, c_h_t):

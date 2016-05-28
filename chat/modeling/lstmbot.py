@@ -81,6 +81,7 @@ class LSTMChatBot(ChatBotBase):
         self.first_names_to_full_names = {}
         self.probabilities = {}
         self.my_info = scenario["agents"][agent_num]["info"]
+        # Should I initiate?
         r = np.random.random()
         self.my_turn = True if r < 0.5 else False
         # print "My turn: ", self.my_turn
@@ -355,8 +356,8 @@ class LSTMChatBot(ChatBotBase):
                     return None, ret_text
 
         if self.my_turn:
+            # Generate output
             pred_inds = []
-
             for i in range(self.MAX_OUT_LEN):
                 write_dist = self.model._decoder_write(self.h_t)
                 y_t = np.argmax(write_dist)

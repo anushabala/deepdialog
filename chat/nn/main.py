@@ -14,6 +14,7 @@ import os
 from encoderdecoder import EncoderDecoderModel
 from encdecspec import VanillaEncDecSpec, GRUEncDecSpec, LSTMEncDecSpec
 import spec as specutil
+import logstats
 
 # Imports from parent directory
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
@@ -37,9 +38,6 @@ VOCAB_TYPES = collections.OrderedDict([
 
 # Global options
 OPTIONS = None
-
-# Global statistics
-STATS = {}
 
 def _parse_args():
   global OPTIONS
@@ -77,18 +75,26 @@ def _parse_args():
                       help='Use 32-bit floats (default is 64-bit/double precision).')
   parser.add_argument('--beam-size', '-k', type=int, default=0,
                       help='Use beam search with given beam size (default is greedy).')
+
+  # Input paths
   parser.add_argument('--train-data', help='Path to training data.')
   parser.add_argument('--dev-data', help='Path to dev data.')
-  parser.add_argument('--save-file', help='Path to save parameters.')
-  parser.add_argument('--load-file', help='Path to load parameters, will ignore other passed arguments.')
+  parser.add_argument('--load-params', help='Path to load parameters, will ignore other passed arguments.')
+
+  # Output paths (mostly)
+  parser.add_argument('--out-dir', help='If specify, save all files to this directory.')
+  parser.add_argument('--save-params', help='Path to save parameters.')
   parser.add_argument('--stats-file', help='Path to save statistics (JSON format).')
   parser.add_argument('--train-eval-file', help='Path to save train eval results (JSON format).')
   parser.add_argument('--dev-eval-file', help='Path to save dev eval results (JSON format).')
+
+  # Theano-specific options
   parser.add_argument('--theano-fast-compile', action='store_true',
                       help='Run Theano in fast compile mode.')
   parser.add_argument('--theano-profile', action='store_true',
                       help='Turn on profiling in Theano.')
   parser.add_argument('--gpu', action='store_true', help='Use GPU.')
+
   if len(sys.argv) == 1:
     parser.print_help()
     sys.exit(1)
@@ -124,20 +130,30 @@ def configure_theano():
   if OPTIONS.float32 or OPTIONS.gpu:
     theano.config.floatX = 'float32'
 
-def load_dataset(filename):
+def load_dataset(name, path):
+  print 'load_dataset(%s, %s)' % (name, path)
+  # Dataset format: each line is an example.
+  # Each example is tab-separated with the following fields:
+  # - <input> | ... | <input>: sequence of inputs
+  # - <output> | ... | <output>: corresponding sequence of outputs
+  # - <agent>: agent id (0 or 1)
+  # - <scenario>: specifies the world
+  # Outputs a list of examples, each example is [(i, o), ..., (i, o)]
   data = []
   metadata = []
-  with open(filename) as f:
+  with open(path) as f:
     for line in f:
       columns = line.rstrip('\n').split('\t')
-      # assert len(columns)==2
       left_seqs = [s.strip() for s in columns[0].split("|")]
       right_seqs = [s.strip() for s in columns[1].split("|")]
       agent_idx = int(columns[2])
       scenario_id = columns[3]
       metadata.append((agent_idx, scenario_id))
-      assert(len(left_seqs)==len(right_seqs))
-      data.append(list(zip(left_seqs,right_seqs)))
+      assert(len(left_seqs) == len(right_seqs))
+      data.append(list(zip(left_seqs, right_seqs)))
+  
+  logstats.add('data', name, 'num_examples', len(data))
+
   return data, metadata
 
 def get_input_vocabulary(dataset):
@@ -183,7 +199,7 @@ def update_model(model, dataset):
 def sentence_pairs_to_indices(in_vocabulary, out_vocabulary, pairs, eos_on_output):
   all_x_inds = []
   all_y_inds = []
-  print pairs
+  #print pairs
   for x,y in pairs:
     x0_inds = in_vocabulary.sentence_to_indices(x)
     y0_inds = [-1 for i in x0_inds]
@@ -205,18 +221,22 @@ def sentence_pairs_to_indices_for_eval(in_vocabulary, out_vocabulary, pairs, eos
   
 
 def preprocess_data(in_vocabulary, out_vocabulary, raw):
+  print 'preprocess_data(): %s examples' % len(raw)
   eos_on_output = not OPTIONS.no_eos_on_output
   data = []
   for ex in raw:
     kwargs = {}
-    x_inds,y_inds = sentence_pairs_to_indices(in_vocabulary, out_vocabulary, ex, eos_on_output)
-    print "x_inds: {}".format(x_inds)
-    print "y_inds: {}".format(y_inds)
+    x_inds, y_inds = sentence_pairs_to_indices(in_vocabulary, out_vocabulary, ex, eos_on_output)
+    #print "x_inds: {}".format(x_inds)
+    #print "y_inds: {}".format(y_inds)
 
     if OPTIONS.reverse_input:
       raise Exception("This option is not currently supported.")
       x_inds = x_inds[::-1]
     data.append((x_inds, y_inds, kwargs))
+
+  print 'input vocab size = %s, output vocab size = %s' % (in_vocabulary.size(), out_vocabulary.size())
+
   return data
 
 def preprocess_data_for_eval(in_vocabulary, out_vocabulary, raw):
@@ -267,14 +287,12 @@ def print_accuracy_metrics(name, is_correct_list, tokens_correct_list,
     num_per_len[x_len] += 1
     tokens_per_len[x_len] += y_len
 
-  STATS[name] = {}
-
   # Print sequence-level accuracy
-  STATS[name]['sentence'] = {
+  logstats.add(name, 'sentence', {
       'correct': num_correct,
       'total': num_examples,
       'accuracy': seq_accuracy,
-  }
+  })
   print 'Sequence-level accuracy: %d/%d = %g' % (num_correct, num_examples, seq_accuracy)
   for i in sorted(num_correct_per_len):
     cur_num_correct = num_correct_per_len[i]
@@ -284,11 +302,11 @@ def print_accuracy_metrics(name, is_correct_list, tokens_correct_list,
         i - 1, cur_num_correct, cur_num_examples, cur_accuracy)
 
   # Print token-level accuracy
-  STATS[name]['token'] = {
+  logstats.add(name, 'token', {
       'correct': num_tokens_correct,
       'total': num_tokens,
       'accuracy': token_accuracy,
-  }
+  })
   print 'Token-level accuracy: %d/%d = %g' % (num_tokens_correct, num_tokens, token_accuracy)
   for i in sorted(tokens_correct_per_len):
     cur_num_tokens_correct = tokens_correct_per_len[i]
@@ -434,18 +452,26 @@ def close_if_specified(fh):
   if fh:
     fh.close()
 
-
 def run():
   configure_theano()
+
+  # Set default output flags
+  if not OPTIONS.save_params: OPTIONS.save_params = os.path.join(OPTIONS.out_dir, 'params')
+  if not OPTIONS.stats_file: OPTIONS.stats_file = os.path.join(OPTIONS.out_dir, 'stats.json')
+  if not OPTIONS.train_eval_file: OPTIONS.train_eval_file = os.path.join(OPTIONS.out_dir, 'train_eval.json')
+  if not OPTIONS.dev_eval_file: OPTIONS.dev_eval_file = os.path.join(OPTIONS.out_dir, 'dev_eval.json')
+
+  logstats.init(OPTIONS.stats_file)
+
   if OPTIONS.train_data:
-    train_raw, train_metadata = load_dataset(OPTIONS.train_data)
+    train_raw, train_metadata = load_dataset('train', OPTIONS.train_data)
     try:
       assert len(train_raw) == len(train_metadata)
     except AssertionError:
       print len(train_raw), len(train_metadata)
-  if OPTIONS.load_file:
-    print >> sys.stderr, 'Loading saved params from %s' % OPTIONS.load_file
-    spec = specutil.load(OPTIONS.load_file)
+  if OPTIONS.load_params:
+    print >> sys.stderr, 'Loading saved params from %s' % OPTIONS.load_params
+    spec = specutil.load(OPTIONS.load_params)
     in_vocabulary = spec.in_vocabulary
     out_vocabulary = spec.out_vocabulary
   elif OPTIONS.train_data:
@@ -464,32 +490,27 @@ def run():
     model.train(train_data, T=OPTIONS.num_epochs, eta=OPTIONS.learning_rate,
                 batch_size=OPTIONS.batch_size, verbose=True)
 
-  if OPTIONS.save_file:
+  if OPTIONS.save_params:
     print >> sys.stderr, 'Saving parameters...'
-    spec.save(OPTIONS.save_file)
+    spec.save(OPTIONS.save_params)
 
   if OPTIONS.train_data:
     print 'Training data:'
-    eval_fh = open_if_specified(OPTIONS.train_eval_file,"w")
+    eval_fh = open_if_specified(OPTIONS.train_eval_file, "w")
     evaluate('train', model, in_vocabulary, out_vocabulary, train_data_for_eval, train_metadata, eval_fh)
     close_if_specified(eval_fh)
 
   if OPTIONS.dev_data:
-    dev_raw, dev_metadata = load_dataset(OPTIONS.dev_data)
+    dev_raw, dev_metadata = load_dataset('dev', OPTIONS.dev_data)
     dev_model = update_model(model, dev_raw)
     dev_data = preprocess_data(dev_model.in_vocabulary,
                                dev_model.out_vocabulary, dev_raw)
     dev_data_for_eval = preprocess_data_for_eval(dev_model.in_vocabulary,
                                                  dev_model.out_vocabulary, dev_raw)
     print 'Testing data:'
-    eval_fh = open_if_specified(OPTIONS.dev_eval_file,"w")
+    eval_fh = open_if_specified(OPTIONS.dev_eval_file, "w")
     evaluate('dev', dev_model, in_vocabulary, out_vocabulary, dev_data_for_eval, dev_metadata, eval_fh)
     close_if_specified(eval_fh)
-
-  if OPTIONS.stats_file:
-      out = open(OPTIONS.stats_file, 'w')
-      print >>out, json.dumps(STATS)
-      out.close()
 
 def main():
   _parse_args()

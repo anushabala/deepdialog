@@ -8,6 +8,7 @@ import theano
 from theano.ifelse import ifelse
 from theano import tensor as T
 import time
+import logstats
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
 
@@ -38,15 +39,14 @@ class NeuralModel(object):
         self.out_vocabulary = spec.out_vocabulary
         self.float_type = float_type
         self.params = spec.get_params()
-        print "got all params"
+        print "NeuralModel(): got all params"
         self.all_shared = spec.get_all_shared()
-        print "got all theano shared variables"
+        print "NeuralModel(): got all theano shared variables"
         self.listeners = listeners
 
-        print "starting setup"
+        print "NeuralModel(): starting setup"
         self.setup()
-        print "setup complete"
-        # print >> sys.stderr, 'Setup complete.'
+        print "NeuralModel(): setup complete"
 
     def setup(self, test_only=False):
         """Do all necessary setup (e.g. compile theano functions)."""
@@ -73,8 +73,10 @@ class NeuralModel(object):
             listener(t, self)
 
     def train(self, dataset, eta=0.1, T=10, verbose=False, batch_size=1):
+        print 'NeuralModel.train()'
         # batch_size = size for mini batch.  Defaults to SGD.
         for it in range(T):
+            logstats.add('train', 'iteration', it)
             t0 = time.time()
             total_nll = 0
             random.shuffle(dataset)
@@ -86,6 +88,8 @@ class NeuralModel(object):
                 if verbose:
                     print 'NeuralModel.train(): iter %d, nll = %g' % (it, nll)
             t1 = time.time()
+            logstats.add('train', 'nll', total_nll)
+            logstats.add('train', 'time', t1 - t0)
             print 'NeuralModel.train(): iter %d: total nll = %g (%g seconds)' % (
                 it, total_nll, t1 - t0)
             self.on_train_epoch(it)
