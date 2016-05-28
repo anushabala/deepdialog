@@ -1,0 +1,18 @@
+05-26-2016:00-11-00	4f3b985d-4f5f-4207-a796-7d233772377d	User 1	joined
+05-26-2016:00-11-00	4f3b985d-4f5f-4207-a796-7d233772377d	User 1 has user ID 91d07fd890414b26996e32157d04ac72
+05-26-2016:00-11-02	4f3b985d-4f5f-4207-a796-7d233772377d	DEFAULT_BOT	hi
+05-26-2016:00-11-11	4f3b985d-4f5f-4207-a796-7d233772377d	DEFAULT_BOT	i'm from university of pennsylvania, studied linguistics, work at uber
+05-26-2016:00-11-14	4f3b985d-4f5f-4207-a796-7d233772377d	DEFAULT_BOT	what about you
+05-26-2016:00-11-22	4f3b985d-4f5f-4207-a796-7d233772377d	User 1	Hi stanford, studied linguistics as well and work at facebook
+05-26-2016:00-11-22	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-22	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	[<firstName>: asa],[<fullName>: asa cadena]
+05-26-2016:00-11-22	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 0.12),  (brittanie piggott, 0.10),  (vickey redinger, 0.10),  (johnathan mccolley, 0.10),  (keesha ahart, 0.10),  (lillia mikel, 0.10),  (alberto thurlow, 0.09),  (nathanial towery, 0.09),  (graig chill, 0.09),  (kendrick friday, 0.09),  
+05-26-2016:00-11-26	4f3b985d-4f5f-4207-a796-7d233772377d	DEFAULT_BOT	do you know barbar scheu?
+05-26-2016:00-11-31	4f3b985d-4f5f-4207-a796-7d233772377d	User 1	yes
+05-26-2016:00-11-31	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-31	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-11-31	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 0.10),  (brittanie piggott, 0.10),  (vickey redinger, 0.10),  (johnathan mccolley, 0.10),  (keesha ahart, 0.10),  (lillia mikel, 0.10),  (alberto thurlow, 0.10),  (nathanial towery, 0.10),  (graig chill, 0.10),  (kendrick friday, 0.10),  
+05-26-2016:00-11-35	4f3b985d-4f5f-4207-a796-7d233772377d	DEFAULT_BOT	brittanie, vickey, johnathan?
+05-26-2016:00-11-35	4f3b985d-4f5f-4207-a796-7d233772377d	User 1	Selected 2:	Barbar Scheu
+05-26-2016:00-11-38	4f3b985d-4f5f-4207-a796-7d233772377d	DEFAULT_BOT	Selected:	Barbar Scheu
+05-26-2016:00-11-38	---

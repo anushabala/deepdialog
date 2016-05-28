@@ -1,0 +1,28 @@
+05-26-2016:01-54-27	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	joined
+05-26-2016:01-54-27	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0 has user ID 0626ee3f3e0348bdb0e9427130c9739d
+05-26-2016:01-54-29	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	hi there!
+05-26-2016:01-54-35	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	hi all of my friends work at facebook and 1 apple
+05-26-2016:01-54-35	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-35	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:01-54-35	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 0.20),  (birgit heid, 0.20),  (lashaunda carothers, 0.07),  (sherika rust, 0.07),  (cori runion, 0.07),  (tyson rankins, 0.07),  (tess lister, 0.07),  (josh gouin, 0.07),  (lai pettaway, 0.07),  (fletcher hersman, 0.07),  
+05-26-2016:01-54-44	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:01-54-47	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	work at google
+05-26-2016:01-54-53	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:01-55-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Stanford, majored n linguistics and work at FB
+05-26-2016:01-55-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:01-55-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.16),  (cori runion, 0.16),  (tyson rankins, 0.16),  (josh gouin, 0.16),  (beau roudebush, 0.07),  (birgit heid, 0.07),  (sherika rust, 0.06),  (tess lister, 0.06),  (lai pettaway, 0.06),  (fletcher hersman, 0.06),  
+05-26-2016:01-55-12	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	are lashaunda or cori on your list?
+05-26-2016:01-55-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	no sorry
+05-26-2016:01-55-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:01-55-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.11),  (cori runion, 0.11),  (tyson rankins, 0.11),  (josh gouin, 0.11),  (beau roudebush, 0.10),  (birgit heid, 0.10),  (sherika rust, 0.10),  (tess lister, 0.10),  (lai pettaway, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-55-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	do you know tyson, josh or beau?
+05-26-2016:01-55-34	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	no match yet
+05-26-2016:01-55-34	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-34	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	[<major>: math]
+05-26-2016:01-55-34	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.10),  (cori runion, 0.10),  (tyson rankins, 0.10),  (josh gouin, 0.10),  (beau roudebush, 0.10),  (birgit heid, 0.10),  (sherika rust, 0.10),  (tess lister, 0.10),  (lai pettaway, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-55-37	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	birgit heid?
+05-26-2016:01-55-41	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Selected 7:	Birgit Heid
+05-26-2016:01-55-43	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	Selected:	Birgit Heid
+05-26-2016:01-55-44	---

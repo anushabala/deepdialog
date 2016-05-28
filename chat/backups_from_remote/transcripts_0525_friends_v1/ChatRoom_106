@@ -1,0 +1,25 @@
+05-26-2016:00-16-12	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	joined
+05-26-2016:00-16-12	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0 has user ID 816e9d8e670e496dbde8907465546564
+05-26-2016:00-16-15	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	hi there!
+05-26-2016:00-16-20	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	i'm from stanford, math, apple
+05-26-2016:00-16-22	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	hey hey hey
+05-26-2016:00-16-22	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-22	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-16-22	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (mose coletti, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (ayesha aarons, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-16-29	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-16-36	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	i work at uber, so do most of my friends1
+05-26-2016:00-16-36	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-36	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:00-16-36	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(mose coletti, 0.33),  (kristie bolduc, 0.07),  (bernita kerrick, 0.07),  (oliver roker, 0.07),  (jenny hird, 0.07),  (tobi brunette, 0.07),  (ayesha aarons, 0.07),  (pearl dollard, 0.07),  (riva noles, 0.07),  (elene prouty, 0.07),  
+05-26-2016:00-16-44	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	do you know kristie bolduc bernita kerrick or oliver roker?
+05-26-2016:00-16-45	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	although two friends work at apple
+05-26-2016:00-16-45	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-45	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-16-45	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(mose coletti, 0.13),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (ayesha aarons, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-16-47	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:00-16-50	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	huh
+05-26-2016:00-16-50	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-50	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-16-50	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(mose coletti, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (ayesha aarons, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-16-54	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	do you know mose coletti?
+05-26-2016:00-16-55	---

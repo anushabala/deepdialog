@@ -1,0 +1,18 @@
+05-26-2016:00-29-28	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	joined
+05-26-2016:00-29-28	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:00-29-30	b88077d0-d38e-4381-a1a2-8494f9a1196c	DEFAULT_BOT	hello
+05-26-2016:00-29-41	b88077d0-d38e-4381-a1a2-8494f9a1196c	DEFAULT_BOT	i went to university of california - berkeley, majored in computer science, work at facebook
+05-26-2016:00-29-44	b88077d0-d38e-4381-a1a2-8494f9a1196c	DEFAULT_BOT	what about you?
+05-26-2016:00-29-55	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	hi i went to columbia and majored in economics and work for apple
+05-26-2016:00-29-55	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>: economics],[<schoolName>: columbia],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-55	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	
+05-26-2016:00-29-55	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(frederick willetts, 0.16),  (sheilah steitz, 0.16),  (birgit heid, 0.16),  (lorriane hurlbert, 0.16),  (clarisa mattison, 0.06),  (emmanuel eliason, 0.06),  (carry pavlick, 0.06),  (lucienne whitting, 0.06),  (raymond polite, 0.06),  (elza guevara, 0.06),  
+05-26-2016:00-29-59	b88077d0-d38e-4381-a1a2-8494f9a1196c	DEFAULT_BOT	hmm, do you know frederick?
+05-26-2016:00-30-13	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	i do
+05-26-2016:00-30-13	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-13	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	
+05-26-2016:00-30-13	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(lorriane hurlbert, 0.11),  (frederick willetts, 0.11),  (sheilah steitz, 0.11),  (birgit heid, 0.11),  (clarisa mattison, 0.10),  (elza guevara, 0.10),  (emmanuel eliason, 0.10),  (carry pavlick, 0.10),  (lucienne whitting, 0.10),  (raymond polite, 0.10),  
+05-26-2016:00-30-17	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	Selected 6:	Frederick Willetts
+05-26-2016:00-30-26	b88077d0-d38e-4381-a1a2-8494f9a1196c	DEFAULT_BOT	do you know lorriane hurlbert sheilah steitz or birgit heid?
+05-26-2016:00-30-28	b88077d0-d38e-4381-a1a2-8494f9a1196c	DEFAULT_BOT	Selected:	Frederick Willetts
+05-26-2016:00-30-28	---

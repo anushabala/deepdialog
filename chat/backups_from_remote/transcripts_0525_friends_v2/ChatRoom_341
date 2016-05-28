@@ -1,0 +1,15 @@
+05-26-2016:02-20-25	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	joined
+05-26-2016:02-20-25	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-20-52	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	hi,I went to uc berkeley and now I work at apple with all my friends except one who works at uber
+05-26-2016:02-20-52	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-20-52	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-20-52	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(alberto thurlow, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (lillia mikel, 1.00),  (kathaleen brough, 1.00),  (willie wicks, 1.00),  (lashaunda carothers, 0.00),  (kam wey, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  
+05-26-2016:02-20-58	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_FEATURIZED	i have 1 friend at facebook and 1 at uber
+05-26-2016:02-21-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	lilia is my friend at uber
+05-26-2016:02-21-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-21-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	[<firstName>: lilia],[<fullName>: lilia]
+05-26-2016:02-21-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(lillia mikel, 3.00),  (alberto thurlow, 2.00),  (quinn courter, 2.00),  (vickey redinger, 2.00),  (kathaleen brough, 2.00),  (willie wicks, 2.00),  (lashaunda carothers, 0.00),  (kam wey, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  
+05-26-2016:02-21-13	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_FEATURIZED	name lillia mikel
+05-26-2016:02-21-20	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	Selected 7:	Lillia Mikel
+05-26-2016:02-21-22	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_FEATURIZED	Selected:	Lillia Mikel
+05-26-2016:02-21-22	---

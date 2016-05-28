@@ -1,0 +1,20 @@
+05-26-2016:00-44-57	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	joined
+05-26-2016:00-44-57	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0 has user ID 49a974312a534c82a8691097b82cda60
+05-26-2016:00-45-00	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	hi
+05-26-2016:00-45-00	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-00	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-45-00	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(sherika rust, 0.00),  (lillia mikel, 0.00),  (verlie fredette, 0.00),  (jesica seaton, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-45-06	b343a7f3-6b17-42e5-8417-34c41f3971db	LSTM_FEATURIZED	all my friend work at google and 1 works at uber
+05-26-2016:00-45-07	b343a7f3-6b17-42e5-8417-34c41f3971db	LSTM_FEATURIZED	hi
+05-26-2016:00-45-11	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	went to columbia, majored in math, work for facebook
+05-26-2016:00-45-11	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-11	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-45-11	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(verlie fredette, 2.00),  (jesica seaton, 1.00),  (fletcher hersman, 1.00),  (sherika rust, 0.00),  (lillia mikel, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-45-19	b343a7f3-6b17-42e5-8417-34c41f3971db	LSTM_FEATURIZED	i have a few friends at google who went to university of california - berkeley
+05-26-2016:00-45-28	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	Quinn or Verlie?
+05-26-2016:00-45-28	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: quinn, verlie],[<fullName>:]
+05-26-2016:00-45-28	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-45-28	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(verlie fredette, 3.00),  (jesica seaton, 1.00),  (fletcher hersman, 1.00),  (sherika rust, 0.00),  (lillia mikel, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-45-32	b343a7f3-6b17-42e5-8417-34c41f3971db	LSTM_FEATURIZED	i have one that works at google 
+05-26-2016:00-45-34	b343a7f3-6b17-42e5-8417-34c41f3971db	LSTM_FEATURIZED	Selected:	Verlie Fredette
+05-26-2016:00-45-39	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	Selected 2:	Verlie Fredette

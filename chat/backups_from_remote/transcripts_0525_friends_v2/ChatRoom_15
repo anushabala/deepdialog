@@ -1,0 +1,25 @@
+05-26-2016:01-47-32	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	joined
+05-26-2016:01-47-32	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:01-47-37	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	HI
+05-26-2016:01-47-37	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-37	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	
+05-26-2016:01-47-37	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-47-43	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_FEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:01-47-44	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_FEATURIZED	hi
+05-26-2016:01-47-44	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	MOST OF MY FRIENDS ARE FROM GOOGLE
+05-26-2016:01-47-44	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-44	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:01-47-44	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 1.00),  (samuel tatum, 1.00),  (mose coletti, 1.00),  (tyson rankins, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (carry pavlick, 0.00),  
+05-26-2016:01-47-48	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_FEATURIZED	i have lots of friends at google
+05-26-2016:01-47-52	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	Columbia Facebook
+05-26-2016:01-47-52	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-52	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	
+05-26-2016:01-47-52	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 2.00),  (tyson rankins, 2.00),  (fletcher hersman, 2.00),  (samuel tatum, 1.00),  (mose coletti, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (carry pavlick, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  
+05-26-2016:01-47-56	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_FEATURIZED	do you know brigid imai
+05-26-2016:01-48-11	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	Yup
+05-26-2016:01-48-11	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-48-11	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	
+05-26-2016:01-48-11	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 2.00),  (tyson rankins, 2.00),  (fletcher hersman, 2.00),  (samuel tatum, 1.00),  (mose coletti, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (carry pavlick, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  
+05-26-2016:01-48-14	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_FEATURIZED	Selected:	Brigid Imai
+05-26-2016:01-48-16	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	Selected 4:	Brigid Imai
+05-26-2016:01-48-16	---

@@ -1,0 +1,19 @@
+05-26-2016:02-15-07	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	joined
+05-26-2016:02-15-07	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:02-15-10	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	hi there!
+05-26-2016:02-15-16	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	i went to stanford and majored in economics
+05-26-2016:02-15-19	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	work at uber
+05-26-2016:02-15-22	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	Hello. ONe friend at Uber. the rest at Apple.
+05-26-2016:02-15-22	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-22	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:02-15-22	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(alberto thurlow, 0.13),  (quinn courter, 0.13),  (vickey redinger, 0.13),  (lillia mikel, 0.13),  (kathaleen brough, 0.13),  (willie wicks, 0.13),  (lashaunda carothers, 0.05),  (kam wey, 0.05),  (renay guel, 0.05),  (fletcher hass, 0.05),  
+05-26-2016:02-15-25	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	major school company?
+05-26-2016:02-15-29	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	hmm, do you know alberto?
+05-26-2016:02-15-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	No.
+05-26-2016:02-15-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:02-15-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(alberto thurlow, 0.10),  (quinn courter, 0.10),  (vickey redinger, 0.10),  (lillia mikel, 0.10),  (kathaleen brough, 0.10),  (willie wicks, 0.10),  (lashaunda carothers, 0.09),  (kam wey, 0.09),  (renay guel, 0.09),  (fletcher hass, 0.09),  
+05-26-2016:02-15-41	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	do you know quinn, vickey or lillia?
+05-26-2016:02-15-48	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 0	Selected 7:	Lillia Mikel
+05-26-2016:02-15-50	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	Selected:	Lillia Mikel
+05-26-2016:02-15-50	---

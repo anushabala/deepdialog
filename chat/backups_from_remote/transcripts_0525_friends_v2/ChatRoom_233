@@ -1,0 +1,26 @@
+05-26-2016:02-05-58	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	joined
+05-26-2016:02-05-58	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-06-18	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	hi,Iwent to Stanford. Now I work at Google with all my friends
+05-26-2016:02-06-18	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-18	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-18	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (elza guevara, 1.00),  (brittney hunley, 0.00),  (clorinda hites, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (darrel oden, 0.00),  (lawanna mars, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-06-19	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_UNFEATURIZED	hi
+05-26-2016:02-06-24	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	what about you
+05-26-2016:02-06-24	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-24	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-24	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (elza guevara, 1.00),  (brittney hunley, 0.00),  (clorinda hites, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (darrel oden, 0.00),  (lawanna mars, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-06-28	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	any google friends
+05-26-2016:02-06-28	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-28	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-28	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (elza guevara, 1.00),  (brittney hunley, 0.00),  (clorinda hites, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (darrel oden, 0.00),  (lawanna mars, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-06-36	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_UNFEATURIZED	i went to university of california - berkeley and studied math i work for facebook 
+05-26-2016:02-06-40	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_UNFEATURIZED	do you know maritza horrell
+05-26-2016:02-06-41	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_UNFEATURIZED	no
+05-26-2016:02-06-51	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	yup maritza
+05-26-2016:02-06-51	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: maritza],[<fullName>:]
+05-26-2016:02-06-51	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-51	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(maritza horrell, 2.00),  (laurette thrailkill, 1.00),  (elza guevara, 1.00),  (brittney hunley, 0.00),  (clorinda hites, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (darrel oden, 0.00),  (lawanna mars, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-06-53	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_UNFEATURIZED	Selected:	Laurette Thrailkill
+05-26-2016:02-07-06	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	Selected 6:	Maritza Horrell
+05-26-2016:02-07-08	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_UNFEATURIZED	Selected:	Maritza Horrell
+05-26-2016:02-07-09	---

@@ -1,0 +1,26 @@
+05-26-2016:00-40-01	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	joined
+05-26-2016:00-40-01	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0 has user ID b4f4c656b1214f87a73da708f9200c09
+05-26-2016:00-40-03	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	hi
+05-26-2016:00-40-10	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	hello!
+05-26-2016:00-40-10	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-10	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-40-10	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (julissa bond, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (liana sams, 0.10),  
+05-26-2016:00-40-20	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	i went to university of pennsylvania, majored in linguistics, work at google
+05-26-2016:00-40-24	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	major school company?
+05-26-2016:00-40-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Any of your friends work at apple?
+05-26-2016:00-40-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-40-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.23),  (sherika rust, 0.09),  (brigid imai, 0.09),  (vickey redinger, 0.09),  (jesica seaton, 0.09),  (lauran dyson, 0.09),  (samuel tatum, 0.09),  (tess lister, 0.09),  (kam wey, 0.09),  (liana sams, 0.09),  
+05-26-2016:00-40-34	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	are julissa or sherika on your list?
+05-26-2016:00-40-37	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	I went to Berkeley, physics, apple
+05-26-2016:00-40-37	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-37	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-40-37	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.12),  (sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (liana sams, 0.10),  
+05-26-2016:00-40-43	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	do you know brigid imai or vickey redinger?
+05-26-2016:00-40-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Julissa is!
+05-26-2016:00-40-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: julissa],[<fullName>:]
+05-26-2016:00-40-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-40-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.24),  (sherika rust, 0.08),  (brigid imai, 0.08),  (vickey redinger, 0.08),  (jesica seaton, 0.08),  (lauran dyson, 0.08),  (samuel tatum, 0.08),  (tess lister, 0.08),  (kam wey, 0.08),  (liana sams, 0.08),  
+05-26-2016:00-40-50	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Selected 3:	Julissa Bond
+05-26-2016:00-40-52	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	Selected:	Julissa Bond
+05-26-2016:00-40-52	---

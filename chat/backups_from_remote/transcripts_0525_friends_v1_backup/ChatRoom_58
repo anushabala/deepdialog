@@ -1,0 +1,45 @@
+05-26-2016:00-13-59	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	joined
+05-26-2016:00-13-59	ee097ca5-ea21-448f-a645-7837f0570d17	User 0 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-14-03	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Hiya
+05-26-2016:00-14-08	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	joined
+05-26-2016:00-14-08	ee097ca5-ea21-448f-a645-7837f0570d17	User 1 has user ID 50d8affd9b5f48c58c7c60d8768aefdc
+05-26-2016:00-14-28	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	Hey, I know people from Google, then one from each of Apple, Facebook, and Amazon.
+05-26-2016:00-14-28	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple, facebook, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-28	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-14-28	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lawanna mars, 7.00),  (birgit heid, 4.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (angelo patch, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  
+05-26-2016:00-14-30	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	Selected:	Birgit Heid
+05-26-2016:00-14-46	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	No, I don't know Birgit. RTFM dude.
+05-26-2016:00-14-46	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:00-14-46	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-14-46	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lawanna mars, 7.00),  (birgit heid, 5.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (angelo patch, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  
+05-26-2016:00-14-50	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	yes he works at facebook 
+05-26-2016:00-14-52	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	Selected:	Lawanna Mars
+05-26-2016:00-15-01	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	I don't know Lawanna either. 
+05-26-2016:00-15-01	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lawanna],[<fullName>:]
+05-26-2016:00-15-01	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-15-01	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lawanna mars, 8.00),  (birgit heid, 5.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (angelo patch, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  
+05-26-2016:00-15-03	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	yeah 
+05-26-2016:00-15-05	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	Selected:	Lawanna Mars
+05-26-2016:00-15-17	---
+05-26-2016:00-15-19	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	joined
+05-26-2016:00-15-19	ee097ca5-ea21-448f-a645-7837f0570d17	User 0 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-15-22	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	hello?
+05-26-2016:00-15-31	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	Hello
+05-26-2016:00-15-31	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-31	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-15-31	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lawanna mars, 8.00),  (birgit heid, 5.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (angelo patch, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  
+05-26-2016:00-15-32	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	shoot 
+05-26-2016:00-15-34	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	sorry
+05-26-2016:00-15-43	---
+05-26-2016:00-15-45	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	joined
+05-26-2016:00-15-45	ee097ca5-ea21-448f-a645-7837f0570d17	User 0 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-15-50	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	Hello?
+05-26-2016:00-15-50	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-50	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-15-50	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lawanna mars, 8.00),  (birgit heid, 5.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (angelo patch, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  
+05-26-2016:00-15-50	---
+05-26-2016:00-15-53	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	that wont 
+05-26-2016:00-15-56	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_FEATURIZED	let me select try time
+05-26-2016:00-16-19	---
+05-26-2016:00-16-20	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	joined
+05-26-2016:00-16-20	ee097ca5-ea21-448f-a645-7837f0570d17	User 1 has user ID 50d8affd9b5f48c58c7c60d8768aefdc

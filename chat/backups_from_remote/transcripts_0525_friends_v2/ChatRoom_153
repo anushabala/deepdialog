@@ -1,0 +1,24 @@
+05-26-2016:01-58-54	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	joined
+05-26-2016:01-58-54	4f3b985d-4f5f-4207-a796-7d233772377d	User 0 has user ID 626844e90fde4f2ca789b70acf5a432d
+05-26-2016:01-58-59	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_FEATURIZED	all my friend work at facebook and 1 works at apple
+05-26-2016:01-59-02	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Hi
+05-26-2016:01-59-02	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-02	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:01-59-02	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (barbar scheu, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:01-59-05	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_FEATURIZED	hi
+05-26-2016:01-59-51	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Don't you have any friend who works at Uber?
+05-26-2016:01-59-51	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-51	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:01-59-51	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:01-59-55	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_FEATURIZED	i have one friend at uber
+05-26-2016:02-00-19	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Do you know about his school?
+05-26-2016:02-00-19	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-19	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:02-00-19	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-00-21	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_FEATURIZED	no
+05-26-2016:02-00-34	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Or where he completed his schooling?
+05-26-2016:02-00-34	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-34	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:02-00-34	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-00-36	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_FEATURIZED	barbar scheu
+05-26-2016:02-01-47	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Selected 5:	Barbar Scheu

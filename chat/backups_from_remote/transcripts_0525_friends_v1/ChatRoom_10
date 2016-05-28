@@ -1,0 +1,17 @@
+05-26-2016:00-10-58	f9704564-c23c-4b19-b6d9-52223708922d	User 1	joined
+05-26-2016:00-10-58	f9704564-c23c-4b19-b6d9-52223708922d	User 1 has user ID 9180b76c89914f0b82ffd65a314252b7
+05-26-2016:00-11-01	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	hello
+05-26-2016:00-11-01	f9704564-c23c-4b19-b6d9-52223708922d	User 1	hi
+05-26-2016:00-11-01	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-01	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-11-09	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	i went to university of pennsylvania and majored in physics
+05-26-2016:00-11-12	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	work at apple
+05-26-2016:00-11-14	f9704564-c23c-4b19-b6d9-52223708922d	User 1	i went to stanford, majored in liguistics and work for google
+05-26-2016:00-11-14	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-14	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<major>: linguistics]
+05-26-2016:00-11-21	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-11-23	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	gavin?
+05-26-2016:00-11-28	f9704564-c23c-4b19-b6d9-52223708922d	User 1	yes
+05-26-2016:00-11-28	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-28	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-11-35	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	hmm, do you know riva?

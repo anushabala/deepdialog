@@ -1,0 +1,45 @@
+05-26-2016:00-13-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	joined
+05-26-2016:00-13-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0 has user ID 4a0f7c3ce0574634b22307eae37f4ea4
+05-26-2016:00-13-31	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:00-13-40	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	do you know gavin?
+05-26-2016:00-13-40	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gavin],[<fullName>:]
+05-26-2016:00-13-40	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-13-40	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-13-42	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:00-13-52	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	no
+05-26-2016:00-13-52	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-52	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-13-52	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-13-54	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	economics
+05-26-2016:00-13-56	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	stop guessing
+05-26-2016:00-13-56	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-56	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-13-56	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-13-57	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	Selected:	Sherika Rust
+05-26-2016:00-14-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	i went to stanford, linguistics, fb
+05-26-2016:00-14-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-14-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 1.00),  (cori runion, 1.00),  (tyson rankins, 1.00),  (josh gouin, 1.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-14-13	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	ok 
+05-26-2016:00-14-16	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	your friends work at fb
+05-26-2016:00-15-02	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	ugh so you randomly guess and then don't respond
+05-26-2016:00-15-02	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-02	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-15-02	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 1.00),  (cori runion, 1.00),  (tyson rankins, 1.00),  (josh gouin, 1.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-05	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	i have lots of friends at google
+05-26-2016:00-15-15	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	MOST OF MINE ARE FB
+05-26-2016:00-15-15	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-15	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-15-15	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 1.00),  (cori runion, 1.00),  (tyson rankins, 1.00),  (josh gouin, 1.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	lashaunda carothers
+05-26-2016:00-15-22	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	NO 
+05-26-2016:00-15-22	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-22	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-15-22	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 1.00),  (cori runion, 1.00),  (tyson rankins, 1.00),  (josh gouin, 1.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-25	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	Selected:	Cori Runion
+05-26-2016:00-15-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	you're an idiot
+05-26-2016:00-15-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-15-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 1.00),  (cori runion, 1.00),  (tyson rankins, 1.00),  (josh gouin, 1.00),  (sherika rust, 0.00),  (beau roudebush, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-38	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	it is her
+05-26-2016:00-15-47	---

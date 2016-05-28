@@ -1,0 +1,15 @@
+05-26-2016:00-41-32	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	joined
+05-26-2016:00-41-32	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0 has user ID 36cb4c608f944a60b8d3ea80677c1198
+05-26-2016:00-41-42	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Anyone from Apple or Uber?
+05-26-2016:00-41-42	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-42	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-41-42	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(lovella bowling, 1.00),  (alberto thurlow, 1.00),  (joetta sequeira, 1.00),  (jon geissler, 1.00),  (my winters, 1.00),  (santina kenley, 1.00),  (nena krone, 1.00),  (josefina ferrigno, 1.00),  (randi thorson, 1.00),  (willie wicks, 1.00),  
+05-26-2016:00-41-47	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_FEATURIZED	i have one friend at uber lovella bowling 
+05-26-2016:00-41-51	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_FEATURIZED	the rest are at uber
+05-26-2016:00-42-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Willie?
+05-26-2016:00-42-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: willie],[<fullName>:]
+05-26-2016:00-42-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-42-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 2.00),  (lovella bowling, 1.00),  (alberto thurlow, 1.00),  (joetta sequeira, 1.00),  (jon geissler, 1.00),  (my winters, 1.00),  (santina kenley, 1.00),  (nena krone, 1.00),  (josefina ferrigno, 1.00),  (randi thorson, 1.00),  
+05-26-2016:00-42-08	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_FEATURIZED	Selected:	Willie Wicks
+05-26-2016:00-42-11	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Selected 4:	Willie Wicks
+05-26-2016:00-42-11	---

@@ -1,0 +1,20 @@
+05-26-2016:02-04-06	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	joined
+05-26-2016:02-04-06	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0 has user ID 89ab107fb5644c9c966165a31b66fd70
+05-26-2016:02-04-08	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	Hi
+05-26-2016:02-04-08	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-08	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-04-08	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (cori runion, 0.00),  (lorriane hurlbert, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (ngan hornung, 0.00),  (fletcher hersman, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-04-14	54aeb89e-f39c-41cb-8a46-aa86d06394cd	LSTM_UNFEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:02-04-15	54aeb89e-f39c-41cb-8a46-aa86d06394cd	LSTM_UNFEATURIZED	hi
+05-26-2016:02-04-16	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	Do you have any friends working at amazon?
+05-26-2016:02-04-16	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-16	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-04-16	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (cori runion, 0.00),  (lorriane hurlbert, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (ngan hornung, 0.00),  (fletcher hersman, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-04-20	54aeb89e-f39c-41cb-8a46-aa86d06394cd	LSTM_UNFEATURIZED	no friends from facebook 
+05-26-2016:02-04-22	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	Ngan?
+05-26-2016:02-04-22	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ngan],[<fullName>:]
+05-26-2016:02-04-22	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-04-22	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(ngan hornung, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (cori runion, 0.00),  (lorriane hurlbert, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (fletcher hersman, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-04-25	54aeb89e-f39c-41cb-8a46-aa86d06394cd	LSTM_UNFEATURIZED	all are apple
+05-26-2016:02-04-27	54aeb89e-f39c-41cb-8a46-aa86d06394cd	LSTM_UNFEATURIZED	Selected:	Ngan Hornung
+05-26-2016:02-04-37	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	Selected 4:	Ngan Hornung

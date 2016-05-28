@@ -1,0 +1,23 @@
+05-26-2016:02-02-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	joined
+05-26-2016:02-02-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0 has user ID 626844e90fde4f2ca789b70acf5a432d
+05-26-2016:02-02-47	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	hey
+05-26-2016:02-02-53	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	i'm university of pennsylvania, math, google
+05-26-2016:02-02-56	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	what about you
+05-26-2016:02-03-07	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	I'm at Apple
+05-26-2016:02-03-07	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-07	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:02-03-07	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(francine bateman, 0.20),  (aline allshouse, 0.20),  (lashaunda carothers, 0.07),  (delores capell, 0.07),  (sherika rust, 0.07),  (tangela raschke, 0.07),  (tess lister, 0.07),  (kam wey, 0.07),  (denny harshberger, 0.07),  (meda lahr, 0.07),  
+05-26-2016:02-03-10	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	francine, aline?
+05-26-2016:02-03-23	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	No
+05-26-2016:02-03-23	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-23	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:02-03-23	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(francine bateman, 0.11),  (aline allshouse, 0.11),  (lashaunda carothers, 0.10),  (delores capell, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (sherika rust, 0.10),  
+05-26-2016:02-03-27	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	hmm, do you know lashaunda?
+05-26-2016:02-03-50	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	No. Do you have any friends working at Google or Facebook?
+05-26-2016:02-03-50	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-50	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:02-03-50	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lashaunda carothers, 0.11),  (delores capell, 0.11),  (sherika rust, 0.11),  (tangela raschke, 0.11),  (tess lister, 0.11),  (kam wey, 0.11),  (denny harshberger, 0.11),  (meda lahr, 0.11),  (francine bateman, 0.04),  (aline allshouse, 0.04),  
+05-26-2016:02-03-53	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	delores capell?
+05-26-2016:02-04-02	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	Selected 0:	Delores Capell
+05-26-2016:02-04-04	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	Selected:	Delores Capell
+05-26-2016:02-04-04	---

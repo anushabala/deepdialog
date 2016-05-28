@@ -1,0 +1,31 @@
+05-26-2016:00-30-49	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	joined
+05-26-2016:00-30-49	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0 has user ID dfe9e4159a094ff8b26a54b8d7e199c5
+05-26-2016:00-30-51	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	hi
+05-26-2016:00-30-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Hi
+05-26-2016:00-30-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-30-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(brigid imai, 0.10),  (samuel tatum, 0.10),  (mose coletti, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (fletcher hersman, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:00-31-00	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Anyone from Apple?
+05-26-2016:00-31-00	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-00	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-31-00	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.23),  (brigid imai, 0.09),  (samuel tatum, 0.09),  (tess lister, 0.09),  (zackary rains, 0.09),  (carry pavlick, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  (fletcher hersman, 0.09),  (delbert gapinski, 0.09),  
+05-26-2016:00-31-07	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	i'm from stanford, studied linguistics, work at google
+05-26-2016:00-31-11	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	major, school, company?
+05-26-2016:00-31-15	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Pearl?
+05-26-2016:00-31-15	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: pearl],[<fullName>:]
+05-26-2016:00-31-15	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-31-15	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.11),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (fletcher hersman, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:00-31-20	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	are mose or brigid on your list?
+05-26-2016:00-31-32	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	neither
+05-26-2016:00-31-32	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-32	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-31-32	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (fletcher hersman, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:00-31-37	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	do you know samuel tatum or tess lister?
+05-26-2016:00-31-59	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	All my friends are Uber except Pearl
+05-26-2016:00-31-59	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: pearl],[<fullName>:]
+05-26-2016:00-31-59	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-31-59	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(delbert gapinski, 0.23),  (mose coletti, 0.09),  (brigid imai, 0.09),  (samuel tatum, 0.09),  (tess lister, 0.09),  (zackary rains, 0.09),  (carry pavlick, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:00-32-03	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	delbert, zackary?
+05-26-2016:00-32-08	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Selected 6:	Delbert Gapinski
+05-26-2016:00-32-10	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	Selected:	Delbert Gapinski
+05-26-2016:00-32-10	---

@@ -1,0 +1,18 @@
+05-26-2016:02-00-37	6964b135-3101-4647-922d-7fcdbf9a5868	User 0	joined
+05-26-2016:02-00-37	6964b135-3101-4647-922d-7fcdbf9a5868	User 0 has user ID 409238c55d8c4273b49c6bada69e5bbf
+05-26-2016:02-00-39	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	hello
+05-26-2016:02-00-47	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	i'm from university of pennsylvania, studied math, work at google
+05-26-2016:02-00-51	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	major, school, company?
+05-26-2016:02-01-15	6964b135-3101-4647-922d-7fcdbf9a5868	User 0	Went to Stanford majored in Linguistics works at Amazon
+05-26-2016:02-01-15	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-15	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:02-01-15	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(ngan hornung, 0.32),  (lashaunda carothers, 0.12),  (kam wey, 0.12),  (denny harshberger, 0.12),  (meda lahr, 0.12),  (sherika rust, 0.04),  (tobi brunette, 0.04),  (francine bateman, 0.04),  (tess lister, 0.04),  (aline allshouse, 0.04),  
+05-26-2016:02-01-19	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	do you know ngan hornung?
+05-26-2016:02-01-32	6964b135-3101-4647-922d-7fcdbf9a5868	User 0	Yes
+05-26-2016:02-01-32	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-32	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:02-01-32	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(ngan hornung, 0.12),  (lashaunda carothers, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (sherika rust, 0.09),  (tobi brunette, 0.09),  (francine bateman, 0.09),  (tess lister, 0.09),  (aline allshouse, 0.09),  
+05-26-2016:02-01-37	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	do you know lashaunda carothers?
+05-26-2016:02-01-39	6964b135-3101-4647-922d-7fcdbf9a5868	User 0	Selected 8:	Ngan Hornung
+05-26-2016:02-01-41	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	Selected:	Ngan Hornung
+05-26-2016:02-01-42	---

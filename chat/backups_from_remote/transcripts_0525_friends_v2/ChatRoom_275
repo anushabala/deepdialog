@@ -1,0 +1,14 @@
+05-26-2016:02-10-37	62198576-e7e2-405c-b486-81eb870631cb	User 1	joined
+05-26-2016:02-10-37	62198576-e7e2-405c-b486-81eb870631cb	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:02-10-47	62198576-e7e2-405c-b486-81eb870631cb	User 1	hi, went to berklet for physics, work at google
+05-26-2016:02-10-47	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-47	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:02-10-47	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 1.00),  (laurette thrailkill, 0.00),  (tobi brunette, 0.00),  (sheilah steitz, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (emerson farnsworth, 0.00),  (fletcher hass, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:02-10-48	62198576-e7e2-405c-b486-81eb870631cb	LSTM_UNFEATURIZED	hi
+05-26-2016:02-10-58	62198576-e7e2-405c-b486-81eb870631cb	User 1	all my friends work at google, 1 at fb
+05-26-2016:02-10-58	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-58	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:02-10-58	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 1.00),  (laurette thrailkill, 0.00),  (tobi brunette, 0.00),  (sheilah steitz, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (emerson farnsworth, 0.00),  (fletcher hass, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:02-11-02	62198576-e7e2-405c-b486-81eb870631cb	LSTM_UNFEATURIZED	do you know darrel oden from facebook
+05-26-2016:02-11-13	62198576-e7e2-405c-b486-81eb870631cb	User 1	Selected 2:	Darrel Oden
+05-26-2016:02-11-14	62198576-e7e2-405c-b486-81eb870631cb	LSTM_UNFEATURIZED	Selected:	Darrel Oden

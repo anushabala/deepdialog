@@ -1,0 +1,32 @@
+05-26-2016:01-52-12	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	joined
+05-26-2016:01-52-12	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:01-52-15	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	hi there!
+05-26-2016:01-52-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	i went to stanford and majored in linguistics
+05-26-2016:01-52-24	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	work at google
+05-26-2016:01-52-30	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:01-52-33	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Hello. One friend at Apple. The rest are at Uber. 
+05-26-2016:01-52-33	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-33	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:01-52-33	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.20),  (delbert gapinski, 0.20),  (brigid imai, 0.07),  (samuel tatum, 0.07),  (tess lister, 0.07),  (zackary rains, 0.07),  (carry pavlick, 0.07),  (kam wey, 0.07),  (denny harshberger, 0.07),  (fletcher hersman, 0.07),  
+05-26-2016:01-52-35	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	mose?
+05-26-2016:01-52-46	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	I don't know Mose.
+05-26-2016:01-52-46	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:01-52-46	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:01-52-46	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.25),  (delbert gapinski, 0.09),  (brigid imai, 0.08),  (samuel tatum, 0.08),  (tess lister, 0.08),  (zackary rains, 0.08),  (carry pavlick, 0.08),  (kam wey, 0.08),  (denny harshberger, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:01-52-48	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	yes
+05-26-2016:01-52-50	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:01-53-05	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	I do NOT know Mose. 
+05-26-2016:01-53-05	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:01-53-05	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:01-53-05	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.26),  (delbert gapinski, 0.08),  (brigid imai, 0.08),  (samuel tatum, 0.08),  (tess lister, 0.08),  (zackary rains, 0.08),  (carry pavlick, 0.08),  (kam wey, 0.08),  (denny harshberger, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:01-53-06	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	yes
+05-26-2016:01-53-08	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:01-53-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Please stop selecting Mose. 
+05-26-2016:01-53-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:01-53-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:01-53-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 0.27),  (delbert gapinski, 0.08),  (brigid imai, 0.08),  (samuel tatum, 0.08),  (tess lister, 0.08),  (zackary rains, 0.08),  (carry pavlick, 0.08),  (kam wey, 0.08),  (denny harshberger, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:01-53-23	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	yeah
+05-26-2016:01-53-25	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:01-53-36	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Selected 6:	Delbert Gapinski
+05-26-2016:01-53-38	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	Selected:	Delbert Gapinski
+05-26-2016:01-53-38	---

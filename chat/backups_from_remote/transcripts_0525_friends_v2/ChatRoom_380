@@ -1,0 +1,34 @@
+05-26-2016:02-31-40	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	joined
+05-26-2016:02-31-40	ee097ca5-ea21-448f-a645-7837f0570d17	User 0 has user ID da1e2946d62d455fa59e363d419f3a2b
+05-26-2016:02-31-43	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	hi
+05-26-2016:02-31-43	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-31-43	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-31-43	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 0.00),  (lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (agueda searcy, 0.00),  (clorinda hites, 0.00),  (ernest sisemore, 0.00),  (tangela raschke, 0.00),  (kam wey, 0.00),  (meda lahr, 0.00),  (maryln drucker, 0.00),  
+05-26-2016:02-31-45	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	hi
+05-26-2016:02-32-09	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	studied economics at columbia, and I work for facebook
+05-26-2016:02-32-09	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>: economics],[<schoolName>: columbia],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-32-09	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-32-09	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lashaunda carothers, 1.00),  (clorinda hites, 1.00),  (tangela raschke, 1.00),  (kam wey, 1.00),  (dexter aslett, 0.00),  (mai buskirk, 0.00),  (agueda searcy, 0.00),  (ernest sisemore, 0.00),  (meda lahr, 0.00),  (maryln drucker, 0.00),  
+05-26-2016:02-32-17	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	i have all google friends and one google so no other companies matter
+05-26-2016:02-32-43	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	most of my friends are from facebook, but one is from apple, and one is from google
+05-26-2016:02-32-43	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple, google],[<firstName>:],[<fullName>:]
+05-26-2016:02-32-43	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:02-32-43	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lashaunda carothers, 2.00),  (clorinda hites, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (dexter aslett, 1.00),  (mai buskirk, 1.00),  (agueda searcy, 1.00),  (meda lahr, 1.00),  (maryln drucker, 1.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-32-55	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	did one of your friend go to upenn and university of california - berkeley from university of california - berkeley
+05-26-2016:02-32-59	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 8:	Jesica Seaton
+05-26-2016:02-33-01	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:02-33-14	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	I dont know her
+05-26-2016:02-33-14	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-33-14	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-33-14	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lashaunda carothers, 2.00),  (clorinda hites, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (dexter aslett, 1.00),  (mai buskirk, 1.00),  (agueda searcy, 1.00),  (meda lahr, 1.00),  (maryln drucker, 1.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-33-16	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	sorry
+05-26-2016:02-33-19	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	its ok
+05-26-2016:02-33-19	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-33-19	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-33-19	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(lashaunda carothers, 2.00),  (clorinda hites, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (dexter aslett, 1.00),  (mai buskirk, 1.00),  (agueda searcy, 1.00),  (meda lahr, 1.00),  (maryln drucker, 1.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-33-21	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no
+05-26-2016:02-33-49	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 6:	Clarisa Mattison
+05-26-2016:02-33-52	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	clorinda hites
+05-26-2016:02-33-59	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 2:	Clorinda Hites
+05-26-2016:02-34-02	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Clorinda Hites
+05-26-2016:02-34-02	---

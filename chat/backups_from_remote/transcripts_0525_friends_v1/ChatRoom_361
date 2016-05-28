@@ -1,0 +1,25 @@
+05-26-2016:00-29-29	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	joined
+05-26-2016:00-29-29	34742628-7ab6-45f7-96f0-be506614b2d9	User 1 has user ID 45374118e1b24237a48e440811588327
+05-26-2016:00-29-33	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	Hello!
+05-26-2016:00-29-33	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-33	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-29-33	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(kristie bolduc, 0.00),  (kendrick friday, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (danita hanby, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-29-35	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	hi
+05-26-2016:00-29-47	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	I went to UCali, Majored in Physics and I work at Google... 
+05-26-2016:00-29-47	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-47	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-29-47	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(kristie bolduc, 1.00),  (danita hanby, 1.00),  (pearl dollard, 1.00),  (kendrick friday, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-29-55	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	i have all apple friends and one uber so no other companies matter
+05-26-2016:00-30-12	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	Most of my friends work at Google, 1 at Facebook, 1 at Apple, and 1 at Amazon
+05-26-2016:00-30-12	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, facebook, apple, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-12	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-30-12	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(kristie bolduc, 2.00),  (danita hanby, 2.00),  (pearl dollard, 2.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (susanna pulley, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (kendrick friday, 0.00),  
+05-26-2016:00-30-17	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	do you know kristie bolduc or danita hanby
+05-26-2016:00-30-20	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	Do you know Danita?
+05-26-2016:00-30-20	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: danita],[<fullName>:]
+05-26-2016:00-30-20	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-30-20	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(danita hanby, 3.00),  (kristie bolduc, 2.00),  (pearl dollard, 2.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (susanna pulley, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (kendrick friday, 0.00),  
+05-26-2016:00-30-22	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	yes
+05-26-2016:00-30-26	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	Selected 9:	Danita Hanby
+05-26-2016:00-30-28	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	Selected:	Danita Hanby
+05-26-2016:00-30-28	---

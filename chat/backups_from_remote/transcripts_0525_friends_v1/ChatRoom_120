@@ -1,0 +1,12 @@
+05-26-2016:00-19-09	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 1	joined
+05-26-2016:00-19-09	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 1 has user ID 592fd27f378f4427a2e1665cb894d7a3
+05-26-2016:00-19-16	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 1	Hi. 
+05-26-2016:00-19-16	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-16	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	SYNONYMS	
+05-26-2016:00-19-16	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	PROBABILITIES	(kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (emilia bivins, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-19-17	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_FEATURIZED	hi
+05-26-2016:00-19-49	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 1	My friend went to Columbia, majored in algebra and works for a social networking company
+05-26-2016:00-19-49	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-49	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	SYNONYMS	
+05-26-2016:00-19-49	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	PROBABILITIES	(kristie bolduc, 1.00),  (emilia bivins, 1.00),  (laverna bjornson, 1.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (nena krone, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-19-55	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_FEATURIZED	i have a friend that works at apple

@@ -1,0 +1,15 @@
+05-26-2016:00-24-32	08e5b476-cd1a-412a-9136-012286542498	User 0	joined
+05-26-2016:00-24-32	08e5b476-cd1a-412a-9136-012286542498	User 0 has user ID 92b6d44523d54a799dfa13983ea851f4
+05-26-2016:00-24-39	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	all my friend work at amazon and 1 works at apple
+05-26-2016:00-24-45	08e5b476-cd1a-412a-9136-012286542498	User 0	All my friends work at apple except one at goofle
+05-26-2016:00-24-45	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-45	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	[<companyName>: goofle]
+05-26-2016:00-24-45	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(aline allshouse, 1.00),  (gennie dagley, 1.00),  (mitzi hoar, 1.00),  (clarisa mattison, 0.00),  (raymond polite, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-24-55	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	went to university of pennsylvania and aline allshouse is my only computer science major
+05-26-2016:00-24-58	08e5b476-cd1a-412a-9136-012286542498	User 0	Who works at apple?
+05-26-2016:00-24-58	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-58	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	
+05-26-2016:00-24-58	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(aline allshouse, 2.00),  (gennie dagley, 2.00),  (mitzi hoar, 2.00),  (clarisa mattison, 0.00),  (raymond polite, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-25-00	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	Selected:	Gennie Dagley
+05-26-2016:00-25-03	08e5b476-cd1a-412a-9136-012286542498	User 0	Selected 2:	Gennie Dagley
+05-26-2016:00-25-04	---

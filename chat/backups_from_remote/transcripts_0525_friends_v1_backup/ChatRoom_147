@@ -1,0 +1,72 @@
+05-26-2016:00-19-26	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	joined
+05-26-2016:00-19-26	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0 has user ID 36cbf45d6d5740a1aaea3b334abd8b7c
+05-26-2016:00-19-32	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:00-19-39	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	hello
+05-26-2016:00-19-39	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-39	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-19-39	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 0.00),  (alberto thurlow, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (ernest sisemore, 0.00),  (tobi brunette, 0.00),  (carley schade, 0.00),  (raymond polite, 0.00),  (candis kita, 0.00),  (mitzi hoar, 0.00),  
+05-26-2016:00-19-40	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	hi
+05-26-2016:00-19-43	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	one or all
+05-26-2016:00-19-43	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-43	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-19-43	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 0.00),  (alberto thurlow, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (ernest sisemore, 0.00),  (tobi brunette, 0.00),  (carley schade, 0.00),  (raymond polite, 0.00),  (candis kita, 0.00),  (mitzi hoar, 0.00),  
+05-26-2016:00-19-48	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	i went to university of pennsylvania and majored in math 
+05-26-2016:00-19-50	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	i work at amazon
+05-26-2016:00-20-09	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	none of my friends work at amazon
+05-26-2016:00-20-09	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-09	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-20-09	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 1.00),  (harris schramm, 1.00),  (angelo patch, 1.00),  (ernest sisemore, 1.00),  (carley schade, 1.00),  (raymond polite, 1.00),  (candis kita, 1.00),  (alberto thurlow, 0.00),  (tobi brunette, 0.00),  (mitzi hoar, 0.00),  
+05-26-2016:00-20-11	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	its the amazon friend
+05-26-2016:00-20-17	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	only apple or facebook
+05-26-2016:00-20-17	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-17	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-20-17	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 1.00),  (harris schramm, 1.00),  (angelo patch, 1.00),  (ernest sisemore, 1.00),  (tobi brunette, 1.00),  (carley schade, 1.00),  (raymond polite, 1.00),  (candis kita, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-20-19	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	are amazon 
+05-26-2016:00-20-21	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	no
+05-26-2016:00-20-21	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-21	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-20-21	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 1.00),  (harris schramm, 1.00),  (angelo patch, 1.00),  (ernest sisemore, 1.00),  (tobi brunette, 1.00),  (carley schade, 1.00),  (raymond polite, 1.00),  (candis kita, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-20-25	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	i have myong kary in apple
+05-26-2016:00-20-30	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	in that case whos your bud at amazon
+05-26-2016:00-20-44	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	i have nobody in amazon
+05-26-2016:00-20-44	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-44	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-20-44	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (ernest sisemore, 2.00),  (carley schade, 2.00),  (raymond polite, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-20-47	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	i only know harris schramm one
+05-26-2016:00-20-53	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	no
+05-26-2016:00-20-53	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-53	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-20-53	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (ernest sisemore, 2.00),  (carley schade, 2.00),  (raymond polite, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-20-58	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	i have angelo patch ernest sisemore and carley schade 
+05-26-2016:00-21-01	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	from apple
+05-26-2016:00-21-16	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	none of them
+05-26-2016:00-21-16	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-16	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-21-16	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (ernest sisemore, 2.00),  (carley schade, 2.00),  (raymond polite, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-21-22	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	i went to university of pennsylvania and majored in math
+05-26-2016:00-21-31	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	and you are not supposed to list the names of the friends
+05-26-2016:00-21-31	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-31	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-21-31	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (ernest sisemore, 2.00),  (carley schade, 2.00),  (raymond polite, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-21-35	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	yes myong kary or raymond polite 
+05-26-2016:00-21-39	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	they are all them
+05-26-2016:00-21-48	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	does your firend do computer science
+05-26-2016:00-21-48	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-48	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-21-48	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(ernest sisemore, 3.00),  (raymond polite, 3.00),  (myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (carley schade, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-21-49	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	harris schramm
+05-26-2016:00-21-55	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	no
+05-26-2016:00-21-55	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-55	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-21-55	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(ernest sisemore, 3.00),  (raymond polite, 3.00),  (myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (carley schade, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-21-58	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	ernest sisemore
+05-26-2016:00-22-06	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	no
+05-26-2016:00-22-06	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-06	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-22-06	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(ernest sisemore, 3.00),  (raymond polite, 3.00),  (myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (carley schade, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-22-09	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	mine are all amazon
+05-26-2016:00-22-14	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	mine are not
+05-26-2016:00-22-14	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-14	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-22-14	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(ernest sisemore, 3.00),  (raymond polite, 3.00),  (myong kary, 2.00),  (harris schramm, 2.00),  (angelo patch, 2.00),  (carley schade, 2.00),  (candis kita, 2.00),  (tobi brunette, 1.00),  (mitzi hoar, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-22-16	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_FEATURIZED	raymond polite

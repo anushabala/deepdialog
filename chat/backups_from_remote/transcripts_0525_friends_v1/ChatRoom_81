@@ -1,0 +1,33 @@
+05-26-2016:00-15-14	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	joined
+05-26-2016:00-15-14	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1 has user ID 8030160116f042feab6c11ea28241d74
+05-26-2016:00-15-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	hi
+05-26-2016:00-15-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	hi
+05-26-2016:00-15-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-15-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(susanna pulley, 0.10),  (bernita kerrick, 0.10),  (angelo patch, 0.10),  (frederick willetts, 0.10),  (julissa bond, 0.10),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (lawanna mars, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-15-27	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:00-15-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	work at apple
+05-26-2016:00-15-32	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	you?
+05-26-2016:00-15-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	i have a friend who works at apple
+05-26-2016:00-15-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-15-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(susanna pulley, 0.12),  (bernita kerrick, 0.12),  (frederick willetts, 0.12),  (julissa bond, 0.12),  (laverna bjornson, 0.12),  (oliver roker, 0.12),  (nena krone, 0.12),  (angelo patch, 0.05),  (lawanna mars, 0.05),  (birgit heid, 0.05),  
+05-26-2016:00-15-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	hmm, do you know susanna?
+05-26-2016:00-15-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Know their name is thanh hartin
+05-26-2016:00-15-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: thanh hartin]
+05-26-2016:00-15-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-15-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(susanna pulley, 0.10),  (bernita kerrick, 0.10),  (frederick willetts, 0.10),  (julissa bond, 0.10),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (angelo patch, 0.09),  (lawanna mars, 0.09),  (birgit heid, 0.09),  
+05-26-2016:00-16-01	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	do you know bernita, frederick or julissa?
+05-26-2016:00-16-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Know i work at facebook
+05-26-2016:00-16-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-16-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(lawanna mars, 0.20),  (birgit heid, 0.20),  (susanna pulley, 0.07),  (bernita kerrick, 0.07),  (frederick willetts, 0.07),  (julissa bond, 0.07),  (laverna bjornson, 0.07),  (oliver roker, 0.07),  (nena krone, 0.07),  (angelo patch, 0.07),  
+05-26-2016:00-16-19	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	do you know lawanna mars?
+05-26-2016:00-16-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Do you know anyone there
+05-26-2016:00-16-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-16-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(lawanna mars, 0.11),  (birgit heid, 0.11),  (susanna pulley, 0.10),  (bernita kerrick, 0.10),  (frederick willetts, 0.10),  (julissa bond, 0.10),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (angelo patch, 0.10),  
+05-26-2016:00-16-23	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	hmm, do you know birgit?
+05-26-2016:00-16-32	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Selected 8:	Birgit Heid
+05-26-2016:00-16-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	DEFAULT_BOT	Selected:	Birgit Heid
+05-26-2016:00-16-35	---

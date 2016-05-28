@@ -1,0 +1,49 @@
+05-26-2016:02-01-13	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	joined
+05-26-2016:02-01-13	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:02-01-19	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:02-01-27	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	I went to Berkeley. Computer Science. Work for APple
+05-26-2016:02-01-27	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-27	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-01-27	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 1.00),  (ayesha aarons, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-01-30	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	as do ALL of my friends
+05-26-2016:02-01-30	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-30	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<firstName>: as],[<fullName>: as]
+05-26-2016:02-01-30	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 1.00),  (ayesha aarons, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-01-37	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	i went to university of pennsylvania and majored in linguistics
+05-26-2016:02-01-45	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	how about jody tropea or ayesha aarons they are grreat girls
+05-26-2016:02-01-48	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Bernita?
+05-26-2016:02-01-48	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: bernita],[<fullName>:]
+05-26-2016:02-01-48	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-01-48	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 1.00),  (ayesha aarons, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-01-49	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	no
+05-26-2016:02-01-53	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Shes pretty cool
+05-26-2016:02-01-53	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-53	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-01-53	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 1.00),  (ayesha aarons, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-01-57	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	all my friends work at uber
+05-26-2016:02-02-00	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	I know Ayesha!
+05-26-2016:02-02-00	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:02-02-00	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-02-00	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 2.00),  (jody tropea, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-02-31	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	joined
+05-26-2016:02-02-31	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:02-02-34	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	select her 
+05-26-2016:02-02-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	you 
+05-26-2016:02-02-38	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	I did
+05-26-2016:02-02-38	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-38	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-02-38	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 2.00),  (jody tropea, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-02-43	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	choose her select her then
+05-26-2016:02-02-44	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	you 
+05-26-2016:02-02-49	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	choose ayesha aarons named seconds
+05-26-2016:02-03-02	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	You're, botting out on me
+05-26-2016:02-03-02	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-02	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<firstName>: me, on],[<fullName>: me, on]
+05-26-2016:02-03-02	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 2.00),  (jody tropea, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-03-05	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	huh wait wait 10 seconds 
+05-26-2016:02-03-06	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	back
+05-26-2016:02-03-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	I've selected her
+05-26-2016:02-03-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-03-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 2.00),  (jody tropea, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-03-36	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	np

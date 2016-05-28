@@ -1,0 +1,13 @@
+05-26-2016:00-43-26	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	joined
+05-26-2016:00-43-26	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:00-43-50	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	hi, I'm repping Colombia! I work at Amazon with all my friends
+05-26-2016:00-43-50	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-50	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	[<schoolName>: colombia]
+05-26-2016:00-43-50	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 1.00),  (brigid imai, 1.00),  (fletcher hersman, 1.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-43-53	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	my friends work in amazon 
+05-26-2016:00-43-56	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	Selected:	Tinisha Blagg
+05-26-2016:00-44-10	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	except Brittney whow works at fb
+05-26-2016:00-44-10	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: brittney],[<fullName>:]
+05-26-2016:00-44-10	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:00-44-10	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 1.00),  (brigid imai, 1.00),  (fletcher hersman, 1.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-44-12	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Selected 7:	Tinisha Blagg

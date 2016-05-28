@@ -1,0 +1,67 @@
+05-26-2016:02-02-41	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	joined
+05-26-2016:02-02-41	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:02-02-49	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	hi, went to upenn for math, work at apple
+05-26-2016:02-02-49	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>: math],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-49	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-02-49	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 1.00),  (branden sjoberg, 1.00),  (karma echeverria, 1.00),  (celsa navarrete, 1.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (emmitt nations, 0.00),  (candis kita, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-02-50	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	hi
+05-26-2016:02-02-59	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	everyone i know is at apple, 1 amazon, 1 uber
+05-26-2016:02-02-59	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, amazon, uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-59	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-02-59	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 2.00),  (branden sjoberg, 2.00),  (karma echeverria, 2.00),  (celsa navarrete, 2.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  
+05-26-2016:02-03-09	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	hi went to university of california - berkeley majored in computer science work at amazon
+05-26-2016:02-03-16	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	do you know karma?
+05-26-2016:02-03-16	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: karma],[<fullName>:]
+05-26-2016:02-03-16	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-03-16	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 3.00),  (colin higby, 2.00),  (branden sjoberg, 2.00),  (celsa navarrete, 2.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  
+05-26-2016:02-03-18	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	no 
+05-26-2016:02-03-23	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	i have one friend that works at amazon
+05-26-2016:02-03-45	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	everyone here works at apple
+05-26-2016:02-03-45	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-45	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-03-45	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 3.00),  (colin higby, 2.00),  (branden sjoberg, 2.00),  (celsa navarrete, 2.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  
+05-26-2016:02-03-49	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	do you know jon?
+05-26-2016:02-03-49	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jon],[<fullName>:]
+05-26-2016:02-03-49	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-03-49	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 3.00),  (colin higby, 2.00),  (branden sjoberg, 2.00),  (celsa navarrete, 2.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  
+05-26-2016:02-03-55	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	one friend at amazon and one at amazon 
+05-26-2016:02-03-58	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	oh the rest are the amazon
+05-26-2016:02-04-01	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	what about you
+05-26-2016:02-04-10	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	i only know karma from amazon
+05-26-2016:02-04-10	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>: karma],[<fullName>:]
+05-26-2016:02-04-10	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-04-10	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 5.00),  (colin higby, 3.00),  (branden sjoberg, 3.00),  (celsa navarrete, 3.00),  (harris schramm, 2.00),  (maryln hagaman, 2.00),  (angelo patch, 2.00),  (emmitt nations, 2.00),  (candis kita, 2.00),  (carley schade, 2.00),  
+05-26-2016:02-04-12	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	the rest are apple
+05-26-2016:02-04-12	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-12	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-04-12	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 5.00),  (colin higby, 3.00),  (branden sjoberg, 3.00),  (celsa navarrete, 3.00),  (harris schramm, 2.00),  (maryln hagaman, 2.00),  (angelo patch, 2.00),  (emmitt nations, 2.00),  (candis kita, 2.00),  (carley schade, 2.00),  
+05-26-2016:02-04-20	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	only have two friends at amazon the rest work at amazon
+05-26-2016:02-04-28	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	do you know jon?
+05-26-2016:02-04-28	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jon],[<fullName>:]
+05-26-2016:02-04-28	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-04-28	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 5.00),  (colin higby, 3.00),  (branden sjoberg, 3.00),  (celsa navarrete, 3.00),  (harris schramm, 2.00),  (maryln hagaman, 2.00),  (angelo patch, 2.00),  (emmitt nations, 2.00),  (candis kita, 2.00),  (carley schade, 2.00),  
+05-26-2016:02-04-36	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	i went to university of california - berkeley and studied computer science 
+05-26-2016:02-04-39	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	i work for amazon
+05-26-2016:02-04-41	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	no
+05-26-2016:02-04-57	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	you said 2 work at amazon and the rest at amazon
+05-26-2016:02-04-57	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-57	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-04-57	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 6.00),  (colin higby, 4.00),  (branden sjoberg, 4.00),  (celsa navarrete, 4.00),  (harris schramm, 3.00),  (maryln hagaman, 3.00),  (angelo patch, 3.00),  (emmitt nations, 3.00),  (candis kita, 3.00),  (carley schade, 3.00),  
+05-26-2016:02-05-01	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	what do you mean
+05-26-2016:02-05-01	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-01	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-05-01	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 6.00),  (colin higby, 4.00),  (branden sjoberg, 4.00),  (celsa navarrete, 4.00),  (harris schramm, 3.00),  (maryln hagaman, 3.00),  (angelo patch, 3.00),  (emmitt nations, 3.00),  (candis kita, 3.00),  (carley schade, 3.00),  
+05-26-2016:02-05-07	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	what about karma echeverria or colin higby
+05-26-2016:02-05-10	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	computer science
+05-26-2016:02-05-12	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	yes i said karma
+05-26-2016:02-05-12	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: karma],[<fullName>:]
+05-26-2016:02-05-12	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:02-05-12	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 7.00),  (colin higby, 4.00),  (branden sjoberg, 4.00),  (celsa navarrete, 4.00),  (harris schramm, 3.00),  (maryln hagaman, 3.00),  (angelo patch, 3.00),  (emmitt nations, 3.00),  (candis kita, 3.00),  (carley schade, 3.00),  
+05-26-2016:02-05-14	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	you told me no
+05-26-2016:02-05-14	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-14	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:02-05-14	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 7.00),  (colin higby, 4.00),  (branden sjoberg, 4.00),  (celsa navarrete, 4.00),  (harris schramm, 3.00),  (maryln hagaman, 3.00),  (angelo patch, 3.00),  (emmitt nations, 3.00),  (candis kita, 3.00),  (carley schade, 3.00),  
+05-26-2016:02-05-17	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	it is not our info 
+05-26-2016:02-05-17	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	Selected 6:	Karma Echeverria
+05-26-2016:02-05-20	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_UNFEATURIZED	Selected:	Karma Echeverria
+05-26-2016:02-05-20	---

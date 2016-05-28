@@ -1,0 +1,46 @@
+05-26-2016:01-45-36	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	joined
+05-26-2016:01-45-36	1b83d884-f88e-4943-97ca-e5de834b5517	User 1 has user ID 8777cb096735452da7ca037858a71a60
+05-26-2016:01-46-03	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	Hello I have a friend that goes to stanford, math major and company is uber
+05-26-2016:01-46-03	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>: math],[<schoolName>: stanford],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-03	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:01-46-03	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 2.00),  (elza guevara, 2.00),  (clarisa mattison, 1.00),  (maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (kam wey, 1.00),  (lucienne whitting, 1.00),  (sheilah steitz, 0.00),  
+05-26-2016:01-46-08	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	hi all of my friends work at facebook and one at uber 
+05-26-2016:01-46-12	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	do you know randi thorson
+05-26-2016:01-46-26	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	I have 1 fb friend
+05-26-2016:01-46-26	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-26	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:01-46-26	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 2.00),  (elza guevara, 2.00),  (clarisa mattison, 1.00),  (maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (kam wey, 1.00),  (lucienne whitting, 1.00),  (sheilah steitz, 0.00),  
+05-26-2016:01-46-35	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	did they go to columbia and major in economics?
+05-26-2016:01-46-35	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>: economics],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-35	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:01-46-35	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 3.00),  (maritza horrell, 2.00),  (lorriane hurlbert, 2.00),  (kam wey, 2.00),  (elza guevara, 2.00),  (clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-46-45	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	my friend who works for google elza guevara and both from university of pennsylvania 
+05-26-2016:01-46-48	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	and 2 from columbia
+05-26-2016:01-46-51	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	that was my info 
+05-26-2016:01-46-55	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	where are you go to
+05-26-2016:01-46-59	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	They dont have the same name...
+05-26-2016:01-46-59	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-59	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	[<firstName>: same],[<fullName>: same]
+05-26-2016:01-46-59	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 3.00),  (maritza horrell, 2.00),  (lorriane hurlbert, 2.00),  (kam wey, 2.00),  (elza guevara, 2.00),  (clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-47-03	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	maritza horrell and lorriane hurlbert
+05-26-2016:01-47-12	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	We have to find a matched based on the school, major and company
+05-26-2016:01-47-12	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-12	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	[<firstName>: on],[<fullName>: on]
+05-26-2016:01-47-12	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 3.00),  (maritza horrell, 2.00),  (lorriane hurlbert, 2.00),  (kam wey, 2.00),  (elza guevara, 2.00),  (clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-47-19	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	mine was my only one person from uber other from facebook 
+05-26-2016:01-47-24	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	both from stanford and rest are from facebook
+05-26-2016:01-47-41	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	okay i have uber friends too
+05-26-2016:01-47-41	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-41	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:01-47-41	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 4.00),  (maritza horrell, 2.00),  (lorriane hurlbert, 2.00),  (kam wey, 2.00),  (elza guevara, 2.00),  (clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-47-46	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	i dont know anyone who did person
+05-26-2016:01-47-56	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	did the uber friends major in math, econics, or physics?
+05-26-2016:01-47-56	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>: math, physics],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-56	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:01-47-56	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 5.00),  (lorriane hurlbert, 3.00),  (elza guevara, 3.00),  (clarisa mattison, 2.00),  (maritza horrell, 2.00),  (kam wey, 2.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-48-00	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	randi thorson or elza guevara
+05-26-2016:01-48-17	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	you are suppose to find matching information, not matching names....
+05-26-2016:01-48-17	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-48-17	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:01-48-17	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 5.00),  (lorriane hurlbert, 3.00),  (elza guevara, 3.00),  (clarisa mattison, 2.00),  (maritza horrell, 2.00),  (kam wey, 2.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-48-22	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_FEATURIZED	my friend lorriane hurlbert went to stanford

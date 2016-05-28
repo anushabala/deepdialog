@@ -1,0 +1,69 @@
+05-26-2016:00-22-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	joined
+05-26-2016:00-22-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0 has user ID 06d8e5c2c6c24a4092d78685e4768963
+05-26-2016:00-22-20	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-22-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Hello I work at Apple
+05-26-2016:00-22-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-22-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 0.00),  (quinn courter, 0.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (geneva hofmeister, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-22-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	i dont know brittanie piggott
+05-26-2016:00-22-32	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Do you know Kendrick at Uber?
+05-26-2016:00-22-32	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: kendrick],[<fullName>:]
+05-26-2016:00-22-32	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-22-32	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (geneva hofmeister, 1.00),  (willie wicks, 1.00),  
+05-26-2016:00-22-34	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	no uber friends 
+05-26-2016:00-22-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	all are the rest of my friends work at uber
+05-26-2016:00-23-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	You said Uber twice?
+05-26-2016:00-23-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-23-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 2.00),  (quinn courter, 2.00),  (vickey redinger, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-23-06	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	any that majored in computer science and went to stanford 
+05-26-2016:00-23-16	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	i also have a friend whos in your friend both mine went to university of california - berkeley 
+05-26-2016:00-23-18	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	Selected:	Quinn Courter
+05-26-2016:00-23-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Yes Bernita
+05-26-2016:00-23-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: bernita],[<fullName>:]
+05-26-2016:00-23-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-23-21	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 2.00),  (quinn courter, 2.00),  (vickey redinger, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-23-23	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	select her 
+05-26-2016:00-23-24	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	you 
+05-26-2016:00-23-26	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	choose
+05-26-2016:00-23-33	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	I don'y have a Quinn
+05-26-2016:00-23-33	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: quinn],[<fullName>:]
+05-26-2016:00-23-33	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-23-33	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 3.00),  (brittanie piggott, 2.00),  (vickey redinger, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-23-37	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	it has to be brittanie piggott 
+05-26-2016:00-23-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	who is on uber
+05-26-2016:00-23-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Nope. I have one Uber-Kendrick
+05-26-2016:00-23-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-23-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 3.00),  (brittanie piggott, 2.00),  (vickey redinger, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-23-55	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	Selected:	Vickey Redinger
+05-26-2016:00-23-57	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	All the rest are Apple
+05-26-2016:00-23-57	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-57	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-23-57	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 3.00),  (brittanie piggott, 2.00),  (vickey redinger, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-23-59	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	hey
+05-26-2016:00-24-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	No Vickey
+05-26-2016:00-24-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: vickey],[<fullName>:]
+05-26-2016:00-24-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-24-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 3.00),  (vickey redinger, 3.00),  (brittanie piggott, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-24-18	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	no
+05-26-2016:00-24-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Do you have friends at Apple?
+05-26-2016:00-24-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-24-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 3.00),  (vickey redinger, 3.00),  (brittanie piggott, 2.00),  (johnathan mccolley, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (geneva hofmeister, 2.00),  (willie wicks, 2.00),  
+05-26-2016:00-24-28	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	no one from uber here
+05-26-2016:00-24-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	I also have Geneva at Uber
+05-26-2016:00-24-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: geneva],[<fullName>:]
+05-26-2016:00-24-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-24-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 4.00),  (vickey redinger, 4.00),  (geneva hofmeister, 4.00),  (brittanie piggott, 3.00),  (johnathan mccolley, 3.00),  (keesha ahart, 3.00),  (nathanial towery, 3.00),  (jody tropea, 3.00),  (barbar scheu, 3.00),  (willie wicks, 3.00),  
+05-26-2016:00-24-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	one computer science major from upenn 
+05-26-2016:00-24-42	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	and 2 stanford
+05-26-2016:00-25-01	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Any that work at Apple?
+05-26-2016:00-25-01	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-01	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-25-01	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 4.00),  (vickey redinger, 4.00),  (geneva hofmeister, 4.00),  (brittanie piggott, 3.00),  (johnathan mccolley, 3.00),  (keesha ahart, 3.00),  (nathanial towery, 3.00),  (jody tropea, 3.00),  (barbar scheu, 3.00),  (willie wicks, 3.00),  
+05-26-2016:00-25-03	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	no
+05-26-2016:00-25-12	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Weird
+05-26-2016:00-25-12	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-12	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-25-12	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 4.00),  (vickey redinger, 4.00),  (geneva hofmeister, 4.00),  (brittanie piggott, 3.00),  (johnathan mccolley, 3.00),  (keesha ahart, 3.00),  (nathanial towery, 3.00),  (jody tropea, 3.00),  (barbar scheu, 3.00),  (willie wicks, 3.00),  

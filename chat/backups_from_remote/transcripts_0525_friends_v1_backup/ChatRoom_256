@@ -1,0 +1,23 @@
+05-26-2016:00-24-00	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	joined
+05-26-2016:00-24-00	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0 has user ID 7f350aa05ac141b98a48b4332d2a69cf
+05-26-2016:00-24-23	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	I have one friend that works at Apple. The rest works for Uber.
+05-26-2016:00-24-23	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-23	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-24-23	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 1.00),  (delbert gapinski, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-24-25	8c124f6b-a878-489a-86c2-0ba7bcd092c7	LSTM_FEATURIZED	im working google 
+05-26-2016:00-24-29	8c124f6b-a878-489a-86c2-0ba7bcd092c7	LSTM_FEATURIZED	i have one friend at apple
+05-26-2016:00-24-44	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Do they go to the University of Penn?
+05-26-2016:00-24-44	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-44	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-24-44	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(samuel tatum, 1.00),  (mose coletti, 1.00),  (tess lister, 1.00),  (delbert gapinski, 1.00),  (brigid imai, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-24-46	8c124f6b-a878-489a-86c2-0ba7bcd092c7	LSTM_FEATURIZED	samuel tatum
+05-26-2016:00-24-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	Don't know them.
+05-26-2016:00-24-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-24-55	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(samuel tatum, 1.00),  (mose coletti, 1.00),  (tess lister, 1.00),  (delbert gapinski, 1.00),  (brigid imai, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-24-57	8c124f6b-a878-489a-86c2-0ba7bcd092c7	LSTM_FEATURIZED	any stanfords 
+05-26-2016:00-24-59	8c124f6b-a878-489a-86c2-0ba7bcd092c7	LSTM_FEATURIZED	mose coletti
+05-26-2016:00-25-10	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 0	No on Mose.
+05-26-2016:00-25-10	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:00-25-10	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	[<firstName>: on],[<fullName>: on]
+05-26-2016:00-25-10	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(mose coletti, 2.00),  (samuel tatum, 1.00),  (tess lister, 1.00),  (delbert gapinski, 1.00),  (brigid imai, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  

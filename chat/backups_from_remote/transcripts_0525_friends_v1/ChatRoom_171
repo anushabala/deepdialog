@@ -1,0 +1,15 @@
+05-26-2016:00-20-35	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	joined
+05-26-2016:00-20-35	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0 has user ID 592fd27f378f4427a2e1665cb894d7a3
+05-26-2016:00-20-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Hi. 
+05-26-2016:00-20-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-20-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(mai buskirk, 0.00),  (maryln drucker, 0.00),  (jesica seaton, 0.00),  (tangela raschke, 0.00),  (josh gouin, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-20-49	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	hi
+05-26-2016:00-20-54	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	My friend works for a social networking company
+05-26-2016:00-20-54	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-54	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-20-54	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(mai buskirk, 0.00),  (maryln drucker, 0.00),  (jesica seaton, 0.00),  (tangela raschke, 0.00),  (josh gouin, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-20-59	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	i work at google and so does every single friend
+05-26-2016:00-21-05	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Selected 4:	Jesica Seaton
+05-26-2016:00-21-08	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	Selected:	Jesica Seaton
+05-26-2016:00-21-08	---

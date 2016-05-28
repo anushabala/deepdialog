@@ -1,0 +1,61 @@
+05-26-2016:02-26-52	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	joined
+05-26-2016:02-26-52	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0 has user ID 866d079a19a84daf9f6efed8368f29d2
+05-26-2016:02-26-53	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	hey
+05-26-2016:02-27-01	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	i'm from stanford, studied computer science, work at apple
+05-26-2016:02-27-04	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	i went to columbia and majored at math
+05-26-2016:02-27-04	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-04	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-27-04	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.30),  (gennie dagley, 0.11),  (kristie bolduc, 0.11),  (laverna bjornson, 0.11),  (aline allshouse, 0.11),  (lakesha platz, 0.11),  (susanna pulley, 0.04),  (beau roudebush, 0.04),  (thanh hartin, 0.04),  (pearl dollard, 0.04),  
+05-26-2016:02-27-08	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	major school company?
+05-26-2016:02-27-15	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	do you know elene prouty gennie dagley or kristie bolduc?
+05-26-2016:02-27-25	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Selected 0:	Brittanie Piggott
+05-26-2016:02-27-29	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	nope, that's not the answer
+05-26-2016:02-27-34	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	do you know laverna bjornson?
+05-26-2016:02-27-43	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	no
+05-26-2016:02-27-43	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-43	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-27-43	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.12),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.09),  (beau roudebush, 0.09),  (thanh hartin, 0.09),  (pearl dollard, 0.09),  
+05-26-2016:02-27-46	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	aline allshouse?
+05-26-2016:02-27-51	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	no
+05-26-2016:02-27-51	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-51	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-27-51	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.10),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.10),  (beau roudebush, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:02-27-54	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	lakesha platz?
+05-26-2016:02-28-01	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	no
+05-26-2016:02-28-01	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-01	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-28-01	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.10),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.10),  (beau roudebush, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:02-28-03	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	susanna?
+05-26-2016:02-28-06	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	no
+05-26-2016:02-28-06	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-06	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-28-06	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.10),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.10),  (beau roudebush, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:02-28-10	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	beau, thanh, pearl?
+05-26-2016:02-28-17	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	no
+05-26-2016:02-28-17	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-17	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-28-17	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.10),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.10),  (beau roudebush, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:02-28-21	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	hmm, do you know elene?
+05-26-2016:02-28-24	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	yes
+05-26-2016:02-28-24	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-24	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-28-24	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.10),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.10),  (beau roudebush, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:02-28-27	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	gennie, kristie?
+05-26-2016:02-28-36	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	no
+05-26-2016:02-28-36	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-36	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-28-36	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 0.10),  (gennie dagley, 0.10),  (kristie bolduc, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lakesha platz, 0.10),  (susanna pulley, 0.10),  (beau roudebush, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:02-28-43	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	do you know laverna bjornson or aline allshouse?
+05-26-2016:02-28-47	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Selected 8:	Barbar Scheu
+05-26-2016:02-28-49	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	nope
+05-26-2016:02-28-53	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	hmm, do you know lakesha?
+05-26-2016:02-28-58	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Selected 1:	Johnathan Mccolley
+05-26-2016:02-29-01	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	no, i don't know them
+05-26-2016:02-29-04	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	susanna pulley?
+05-26-2016:02-29-10	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Selected 3:	Quinn Courter
+05-26-2016:02-29-14	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	nope, don't know them
+05-26-2016:02-29-17	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	beau roudebush?
+05-26-2016:02-29-21	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Selected 5:	Santina Kenley
+05-26-2016:02-29-26	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	nope, that's not the answer
+05-26-2016:02-29-28	19db1210-014a-4df1-a595-6d1fa0588ca6	DEFAULT_BOT	thanh?
+05-26-2016:02-29-39	---

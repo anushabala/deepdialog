@@ -1,0 +1,40 @@
+05-26-2016:01-58-56	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	joined
+05-26-2016:01-58-56	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1 has user ID df0cd8a9ae3440dd8bb566891a8d9689
+05-26-2016:01-59-02	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	all my friend work at apple and 1 works at uber
+05-26-2016:01-59-04	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Most of my friends work at amazon
+05-26-2016:01-59-05	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-05	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:01-59-05	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 1.00),  (laverna bjornson, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-59-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	one at facebook
+05-26-2016:01-59-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:01-59-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 1.00),  (laverna bjornson, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-59-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i have a few friends at apple who went to university of pennsylvania and majored in math
+05-26-2016:01-59-27	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i have one friend that works at apple
+05-26-2016:01-59-31	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	i don't know anyone at apple
+05-26-2016:01-59-31	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-31	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:01-59-31	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (oliver roker, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kerry carter, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  (jon geissler, 0.00),  
+05-26-2016:01-59-37	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	do you know laverna bjornson or bernita kerrick 
+05-26-2016:01-59-38	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i dont
+05-26-2016:02-00-18	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	no
+05-26-2016:02-00-18	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-18	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:02-00-18	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (oliver roker, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kerry carter, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  (jon geissler, 0.00),  
+05-26-2016:02-00-21	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	beau roudebush
+05-26-2016:02-00-38	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	no
+05-26-2016:02-00-38	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-38	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:02-00-38	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (oliver roker, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kerry carter, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  (jon geissler, 0.00),  
+05-26-2016:02-00-43	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	mine are oliver roker or laverna bjornson
+05-26-2016:02-00-49	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	no
+05-26-2016:02-00-49	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-49	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:02-00-49	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (oliver roker, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kerry carter, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  (jon geissler, 0.00),  
+05-26-2016:02-00-57	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	what about francine bateman from university of california - berkeley
+05-26-2016:02-01-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	no
+05-26-2016:02-01-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:02-01-13	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (oliver roker, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kerry carter, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  (jon geissler, 0.00),  
+05-26-2016:02-01-19	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i have two that apple and one apple 
+05-26-2016:02-01-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i have one friend that works at uber

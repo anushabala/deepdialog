@@ -1,0 +1,41 @@
+05-26-2016:00-39-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	joined
+05-26-2016:00-39-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1 has user ID ed32a596e7f54cd89f9c439941c0d1de
+05-26-2016:00-39-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	hi
+05-26-2016:00-39-35	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	hi
+05-26-2016:00-39-35	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-35	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-39-35	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(kristie bolduc, 0.10),  (delores capell, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (lucia pizarro, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  (thanh hartin, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-39-40	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	I work at google
+05-26-2016:00-39-40	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-40	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-39-40	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 0.23),  (kristie bolduc, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (lucia pizarro, 0.09),  (laverna bjornson, 0.09),  (carry pavlick, 0.09),  (thanh hartin, 0.09),  (elene prouty, 0.09),  (lakesha platz, 0.09),  
+05-26-2016:00-39-47	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	i'm from stanford, studied linguistics, work at apple
+05-26-2016:00-39-51	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	major school company?
+05-26-2016:00-39-52	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	went to U of Penn and majored in math
+05-26-2016:00-39-52	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-52	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:00-39-52	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lakesha platz, 0.16),  (thanh hartin, 0.14),  (lucia pizarro, 0.10),  (elene prouty, 0.10),  (delores capell, 0.09),  (kristie bolduc, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (laverna bjornson, 0.09),  (carry pavlick, 0.09),  
+05-26-2016:00-39-58	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	do you know lakesha platz or thanh hartin?
+05-26-2016:00-40-10	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	Do you know francine or Aline
+05-26-2016:00-40-10	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: francine, aline],[<fullName>:]
+05-26-2016:00-40-10	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-40-10	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lakesha platz, 0.11),  (thanh hartin, 0.10),  (lucia pizarro, 0.10),  (elene prouty, 0.10),  (delores capell, 0.10),  (kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  
+05-26-2016:00-40-13	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	lucia pizarro?
+05-26-2016:00-40-22	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	no
+05-26-2016:00-40-22	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-22	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-40-22	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lakesha platz, 0.10),  (thanh hartin, 0.10),  (lucia pizarro, 0.10),  (elene prouty, 0.10),  (delores capell, 0.10),  (kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  
+05-26-2016:00-40-26	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	hmm, do you know elene?
+05-26-2016:00-40-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	I know Aline
+05-26-2016:00-40-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: aline],[<fullName>:]
+05-26-2016:00-40-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-40-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lakesha platz, 0.10),  (thanh hartin, 0.10),  (lucia pizarro, 0.10),  (elene prouty, 0.10),  (delores capell, 0.10),  (kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  
+05-26-2016:00-40-38	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	are delores or kristie on your list?
+05-26-2016:00-40-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	delores
+05-26-2016:00-40-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: delores],[<fullName>:]
+05-26-2016:00-40-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-40-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 0.23),  (lakesha platz, 0.09),  (thanh hartin, 0.09),  (lucia pizarro, 0.09),  (elene prouty, 0.09),  (kristie bolduc, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (laverna bjornson, 0.09),  (carry pavlick, 0.09),  
+05-26-2016:00-40-49	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	yep, that's the right answer
+05-26-2016:00-40-50	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	Selected 4:	Delores Capell
+05-26-2016:00-40-52	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	Selected:	Delores Capell
+05-26-2016:00-40-53	---

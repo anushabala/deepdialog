@@ -1,0 +1,32 @@
+05-26-2016:00-40-47	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	joined
+05-26-2016:00-40-47	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1 has user ID 45374118e1b24237a48e440811588327
+05-26-2016:00-40-49	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	hey!
+05-26-2016:00-40-50	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	Hello
+05-26-2016:00-40-50	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-50	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-40-50	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (lucia pizarro, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  (thanh hartin, 0.10),  (ngan hornung, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-40-56	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	i'm stanford, linguistics, apple
+05-26-2016:00-40-58	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	you?
+05-26-2016:00-40-59	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	I went to UPenn and Majored in Math.
+05-26-2016:00-40-59	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-59	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-40-59	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(lucia pizarro, 0.18),  (elene prouty, 0.18),  (lakesha platz, 0.18),  (kristie bolduc, 0.07),  (laurette thrailkill, 0.07),  (mose coletti, 0.07),  (laverna bjornson, 0.07),  (carry pavlick, 0.07),  (thanh hartin, 0.07),  (ngan hornung, 0.07),  
+05-26-2016:00-41-04	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	are lucia or elene on your list?
+05-26-2016:00-41-12	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	I work at Google. All of my friends work at Google.
+05-26-2016:00-41-12	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-12	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-41-12	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 0.44),  (lucia pizarro, 0.07),  (elene prouty, 0.07),  (lakesha platz, 0.07),  (kristie bolduc, 0.06),  (laurette thrailkill, 0.06),  (mose coletti, 0.06),  (laverna bjornson, 0.06),  (carry pavlick, 0.06),  (thanh hartin, 0.06),  
+05-26-2016:00-41-15	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	ngan, lakesha?
+05-26-2016:00-41-17	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	Neither of them are on my list.
+05-26-2016:00-41-17	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-17	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	[<firstName>: jon],[<fullName>: jon geissler]
+05-26-2016:00-41-17	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 0.10),  (lucia pizarro, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  (kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  (thanh hartin, 0.10),  
+05-26-2016:00-41-25	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	do you know kristie bolduc or laurette thrailkill?
+05-26-2016:00-41-30	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	Ngan!
+05-26-2016:00-41-30	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ngan],[<fullName>:]
+05-26-2016:00-41-30	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-41-30	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 0.23),  (lucia pizarro, 0.09),  (elene prouty, 0.09),  (lakesha platz, 0.09),  (kristie bolduc, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (laverna bjornson, 0.09),  (carry pavlick, 0.09),  (thanh hartin, 0.09),  
+05-26-2016:00-41-32	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	yes
+05-26-2016:00-41-34	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	Selected:	Ngan Hornung
+05-26-2016:00-41-34	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	Selected 9:	Ngan Hornung
+05-26-2016:00-41-34	---

@@ -1,0 +1,68 @@
+05-26-2016:01-49-21	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	joined
+05-26-2016:01-49-21	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0 has user ID 7f350aa05ac141b98a48b4332d2a69cf
+05-26-2016:01-49-24	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Hey.
+05-26-2016:01-49-24	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-24	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-49-24	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(laverna bjornson, 0.00),  (susanna pulley, 0.00),  (alberto thurlow, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-49-30	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at uber
+05-26-2016:01-49-32	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	hi
+05-26-2016:01-49-52	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Most of my friends attended the University of California.
+05-26-2016:01-49-52	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-52	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: california],[<firstName>: most],[<fullName>: most]
+05-26-2016:01-49-52	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(mose coletti, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (alberto thurlow, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-50-00	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	i went to university of pennsylvania majored in math and work for apple 
+05-26-2016:01-50-02	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Except for two from Penn.
+05-26-2016:01-50-02	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-02	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: penn]
+05-26-2016:01-50-02	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-50-06	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	i have one friend that works at uber
+05-26-2016:01-50-14	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	i went to university of california - berkeley and work at uber 
+05-26-2016:01-50-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Do you know a Susan?
+05-26-2016:01-50-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-50-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-50-18	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	do you know alberto thurlow
+05-26-2016:01-50-20	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	nope
+05-26-2016:01-50-29	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Never heard of him.
+05-26-2016:01-50-29	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-29	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-50-29	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-50-31	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	mose coletti
+05-26-2016:01-50-37	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	No it.
+05-26-2016:01-50-37	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-37	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-50-37	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-50-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Not*
+05-26-2016:01-50-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-50-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-50-44	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	tobi brunette francine bateman
+05-26-2016:01-50-48	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	do you know alberto thurlow
+05-26-2016:01-50-58	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	None of the above.
+05-26-2016:01-50-58	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-58	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-50-58	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-51-04	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	i went to university of pennsylvania and math major
+05-26-2016:01-51-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Do you know Rick?
+05-26-2016:01-51-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: rick],[<fullName>:]
+05-26-2016:01-51-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-51-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-51-16	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	hmm 
+05-26-2016:01-51-20	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	oh you must know them
+05-26-2016:01-51-38	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	How about Emmitt?
+05-26-2016:01-51-38	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: emmitt],[<fullName>:]
+05-26-2016:01-51-38	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-51-38	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-51-40	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	it wont let me 
+05-26-2016:01-51-43	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	pick the same your name
+05-26-2016:01-51-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	What the name?
+05-26-2016:01-51-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-51-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-51-55	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	Selected:	Alberto Thurlow
+05-26-2016:01-52-05	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Don't know him.
+05-26-2016:01-52-05	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-05	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:01-52-05	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(alberto thurlow, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (lakesha platz, 1.00),  (laverna bjornson, 0.00),  (susanna pulley, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-52-07	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	select her 
+05-26-2016:01-52-09	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	you say

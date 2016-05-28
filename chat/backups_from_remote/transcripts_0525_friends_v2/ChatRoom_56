@@ -1,0 +1,31 @@
+05-26-2016:01-51-19	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	joined
+05-26-2016:01-51-19	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0 has user ID 2275d6413af04952af0effc8e4624925
+05-26-2016:01-51-25	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	all my friend work at google and 1 works at facebook
+05-26-2016:01-51-25	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Hello
+05-26-2016:01-51-25	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-25	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:01-51-25	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 0.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-51-26	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	hi
+05-26-2016:01-51-35	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	I work at Amazon. How about you?
+05-26-2016:01-51-35	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-35	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:01-51-35	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-51-43	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	i have a lot of friends from u of university of pennsylvania stanford
+05-26-2016:01-52-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Do you know Colin?
+05-26-2016:01-52-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: colin],[<fullName>:]
+05-26-2016:01-52-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:01-52-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-52-04	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	no i have
+05-26-2016:01-52-44	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Hmm that was all I know at Stanford. I dont know anyone at Penn or Stanford
+05-26-2016:01-52-44	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>: stanford, stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-44	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	[<schoolName>: penn]
+05-26-2016:01-52-44	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 2.00),  (samuel tatum, 1.00),  (mose coletti, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (carry pavlick, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (brigid imai, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-52-53	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	i have a few from facebook who went to stanford and majored in linguistics
+05-26-2016:01-53-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Do you know anyone at Amazon or Facebook?
+05-26-2016:01-53-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:01-53-01	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 3.00),  (carry pavlick, 2.00),  (samuel tatum, 1.00),  (mose coletti, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (brigid imai, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-53-03	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	tinisha blagg
+05-26-2016:01-53-13	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Selected 7:	Tinisha Blagg
+05-26-2016:01-53-14	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	Selected:	Tinisha Blagg
+05-26-2016:01-53-14	---

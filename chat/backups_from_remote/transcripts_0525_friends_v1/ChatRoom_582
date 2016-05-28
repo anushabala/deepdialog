@@ -1,0 +1,21 @@
+05-26-2016:00-40-00	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	joined
+05-26-2016:00-40-00	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0 has user ID bf11d5dcaf1846a89a46dd1e48acc385
+05-26-2016:00-40-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_UNFEATURIZED	all my friend work at google and 1 works at uber
+05-26-2016:00-40-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	hi
+05-26-2016:00-40-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-40-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(sherika rust, 0.00),  (brigid imai, 0.00),  (vickey redinger, 0.00),  (julissa bond, 0.00),  (jesica seaton, 0.00),  (lauran dyson, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (asa cadena, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-40-08	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_UNFEATURIZED	hi
+05-26-2016:00-40-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	who is your uber friend
+05-26-2016:00-40-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-40-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 1.00),  (liana sams, 1.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (julissa bond, 0.00),  (jesica seaton, 0.00),  (lauran dyson, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (asa cadena, 0.00),  
+05-26-2016:00-40-17	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_UNFEATURIZED	do you know vickey redinger or liana sams
+05-26-2016:00-40-24	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	i know vickey
+05-26-2016:00-40-24	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: vickey],[<fullName>:]
+05-26-2016:00-40-24	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-40-24	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 2.00),  (liana sams, 1.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (julissa bond, 0.00),  (jesica seaton, 0.00),  (lauran dyson, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (asa cadena, 0.00),  
+05-26-2016:00-40-26	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_UNFEATURIZED	Selected:	Sherika Rust
+05-26-2016:00-40-26	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Selected 6:	Vickey Redinger
+05-26-2016:00-40-29	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_UNFEATURIZED	Selected:	Vickey Redinger
+05-26-2016:00-40-29	---

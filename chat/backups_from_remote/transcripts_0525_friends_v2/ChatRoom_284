@@ -1,0 +1,23 @@
+05-26-2016:02-11-48	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	joined
+05-26-2016:02-11-48	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-11-50	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	hey
+05-26-2016:02-11-53	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	Hiiii
+05-26-2016:02-11-53	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-11-53	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:02-11-53	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(lashaunda carothers, 0.10),  (alberto thurlow, 0.10),  (quinn courter, 0.10),  (vickey redinger, 0.10),  (johnathan mccolley, 0.10),  (kathaleen brough, 0.10),  (lillia mikel, 0.10),  (renay guel, 0.10),  (fletcher hass, 0.10),  (willie wicks, 0.10),  
+05-26-2016:02-11-59	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	i went to stanford and majored in economics
+05-26-2016:02-12-02	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	work at uber
+05-26-2016:02-12-09	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:02-12-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	I went to you Penn and studied Linguistics. I now work at google
+05-26-2016:02-12-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-12-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:02-12-12	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 0.15),  (alberto thurlow, 0.14),  (lashaunda carothers, 0.09),  (johnathan mccolley, 0.09),  (lillia mikel, 0.09),  (quinn courter, 0.08),  (kathaleen brough, 0.08),  (renay guel, 0.08),  (fletcher hass, 0.08),  (willie wicks, 0.08),  
+05-26-2016:02-12-19	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	do you know vickey redinger or alberto thurlow?
+05-26-2016:02-12-27	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	i know vickey
+05-26-2016:02-12-27	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: vickey],[<fullName>:]
+05-26-2016:02-12-27	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:02-12-27	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 0.24),  (alberto thurlow, 0.09),  (lashaunda carothers, 0.08),  (johnathan mccolley, 0.08),  (lillia mikel, 0.08),  (quinn courter, 0.08),  (kathaleen brough, 0.08),  (renay guel, 0.08),  (fletcher hass, 0.08),  (willie wicks, 0.08),  
+05-26-2016:02-12-29	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	yeah
+05-26-2016:02-12-31	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	Selected:	Vickey Redinger
+05-26-2016:02-12-31	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	Selected 4:	Vickey Redinger
+05-26-2016:02-12-31	---

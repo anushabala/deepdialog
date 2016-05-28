@@ -1,0 +1,28 @@
+05-26-2016:00-12-35	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	joined
+05-26-2016:00-12-35	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1 has user ID 1aed4a98f9874cf79c3c4a88af5b4445
+05-26-2016:00-12-41	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	all my friend work at apple and 1 works at amazon
+05-26-2016:00-13-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	mine is in physics
+05-26-2016:00-13-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-13-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (pearl dollard, 1.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (kerry carter, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-13-11	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	Selected:	Laverna Bjornson
+05-26-2016:00-13-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Selected 0:	Carley Schade
+05-26-2016:00-13-48	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	do you know laverna bjornson
+05-26-2016:00-13-59	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	I don't
+05-26-2016:00-13-59	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-59	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-13-59	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (pearl dollard, 1.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (kerry carter, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-14-03	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	only one friend pearl dollard 
+05-26-2016:00-14-06	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i have to upenn and a lone
+05-26-2016:00-14-54	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Do you know emmitt
+05-26-2016:00-14-54	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: emmitt],[<fullName>:]
+05-26-2016:00-14-54	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-14-54	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (pearl dollard, 1.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (kerry carter, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-14-56	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	no
+05-26-2016:00-15-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Kerry
+05-26-2016:00-15-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kerry],[<fullName>:]
+05-26-2016:00-15-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-15-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(laverna bjornson, 1.00),  (kerry carter, 1.00),  (pearl dollard, 1.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-15-10	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	Selected:	Kerry Carter
+05-26-2016:00-15-17	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Selected 7:	Kerry Carter
+05-26-2016:00-15-17	---

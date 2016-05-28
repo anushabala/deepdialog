@@ -1,0 +1,42 @@
+05-26-2016:00-28-58	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	joined
+05-26-2016:00-28-58	9108ae01-942f-42cd-987c-f574a2703fb7	User 0 has user ID 0dc4687136e14048a9c388d42403327e
+05-26-2016:00-29-10	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	Hi.
+05-26-2016:00-29-10	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-10	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-29-10	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(francine bateman, 0.10),  (oliver roker, 0.10),  (gennie dagley, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lai pettaway, 0.10),  (danita hanby, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-29-11	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	
+05-26-2016:00-29-11	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-11	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-29-11	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(laverna bjornson, 0.10),  (oliver roker, 0.10),  (gennie dagley, 0.10),  (tobi brunette, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (lai pettaway, 0.10),  (danita hanby, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-29-14	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	francine?
+05-26-2016:00-29-18	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	oliver, gennie, tobi?
+05-26-2016:00-29-19	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	All of my friends are from google except 1 facebook.
+05-26-2016:00-29-19	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-19	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-29-19	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lai pettaway, 0.23),  (francine bateman, 0.09),  (oliver roker, 0.09),  (gennie dagley, 0.09),  (tobi brunette, 0.09),  (laverna bjornson, 0.09),  (aline allshouse, 0.09),  (danita hanby, 0.09),  (riva noles, 0.09),  (elene prouty, 0.09),  
+05-26-2016:00-29-27	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	do you know lai pettaway aline allshouse or danita hanby?
+05-26-2016:00-29-37	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	No.
+05-26-2016:00-29-37	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-37	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-29-37	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lai pettaway, 0.11),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (gennie dagley, 0.10),  (tobi brunette, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (danita hanby, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-29-42	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	do you know riva, elene or lai?
+05-26-2016:00-30-02	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	What company are your friends from?
+05-26-2016:00-30-02	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-02	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-30-02	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lai pettaway, 0.10),  (francine bateman, 0.10),  (oliver roker, 0.10),  (gennie dagley, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (danita hanby, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-30-06	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	hmm, do you know francine?
+05-26-2016:00-30-50	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	No. One is from Standford, major is economics and at facebook.
+05-26-2016:00-30-50	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>: economics],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-50	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	[<schoolName>: stanford]
+05-26-2016:00-30-50	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(riva noles, 0.15),  (lai pettaway, 0.10),  (oliver roker, 0.10),  (francine bateman, 0.09),  (gennie dagley, 0.09),  (tobi brunette, 0.09),  (laverna bjornson, 0.09),  (aline allshouse, 0.09),  (danita hanby, 0.09),  (elene prouty, 0.09),  
+05-26-2016:00-30-52	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	riva noles?
+05-26-2016:00-31-21	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	Do you know anyone from Columbia?
+05-26-2016:00-31-21	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-21	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-31-21	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lai pettaway, 0.16),  (oliver roker, 0.16),  (laverna bjornson, 0.16),  (elene prouty, 0.16),  (riva noles, 0.06),  (gennie dagley, 0.06),  (tobi brunette, 0.06),  (francine bateman, 0.06),  (aline allshouse, 0.06),  (danita hanby, 0.06),  
+05-26-2016:00-31-27	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	are oliver or laverna on your list?
+05-26-2016:00-31-38	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	No.
+05-26-2016:00-31-38	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-38	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:00-31-38	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lai pettaway, 0.11),  (oliver roker, 0.11),  (laverna bjornson, 0.11),  (elene prouty, 0.11),  (riva noles, 0.10),  (francine bateman, 0.10),  (gennie dagley, 0.10),  (tobi brunette, 0.10),  (aline allshouse, 0.10),  (danita hanby, 0.10),  
+05-26-2016:00-31-43	9108ae01-942f-42cd-987c-f574a2703fb7	DEFAULT_BOT	are elene or gennie on your list?

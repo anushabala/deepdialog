@@ -1,0 +1,19 @@
+05-26-2016:00-34-12	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	joined
+05-26-2016:00-34-12	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0 has user ID 17b9b13fcd3c42b0bfb26c09dde54396
+05-26-2016:00-34-16	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	hiya
+05-26-2016:00-34-16	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-16	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	
+05-26-2016:00-34-16	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(guillermo mantz, 0.00),  (quinn courter, 0.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (randi thorson, 0.00),  (nathanial towery, 0.00),  (sade kenner, 0.00),  (santina kenley, 0.00),  (kendrick friday, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-34-22	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_FEATURIZED	all my friend work at uber and 1 works at facebook
+05-26-2016:00-34-24	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_FEATURIZED	hi
+05-26-2016:00-34-26	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	all my buds work at facebook, except one at google, one at uber
+05-26-2016:00-34-26	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, google, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-26	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	
+05-26-2016:00-34-26	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(guillermo mantz, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (randi thorson, 1.00),  (nathanial towery, 1.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (kendrick friday, 1.00),  (willie wicks, 1.00),  
+05-26-2016:00-34-30	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	who do you know at FB?
+05-26-2016:00-34-30	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-30	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	
+05-26-2016:00-34-30	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(guillermo mantz, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (randi thorson, 1.00),  (nathanial towery, 1.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (kendrick friday, 1.00),  (willie wicks, 1.00),  
+05-26-2016:00-34-35	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_FEATURIZED	do you know guillermo mantz or quinn courter
+05-26-2016:00-34-37	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_FEATURIZED	Selected:	Guillermo Mantz
+05-26-2016:00-37-32	---

@@ -1,0 +1,39 @@
+05-26-2016:00-32-15	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	joined
+05-26-2016:00-32-15	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1 has user ID 57f6f4d89f8f49da9f659b5885bc6cc8
+05-26-2016:00-32-17	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	hello
+05-26-2016:00-32-17	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-17	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:00-32-17	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(clarisa mattison, 0.00),  (guillermo mantz, 0.00),  (brittney hunley, 0.00),  (emmanuel eliason, 0.00),  (jacques castillon, 0.00),  (sheilah steitz, 0.00),  (lorriane hurlbert, 0.00),  (darrel oden, 0.00),  (lucienne whitting, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-32-19	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	hi
+05-26-2016:00-32-26	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	I went to stanford and studied comp sci
+05-26-2016:00-32-26	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-26	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	[<major>: comp, sci]
+05-26-2016:00-32-26	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(brittney hunley, 1.00),  (jacques castillon, 1.00),  (lucienne whitting, 1.00),  (fletcher hersman, 1.00),  (clarisa mattison, 0.00),  (guillermo mantz, 0.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (lorriane hurlbert, 0.00),  (darrel oden, 0.00),  
+05-26-2016:00-32-31	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	my friend brittney hunley worked at fb
+05-26-2016:00-32-38	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	ok?
+05-26-2016:00-32-38	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-38	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:00-32-38	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(brittney hunley, 1.00),  (jacques castillon, 1.00),  (lucienne whitting, 1.00),  (fletcher hersman, 1.00),  (clarisa mattison, 0.00),  (guillermo mantz, 0.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (lorriane hurlbert, 0.00),  (darrel oden, 0.00),  
+05-26-2016:00-32-40	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	no facebook
+05-26-2016:00-32-47	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	Nah, all Google
+05-26-2016:00-32-47	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-47	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:00-32-47	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(jacques castillon, 2.00),  (fletcher hersman, 2.00),  (brittney hunley, 1.00),  (lucienne whitting, 1.00),  (clarisa mattison, 0.00),  (guillermo mantz, 0.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (lorriane hurlbert, 0.00),  (darrel oden, 0.00),  
+05-26-2016:00-32-49	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	2 google 
+05-26-2016:00-32-51	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	1 facebook 
+05-26-2016:00-32-53	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	3 columbia 
+05-26-2016:00-32-55	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	no google
+05-26-2016:00-33-08	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	well I went to stanford and studied computer science
+05-26-2016:00-33-08	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>: computer science],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-08	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:00-33-08	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(jacques castillon, 3.00),  (fletcher hersman, 3.00),  (brittney hunley, 2.00),  (lucienne whitting, 2.00),  (clarisa mattison, 0.00),  (guillermo mantz, 0.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (lorriane hurlbert, 0.00),  (darrel oden, 0.00),  
+05-26-2016:00-33-12	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	anyone that works at facebook
+05-26-2016:00-33-18	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	I said all Google
+05-26-2016:00-33-18	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-18	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:00-33-18	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(jacques castillon, 4.00),  (fletcher hersman, 4.00),  (brittney hunley, 2.00),  (lucienne whitting, 2.00),  (clarisa mattison, 0.00),  (guillermo mantz, 0.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (lorriane hurlbert, 0.00),  (darrel oden, 0.00),  
+05-26-2016:00-33-25	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	two friends named jacques castillon and fletcher hersman 
+05-26-2016:00-33-27	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	from stanford
+05-26-2016:00-33-31	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 1	Selected 4:	Fletcher Hersman
+05-26-2016:00-33-34	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_UNFEATURIZED	Selected:	Fletcher Hersman
+05-26-2016:00-33-34	---

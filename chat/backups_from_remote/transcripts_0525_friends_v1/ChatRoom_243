@@ -1,0 +1,18 @@
+05-26-2016:00-23-23	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	joined
+05-26-2016:00-23-23	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0 has user ID f2e2c5dce9ed453486311e9db1c69302
+05-26-2016:00-23-25	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	hi
+05-26-2016:00-23-32	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	i went to stanford, majored in economics, work at google
+05-26-2016:00-23-33	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	Hi here. My friends work at Uber!
+05-26-2016:00-23-33	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-33	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-23-33	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 0.23),  (lashaunda carothers, 0.09),  (sherika rust, 0.09),  (samuel tatum, 0.09),  (josh gouin, 0.09),  (lai pettaway, 0.09),  (denny harshberger, 0.09),  (renay guel, 0.09),  (meda lahr, 0.09),  (fletcher hass, 0.09),  
+05-26-2016:00-23-36	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	you?
+05-26-2016:00-23-43	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	do you know randi thorson or lashaunda carothers?
+05-26-2016:00-23-54	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	Randi! Good friend from Berkley. 
+05-26-2016:00-23-54	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: randi],[<fullName>:]
+05-26-2016:00-23-54	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-23-54	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 0.12),  (lashaunda carothers, 0.10),  (sherika rust, 0.10),  (samuel tatum, 0.10),  (josh gouin, 0.10),  (lai pettaway, 0.10),  (denny harshberger, 0.10),  (renay guel, 0.10),  (meda lahr, 0.10),  (fletcher hass, 0.10),  
+05-26-2016:00-23-59	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	yep, that's the right answer
+05-26-2016:00-23-59	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	Selected 8:	Randi Thorson
+05-26-2016:00-24-01	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	Selected:	Randi Thorson
+05-26-2016:00-24-01	---

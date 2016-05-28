@@ -1,0 +1,30 @@
+05-26-2016:01-50-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	joined
+05-26-2016:01-50-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1 has user ID f54a924cc4ae4951b927d029405f688b
+05-26-2016:01-50-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	I have one friend who works for Facebook
+05-26-2016:01-50-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-50-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-50-29	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	hi all of my friends work for facebook and one at facebook
+05-26-2016:01-50-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	All and one?
+05-26-2016:01-50-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-50-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-50-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	i have that one
+05-26-2016:01-50-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	whicj one?
+05-26-2016:01-50-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-50-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-51-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	i have one from facebook who went to columbia and computer science
+05-26-2016:01-51-15	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Noe
+05-26-2016:01-51-15	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-15	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-51-15	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-51-19	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	my friends work at facebook
+05-26-2016:01-51-33	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Do you know Arlen Landers?
+05-26-2016:01-51-33	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: arlen landers]
+05-26-2016:01-51-33	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-51-33	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 2.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:01-51-33	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	no
+05-26-2016:01-51-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 3:	Arlen Landers
+05-26-2016:01-51-44	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	Selected:	Arlen Landers
+05-26-2016:01-51-45	---

@@ -1,0 +1,69 @@
+05-26-2016:02-07-17	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	joined
+05-26-2016:02-07-17	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0 has user ID b7a6a0a4dfd4492398932052bc074c73
+05-26-2016:02-07-23	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	joined
+05-26-2016:02-07-23	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:02-07-33	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	one fb, all else amazon
+05-26-2016:02-07-36	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	U of P. Linguistics
+05-26-2016:02-07-36	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-36	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	[<schoolName>: u of p]
+05-26-2016:02-07-36	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 4.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-07-38	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	k
+05-26-2016:02-07-38	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	working for Apple
+05-26-2016:02-07-38	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-38	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-07-38	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 5.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-07-41	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	Selected:	Ayesha Aarons
+05-26-2016:02-07-51	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	Not a friend
+05-26-2016:02-07-51	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-51	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-07-51	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 5.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-07-55	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	i only know one person at apple
+05-26-2016:02-07-55	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	Selected 1:	Clorinda Hites
+05-26-2016:02-07-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	all Apple except for one
+05-26-2016:02-07-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-07-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 6.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-07-59	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	alberto thurlow 
+05-26-2016:02-08-01	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	Selected:	Keesha Ahart
+05-26-2016:02-08-18	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	a non-bot, but non-responsie
+05-26-2016:02-08-24	---
+05-26-2016:02-08-27	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	I'm not a bot
+05-26-2016:02-08-27	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-27	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-08-27	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 6.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-08-28	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	joined
+05-26-2016:02-08-28	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0 has user ID b7a6a0a4dfd4492398932052bc074c73
+05-26-2016:02-08-29	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	Selected:	Jody Tropea
+05-26-2016:02-08-41	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	one fb friend
+05-26-2016:02-08-45	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	Francine or Aline or Pearl or Thanh or Laverna or Candis or Susanna or Kristie or Bernita?
+05-26-2016:02-08-45	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: francine, aline, pearl, thanh, laverna, candis, susanna, kristie, bernita],[<fullName>:]
+05-26-2016:02-08-45	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-08-45	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 6.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-08-49	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	and both do you know from uber
+05-26-2016:02-08-50	---
+05-26-2016:02-08-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	I only know Apple and Amazon
+05-26-2016:02-08-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-08-56	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 7.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-08-59	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	ayesha aarons 
+05-26-2016:02-08-59	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	joined
+05-26-2016:02-08-59	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0 has user ID b7a6a0a4dfd4492398932052bc074c73
+05-26-2016:02-09-01	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	from apple
+05-26-2016:02-09-05	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	Lots from Apple
+05-26-2016:02-09-05	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-05	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-09-05	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 8.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-09-08	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	Selected:	Alberto Thurlow
+05-26-2016:02-09-08	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	Selected 1:	Clorinda Hites
+05-26-2016:02-09-14	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	None of those
+05-26-2016:02-09-14	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-14	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-09-14	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 8.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-09-19	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	all my other friends work at uber
+05-26-2016:02-09-34	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 1	strange
+05-26-2016:02-09-34	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-34	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-09-34	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(ayesha aarons, 8.00),  (alberto thurlow, 2.00),  (keesha ahart, 2.00),  (jody tropea, 2.00),  (liana sams, 2.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (kathaleen brough, 0.00),  
+05-26-2016:02-09-38	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_FEATURIZED	tell me name
+05-26-2016:02-09-38	---
+05-26-2016:02-09-55	---

@@ -1,0 +1,21 @@
+05-26-2016:02-09-31	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	joined
+05-26-2016:02-09-31	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0 has user ID 8038940418f44af2851465a50e02ce17
+05-26-2016:02-09-34	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Hi
+05-26-2016:02-09-34	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-34	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:02-09-34	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(sherika rust, 0.00),  (brigid imai, 0.00),  (vickey redinger, 0.00),  (jesica seaton, 0.00),  (julissa bond, 0.00),  (lauran dyson, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-09-39	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:02-09-41	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_FEATURIZED	hi
+05-26-2016:02-09-43	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Any of your friends work at apple?
+05-26-2016:02-09-43	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-43	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:02-09-43	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 1.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (vickey redinger, 0.00),  (jesica seaton, 0.00),  (lauran dyson, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-09-49	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_FEATURIZED	i went to university of pennsylvania and majored in linguistics 
+05-26-2016:02-09-52	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_FEATURIZED	i work at google
+05-26-2016:02-10-02	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Who works at apple?
+05-26-2016:02-10-02	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-02	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:02-10-02	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 2.00),  (sherika rust, 0.00),  (brigid imai, 0.00),  (vickey redinger, 0.00),  (jesica seaton, 0.00),  (lauran dyson, 0.00),  (samuel tatum, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-10-03	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_FEATURIZED	julissa bond
+05-26-2016:02-10-06	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Selected 3:	Julissa Bond
+05-26-2016:02-10-09	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_FEATURIZED	Selected:	Julissa Bond

@@ -1,0 +1,37 @@
+05-26-2016:02-20-08	9979731b-9a56-42f5-812a-f8a35685d874	User 1	joined
+05-26-2016:02-20-08	9979731b-9a56-42f5-812a-f8a35685d874	User 1 has user ID da1e2946d62d455fa59e363d419f3a2b
+05-26-2016:02-20-09	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	hi
+05-26-2016:02-20-17	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	i'm university of california - berkeley, computer science, amazon
+05-26-2016:02-20-24	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:02-20-27	9979731b-9a56-42f5-812a-f8a35685d874	User 1	hi
+05-26-2016:02-20-27	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-20-27	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:02-20-27	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (lashawn sharman, 0.10),  (colin higby, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:02-20-31	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	celsa, harris, maryln?
+05-26-2016:02-20-32	9979731b-9a56-42f5-812a-f8a35685d874	User 1	I work at google
+05-26-2016:02-20-32	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-20-32	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:02-20-32	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(lashawn sharman, 0.23),  (celsa navarrete, 0.09),  (harris schramm, 0.09),  (maryln hagaman, 0.09),  (angelo patch, 0.09),  (branden sjoberg, 0.09),  (colin higby, 0.09),  (emmitt nations, 0.09),  (candis kita, 0.09),  (carley schade, 0.09),  
+05-26-2016:02-20-36	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	lashawn, angelo, branden?
+05-26-2016:02-20-49	9979731b-9a56-42f5-812a-f8a35685d874	User 1	went to stanford, and studied linguistics
+05-26-2016:02-20-49	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-20-49	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:02-20-49	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(candis kita, 0.23),  (lashawn sharman, 0.10),  (celsa navarrete, 0.08),  (harris schramm, 0.08),  (maryln hagaman, 0.08),  (angelo patch, 0.08),  (branden sjoberg, 0.08),  (colin higby, 0.08),  (emmitt nations, 0.08),  (carley schade, 0.08),  
+05-26-2016:02-20-55	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	do you know candis kita or colin higby?
+05-26-2016:02-21-00	9979731b-9a56-42f5-812a-f8a35685d874	User 1	We're not just supposed to name names jackass
+05-26-2016:02-21-00	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-21-00	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<firstName>: justa],[<fullName>: justa holdeman]
+05-26-2016:02-21-00	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(candis kita, 0.10),  (lashawn sharman, 0.10),  (celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (colin higby, 0.10),  (emmitt nations, 0.10),  (carley schade, 0.10),  
+05-26-2016:02-21-06	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	do you know emmitt, carley or candis?
+05-26-2016:02-21-30	9979731b-9a56-42f5-812a-f8a35685d874	User 1	Selected 8:	Fletcher Hersman
+05-26-2016:02-21-32	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	nope
+05-26-2016:02-21-37	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	are lashawn or celsa on your list?
+05-26-2016:02-22-23	9979731b-9a56-42f5-812a-f8a35685d874	User 1	Selected 9:	Tess Lister
+05-26-2016:02-22-27	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	no, i don't know them
+05-26-2016:02-22-32	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	are harris or maryln on your list?
+05-26-2016:02-22-40	9979731b-9a56-42f5-812a-f8a35685d874	User 1	wont let me select lashawn
+05-26-2016:02-22-40	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashawn],[<fullName>:]
+05-26-2016:02-22-40	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<firstName>: my],[<fullName>: my winters]
+05-26-2016:02-22-40	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(lashawn sharman, 0.11),  (candis kita, 0.10),  (celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (colin higby, 0.10),  (emmitt nations, 0.10),  (carley schade, 0.10),  
+05-26-2016:02-22-41	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	yes
+05-26-2016:02-22-43	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	Selected:	Lashawn Sharman

@@ -1,0 +1,15 @@
+05-26-2016:02-03-48	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	joined
+05-26-2016:02-03-48	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-03-52	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	hi there
+05-26-2016:02-03-52	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-52	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:02-03-52	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(lashaunda carothers, 0.00),  (alberto thurlow, 0.00),  (quinn courter, 0.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (kathaleen brough, 0.00),  (lillia mikel, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (willie wicks, 0.00),  
+05-26-2016:02-03-57	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_FEATURIZED	all work at uber except one at facebook 
+05-26-2016:02-04-01	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_FEATURIZED	do you know lashaunda carothers
+05-26-2016:02-04-11	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	vickey redinger or liana sams
+05-26-2016:02-04-11	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: vickey redinger, liana sams]
+05-26-2016:02-04-11	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:02-04-11	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 1.00),  (lashaunda carothers, 0.00),  (alberto thurlow, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (kathaleen brough, 0.00),  (lillia mikel, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (willie wicks, 0.00),  
+05-26-2016:02-04-13	de93470f-1956-4dd3-940b-ae83a5ed0c7b	LSTM_FEATURIZED	Selected:	Vickey Redinger
+05-26-2016:02-04-17	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 1	Selected 4:	Vickey Redinger
+05-26-2016:02-04-17	---

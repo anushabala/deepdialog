@@ -1,0 +1,71 @@
+05-26-2016:01-57-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	joined
+05-26-2016:01-57-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:01-57-37	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	hey!
+05-26-2016:01-57-42	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	i'm from stanford, math, apple
+05-26-2016:01-57-46	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	major, school, company?
+05-26-2016:01-57-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	Hello. I have two friends at Apple. Fletcher and Tamara. 
+05-26-2016:01-57-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: fletcher, tamara],[<fullName>:]
+05-26-2016:01-57-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-57-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(kristie bolduc, 0.11),  (bernita kerrick, 0.11),  (oliver roker, 0.11),  (mose coletti, 0.11),  (jenny hird, 0.11),  (tobi brunette, 0.11),  (pearl dollard, 0.11),  (riva noles, 0.11),  (elene prouty, 0.11),  (brittanie piggott, 0.04),  
+05-26-2016:01-58-01	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	kristie, bernita, oliver?
+05-26-2016:01-58-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	The rest are at Google. 
+05-26-2016:01-58-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-58-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (mose coletti, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.09),  
+05-26-2016:01-58-07	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	hmm, do you know mose?
+05-26-2016:01-58-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	You again. No, let's not go through a list, please
+05-26-2016:01-58-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-58-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (mose coletti, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-58-21	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	do you know jenny hird?
+05-26-2016:01-58-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	No.
+05-26-2016:01-58-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-58-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (mose coletti, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-58-31	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	do you know tobi brunette or pearl dollard?
+05-26-2016:01-58-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	How about using some logic?
+05-26-2016:01-58-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:01-58-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.33),  (kristie bolduc, 0.07),  (bernita kerrick, 0.07),  (oliver roker, 0.07),  (jenny hird, 0.07),  (tobi brunette, 0.07),  (pearl dollard, 0.07),  (riva noles, 0.07),  (elene prouty, 0.07),  (brittanie piggott, 0.07),  
+05-26-2016:01-58-34	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	yes!
+05-26-2016:01-58-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:01-58-45	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	No, I don't know Mose. 
+05-26-2016:01-58-45	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:01-58-45	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-58-45	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.28),  (kristie bolduc, 0.08),  (bernita kerrick, 0.08),  (oliver roker, 0.08),  (jenny hird, 0.08),  (tobi brunette, 0.08),  (pearl dollard, 0.08),  (riva noles, 0.08),  (elene prouty, 0.08),  (brittanie piggott, 0.08),  
+05-26-2016:01-58-49	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	yeah, that's the mutual friend
+05-26-2016:01-58-51	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:01-58-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	No, it's not.
+05-26-2016:01-58-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-58-57	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.12),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-59-01	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	are riva or elene on your list?
+05-26-2016:01-59-05	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	I don't have Mose on my list. 
+05-26-2016:01-59-05	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:01-59-05	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	[<firstName>: jon],[<fullName>: jon geissler]
+05-26-2016:01-59-05	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.11),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-59-07	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	yeah
+05-26-2016:01-59-09	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:01-59-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	No
+05-26-2016:01-59-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-59-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-59-15	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	do you know brittanie, mose or kristie?
+05-26-2016:01-59-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	Are you broken?
+05-26-2016:01-59-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-59-17	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-59-21	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	do you know bernita kerrick?
+05-26-2016:01-59-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	No.
+05-26-2016:01-59-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-59-26	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-59-31	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	do you know oliver roker or jenny hird?
+05-26-2016:01-59-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	You're wasting my time. 
+05-26-2016:01-59-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:01-59-36	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (brittanie piggott, 0.10),  
+05-26-2016:01-59-39	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	Selected 0:	Oliver Roker
+05-26-2016:01-59-43	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	do you know tobi, pearl or riva?
+05-26-2016:01-59-45	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	Selected:	Oliver Roker
+05-26-2016:01-59-46	---

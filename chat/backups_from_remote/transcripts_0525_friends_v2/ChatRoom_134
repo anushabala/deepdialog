@@ -1,0 +1,54 @@
+05-26-2016:01-57-38	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	joined
+05-26-2016:01-57-38	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:01-57-50	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	hi, I went to mighty Colombia
+05-26-2016:01-57-50	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-57-50	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	[<schoolName>: colombia]
+05-26-2016:01-57-57	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	i have one friend who works in amazon the rest work at apple
+05-26-2016:01-57-59	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	now I work at Apple with all my firends
+05-26-2016:01-57-59	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-57-59	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-58-03	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	i know one from amazon
+05-26-2016:01-58-08	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	no
+05-26-2016:01-58-08	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-08	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-58-10	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	google
+05-26-2016:01-58-10	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-10	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-58-13	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	?
+05-26-2016:01-58-13	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-13	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-58-16	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	thats it harris schramm
+05-26-2016:01-58-18	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	ambrose lenzen
+05-26-2016:01-58-20	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	yes
+05-26-2016:01-58-37	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	no my googler is lai
+05-26-2016:01-58-38	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lai],[<fullName>:]
+05-26-2016:01-58-38	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	[<firstName>: lai],[<fullName>: lai]
+05-26-2016:01-58-40	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	a cool
+05-26-2016:01-58-50	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	most studied math
+05-26-2016:01-58-50	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-50	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:01-58-51	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	no
+05-26-2016:01-59-12	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	computer science?
+05-26-2016:01-59-12	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-12	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-59-15	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	harris schramm
+05-26-2016:01-59-22	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	no
+05-26-2016:01-59-22	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-22	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-59-24	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	maryln hagaman
+05-26-2016:01-59-35	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	no
+05-26-2016:01-59-35	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-35	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:01-59-37	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	branden sjoberg
+05-26-2016:02-00-01	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	Econ, like me, Oliver?
+05-26-2016:02-00-01	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: oliver],[<fullName>:]
+05-26-2016:02-00-01	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	[<major>: econ],[<firstName>: me],[<fullName>: me]
+05-26-2016:02-00-04	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	ambrose lenzen
+05-26-2016:02-00-06	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	no branden
+05-26-2016:02-00-06	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: branden],[<fullName>:]
+05-26-2016:02-00-06	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:02-00-09	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	sarah lafond
+05-26-2016:02-00-23	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 0	no
+05-26-2016:02-00-23	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-23	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:02-00-25	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	oh okay

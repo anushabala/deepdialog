@@ -1,0 +1,17 @@
+05-26-2016:01-49-39	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 0	joined
+05-26-2016:01-49-39	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 0 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:01-49-45	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at amazon
+05-26-2016:01-49-47	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 0	hi, went to berkley for econ, work at apple
+05-26-2016:01-49-47	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-47	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	SYNONYMS	[<major>: econ],[<schoolName>: berkley]
+05-26-2016:01-49-47	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	PROBABILITIES	(nathanial towery, 1.00),  (emilia bivins, 1.00),  (kathaleen brough, 1.00),  (willie wicks, 1.00),  (celsa navarrete, 0.00),  (brittanie piggott, 0.00),  (brigid imai, 0.00),  (jody tropea, 0.00),  (lorriane hurlbert, 0.00),  (kendrick friday, 0.00),  
+05-26-2016:01-49-52	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_UNFEATURIZED	i went to columbia and majored in math 
+05-26-2016:01-49-57	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_UNFEATURIZED	all of my friends work at facebook
+05-26-2016:01-50-00	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 0	everyone works at apple here
+05-26-2016:01-50-00	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-00	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	SYNONYMS	
+05-26-2016:01-50-00	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	PROBABILITIES	(emilia bivins, 2.00),  (nathanial towery, 1.00),  (kathaleen brough, 1.00),  (willie wicks, 1.00),  (celsa navarrete, 0.00),  (brittanie piggott, 0.00),  (brigid imai, 0.00),  (jody tropea, 0.00),  (lorriane hurlbert, 0.00),  (kendrick friday, 0.00),  
+05-26-2016:01-50-03	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_UNFEATURIZED	emilia bivins
+05-26-2016:01-50-07	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	User 0	Selected 8:	Emilia Bivins
+05-26-2016:01-50-09	50f0d3cb-ddc2-4b9f-b554-3ed118e1c5fc	LSTM_UNFEATURIZED	Selected:	Emilia Bivins
+05-26-2016:01-50-10	---

@@ -1,0 +1,20 @@
+05-26-2016:00-32-25	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	joined
+05-26-2016:00-32-25	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:00-32-30	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	hi there
+05-26-2016:00-32-30	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-30	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-32-30	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(mai buskirk, 0.00),  (maryln drucker, 0.00),  (jesica seaton, 0.00),  (tangela raschke, 0.00),  (josh gouin, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-32-35	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	all my friend work at google and 1 works at amazon
+05-26-2016:00-32-37	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	Selected:	Mai Buskirk
+05-26-2016:00-32-48	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	I have a friend at google
+05-26-2016:00-32-48	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-48	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-32-48	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(mai buskirk, 1.00),  (maryln drucker, 1.00),  (jesica seaton, 1.00),  (tangela raschke, 1.00),  (josh gouin, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (darrel oden, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-32-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Jesica seaton
+05-26-2016:00-32-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: jesica seaton]
+05-26-2016:00-32-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-32-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 2.00),  (mai buskirk, 1.00),  (maryln drucker, 1.00),  (tangela raschke, 1.00),  (josh gouin, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (darrel oden, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-32-54	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	do you know maryln drucker
+05-26-2016:00-32-54	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Selected 4:	Jesica Seaton
+05-26-2016:00-32-56	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	Selected:	Jesica Seaton
+05-26-2016:00-32-56	---

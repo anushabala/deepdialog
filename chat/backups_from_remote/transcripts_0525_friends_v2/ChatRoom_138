@@ -1,0 +1,26 @@
+05-26-2016:01-57-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	joined
+05-26-2016:01-57-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0 has user ID ebb03f64d9994dfea749f8777106c8bb
+05-26-2016:01-57-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	all my friend work at google and 1 works at facebook
+05-26-2016:01-58-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	all my friend work at facebook
+05-26-2016:01-58-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-58-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:01-58-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	no arlen landers 
+05-26-2016:01-58-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	i have a ton of friends at google
+05-26-2016:01-59-20	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	i have no friends at google
+05-26-2016:01-59-20	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-20	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-59-20	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(lashaunda carothers, 1.00),  (arlen landers, 1.00),  (sherika rust, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (zackary rains, 1.00),  (riva noles, 0.00),  
+05-26-2016:01-59-24	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	where did you go to school
+05-26-2016:01-59-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Columbia
+05-26-2016:01-59-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-59-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(fletcher hersman, 2.00),  (lai pettaway, 2.00),  (lashaunda carothers, 1.00),  (arlen landers, 1.00),  (sherika rust, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (zackary rains, 1.00),  (riva noles, 0.00),  
+05-26-2016:01-59-47	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	do you know fletcher hersman or lai pettaway
+05-26-2016:02-00-05	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	neither
+05-26-2016:02-00-05	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-05	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:02-00-05	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(fletcher hersman, 2.00),  (lai pettaway, 2.00),  (lashaunda carothers, 1.00),  (arlen landers, 1.00),  (sherika rust, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (zackary rains, 1.00),  (riva noles, 0.00),  
+05-26-2016:02-00-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	i dont know lashaunda carothers
+05-26-2016:02-00-37	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Selected 2:	Maritza Horrell
+05-26-2016:02-00-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	Selected:	Arlen Landers

@@ -1,0 +1,21 @@
+05-26-2016:02-04-40	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	joined
+05-26-2016:02-04-40	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0 has user ID 1835740d7d974dcba0bad1f6baf1827f
+05-26-2016:02-04-45	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	all my friend work at google and 1 works at uber
+05-26-2016:02-05-00	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	Most of mine work for Uber and two work for Google.
+05-26-2016:02-05-00	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, google],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-00	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:02-05-00	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 1.00),  (samuel tatum, 1.00),  (jesica seaton, 1.00),  (tyson rankins, 1.00),  (santina kenley, 1.00),  (tess lister, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (pearl dollard, 0.00),  
+05-26-2016:02-05-05	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	everyone else i know works for google
+05-26-2016:02-05-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	Where did your Uber friend go to school?
+05-26-2016:02-05-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:02-05-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(santina kenley, 2.00),  (maryln drucker, 1.00),  (samuel tatum, 1.00),  (jesica seaton, 1.00),  (tyson rankins, 1.00),  (tess lister, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (pearl dollard, 0.00),  
+05-26-2016:02-05-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	i went to university of pennsylvania and majored in physics
+05-26-2016:02-05-40	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	Selected 0:	Graig Chill
+05-26-2016:02-05-41	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	no
+05-26-2016:02-05-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	I went to Berkeley and studied linguistics
+05-26-2016:02-05-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-05-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 2.00),  (samuel tatum, 2.00),  (tyson rankins, 2.00),  (santina kenley, 2.00),  (jesica seaton, 1.00),  (tess lister, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (pearl dollard, 0.00),  
+05-26-2016:02-06-00	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	do you know maryln drucker or samuel tatum
+05-26-2016:02-06-08	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	Selected 4:	Maryln Drucker

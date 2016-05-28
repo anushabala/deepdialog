@@ -1,0 +1,58 @@
+05-26-2016:00-23-39	9979731b-9a56-42f5-812a-f8a35685d874	User 0	joined
+05-26-2016:00-23-39	9979731b-9a56-42f5-812a-f8a35685d874	User 0 has user ID 64d68bab46534ff0b805d334b0308caf
+05-26-2016:00-23-41	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	hey!
+05-26-2016:00-23-47	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	i'm from stanford, linguistics, google
+05-26-2016:00-23-50	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	what about you
+05-26-2016:00-24-02	9979731b-9a56-42f5-812a-f8a35685d874	User 0	berkley, comp sci, amazon
+05-26-2016:00-24-02	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-02	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<major>: computer science],[<schoolName>: university of california berkeley]
+05-26-2016:00-24-02	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(lashawn sharman, 0.15),  (fletcher hersman, 0.15),  (brigid imai, 0.09),  (samuel tatum, 0.09),  (mose coletti, 0.09),  (tess lister, 0.09),  (zackary rains, 0.09),  (carry pavlick, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  
+05-26-2016:00-24-08	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	are lashawn or fletcher on your list?
+05-26-2016:00-24-08	9979731b-9a56-42f5-812a-f8a35685d874	User 0	most of my friends work at amazon
+05-26-2016:00-24-08	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-08	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:00-24-08	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.33),  (lashawn sharman, 0.07),  (fletcher hersman, 0.07),  (brigid imai, 0.07),  (samuel tatum, 0.07),  (tess lister, 0.07),  (zackary rains, 0.07),  (carry pavlick, 0.07),  (kam wey, 0.07),  (denny harshberger, 0.07),  
+05-26-2016:00-24-10	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	yes
+05-26-2016:00-24-12	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:00-24-15	9979731b-9a56-42f5-812a-f8a35685d874	User 0	stop
+05-26-2016:00-24-15	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-15	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-24-15	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.13),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-24-18	9979731b-9a56-42f5-812a-f8a35685d874	User 0	why are you doing that
+05-26-2016:00-24-18	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-18	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-24-18	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-24-25	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	do you know mose coletti brigid imai or samuel tatum?
+05-26-2016:00-24-25	9979731b-9a56-42f5-812a-f8a35685d874	User 0	do you have friends who work at amazon?
+05-26-2016:00-24-25	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-25	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-24-25	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-24-28	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	tess?
+05-26-2016:00-24-50	9979731b-9a56-42f5-812a-f8a35685d874	User 0	i don't know any of those people
+05-26-2016:00-24-50	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-50	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-24-50	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-24-55	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	do you know zackary rains or carry pavlick?
+05-26-2016:00-25-09	9979731b-9a56-42f5-812a-f8a35685d874	User 0	read the instructions
+05-26-2016:00-25-09	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-09	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-25-09	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-25-13	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	are kam or denny on your list?
+05-26-2016:00-25-20	9979731b-9a56-42f5-812a-f8a35685d874	User 0	no
+05-26-2016:00-25-20	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-20	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-25-20	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-25-23	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	do you know mose coletti?
+05-26-2016:00-25-26	9979731b-9a56-42f5-812a-f8a35685d874	User 0	mo
+05-26-2016:00-25-26	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-26	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<firstName>: my],[<fullName>: my winters]
+05-26-2016:00-25-26	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-25-30	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	hmm, do you know lashawn?
+05-26-2016:00-25-34	9979731b-9a56-42f5-812a-f8a35685d874	User 0	yes
+05-26-2016:00-25-34	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-34	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-25-34	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(mose coletti, 0.10),  (lashawn sharman, 0.10),  (fletcher hersman, 0.10),  (brigid imai, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (zackary rains, 0.10),  (carry pavlick, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  
+05-26-2016:00-25-36	9979731b-9a56-42f5-812a-f8a35685d874	User 0	Selected 0:	Lashawn Sharman
+05-26-2016:00-25-43	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	do you know fletcher hersman brigid imai or samuel tatum?
+05-26-2016:00-25-45	9979731b-9a56-42f5-812a-f8a35685d874	DEFAULT_BOT	Selected:	Lashawn Sharman
+05-26-2016:00-25-46	---

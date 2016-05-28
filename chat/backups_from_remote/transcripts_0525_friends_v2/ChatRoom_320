@@ -1,0 +1,20 @@
+05-26-2016:02-17-11	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	joined
+05-26-2016:02-17-11	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:02-17-16	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	Hello.
+05-26-2016:02-17-16	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-16	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:02-17-16	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-17-23	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	all my friend work at amazon and 1 works at facebook
+05-26-2016:02-17-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	hi
+05-26-2016:02-17-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	Do you know Raymond or Ernest?
+05-26-2016:02-17-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: raymond, ernest],[<fullName>:]
+05-26-2016:02-17-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:02-17-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-17-52	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	i do
+05-26-2016:02-17-57	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	Which?
+05-26-2016:02-17-57	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-57	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:02-17-57	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-17-59	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	Selected:	Ernest Sisemore
+05-26-2016:02-18-03	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	Selected 4:	Ernest Sisemore
+05-26-2016:02-18-03	---

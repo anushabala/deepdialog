@@ -1,0 +1,25 @@
+05-26-2016:02-19-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	joined
+05-26-2016:02-19-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1 has user ID 1835740d7d974dcba0bad1f6baf1827f
+05-26-2016:02-19-17	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:02-19-21	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	I went to Stanford for economics and work for uber
+05-26-2016:02-19-21	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>: economics],[<schoolName>: stanford],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-19-21	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:02-19-21	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 1.00),  (beau roudebush, 1.00),  (lillia mikel, 1.00),  (jenny hird, 1.00),  (agueda searcy, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (elene prouty, 0.00),  (kristie bolduc, 0.00),  
+05-26-2016:02-19-25	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	whats your qualification 
+05-26-2016:02-19-28	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	school and major 
+05-26-2016:02-19-30	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	susanna pulley
+05-26-2016:02-19-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	no
+05-26-2016:02-19-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-19-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:02-19-36	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 1.00),  (beau roudebush, 1.00),  (lillia mikel, 1.00),  (jenny hird, 1.00),  (agueda searcy, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (elene prouty, 0.00),  (kristie bolduc, 0.00),  
+05-26-2016:02-19-40	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	my friends work at uber
+05-26-2016:02-19-50	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	what school did you go to?
+05-26-2016:02-19-50	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-19-50	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:02-19-50	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 1.00),  (beau roudebush, 1.00),  (lillia mikel, 1.00),  (jenny hird, 1.00),  (agueda searcy, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (elene prouty, 0.00),  (kristie bolduc, 0.00),  
+05-26-2016:02-19-53	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	ucb 
+05-26-2016:02-19-56	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	beau roudebush 
+05-26-2016:02-19-59	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	Selected 2:	Lillia Mikel
+05-26-2016:02-20-04	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	went to university of california - berkeley
+05-26-2016:02-20-06	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	LSTM_UNFEATURIZED	Selected:	Lillia Mikel
+05-26-2016:02-20-06	---

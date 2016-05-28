@@ -1,0 +1,29 @@
+05-26-2016:00-30-59	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	joined
+05-26-2016:00-30-59	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0 has user ID 66dcf3b130a44c8ab4ebb145db949126
+05-26-2016:00-31-05	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_FEATURIZED	all my friend work at uber and 1 works at facebook
+05-26-2016:00-31-09	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	Hello
+05-26-2016:00-31-09	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-09	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-31-09	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  (delbert gapinski, 0.00),  (joetta sequeira, 0.00),  
+05-26-2016:00-31-10	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_FEATURIZED	hi
+05-26-2016:00-31-37	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	I have a friend at Uber that majored in Math at U. of Penn
+05-26-2016:00-31-37	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>: math],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-37	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-31-37	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(jon geissler, 3.00),  (brittanie piggott, 2.00),  (quinn courter, 2.00),  (graig chill, 2.00),  (nathanial towery, 1.00),  (kathaleen brough, 1.00),  (delbert gapinski, 1.00),  (joetta sequeira, 1.00),  (gregg brian, 0.00),  (candy astorga, 0.00),  
+05-26-2016:00-31-41	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_FEATURIZED	no i have one friend at uber
+05-26-2016:00-32-40	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	That's the only friend I have at uber
+05-26-2016:00-32-40	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-40	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-32-40	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(jon geissler, 4.00),  (brittanie piggott, 3.00),  (quinn courter, 3.00),  (graig chill, 3.00),  (nathanial towery, 2.00),  (kathaleen brough, 2.00),  (delbert gapinski, 2.00),  (joetta sequeira, 2.00),  (gregg brian, 0.00),  (candy astorga, 0.00),  
+05-26-2016:00-32-42	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_FEATURIZED	computer science
+05-26-2016:00-33-41	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	I have a Computer Science friend at Apple that went to Stanford
+05-26-2016:00-33-41	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>: computer science],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-41	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-33-41	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(brittanie piggott, 4.00),  (jon geissler, 4.00),  (joetta sequeira, 4.00),  (quinn courter, 3.00),  (graig chill, 3.00),  (delbert gapinski, 3.00),  (nathanial towery, 2.00),  (kathaleen brough, 2.00),  (gregg brian, 0.00),  (candy astorga, 0.00),  
+05-26-2016:00-33-43	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_FEATURIZED	no jon geissler 
+05-26-2016:00-33-47	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_FEATURIZED	i have lots of friends at uber
+05-26-2016:00-33-53	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	I know Jon
+05-26-2016:00-33-53	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jon],[<fullName>:]
+05-26-2016:00-33-53	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-33-53	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(jon geissler, 5.00),  (brittanie piggott, 4.00),  (joetta sequeira, 4.00),  (quinn courter, 3.00),  (graig chill, 3.00),  (delbert gapinski, 3.00),  (nathanial towery, 2.00),  (kathaleen brough, 2.00),  (gregg brian, 0.00),  (candy astorga, 0.00),  
+05-26-2016:00-33-55	---

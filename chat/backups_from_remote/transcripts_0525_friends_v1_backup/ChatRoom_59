@@ -1,0 +1,21 @@
+05-26-2016:00-14-01	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	joined
+05-26-2016:00-14-01	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0 has user ID b7a6a0a4dfd4492398932052bc074c73
+05-26-2016:00-14-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	one Fb friend, one Amazo. all else apple
+05-26-2016:00-14-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	[<companyName>: amazo]
+05-26-2016:00-14-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 1.00),  (eldon lindholm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (karma echeverria, 1.00),  (kerry carter, 1.00),  (janina rousey, 1.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-14-24	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	i have one friend at amazon and one at google 
+05-26-2016:00-14-28	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	do you know celsa navarrete
+05-26-2016:00-14-34	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Angelo at amazn?
+05-26-2016:00-14-34	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: angelo],[<fullName>:]
+05-26-2016:00-14-34	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	[<companyName>: amazn]
+05-26-2016:00-14-34	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 3.00),  (celsa navarrete, 2.00),  (eldon lindholm, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (karma echeverria, 2.00),  (kerry carter, 2.00),  (janina rousey, 2.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-14-36	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	no
+05-26-2016:00-14-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Math major at apple?
+05-26-2016:00-14-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>: math],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:00-14-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 3.00),  (angelo patch, 3.00),  (karma echeverria, 3.00),  (kerry carter, 3.00),  (eldon lindholm, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (janina rousey, 2.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-14-55	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	do you have angelo patch
+05-26-2016:00-15-01	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Selected 1:	Angelo Patch
+05-26-2016:00-15-04	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	Selected:	Angelo Patch
+05-26-2016:00-15-04	---

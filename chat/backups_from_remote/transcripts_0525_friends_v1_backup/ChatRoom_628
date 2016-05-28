@@ -1,0 +1,32 @@
+05-26-2016:00-42-15	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	joined
+05-26-2016:00-42-15	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0 has user ID e5fffaf97f514dcbb80b052cdf171200
+05-26-2016:00-42-17	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	hey!
+05-26-2016:00-42-20	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Hi
+05-26-2016:00-42-20	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-20	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-42-20	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (julissa bond, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (asa cadena, 0.10),  (liana sams, 0.10),  
+05-26-2016:00-42-28	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	i'm from university of pennsylvania, studied linguistics, work at google
+05-26-2016:00-42-30	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Okay, everyone I know is at Uber, except one Google and 2 Facebooks
+05-26-2016:00-42-30	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-30	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-42-30	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(sherika rust, 0.11),  (brigid imai, 0.11),  (vickey redinger, 0.11),  (jesica seaton, 0.11),  (lauran dyson, 0.11),  (samuel tatum, 0.11),  (tess lister, 0.11),  (asa cadena, 0.11),  (liana sams, 0.11),  (julissa bond, 0.04),  
+05-26-2016:00-42-33	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	what about you?
+05-26-2016:00-42-37	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	do you know sherika rust?
+05-26-2016:00-42-47	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Stanford, Eco, and Uber. Out of curiousity, is there a reason for exchanging personal info?
+05-26-2016:00-42-47	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-47	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	[<major>: economics]
+05-26-2016:00-42-47	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(jesica seaton, 0.14),  (tess lister, 0.14),  (vickey redinger, 0.10),  (liana sams, 0.10),  (sherika rust, 0.09),  (brigid imai, 0.09),  (lauran dyson, 0.09),  (samuel tatum, 0.09),  (asa cadena, 0.09),  (julissa bond, 0.09),  
+05-26-2016:00-42-54	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	do you know jesica seaton tess lister or vickey redinger?
+05-26-2016:00-42-56	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	It has no bearing on us finding a mutual friend, does it?
+05-26-2016:00-42-56	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-56	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	[<firstName>: jon],[<fullName>: jon geissler]
+05-26-2016:00-42-56	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(jesica seaton, 0.10),  (tess lister, 0.10),  (vickey redinger, 0.10),  (liana sams, 0.10),  (sherika rust, 0.10),  (brigid imai, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (asa cadena, 0.10),  (julissa bond, 0.10),  
+05-26-2016:00-43-02	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	do you know liana sams or brigid imai?
+05-26-2016:00-43-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Vickey is our mutual.
+05-26-2016:00-43-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: vickey],[<fullName>:]
+05-26-2016:00-43-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-43-06	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 0.23),  (jesica seaton, 0.09),  (tess lister, 0.09),  (liana sams, 0.09),  (sherika rust, 0.09),  (brigid imai, 0.09),  (lauran dyson, 0.09),  (samuel tatum, 0.09),  (asa cadena, 0.09),  (julissa bond, 0.09),  
+05-26-2016:00-43-08	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	yes
+05-26-2016:00-43-09	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Selected 6:	Vickey Redinger
+05-26-2016:00-43-11	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	Selected:	Vickey Redinger
+05-26-2016:00-43-12	---

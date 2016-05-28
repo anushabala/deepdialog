@@ -1,0 +1,15 @@
+05-26-2016:00-41-51	105f210e-317c-40c9-a7a6-896709b26745	User 0	joined
+05-26-2016:00-41-51	105f210e-317c-40c9-a7a6-896709b26745	User 0 has user ID 44ac242e15fc437da58736a0e9be96e6
+05-26-2016:00-41-53	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	hello
+05-26-2016:00-41-55	105f210e-317c-40c9-a7a6-896709b26745	User 0	hey
+05-26-2016:00-41-55	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-55	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	
+05-26-2016:00-41-55	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(sarah lafond, 0.10),  (colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (branden sjoberg, 0.10),  (laverna bjornson, 0.10),  (emmitt nations, 0.10),  (rick damico, 0.10),  (janina rousey, 0.10),  (candis kita, 0.10),  
+05-26-2016:00-42-00	105f210e-317c-40c9-a7a6-896709b26745	User 0	do you know colin higby?
+05-26-2016:00-42-00	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: colin higby]
+05-26-2016:00-42-00	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	
+05-26-2016:00-42-00	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(colin higby, 0.23),  (sarah lafond, 0.09),  (harris schramm, 0.09),  (maryln hagaman, 0.09),  (branden sjoberg, 0.09),  (laverna bjornson, 0.09),  (emmitt nations, 0.09),  (rick damico, 0.09),  (janina rousey, 0.09),  (candis kita, 0.09),  
+05-26-2016:00-42-06	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	i went to columbia and majored in physics
+05-26-2016:00-42-08	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	Selected:	Colin Higby
+05-26-2016:00-42-11	105f210e-317c-40c9-a7a6-896709b26745	User 0	Selected 8:	Colin Higby
+05-26-2016:00-42-11	---

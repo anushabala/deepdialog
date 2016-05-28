@@ -1,0 +1,25 @@
+05-26-2016:01-52-36	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	joined
+05-26-2016:01-52-36	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0 has user ID e3a42947b6b1404898d795a5f7016bb9
+05-26-2016:01-52-37	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	hi
+05-26-2016:01-52-43	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	i'm university of pennsylvania, math, amazon
+05-26-2016:01-52-48	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:01-54-09	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	i'm from stanford, major in linguistics
+05-26-2016:01-54-09	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-09	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:01-54-09	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(candis kita, 0.23),  (myong kary, 0.09),  (alberto thurlow, 0.09),  (harris schramm, 0.09),  (angelo patch, 0.09),  (ernest sisemore, 0.09),  (tobi brunette, 0.09),  (mitzi hoar, 0.09),  (raymond polite, 0.09),  (carley schade, 0.09),  
+05-26-2016:01-54-12	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	candis, myong?
+05-26-2016:01-54-13	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	i work for apple
+05-26-2016:01-54-13	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-13	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:01-54-13	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 0.20),  (mitzi hoar, 0.20),  (candis kita, 0.09),  (myong kary, 0.07),  (alberto thurlow, 0.07),  (harris schramm, 0.07),  (angelo patch, 0.07),  (ernest sisemore, 0.07),  (carley schade, 0.07),  (raymond polite, 0.07),  
+05-26-2016:01-54-15	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	tobi, mitzi?
+05-26-2016:01-54-36	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	no
+05-26-2016:01-54-36	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-36	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:01-54-36	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 0.11),  (mitzi hoar, 0.11),  (candis kita, 0.10),  (myong kary, 0.10),  (alberto thurlow, 0.10),  (harris schramm, 0.10),  (angelo patch, 0.10),  (ernest sisemore, 0.10),  (raymond polite, 0.10),  (carley schade, 0.10),  
+05-26-2016:01-54-39	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	alberto, harris?
+05-26-2016:01-55-19	1e0be0ca-9430-4f3b-8263-9da64571d692	User 0	do you have a friend from columbia, math major?
+05-26-2016:01-55-19	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-19	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:01-55-19	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 0.15),  (mitzi hoar, 0.15),  (myong kary, 0.15),  (alberto thurlow, 0.15),  (harris schramm, 0.15),  (candis kita, 0.05),  (angelo patch, 0.05),  (ernest sisemore, 0.05),  (carley schade, 0.05),  (raymond polite, 0.05),  
+05-26-2016:01-55-24	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	do you know angelo patch?

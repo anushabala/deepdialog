@@ -1,0 +1,22 @@
+05-26-2016:02-06-51	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	joined
+05-26-2016:02-06-51	9108ae01-942f-42cd-987c-f574a2703fb7	User 1 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-06-56	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	heya
+05-26-2016:02-06-56	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-56	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:02-06-56	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(jacques castillon, 0.00),  (mai buskirk, 0.00),  (cori runion, 0.00),  (lashawn sharman, 0.00),  (lauran dyson, 0.00),  (tangela raschke, 0.00),  (maritza horrell, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-07-02	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	i have one friend that works at google the rest are facebook
+05-26-2016:02-07-22	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	i went to california and studied computer science, i now work at amazon
+05-26-2016:02-07-22	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-22	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	[<schoolName>: california]
+05-26-2016:02-07-22	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(jacques castillon, 1.00),  (cori runion, 1.00),  (lashawn sharman, 1.00),  (meda lahr, 1.00),  (mai buskirk, 0.00),  (lauran dyson, 0.00),  (tangela raschke, 0.00),  (maritza horrell, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  
+05-26-2016:02-07-27	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	i dont have any friends who work at google
+05-26-2016:02-07-46	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	do you know lashawn
+05-26-2016:02-07-46	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashawn],[<fullName>:]
+05-26-2016:02-07-46	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:02-07-46	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 2.00),  (jacques castillon, 1.00),  (cori runion, 1.00),  (meda lahr, 1.00),  (mai buskirk, 0.00),  (lauran dyson, 0.00),  (tangela raschke, 0.00),  (maritza horrell, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  
+05-26-2016:02-07-48	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	yes lots 
+05-26-2016:02-07-51	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	friends 
+05-26-2016:02-07-53	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	yeah
+05-26-2016:02-07-54	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	Selected 0:	Lashawn Sharman
+05-26-2016:02-07-56	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	Selected:	Lashawn Sharman
+05-26-2016:02-07-56	---

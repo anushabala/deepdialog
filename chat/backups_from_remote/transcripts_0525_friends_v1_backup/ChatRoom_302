@@ -1,0 +1,19 @@
+05-26-2016:00-25-51	061d1345-1a85-486e-86eb-6a30510235fe	User 1	joined
+05-26-2016:00-25-51	061d1345-1a85-486e-86eb-6a30510235fe	User 1 has user ID 06d8e5c2c6c24a4092d78685e4768963
+05-26-2016:00-25-55	061d1345-1a85-486e-86eb-6a30510235fe	User 1	Hello
+05-26-2016:00-25-55	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-55	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-25-55	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (barbar scheu, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-25-56	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_FEATURIZED	hi
+05-26-2016:00-28-13	061d1345-1a85-486e-86eb-6a30510235fe	User 1	I work at Amazon and most of my friends are there
+05-26-2016:00-28-13	---
+05-26-2016:00-28-15	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-15	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-28-15	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(mose coletti, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (barbar scheu, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-28-28	061d1345-1a85-486e-86eb-6a30510235fe	User 1	joined
+05-26-2016:00-28-28	061d1345-1a85-486e-86eb-6a30510235fe	User 1 has user ID 06d8e5c2c6c24a4092d78685e4768963
+05-26-2016:00-28-32	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_FEATURIZED	i have mose coletti
+05-26-2016:00-28-32	061d1345-1a85-486e-86eb-6a30510235fe	User 1	Hello
+05-26-2016:00-28-32	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-32	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-28-32	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(mose coletti, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (barbar scheu, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  

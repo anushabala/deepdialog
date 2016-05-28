@@ -1,0 +1,24 @@
+05-26-2016:01-55-31	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	joined
+05-26-2016:01-55-31	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1 has user ID acca2aacff214cd1a9d51ee2bef52015
+05-26-2016:01-55-33	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	hello
+05-26-2016:01-55-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	i went to columbia and majored in computer science
+05-26-2016:01-55-43	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	work at facebook
+05-26-2016:01-55-49	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:01-56-32	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	I'm Roxie, a stanford computer sci grad.
+05-26-2016:01-56-32	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>: roxie],[<fullName>:]
+05-26-2016:01-56-32	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	[<major>: computer science]
+05-26-2016:01-56-32	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.15),  (maia coffman, 0.13),  (justa holdeman, 0.13),  (maritza horrell, 0.09),  (renay guel, 0.09),  (lucienne whitting, 0.09),  (emmanuel eliason, 0.08),  (lorriane hurlbert, 0.08),  (valeri kress, 0.08),  (emerson farnsworth, 0.08),  
+05-26-2016:01-56-38	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	do you know arlen, maia or justa?
+05-26-2016:01-56-45	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	most of my friends work at google.
+05-26-2016:01-56-45	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-45	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:01-56-45	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.10),  (maia coffman, 0.10),  (justa holdeman, 0.10),  (maritza horrell, 0.10),  (renay guel, 0.10),  (lucienne whitting, 0.10),  (emmanuel eliason, 0.10),  (lorriane hurlbert, 0.10),  (valeri kress, 0.10),  (emerson farnsworth, 0.10),  
+05-26-2016:01-56-47	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	maritza?
+05-26-2016:01-56-54	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Oh, Arlen.
+05-26-2016:01-56-54	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: arlen],[<fullName>:]
+05-26-2016:01-56-54	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:01-56-54	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.23),  (maia coffman, 0.09),  (justa holdeman, 0.09),  (maritza horrell, 0.09),  (renay guel, 0.09),  (lucienne whitting, 0.09),  (emmanuel eliason, 0.09),  (lorriane hurlbert, 0.09),  (valeri kress, 0.09),  (emerson farnsworth, 0.09),  
+05-26-2016:01-56-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	yes
+05-26-2016:01-56-57	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	Selected:	Arlen Landers
+05-26-2016:01-56-57	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 3:	Arlen Landers
+05-26-2016:01-56-58	---

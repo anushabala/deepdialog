@@ -1,0 +1,33 @@
+05-26-2016:01-56-12	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	joined
+05-26-2016:01-56-12	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1 has user ID c9e78c95784d4fb69a75a007a0859c01
+05-26-2016:01-56-15	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	hi
+05-26-2016:01-56-15	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-15	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:01-56-15	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(gennie dagley, 0.00),  (oliver roker, 0.00),  (rick damico, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-56-17	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	hi
+05-26-2016:01-56-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	i am from columbia
+05-26-2016:01-56-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	[<firstName>: am],[<fullName>: am]
+05-26-2016:01-56-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(oliver roker, 1.00),  (elene prouty, 1.00),  (gennie dagley, 0.00),  (rick damico, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-56-30	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	i know someone from apple and one from amazon 
+05-26-2016:01-56-34	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	the rest are from apple
+05-26-2016:01-56-35	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	my major is physics
+05-26-2016:01-56-35	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-35	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:01-56-35	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(oliver roker, 1.00),  (rick damico, 1.00),  (santina kenley, 1.00),  (elene prouty, 1.00),  (gennie dagley, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-56-36	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	apple 
+05-26-2016:01-56-41	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	i know two people that work at amazon
+05-26-2016:01-56-48	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	yes
+05-26-2016:01-56-48	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-48	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:01-56-48	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(oliver roker, 1.00),  (rick damico, 1.00),  (santina kenley, 1.00),  (elene prouty, 1.00),  (gennie dagley, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-56-50	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	Selected:	Oliver Roker
+05-26-2016:01-56-55	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	no
+05-26-2016:01-56-55	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-55	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:01-56-55	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(oliver roker, 1.00),  (rick damico, 1.00),  (santina kenley, 1.00),  (elene prouty, 1.00),  (gennie dagley, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-56-57	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	yes
+05-26-2016:01-57-03	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 1	Selected 6:	Laverna Bjornson
+05-26-2016:01-57-06	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	it wont let me click 
+05-26-2016:01-57-08	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_FEATURIZED	Selected:	Oliver Roker
+05-26-2016:01-57-32	---

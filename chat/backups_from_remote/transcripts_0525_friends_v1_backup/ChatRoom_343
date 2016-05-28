@@ -1,0 +1,27 @@
+05-26-2016:00-28-51	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	joined
+05-26-2016:00-28-51	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1 has user ID 4a2ae3ba74bf42f4ba78fee89612c991
+05-26-2016:00-28-53	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	hi
+05-26-2016:00-28-57	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	hello
+05-26-2016:00-28-57	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-57	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	
+05-26-2016:00-28-57	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(gregg brian, 0.10),  (maia coffman, 0.10),  (clorinda hites, 0.10),  (tobi brunette, 0.10),  (sheilah steitz, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (renay guel, 0.10),  (emerson farnsworth, 0.10),  (fletcher hass, 0.10),  
+05-26-2016:00-29-06	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	i'm from university of pennsylvania, studied math, work at facebook
+05-26-2016:00-29-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	major school company?
+05-26-2016:00-30-04	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	Linguistics is my major, at Stanford
+05-26-2016:00-30-04	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-04	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	
+05-26-2016:00-30-04	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(sheilah steitz, 0.16),  (renay guel, 0.16),  (emerson farnsworth, 0.16),  (fletcher hass, 0.16),  (gregg brian, 0.06),  (maia coffman, 0.06),  (clorinda hites, 0.06),  (tobi brunette, 0.06),  (justa holdeman, 0.06),  (darrel oden, 0.06),  
+05-26-2016:00-30-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	do you know sheilah steitz or renay guel?
+05-26-2016:00-30-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	Work for Apple
+05-26-2016:00-30-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	
+05-26-2016:00-30-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(tobi brunette, 0.22),  (sheilah steitz, 0.09),  (renay guel, 0.09),  (emerson farnsworth, 0.09),  (fletcher hass, 0.09),  (gregg brian, 0.08),  (maia coffman, 0.08),  (clorinda hites, 0.08),  (justa holdeman, 0.08),  (darrel oden, 0.08),  
+05-26-2016:00-30-14	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	hmm, do you know tobi?
+05-26-2016:00-30-25	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	I do
+05-26-2016:00-30-25	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-25	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	
+05-26-2016:00-30-25	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(tobi brunette, 0.11),  (sheilah steitz, 0.10),  (renay guel, 0.10),  (emerson farnsworth, 0.10),  (fletcher hass, 0.10),  (gregg brian, 0.10),  (maia coffman, 0.10),  (clorinda hites, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  
+05-26-2016:00-30-29	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	Selected 9:	Tobi Brunette
+05-26-2016:00-30-36	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	do you know emerson farnsworth or fletcher hass?
+05-26-2016:00-30-38	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	DEFAULT_BOT	Selected:	Tobi Brunette
+05-26-2016:00-30-38	---

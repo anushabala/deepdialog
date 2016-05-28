@@ -1,0 +1,18 @@
+05-26-2016:02-10-05	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	joined
+05-26-2016:02-10-05	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1 has user ID 90f6502026724fe99cc7c507663aa8d0
+05-26-2016:02-10-07	adaeb127-9965-474b-ae6e-45f45dd5a717	DEFAULT_BOT	hey!
+05-26-2016:02-10-12	adaeb127-9965-474b-ae6e-45f45dd5a717	DEFAULT_BOT	i'm from stanford, economics, google
+05-26-2016:02-10-18	adaeb127-9965-474b-ae6e-45f45dd5a717	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:02-10-19	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	I went to berkley and work at facebook
+05-26-2016:02-10-19	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-19	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:02-10-19	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(maritza horrell, 0.11),  (jacques castillon, 0.10),  (maryln drucker, 0.10),  (cori runion, 0.10),  (lauran dyson, 0.10),  (tangela raschke, 0.10),  (mai buskirk, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (meda lahr, 0.10),  
+05-26-2016:02-10-21	adaeb127-9965-474b-ae6e-45f45dd5a717	DEFAULT_BOT	maritza?
+05-26-2016:02-10-24	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	yes
+05-26-2016:02-10-24	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-24	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-10-24	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(maritza horrell, 0.10),  (tangela raschke, 0.10),  (maryln drucker, 0.10),  (cori runion, 0.10),  (lauran dyson, 0.10),  (jacques castillon, 0.10),  (mai buskirk, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (meda lahr, 0.10),  
+05-26-2016:02-10-27	adaeb127-9965-474b-ae6e-45f45dd5a717	DEFAULT_BOT	tangela raschke?
+05-26-2016:02-10-28	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Selected 4:	Maritza Horrell
+05-26-2016:02-10-29	adaeb127-9965-474b-ae6e-45f45dd5a717	DEFAULT_BOT	Selected:	Maritza Horrell
+05-26-2016:02-10-29	---

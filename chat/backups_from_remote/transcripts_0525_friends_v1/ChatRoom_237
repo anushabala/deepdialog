@@ -1,0 +1,26 @@
+05-26-2016:00-23-11	998cab3f-5401-4de3-95aa-1c97af971b94	User 1	joined
+05-26-2016:00-23-11	998cab3f-5401-4de3-95aa-1c97af971b94	User 1 has user ID 91d07fd890414b26996e32157d04ac72
+05-26-2016:00-23-14	998cab3f-5401-4de3-95aa-1c97af971b94	DEFAULT_BOT	hi there!
+05-26-2016:00-23-16	998cab3f-5401-4de3-95aa-1c97af971b94	User 1	hi
+05-26-2016:00-23-16	998cab3f-5401-4de3-95aa-1c97af971b94	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-16	998cab3f-5401-4de3-95aa-1c97af971b94	SYNONYMS	
+05-26-2016:00-23-16	998cab3f-5401-4de3-95aa-1c97af971b94	PROBABILITIES	(renita canney, 0.10),  (maryln drucker, 0.10),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-23-23	998cab3f-5401-4de3-95aa-1c97af971b94	User 1	I went to Upenn and studied Math. I work at Amazon.
+05-26-2016:00-23-23	998cab3f-5401-4de3-95aa-1c97af971b94	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-23	998cab3f-5401-4de3-95aa-1c97af971b94	SYNONYMS	
+05-26-2016:00-23-23	998cab3f-5401-4de3-95aa-1c97af971b94	PROBABILITIES	(jon geissler, 0.23),  (renita canney, 0.09),  (maryln drucker, 0.09),  (keesha ahart, 0.09),  (jody tropea, 0.09),  (barbar scheu, 0.09),  (graig chill, 0.09),  (liana sams, 0.09),  (delbert gapinski, 0.09),  (bernita kerrick, 0.09),  
+05-26-2016:00-23-33	998cab3f-5401-4de3-95aa-1c97af971b94	DEFAULT_BOT	i'm from university of california - berkeley, studied linguistics, work at uber
+05-26-2016:00-23-39	998cab3f-5401-4de3-95aa-1c97af971b94	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:00-23-45	998cab3f-5401-4de3-95aa-1c97af971b94	User 1	above :)
+05-26-2016:00-23-45	998cab3f-5401-4de3-95aa-1c97af971b94	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-45	998cab3f-5401-4de3-95aa-1c97af971b94	SYNONYMS	
+05-26-2016:00-23-45	998cab3f-5401-4de3-95aa-1c97af971b94	PROBABILITIES	(jon geissler, 0.11),  (renita canney, 0.10),  (maryln drucker, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-23-49	998cab3f-5401-4de3-95aa-1c97af971b94	DEFAULT_BOT	jon, renita, maryln?
+05-26-2016:00-23-57	998cab3f-5401-4de3-95aa-1c97af971b94	User 1	i know jon
+05-26-2016:00-23-57	998cab3f-5401-4de3-95aa-1c97af971b94	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jon],[<fullName>:]
+05-26-2016:00-23-57	998cab3f-5401-4de3-95aa-1c97af971b94	SYNONYMS	
+05-26-2016:00-23-57	998cab3f-5401-4de3-95aa-1c97af971b94	PROBABILITIES	(jon geissler, 0.23),  (renita canney, 0.09),  (maryln drucker, 0.09),  (keesha ahart, 0.09),  (jody tropea, 0.09),  (barbar scheu, 0.09),  (graig chill, 0.09),  (liana sams, 0.09),  (delbert gapinski, 0.09),  (bernita kerrick, 0.09),  
+05-26-2016:00-23-59	998cab3f-5401-4de3-95aa-1c97af971b94	DEFAULT_BOT	yep
+05-26-2016:00-24-01	998cab3f-5401-4de3-95aa-1c97af971b94	DEFAULT_BOT	Selected:	Jon Geissler
+05-26-2016:00-24-03	998cab3f-5401-4de3-95aa-1c97af971b94	User 1	Selected 5:	Jon Geissler
+05-26-2016:00-24-03	---

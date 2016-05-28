@@ -1,0 +1,36 @@
+05-26-2016:00-28-26	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	joined
+05-26-2016:00-28-26	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0 has user ID 2704ee6a83ab4e24bd9377340576133c
+05-26-2016:00-28-28	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	hey!
+05-26-2016:00-28-38	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	i went to university of california - berkeley and majored in computer science
+05-26-2016:00-28-41	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	work at google
+05-26-2016:00-28-45	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	major school company?
+05-26-2016:00-28-55	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	Sorry, first time, let me see...
+05-26-2016:00-28-55	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-55	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	[<firstName>: my],[<fullName>: my winters]
+05-26-2016:00-28-55	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(lashaunda carothers, 0.10),  (meda lahr, 0.10),  (jacques castillon, 0.10),  (ernest sisemore, 0.10),  (tangela raschke, 0.10),  (nena krone, 0.10),  (zackary rains, 0.10),  (raymond polite, 0.10),  (fletcher hersman, 0.10),  (lai pettaway, 0.10),  
+05-26-2016:00-28-59	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	hmm, do you know lashaunda?
+05-26-2016:00-29-13	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	I  went to Columbia and majored in Computer science
+05-26-2016:00-29-13	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>: computer science],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-13	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:00-29-13	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(jacques castillon, 0.24),  (fletcher hersman, 0.24),  (raymond polite, 0.09),  (ernest sisemore, 0.09),  (nena krone, 0.09),  (meda lahr, 0.09),  (lai pettaway, 0.09),  (lashaunda carothers, 0.03),  (tangela raschke, 0.03),  (zackary rains, 0.03),  
+05-26-2016:00-29-20	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	I work at Amazon
+05-26-2016:00-29-20	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-20	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:00-29-20	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 0.20),  (raymond polite, 0.20),  (jacques castillon, 0.09),  (fletcher hersman, 0.09),  (meda lahr, 0.07),  (nena krone, 0.07),  (lai pettaway, 0.07),  (lashaunda carothers, 0.07),  (tangela raschke, 0.07),  (zackary rains, 0.07),  
+05-26-2016:00-29-28	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	do you know jacques castillon fletcher hersman or raymond polite?
+05-26-2016:00-29-33	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	are ernest or meda on your list?
+05-26-2016:00-30-02	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	It says to avoid listing our friends...
+05-26-2016:00-30-02	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-02	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:00-30-02	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(raymond polite, 0.11),  (ernest sisemore, 0.11),  (jacques castillon, 0.10),  (fletcher hersman, 0.10),  (nena krone, 0.10),  (meda lahr, 0.10),  (lai pettaway, 0.10),  (lashaunda carothers, 0.10),  (tangela raschke, 0.10),  (zackary rains, 0.10),  
+05-26-2016:00-30-08	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	do you know nena krone or lai pettaway?
+05-26-2016:00-30-31	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	Carley went to Berkley, do you know her?
+05-26-2016:00-30-31	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: carley],[<fullName>:]
+05-26-2016:00-30-31	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-30-31	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(raymond polite, 0.10),  (ernest sisemore, 0.10),  (jacques castillon, 0.10),  (fletcher hersman, 0.10),  (nena krone, 0.10),  (meda lahr, 0.10),  (lai pettaway, 0.10),  (lashaunda carothers, 0.10),  (tangela raschke, 0.10),  (zackary rains, 0.10),  
+05-26-2016:00-30-36	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	are tangela or zackary on your list?
+05-26-2016:00-31-19	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 0	It must be Ernest Sisemore!
+05-26-2016:00-31-19	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: ernest sisemore]
+05-26-2016:00-31-19	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:00-31-19	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 0.23),  (raymond polite, 0.09),  (jacques castillon, 0.09),  (fletcher hersman, 0.09),  (meda lahr, 0.09),  (nena krone, 0.09),  (lai pettaway, 0.09),  (lashaunda carothers, 0.09),  (tangela raschke, 0.09),  (zackary rains, 0.09),  
+05-26-2016:00-31-20	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	DEFAULT_BOT	yep!

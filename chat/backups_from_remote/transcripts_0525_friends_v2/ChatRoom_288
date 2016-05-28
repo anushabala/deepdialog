@@ -1,0 +1,14 @@
+05-26-2016:02-12-35	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	joined
+05-26-2016:02-12-35	9108ae01-942f-42cd-987c-f574a2703fb7	User 0 has user ID fc7028bb545e4ebe931a341010ac1a3b
+05-26-2016:02-13-27	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	Hi
+05-26-2016:02-13-27	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-27	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:02-13-27	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(myong kary, 0.00),  (agueda searcy, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (lashawn sharman, 0.00),  (nena krone, 0.00),  (emmitt nations, 0.00),  (branden sjoberg, 0.00),  (raymond polite, 0.00),  
+05-26-2016:02-13-29	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	hi
+05-26-2016:02-13-44	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	How many of your friends work at Facebook?
+05-26-2016:02-13-44	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-44	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:02-13-44	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(myong kary, 0.00),  (agueda searcy, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (lashawn sharman, 0.00),  (nena krone, 0.00),  (emmitt nations, 0.00),  (branden sjoberg, 0.00),  (raymond polite, 0.00),  
+05-26-2016:02-13-55	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	i went to university of california - berkeley and studied computer science i work at amazon
+05-26-2016:02-14-40	9108ae01-942f-42cd-987c-f574a2703fb7	User 0	Selected 2:	Lashawn Sharman
+05-26-2016:02-14-42	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	Selected:	Lashawn Sharman

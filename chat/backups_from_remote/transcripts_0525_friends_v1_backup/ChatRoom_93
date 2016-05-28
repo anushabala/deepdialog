@@ -1,0 +1,23 @@
+05-26-2016:00-15-43	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	joined
+05-26-2016:00-15-43	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0 has user ID 9180b76c89914f0b82ffd65a314252b7
+05-26-2016:00-15-46	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	hi
+05-26-2016:00-15-46	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-46	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:00-15-46	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:00-15-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at facebook
+05-26-2016:00-15-53	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	hi
+05-26-2016:00-15-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	went to berkeley, majored in econ, work for apple
+05-26-2016:00-15-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	[<major>: econ],[<schoolName>: berkeley]
+05-26-2016:00-15-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 1.00),  (celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:00-16-00	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	no friends from google 
+05-26-2016:00-16-02	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	who are they
+05-26-2016:00-16-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Do you know birgit?
+05-26-2016:00-16-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:00-16-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:00-16-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 1.00),  (celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:00-16-11	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	yes
+05-26-2016:00-16-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Selected 7:	Birgit Heid
+05-26-2016:00-16-20	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	Selected:	Angelo Patch
+05-26-2016:00-16-29	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Selected 0:	Laverna Bjornson
+05-26-2016:00-16-30	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	pass

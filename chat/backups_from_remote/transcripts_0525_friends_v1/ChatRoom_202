@@ -1,0 +1,31 @@
+05-26-2016:00-21-57	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	joined
+05-26-2016:00-21-57	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1 has user ID e5fffaf97f514dcbb80b052cdf171200
+05-26-2016:00-22-00	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	hi there!
+05-26-2016:00-22-00	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	Hi
+05-26-2016:00-22-00	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-00	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:00-22-00	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 0.10),  (kristie bolduc, 0.10),  (agueda searcy, 0.10),  (beau roudebush, 0.10),  (lillia mikel, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-22-08	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	i'm university of california - berkeley, linguistics, apple
+05-26-2016:00-22-11	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	what about you?
+05-26-2016:00-22-19	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	Santford / Eco /Uber
+05-26-2016:00-22-19	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-19	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	[<major>: economics]
+05-26-2016:00-22-19	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 0.14),  (beau roudebush, 0.14),  (lillia mikel, 0.10),  (kristie bolduc, 0.09),  (agueda searcy, 0.09),  (jenny hird, 0.09),  (tobi brunette, 0.09),  (laverna bjornson, 0.09),  (nena krone, 0.09),  (elene prouty, 0.09),  
+05-26-2016:00-22-22	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	susanna, beau?
+05-26-2016:00-22-34	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	How many people do you know at Facebook and Google?
+05-26-2016:00-22-34	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-34	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:00-22-34	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 0.10),  (beau roudebush, 0.10),  (lillia mikel, 0.10),  (agueda searcy, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (elene prouty, 0.10),  (kristie bolduc, 0.10),  
+05-26-2016:00-22-38	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	(No to Susanna)
+05-26-2016:00-22-38	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: susanna],[<fullName>:]
+05-26-2016:00-22-38	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:00-22-38	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(susanna pulley, 0.23),  (beau roudebush, 0.09),  (lillia mikel, 0.09),  (kristie bolduc, 0.09),  (agueda searcy, 0.09),  (jenny hird, 0.09),  (tobi brunette, 0.09),  (laverna bjornson, 0.09),  (nena krone, 0.09),  (elene prouty, 0.09),  
+05-26-2016:00-22-46	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	do you know lillia mikel agueda searcy or jenny hird?
+05-26-2016:00-22-48	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	Selected:	Susanna Pulley
+05-26-2016:00-23-01	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	Lillia Mikel looks to be the common.
+05-26-2016:00-23-01	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: lillia mikel]
+05-26-2016:00-23-01	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	SYNONYMS	
+05-26-2016:00-23-01	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	PROBABILITIES	(lillia mikel, 0.23),  (susanna pulley, 0.10),  (beau roudebush, 0.08),  (agueda searcy, 0.08),  (jenny hird, 0.08),  (tobi brunette, 0.08),  (laverna bjornson, 0.08),  (nena krone, 0.08),  (elene prouty, 0.08),  (kristie bolduc, 0.08),  
+05-26-2016:00-23-03	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	User 1	Selected 2:	Lillia Mikel
+05-26-2016:00-23-05	07ed7dfb-65a6-4d52-8e69-076d3f7ebc0a	DEFAULT_BOT	Selected:	Lillia Mikel
+05-26-2016:00-23-05	---

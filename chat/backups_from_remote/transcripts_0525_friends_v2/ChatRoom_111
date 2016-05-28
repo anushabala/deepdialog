@@ -1,0 +1,19 @@
+05-26-2016:01-55-50	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	joined
+05-26-2016:01-55-50	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1 has user ID d41cc2eb9fd942bbb720e448dc2d0051
+05-26-2016:01-56-04	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	i have one friend that works for apple and one for facebook
+05-26-2016:01-56-04	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-04	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:01-56-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	the rest work for google
+05-26-2016:01-56-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-07	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:01-56-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_FEATURIZED	i have lots of friends at facebook
+05-26-2016:01-56-15	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_FEATURIZED	i dont know anyone at google 
+05-26-2016:01-56-16	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	birgit
+05-26-2016:01-56-16	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:01-56-16	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:01-56-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_FEATURIZED	do you know from facebook 
+05-26-2016:01-56-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_FEATURIZED	linguistics or computer science major at school
+05-26-2016:01-56-27	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_FEATURIZED	yes
+05-26-2016:01-56-32	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	Selected 7:	Birgit Heid
+05-26-2016:01-56-35	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_FEATURIZED	Selected:	Birgit Heid
+05-26-2016:01-56-35	---

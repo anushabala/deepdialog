@@ -1,0 +1,62 @@
+05-26-2016:02-27-00	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	joined
+05-26-2016:02-27-00	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0 has user ID 320346516b5b4dd7992b3aa4eb3432f2
+05-26-2016:02-27-05	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:02-27-09	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	hello
+05-26-2016:02-27-09	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-09	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-27-09	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-27-11	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	hi
+05-26-2016:02-27-13	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	jacques?
+05-26-2016:02-27-13	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jacques],[<fullName>:]
+05-26-2016:02-27-13	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-27-13	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-27-15	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	no
+05-26-2016:02-27-23	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	emmanuel?
+05-26-2016:02-27-23	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: emmanuel],[<fullName>:]
+05-26-2016:02-27-23	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-27-23	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-27-25	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	nope
+05-26-2016:02-27-32	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	what school did u go to
+05-26-2016:02-27-32	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-32	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-27-32	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-27-34	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:02-28-04	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	what school did you go to
+05-26-2016:02-28-04	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-04	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-28-04	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-28-05	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	stanford 
+05-26-2016:02-28-08	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	computer science
+05-26-2016:02-28-12	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	lucienne?
+05-26-2016:02-28-12	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lucienne],[<fullName>:]
+05-26-2016:02-28-12	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-28-12	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-28-15	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	do you know mai buskirk
+05-26-2016:02-28-19	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	no
+05-26-2016:02-28-20	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-20	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-28-20	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-28-23	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	what about sherika rust
+05-26-2016:02-28-31	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	no do you know lucienne
+05-26-2016:02-28-31	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lucienne],[<fullName>:]
+05-26-2016:02-28-31	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-28-31	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-28-32	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	ucb 
+05-26-2016:02-28-34	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	yes 
+05-26-2016:02-28-40	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	Selected 8:	Lucienne Whitting
+05-26-2016:02-28-49	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	i only have friends at google and majored in computer science at university of pennsylvania
+05-26-2016:02-28-52	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:02-29-03	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	can you select lucienne please
+05-26-2016:02-29-03	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lucienne],[<fullName>:]
+05-26-2016:02-29-03	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-29-03	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-29-05	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	yeah
+05-26-2016:02-29-30	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	hellllo?
+05-26-2016:02-29-30	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-29-30	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-29-30	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-29-32	0c043303-a5a7-4fe4-acc1-c19ebe801a76	LSTM_FEATURIZED	sec sorry
+05-26-2016:02-29-35	0c043303-a5a7-4fe4-acc1-c19ebe801a76	User 0	hurry up
+05-26-2016:02-29-35	0c043303-a5a7-4fe4-acc1-c19ebe801a76	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-29-35	0c043303-a5a7-4fe4-acc1-c19ebe801a76	SYNONYMS	
+05-26-2016:02-29-35	0c043303-a5a7-4fe4-acc1-c19ebe801a76	PROBABILITIES	(lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (cori runion, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  

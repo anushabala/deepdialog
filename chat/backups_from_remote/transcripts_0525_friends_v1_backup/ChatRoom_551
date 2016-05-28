@@ -1,0 +1,25 @@
+05-26-2016:00-38-35	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	joined
+05-26-2016:00-38-35	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0 has user ID bf11d5dcaf1846a89a46dd1e48acc385
+05-26-2016:00-38-40	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	hey
+05-26-2016:00-38-40	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-40	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-38-40	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(clarisa mattison, 0.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (aline allshouse, 0.00),  (emmitt nations, 0.00),  (gennie dagley, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-38-46	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	all my friend work at amazon and 1 works at apple
+05-26-2016:00-38-48	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	hi
+05-26-2016:00-38-51	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	i have all apple friends and 1 uber
+05-26-2016:00-38-51	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-51	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-38-51	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(jon geissler, 1.00),  (aline allshouse, 1.00),  (gennie dagley, 1.00),  (clarisa mattison, 0.00),  (colin higby, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-38-56	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	mostly amazon here uber jon geissler
+05-26-2016:00-39-06	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	no i dont know jon
+05-26-2016:00-39-06	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jon],[<fullName>:]
+05-26-2016:00-39-06	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-39-06	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(jon geissler, 2.00),  (aline allshouse, 1.00),  (gennie dagley, 1.00),  (clarisa mattison, 0.00),  (colin higby, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-39-10	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	do you know aline allshouse
+05-26-2016:00-39-12	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	yes
+05-26-2016:00-39-12	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-12	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-39-12	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(jon geissler, 2.00),  (aline allshouse, 1.00),  (gennie dagley, 1.00),  (clarisa mattison, 0.00),  (colin higby, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-39-15	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Selected 4:	Aline Allshouse
+05-26-2016:00-39-17	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	Selected:	Aline Allshouse
+05-26-2016:00-39-17	---

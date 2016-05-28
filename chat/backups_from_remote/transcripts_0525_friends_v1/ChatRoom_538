@@ -1,0 +1,22 @@
+05-26-2016:00-37-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 1	joined
+05-26-2016:00-37-51	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 1 has user ID 92b6d44523d54a799dfa13983ea851f4
+05-26-2016:00-37-55	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	hello
+05-26-2016:00-37-59	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 1	Most of my friends work at Amazon
+05-26-2016:00-37-59	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-59	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:00-37-59	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 0.11),  (francine bateman, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (elene prouty, 0.10),  (riva noles, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-38-05	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 1	One at google, one at FB
+05-26-2016:00-38-05	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-05	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:00-38-05	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 0.10),  (laverna bjornson, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (francine bateman, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (birgit heid, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-38-15	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:00-38-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	work at apple
+05-26-2016:00-38-20	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	you?
+05-26-2016:00-38-25	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 1	Are you a robot?
+05-26-2016:00-38-25	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-25	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:00-38-25	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 0.10),  (francine bateman, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (elene prouty, 0.10),  (riva noles, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-38-30	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	are angelo or francine on your list?
+05-26-2016:00-38-37	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 1	Selected 1:	Angelo Patch
+05-26-2016:00-38-39	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	Selected:	Angelo Patch
+05-26-2016:00-38-39	---

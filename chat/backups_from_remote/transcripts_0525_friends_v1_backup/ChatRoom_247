@@ -1,0 +1,32 @@
+05-26-2016:00-23-33	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	joined
+05-26-2016:00-23-33	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1 has user ID 8030160116f042feab6c11ea28241d74
+05-26-2016:00-23-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Hi!
+05-26-2016:00-23-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-23-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 0.00),  (bernita kerrick, 0.00),  (jon geissler, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  (maryln drucker, 0.00),  
+05-26-2016:00-23-44	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	all my friend work at uber and 1 works at google
+05-26-2016:00-23-46	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	hi
+05-26-2016:00-23-58	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	I work at google!
+05-26-2016:00-23-58	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-58	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-23-58	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 1.00),  (maryln drucker, 1.00),  (bernita kerrick, 0.00),  (jon geissler, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:00-24-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	whats your friends name?
+05-26-2016:00-24-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-24-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 1.00),  (maryln drucker, 1.00),  (bernita kerrick, 0.00),  (jon geissler, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:00-24-12	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	i went to university of california - berkeley and majored in linguistics
+05-26-2016:00-24-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	i only have one friend from apple that was linguistics at university of california - berkeley 
+05-26-2016:00-24-27	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	do you know renita canney or maryln drucker
+05-26-2016:00-24-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Maryln Drucker went there
+05-26-2016:00-24-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: maryln drucker]
+05-26-2016:00-24-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-24-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 2.00),  (renita canney, 1.00),  (bernita kerrick, 0.00),  (jon geissler, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:00-24-40	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	Selected:	Bernita Kerrick
+05-26-2016:00-24-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	No i dont
+05-26-2016:00-24-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-24-55	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 2.00),  (renita canney, 1.00),  (bernita kerrick, 0.00),  (jon geissler, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:00-24-57	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	thats it
+05-26-2016:00-25-05	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Selected 4:	Maryln Drucker
+05-26-2016:00-25-07	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_FEATURIZED	Selected:	Maryln Drucker
+05-26-2016:00-25-08	---

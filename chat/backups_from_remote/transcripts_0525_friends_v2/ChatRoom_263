@@ -1,0 +1,48 @@
+05-26-2016:02-09-18	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	joined
+05-26-2016:02-09-18	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0 has user ID d0c7a2a435a14fbab09ae4cf03f0538e
+05-26-2016:02-09-20	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	hi
+05-26-2016:02-09-22	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	hello
+05-26-2016:02-09-22	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-22	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-09-22	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(laurette thrailkill, 0.10),  (brigid imai, 0.10),  (brittney hunley, 0.10),  (sheilah steitz, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (quinn courter, 0.10),  (fletcher hass, 0.10),  (elene prouty, 0.10),  (geneva hofmeister, 0.10),  
+05-26-2016:02-09-27	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	i went to columbia and majored in math
+05-26-2016:02-09-30	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	work at facebook
+05-26-2016:02-09-34	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	school major company?
+05-26-2016:02-09-46	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	I have a friend who wnet to Upenn and studied math and now works at Amazon?  Do you have any friends at Amazon
+05-26-2016:02-09-46	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-46	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-09-46	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(brigid imai, 0.16),  (quinn courter, 0.16),  (elene prouty, 0.16),  (geneva hofmeister, 0.16),  (laurette thrailkill, 0.06),  (brittney hunley, 0.06),  (sheilah steitz, 0.06),  (justa holdeman, 0.06),  (darrel oden, 0.06),  (fletcher hass, 0.06),  
+05-26-2016:02-09-48	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	brigid?
+05-26-2016:02-10-15	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	No.  Do you have any froends who work at Amazon
+05-26-2016:02-10-15	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-15	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-10-15	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(brigid imai, 0.11),  (quinn courter, 0.11),  (elene prouty, 0.11),  (geneva hofmeister, 0.11),  (laurette thrailkill, 0.10),  (brittney hunley, 0.10),  (sheilah steitz, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (fletcher hass, 0.10),  
+05-26-2016:02-10-21	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	are quinn or elene on your list?
+05-26-2016:02-10-48	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	Do you have any friends who went to Columbia?
+05-26-2016:02-10-48	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-48	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-10-48	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(brigid imai, 0.12),  (quinn courter, 0.12),  (elene prouty, 0.12),  (geneva hofmeister, 0.12),  (brittney hunley, 0.12),  (sheilah steitz, 0.12),  (justa holdeman, 0.12),  (laurette thrailkill, 0.05),  (darrel oden, 0.05),  (fletcher hass, 0.05),  
+05-26-2016:02-10-57	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	do you know geneva hofmeister brittney hunley or sheilah steitz?
+05-26-2016:02-11-03	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	Selected 7:	Colin Higby
+05-26-2016:02-11-05	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	nah
+05-26-2016:02-11-13	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	do you know justa holdeman laurette thrailkill or darrel oden?
+05-26-2016:02-11-24	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	No, sorry
+05-26-2016:02-11-24	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-11-24	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-11-24	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(brigid imai, 0.10),  (quinn courter, 0.10),  (elene prouty, 0.10),  (geneva hofmeister, 0.10),  (brittney hunley, 0.10),  (sheilah steitz, 0.10),  (justa holdeman, 0.10),  (laurette thrailkill, 0.09),  (darrel oden, 0.09),  (fletcher hass, 0.09),  
+05-26-2016:02-11-30	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	do you know fletcher hass or brigid imai?
+05-26-2016:02-11-42	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	Do you have any friends who went to Stanford?
+05-26-2016:02-11-42	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-11-42	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-11-42	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(laurette thrailkill, 0.20),  (fletcher hass, 0.20),  (brigid imai, 0.07),  (quinn courter, 0.07),  (elene prouty, 0.07),  (geneva hofmeister, 0.07),  (brittney hunley, 0.07),  (sheilah steitz, 0.07),  (justa holdeman, 0.07),  (darrel oden, 0.07),  
+05-26-2016:02-11-46	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	laurette thrailkill?
+05-26-2016:02-11-56	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	No
+05-26-2016:02-11-56	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-11-56	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-11-56	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(laurette thrailkill, 0.11),  (fletcher hass, 0.11),  (brigid imai, 0.10),  (quinn courter, 0.10),  (elene prouty, 0.10),  (geneva hofmeister, 0.10),  (brittney hunley, 0.10),  (sheilah steitz, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  
+05-26-2016:02-12-01	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	do you know fletcher hass?
+05-26-2016:02-12-11	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 0	Do you have anyone you know who went to Stanford
+05-26-2016:02-12-11	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-12-11	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-12-11	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(laurette thrailkill, 0.20),  (fletcher hass, 0.20),  (brigid imai, 0.07),  (quinn courter, 0.07),  (elene prouty, 0.07),  (geneva hofmeister, 0.07),  (brittney hunley, 0.07),  (sheilah steitz, 0.07),  (justa holdeman, 0.07),  (darrel oden, 0.07),  
+05-26-2016:02-12-15	e58f8b9d-1247-4915-92ee-d3b4dee908c1	DEFAULT_BOT	do you know quinn courter?

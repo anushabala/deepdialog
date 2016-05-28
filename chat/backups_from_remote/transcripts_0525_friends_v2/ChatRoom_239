@@ -1,0 +1,24 @@
+05-26-2016:02-06-34	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	joined
+05-26-2016:02-06-34	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:02-06-50	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Hello. I work at Uber and went to Columbia. 
+05-26-2016:02-06-50	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-50	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:02-06-50	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 1.00),  (josh gouin, 1.00),  (mai buskirk, 0.00),  (maryln drucker, 0.00),  (tangela raschke, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-06-55	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	hi all my friends are from google
+05-26-2016:02-06-57	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Most of my friends were for Uber. 
+05-26-2016:02-06-57	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-57	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:02-06-57	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 1.00),  (josh gouin, 1.00),  (mai buskirk, 0.00),  (maryln drucker, 0.00),  (tangela raschke, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-07-00	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	jesica seaton 
+05-26-2016:02-07-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	and josh gouin
+05-26-2016:02-07-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	yes.
+05-26-2016:02-07-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:02-07-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 1.00),  (josh gouin, 1.00),  (mai buskirk, 0.00),  (maryln drucker, 0.00),  (tangela raschke, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-07-06	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	Selected:	Jesica Seaton
+05-26-2016:02-07-06	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Jesica
+05-26-2016:02-07-06	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jesica],[<fullName>:]
+05-26-2016:02-07-06	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:02-07-06	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 2.00),  (josh gouin, 1.00),  (mai buskirk, 0.00),  (maryln drucker, 0.00),  (tangela raschke, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-07-08	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	yes
+05-26-2016:02-07-09	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Selected 4:	Jesica Seaton

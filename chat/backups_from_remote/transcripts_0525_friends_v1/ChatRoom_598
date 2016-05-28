@@ -1,0 +1,33 @@
+05-26-2016:00-40-48	061d1345-1a85-486e-86eb-6a30510235fe	User 0	joined
+05-26-2016:00-40-48	061d1345-1a85-486e-86eb-6a30510235fe	User 0 has user ID 2a9a68d3c45642dda218042c0a477a12
+05-26-2016:00-40-51	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Sup
+05-26-2016:00-40-51	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-51	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-40-51	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-40-56	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at facebook
+05-26-2016:00-40-57	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	hi
+05-26-2016:00-41-06	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Who do you know at facebook?
+05-26-2016:00-41-06	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-06	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-41-06	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-41-10	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	no amazon friends here 
+05-26-2016:00-41-12	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	all work at amazon
+05-26-2016:00-41-22	061d1345-1a85-486e-86eb-6a30510235fe	User 0	who do you know at Facebook?
+05-26-2016:00-41-22	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-22	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-41-22	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 2.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-41-29	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	1 friend at facebook all the rest are facebook friends 
+05-26-2016:00-41-32	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	we dont have any common friends
+05-26-2016:00-41-41	061d1345-1a85-486e-86eb-6a30510235fe	User 0	who do you know at facebook?
+05-26-2016:00-41-41	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-41	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-41-41	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 3.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-41-43	061d1345-1a85-486e-86eb-6a30510235fe	User 0	thats the common friend
+05-26-2016:00-41-44	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-44	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-41-44	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 3.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-41-46	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	justa holdeman
+05-26-2016:00-41-47	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	myong kary
+05-26-2016:00-41-50	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Selected 7:	Justa Holdeman
+05-26-2016:00-41-52	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	Selected:	Justa Holdeman
+05-26-2016:00-41-53	---

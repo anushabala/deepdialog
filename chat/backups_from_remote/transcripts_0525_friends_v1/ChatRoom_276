@@ -1,0 +1,30 @@
+05-26-2016:00-24-58	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	joined
+05-26-2016:00-24-58	6d2991af-e241-4e11-9567-601aee1a6b31	User 0 has user ID ed32a596e7f54cd89f9c439941c0d1de
+05-26-2016:00-25-01	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	hi
+05-26-2016:00-25-01	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-01	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-25-01	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(myong kary, 0.00),  (janina rousey, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (raymond polite, 0.00),  (candis kita, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-25-03	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_FEATURIZED	hi
+05-26-2016:00-25-23	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	I went to University of Pennsylvania and majoredin Physics
+05-26-2016:00-25-23	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>: physics],[<schoolName>: university of pennsylvania],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-23	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-25-23	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 2.00),  (myong kary, 1.00),  (harris schramm, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  (janina rousey, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (raymond polite, 0.00),  
+05-26-2016:00-25-24	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	
+05-26-2016:00-25-24	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-24	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-25-24	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 2.00),  (myong kary, 1.00),  (harris schramm, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  (janina rousey, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (raymond polite, 0.00),  
+05-26-2016:00-25-31	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	I work at applenow
+05-26-2016:00-25-31	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-31	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-25-31	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 2.00),  (myong kary, 1.00),  (harris schramm, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  (janina rousey, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (raymond polite, 0.00),  
+05-26-2016:00-25-39	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_FEATURIZED	i went to university of california - berkeley and math and i work at amazon
+05-26-2016:00-25-44	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_FEATURIZED	most of my friends work for amazon one for amazon
+05-26-2016:00-25-46	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_FEATURIZED	rick damico
+05-26-2016:00-25-50	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	Do you know Rick
+05-26-2016:00-25-50	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: rick],[<fullName>:]
+05-26-2016:00-25-50	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-25-50	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 3.00),  (myong kary, 1.00),  (harris schramm, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  (janina rousey, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (raymond polite, 0.00),  
+05-26-2016:00-25-51	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_FEATURIZED	yes i do
+05-26-2016:00-25-53	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	Selected 1:	Rick Damico
+05-26-2016:00-25-54	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_FEATURIZED	Selected:	Rick Damico
+05-26-2016:00-25-55	---

@@ -1,0 +1,32 @@
+05-26-2016:00-42-37	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	joined
+05-26-2016:00-42-37	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0 has user ID 44ac242e15fc437da58736a0e9be96e6
+05-26-2016:00-42-42	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	all my friend work at uber and 1 works at amazon
+05-26-2016:00-42-56	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	hi
+05-26-2016:00-42-56	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-56	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:00-42-56	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(colin higby, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (barbar scheu, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (geneva hofmeister, 0.00),  
+05-26-2016:00-42-58	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	hi
+05-26-2016:00-43-01	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	i went to columbia, and work for google
+05-26-2016:00-43-02	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-02	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:00-43-02	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(nathanial towery, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (keesha ahart, 0.00),  (barbar scheu, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-43-09	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	i went to university of pennsylvania and math and work at uber now
+05-26-2016:00-43-16	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	do you know sherika rust?
+05-26-2016:00-43-16	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: sherika rust]
+05-26-2016:00-43-16	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:00-43-16	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(nathanial towery, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (keesha ahart, 0.00),  (barbar scheu, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-43-18	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	no
+05-26-2016:00-43-24	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	whats your major
+05-26-2016:00-43-24	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-24	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:00-43-24	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(nathanial towery, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (keesha ahart, 0.00),  (barbar scheu, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-43-30	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	do you know nathanial towery or geneva hofmeister 
+05-26-2016:00-43-33	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	or colin higby
+05-26-2016:00-43-36	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	i know geneva
+05-26-2016:00-43-36	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: geneva],[<fullName>:]
+05-26-2016:00-43-36	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:00-43-36	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(geneva hofmeister, 2.00),  (nathanial towery, 1.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (keesha ahart, 0.00),  (barbar scheu, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-43-38	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	Selected:	Nathanial Towery
+05-26-2016:00-43-38	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	Selected 0:	Geneva Hofmeister
+05-26-2016:00-43-41	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_FEATURIZED	Selected:	Geneva Hofmeister
+05-26-2016:00-43-41	---

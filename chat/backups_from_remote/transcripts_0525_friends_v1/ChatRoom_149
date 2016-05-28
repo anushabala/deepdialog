@@ -1,0 +1,42 @@
+05-26-2016:00-19-29	061d1345-1a85-486e-86eb-6a30510235fe	User 1	joined
+05-26-2016:00-19-29	061d1345-1a85-486e-86eb-6a30510235fe	User 1 has user ID c02639cbd0744fe9a8796b2fd5ef1d30
+05-26-2016:00-19-31	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	hey!
+05-26-2016:00-19-33	061d1345-1a85-486e-86eb-6a30510235fe	User 1	hi
+05-26-2016:00-19-33	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-33	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-19-33	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(maritza horrell, 0.10),  (laurette thrailkill, 0.10),  (brittney hunley, 0.10),  (mose coletti, 0.10),  (barbar scheu, 0.10),  (carry pavlick, 0.10),  (justa holdeman, 0.10),  (renay guel, 0.10),  (fletcher hass, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-19-41	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	i'm from stanford, studied linguistics, work at facebook
+05-26-2016:00-19-42	061d1345-1a85-486e-86eb-6a30510235fe	User 1	schools
+05-26-2016:00-19-42	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-42	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-19-42	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(maritza horrell, 0.10),  (laurette thrailkill, 0.10),  (brittney hunley, 0.10),  (mose coletti, 0.10),  (barbar scheu, 0.10),  (carry pavlick, 0.10),  (justa holdeman, 0.10),  (renay guel, 0.10),  (fletcher hass, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-19-46	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	major, school, company?
+05-26-2016:00-19-52	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	do you know maritza, laurette or brittney?
+05-26-2016:00-20-16	061d1345-1a85-486e-86eb-6a30510235fe	User 1	columbia was my school major was computer science
+05-26-2016:00-20-16	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>: computer science],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-16	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-20-16	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(brittney hunley, 0.32),  (justa holdeman, 0.32),  (maritza horrell, 0.04),  (laurette thrailkill, 0.04),  (mose coletti, 0.04),  (barbar scheu, 0.04),  (carry pavlick, 0.04),  (renay guel, 0.04),  (fletcher hass, 0.04),  (birgit heid, 0.04),  
+05-26-2016:00-20-24	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	do you know justa holdeman mose coletti or barbar scheu?
+05-26-2016:00-20-25	061d1345-1a85-486e-86eb-6a30510235fe	User 1	no 
+05-26-2016:00-20-25	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-25	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-20-25	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(brittney hunley, 0.12),  (justa holdeman, 0.12),  (maritza horrell, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (barbar scheu, 0.09),  (carry pavlick, 0.09),  (renay guel, 0.09),  (fletcher hass, 0.09),  (birgit heid, 0.09),  
+05-26-2016:00-20-28	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	carry pavlick?
+05-26-2016:00-20-39	061d1345-1a85-486e-86eb-6a30510235fe	User 1	brandon or celsa
+05-26-2016:00-20-39	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: celsa],[<fullName>:]
+05-26-2016:00-20-39	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	[<firstName>: branden],[<fullName>: branden sjoberg]
+05-26-2016:00-20-39	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(brittney hunley, 0.10),  (justa holdeman, 0.10),  (maritza horrell, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (barbar scheu, 0.10),  (carry pavlick, 0.10),  (renay guel, 0.10),  (fletcher hass, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-20-42	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	renay, fletcher?
+05-26-2016:00-20-56	061d1345-1a85-486e-86eb-6a30510235fe	User 1	no angelo 
+05-26-2016:00-20-56	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: angelo],[<fullName>:]
+05-26-2016:00-20-56	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-20-56	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(brittney hunley, 0.10),  (justa holdeman, 0.10),  (maritza horrell, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (barbar scheu, 0.10),  (carry pavlick, 0.10),  (renay guel, 0.10),  (fletcher hass, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-21-02	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	do you know birgit heid or brittney hunley?
+05-26-2016:00-21-21	061d1345-1a85-486e-86eb-6a30510235fe	User 1	no marla or justa 
+05-26-2016:00-21-21	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: justa],[<fullName>:]
+05-26-2016:00-21-21	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-21-21	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 0.23),  (brittney hunley, 0.09),  (maritza horrell, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (barbar scheu, 0.09),  (carry pavlick, 0.09),  (renay guel, 0.09),  (fletcher hass, 0.09),  (birgit heid, 0.09),  
+05-26-2016:00-21-23	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	yes
+05-26-2016:00-21-25	061d1345-1a85-486e-86eb-6a30510235fe	DEFAULT_BOT	Selected:	Justa Holdeman
+05-26-2016:00-21-29	061d1345-1a85-486e-86eb-6a30510235fe	User 1	Selected 1:	Justa Holdeman
+05-26-2016:00-21-29	---

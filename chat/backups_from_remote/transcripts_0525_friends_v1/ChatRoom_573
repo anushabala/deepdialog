@@ -1,0 +1,22 @@
+05-26-2016:00-39-33	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	joined
+05-26-2016:00-39-33	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1 has user ID ed9c8241766242599687872d08fc250a
+05-26-2016:00-39-35	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	hi
+05-26-2016:00-39-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	hi
+05-26-2016:00-39-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:00-39-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(susanna pulley, 0.10),  (guillermo mantz, 0.10),  (emmanuel eliason, 0.10),  (angelo patch, 0.10),  (tangela raschke, 0.10),  (sheilah steitz, 0.10),  (carry pavlick, 0.10),  (darrel oden, 0.10),  (lucienne whitting, 0.10),  (laurette thrailkill, 0.10),  
+05-26-2016:00-39-46	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	i'm from university of california - berkeley, economics, facebook
+05-26-2016:00-39-48	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	I went to stanford and work at google
+05-26-2016:00-39-48	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-48	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:00-39-48	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 0.16),  (carry pavlick, 0.16),  (lucienne whitting, 0.16),  (laurette thrailkill, 0.16),  (susanna pulley, 0.06),  (guillermo mantz, 0.06),  (emmanuel eliason, 0.06),  (angelo patch, 0.06),  (sheilah steitz, 0.06),  (darrel oden, 0.06),  
+05-26-2016:00-39-52	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	major, school, company?
+05-26-2016:00-39-58	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know tangela raschke or carry pavlick?
+05-26-2016:00-40-04	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	Tangela, yes
+05-26-2016:00-40-04	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tangela],[<fullName>:]
+05-26-2016:00-40-04	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:00-40-04	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 0.24),  (carry pavlick, 0.09),  (lucienne whitting, 0.09),  (laurette thrailkill, 0.09),  (susanna pulley, 0.08),  (guillermo mantz, 0.08),  (emmanuel eliason, 0.08),  (angelo patch, 0.08),  (sheilah steitz, 0.08),  (darrel oden, 0.08),  
+05-26-2016:00-40-07	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	yep
+05-26-2016:00-40-08	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	Selected 2:	Tangela Raschke
+05-26-2016:00-40-10	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	Selected:	Tangela Raschke
+05-26-2016:00-40-10	---

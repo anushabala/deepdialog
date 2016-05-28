@@ -1,0 +1,23 @@
+05-26-2016:00-19-17	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	joined
+05-26-2016:00-19-17	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1 has user ID b9b3bf87b41445aca046e520b8eb4cf4
+05-26-2016:00-19-19	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	hello
+05-26-2016:00-19-27	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	i'm from university of california - berkeley, physics, facebook
+05-26-2016:00-19-33	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:00-19-40	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	Hi, U Penn, Computer Sci, Uber
+05-26-2016:00-19-40	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-40	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	[<major>: computer science],[<schoolName>: university of pennsylvania]
+05-26-2016:00-19-40	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(maia coffman, 0.20),  (clarisa mattison, 0.12),  (valeri kress, 0.12),  (justa holdeman, 0.12),  (gregg brian, 0.07),  (mai buskirk, 0.07),  (emmanuel eliason, 0.07),  (lorriane hurlbert, 0.07),  (lawanna mars, 0.07),  (birgit heid, 0.07),  
+05-26-2016:00-19-45	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	are maia or clarisa on your list?
+05-26-2016:00-19-53	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	No
+05-26-2016:00-19-53	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-53	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	
+05-26-2016:00-19-53	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(maia coffman, 0.11),  (clarisa mattison, 0.10),  (valeri kress, 0.10),  (justa holdeman, 0.10),  (gregg brian, 0.10),  (mai buskirk, 0.10),  (emmanuel eliason, 0.10),  (lorriane hurlbert, 0.10),  (lawanna mars, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-19-57	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	do you know valeri kress?
+05-26-2016:00-20-16	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	No.  How about Maia Coffman?
+05-26-2016:00-20-16	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: maia coffman]
+05-26-2016:00-20-16	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	
+05-26-2016:00-20-16	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(maia coffman, 0.23),  (clarisa mattison, 0.09),  (valeri kress, 0.09),  (justa holdeman, 0.09),  (gregg brian, 0.08),  (mai buskirk, 0.08),  (emmanuel eliason, 0.08),  (lorriane hurlbert, 0.08),  (lawanna mars, 0.08),  (birgit heid, 0.08),  
+05-26-2016:00-20-18	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	yes
+05-26-2016:00-20-20	92ad6c0e-4f9f-425a-aa61-567741a59647	DEFAULT_BOT	Selected:	Maia Coffman
+05-26-2016:00-20-25	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	Selected 2:	Maia Coffman
+05-26-2016:00-20-25	---

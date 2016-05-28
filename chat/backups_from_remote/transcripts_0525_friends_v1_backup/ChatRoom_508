@@ -1,0 +1,15 @@
+05-26-2016:00-37-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	joined
+05-26-2016:00-37-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1 has user ID 90f6502026724fe99cc7c507663aa8d0
+05-26-2016:00-37-59	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	I wnet to university of pennsylvania i majored in math and work at amazon
+05-26-2016:00-37-59	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>: math],[<schoolName>: university of pennsylvania],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-59	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	
+05-26-2016:00-37-59	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 2.00),  (emmanuel eliason, 1.00),  (lorriane hurlbert, 1.00),  (guillermo mantz, 0.00),  (brittney hunley, 0.00),  (jacques castillon, 0.00),  (darrel oden, 0.00),  (lucienne whitting, 0.00),  (sheilah steitz, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-38-03	0a682e0f-8bb5-443c-80e1-ed161812af2c	LSTM_UNFEATURIZED	i have one friend at facebook
+05-26-2016:00-38-11	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	Clarissa?
+05-26-2016:00-38-11	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-11	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	[<firstName>: clarissa],[<fullName>: clarissa]
+05-26-2016:00-38-11	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 3.00),  (emmanuel eliason, 1.00),  (lorriane hurlbert, 1.00),  (guillermo mantz, 0.00),  (brittney hunley, 0.00),  (jacques castillon, 0.00),  (darrel oden, 0.00),  (lucienne whitting, 0.00),  (sheilah steitz, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-38-16	0a682e0f-8bb5-443c-80e1-ed161812af2c	LSTM_UNFEATURIZED	all my other friends work at google
+05-26-2016:00-38-31	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	Selected 4:	Clarisa Mattison
+05-26-2016:00-38-34	0a682e0f-8bb5-443c-80e1-ed161812af2c	LSTM_UNFEATURIZED	Selected:	Clarisa Mattison
+05-26-2016:00-38-34	---

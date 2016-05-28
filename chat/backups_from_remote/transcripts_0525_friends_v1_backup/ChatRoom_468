@@ -1,0 +1,24 @@
+05-26-2016:00-33-34	98a60605-a80f-4034-80df-89911ab3089d	User 1	joined
+05-26-2016:00-33-34	98a60605-a80f-4034-80df-89911ab3089d	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-33-41	98a60605-a80f-4034-80df-89911ab3089d	User 1	hi went to penn for cs, work at apple
+05-26-2016:00-33-41	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-41	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	[<major>: cs],[<schoolName>: penn]
+05-26-2016:00-33-41	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(santina kenley, 1.00),  (liana sams, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:00-33-46	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	hi all of my friends work at uber
+05-26-2016:00-33-56	98a60605-a80f-4034-80df-89911ab3089d	User 1	i know no one at uber. everyone works at apple
+05-26-2016:00-33-56	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-56	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-33-56	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(santina kenley, 2.00),  (liana sams, 2.00),  (elene prouty, 2.00),  (brittanie piggott, 1.00),  (quinn courter, 1.00),  (johnathan mccolley, 1.00),  (barbar scheu, 1.00),  (nathanial towery, 1.00),  (kathaleen brough, 1.00),  (celsa navarrete, 0.00),  
+05-26-2016:00-34-05	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	one at amazon one at apple one at uber one at amazon one at uber one at amazon rest in uber
+05-26-2016:00-34-13	98a60605-a80f-4034-80df-89911ab3089d	User 1	whos your apple person
+05-26-2016:00-34-13	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-13	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-34-13	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 3.00),  (santina kenley, 2.00),  (liana sams, 2.00),  (brittanie piggott, 1.00),  (quinn courter, 1.00),  (johnathan mccolley, 1.00),  (barbar scheu, 1.00),  (nathanial towery, 1.00),  (kathaleen brough, 1.00),  (celsa navarrete, 0.00),  
+05-26-2016:00-34-16	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	no friends from amazon 
+05-26-2016:00-34-18	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	all are apple
+05-26-2016:00-34-35	98a60605-a80f-4034-80df-89911ab3089d	User 1	same
+05-26-2016:00-34-35	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-35	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	[<firstName>: same],[<fullName>: same]
+05-26-2016:00-34-35	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 3.00),  (santina kenley, 2.00),  (liana sams, 2.00),  (brittanie piggott, 1.00),  (quinn courter, 1.00),  (johnathan mccolley, 1.00),  (barbar scheu, 1.00),  (nathanial towery, 1.00),  (kathaleen brough, 1.00),  (celsa navarrete, 0.00),  
+05-26-2016:00-34-37	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	Selected:	Elene Prouty
+05-26-2016:00-34-42	98a60605-a80f-4034-80df-89911ab3089d	User 1	Selected 2:	Elene Prouty

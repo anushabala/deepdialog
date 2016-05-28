@@ -1,0 +1,33 @@
+05-26-2016:00-31-27	025ec4a1-020e-4133-b078-674955bac256	User 1	joined
+05-26-2016:00-31-27	025ec4a1-020e-4133-b078-674955bac256	User 1 has user ID 500277faa5eb4c05bf3374af1ef38a67
+05-26-2016:00-31-32	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-32-33	025ec4a1-020e-4133-b078-674955bac256	User 1	ar you a perdon
+05-26-2016:00-32-33	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-33	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-32-33	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(susanna pulley, 0.00),  (celsa navarrete, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (kristie bolduc, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (kendrick friday, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-32-36	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	Selected:	Susanna Pulley
+05-26-2016:00-32-43	025ec4a1-020e-4133-b078-674955bac256	User 1	ha! Are you a person? apparently not. 
+05-26-2016:00-32-43	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-43	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-32-43	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(susanna pulley, 0.00),  (celsa navarrete, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (kristie bolduc, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (kendrick friday, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-32-46	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	all my friends work at uber
+05-26-2016:00-32-59	025ec4a1-020e-4133-b078-674955bac256	User 1	I thougth they all worked at apple?>
+05-26-2016:00-32-59	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-59	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-32-59	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(susanna pulley, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (kristie bolduc, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (celsa navarrete, 0.00),  (kendrick friday, 0.00),  
+05-26-2016:00-33-01	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	im from columbia 
+05-26-2016:00-33-03	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	math
+05-26-2016:00-33-09	025ec4a1-020e-4133-b078-674955bac256	User 1	Celsa?
+05-26-2016:00-33-09	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: celsa],[<fullName>:]
+05-26-2016:00-33-09	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-33-09	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(susanna pulley, 1.00),  (celsa navarrete, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (kristie bolduc, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (kendrick friday, 0.00),  
+05-26-2016:00-33-11	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	school
+05-26-2016:00-33-25	025ec4a1-020e-4133-b078-674955bac256	User 1	Is Celsa your friend?
+05-26-2016:00-33-25	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: celsa],[<fullName>:]
+05-26-2016:00-33-25	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-33-25	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(celsa navarrete, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (kristie bolduc, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (kendrick friday, 0.00),  
+05-26-2016:00-33-28	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	computer science 
+05-26-2016:00-33-30	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	Selected:	Celsa Navarrete
+05-26-2016:00-33-32	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	susanna pulley 
+05-26-2016:00-33-33	025ec4a1-020e-4133-b078-674955bac256	LSTM_UNFEATURIZED	no
+05-26-2016:00-33-34	025ec4a1-020e-4133-b078-674955bac256	User 1	Selected 7:	Celsa Navarrete

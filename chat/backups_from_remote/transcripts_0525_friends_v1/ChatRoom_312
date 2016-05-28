@@ -1,0 +1,10 @@
+05-26-2016:00-28-19	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	joined
+05-26-2016:00-28-19	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1 has user ID ed9c8241766242599687872d08fc250a
+05-26-2016:00-28-25	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-28-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	I have one friend who works at uber
+05-26-2016:00-28-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-28-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(jon geissler, 1.00),  (randi thorson, 1.00),  (keesha ahart, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (josefina ferrigno, 1.00),  (liana sams, 1.00),  (delbert gapinski, 1.00),  (bernita kerrick, 0.00),  
+05-26-2016:00-28-52	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	i dont have any friends at apple 
+05-26-2016:00-28-56	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	i know 2 people who work at apple 
+05-26-2016:00-29-00	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	the rest of my friends work at uber

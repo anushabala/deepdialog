@@ -1,0 +1,28 @@
+05-26-2016:02-02-10	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	joined
+05-26-2016:02-02-10	f3b7f27a-d114-4f32-8528-137860182e5e	User 0 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:02-02-13	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	hi there!
+05-26-2016:02-02-23	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	i'm from university of california - berkeley, studied computer science, work at uber
+05-26-2016:02-02-27	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	major, school, company?
+05-26-2016:02-02-32	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	Hello. Three friends at Apple. The rest are at Google. 
+05-26-2016:02-02-32	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, google],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-32	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-02-32	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(nena krone, 0.20),  (leena hensel, 0.20),  (alberto thurlow, 0.07),  (joetta sequeira, 0.07),  (jon geissler, 0.07),  (randi thorson, 0.07),  (clorinda hites, 0.07),  (santina kenley, 0.07),  (josefina ferrigno, 0.07),  (willie wicks, 0.07),  
+05-26-2016:02-02-35	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	nena, leena?
+05-26-2016:02-02-41	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	Ugh. 
+05-26-2016:02-02-41	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-41	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-02-41	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(nena krone, 0.11),  (leena hensel, 0.11),  (alberto thurlow, 0.10),  (joetta sequeira, 0.10),  (jon geissler, 0.10),  (randi thorson, 0.10),  (clorinda hites, 0.10),  (santina kenley, 0.10),  (josefina ferrigno, 0.10),  (willie wicks, 0.10),  
+05-26-2016:02-02-49	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	do you know alberto thurlow joetta sequeira or jon geissler?
+05-26-2016:02-02-54	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	Please quit wasting time with the list. 
+05-26-2016:02-02-54	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-54	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-02-54	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(nena krone, 0.10),  (leena hensel, 0.10),  (alberto thurlow, 0.10),  (joetta sequeira, 0.10),  (jon geissler, 0.10),  (randi thorson, 0.10),  (clorinda hites, 0.10),  (santina kenley, 0.10),  (josefina ferrigno, 0.10),  (willie wicks, 0.10),  
+05-26-2016:02-02-57	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	randi, clorinda?
+05-26-2016:02-03-14	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	No, none. How about doing this correctly for a change. 
+05-26-2016:02-03-14	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-14	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-03-14	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(nena krone, 0.10),  (leena hensel, 0.10),  (alberto thurlow, 0.10),  (joetta sequeira, 0.10),  (jon geissler, 0.10),  (randi thorson, 0.10),  (clorinda hites, 0.10),  (santina kenley, 0.10),  (josefina ferrigno, 0.10),  (willie wicks, 0.10),  
+05-26-2016:02-03-22	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	do you know santina kenley josefina ferrigno or willie wicks?
+05-26-2016:02-03-25	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	Selected 4:	Leena Hensel
+05-26-2016:02-03-26	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	Selected:	Leena Hensel
+05-26-2016:02-03-26	---

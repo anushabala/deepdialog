@@ -1,0 +1,22 @@
+05-26-2016:02-21-54	08e5b476-cd1a-412a-9136-012286542498	User 1	joined
+05-26-2016:02-21-54	08e5b476-cd1a-412a-9136-012286542498	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-21-56	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	hey
+05-26-2016:02-22-03	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	i went to stanford, majored in physics, work at apple
+05-26-2016:02-22-06	08e5b476-cd1a-412a-9136-012286542498	User 1	hi,I went to Upenn, nowI work at amazon
+05-26-2016:02-22-06	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-22-06	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	
+05-26-2016:02-22-06	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(lucia pizarro, 0.10),  (bernita kerrick, 0.10),  (gennie dagley, 0.10),  (tamara killeen, 0.10),  (kristie bolduc, 0.10),  (francine bateman, 0.10),  (denny harshberger, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (susanna pulley, 0.10),  
+05-26-2016:02-22-09	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	what about you
+05-26-2016:02-22-15	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	do you know lucia pizarro or bernita kerrick?
+05-26-2016:02-22-16	08e5b476-cd1a-412a-9136-012286542498	User 1	I have a couple apple friends
+05-26-2016:02-22-16	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-22-16	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	
+05-26-2016:02-22-16	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(lucia pizarro, 0.11),  (bernita kerrick, 0.11),  (gennie dagley, 0.11),  (tamara killeen, 0.11),  (kristie bolduc, 0.11),  (francine bateman, 0.11),  (pearl dollard, 0.11),  (riva noles, 0.11),  (susanna pulley, 0.11),  (denny harshberger, 0.04),  
+05-26-2016:02-22-20	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	do you know gennie dagley?
+05-26-2016:02-22-32	08e5b476-cd1a-412a-9136-012286542498	User 1	yup gennie!
+05-26-2016:02-22-32	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gennie],[<fullName>:]
+05-26-2016:02-22-32	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	
+05-26-2016:02-22-32	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(gennie dagley, 0.23),  (lucia pizarro, 0.09),  (bernita kerrick, 0.09),  (tamara killeen, 0.09),  (kristie bolduc, 0.09),  (francine bateman, 0.09),  (pearl dollard, 0.09),  (riva noles, 0.09),  (susanna pulley, 0.09),  (denny harshberger, 0.08),  
+05-26-2016:02-22-33	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	yep!
+05-26-2016:02-22-35	08e5b476-cd1a-412a-9136-012286542498	DEFAULT_BOT	Selected:	Gennie Dagley
+05-26-2016:02-22-39	08e5b476-cd1a-412a-9136-012286542498	User 1	Selected 7:	Gennie Dagley

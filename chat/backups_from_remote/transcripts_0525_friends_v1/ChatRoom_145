@@ -1,0 +1,23 @@
+05-26-2016:00-19-27	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	joined
+05-26-2016:00-19-27	3b581f22-214d-460c-aadc-b43e21c957e2	User 0 has user ID f7fd14aaa74e4c73af45b6df4fed4568
+05-26-2016:00-20-28	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	Selected 1:	Beau Roudebush
+05-26-2016:00-20-33	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	do you know lashaunda carothers
+05-26-2016:00-20-39	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	NO
+05-26-2016:00-20-39	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-39	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-20-39	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (riva noles, 0.00),  (jacques castillon, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  
+05-26-2016:00-20-44	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	I don't know her
+05-26-2016:00-20-44	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-44	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-20-44	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (riva noles, 0.00),  (jacques castillon, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  
+05-26-2016:00-20-51	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	i went to stanford and majored in computer science
+05-26-2016:00-20-55	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	most of my friends work at google
+05-26-2016:00-21-13	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	I went to the University of California - Berkeley and majored in computer science, most of my friends work at Apple
+05-26-2016:00-21-13	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>: computer science],[<schoolName>: university of california berkeley],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-13	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-21-13	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 2.00),  (sherika rust, 1.00),  (jacques castillon, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (lashaunda carothers, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (lai pettaway, 0.00),  
+05-26-2016:00-21-16	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	riva noles
+05-26-2016:00-21-22	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	Yes Riva Noles
+05-26-2016:00-21-22	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: riva noles]
+05-26-2016:00-21-22	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-21-22	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 3.00),  (sherika rust, 1.00),  (jacques castillon, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (lashaunda carothers, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (lai pettaway, 0.00),  

@@ -1,0 +1,45 @@
+05-26-2016:01-53-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	joined
+05-26-2016:01-53-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0 has user ID f7fd14aaa74e4c73af45b6df4fed4568
+05-26-2016:01-53-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Hi
+05-26-2016:01-53-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-53-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (thanh hartin, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:01-53-43	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	all my friend work at facebook and 1 works at apple
+05-26-2016:01-53-44	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	hi
+05-26-2016:01-53-49	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	I went to Uni California - Berkeley, Economics, and Apple
+05-26-2016:01-53-49	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>: economics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-49	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<schoolName>: uni, california, berkeley]
+05-26-2016:01-53-49	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 2.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-53-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	Selected:	Thanh Hartin
+05-26-2016:01-54-00	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	No, not Thanh
+05-26-2016:01-54-00	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: thanh],[<fullName>:]
+05-26-2016:01-54-00	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-54-00	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 3.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-54-03	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	Selected:	Clarisa Mattison
+05-26-2016:01-54-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	What's your stats
+05-26-2016:01-54-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-54-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 3.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-54-10	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Nope
+05-26-2016:01-54-10	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-10	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-54-10	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 3.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-54-13	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	Selected:	Fletcher Hass
+05-26-2016:01-54-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Nope
+05-26-2016:01-54-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-54-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 3.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-54-23	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	all my friends work at facebook except one at apple 
+05-26-2016:01-54-26	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	do you know birgit heid
+05-26-2016:01-54-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	do you know thanh hartin
+05-26-2016:01-54-31	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Yes I do!
+05-26-2016:01-54-31	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-31	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-54-31	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 3.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-54-33	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	BIrgit Heid
+05-26-2016:01-54-33	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: birgit heid]
+05-26-2016:01-54-33	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:01-54-33	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 3.00),  (birgit heid, 2.00),  (clarisa mattison, 1.00),  (fletcher hass, 1.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:01-54-36	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	Selected:	Thanh Hartin
+05-26-2016:01-54-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Selected 7:	Birgit Heid
+05-26-2016:01-54-39	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	Selected:	Birgit Heid

@@ -1,0 +1,31 @@
+05-26-2016:02-32-49	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	joined
+05-26-2016:02-32-49	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0 has user ID f54a924cc4ae4951b927d029405f688b
+05-26-2016:02-32-55	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:02-33-01	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	All my friends work at facebook
+05-26-2016:02-33-01	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-33-01	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:02-33-01	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(carry pavlick, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-33-02	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	Selected:	Carry Pavlick
+05-26-2016:02-33-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	Don't know her
+05-26-2016:02-33-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-33-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:02-33-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(carry pavlick, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-33-19	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	where did you go to school
+05-26-2016:02-33-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	Berkeley
+05-26-2016:02-33-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-33-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-33-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(carry pavlick, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-33-41	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	do you know emmit nations from pa
+05-26-2016:02-33-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	no
+05-26-2016:02-33-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-33-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:02-33-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(carry pavlick, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-33-52	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	okay
+05-26-2016:02-34-12	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	Do you know anyone who works at apple?
+05-26-2016:02-34-12	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-34-12	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:02-34-12	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 1.00),  (carry pavlick, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-34-14	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	mose coletti
+05-26-2016:02-34-19	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	Selected 5:	Mose Coletti
+05-26-2016:02-34-21	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_FEATURIZED	Selected:	Mose Coletti
+05-26-2016:02-34-22	---

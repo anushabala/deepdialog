@@ -1,0 +1,39 @@
+05-26-2016:00-10-54	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	joined
+05-26-2016:00-10-54	62f07f79-b605-4f76-82bc-7bebe611334b	User 0 has user ID 50d8affd9b5f48c58c7c60d8768aefdc
+05-26-2016:00-11-07	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	Hello, friend. All my friends work at Facebook.
+05-26-2016:00-11-07	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-07	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-11-07	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-11-10	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	hi
+05-26-2016:00-11-40	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	Do you know anyone that works for Facebook?
+05-26-2016:00-11-40	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-40	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-11-40	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 2.00),  (birgit heid, 2.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-11-43	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	lawanna mars
+05-26-2016:00-12-03	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	I don't know Lawanna. Anyone else?
+05-26-2016:00-12-03	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lawanna],[<fullName>:]
+05-26-2016:00-12-03	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-12-03	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 3.00),  (birgit heid, 2.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-12-06	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	yes i do know her 
+05-26-2016:00-12-08	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	i know lawanna mars 
+05-26-2016:00-12-11	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	i also know her too
+05-26-2016:00-12-20	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	But I said that I do not know Lawanna Mars.
+05-26-2016:00-12-20	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: lawanna mars]
+05-26-2016:00-12-20	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-12-20	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 4.00),  (birgit heid, 2.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-12-25	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	what is your apple and what company
+05-26-2016:00-12-40	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	I already told you that I only know people at Facebook. Please pay attention.
+05-26-2016:00-12-40	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-40	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-12-40	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 5.00),  (birgit heid, 3.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-12-43	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	Selected:	Lawanna Mars
+05-26-2016:00-13-17	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	For the third time, I do not know Lawanna Mars.
+05-26-2016:00-13-17	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: lawanna mars]
+05-26-2016:00-13-17	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-13-17	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 6.00),  (birgit heid, 3.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-13-19	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	yeah 10 gotta be it
+05-26-2016:00-13-34	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	TF is wrong with you dude?
+05-26-2016:00-13-34	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-34	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-13-34	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 6.00),  (birgit heid, 3.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-13-41	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	it doesnt matter please choose choose choose lawanna mars named lawanna mars

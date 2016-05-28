@@ -1,0 +1,24 @@
+05-26-2016:01-51-22	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	joined
+05-26-2016:01-51-22	6964b135-3101-4647-922d-7fcdbf9a5868	User 1 has user ID 3405eb473f064113ab164949500dbc28
+05-26-2016:01-51-28	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	hello
+05-26-2016:01-51-28	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-28	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:01-51-28	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:01-51-34	6964b135-3101-4647-922d-7fcdbf9a5868	LSTM_FEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:01-51-36	6964b135-3101-4647-922d-7fcdbf9a5868	LSTM_FEATURIZED	hi
+05-26-2016:01-52-05	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	i work at google and so do most of my friends
+05-26-2016:01-52-05	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-05	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:01-52-05	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(ngan hornung, 1.00),  (celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:01-52-12	6964b135-3101-4647-922d-7fcdbf9a5868	LSTM_FEATURIZED	i have one friend from stanford that works for google
+05-26-2016:01-52-15	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	three are from apple
+05-26-2016:01-52-15	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-15	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:01-52-15	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(ngan hornung, 1.00),  (celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:01-52-19	6964b135-3101-4647-922d-7fcdbf9a5868	LSTM_FEATURIZED	do you know ngan hornung
+05-26-2016:01-52-32	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	Selected 4:	Ngan Hornung
+05-26-2016:01-53-38	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	joined
+05-26-2016:01-53-38	6964b135-3101-4647-922d-7fcdbf9a5868	User 1 has user ID 3405eb473f064113ab164949500dbc28
+05-26-2016:01-53-41	---
+05-26-2016:01-53-41	6964b135-3101-4647-922d-7fcdbf9a5868	LSTM_FEATURIZED	Selected:	Ngan Hornung
+05-26-2016:01-53-41	---

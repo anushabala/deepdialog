@@ -1,0 +1,20 @@
+05-26-2016:00-37-38	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	joined
+05-26-2016:00-37-38	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0 has user ID b4f4c656b1214f87a73da708f9200c09
+05-26-2016:00-37-57	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	hi
+05-26-2016:00-37-57	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-57	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-37-57	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (ayesha aarons, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-37-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	hi
+05-26-2016:00-38-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	I have one friend at Apple, the rest are all Uber
+05-26-2016:00-38-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-38-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(susanna pulley, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (gennie dagley, 1.00),  (ayesha aarons, 1.00),  (laverna bjornson, 1.00),  (aline allshouse, 1.00),  (tobi brunette, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  
+05-26-2016:00-38-15	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	all my friends work at apple
+05-26-2016:00-38-33	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	You know someone from Upenn, linguistics, Apple?
+05-26-2016:00-38-33	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-33	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-38-33	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(bernita kerrick, 3.00),  (ayesha aarons, 3.00),  (susanna pulley, 2.00),  (beau roudebush, 2.00),  (gennie dagley, 2.00),  (laverna bjornson, 2.00),  (aline allshouse, 2.00),  (tobi brunette, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  
+05-26-2016:00-38-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	bernita kerrick
+05-26-2016:00-38-46	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Selected 8:	Ayesha Aarons
+05-26-2016:00-38-49	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	Selected:	Ayesha Aarons
+05-26-2016:00-38-49	---

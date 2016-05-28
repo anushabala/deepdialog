@@ -1,0 +1,22 @@
+05-26-2016:00-33-22	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	joined
+05-26-2016:00-33-22	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1 has user ID 49a974312a534c82a8691097b82cda60
+05-26-2016:00-33-24	4bbf8341-996d-4925-bac6-9fbbf7a3f697	DEFAULT_BOT	hello
+05-26-2016:00-33-27	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	hi
+05-26-2016:00-33-27	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-27	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-33-27	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(francine bateman, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (susanna pulley, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-33-34	4bbf8341-996d-4925-bac6-9fbbf7a3f697	DEFAULT_BOT	i'm university of pennsylvania, linguistics, apple
+05-26-2016:00-33-36	4bbf8341-996d-4925-bac6-9fbbf7a3f697	DEFAULT_BOT	you?
+05-26-2016:00-33-36	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	went to berkley, majored in cs, work for amazon
+05-26-2016:00-33-36	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-36	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	[<major>: computer science],[<schoolName>: university of california berkeley]
+05-26-2016:00-33-36	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(nena krone, 0.15),  (thanh hartin, 0.15),  (francine bateman, 0.09),  (kristie bolduc, 0.09),  (bernita kerrick, 0.09),  (susanna pulley, 0.09),  (laverna bjornson, 0.09),  (aline allshouse, 0.09),  (pearl dollard, 0.09),  (elene prouty, 0.09),  
+05-26-2016:00-33-38	4bbf8341-996d-4925-bac6-9fbbf7a3f697	DEFAULT_BOT	nena?
+05-26-2016:00-33-43	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	yes
+05-26-2016:00-33-43	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-43	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-33-43	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(nena krone, 0.10),  (thanh hartin, 0.10),  (laverna bjornson, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (susanna pulley, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (pearl dollard, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-33-45	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	Selected 2:	Nena Krone
+05-26-2016:00-33-51	4bbf8341-996d-4925-bac6-9fbbf7a3f697	DEFAULT_BOT	do you know thanh hartin or laverna bjornson?
+05-26-2016:00-33-53	4bbf8341-996d-4925-bac6-9fbbf7a3f697	DEFAULT_BOT	Selected:	Nena Krone
+05-26-2016:00-33-54	---

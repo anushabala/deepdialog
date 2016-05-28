@@ -1,0 +1,14 @@
+05-26-2016:02-15-51	62198576-e7e2-405c-b486-81eb870631cb	User 0	joined
+05-26-2016:02-15-51	62198576-e7e2-405c-b486-81eb870631cb	User 0 has user ID e18908f0d1d14a17bc6e637337cf635f
+05-26-2016:02-16-08	62198576-e7e2-405c-b486-81eb870631cb	User 0	Hello.
+05-26-2016:02-16-08	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-08	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:02-16-08	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(lashaunda carothers, 0.00),  (renita canney, 0.00),  (sherika rust, 0.00),  (dannie leedy, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (darrel oden, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-16-09	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	hi
+05-26-2016:02-17-00	62198576-e7e2-405c-b486-81eb870631cb	User 0	I am from University of Pennsylvania. I majored in Math and work at Facebook.
+05-26-2016:02-17-01	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>: math],[<schoolName>: university of pennsylvania],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-01	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	[<firstName>: am],[<fullName>: am]
+05-26-2016:02-17-01	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(sherika rust, 1.00),  (kam wey, 1.00),  (darrel oden, 1.00),  (lashaunda carothers, 0.00),  (renita canney, 0.00),  (dannie leedy, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (leena hensel, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-17-07	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	i went to university of california - berkeley and physics
+05-26-2016:02-17-24	62198576-e7e2-405c-b486-81eb870631cb	User 0	Selected 1:	Darrel Oden
+05-26-2016:02-17-26	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	Selected:	Darrel Oden

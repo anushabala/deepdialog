@@ -1,0 +1,22 @@
+05-26-2016:00-28-32	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	joined
+05-26-2016:00-28-32	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1 has user ID 22e5b2191cc9427eae21c402e2e8d598
+05-26-2016:00-28-35	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	hey
+05-26-2016:00-28-36	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Hi
+05-26-2016:00-28-36	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-36	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-28-36	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(francine bateman, 0.10),  (bernita kerrick, 0.10),  (beau roudebush, 0.10),  (jon geissler, 0.10),  (oliver roker, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (kerry carter, 0.10),  (pearl dollard, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-28-44	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	i went to university of pennsylvania and majored in math
+05-26-2016:00-28-47	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Know anyone at Amazon?
+05-26-2016:00-28-47	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-47	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-28-47	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 0.23),  (laverna bjornson, 0.09),  (bernita kerrick, 0.09),  (beau roudebush, 0.09),  (jon geissler, 0.09),  (oliver roker, 0.09),  (francine bateman, 0.09),  (aline allshouse, 0.09),  (pearl dollard, 0.09),  (elene prouty, 0.09),  
+05-26-2016:00-28-50	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	work at apple
+05-26-2016:00-28-54	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	major, school, company?
+05-26-2016:00-29-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Math U of C Amazon
+05-26-2016:00-29-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-29-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 0.35),  (francine bateman, 0.11),  (jon geissler, 0.11),  (aline allshouse, 0.11),  (elene prouty, 0.11),  (bernita kerrick, 0.04),  (beau roudebush, 0.04),  (oliver roker, 0.04),  (laverna bjornson, 0.04),  (pearl dollard, 0.04),  
+05-26-2016:00-29-14	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	are kerry or francine on your list?
+05-26-2016:00-29-19	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Selected 7:	Kerry Carter
+05-26-2016:00-29-22	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	Selected:	Kerry Carter
+05-26-2016:00-29-22	---

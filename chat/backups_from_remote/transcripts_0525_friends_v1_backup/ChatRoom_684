@@ -1,0 +1,21 @@
+05-26-2016:00-45-23	98a60605-a80f-4034-80df-89911ab3089d	User 0	joined
+05-26-2016:00-45-23	98a60605-a80f-4034-80df-89911ab3089d	User 0 has user ID bf11d5dcaf1846a89a46dd1e48acc385
+05-26-2016:00-45-25	98a60605-a80f-4034-80df-89911ab3089d	DEFAULT_BOT	hi
+05-26-2016:00-45-25	98a60605-a80f-4034-80df-89911ab3089d	User 0	hey
+05-26-2016:00-45-25	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-25	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-45-25	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(francine bateman, 0.10),  (beau roudebush, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-45-34	98a60605-a80f-4034-80df-89911ab3089d	User 0	i went to columbia, math major, and work uber
+05-26-2016:00-45-34	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-34	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-45-34	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 0.32),  (laverna bjornson, 0.12),  (tobi brunette, 0.12),  (francine bateman, 0.12),  (lakesha platz, 0.12),  (beau roudebush, 0.04),  (mose coletti, 0.04),  (nena krone, 0.04),  (pearl dollard, 0.04),  (riva noles, 0.04),  
+05-26-2016:00-45-43	98a60605-a80f-4034-80df-89911ab3089d	DEFAULT_BOT	i went to university of pennsylvania and majored in computer science
+05-26-2016:00-45-46	98a60605-a80f-4034-80df-89911ab3089d	DEFAULT_BOT	work at apple
+05-26-2016:00-45-51	98a60605-a80f-4034-80df-89911ab3089d	User 0	do you know elene prouty
+05-26-2016:00-45-51	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: elene prouty]
+05-26-2016:00-45-51	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-45-51	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 0.28),  (francine bateman, 0.08),  (tobi brunette, 0.08),  (laverna bjornson, 0.08),  (lakesha platz, 0.08),  (beau roudebush, 0.08),  (mose coletti, 0.08),  (nena krone, 0.08),  (pearl dollard, 0.08),  (riva noles, 0.08),  
+05-26-2016:00-45-58	98a60605-a80f-4034-80df-89911ab3089d	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-46-00	98a60605-a80f-4034-80df-89911ab3089d	DEFAULT_BOT	Selected:	Elene Prouty
+05-26-2016:00-46-06	98a60605-a80f-4034-80df-89911ab3089d	User 0	Selected 3:	Elene Prouty
+05-26-2016:00-46-06	---

@@ -1,0 +1,20 @@
+05-26-2016:00-20-35	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	joined
+05-26-2016:00-20-35	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:00-20-38	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	hi there
+05-26-2016:00-20-38	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-38	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-20-38	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (susanna pulley, 0.00),  (francine bateman, 0.00),  (nena krone, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-20-45	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-20-48	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	Selected:	Laverna Bjornson
+05-26-2016:00-21-01	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	I only have one friend who works at apple. Its Nena
+05-26-2016:00-21-01	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: nena],[<fullName>:]
+05-26-2016:00-21-01	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-21-01	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(nena krone, 2.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (susanna pulley, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  
+05-26-2016:00-21-04	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	Selected:	Nena Krone
+05-26-2016:00-21-05	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	Nena Krone
+05-26-2016:00-21-05	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: nena krone]
+05-26-2016:00-21-05	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-21-05	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(nena krone, 3.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (susanna pulley, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (elene prouty, 1.00),  
+05-26-2016:00-21-08	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	knoe kristie bolduc 
+05-26-2016:00-21-08	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 1	Selected 2:	Nena Krone
+05-26-2016:00-21-08	---

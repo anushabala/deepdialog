@@ -1,0 +1,20 @@
+05-26-2016:00-37-40	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	joined
+05-26-2016:00-37-40	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0 has user ID 1aed4a98f9874cf79c3c4a88af5b4445
+05-26-2016:00-37-48	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	google
+05-26-2016:00-37-48	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-48	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	
+05-26-2016:00-37-48	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 1.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-37-49	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_UNFEATURIZED	hi
+05-26-2016:00-38-06	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	uber
+05-26-2016:00-38-06	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-06	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	
+05-26-2016:00-38-06	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 1.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-38-11	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	apple
+05-26-2016:00-38-11	d8a1f235-cd58-4540-a66f-398de1723cb1	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-11	d8a1f235-cd58-4540-a66f-398de1723cb1	SYNONYMS	
+05-26-2016:00-38-11	d8a1f235-cd58-4540-a66f-398de1723cb1	PROBABILITIES	(brigid imai, 1.00),  (samuel tatum, 1.00),  (mose coletti, 1.00),  (tyson rankins, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (carry pavlick, 0.00),  
+05-26-2016:00-38-18	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_UNFEATURIZED	everyone i know works at google except one at facebook
+05-26-2016:00-38-20	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_UNFEATURIZED	no brigid imai
+05-26-2016:00-38-39	d8a1f235-cd58-4540-a66f-398de1723cb1	User 0	Selected 4:	Brigid Imai
+05-26-2016:00-38-42	d8a1f235-cd58-4540-a66f-398de1723cb1	LSTM_UNFEATURIZED	Selected:	Brigid Imai
+05-26-2016:00-38-42	---

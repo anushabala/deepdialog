@@ -1,0 +1,19 @@
+05-26-2016:00-11-03	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	joined
+05-26-2016:00-11-03	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0 has user ID 22e5b2191cc9427eae21c402e2e8d598
+05-26-2016:00-11-12	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Know anyone at uber?
+05-26-2016:00-11-12	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-12	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:00-11-12	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(susanna pulley, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (kristie bolduc, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-11-17	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	i do not have any friends at apple
+05-26-2016:00-11-33	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	How about uber or amazon
+05-26-2016:00-11-33	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-33	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:00-11-33	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(susanna pulley, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (kristie bolduc, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-11-36	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	i only have apple
+05-26-2016:00-11-49	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Selected 2:	Elene Prouty
+05-26-2016:00-11-50	19db1210-014a-4df1-a595-6d1fa0588ca6	User 0	Elene
+05-26-2016:00-11-50	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elene],[<fullName>:]
+05-26-2016:00-11-50	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:00-11-50	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(elene prouty, 2.00),  (susanna pulley, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (kristie bolduc, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-11-53	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	Selected:	Elene Prouty
+05-26-2016:00-11-53	---

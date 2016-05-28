@@ -1,0 +1,19 @@
+05-26-2016:00-38-05	34742628-7ab6-45f7-96f0-be506614b2d9	User 0	joined
+05-26-2016:00-38-05	34742628-7ab6-45f7-96f0-be506614b2d9	User 0 has user ID 9cdf05a6419b496681e6e8e8ad672636
+05-26-2016:00-38-11	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	all my friend work at google and 1 works at facebook
+05-26-2016:00-38-18	34742628-7ab6-45f7-96f0-be506614b2d9	User 0	nope
+05-26-2016:00-38-18	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-18	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-38-18	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(mai buskirk, 0.00),  (danita hanby, 0.00),  (jesica seaton, 0.00),  (tangela raschke, 0.00),  (josh gouin, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-38-19	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	hi
+05-26-2016:00-38-24	34742628-7ab6-45f7-96f0-be506614b2d9	User 0	i went to columbia studied math and work at apple
+05-26-2016:00-38-24	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-24	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-38-24	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(danita hanby, 1.00),  (jesica seaton, 1.00),  (josh gouin, 1.00),  (mai buskirk, 0.00),  (tangela raschke, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-38-26	34742628-7ab6-45f7-96f0-be506614b2d9	LSTM_FEATURIZED	Selected:	Danita Hanby
+05-26-2016:00-38-26	34742628-7ab6-45f7-96f0-be506614b2d9	User 0	you?
+05-26-2016:00-38-26	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-26	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-38-26	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(danita hanby, 1.00),  (jesica seaton, 1.00),  (josh gouin, 1.00),  (mai buskirk, 0.00),  (tangela raschke, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-38-30	34742628-7ab6-45f7-96f0-be506614b2d9	User 0	Selected 0:	Danita Hanby
+05-26-2016:00-38-30	---

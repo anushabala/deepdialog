@@ -1,0 +1,21 @@
+05-26-2016:00-15-22	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	joined
+05-26-2016:00-15-22	6964b135-3101-4647-922d-7fcdbf9a5868	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-15-24	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	hey
+05-26-2016:00-15-27	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	hi
+05-26-2016:00-15-27	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-27	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:00-15-27	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(celsa navarrete, 0.10),  (eldon lindholm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (rick damico, 0.10),  (karma echeverria, 0.10),  (kerry carter, 0.10),  (ngan hornung, 0.10),  (lucienne whitting, 0.10),  (janina rousey, 0.10),  
+05-26-2016:00-15-32	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	went to upenn for math, work at google
+05-26-2016:00-15-32	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>: math],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-32	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:00-15-32	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(celsa navarrete, 0.16),  (karma echeverria, 0.16),  (kerry carter, 0.16),  (ngan hornung, 0.16),  (eldon lindholm, 0.06),  (maryln hagaman, 0.06),  (angelo patch, 0.06),  (rick damico, 0.06),  (lucienne whitting, 0.06),  (janina rousey, 0.06),  
+05-26-2016:00-15-40	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	i'm from stanford, studied linguistics, work at amazon
+05-26-2016:00-15-43	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	what about you?
+05-26-2016:00-15-54	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	do you know ngan
+05-26-2016:00-15-54	6964b135-3101-4647-922d-7fcdbf9a5868	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ngan],[<fullName>:]
+05-26-2016:00-15-54	6964b135-3101-4647-922d-7fcdbf9a5868	SYNONYMS	
+05-26-2016:00-15-54	6964b135-3101-4647-922d-7fcdbf9a5868	PROBABILITIES	(ngan hornung, 0.24),  (celsa navarrete, 0.09),  (karma echeverria, 0.09),  (kerry carter, 0.09),  (eldon lindholm, 0.08),  (maryln hagaman, 0.08),  (angelo patch, 0.08),  (rick damico, 0.08),  (lucienne whitting, 0.08),  (janina rousey, 0.08),  
+05-26-2016:00-15-56	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	yep
+05-26-2016:00-15-58	6964b135-3101-4647-922d-7fcdbf9a5868	DEFAULT_BOT	Selected:	Ngan Hornung
+05-26-2016:00-15-59	6964b135-3101-4647-922d-7fcdbf9a5868	User 1	Selected 4:	Ngan Hornung
+05-26-2016:00-16-00	---

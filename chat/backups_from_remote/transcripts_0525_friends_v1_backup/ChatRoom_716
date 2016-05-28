@@ -1,0 +1,18 @@
+05-26-2016:00-47-37	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	joined
+05-26-2016:00-47-37	34742628-7ab6-45f7-96f0-be506614b2d9	User 1 has user ID 703c5a50450344d88bdfa419585590af
+05-26-2016:00-47-40	34742628-7ab6-45f7-96f0-be506614b2d9	DEFAULT_BOT	hey
+05-26-2016:00-47-46	34742628-7ab6-45f7-96f0-be506614b2d9	DEFAULT_BOT	i went to columbia and majored in math
+05-26-2016:00-47-49	34742628-7ab6-45f7-96f0-be506614b2d9	DEFAULT_BOT	work at apple
+05-26-2016:00-47-55	34742628-7ab6-45f7-96f0-be506614b2d9	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-48-00	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	i studied physics at berkley and work for google
+05-26-2016:00-48-00	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-00	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-48-00	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(kristie bolduc, 0.11),  (danita hanby, 0.11),  (pearl dollard, 0.11),  (kendrick friday, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (susanna pulley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  
+05-26-2016:00-48-04	34742628-7ab6-45f7-96f0-be506614b2d9	DEFAULT_BOT	hmm, do you know kristie?
+05-26-2016:00-48-39	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	no, what about jesica?
+05-26-2016:00-48-39	34742628-7ab6-45f7-96f0-be506614b2d9	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jesica],[<fullName>:]
+05-26-2016:00-48-39	34742628-7ab6-45f7-96f0-be506614b2d9	SYNONYMS	
+05-26-2016:00-48-39	34742628-7ab6-45f7-96f0-be506614b2d9	PROBABILITIES	(kristie bolduc, 0.10),  (pearl dollard, 0.10),  (danita hanby, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (susanna pulley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (kendrick friday, 0.10),  (riva noles, 0.10),  
+05-26-2016:00-48-44	34742628-7ab6-45f7-96f0-be506614b2d9	DEFAULT_BOT	do you know pearl, danita or bernita?
+05-26-2016:00-48-49	34742628-7ab6-45f7-96f0-be506614b2d9	User 1	Selected 9:	Danita Hanby
+05-26-2016:00-49-52	---

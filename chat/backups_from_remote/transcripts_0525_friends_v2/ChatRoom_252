@@ -1,0 +1,28 @@
+05-26-2016:02-08-20	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	joined
+05-26-2016:02-08-20	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-08-27	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	all my friend work at facebook and 1 works at facebook
+05-26-2016:02-08-33	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	gregg
+05-26-2016:02-08-33	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gregg],[<fullName>:]
+05-26-2016:02-08-33	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:02-08-35	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	no
+05-26-2016:02-08-50	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	uber friends for me
+05-26-2016:02-08-50	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-50	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:02-08-52	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	no apple
+05-26-2016:02-08-58	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	oliver at apple
+05-26-2016:02-08-58	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: oliver],[<fullName>:]
+05-26-2016:02-08-58	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:02-09-00	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	no uber
+05-26-2016:02-09-09	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	tamara at apple
+05-26-2016:02-09-09	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: tamara],[<fullName>:]
+05-26-2016:02-09-09	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:02-09-16	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	1 friend at facebook in the rest of facebook 
+05-26-2016:02-09-19	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	1 at uber 
+05-26-2016:02-09-24	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	1 friend at facebook rest at apple
+05-26-2016:02-09-28	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	who is at uber?
+05-26-2016:02-09-28	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-28	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:02-09-30	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	one
+05-26-2016:02-09-52	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	who?
+05-26-2016:02-09-52	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-52	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	

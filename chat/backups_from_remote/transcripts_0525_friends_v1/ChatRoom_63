@@ -1,0 +1,26 @@
+05-26-2016:00-14-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	joined
+05-26-2016:00-14-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0 has user ID ce285225e2604ccc8e54f5e59622dc97
+05-26-2016:00-14-15	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:00-14-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	What?
+05-26-2016:00-14-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-14-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 0.00),  (maryln hagaman, 0.00),  (emmanuel eliason, 0.00),  (angelo patch, 0.00),  (branden sjoberg, 0.00),  (raymond polite, 0.00),  (kerry carter, 0.00),  (emmitt nations, 0.00),  (janina rousey, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-14-24	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_UNFEATURIZED	hi
+05-26-2016:00-14-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	I have a friend Kerry that works at amazon
+05-26-2016:00-14-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>: kerry],[<fullName>:]
+05-26-2016:00-14-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-14-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 2.00),  (celsa navarrete, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (branden sjoberg, 1.00),  (raymond polite, 1.00),  (emmitt nations, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  (emmanuel eliason, 0.00),  
+05-26-2016:00-14-48	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_UNFEATURIZED	yes
+05-26-2016:00-15-22	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	Yes what?
+05-26-2016:00-15-22	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-22	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-15-22	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 2.00),  (celsa navarrete, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (branden sjoberg, 1.00),  (raymond polite, 1.00),  (emmitt nations, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  (emmanuel eliason, 0.00),  
+05-26-2016:00-15-25	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_UNFEATURIZED	do you have kerry carter
+05-26-2016:00-15-29	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	Yes
+05-26-2016:00-15-29	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-29	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-15-29	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 2.00),  (celsa navarrete, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (branden sjoberg, 1.00),  (raymond polite, 1.00),  (emmitt nations, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  (emmanuel eliason, 0.00),  
+05-26-2016:00-15-29	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_UNFEATURIZED	or 
+05-26-2016:00-15-32	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	Selected 7:	Kerry Carter
+05-26-2016:00-15-35	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_UNFEATURIZED	Selected:	Kerry Carter
+05-26-2016:00-15-35	---

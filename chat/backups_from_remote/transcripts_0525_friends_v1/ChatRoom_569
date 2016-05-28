@@ -1,0 +1,62 @@
+05-26-2016:00-39-27	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	joined
+05-26-2016:00-39-27	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0 has user ID 57f6f4d89f8f49da9f659b5885bc6cc8
+05-26-2016:00-39-29	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	hi
+05-26-2016:00-39-29	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-29	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-39-29	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 0.00),  (quinn courter, 0.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (geneva hofmeister, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-39-34	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-39-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	I went to Columbia and studied Math
+05-26-2016:00-39-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-39-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-39-37	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	hi
+05-26-2016:00-39-43	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	did one of your friend go to upenn and major in computer science
+05-26-2016:00-39-56	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Thanh Hartin
+05-26-2016:00-39-56	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: thanh hartin]
+05-26-2016:00-39-56	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-39-56	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-39-58	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	nope
+05-26-2016:00-40-10	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Where did you go to school??
+05-26-2016:00-40-10	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-10	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-40-10	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-40-11	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	stanford
+05-26-2016:00-40-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	And studied??
+05-26-2016:00-40-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-40-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-40-18	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	Selected:	Quinn Courter
+05-26-2016:00-40-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	stooop
+05-26-2016:00-40-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-40-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-40-29	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	do you know geneva hofmeister
+05-26-2016:00-40-34	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Riva Noles?
+05-26-2016:00-40-34	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: riva noles]
+05-26-2016:00-40-34	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-40-34	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-40-35	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	no
+05-26-2016:00-40-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	WHAT DID YOU STUDY
+05-26-2016:00-40-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-40-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-40-44	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	computer science
+05-26-2016:00-40-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	And you don't know Riva Noles?
+05-26-2016:00-40-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: riva noles]
+05-26-2016:00-40-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-40-53	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-40-55	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	yes 
+05-26-2016:00-40-57	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	a couple
+05-26-2016:00-41-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	????????????
+05-26-2016:00-41-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-41-00	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-41-02	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	Selected:	Quinn Courter
+05-26-2016:00-41-08	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	WHY
+05-26-2016:00-41-08	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-08	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-41-08	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(quinn courter, 2.00),  (geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (nathanial towery, 1.00),  (willie wicks, 1.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  
+05-26-2016:00-41-12	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	then you know geneva hofmeister
+05-26-2016:00-41-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Selected 2:	Geneva Hofmeister
+05-26-2016:00-41-19	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	Selected:	Geneva Hofmeister
+05-26-2016:00-41-19	---

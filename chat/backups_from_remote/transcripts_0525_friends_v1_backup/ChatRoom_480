@@ -1,0 +1,21 @@
+05-26-2016:00-34-00	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	joined
+05-26-2016:00-34-00	66cfe508-e9be-47b1-a9b6-d19115629538	User 1 has user ID 57f6f4d89f8f49da9f659b5885bc6cc8
+05-26-2016:00-34-02	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	hi
+05-26-2016:00-34-02	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-02	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-34-02	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(oliver roker, 0.10),  (gennie dagley, 0.10),  (archie hiltz, 0.10),  (francine bateman, 0.10),  (santina kenley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-34-04	66cfe508-e9be-47b1-a9b6-d19115629538	DEFAULT_BOT	hey!
+05-26-2016:00-34-13	66cfe508-e9be-47b1-a9b6-d19115629538	DEFAULT_BOT	i went to university of pennsylvania, majored in physics, work at apple
+05-26-2016:00-34-13	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	I went to  UC Berkeley and studied Linguistics
+05-26-2016:00-34-13	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-13	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-34-13	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(oliver roker, 0.10),  (gennie dagley, 0.10),  (archie hiltz, 0.10),  (francine bateman, 0.10),  (santina kenley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-34-19	66cfe508-e9be-47b1-a9b6-d19115629538	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:00-34-21	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	Do you know Archie?
+05-26-2016:00-34-21	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: archie],[<fullName>:]
+05-26-2016:00-34-21	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-34-21	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(archie hiltz, 0.23),  (oliver roker, 0.09),  (gennie dagley, 0.09),  (thanh hartin, 0.09),  (francine bateman, 0.09),  (santina kenley, 0.09),  (aline allshouse, 0.09),  (riva noles, 0.09),  (elene prouty, 0.09),  (lakesha platz, 0.09),  
+05-26-2016:00-34-26	66cfe508-e9be-47b1-a9b6-d19115629538	DEFAULT_BOT	yeah, that's the mutual friend
+05-26-2016:00-34-28	66cfe508-e9be-47b1-a9b6-d19115629538	DEFAULT_BOT	Selected:	Archie Hiltz
+05-26-2016:00-34-29	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	Selected 1:	Archie Hiltz
+05-26-2016:00-34-29	---

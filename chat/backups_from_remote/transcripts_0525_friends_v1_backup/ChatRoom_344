@@ -1,0 +1,16 @@
+05-26-2016:00-28-51	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	joined
+05-26-2016:00-28-51	62f07f79-b605-4f76-82bc-7bebe611334b	User 0 has user ID 4694c142c287424baf730ba851a23848
+05-26-2016:00-28-57	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at facebook
+05-26-2016:00-29-05	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	Who works at Facebook?
+05-26-2016:00-29-05	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-05	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-29-05	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-29-07	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_UNFEATURIZED	lawanna mars
+05-26-2016:00-29-36	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	All my friends are at Facebook. I don't see Lawanna, though. 
+05-26-2016:00-29-36	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>: lawanna],[<fullName>:]
+05-26-2016:00-29-36	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:00-29-36	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 3.00),  (birgit heid, 2.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:00-29-39	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_UNFEATURIZED	birgit heid
+05-26-2016:00-29-49	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	Selected 7:	Birgit Heid
+05-26-2016:00-29-50	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_UNFEATURIZED	Selected:	Birgit Heid
+05-26-2016:00-29-50	---

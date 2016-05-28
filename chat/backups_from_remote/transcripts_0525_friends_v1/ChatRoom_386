@@ -1,0 +1,49 @@
+05-26-2016:00-30-33	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	joined
+05-26-2016:00-30-33	f3b7f27a-d114-4f32-8528-137860182e5e	User 0 has user ID 1cc26519f6b1415f8ae16c9098fdc9f1
+05-26-2016:00-30-35	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	hiya
+05-26-2016:00-30-35	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-35	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-30-35	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (leena hensel, 0.00),  (josefina ferrigno, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-30-37	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	hi
+05-26-2016:00-30-47	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	most my peeps work at google, three at apple
+05-26-2016:00-30-47	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-47	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-30-47	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(nena krone, 1.00),  (leena hensel, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (santina kenley, 0.00),  (josefina ferrigno, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-30-54	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	I went to PA for math and work at google
+05-26-2016:00-30-54	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>: math],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-54	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-30-54	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(leena hensel, 2.00),  (alberto thurlow, 1.00),  (jon geissler, 1.00),  (nena krone, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (santina kenley, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-31-03	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	i went to university of california - berkeley and studied computer science i work for uber 
+05-26-2016:00-31-07	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	do you know nena krone
+05-26-2016:00-31-13	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	i have two friends that work at uber leena hensel or marlyn 
+05-26-2016:00-31-21	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	they both went to university of california - berkeley and majored in economics
+05-26-2016:00-31-28	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	no uber here
+05-26-2016:00-31-28	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-28	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-31-28	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (leena hensel, 2.00),  (josefina ferrigno, 2.00),  (joetta sequeira, 1.00),  (randi thorson, 1.00),  (santina kenley, 1.00),  (nena krone, 1.00),  (willie wicks, 1.00),  (clorinda hites, 0.00),  
+05-26-2016:00-31-33	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	i have all google friends and one apple
+05-26-2016:00-31-43	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	who at apple?
+05-26-2016:00-31-43	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-43	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-31-43	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (nena krone, 2.00),  (leena hensel, 2.00),  (josefina ferrigno, 2.00),  (joetta sequeira, 1.00),  (randi thorson, 1.00),  (santina kenley, 1.00),  (willie wicks, 1.00),  (clorinda hites, 0.00),  
+05-26-2016:00-31-45	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	alberto thurlow 
+05-26-2016:00-31-47	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	thraikill
+05-26-2016:00-31-59	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	nope :(
+05-26-2016:00-31-59	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-59	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-31-59	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (nena krone, 2.00),  (leena hensel, 2.00),  (josefina ferrigno, 2.00),  (joetta sequeira, 1.00),  (randi thorson, 1.00),  (santina kenley, 1.00),  (willie wicks, 1.00),  (clorinda hites, 0.00),  
+05-26-2016:00-32-03	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	jon geissler or nena krone 
+05-26-2016:00-32-06	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	or josefina ferrigno
+05-26-2016:00-32-18	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	kam?
+05-26-2016:00-32-18	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kam],[<fullName>:]
+05-26-2016:00-32-18	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-32-18	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (nena krone, 2.00),  (leena hensel, 2.00),  (josefina ferrigno, 2.00),  (joetta sequeira, 1.00),  (randi thorson, 1.00),  (santina kenley, 1.00),  (willie wicks, 1.00),  (clorinda hites, 0.00),  
+05-26-2016:00-32-21	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	those are the only uber
+05-26-2016:00-32-48	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	know kam wey?
+05-26-2016:00-32-48	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: kam wey]
+05-26-2016:00-32-48	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-32-48	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (nena krone, 2.00),  (leena hensel, 2.00),  (josefina ferrigno, 2.00),  (joetta sequeira, 1.00),  (randi thorson, 1.00),  (santina kenley, 1.00),  (willie wicks, 1.00),  (clorinda hites, 0.00),  
+05-26-2016:00-32-51	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	leena hensel from facebook
+05-26-2016:00-32-56	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	Selected 4:	Leena Hensel
+05-26-2016:00-32-58	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	Selected:	Leena Hensel
+05-26-2016:00-32-59	---

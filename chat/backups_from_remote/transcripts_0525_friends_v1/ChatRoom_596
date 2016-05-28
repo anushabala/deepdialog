@@ -1,0 +1,23 @@
+05-26-2016:00-40-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	joined
+05-26-2016:00-40-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1 has user ID 823d814dd40c476c905dc96344181367
+05-26-2016:00-40-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	hi there!
+05-26-2016:00-40-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	i went to columbia, majored in computer science, work at facebook
+05-26-2016:00-41-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-41-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	I went to Stanford and majored in computer science.
+05-26-2016:00-41-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>: computer science],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-41-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.30),  (maritza horrell, 0.11),  (maia coffman, 0.11),  (justa holdeman, 0.11),  (renay guel, 0.11),  (lucienne whitting, 0.11),  (emmanuel eliason, 0.04),  (lorriane hurlbert, 0.04),  (valeri kress, 0.04),  (emerson farnsworth, 0.04),  
+05-26-2016:00-41-54	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	arlen, maritza?
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	no, is it fletcher hersman?
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: fletcher hersman]
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.12),  (maritza horrell, 0.10),  (maia coffman, 0.10),  (justa holdeman, 0.10),  (renay guel, 0.10),  (lucienne whitting, 0.10),  (emmanuel eliason, 0.09),  (lorriane hurlbert, 0.09),  (valeri kress, 0.09),  (emerson farnsworth, 0.09),  
+05-26-2016:00-42-19	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	do you know maia coffman or justa holdeman?
+05-26-2016:00-43-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	sorry no, is it Lai Pettaway or Arlen Landers?
+05-26-2016:00-43-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: lai pettaway, arlen landers]
+05-26-2016:00-43-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	[<firstName>: mai],[<fullName>: mai buskirk]
+05-26-2016:00-43-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.11),  (maritza horrell, 0.10),  (maia coffman, 0.10),  (justa holdeman, 0.10),  (renay guel, 0.10),  (lucienne whitting, 0.10),  (emmanuel eliason, 0.10),  (lorriane hurlbert, 0.10),  (valeri kress, 0.10),  (emerson farnsworth, 0.10),  
+05-26-2016:00-43-06	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	yep!
+05-26-2016:00-43-07	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	Selected:	Arlen Landers
+05-26-2016:00-43-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 3:	Arlen Landers
+05-26-2016:00-43-14	---

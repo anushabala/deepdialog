@@ -1,0 +1,19 @@
+05-26-2016:02-28-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	joined
+05-26-2016:02-28-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0 has user ID 8038940418f44af2851465a50e02ce17
+05-26-2016:02-29-03	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Hi
+05-26-2016:02-29-03	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-29-03	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-29-03	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (ayesha aarons, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:02-29-05	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	hi
+05-26-2016:02-29-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Do any of your friends work at uber?
+05-26-2016:02-29-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-29-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-29-11	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (ayesha aarons, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:02-29-20	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	i went to university of california - berkeley and studied computer science i work at apple
+05-26-2016:02-29-39	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Do you have ayesha as your friend?
+05-26-2016:02-29-39	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:02-29-39	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<firstName>: as],[<fullName>: as]
+05-26-2016:02-29-39	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:02-29-40	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	Selected:	Ayesha Aarons
+05-26-2016:02-29-45	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Selected 8:	Ayesha Aarons
+05-26-2016:02-30-46	---

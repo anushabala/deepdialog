@@ -1,0 +1,33 @@
+05-26-2016:02-13-37	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	joined
+05-26-2016:02-13-37	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0 has user ID d20ea5fc8f5d4b9893a0a29b4ef72fe1
+05-26-2016:02-13-41	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	hey
+05-26-2016:02-13-41	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-41	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:02-13-41	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(sarah lafond, 0.00),  (colin higby, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (rick damico, 0.00),  (laverna bjornson, 0.00),  (emmitt nations, 0.00),  (branden sjoberg, 0.00),  (janina rousey, 0.00),  (candis kita, 0.00),  
+05-26-2016:02-13-48	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	i went to columbia and studied physics i work at amazon
+05-26-2016:02-14-01	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	i have one friend from amazon
+05-26-2016:02-14-01	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-01	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:02-14-01	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(sarah lafond, 1.00),  (colin higby, 1.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (rick damico, 1.00),  (emmitt nations, 1.00),  (branden sjoberg, 1.00),  (janina rousey, 1.00),  (candis kita, 1.00),  (laverna bjornson, 0.00),  
+05-26-2016:02-14-05	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	i know sarah lafond and colin higby 
+05-26-2016:02-14-10	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	from university of california - berkeley
+05-26-2016:02-14-12	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	they studied physics too
+05-26-2016:02-14-12	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-12	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:02-14-12	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(harris schramm, 2.00),  (rick damico, 2.00),  (sarah lafond, 1.00),  (colin higby, 1.00),  (maryln hagaman, 1.00),  (laverna bjornson, 1.00),  (emmitt nations, 1.00),  (branden sjoberg, 1.00),  (janina rousey, 1.00),  (candis kita, 1.00),  
+05-26-2016:02-14-22	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	i dont know a harris schramm from university of pennsylvania other than rick damico from there
+05-26-2016:02-14-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	no not berkeley
+05-26-2016:02-14-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-14-25	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(harris schramm, 2.00),  (rick damico, 2.00),  (sarah lafond, 1.00),  (colin higby, 1.00),  (maryln hagaman, 1.00),  (laverna bjornson, 1.00),  (emmitt nations, 1.00),  (branden sjoberg, 1.00),  (janina rousey, 1.00),  (candis kita, 1.00),  
+05-26-2016:02-14-32	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	i went to columbia majored in economics and work at apple 
+05-26-2016:02-14-36	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	all my friends work at amazon
+05-26-2016:02-14-43	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	many of my friends are from apple
+05-26-2016:02-14-43	48f8e249-39f8-4cd9-9a34-3881531f3e12	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-43	48f8e249-39f8-4cd9-9a34-3881531f3e12	SYNONYMS	
+05-26-2016:02-14-43	48f8e249-39f8-4cd9-9a34-3881531f3e12	PROBABILITIES	(harris schramm, 2.00),  (rick damico, 2.00),  (laverna bjornson, 2.00),  (sarah lafond, 1.00),  (colin higby, 1.00),  (maryln hagaman, 1.00),  (emmitt nations, 1.00),  (branden sjoberg, 1.00),  (janina rousey, 1.00),  (candis kita, 1.00),  
+05-26-2016:02-14-46	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	im from columbia 
+05-26-2016:02-14-48	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	major
+05-26-2016:02-14-56	48f8e249-39f8-4cd9-9a34-3881531f3e12	User 0	Selected 2:	Rick Damico
+05-26-2016:02-14-59	48f8e249-39f8-4cd9-9a34-3881531f3e12	LSTM_UNFEATURIZED	Selected:	Rick Damico
+05-26-2016:02-14-59	---

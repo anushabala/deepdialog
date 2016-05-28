@@ -1,0 +1,22 @@
+05-26-2016:00-25-18	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 1	joined
+05-26-2016:00-25-18	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 1 has user ID a534a02bf33a4cd493838829b40332f4
+05-26-2016:00-25-20	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	hi there!
+05-26-2016:00-25-20	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 1	Hi
+05-26-2016:00-25-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-25-21	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(alberto thurlow, 0.10),  (brittanie piggott, 0.10),  (jon geissler, 0.10),  (vickey redinger, 0.10),  (jody tropea, 0.10),  (kathaleen brough, 0.10),  (pearl dollard, 0.10),  (graig chill, 0.10),  (kendrick friday, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:00-25-29	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	i went to university of pennsylvania, majored in physics, work at uber
+05-26-2016:00-25-33	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	school major company?
+05-26-2016:00-25-39	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 1	I went to stanford for linguistics and work at google.
+05-26-2016:00-25-39	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-39	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-25-39	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(delbert gapinski, 0.37),  (brittanie piggott, 0.14),  (vickey redinger, 0.14),  (alberto thurlow, 0.05),  (jon geissler, 0.05),  (jody tropea, 0.05),  (kathaleen brough, 0.05),  (graig chill, 0.05),  (pearl dollard, 0.05),  (kendrick friday, 0.05),  
+05-26-2016:00-25-45	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	do you know delbert gapinski or brittanie piggott?
+05-26-2016:00-25-52	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 1	Delbert is my homie!
+05-26-2016:00-25-52	8c124f6b-a878-489a-86c2-0ba7bcd092c7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: delbert],[<fullName>:]
+05-26-2016:00-25-52	8c124f6b-a878-489a-86c2-0ba7bcd092c7	SYNONYMS	
+05-26-2016:00-25-52	8c124f6b-a878-489a-86c2-0ba7bcd092c7	PROBABILITIES	(delbert gapinski, 0.29),  (brittanie piggott, 0.08),  (vickey redinger, 0.08),  (alberto thurlow, 0.08),  (jon geissler, 0.08),  (jody tropea, 0.08),  (kathaleen brough, 0.08),  (graig chill, 0.08),  (pearl dollard, 0.08),  (kendrick friday, 0.08),  
+05-26-2016:00-25-53	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	yes
+05-26-2016:00-25-54	8c124f6b-a878-489a-86c2-0ba7bcd092c7	User 1	Selected 1:	Delbert Gapinski
+05-26-2016:00-25-56	8c124f6b-a878-489a-86c2-0ba7bcd092c7	DEFAULT_BOT	Selected:	Delbert Gapinski
+05-26-2016:00-25-56	---

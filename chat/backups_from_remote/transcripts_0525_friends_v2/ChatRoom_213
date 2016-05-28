@@ -1,0 +1,21 @@
+05-26-2016:02-03-52	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	joined
+05-26-2016:02-03-52	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-03-58	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:02-04-06	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Hi, I went to uc berkeley and work at apple with all my friends
+05-26-2016:02-04-06	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-06	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-04-06	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (jody tropea, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-04-12	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	do you know ayesha aarons or alberto thurlow
+05-26-2016:02-04-15	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	none at uber for me
+05-26-2016:02-04-15	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-15	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:02-04-15	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(alberto thurlow, 1.00),  (sade kenner, 1.00),  (keesha ahart, 1.00),  (santina kenley, 1.00),  (jody tropea, 1.00),  (kathaleen brough, 1.00),  (ayesha aarons, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (delbert gapinski, 1.00),  
+05-26-2016:02-04-17	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	sade kenner
+05-26-2016:02-04-19	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Selected 2:	Ayesha Aarons
+05-26-2016:02-04-53	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	joined
+05-26-2016:02-04-53	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-05-07	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	joined
+05-26-2016:02-05-07	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-05-09	---
+05-26-2016:02-05-09	7d936b30-0136-419f-8d2d-20c8b4ddd19b	LSTM_FEATURIZED	Selected:	Ayesha Aarons
+05-26-2016:02-05-10	---

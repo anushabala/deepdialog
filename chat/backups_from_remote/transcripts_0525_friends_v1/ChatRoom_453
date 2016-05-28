@@ -1,0 +1,27 @@
+05-26-2016:00-32-57	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1	joined
+05-26-2016:00-32-57	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1 has user ID a534a02bf33a4cd493838829b40332f4
+05-26-2016:00-33-00	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1	Hi
+05-26-2016:00-33-00	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-00	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-33-00	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(kristie bolduc, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (julissa bond, 0.00),  (susanna pulley, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-33-02	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_UNFEATURIZED	hi
+05-26-2016:00-33-09	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1	I went to Upenn for linguistics and work at google.
+05-26-2016:00-33-09	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-09	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-33-09	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 1.00),  (kristie bolduc, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (susanna pulley, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-33-16	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_UNFEATURIZED	i studied physics at university of california - berkeley and work at apple
+05-26-2016:00-33-25	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1	None of my friends went to berkeley
+05-26-2016:00-33-25	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-25	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:00-33-25	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 1.00),  (kristie bolduc, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (susanna pulley, 0.00),  (tobi brunette, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-33-30	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_UNFEATURIZED	all friends at apple except for one at apple
+05-26-2016:00-33-40	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1	My only apple friend is julissa.
+05-26-2016:00-33-40	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: julissa],[<fullName>:]
+05-26-2016:00-33-40	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-33-40	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 3.00),  (kristie bolduc, 1.00),  (beau roudebush, 1.00),  (gennie dagley, 1.00),  (susanna pulley, 1.00),  (tobi brunette, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (lakesha platz, 1.00),  
+05-26-2016:00-33-44	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_UNFEATURIZED	i dont know anyone from apple
+05-26-2016:00-34-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 1	But all your friends are at apple
+05-26-2016:00-34-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:00-34-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 4.00),  (kristie bolduc, 2.00),  (beau roudebush, 2.00),  (gennie dagley, 2.00),  (susanna pulley, 2.00),  (tobi brunette, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (elene prouty, 2.00),  (lakesha platz, 2.00),  
+05-26-2016:00-34-15	748ff2ad-1561-4b13-8434-7f96fa5fb498	LSTM_UNFEATURIZED	none of those went to uc university of california - berkeley majored in linguistics and work at apple

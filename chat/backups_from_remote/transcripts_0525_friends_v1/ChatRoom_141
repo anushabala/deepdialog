@@ -1,0 +1,26 @@
+05-26-2016:00-19-17	f9704564-c23c-4b19-b6d9-52223708922d	User 0	joined
+05-26-2016:00-19-17	f9704564-c23c-4b19-b6d9-52223708922d	User 0 has user ID 973ad5a470d44a5082cbbc104e0f01c2
+05-26-2016:00-19-19	f9704564-c23c-4b19-b6d9-52223708922d	User 0	hi
+05-26-2016:00-19-19	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-19	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-19-21	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	hi there!
+05-26-2016:00-19-26	f9704564-c23c-4b19-b6d9-52223708922d	User 0	I went to UPenn and studied Physics
+05-26-2016:00-19-26	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-26	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-19-31	f9704564-c23c-4b19-b6d9-52223708922d	User 0	I work at Apple
+05-26-2016:00-19-31	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-31	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-19-37	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	i went to stanford and majored in linguistics
+05-26-2016:00-19-38	f9704564-c23c-4b19-b6d9-52223708922d	User 0	All my friends work at Apple as well
+05-26-2016:00-19-38	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-38	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<firstName>: asa],[<fullName>: asa cadena]
+05-26-2016:00-19-42	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	work at google
+05-26-2016:00-19-47	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:00-19-58	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Are you not getting my messages?
+05-26-2016:00-19-58	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-58	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-20-00	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	gavin, mose?
+05-26-2016:00-20-06	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Do you know Riva Noles?
+05-26-2016:00-20-06	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: riva noles]
+05-26-2016:00-20-06	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-20-09	f9704564-c23c-4b19-b6d9-52223708922d	DEFAULT_BOT	denny, lashaunda, jesica?

@@ -1,0 +1,32 @@
+05-26-2016:00-28-25	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	joined
+05-26-2016:00-28-25	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0 has user ID a534a02bf33a4cd493838829b40332f4
+05-26-2016:00-28-27	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	hey
+05-26-2016:00-28-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Hi
+05-26-2016:00-28-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-28-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.10),  (sherika rust, 0.10),  (beau roudebush, 0.10),  (cori runion, 0.10),  (tyson rankins, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (lai pettaway, 0.10),  (fletcher hersman, 0.10),  (birgit heid, 0.10),  
+05-26-2016:00-28-37	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:00-28-38	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	I went to stanford for linguistics and work at facebook
+05-26-2016:00-28-38	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-38	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-28-38	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.15),  (cori runion, 0.15),  (tyson rankins, 0.15),  (josh gouin, 0.15),  (birgit heid, 0.15),  (sherika rust, 0.05),  (beau roudebush, 0.05),  (tess lister, 0.05),  (lai pettaway, 0.05),  (fletcher hersman, 0.05),  
+05-26-2016:00-28-42	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	work at google
+05-26-2016:00-28-44	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	you?
+05-26-2016:00-29-00	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	None of my friends work at google.
+05-26-2016:00-29-00	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-00	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-29-00	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(lashaunda carothers, 0.12),  (cori runion, 0.12),  (tyson rankins, 0.12),  (josh gouin, 0.12),  (sherika rust, 0.11),  (tess lister, 0.11),  (lai pettaway, 0.11),  (fletcher hersman, 0.11),  (birgit heid, 0.04),  (beau roudebush, 0.04),  
+05-26-2016:00-29-04	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	lashaunda carothers?
+05-26-2016:00-29-12	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	All facebook except for gavin at apple.
+05-26-2016:00-29-12	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple],[<firstName>: gavin],[<fullName>:]
+05-26-2016:00-29-12	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-29-12	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(birgit heid, 0.19),  (beau roudebush, 0.19),  (lashaunda carothers, 0.08),  (cori runion, 0.08),  (tyson rankins, 0.08),  (josh gouin, 0.08),  (sherika rust, 0.08),  (tess lister, 0.08),  (lai pettaway, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:00-29-16	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	birgit, beau?
+05-26-2016:00-29-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	I know Birgit
+05-26-2016:00-29-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:00-29-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-29-21	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(birgit heid, 0.25),  (beau roudebush, 0.09),  (lashaunda carothers, 0.08),  (cori runion, 0.08),  (tyson rankins, 0.08),  (josh gouin, 0.08),  (sherika rust, 0.08),  (tess lister, 0.08),  (lai pettaway, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:00-29-24	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	yep
+05-26-2016:00-29-24	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Selected 7:	Birgit Heid
+05-26-2016:00-29-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	Selected:	Birgit Heid
+05-26-2016:00-29-26	---

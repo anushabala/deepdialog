@@ -1,0 +1,26 @@
+05-26-2016:00-20-42	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1	joined
+05-26-2016:00-20-42	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1 has user ID 91d07fd890414b26996e32157d04ac72
+05-26-2016:00-20-45	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	hi there!
+05-26-2016:00-20-50	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	i'm from columbia, math, facebook
+05-26-2016:00-20-53	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	what about you
+05-26-2016:00-20-55	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1	I am from Berkeley
+05-26-2016:00-20-55	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-55	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	[<schoolName>: university of california berkeley],[<firstName>: kam],[<fullName>: kam wey]
+05-26-2016:00-20-55	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(laurette thrailkill, 0.10),  (quinn courter, 0.10),  (brittney hunley, 0.10),  (verlie fredette, 0.10),  (sheilah steitz, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (fletcher hass, 0.10),  (elene prouty, 0.10),  (guillermo mantz, 0.10),  
+05-26-2016:00-21-00	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	do you know laurette thrailkill?
+05-26-2016:00-21-03	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1	I studied linguistics and work at google
+05-26-2016:00-21-03	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-03	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-21-03	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(laurette thrailkill, 0.18),  (verlie fredette, 0.18),  (sheilah steitz, 0.18),  (quinn courter, 0.07),  (brittney hunley, 0.07),  (justa holdeman, 0.07),  (darrel oden, 0.07),  (fletcher hass, 0.07),  (elene prouty, 0.07),  (guillermo mantz, 0.07),  
+05-26-2016:00-21-04	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1	no
+05-26-2016:00-21-04	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-04	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-21-04	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(laurette thrailkill, 0.11),  (verlie fredette, 0.11),  (sheilah steitz, 0.11),  (quinn courter, 0.10),  (brittney hunley, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (fletcher hass, 0.10),  (elene prouty, 0.10),  (guillermo mantz, 0.10),  
+05-26-2016:00-21-10	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	are verlie or sheilah on your list?
+05-26-2016:00-21-14	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1	Verlie
+05-26-2016:00-21-14	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: verlie],[<fullName>:]
+05-26-2016:00-21-14	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-21-14	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(verlie fredette, 0.23),  (laurette thrailkill, 0.09),  (sheilah steitz, 0.09),  (quinn courter, 0.08),  (brittney hunley, 0.08),  (justa holdeman, 0.08),  (darrel oden, 0.08),  (fletcher hass, 0.08),  (elene prouty, 0.08),  (guillermo mantz, 0.08),  
+05-26-2016:00-21-18	b343a7f3-6b17-42e5-8417-34c41f3971db	User 1	Selected 5:	Verlie Fredette
+05-26-2016:00-21-20	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	Selected:	Verlie Fredette
+05-26-2016:00-21-20	---

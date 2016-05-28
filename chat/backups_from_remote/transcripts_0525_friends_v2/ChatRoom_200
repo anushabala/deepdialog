@@ -1,0 +1,20 @@
+05-26-2016:02-02-39	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	joined
+05-26-2016:02-02-39	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1 has user ID 89ab107fb5644c9c966165a31b66fd70
+05-26-2016:02-02-46	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	HI
+05-26-2016:02-02-46	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-46	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:02-02-47	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_FEATURIZED	hi
+05-26-2016:02-02-54	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	Do you have any friends at google?
+05-26-2016:02-02-54	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-54	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:02-03-03	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_FEATURIZED	i went to university of california - berkeley and work at amazon studied physics 
+05-26-2016:02-03-05	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_FEATURIZED	no
+05-26-2016:02-03-23	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	All my friends wrk at google, so you must have one working there too
+05-26-2016:02-03-23	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-23	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:02-03-24	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_FEATURIZED	Selected:	Danyell Derose
+05-26-2016:02-03-26	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	Please check
+05-26-2016:02-03-26	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-26	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:02-03-28	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_FEATURIZED	select her 
+05-26-2016:02-03-29	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	Selected 6:	Danyell Derose

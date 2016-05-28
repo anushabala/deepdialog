@@ -1,0 +1,39 @@
+05-26-2016:00-23-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	joined
+05-26-2016:00-23-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1 has user ID f7fd14aaa74e4c73af45b6df4fed4568
+05-26-2016:00-23-53	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at facebook
+05-26-2016:00-24-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	I went to the University of Pennsylvania, majored in Computer Science and I work at Facebook.  All of my friends work at Facebook except for one, who works at Apple
+05-26-2016:00-24-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>: computer science],[<schoolName>: university of pennsylvania],[<companyName>: facebook, facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-20	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 2.00),  (julissa bond, 2.00),  (nena krone, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-24-24	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	all my friends work at apple
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Thanh Hartin?
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: thanh hartin]
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 2.00),  (julissa bond, 2.00),  (nena krone, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-24-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	frederick willetts
+05-26-2016:00-25-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	No, not Frederick
+05-26-2016:00-25-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: frederick],[<fullName>:]
+05-26-2016:00-25-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-25-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 3.00),  (julissa bond, 2.00),  (nena krone, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-25-08	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	julissa bond
+05-26-2016:00-25-13	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	No, not her
+05-26-2016:00-25-13	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-13	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-25-13	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 3.00),  (julissa bond, 2.00),  (nena krone, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-25-17	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	whats my qualification 
+05-26-2016:00-25-19	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	major
+05-26-2016:00-25-38	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	My major is Computer Science
+05-26-2016:00-25-38	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-38	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-25-38	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 4.00),  (nena krone, 3.00),  (julissa bond, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-25-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	economics
+05-26-2016:00-25-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Fletcher Hass?
+05-26-2016:00-25-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: fletcher hass]
+05-26-2016:00-25-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-25-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 4.00),  (nena krone, 3.00),  (julissa bond, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-25-50	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	where did you study
+05-26-2016:00-25-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	University of Penn
+05-26-2016:00-25-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-25-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 4.00),  (julissa bond, 3.00),  (nena krone, 3.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:00-26-00	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	frederick willetts

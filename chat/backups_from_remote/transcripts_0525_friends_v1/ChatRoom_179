@@ -1,0 +1,26 @@
+05-26-2016:00-20-55	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1	joined
+05-26-2016:00-20-55	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1 has user ID 57f6f4d89f8f49da9f659b5885bc6cc8
+05-26-2016:00-20-57	6b5c0133-4827-41d2-8cd5-3ec9092232dd	DEFAULT_BOT	hey!
+05-26-2016:00-20-59	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1	hi!
+05-26-2016:00-20-59	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-59	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-20-59	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(clarisa mattison, 0.10),  (tamara killeen, 0.10),  (jesica seaton, 0.10),  (sheilah steitz, 0.10),  (lai pettaway, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (fletcher hass, 0.10),  (birgit heid, 0.10),  (willie wicks, 0.10),  
+05-26-2016:00-21-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	DEFAULT_BOT	i went to columbia and majored in economics
+05-26-2016:00-21-08	6b5c0133-4827-41d2-8cd5-3ec9092232dd	DEFAULT_BOT	work at facebook
+05-26-2016:00-21-10	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1	i went to uc berkeley and studied comp sci
+05-26-2016:00-21-10	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-10	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	[<major>: computer science],[<schoolName>: university of california berkeley]
+05-26-2016:00-21-10	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(justa holdeman, 0.15),  (clarisa mattison, 0.09),  (tamara killeen, 0.09),  (jesica seaton, 0.09),  (sheilah steitz, 0.09),  (lai pettaway, 0.09),  (darrel oden, 0.09),  (fletcher hass, 0.09),  (birgit heid, 0.09),  (willie wicks, 0.09),  
+05-26-2016:00-21-14	6b5c0133-4827-41d2-8cd5-3ec9092232dd	DEFAULT_BOT	major, school, company?
+05-26-2016:00-21-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1	Do you know Williw?
+05-26-2016:00-21-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	[<firstName>: willie],[<fullName>: willie wicks]
+05-26-2016:00-21-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 0.33),  (justa holdeman, 0.07),  (clarisa mattison, 0.07),  (tamara killeen, 0.07),  (jesica seaton, 0.07),  (sheilah steitz, 0.07),  (lai pettaway, 0.07),  (darrel oden, 0.07),  (fletcher hass, 0.07),  (birgit heid, 0.07),  
+05-26-2016:00-21-19	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1	Willie*
+05-26-2016:00-21-19	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: willie],[<fullName>:]
+05-26-2016:00-21-19	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-21-19	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 0.28),  (justa holdeman, 0.08),  (clarisa mattison, 0.08),  (tamara killeen, 0.08),  (jesica seaton, 0.08),  (sheilah steitz, 0.08),  (lai pettaway, 0.08),  (darrel oden, 0.08),  (fletcher hass, 0.08),  (birgit heid, 0.08),  
+05-26-2016:00-21-24	6b5c0133-4827-41d2-8cd5-3ec9092232dd	DEFAULT_BOT	hmm, do you know justa?
+05-26-2016:00-21-26	6b5c0133-4827-41d2-8cd5-3ec9092232dd	DEFAULT_BOT	Selected:	Willie Wicks
+05-26-2016:00-21-30	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 1	Selected 1:	Willie Wicks
+05-26-2016:00-21-30	---

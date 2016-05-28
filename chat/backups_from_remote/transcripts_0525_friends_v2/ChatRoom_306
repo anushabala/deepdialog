@@ -1,0 +1,23 @@
+05-26-2016:02-14-57	56748399-82da-486b-9ec5-916e3d1288c3	User 0	joined
+05-26-2016:02-14-57	56748399-82da-486b-9ec5-916e3d1288c3	User 0 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-14-59	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	hey
+05-26-2016:02-15-03	56748399-82da-486b-9ec5-916e3d1288c3	User 0	hello
+05-26-2016:02-15-03	56748399-82da-486b-9ec5-916e3d1288c3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-03	56748399-82da-486b-9ec5-916e3d1288c3	SYNONYMS	
+05-26-2016:02-15-03	56748399-82da-486b-9ec5-916e3d1288c3	PROBABILITIES	(brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (lillia mikel, 0.10),  (keesha ahart, 0.10),  (nathanial towery, 0.10),  (santina kenley, 0.10),  (graig chill, 0.10),  (kendrick friday, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:02-15-10	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	i went to university of pennsylvania and majored in economics
+05-26-2016:02-15-13	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	work at uber
+05-26-2016:02-15-17	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	major school company?
+05-26-2016:02-15-19	56748399-82da-486b-9ec5-916e3d1288c3	User 0	I went to Stanford and work at facebook with allmy friends
+05-26-2016:02-15-19	56748399-82da-486b-9ec5-916e3d1288c3	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-19	56748399-82da-486b-9ec5-916e3d1288c3	SYNONYMS	
+05-26-2016:02-15-19	56748399-82da-486b-9ec5-916e3d1288c3	PROBABILITIES	(brittanie piggott, 0.20),  (delbert gapinski, 0.20),  (quinn courter, 0.07),  (jon geissler, 0.07),  (lillia mikel, 0.07),  (keesha ahart, 0.07),  (nathanial towery, 0.07),  (santina kenley, 0.07),  (graig chill, 0.07),  (kendrick friday, 0.07),  
+05-26-2016:02-15-25	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	do you know brittanie piggott or delbert gapinski?
+05-26-2016:02-15-33	56748399-82da-486b-9ec5-916e3d1288c3	User 0	delbert
+05-26-2016:02-15-33	56748399-82da-486b-9ec5-916e3d1288c3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: delbert],[<fullName>:]
+05-26-2016:02-15-33	56748399-82da-486b-9ec5-916e3d1288c3	SYNONYMS	
+05-26-2016:02-15-33	56748399-82da-486b-9ec5-916e3d1288c3	PROBABILITIES	(delbert gapinski, 0.25),  (brittanie piggott, 0.09),  (quinn courter, 0.08),  (jon geissler, 0.08),  (lillia mikel, 0.08),  (keesha ahart, 0.08),  (nathanial towery, 0.08),  (santina kenley, 0.08),  (graig chill, 0.08),  (kendrick friday, 0.08),  
+05-26-2016:02-15-35	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	yep!
+05-26-2016:02-15-37	56748399-82da-486b-9ec5-916e3d1288c3	DEFAULT_BOT	Selected:	Delbert Gapinski
+05-26-2016:02-15-39	56748399-82da-486b-9ec5-916e3d1288c3	User 0	Selected 3:	Delbert Gapinski
+05-26-2016:02-15-40	---

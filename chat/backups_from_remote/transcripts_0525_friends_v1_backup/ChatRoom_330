@@ -1,0 +1,20 @@
+05-26-2016:00-28-26	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 1	joined
+05-26-2016:00-28-26	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 1 has user ID 45374118e1b24237a48e440811588327
+05-26-2016:00-28-30	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 1	Hello!
+05-26-2016:00-28-30	60014349-2f59-4a43-adc6-6b0f2e2b3030	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-30	60014349-2f59-4a43-adc6-6b0f2e2b3030	SYNONYMS	
+05-26-2016:00-28-30	60014349-2f59-4a43-adc6-6b0f2e2b3030	PROBABILITIES	(candy astorga, 0.00),  (oliver roker, 0.00),  (tamara killeen, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (samuel tatum, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-28-36	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	all my friend work at google and 1 works at facebook
+05-26-2016:00-28-38	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	hi
+05-26-2016:00-28-46	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 1	I went to Upenn, Majored in Math and work at Facebook. All of my friends work at Facebook except 2 at Apple.
+05-26-2016:00-28-46	60014349-2f59-4a43-adc6-6b0f2e2b3030	TAGS	[<major>: math],[<schoolName>:],[<companyName>: facebook, facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-46	60014349-2f59-4a43-adc6-6b0f2e2b3030	SYNONYMS	
+05-26-2016:00-28-46	60014349-2f59-4a43-adc6-6b0f2e2b3030	PROBABILITIES	(candy astorga, 1.00),  (oliver roker, 1.00),  (tamara killeen, 1.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (samuel tatum, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-28-50	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	do you know candy astorga
+05-26-2016:00-28-55	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 1	I do
+05-26-2016:00-28-55	60014349-2f59-4a43-adc6-6b0f2e2b3030	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-55	60014349-2f59-4a43-adc6-6b0f2e2b3030	SYNONYMS	
+05-26-2016:00-28-55	60014349-2f59-4a43-adc6-6b0f2e2b3030	PROBABILITIES	(candy astorga, 1.00),  (oliver roker, 1.00),  (tamara killeen, 1.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (samuel tatum, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-28-58	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	Selected:	Candy Astorga
+05-26-2016:00-29-00	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 1	Selected 9:	Candy Astorga
+05-26-2016:00-29-00	---

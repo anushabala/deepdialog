@@ -1,0 +1,32 @@
+05-26-2016:02-10-11	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	joined
+05-26-2016:02-10-11	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0 has user ID 8d0d55bce4524116aa4c8ce8d562d044
+05-26-2016:02-10-13	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	hey
+05-26-2016:02-10-13	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-13	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-10-13	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(beau roudebush, 0.00),  (bernita kerrick, 0.00),  (quinn courter, 0.00),  (oliver roker, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (danita hanby, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-10-18	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	i went to columbia and studied math i work at apple
+05-26-2016:02-10-23	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	all amazon here except one apple friend
+05-26-2016:02-10-23	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-23	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-10-23	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(beau roudebush, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (laverna bjornson, 1.00),  (aline allshouse, 1.00),  (danita hanby, 1.00),  (elene prouty, 1.00),  (quinn courter, 0.00),  
+05-26-2016:02-10-29	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	all my friends work at apple except one
+05-26-2016:02-10-33	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	berkeley physics amazon for me
+05-26-2016:02-10-33	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-33	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	[<schoolName>: berkeley],[<firstName>: me],[<fullName>: me]
+05-26-2016:02-10-33	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(laverna bjornson, 2.00),  (danita hanby, 2.00),  (beau roudebush, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (aline allshouse, 1.00),  (elene prouty, 1.00),  (quinn courter, 0.00),  
+05-26-2016:02-10-41	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	i only have one friend from university of pennsylvania that works for uber
+05-26-2016:02-10-52	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	no uber here
+05-26-2016:02-10-52	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-52	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-10-52	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(laverna bjornson, 2.00),  (danita hanby, 2.00),  (beau roudebush, 1.00),  (bernita kerrick, 1.00),  (quinn courter, 1.00),  (oliver roker, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (aline allshouse, 1.00),  (elene prouty, 1.00),  
+05-26-2016:02-10-55	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	know laverna bjornson 
+05-26-2016:02-11-00	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	i have one friend that works at apple
+05-26-2016:02-11-01	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	nope
+05-26-2016:02-11-01	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-11-01	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-11-01	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(laverna bjornson, 2.00),  (danita hanby, 2.00),  (beau roudebush, 1.00),  (bernita kerrick, 1.00),  (quinn courter, 1.00),  (oliver roker, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (aline allshouse, 1.00),  (elene prouty, 1.00),  
+05-26-2016:02-11-05	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	everyone else works at apple 
+05-26-2016:02-11-11	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	i have a friend at uber and danita hanby at uber 
+05-26-2016:02-11-12	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	Selected 9:	Danita Hanby
+05-26-2016:02-11-15	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_UNFEATURIZED	Selected:	Danita Hanby
+05-26-2016:02-11-16	---

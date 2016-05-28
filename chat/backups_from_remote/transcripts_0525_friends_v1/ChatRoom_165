@@ -1,0 +1,22 @@
+05-26-2016:00-20-30	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	joined
+05-26-2016:00-20-30	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0 has user ID dfe9e4159a094ff8b26a54b8d7e199c5
+05-26-2016:00-20-37	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	all my friend work at amazon and 1 works at uber
+05-26-2016:00-20-44	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Selected 3:	Kendrick Friday
+05-26-2016:00-20-46	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	no
+05-26-2016:00-20-56	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Selected 1:	Susanna Pulley
+05-26-2016:00-20-58	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	Selected:	Clarisa Mattison
+05-26-2016:00-21-17	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Selected 5:	Oliver Roker
+05-26-2016:00-21-20	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	how about amazon
+05-26-2016:00-21-34	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	None
+05-26-2016:00-21-34	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-34	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-21-34	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(clarisa mattison, 0.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (aline allshouse, 0.00),  (emmitt nations, 0.00),  (gennie dagley, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-21-36	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	math
+05-26-2016:00-21-49	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Kendrick, Aline, and Lakesha
+05-26-2016:00-21-49	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kendrick, aline, lakesha],[<fullName>:]
+05-26-2016:00-21-49	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-21-49	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(aline allshouse, 1.00),  (clarisa mattison, 0.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (gennie dagley, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-21-52	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	aline allshouse
+05-26-2016:00-21-56	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Selected 4:	Aline Allshouse
+05-26-2016:00-21-59	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	Selected:	Aline Allshouse
+05-26-2016:00-21-59	---

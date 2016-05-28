@@ -1,0 +1,23 @@
+05-26-2016:02-44-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	joined
+05-26-2016:02-44-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1 has user ID 90f6502026724fe99cc7c507663aa8d0
+05-26-2016:02-44-35	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	hey
+05-26-2016:02-44-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	hey
+05-26-2016:02-44-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-44-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-44-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(lashaunda carothers, 0.10),  (eldon lindholm, 0.10),  (brigid imai, 0.10),  (brittney hunley, 0.10),  (justa holdeman, 0.10),  (jesica seaton, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:02-44-44	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	i went to columbia and majored in computer science
+05-26-2016:02-44-47	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	work at google
+05-26-2016:02-44-49	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	you?
+05-26-2016:02-44-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	I went to university of california berkley and work at amazon i majored in computer science
+05-26-2016:02-44-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-44-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:02-44-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 0.12),  (brittney hunley, 0.10),  (justa holdeman, 0.10),  (meda lahr, 0.10),  (fletcher hersman, 0.10),  (lashaunda carothers, 0.09),  (brigid imai, 0.09),  (jesica seaton, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  
+05-26-2016:02-45-05	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	do you know eldon lindholm brittney hunley or justa holdeman?
+05-26-2016:02-45-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	I know eldon
+05-26-2016:02-45-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: eldon],[<fullName>:]
+05-26-2016:02-45-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-45-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 0.24),  (brittney hunley, 0.09),  (justa holdeman, 0.09),  (meda lahr, 0.09),  (fletcher hersman, 0.09),  (lashaunda carothers, 0.08),  (brigid imai, 0.08),  (kam wey, 0.08),  (jesica seaton, 0.08),  (denny harshberger, 0.08),  
+05-26-2016:02-45-28	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	yes
+05-26-2016:02-45-30	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	Selected 5:	Eldon Lindholm
+05-26-2016:02-45-32	113d2c34-e16e-4771-8a5a-7aba6146a4a0	DEFAULT_BOT	Selected:	Eldon Lindholm
+05-26-2016:02-45-32	---

@@ -1,0 +1,19 @@
+05-26-2016:00-45-14	025ec4a1-020e-4133-b078-674955bac256	User 0	joined
+05-26-2016:00-45-14	025ec4a1-020e-4133-b078-674955bac256	User 0 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:00-45-16	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	hello
+05-26-2016:00-45-22	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	i went to stanford and majored in physics
+05-26-2016:00-45-25	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	work at amazon
+05-26-2016:00-45-27	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	you?
+05-26-2016:00-45-31	025ec4a1-020e-4133-b078-674955bac256	User 0	hi i went to columbia, i studied math and i work at apple
+05-26-2016:00-45-31	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-31	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-45-31	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(celsa navarrete, 0.34),  (harris schramm, 0.13),  (branden sjoberg, 0.13),  (janina rousey, 0.13),  (sarah lafond, 0.05),  (maryln hagaman, 0.05),  (angelo patch, 0.05),  (raymond polite, 0.05),  (denny harshberger, 0.05),  (carley schade, 0.05),  
+05-26-2016:00-45-37	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	do you know celsa navarrete or harris schramm?
+05-26-2016:00-45-45	025ec4a1-020e-4133-b078-674955bac256	User 0	i do
+05-26-2016:00-45-45	025ec4a1-020e-4133-b078-674955bac256	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-45	025ec4a1-020e-4133-b078-674955bac256	SYNONYMS	
+05-26-2016:00-45-45	025ec4a1-020e-4133-b078-674955bac256	PROBABILITIES	(celsa navarrete, 0.13),  (harris schramm, 0.10),  (branden sjoberg, 0.10),  (janina rousey, 0.10),  (sarah lafond, 0.09),  (maryln hagaman, 0.09),  (angelo patch, 0.09),  (denny harshberger, 0.09),  (raymond polite, 0.09),  (carley schade, 0.09),  
+05-26-2016:00-45-49	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	branden sjoberg?
+05-26-2016:00-45-50	025ec4a1-020e-4133-b078-674955bac256	User 0	Selected 2:	Celsa Navarrete
+05-26-2016:00-45-52	025ec4a1-020e-4133-b078-674955bac256	DEFAULT_BOT	Selected:	Celsa Navarrete
+05-26-2016:00-45-52	---

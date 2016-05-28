@@ -1,0 +1,15 @@
+05-26-2016:00-12-06	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	joined
+05-26-2016:00-12-06	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-12-12	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_FEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:00-12-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	hi, went to berkley for econ, work at apple
+05-26-2016:00-12-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	[<major>: econ],[<schoolName>: berkley]
+05-26-2016:00-12-18	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 1.00),  (celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:00-12-22	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	angelo? do you know him
+05-26-2016:00-12-22	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: angelo],[<fullName>:]
+05-26-2016:00-12-22	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:00-12-22	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 2.00),  (celsa navarrete, 0.00),  (eldon lindholm, 0.00),  (maryln hagaman, 0.00),  (rick damico, 0.00),  (karma echeverria, 0.00),  (kerry carter, 0.00),  (ngan hornung, 0.00),  (lucienne whitting, 0.00),  (janina rousey, 0.00),  
+05-26-2016:00-12-28	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_FEATURIZED	do you know angelo patch or celsa navarrete
+05-26-2016:00-12-30	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_FEATURIZED	Selected:	Angelo Patch
+05-26-2016:00-12-30	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Selected 1:	Angelo Patch
+05-26-2016:00-12-30	---

@@ -1,0 +1,26 @@
+05-26-2016:00-21-23	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	joined
+05-26-2016:00-21-23	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1 has user ID 500277faa5eb4c05bf3374af1ef38a67
+05-26-2016:00-21-28	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	all my friend work at amazon and 1 works at google
+05-26-2016:00-21-46	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	Hi! No friends at either. I went to Penn for Math
+05-26-2016:00-21-46	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-46	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-21-46	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(rick damico, 1.00),  (emmitt nations, 1.00),  (niki bybee, 0.00),  (myong kary, 0.00),  (susanna pulley, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-21-49	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	do you know rick damico
+05-26-2016:00-21-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	What about you?
+05-26-2016:00-21-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-21-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(rick damico, 1.00),  (emmitt nations, 1.00),  (niki bybee, 0.00),  (myong kary, 0.00),  (susanna pulley, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-21-57	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	do you know emmitt nations
+05-26-2016:00-22-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	What school did you go to?
+05-26-2016:00-22-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-22-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(rick damico, 1.00),  (emmitt nations, 1.00),  (niki bybee, 0.00),  (myong kary, 0.00),  (susanna pulley, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-22-13	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	i went to university of california - berkeley
+05-26-2016:00-22-22	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	Do you know Susanna?
+05-26-2016:00-22-22	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: susanna],[<fullName>:]
+05-26-2016:00-22-22	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-22-22	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(susanna pulley, 1.00),  (rick damico, 1.00),  (emmitt nations, 1.00),  (niki bybee, 0.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-22-23	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	yes
+05-26-2016:00-22-28	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	Selected 3:	Susanna Pulley
+05-26-2016:00-22-31	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	Selected:	Susanna Pulley
+05-26-2016:00-22-32	---

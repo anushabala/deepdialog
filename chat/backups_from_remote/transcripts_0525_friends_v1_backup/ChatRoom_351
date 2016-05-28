@@ -1,0 +1,28 @@
+05-26-2016:00-29-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1	joined
+05-26-2016:00-29-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1 has user ID 293496d660ad4429b2ef40f00e38e80e
+05-26-2016:00-29-34	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1	where did you go to school?
+05-26-2016:00-29-34	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-34	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-29-34	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(clarisa mattison, 0.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (sheilah steitz, 0.00),  (randi thorson, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (lucienne whitting, 0.00),  (elza guevara, 0.00),  
+05-26-2016:00-29-39	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	i went to stanford and majored in economics 
+05-26-2016:00-29-42	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	i work at facebook
+05-26-2016:00-30-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1	I went to Columbia and majored in economics. 
+05-26-2016:00-30-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>: economics],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-30-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(maritza horrell, 1.00),  (sheilah steitz, 1.00),  (randi thorson, 1.00),  (lorriane hurlbert, 1.00),  (kam wey, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (elza guevara, 0.00),  
+05-26-2016:00-30-09	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	i have to be out
+05-26-2016:00-30-09	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1	I work at Uber
+05-26-2016:00-30-09	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-09	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-30-09	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(randi thorson, 2.00),  (maritza horrell, 1.00),  (sheilah steitz, 1.00),  (lorriane hurlbert, 1.00),  (kam wey, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (elza guevara, 0.00),  
+05-26-2016:00-30-13	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	mine are mostly facebook 
+05-26-2016:00-30-16	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	1 facebook 
+05-26-2016:00-30-18	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	1 google
+05-26-2016:00-30-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1	1 facebook here
+05-26-2016:00-30-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-30-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(maritza horrell, 2.00),  (sheilah steitz, 2.00),  (randi thorson, 2.00),  (lorriane hurlbert, 2.00),  (clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (carry pavlick, 1.00),  (kam wey, 1.00),  (lucienne whitting, 1.00),  (elza guevara, 1.00),  
+05-26-2016:00-30-53	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	a few at facebook
+05-26-2016:00-31-19	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 1	Selected 9:	Randi Thorson
+05-26-2016:00-31-21	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	LSTM_FEATURIZED	Selected:	Randi Thorson
+05-26-2016:00-31-21	---

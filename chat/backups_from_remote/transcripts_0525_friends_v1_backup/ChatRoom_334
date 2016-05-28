@@ -1,0 +1,15 @@
+05-26-2016:00-28-30	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	joined
+05-26-2016:00-28-30	f3b7f27a-d114-4f32-8528-137860182e5e	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-28-37	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	hi, went to berkley for cs, work at uber
+05-26-2016:00-28-37	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-37	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	[<major>: cs],[<schoolName>: berkley]
+05-26-2016:00-28-37	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(sherika rust, 1.00),  (leena hensel, 1.00),  (meda lahr, 1.00),  (lashaunda carothers, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:00-28-41	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	hi all of my friends work at google
+05-26-2016:00-28-49	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	do you know leena?
+05-26-2016:00-28-49	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: leena],[<fullName>:]
+05-26-2016:00-28-49	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-28-49	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(leena hensel, 2.00),  (sherika rust, 1.00),  (meda lahr, 1.00),  (lashaunda carothers, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:00-28-51	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	yea i know her
+05-26-2016:00-28-55	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	Selected 2:	Leena Hensel
+05-26-2016:00-28-56	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_UNFEATURIZED	Selected:	Leena Hensel
+05-26-2016:00-28-56	---

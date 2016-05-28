@@ -1,0 +1,33 @@
+05-26-2016:01-46-04	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	joined
+05-26-2016:01-46-04	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1 has user ID c9e78c95784d4fb69a75a007a0859c01
+05-26-2016:01-46-14	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	hi
+05-26-2016:01-46-14	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-14	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-14	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-46-15	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	hi
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	how old are you?
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-46-30	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	i went to columbia and studied computer science i work for amazon
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	very nice 
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-46-49	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	do you know myong kary
+05-26-2016:01-47-00	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	no i don't know 
+05-26-2016:01-47-00	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-00	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-47-00	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-47-02	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	no 
+05-26-2016:01-47-05	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	i have one at facebook 
+05-26-2016:01-47-08	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	celsa navarrete
+05-26-2016:01-47-21	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	no i don't know celsa
+05-26-2016:01-47-22	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: celsa],[<fullName>:]
+05-26-2016:01-47-22	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-47-22	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(celsa navarrete, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-47-23	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_FEATURIZED	yes
+05-26-2016:01-47-45	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	i am from India 
+05-26-2016:01-47-45	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-45	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	[<firstName>: am],[<fullName>: am]
+05-26-2016:01-47-45	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(celsa navarrete, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  

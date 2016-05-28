@@ -1,0 +1,73 @@
+05-26-2016:02-15-19	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	joined
+05-26-2016:02-15-19	ee097ca5-ea21-448f-a645-7837f0570d17	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-15-22	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	hi there
+05-26-2016:02-15-22	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-22	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-15-22	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 0.00),  (lashaunda carothers, 0.00),  (mai buskirk, 0.00),  (agueda searcy, 0.00),  (clorinda hites, 0.00),  (ernest sisemore, 0.00),  (tangela raschke, 0.00),  (kam wey, 0.00),  (meda lahr, 0.00),  (maryln drucker, 0.00),  
+05-26-2016:02-15-27	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	all my friend work at google and 1 works at amazon
+05-26-2016:02-15-29	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Dexter Aslett
+05-26-2016:02-15-35	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 8:	Jesica Seaton
+05-26-2016:02-15-38	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:02-15-49	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	who do you konw at google?
+05-26-2016:02-15-49	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-49	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-15-49	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 1.00),  (lashaunda carothers, 1.00),  (mai buskirk, 1.00),  (tangela raschke, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maryln drucker, 1.00),  (agueda searcy, 0.00),  (clorinda hites, 0.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-15-50	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	yeah 
+05-26-2016:02-15-56	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	your friends at where did they work for google
+05-26-2016:02-15-58	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	who do you know at google?
+05-26-2016:02-15-58	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-58	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-15-58	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (agueda searcy, 0.00),  (clorinda hites, 0.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-16-01	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no google friends
+05-26-2016:02-16-10	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	who do you know at apple?
+05-26-2016:02-16-10	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-10	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-16-10	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (agueda searcy, 1.00),  (clorinda hites, 0.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-16-13	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no amazon friends here 
+05-26-2016:02-16-17	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	all my friends are at apple
+05-26-2016:02-16-18	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 0:	Tamara Killeen
+05-26-2016:02-16-19	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Dexter Aslett
+05-26-2016:02-16-30	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	do you know tamara
+05-26-2016:02-16-30	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tamara],[<fullName>:]
+05-26-2016:02-16-30	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-16-30	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (agueda searcy, 1.00),  (clorinda hites, 0.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-16-32	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	computer science
+05-26-2016:02-16-40	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	do you have any friends from facebook?
+05-26-2016:02-16-40	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-40	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-16-40	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (agueda searcy, 1.00),  (clorinda hites, 1.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-16-42	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no 
+05-26-2016:02-16-45	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	lashaunda carothers
+05-26-2016:02-16-54	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	do you know anyone from facebook
+05-26-2016:02-16-54	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-54	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-16-54	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (clorinda hites, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (agueda searcy, 1.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-16-55	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no 
+05-26-2016:02-17-00	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	i know a mai buskirk who is your google
+05-26-2016:02-17-02	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	do you know anyone from apple
+05-26-2016:02-17-02	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-02	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-17-02	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-17-05	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no amazon friends
+05-26-2016:02-17-13	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	do you know anyone from apple
+05-26-2016:02-17-13	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-13	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-17-13	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(agueda searcy, 3.00),  (dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (clorinda hites, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-17-17	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	no one at facebook here
+05-26-2016:02-17-20	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 8:	Jesica Seaton
+05-26-2016:02-17-22	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	one works at google
+05-26-2016:02-17-35	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	who do you know from facebook then
+05-26-2016:02-17-35	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-35	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-17-35	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(agueda searcy, 3.00),  (clorinda hites, 3.00),  (dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-17-38	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	facebook
+05-26-2016:02-17-38	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-38	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:02-17-38	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(clorinda hites, 4.00),  (agueda searcy, 3.00),  (dexter aslett, 2.00),  (lashaunda carothers, 2.00),  (mai buskirk, 2.00),  (tangela raschke, 2.00),  (kam wey, 2.00),  (meda lahr, 2.00),  (maryln drucker, 2.00),  (ernest sisemore, 0.00),  
+05-26-2016:02-17-45	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 1:	Brittney Hunley
+05-26-2016:02-17-53	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	agueda searcy and clorinda hites from university of california - berkeley
+05-26-2016:02-18-00	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	i went to university of california - berkeley and computer science
+05-26-2016:02-18-02	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Dexter Aslett
+05-26-2016:02-18-09	ee097ca5-ea21-448f-a645-7837f0570d17	User 0	Selected 2:	Clorinda Hites
+05-26-2016:02-18-11	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Clorinda Hites
+05-26-2016:02-18-12	---

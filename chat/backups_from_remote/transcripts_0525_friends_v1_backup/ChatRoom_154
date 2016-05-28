@@ -1,0 +1,20 @@
+05-26-2016:00-19-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	joined
+05-26-2016:00-19-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1 has user ID ed32a596e7f54cd89f9c439941c0d1de
+05-26-2016:00-19-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	hello
+05-26-2016:00-19-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-19-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.00),  (maritza horrell, 0.00),  (emmanuel eliason, 0.00),  (maia coffman, 0.00),  (lorriane hurlbert, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (emerson farnsworth, 0.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-19-50	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	hi
+05-26-2016:00-20-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	I went to stanford and work at google now
+05-26-2016:00-20-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-20-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (renay guel, 1.00),  (lucienne whitting, 1.00),  (emmanuel eliason, 0.00),  (maia coffman, 0.00),  (lorriane hurlbert, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:00-20-06	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i went to columbia and computer science 
+05-26-2016:00-20-08	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i work at facebook
+05-26-2016:00-20-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Do you know Alen Landers?
+05-26-2016:00-20-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	[<firstName>: alen],[<fullName>: alen, alen landers]
+05-26-2016:00-20-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 2.00),  (maritza horrell, 1.00),  (renay guel, 1.00),  (lucienne whitting, 1.00),  (emmanuel eliason, 0.00),  (maia coffman, 0.00),  (lorriane hurlbert, 0.00),  (valeri kress, 0.00),  (justa holdeman, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:00-20-24	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	Selected:	Arlen Landers
+05-26-2016:00-20-28	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 3:	Arlen Landers
+05-26-2016:00-20-28	---

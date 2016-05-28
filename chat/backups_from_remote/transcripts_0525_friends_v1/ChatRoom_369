@@ -1,0 +1,46 @@
+05-26-2016:00-29-51	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	joined
+05-26-2016:00-29-51	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0 has user ID a534a02bf33a4cd493838829b40332f4
+05-26-2016:00-29-52	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	hello
+05-26-2016:00-29-55	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	Hi
+05-26-2016:00-29-55	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-55	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-29-55	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-30-03	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	I went to UPenn for math and work at apple
+05-26-2016:00-30-03	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>: math],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-03	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-30-03	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.16),  (branden sjoberg, 0.16),  (karma echeverria, 0.16),  (celsa navarrete, 0.16),  (harris schramm, 0.06),  (maryln hagaman, 0.06),  (angelo patch, 0.06),  (emmitt nations, 0.06),  (candis kita, 0.06),  (carley schade, 0.06),  
+05-26-2016:00-30-13	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	i went to university of california - berkeley, majored in computer science, work at amazon
+05-26-2016:00-30-16	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	what about you?
+05-26-2016:00-30-30	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	I don't know anyone from U Cal.
+05-26-2016:00-30-30	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-30	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-30-30	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-30-31	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	colin?
+05-26-2016:00-30-41	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	I don't know any Colins
+05-26-2016:00-30-41	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-41	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-30-41	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-30-44	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	branden sjoberg?
+05-26-2016:00-30-53	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	Nor do I know Branden.
+05-26-2016:00-30-53	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: branden],[<fullName>:]
+05-26-2016:00-30-53	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-30-53	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(branden sjoberg, 0.23),  (colin higby, 0.09),  (karma echeverria, 0.09),  (celsa navarrete, 0.09),  (harris schramm, 0.09),  (maryln hagaman, 0.09),  (angelo patch, 0.09),  (emmitt nations, 0.09),  (candis kita, 0.09),  (carley schade, 0.09),  
+05-26-2016:00-30-55	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	yeah
+05-26-2016:00-30-57	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	Selected:	Branden Sjoberg
+05-26-2016:00-31-00	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	Nope.
+05-26-2016:00-31-00	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-00	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-31-00	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(branden sjoberg, 0.11),  (colin higby, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-31-05	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	do you know karma echeverria?
+05-26-2016:00-31-13	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	I do know Karma.
+05-26-2016:00-31-13	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: karma],[<fullName>:]
+05-26-2016:00-31-13	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-31-13	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 0.23),  (branden sjoberg, 0.09),  (colin higby, 0.09),  (celsa navarrete, 0.09),  (harris schramm, 0.09),  (maryln hagaman, 0.09),  (angelo patch, 0.09),  (emmitt nations, 0.09),  (candis kita, 0.09),  (carley schade, 0.09),  
+05-26-2016:00-31-15	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	yep
+05-26-2016:00-31-17	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	She's a bitch.
+05-26-2016:00-31-17	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-17	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-31-17	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 0.11),  (branden sjoberg, 0.10),  (colin higby, 0.10),  (celsa navarrete, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-31-18	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	Selected:	Karma Echeverria
+05-26-2016:00-31-20	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	Selected 6:	Karma Echeverria
+05-26-2016:00-31-20	---

@@ -1,0 +1,48 @@
+05-26-2016:00-21-28	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	joined
+05-26-2016:00-21-28	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1 has user ID f685a4e4e2b04dfca3dc6effd86e4c16
+05-26-2016:00-21-36	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	hi, went to penn for cs, work at facebook
+05-26-2016:00-21-36	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-36	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<major>: cs],[<schoolName>: penn]
+05-26-2016:00-21-36	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-21-41	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	hi all of my friends work at apple
+05-26-2016:00-21-48	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	do you know thanh?
+05-26-2016:00-21-48	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: thanh],[<fullName>:]
+05-26-2016:00-21-48	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-21-48	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-21-50	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	yea i know her
+05-26-2016:00-21-54	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Selected 1:	Thanh Hartin
+05-26-2016:00-21-56	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	Selected:	Frederick Willetts
+05-26-2016:00-22-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	try again
+05-26-2016:00-22-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-22-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-22-45	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	it wont let me pick the right
+05-26-2016:00-22-56	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	need to wait 10 seconds
+05-26-2016:00-22-56	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-56	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-22-56	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-22-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	Selected:	Julissa Bond
+05-26-2016:00-23-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	=/
+05-26-2016:00-23-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-23-06	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-23-10	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	it wont let me pick the right one
+05-26-2016:00-23-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	try again
+05-26-2016:00-23-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-23-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-23-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	select her
+05-26-2016:00-24-07	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	select who
+05-26-2016:00-24-07	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-07	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-07	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-24-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	you 
+05-26-2016:00-24-11	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	oh 
+05-26-2016:00-24-12	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	i already have thanh selected
+05-26-2016:00-24-12	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: thanh],[<fullName>:]
+05-26-2016:00-24-12	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-12	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(frederick willetts, 1.00),  (julissa bond, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  
+05-26-2016:00-24-13	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	i know her too
+05-26-2016:00-24-16	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	what is great 
+05-26-2016:00-24-19	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	Selected:	Frederick Willetts
+05-26-2016:00-24-23	---

@@ -1,0 +1,36 @@
+05-26-2016:01-58-51	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	joined
+05-26-2016:01-58-51	f3b7f27a-d114-4f32-8528-137860182e5e	User 1 has user ID d05c76b9d8de4e5da9ecca517defef0f
+05-26-2016:01-58-54	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	hi
+05-26-2016:01-58-54	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-54	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:01-58-54	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  (meda lahr, 0.00),  
+05-26-2016:01-58-56	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	hi
+05-26-2016:01-59-32	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	 do you know kenley,hensel or thorson?
+05-26-2016:01-59-32	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-32	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:01-59-32	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  (meda lahr, 0.00),  
+05-26-2016:01-59-34	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	yes
+05-26-2016:01-59-59	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	first second or third??
+05-26-2016:01-59-59	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-59	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:01-59-59	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-00-01	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	yes
+05-26-2016:02-00-21	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	is it hensel
+05-26-2016:02-00-21	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-21	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-00-21	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-00-24	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:02-00-37	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	Selected 3:	Randi Thorson
+05-26-2016:02-00-39	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	wtf wrong one 
+05-26-2016:02-00-46	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	my friend who went to university of pennsylvania and majored in math
+05-26-2016:02-01-09	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	thurlow??
+05-26-2016:02-01-09	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-09	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-01-09	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-01-13	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	Selected 5:	Alberto Thurlow
+05-26-2016:02-01-20	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	only have sherika rust tobi brunette and francine bateman
+05-26-2016:02-01-26	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	i dont know randi thorson who do you know from google
+05-26-2016:02-01-43	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	hensel
+05-26-2016:02-01-43	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-43	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:02-01-43	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (tess lister, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (aline allshouse, 0.00),  (meda lahr, 0.00),  

@@ -1,0 +1,35 @@
+05-26-2016:00-43-45	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	joined
+05-26-2016:00-43-45	f3b7f27a-d114-4f32-8528-137860182e5e	User 0 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-43-51	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-43-52	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	hi, went to penn for math, work at google
+05-26-2016:00-43-52	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>: math],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-52	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-43-52	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (santina kenley, 1.00),  (leena hensel, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (nena krone, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-43-55	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	do you know alberto thurlow
+05-26-2016:00-44-01	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	no
+05-26-2016:00-44-01	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-01	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-44-01	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (santina kenley, 1.00),  (leena hensel, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (nena krone, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-44-05	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	what about jon geissler
+05-26-2016:00-44-14	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	nope
+05-26-2016:00-44-14	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-14	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-44-14	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (santina kenley, 1.00),  (leena hensel, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (nena krone, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-44-17	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	i know a santina kenley
+05-26-2016:00-44-24	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	no
+05-26-2016:00-44-24	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-24	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-44-24	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (santina kenley, 1.00),  (leena hensel, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (nena krone, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-44-29	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	give me your quals
+05-26-2016:00-44-29	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-29	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:00-44-29	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (santina kenley, 1.00),  (leena hensel, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (nena krone, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-44-37	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	i went to university of california - berkeley for computer science
+05-26-2016:00-44-38	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	no
+05-26-2016:00-44-53	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	know leena?
+05-26-2016:00-44-53	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: leena],[<fullName>:]
+05-26-2016:00-44-53	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-44-53	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(alberto thurlow, 2.00),  (jon geissler, 2.00),  (leena hensel, 2.00),  (santina kenley, 1.00),  (josefina ferrigno, 1.00),  (joetta sequeira, 0.00),  (randi thorson, 0.00),  (clorinda hites, 0.00),  (nena krone, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-44-56	f3b7f27a-d114-4f32-8528-137860182e5e	LSTM_FEATURIZED	Selected:	Leena Hensel
+05-26-2016:00-44-58	f3b7f27a-d114-4f32-8528-137860182e5e	User 0	Selected 4:	Leena Hensel
+05-26-2016:00-44-58	---

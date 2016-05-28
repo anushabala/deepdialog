@@ -1,0 +1,39 @@
+05-26-2016:01-46-02	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	joined
+05-26-2016:01-46-02	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1 has user ID f2b5f7a462dd470d8cf0b6cf778debd9
+05-26-2016:01-46-23	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	Selected 8:	Jesica Seaton
+05-26-2016:01-46-27	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	do you know susanna pulley
+05-26-2016:01-46-36	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	sorry i don't know
+05-26-2016:01-46-36	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-36	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:01-46-36	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tamara killeen, 0.00),  (kristie bolduc, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-46-43	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	i know a couple from there they studied physics and the same right
+05-26-2016:01-46-44	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	who is she?
+05-26-2016:01-46-44	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-44	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:01-46-44	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tamara killeen, 0.00),  (kristie bolduc, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-46-47	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	bernita kerrick
+05-26-2016:01-47-01	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	no
+05-26-2016:01-47-01	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-01	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:01-47-01	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tamara killeen, 0.00),  (kristie bolduc, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-47-03	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	too
+05-26-2016:01-47-08	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	yea
+05-26-2016:01-47-08	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-08	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:01-47-08	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tamara killeen, 0.00),  (kristie bolduc, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-47-09	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	yes
+05-26-2016:01-47-26	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	where are you from?
+05-26-2016:01-47-26	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-47-26	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:01-47-26	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tamara killeen, 0.00),  (kristie bolduc, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-47-28	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	physics
+05-26-2016:01-48-28	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	Selected 7:	Brittney Hunley
+05-26-2016:01-48-31	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	not brittney hunley
+05-26-2016:01-48-45	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	eh?
+05-26-2016:01-48-45	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-48-45	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:01-48-45	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tamara killeen, 0.00),  (kristie bolduc, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-48-48	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	susanna pulley 
+05-26-2016:01-48-51	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	bernita kerrick 
+05-26-2016:01-48-54	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	gennie dagley 
+05-26-2016:01-48-56	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	lorianne

@@ -1,0 +1,38 @@
+05-26-2016:00-19-13	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	joined
+05-26-2016:00-19-13	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1 has user ID 06d8e5c2c6c24a4092d78685e4768963
+05-26-2016:00-19-16	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	hello
+05-26-2016:00-19-17	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	Hello
+05-26-2016:00-19-17	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-17	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-19-24	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	i went to stanford and majored in linguistics
+05-26-2016:00-19-27	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	work at facebook
+05-26-2016:00-19-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	I am Squatty and I work at Google
+05-26-2016:00-19-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	[<firstName>: kam],[<fullName>: kam wey]
+05-26-2016:00-19-35	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-19-44	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	Do you know Sherika at FB?
+05-26-2016:00-19-44	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: sherika],[<fullName>:]
+05-26-2016:00-19-44	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-19-49	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	hmm, do you know clarisa?
+05-26-2016:00-19-55	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	No
+05-26-2016:00-19-55	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-55	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-19-59	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	do you know maritza horrell?
+05-26-2016:00-20-06	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	Nope
+05-26-2016:00-20-06	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-06	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-20-09	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	laurette?
+05-26-2016:00-20-14	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	I went to U of C Berkely
+05-26-2016:00-20-14	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-14	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-20-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	No
+05-26-2016:00-20-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-20-24	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	do you know gavin, maia or clorinda?
+05-26-2016:00-20-28	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	hmm, do you know fletcher?
+05-26-2016:00-20-30	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	Birgit at FB?
+05-26-2016:00-20-30	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:00-20-30	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-20-32	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	yeah
+05-26-2016:00-20-34	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	DEFAULT_BOT	Selected:	Birgit Heid
+05-26-2016:00-20-37	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 1	Selected 7:	Birgit Heid

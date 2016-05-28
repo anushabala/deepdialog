@@ -1,0 +1,29 @@
+05-26-2016:00-41-38	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	joined
+05-26-2016:00-41-38	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1 has user ID 5bbb62bc210c4e749bc79b1816912de4
+05-26-2016:00-41-44	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	all my friend work at facebook and 1 works at facebook
+05-26-2016:00-41-59	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	I know someone that works for Google, the rest works at Apple.
+05-26-2016:00-42-00	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-00	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	
+05-26-2016:00-42-00	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(tobi brunette, 1.00),  (gregg brian, 0.00),  (maia coffman, 0.00),  (clorinda hites, 0.00),  (sheilah steitz, 0.00),  (justa holdeman, 0.00),  (darrel oden, 0.00),  (renay guel, 0.00),  (emerson farnsworth, 0.00),  (fletcher hass, 0.00),  
+05-26-2016:00-42-00	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	nope
+05-26-2016:00-42-20	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	No Facebook on my list.
+05-26-2016:00-42-20	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-20	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	[<firstName>: on],[<fullName>: on]
+05-26-2016:00-42-20	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(gregg brian, 1.00),  (maia coffman, 1.00),  (clorinda hites, 1.00),  (tobi brunette, 1.00),  (sheilah steitz, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-42-21	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	yes 
+05-26-2016:00-42-23	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	a bunch
+05-26-2016:00-42-44	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	Do you know anyone at Goole or Apple?
+05-26-2016:00-42-44	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-44	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	[<companyName>: goole]
+05-26-2016:00-42-44	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(tobi brunette, 2.00),  (gregg brian, 1.00),  (maia coffman, 1.00),  (clorinda hites, 1.00),  (sheilah steitz, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-42-46	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	i dont know anyone at apple
+05-26-2016:00-42-52	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	Selected 5:	Ngan Hornung
+05-26-2016:00-42-55	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	math or physics friends
+05-26-2016:00-43-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	It has to be Ngan then?
+05-26-2016:00-43-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ngan],[<fullName>:]
+05-26-2016:00-43-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	SYNONYMS	
+05-26-2016:00-43-10	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	PROBABILITIES	(tobi brunette, 2.00),  (gregg brian, 1.00),  (maia coffman, 1.00),  (clorinda hites, 1.00),  (sheilah steitz, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-43-13	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	it is tobi brunette
+05-26-2016:00-43-19	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	User 1	Selected 9:	Tobi Brunette
+05-26-2016:00-43-21	7e2c0ba8-be8a-48d3-91ea-f2a83479f689	LSTM_UNFEATURIZED	Selected:	Tobi Brunette
+05-26-2016:00-43-21	---

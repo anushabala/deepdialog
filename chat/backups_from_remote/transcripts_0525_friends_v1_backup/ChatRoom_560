@@ -1,0 +1,58 @@
+05-26-2016:00-39-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	joined
+05-26-2016:00-39-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0 has user ID 898794b839b344179edd6964b397b487
+05-26-2016:00-39-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	hiya
+05-26-2016:00-39-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-39-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (tamara killeen, 0.00),  (clorinda hites, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (agueda searcy, 0.00),  
+05-26-2016:00-39-04	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	hi
+05-26-2016:00-39-09	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	all my friends work at FB, one at aple
+05-26-2016:00-39-09	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-09	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	[<companyName>: aple]
+05-26-2016:00-39-09	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (tamara killeen, 1.00),  (laverna bjornson, 1.00),  (nena krone, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (agueda searcy, 1.00),  (clorinda hites, 0.00),  
+05-26-2016:00-39-14	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	i know 1 person who works at fb the rest work at apple
+05-26-2016:00-39-21	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	kristie at apple?
+05-26-2016:00-39-21	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: kristie],[<fullName>:]
+05-26-2016:00-39-21	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-39-21	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-39-25	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	do you have susanna pulley 
+05-26-2016:00-39-29	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	those are my only fb friends
+05-26-2016:00-39-37	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	no susannah
+05-26-2016:00-39-37	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-37	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-39-37	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-39-41	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	what pick your apple friend
+05-26-2016:00-39-48	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	Selected 8:	Kristie Bolduc
+05-26-2016:00-39-51	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	Selected:	Bernita Kerrick
+05-26-2016:00-40-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	i went to stanford for math
+05-26-2016:00-40-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>: math],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-40-03	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-40-06	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	do you know beau roudebush
+05-26-2016:00-40-11	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	no
+05-26-2016:00-40-11	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-11	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-40-11	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-40-15	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	what about susanna pulley
+05-26-2016:00-40-18	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	no
+05-26-2016:00-40-18	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-18	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-40-18	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-40-21	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	i work at facebook
+05-26-2016:00-40-35	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	emamanual?
+05-26-2016:00-40-35	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-35	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-40-35	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-40-36	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	Selected:	Susanna Pulley
+05-26-2016:00-40-45	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	I dont have her
+05-26-2016:00-40-45	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-45	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-40-45	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-40-48	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	what di you study
+05-26-2016:00-40-51	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	math
+05-26-2016:00-40-51	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-51	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-40-51	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 2.00),  (bernita kerrick, 2.00),  (beau roudebush, 2.00),  (tamara killeen, 2.00),  (laverna bjornson, 2.00),  (nena krone, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (agueda searcy, 2.00),  (clorinda hites, 0.00),  
+05-26-2016:00-40-54	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	it doesnt matter 
+05-26-2016:00-40-57	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	please 
+05-26-2016:00-41-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	choose her running seconds
+05-26-2016:00-41-19	---

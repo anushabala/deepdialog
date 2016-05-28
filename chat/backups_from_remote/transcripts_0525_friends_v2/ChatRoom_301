@@ -1,0 +1,17 @@
+05-26-2016:02-13-43	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	joined
+05-26-2016:02-13-43	ae903f07-5004-48be-ac1e-52c6a6895445	User 1 has user ID da1e2946d62d455fa59e363d419f3a2b
+05-26-2016:02-13-46	ae903f07-5004-48be-ac1e-52c6a6895445	DEFAULT_BOT	hi there!
+05-26-2016:02-13-50	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Hi!
+05-26-2016:02-13-50	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-50	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:02-13-50	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(francine bateman, 0.10),  (kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (angelo patch, 0.10),  (laverna bjornson, 0.10),  (oliver roker, 0.10),  (nena krone, 0.10),  (elene prouty, 0.10),  (riva noles, 0.10),  (birgit heid, 0.10),  
+05-26-2016:02-13-58	ae903f07-5004-48be-ac1e-52c6a6895445	DEFAULT_BOT	i'm from university of california - berkeley, economics, apple
+05-26-2016:02-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	DEFAULT_BOT	major school company?
+05-26-2016:02-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	I work for uber, and studied math at columbia
+05-26-2016:02-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:02-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 0.32),  (laverna bjornson, 0.12),  (kristie bolduc, 0.12),  (francine bateman, 0.12),  (oliver roker, 0.12),  (bernita kerrick, 0.04),  (angelo patch, 0.04),  (nena krone, 0.04),  (birgit heid, 0.04),  (riva noles, 0.04),  
+05-26-2016:02-14-08	ae903f07-5004-48be-ac1e-52c6a6895445	DEFAULT_BOT	do you know elene prouty or laverna bjornson?
+05-26-2016:02-14-20	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Selected 0:	Elene Prouty
+05-26-2016:02-14-22	ae903f07-5004-48be-ac1e-52c6a6895445	DEFAULT_BOT	Selected:	Elene Prouty
+05-26-2016:02-14-22	---

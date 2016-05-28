@@ -1,0 +1,23 @@
+05-26-2016:01-50-01	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	joined
+05-26-2016:01-50-01	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1 has user ID 89ab107fb5644c9c966165a31b66fd70
+05-26-2016:01-50-03	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	hello
+05-26-2016:01-50-10	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	i'm university of california - berkeley, physics, google
+05-26-2016:01-50-13	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	what about you
+05-26-2016:01-50-16	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	Hi
+05-26-2016:01-50-16	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-16	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-50-16	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(lashaunda carothers, 0.10),  (renita canney, 0.10),  (sherika rust, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-50-21	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	do you know lashaunda carothers?
+05-26-2016:01-50-28	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	No
+05-26-2016:01-50-28	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-28	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-50-28	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(lashaunda carothers, 0.10),  (renita canney, 0.10),  (sherika rust, 0.10),  (dannie leedy, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-50-30	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	renita?
+05-26-2016:01-50-37	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	Do any of your friends work at uber?
+05-26-2016:01-50-37	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-50-37	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-50-37	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(lashaunda carothers, 0.10),  (renita canney, 0.10),  (sherika rust, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-50-40	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	sherika rust?
+05-26-2016:01-50-50	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	Selected 4:	Sherika Rust
+05-26-2016:01-50-52	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	Selected:	Sherika Rust
+05-26-2016:01-50-53	---

@@ -1,0 +1,36 @@
+05-26-2016:00-30-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	joined
+05-26-2016:00-30-26	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0 has user ID 91d07fd890414b26996e32157d04ac72
+05-26-2016:00-30-32	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:00-30-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Hi, all of my friends work for FB except for 1 at apple
+05-26-2016:00-30-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-30-36	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-30-42	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	all of my friends work at apple except one who works at facebook
+05-26-2016:00-30-49	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Do you know Gavin?
+05-26-2016:00-30-49	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gavin],[<fullName>:]
+05-26-2016:00-30-49	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-30-49	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-30-51	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	beau roudebush
+05-26-2016:00-31-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	I don't know beau.
+05-26-2016:00-31-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: beau],[<fullName>:]
+05-26-2016:00-31-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-31-11	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 2.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-31-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	you don't know gavin at apple?
+05-26-2016:00-31-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: gavin],[<fullName>:]
+05-26-2016:00-31-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-31-18	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 3.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-31-29	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	i know someone from university of california - berkeley both studied economics and i studied economics
+05-26-2016:00-31-31	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	no
+05-26-2016:00-31-53	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Is that Birgit?
+05-26-2016:00-31-53	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:00-31-53	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-31-53	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 3.00),  (birgit heid, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-31-55	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	birgit heid
+05-26-2016:00-31-57	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	ok
+05-26-2016:00-31-57	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-57	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	SYNONYMS	
+05-26-2016:00-31-57	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	PROBABILITIES	(beau roudebush, 3.00),  (birgit heid, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (cori runion, 0.00),  (tyson rankins, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-31-59	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	yes
+05-26-2016:00-32-00	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	User 0	Selected 7:	Birgit Heid
+05-26-2016:00-32-02	feea0b1a-2b1c-40f8-b9bd-a0d5c541f1d5	LSTM_UNFEATURIZED	Selected:	Birgit Heid
+05-26-2016:00-32-02	---

@@ -1,0 +1,13 @@
+05-26-2016:00-34-05	98a60605-a80f-4034-80df-89911ab3089d	User 0	joined
+05-26-2016:00-34-05	98a60605-a80f-4034-80df-89911ab3089d	User 0 has user ID dfe9e4159a094ff8b26a54b8d7e199c5
+05-26-2016:00-34-15	98a60605-a80f-4034-80df-89911ab3089d	User 0	Anyone from Apple or Amazon?
+05-26-2016:00-34-15	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-15	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-34-15	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(laverna bjornson, 1.00),  (beau roudebush, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (nena krone, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (lakesha platz, 1.00),  
+05-26-2016:00-34-20	98a60605-a80f-4034-80df-89911ab3089d	User 0	Elene or Celsa?
+05-26-2016:00-34-20	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elene, celsa],[<fullName>:]
+05-26-2016:00-34-20	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:00-34-20	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 2.00),  (laverna bjornson, 1.00),  (beau roudebush, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (nena krone, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (lakesha platz, 1.00),  
+05-26-2016:00-34-27	98a60605-a80f-4034-80df-89911ab3089d	LSTM_FEATURIZED	i have one friend at apple and all the rest are apple
+05-26-2016:00-34-29	98a60605-a80f-4034-80df-89911ab3089d	LSTM_FEATURIZED	Selected:	Elene Prouty
+05-26-2016:00-34-32	98a60605-a80f-4034-80df-89911ab3089d	User 0	Selected 3:	Elene Prouty

@@ -1,0 +1,18 @@
+05-26-2016:02-14-23	45ca7d81-6821-491e-8b72-5c235baa37d7	User 0	joined
+05-26-2016:02-14-23	45ca7d81-6821-491e-8b72-5c235baa37d7	User 0 has user ID 1835740d7d974dcba0bad1f6baf1827f
+05-26-2016:02-14-25	45ca7d81-6821-491e-8b72-5c235baa37d7	DEFAULT_BOT	hi
+05-26-2016:02-14-31	45ca7d81-6821-491e-8b72-5c235baa37d7	DEFAULT_BOT	i went to columbia and majored in economics
+05-26-2016:02-14-34	45ca7d81-6821-491e-8b72-5c235baa37d7	DEFAULT_BOT	work at uber
+05-26-2016:02-14-35	45ca7d81-6821-491e-8b72-5c235baa37d7	User 0	I went to Berkeley for linguistics and work for Apple
+05-26-2016:02-14-35	45ca7d81-6821-491e-8b72-5c235baa37d7	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-35	45ca7d81-6821-491e-8b72-5c235baa37d7	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:02-14-35	45ca7d81-6821-491e-8b72-5c235baa37d7	PROBABILITIES	(vickey redinger, 0.11),  (johnathan mccolley, 0.11),  (candy astorga, 0.10),  (guillermo mantz, 0.10),  (quinn courter, 0.10),  (nathanial towery, 0.10),  (sade kenner, 0.10),  (santina kenley, 0.10),  (kendrick friday, 0.10),  (willie wicks, 0.10),  
+05-26-2016:02-14-41	45ca7d81-6821-491e-8b72-5c235baa37d7	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:02-14-49	45ca7d81-6821-491e-8b72-5c235baa37d7	User 0	Do you know Jonathan or Lillia?
+05-26-2016:02-14-49	45ca7d81-6821-491e-8b72-5c235baa37d7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lillia],[<fullName>:]
+05-26-2016:02-14-49	45ca7d81-6821-491e-8b72-5c235baa37d7	SYNONYMS	[<firstName>: johnathan],[<fullName>: johnathan mccolley]
+05-26-2016:02-14-49	45ca7d81-6821-491e-8b72-5c235baa37d7	PROBABILITIES	(johnathan mccolley, 0.33),  (vickey redinger, 0.07),  (candy astorga, 0.07),  (guillermo mantz, 0.07),  (quinn courter, 0.07),  (nathanial towery, 0.07),  (sade kenner, 0.07),  (santina kenley, 0.07),  (kendrick friday, 0.07),  (willie wicks, 0.07),  
+05-26-2016:02-14-53	45ca7d81-6821-491e-8b72-5c235baa37d7	DEFAULT_BOT	yep, that's the right answer
+05-26-2016:02-14-55	45ca7d81-6821-491e-8b72-5c235baa37d7	DEFAULT_BOT	Selected:	Johnathan Mccolley
+05-26-2016:02-14-58	45ca7d81-6821-491e-8b72-5c235baa37d7	User 0	Selected 4:	Johnathan Mccolley
+05-26-2016:02-14-59	---

@@ -1,0 +1,26 @@
+05-26-2016:01-49-01	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	joined
+05-26-2016:01-49-01	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:01-49-02	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	hey
+05-26-2016:01-49-05	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	hi there
+05-26-2016:01-49-05	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-05	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:01-49-05	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(susanna pulley, 0.10),  (guillermo mantz, 0.10),  (emmanuel eliason, 0.10),  (angelo patch, 0.10),  (tangela raschke, 0.10),  (sheilah steitz, 0.10),  (carry pavlick, 0.10),  (darrel oden, 0.10),  (lucienne whitting, 0.10),  (laurette thrailkill, 0.10),  
+05-26-2016:01-49-11	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	all my friends work at google
+05-26-2016:01-49-11	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-11	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:01-49-11	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 0.23),  (susanna pulley, 0.09),  (guillermo mantz, 0.09),  (emmanuel eliason, 0.09),  (angelo patch, 0.09),  (sheilah steitz, 0.09),  (carry pavlick, 0.09),  (darrel oden, 0.09),  (lucienne whitting, 0.09),  (laurette thrailkill, 0.09),  
+05-26-2016:01-49-21	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	i went to university of california - berkeley, majored in economics, work at facebook
+05-26-2016:01-49-25	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	school major company?
+05-26-2016:01-49-28	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	do you know anyone who works at google?
+05-26-2016:01-49-28	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-28	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:01-49-28	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 0.26),  (susanna pulley, 0.08),  (guillermo mantz, 0.08),  (emmanuel eliason, 0.08),  (angelo patch, 0.08),  (sheilah steitz, 0.08),  (carry pavlick, 0.08),  (darrel oden, 0.08),  (lucienne whitting, 0.08),  (laurette thrailkill, 0.08),  
+05-26-2016:01-49-32	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know tangela raschke?
+05-26-2016:01-49-47	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	yes!
+05-26-2016:01-49-47	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-49-47	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:01-49-47	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 0.12),  (susanna pulley, 0.10),  (guillermo mantz, 0.10),  (emmanuel eliason, 0.10),  (angelo patch, 0.10),  (sheilah steitz, 0.10),  (carry pavlick, 0.10),  (darrel oden, 0.10),  (lucienne whitting, 0.10),  (laurette thrailkill, 0.10),  
+05-26-2016:01-49-51	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	Selected 2:	Tangela Raschke
+05-26-2016:01-49-58	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know susanna pulley guillermo mantz or emmanuel eliason?
+05-26-2016:01-50-00	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	Selected:	Tangela Raschke
+05-26-2016:01-50-01	---

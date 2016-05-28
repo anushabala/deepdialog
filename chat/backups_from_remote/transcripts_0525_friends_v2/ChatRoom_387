@@ -1,0 +1,35 @@
+05-26-2016:02-35-45	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	joined
+05-26-2016:02-35-45	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1 has user ID 866d079a19a84daf9f6efed8368f29d2
+05-26-2016:02-35-50	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at facebook
+05-26-2016:02-36-04	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	all my friends work at amazon uber or apple
+05-26-2016:02-36-04	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, uber, apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-36-04	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-36-04	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(kristie bolduc, 1.00),  (mose coletti, 1.00),  (lucia pizarro, 1.00),  (tobi brunette, 1.00),  (laverna bjornson, 1.00),  (thanh hartin, 1.00),  (elene prouty, 1.00),  (lakesha platz, 1.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:02-36-07	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	kristie bolduc 
+05-26-2016:02-36-09	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	no apple 
+05-26-2016:02-36-11	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	all apple
+05-26-2016:02-36-17	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	two apple 
+05-26-2016:02-36-17	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-36-17	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-36-17	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(kristie bolduc, 2.00),  (mose coletti, 2.00),  (lucia pizarro, 2.00),  (tobi brunette, 2.00),  (laverna bjornson, 2.00),  (thanh hartin, 2.00),  (elene prouty, 2.00),  (lakesha platz, 2.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:02-36-19	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	apple 
+05-26-2016:02-36-24	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	any stanford linguistics and facebook
+05-26-2016:02-36-37	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	no
+05-26-2016:02-36-37	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-36-37	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-36-37	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(kristie bolduc, 2.00),  (mose coletti, 2.00),  (lucia pizarro, 2.00),  (tobi brunette, 2.00),  (laverna bjornson, 2.00),  (thanh hartin, 2.00),  (elene prouty, 2.00),  (lakesha platz, 2.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:02-36-41	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	how about mose coletti 
+05-26-2016:02-36-44	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	Selected:	Lucia Pizarro
+05-26-2016:02-36-59	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	no
+05-26-2016:02-36-59	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-36-59	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-36-59	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(kristie bolduc, 2.00),  (mose coletti, 2.00),  (lucia pizarro, 2.00),  (tobi brunette, 2.00),  (laverna bjornson, 2.00),  (thanh hartin, 2.00),  (elene prouty, 2.00),  (lakesha platz, 2.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:02-37-04	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	all my other friends work at apple
+05-26-2016:02-37-09	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	tobi brunette
+05-26-2016:02-37-09	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: tobi brunette]
+05-26-2016:02-37-09	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-37-09	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 3.00),  (kristie bolduc, 2.00),  (mose coletti, 2.00),  (lucia pizarro, 2.00),  (laverna bjornson, 2.00),  (thanh hartin, 2.00),  (elene prouty, 2.00),  (lakesha platz, 2.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:02-37-11	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	tobi brunette
+05-26-2016:02-37-14	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	Selected 6:	Tobi Brunette
+05-26-2016:02-37-17	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	Selected:	Tobi Brunette
+05-26-2016:02-37-17	---

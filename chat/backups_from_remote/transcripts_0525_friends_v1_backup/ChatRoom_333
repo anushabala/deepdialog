@@ -1,0 +1,27 @@
+05-26-2016:00-28-30	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	joined
+05-26-2016:00-28-30	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0 has user ID f5556e747aa64bfeacd2877a64164995
+05-26-2016:00-28-36	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-29-06	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	i have one friend who works at uber, went to stanford and majored in econ
+05-26-2016:00-29-06	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-06	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	[<major>: econ]
+05-26-2016:00-29-06	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(randi thorson, 3.00),  (nathanial towery, 2.00),  (willie wicks, 2.00),  (guillermo mantz, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (kendrick friday, 1.00),  
+05-26-2016:00-29-09	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_UNFEATURIZED	do you know randi thorson
+05-26-2016:00-29-12	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	Selected 6:	Elza Guevara
+05-26-2016:00-29-13	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_UNFEATURIZED	Selected:	Nathanial Towery
+05-26-2016:00-29-19	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	sorry wrong one
+05-26-2016:00-29-19	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-19	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	
+05-26-2016:00-29-19	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(randi thorson, 3.00),  (nathanial towery, 2.00),  (willie wicks, 2.00),  (guillermo mantz, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (kendrick friday, 1.00),  
+05-26-2016:00-29-20	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_UNFEATURIZED	say
+05-26-2016:00-29-24	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	i know elza
+05-26-2016:00-29-24	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elza],[<fullName>:]
+05-26-2016:00-29-24	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	
+05-26-2016:00-29-24	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(randi thorson, 3.00),  (nathanial towery, 2.00),  (willie wicks, 2.00),  (guillermo mantz, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (kendrick friday, 1.00),  
+05-26-2016:00-29-27	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_UNFEATURIZED	weird
+05-26-2016:00-29-38	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	oops, i mean randi. stupid cslow chat
+05-26-2016:00-29-38	fdba9469-2dfa-4db7-b0f0-fd71589f1935	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: randi],[<fullName>:]
+05-26-2016:00-29-38	fdba9469-2dfa-4db7-b0f0-fd71589f1935	SYNONYMS	
+05-26-2016:00-29-38	fdba9469-2dfa-4db7-b0f0-fd71589f1935	PROBABILITIES	(randi thorson, 4.00),  (nathanial towery, 2.00),  (willie wicks, 2.00),  (guillermo mantz, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (sade kenner, 1.00),  (santina kenley, 1.00),  (kendrick friday, 1.00),  
+05-26-2016:00-29-41	fdba9469-2dfa-4db7-b0f0-fd71589f1935	User 0	Selected 5:	Randi Thorson
+05-26-2016:00-29-43	fdba9469-2dfa-4db7-b0f0-fd71589f1935	LSTM_UNFEATURIZED	Selected:	Randi Thorson
+05-26-2016:00-29-43	---

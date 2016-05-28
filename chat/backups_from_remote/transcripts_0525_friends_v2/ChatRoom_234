@@ -1,0 +1,15 @@
+05-26-2016:02-06-05	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	joined
+05-26-2016:02-06-05	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-06-09	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	hi there
+05-26-2016:02-06-09	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-09	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	
+05-26-2016:02-06-09	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(clarisa mattison, 0.00),  (sheilah steitz, 0.00),  (frederick willetts, 0.00),  (emmanuel eliason, 0.00),  (elza guevara, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (raymond polite, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-06-16	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	all my friend work at facebook and 1 works at apple
+05-26-2016:02-06-18	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	Selected:	Clarisa Mattison
+05-26-2016:02-06-24	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	who works at apple?
+05-26-2016:02-06-24	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-24	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	
+05-26-2016:02-06-24	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(frederick willetts, 1.00),  (clarisa mattison, 0.00),  (sheilah steitz, 0.00),  (emmanuel eliason, 0.00),  (elza guevara, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (raymond polite, 0.00),  (birgit heid, 0.00),  
+05-26-2016:02-06-28	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	do you have any friends from apple 
+05-26-2016:02-06-30	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	Selected:	Frederick Willetts
+05-26-2016:02-06-36	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 0	Selected 6:	Frederick Willetts

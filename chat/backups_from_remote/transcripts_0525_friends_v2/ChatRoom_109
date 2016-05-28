@@ -1,0 +1,25 @@
+05-26-2016:01-55-38	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	joined
+05-26-2016:01-55-38	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0 has user ID 89ab107fb5644c9c966165a31b66fd70
+05-26-2016:01-55-44	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	Hi
+05-26-2016:01-55-44	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-44	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:01-55-44	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  (delbert gapinski, 0.00),  (joetta sequeira, 0.00),  
+05-26-2016:01-55-45	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_UNFEATURIZED	hi
+05-26-2016:01-55-50	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	Do any of your friends work at aaple?
+05-26-2016:01-55-50	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-50	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	[<companyName>: aaple]
+05-26-2016:01-55-50	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  (delbert gapinski, 0.00),  (joetta sequeira, 0.00),  
+05-26-2016:01-55-57	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_UNFEATURIZED	i went to columbia and studied economics i work at uber
+05-26-2016:01-56-39	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	I only have one friends at uber. ALmost all at apple. Any of yours at apple?
+05-26-2016:01-56-39	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, apple, apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-39	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:01-56-39	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(brittanie piggott, 1.00),  (quinn courter, 1.00),  (jon geissler, 1.00),  (nathanial towery, 1.00),  (kathaleen brough, 1.00),  (graig chill, 1.00),  (delbert gapinski, 1.00),  (joetta sequeira, 1.00),  (gregg brian, 0.00),  (candy astorga, 0.00),  
+05-26-2016:01-56-40	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_UNFEATURIZED	no
+05-26-2016:01-56-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	Uber or google?
+05-26-2016:01-56-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, google],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:01-56-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(brittanie piggott, 2.00),  (quinn courter, 2.00),  (jon geissler, 2.00),  (nathanial towery, 2.00),  (kathaleen brough, 2.00),  (graig chill, 2.00),  (delbert gapinski, 2.00),  (joetta sequeira, 2.00),  (gregg brian, 0.00),  (candy astorga, 0.00),  
+05-26-2016:01-56-53	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_UNFEATURIZED	brittanie piggott from uber 
+05-26-2016:01-56-58	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_UNFEATURIZED	no facebook at all my uber and facebook 
+05-26-2016:01-56-59	31e387a1-7401-42c9-aaeb-916269ac5e2e	LSTM_UNFEATURIZED	no
+05-26-2016:01-57-32	---

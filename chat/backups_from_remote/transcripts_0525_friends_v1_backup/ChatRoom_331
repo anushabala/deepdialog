@@ -1,0 +1,23 @@
+05-26-2016:00-28-28	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	joined
+05-26-2016:00-28-28	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1 has user ID 66dcf3b130a44c8ab4ebb145db949126
+05-26-2016:00-28-30	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	hi
+05-26-2016:00-28-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	Hello
+05-26-2016:00-28-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	
+05-26-2016:00-28-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 0.10),  (guillermo mantz, 0.10),  (brittney hunley, 0.10),  (emmanuel eliason, 0.10),  (jacques castillon, 0.10),  (lorriane hurlbert, 0.10),  (darrel oden, 0.10),  (lucienne whitting, 0.10),  (sheilah steitz, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-28-44	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	i went to columbia and majored in computer science
+05-26-2016:00-28-47	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	work at facebook
+05-26-2016:00-28-50	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	what about you?
+05-26-2016:00-29-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	i went to U. of Penn, majored in math and  and work at Amazon
+05-26-2016:00-29-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:00-29-37	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 0.17),  (emmanuel eliason, 0.10),  (lorriane hurlbert, 0.10),  (guillermo mantz, 0.09),  (brittney hunley, 0.09),  (jacques castillon, 0.09),  (darrel oden, 0.09),  (lucienne whitting, 0.09),  (sheilah steitz, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:00-29-49	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	do you know clarisa mattison emmanuel eliason or lorriane hurlbert?
+05-26-2016:00-30-12	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	I know Clarisa
+05-26-2016:00-30-12	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: clarisa],[<fullName>:]
+05-26-2016:00-30-12	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	
+05-26-2016:00-30-12	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 0.25),  (emmanuel eliason, 0.08),  (lorriane hurlbert, 0.08),  (guillermo mantz, 0.08),  (brittney hunley, 0.08),  (jacques castillon, 0.08),  (darrel oden, 0.08),  (lucienne whitting, 0.08),  (sheilah steitz, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:00-30-13	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	yep!
+05-26-2016:00-30-15	0a682e0f-8bb5-443c-80e1-ed161812af2c	DEFAULT_BOT	Selected:	Clarisa Mattison
+05-26-2016:00-30-17	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 1	Selected 4:	Clarisa Mattison
+05-26-2016:00-30-18	---

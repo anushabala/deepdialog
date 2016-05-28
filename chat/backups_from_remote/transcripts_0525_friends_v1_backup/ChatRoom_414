@@ -1,0 +1,21 @@
+05-26-2016:00-31-40	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	joined
+05-26-2016:00-31-40	1b83d884-f88e-4943-97ca-e5de834b5517	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-31-46	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_UNFEATURIZED	all my friend work at facebook and 1 works at facebook
+05-26-2016:00-31-47	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	hi, went to columbia for econ, work at uber
+05-26-2016:00-31-47	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-47	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	[<major>: econ]
+05-26-2016:00-31-47	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 2.00),  (maritza horrell, 1.00),  (sheilah steitz, 1.00),  (lorriane hurlbert, 1.00),  (kam wey, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (elza guevara, 0.00),  
+05-26-2016:00-31-53	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_UNFEATURIZED	i went to stanford and majored in economics 
+05-26-2016:00-31-53	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	do you know candy
+05-26-2016:00-31-53	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: candy],[<fullName>:]
+05-26-2016:00-31-53	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:00-31-53	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 2.00),  (maritza horrell, 1.00),  (sheilah steitz, 1.00),  (lorriane hurlbert, 1.00),  (kam wey, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (elza guevara, 0.00),  
+05-26-2016:00-31-57	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_UNFEATURIZED	all of my friends work at google
+05-26-2016:00-31-59	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_UNFEATURIZED	randi thorson
+05-26-2016:00-32-05	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	Selected 7:	Randi Thorson
+05-26-2016:00-32-06	1b83d884-f88e-4943-97ca-e5de834b5517	User 1	yep
+05-26-2016:00-32-06	1b83d884-f88e-4943-97ca-e5de834b5517	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-06	1b83d884-f88e-4943-97ca-e5de834b5517	SYNONYMS	
+05-26-2016:00-32-06	1b83d884-f88e-4943-97ca-e5de834b5517	PROBABILITIES	(randi thorson, 3.00),  (maritza horrell, 1.00),  (sheilah steitz, 1.00),  (lorriane hurlbert, 1.00),  (kam wey, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (carry pavlick, 0.00),  (lucienne whitting, 0.00),  (elza guevara, 0.00),  
+05-26-2016:00-32-09	1b83d884-f88e-4943-97ca-e5de834b5517	LSTM_UNFEATURIZED	Selected:	Randi Thorson
+05-26-2016:00-32-09	---

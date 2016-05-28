@@ -1,0 +1,47 @@
+05-26-2016:02-22-15	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	joined
+05-26-2016:02-22-15	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0 has user ID 08308d67571d4fc4a00434739bacf49e
+05-26-2016:02-22-16	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	hey!
+05-26-2016:02-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	hi
+05-26-2016:02-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (mose coletti, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (ayesha aarons, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:02-22-24	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	i went to stanford, majored in math, work at apple
+05-26-2016:02-22-28	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	major, school, company?
+05-26-2016:02-22-34	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	I have a friend who works at apple to
+05-26-2016:02-22-34	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-22-34	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-22-34	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (mose coletti, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (ayesha aarons, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  
+05-26-2016:02-22-39	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	do you know kristie, bernita or oliver?
+05-26-2016:02-22-45	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	But they both studied linguistics
+05-26-2016:02-22-45	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-22-45	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-22-45	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(bernita kerrick, 0.18),  (mose coletti, 0.18),  (ayesha aarons, 0.18),  (kristie bolduc, 0.07),  (oliver roker, 0.07),  (jenny hird, 0.07),  (tobi brunette, 0.07),  (pearl dollard, 0.07),  (riva noles, 0.07),  (elene prouty, 0.07),  
+05-26-2016:02-22-50	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	do you know mose, ayesha or jenny?
+05-26-2016:02-23-00	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	One went to Columbia and the other went to Upenn.
+05-26-2016:02-23-00	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-00	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-23-00	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.18),  (oliver roker, 0.18),  (elene prouty, 0.18),  (bernita kerrick, 0.07),  (mose coletti, 0.07),  (ayesha aarons, 0.07),  (jenny hird, 0.06),  (tobi brunette, 0.06),  (pearl dollard, 0.06),  (riva noles, 0.06),  
+05-26-2016:02-23-03	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	do you know elene prouty?
+05-26-2016:02-23-16	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	Did your apple friends go to Columbia or Upenn
+05-26-2016:02-23-16	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-16	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-23-16	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.19),  (oliver roker, 0.19),  (elene prouty, 0.19),  (bernita kerrick, 0.06),  (mose coletti, 0.06),  (ayesha aarons, 0.06),  (jenny hird, 0.06),  (tobi brunette, 0.06),  (pearl dollard, 0.06),  (riva noles, 0.06),  
+05-26-2016:02-23-22	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	no
+05-26-2016:02-23-22	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-22	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-23-22	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.11),  (oliver roker, 0.11),  (elene prouty, 0.11),  (bernita kerrick, 0.10),  (mose coletti, 0.10),  (ayesha aarons, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  
+05-26-2016:02-23-29	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	do you know tobi brunette pearl dollard or riva noles?
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	are kristie or oliver on your list?
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	no
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.10),  (oliver roker, 0.10),  (elene prouty, 0.10),  (bernita kerrick, 0.10),  (mose coletti, 0.10),  (ayesha aarons, 0.10),  (jenny hird, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	Did either of your friends at apple go to columbia
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:02-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(kristie bolduc, 0.18),  (oliver roker, 0.18),  (elene prouty, 0.18),  (bernita kerrick, 0.07),  (mose coletti, 0.07),  (ayesha aarons, 0.07),  (jenny hird, 0.07),  (tobi brunette, 0.07),  (pearl dollard, 0.07),  (riva noles, 0.07),  
+05-26-2016:02-24-01	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	elene?
+05-26-2016:02-24-04	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	bernita, mose?
+05-26-2016:02-24-10	46cb4226-4761-40e8-a75b-f6e72bd09815	User 0	Selected 3:	Ayesha Aarons
+05-26-2016:02-24-12	46cb4226-4761-40e8-a75b-f6e72bd09815	DEFAULT_BOT	Selected:	Ayesha Aarons
+05-26-2016:02-24-13	---

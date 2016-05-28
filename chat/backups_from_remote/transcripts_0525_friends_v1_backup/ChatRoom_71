@@ -1,0 +1,20 @@
+05-26-2016:00-14-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	joined
+05-26-2016:00-14-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0 has user ID f2e2c5dce9ed453486311e9db1c69302
+05-26-2016:00-14-59	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Selected 0:	Kristie Bolduc
+05-26-2016:00-15-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	How's it going?
+05-26-2016:00-15-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-15-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 0.00),  (quinn courter, 0.00),  (vickey redinger, 0.00),  (johnathan mccolley, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (geneva hofmeister, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-15-11	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	all of my friends work at uber except one at uber and one at uber 
+05-26-2016:00-15-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	do you know brittanie piggott
+05-26-2016:00-15-17	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	Selected:	Quinn Courter
+05-26-2016:00-16-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Most of my friends work for Uber and Apple
+05-26-2016:00-16-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-16-15	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(brittanie piggott, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (geneva hofmeister, 1.00),  (willie wicks, 1.00),  
+05-26-2016:00-16-20	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	all friends are uber
+05-26-2016:00-16-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 0	Do you know Geneva?
+05-26-2016:00-16-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: geneva],[<fullName>:]
+05-26-2016:00-16-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:00-16-39	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(geneva hofmeister, 2.00),  (brittanie piggott, 1.00),  (quinn courter, 1.00),  (vickey redinger, 1.00),  (johnathan mccolley, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (willie wicks, 1.00),  
+05-26-2016:00-16-45	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_UNFEATURIZED	who do you know from uber

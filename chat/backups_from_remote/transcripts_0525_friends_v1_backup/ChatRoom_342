@@ -1,0 +1,24 @@
+05-26-2016:00-28-56	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	joined
+05-26-2016:00-28-56	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1 has user ID f2e2c5dce9ed453486311e9db1c69302
+05-26-2016:00-29-14	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	Hi. I went to U of P
+05-26-2016:00-29-14	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-14	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	[<schoolName>: u of p]
+05-26-2016:00-29-14	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(clarisa mattison, 1.00),  (maia coffman, 1.00),  (valeri kress, 1.00),  (gregg brian, 0.00),  (mai buskirk, 0.00),  (emmanuel eliason, 0.00),  (lorriane hurlbert, 0.00),  (justa holdeman, 0.00),  (lawanna mars, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-29-25	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	i have a friend who went to university of california - berkeley majored in physics and work for facebook
+05-26-2016:00-29-54	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	I don't. Mainly uber.  
+05-26-2016:00-29-54	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-54	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	
+05-26-2016:00-29-54	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(clarisa mattison, 1.00),  (maia coffman, 1.00),  (valeri kress, 1.00),  (gregg brian, 0.00),  (mai buskirk, 0.00),  (emmanuel eliason, 0.00),  (lorriane hurlbert, 0.00),  (justa holdeman, 0.00),  (lawanna mars, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-29-59	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	i know two people from facebook and one from google 
+05-26-2016:00-30-03	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	the rest are from google
+05-26-2016:00-30-12	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	Maia from Facebook?
+05-26-2016:00-30-12	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>: maia],[<fullName>:]
+05-26-2016:00-30-12	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	
+05-26-2016:00-30-12	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(maia coffman, 3.00),  (clarisa mattison, 2.00),  (valeri kress, 2.00),  (gregg brian, 1.00),  (emmanuel eliason, 1.00),  (lorriane hurlbert, 1.00),  (justa holdeman, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (mai buskirk, 0.00),  
+05-26-2016:00-30-13	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	facebook 
+05-26-2016:00-30-16	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	i have facebook friends 
+05-26-2016:00-30-19	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	that wont math 
+05-26-2016:00-30-20	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	
+05-26-2016:00-30-23	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	that ring a friend
+05-26-2016:00-30-30	92ad6c0e-4f9f-425a-aa61-567741a59647	User 1	Selected 2:	Maia Coffman
+05-26-2016:00-30-32	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	Selected:	Maia Coffman

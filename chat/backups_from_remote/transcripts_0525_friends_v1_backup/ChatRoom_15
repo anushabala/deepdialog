@@ -1,0 +1,31 @@
+05-26-2016:00-11-11	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	joined
+05-26-2016:00-11-11	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0 has user ID 500277faa5eb4c05bf3374af1ef38a67
+05-26-2016:00-11-16	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-11-33	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	Hi! Do you know Quinn Courter?
+05-26-2016:00-11-33	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: quinn courter]
+05-26-2016:00-11-33	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-11-33	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(alberto thurlow, 0.00),  (brittanie piggott, 0.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (thanh hartin, 0.00),  (kendrick friday, 0.00),  (liana sams, 0.00),  (sherika rust, 0.00),  
+05-26-2016:00-11-33	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	no
+05-26-2016:00-11-55	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	I went to Columbia for Math and work at Goggle. Do you  know anyone there?
+05-26-2016:00-11-55	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-55	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	[<companyName>: goggle]
+05-26-2016:00-11-55	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(kendrick friday, 2.00),  (alberto thurlow, 1.00),  (brittanie piggott, 1.00),  (kathaleen brough, 1.00),  (sherika rust, 1.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (santina kenley, 0.00),  (thanh hartin, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-11-58	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	kendrick friday say
+05-26-2016:00-12-12	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	No
+05-26-2016:00-12-12	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-12	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-12-12	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(kendrick friday, 2.00),  (alberto thurlow, 1.00),  (brittanie piggott, 1.00),  (kathaleen brough, 1.00),  (sherika rust, 1.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (santina kenley, 0.00),  (thanh hartin, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-12-17	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	those are the only google people 
+05-26-2016:00-12-20	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	no alberto thurlow
+05-26-2016:00-12-43	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	Where did you go to school?
+05-26-2016:00-12-43	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-43	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-12-43	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(kendrick friday, 2.00),  (alberto thurlow, 1.00),  (brittanie piggott, 1.00),  (kathaleen brough, 1.00),  (sherika rust, 1.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (santina kenley, 0.00),  (thanh hartin, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-12-47	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	university of pennsylvania
+05-26-2016:00-12-53	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	Sherika?
+05-26-2016:00-12-53	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: sherika],[<fullName>:]
+05-26-2016:00-12-53	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-12-53	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(kendrick friday, 2.00),  (sherika rust, 2.00),  (alberto thurlow, 1.00),  (brittanie piggott, 1.00),  (kathaleen brough, 1.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (santina kenley, 0.00),  (thanh hartin, 0.00),  (liana sams, 0.00),  
+05-26-2016:00-12-55	ca482769-2f48-4f15-b626-f73b51ed1b61	LSTM_FEATURIZED	Selected:	Sherika Rust
+05-26-2016:00-13-00	ca482769-2f48-4f15-b626-f73b51ed1b61	User 0	Selected 5:	Sherika Rust
+05-26-2016:00-13-01	---

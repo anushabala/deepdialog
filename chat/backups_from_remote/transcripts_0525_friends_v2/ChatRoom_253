@@ -1,0 +1,21 @@
+05-26-2016:02-08-20	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	joined
+05-26-2016:02-08-20	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-08-25	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	hiiiii
+05-26-2016:02-08-25	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-25	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:02-08-25	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(niki bybee, 0.00),  (myong kary, 0.00),  (susanna pulley, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-08-27	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	hi
+05-26-2016:02-08-40	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	i went to U Penn and studied math. I now work at apple
+05-26-2016:02-08-40	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>: math],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-40	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: penn]
+05-26-2016:02-08-40	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (rick damico, 1.00),  (emmitt nations, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-08-47	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	i went to university of california - berkeley and economics
+05-26-2016:02-09-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	do you know susanna?
+05-26-2016:02-09-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: susanna],[<fullName>:]
+05-26-2016:02-09-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:02-09-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(susanna pulley, 2.00),  (niki bybee, 1.00),  (rick damico, 1.00),  (emmitt nations, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-09-07	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	most of my friends are from amazon except 1 at facebook 
+05-26-2016:02-09-09	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	niki bybee 
+05-26-2016:02-09-12	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_FEATURIZED	Selected:	Susanna Pulley
+05-26-2016:02-09-17	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	Selected 3:	Susanna Pulley
+05-26-2016:02-09-17	---

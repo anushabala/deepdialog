@@ -1,0 +1,34 @@
+05-26-2016:00-19-42	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	joined
+05-26-2016:00-19-42	9d7265fa-7145-45c5-935d-d78967e0f474	User 1 has user ID 28b180c9f8ad4f9fb5ef24209c79bb63
+05-26-2016:00-19-46	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at facebook
+05-26-2016:00-20-00	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	hi 
+05-26-2016:00-20-00	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-00	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-00	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 0.00),  (sade kenner, 0.00),  (lillia mikel, 0.00),  (joetta sequeira, 0.00),  (lucienne whitting, 0.00),  (kendrick friday, 0.00),  (josefina ferrigno, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  (brittanie piggott, 0.00),  
+05-26-2016:00-20-02	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	hi
+05-26-2016:00-20-02	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	liana
+05-26-2016:00-20-02	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: liana],[<fullName>:]
+05-26-2016:00-20-02	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-02	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(liana sams, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (lillia mikel, 0.00),  (joetta sequeira, 0.00),  (lucienne whitting, 0.00),  (kendrick friday, 0.00),  (josefina ferrigno, 0.00),  (delbert gapinski, 0.00),  (brittanie piggott, 0.00),  
+05-26-2016:00-20-09	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	do any of your friends work for uber facebook or linguistics
+05-26-2016:00-20-13	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	is my uber friend
+05-26-2016:00-20-13	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-13	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-13	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(liana sams, 2.00),  (alberto thurlow, 1.00),  (sade kenner, 1.00),  (lillia mikel, 1.00),  (joetta sequeira, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (delbert gapinski, 1.00),  (brittanie piggott, 1.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-20-16	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	i dont have any uber friends
+05-26-2016:00-20-18	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	the rest are apple
+05-26-2016:00-20-18	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-18	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-18	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(liana sams, 2.00),  (alberto thurlow, 1.00),  (sade kenner, 1.00),  (lillia mikel, 1.00),  (joetta sequeira, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (delbert gapinski, 1.00),  (brittanie piggott, 1.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-20-21	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	one friend from uber
+05-26-2016:00-20-29	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	liana
+05-26-2016:00-20-29	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: liana],[<fullName>:]
+05-26-2016:00-20-29	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-29	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(liana sams, 3.00),  (alberto thurlow, 1.00),  (sade kenner, 1.00),  (lillia mikel, 1.00),  (joetta sequeira, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (delbert gapinski, 1.00),  (brittanie piggott, 1.00),  (lucienne whitting, 0.00),  
+05-26-2016:00-20-32	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	no facebook 
+05-26-2016:00-20-34	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	computer science 
+05-26-2016:00-20-35	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	major 
+05-26-2016:00-20-37	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	liana sams
+05-26-2016:00-20-44	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	Selected 6:	Liana Sams
+05-26-2016:00-20-46	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_UNFEATURIZED	Selected:	Liana Sams
+05-26-2016:00-20-46	---

@@ -1,0 +1,28 @@
+05-26-2016:02-26-48	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	joined
+05-26-2016:02-26-48	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1 has user ID da1e2946d62d455fa59e363d419f3a2b
+05-26-2016:02-26-51	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	hi
+05-26-2016:02-26-51	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-26-51	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:02-26-51	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 0.00),  (samuel tatum, 0.00),  (tamara killeen, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (oliver roker, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-26-57	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:02-26-58	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	hi
+05-26-2016:02-27-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	I work at apple, and study linguistics at stanford
+05-26-2016:02-27-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:02-27-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (samuel tatum, 1.00),  (tamara killeen, 1.00),  (tyson rankins, 1.00),  (oliver roker, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (jesica seaton, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-27-16	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	i went to columbia majored in economics and work at google 
+05-26-2016:02-27-17	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	yes
+05-26-2016:02-27-19	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	most of mine work at apple
+05-26-2016:02-27-19	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-19	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:02-27-19	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (tamara killeen, 2.00),  (oliver roker, 2.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (jesica seaton, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-27-27	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	i only have one friend from google who went to columbia and linguistics
+05-26-2016:02-27-57	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Selected 0:	Laverna Bjornson
+05-26-2016:02-27-59	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	Selected:	Delores Capell
+05-26-2016:02-28-14	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	you got it
+05-26-2016:02-28-14	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-14	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:02-28-14	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (tamara killeen, 2.00),  (oliver roker, 2.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (jesica seaton, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-28-15	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	say
+05-26-2016:02-28-28	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Selected 7:	Delores Capell
+05-26-2016:02-28-29	---

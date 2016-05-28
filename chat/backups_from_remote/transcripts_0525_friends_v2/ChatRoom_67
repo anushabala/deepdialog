@@ -1,0 +1,40 @@
+05-26-2016:01-52-19	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	joined
+05-26-2016:01-52-19	ae903f07-5004-48be-ac1e-52c6a6895445	User 1 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:01-52-22	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Hey there.
+05-26-2016:01-52-22	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-22	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:01-52-22	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-52-27	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at facebook
+05-26-2016:01-52-28	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	or amazon
+05-26-2016:01-52-29	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	I went to Columbia 
+05-26-2016:01-52-29	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-29	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:01-52-29	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (oliver roker, 1.00),  (elene prouty, 1.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-52-33	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	do any of your info work for apple
+05-26-2016:01-52-39	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Yup. Elene
+05-26-2016:01-52-39	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elene],[<fullName>:]
+05-26-2016:01-52-39	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:01-52-39	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 2.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (oliver roker, 1.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-52-41	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	oh okay
+05-26-2016:01-52-43	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	That;s the only one
+05-26-2016:01-52-43	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-43	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:01-52-43	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 2.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (oliver roker, 1.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-52-45	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	okay
+05-26-2016:01-52-54	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	The rest of my friends are with Uber!
+05-26-2016:01-52-54	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-54	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:01-52-54	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 2.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (oliver roker, 1.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  
+05-26-2016:01-52-56	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	all mine are apple
+05-26-2016:01-53-06	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	I just have Elene as a friend who works for Apple
+05-26-2016:01-53-06	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: elene],[<fullName>:]
+05-26-2016:01-53-06	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	[<firstName>: as, as a, just],[<fullName>: as, as a, just]
+05-26-2016:01-53-06	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 4.00),  (laverna bjornson, 2.00),  (kristie bolduc, 2.00),  (oliver roker, 2.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:01-53-08	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	elene prouty
+05-26-2016:01-53-14	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	so that's gotta be our mutual friend!
+05-26-2016:01-53-14	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-14	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:01-53-14	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 4.00),  (laverna bjornson, 2.00),  (kristie bolduc, 2.00),  (oliver roker, 2.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:01-53-15	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Selected 0:	Elene Prouty
+05-26-2016:01-53-17	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	Selected:	Elene Prouty
+05-26-2016:01-53-17	---

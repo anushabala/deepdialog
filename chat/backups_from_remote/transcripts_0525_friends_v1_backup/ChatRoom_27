@@ -1,0 +1,21 @@
+05-26-2016:00-12-11	105f210e-317c-40c9-a7a6-896709b26745	User 1	joined
+05-26-2016:00-12-11	105f210e-317c-40c9-a7a6-896709b26745	User 1 has user ID 1c2891370fe549a3963eaa69861c5593
+05-26-2016:00-12-16	105f210e-317c-40c9-a7a6-896709b26745	User 1	all amazon 1 apple
+05-26-2016:00-12-16	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-16	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	
+05-26-2016:00-12-16	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(kristie bolduc, 1.00),  (colin higby, 1.00),  (gennie dagley, 1.00),  (susanna pulley, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  
+05-26-2016:00-12-22	105f210e-317c-40c9-a7a6-896709b26745	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-12-23	105f210e-317c-40c9-a7a6-896709b26745	LSTM_UNFEATURIZED	no
+05-26-2016:00-12-38	105f210e-317c-40c9-a7a6-896709b26745	User 1	columbia berkeley u of penn
+05-26-2016:00-12-38	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-38	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	[<schoolName>: penn, berkeley]
+05-26-2016:00-12-38	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(kristie bolduc, 2.00),  (colin higby, 2.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (elene prouty, 2.00),  (susanna pulley, 1.00),  (riva noles, 1.00),  
+05-26-2016:00-12-44	105f210e-317c-40c9-a7a6-896709b26745	LSTM_UNFEATURIZED	all my friend from apples one from amazon one from apple
+05-26-2016:00-12-57	105f210e-317c-40c9-a7a6-896709b26745	User 1	Selected 9:	Laverna Bjornson
+05-26-2016:00-13-00	105f210e-317c-40c9-a7a6-896709b26745	LSTM_UNFEATURIZED	Selected:	Kristie Bolduc
+05-26-2016:00-13-27	105f210e-317c-40c9-a7a6-896709b26745	User 1	schools?
+05-26-2016:00-13-27	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-27	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	
+05-26-2016:00-13-27	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(kristie bolduc, 2.00),  (colin higby, 2.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (pearl dollard, 2.00),  (elene prouty, 2.00),  (susanna pulley, 1.00),  (riva noles, 1.00),  
+05-26-2016:00-13-29	105f210e-317c-40c9-a7a6-896709b26745	LSTM_UNFEATURIZED	Selected:	Colin Higby
+05-26-2016:00-13-32	105f210e-317c-40c9-a7a6-896709b26745	User 1	Selected 7:	Colin Higby

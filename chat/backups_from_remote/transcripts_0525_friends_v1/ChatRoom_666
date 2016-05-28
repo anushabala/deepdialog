@@ -1,0 +1,31 @@
+05-26-2016:00-44-19	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0	joined
+05-26-2016:00-44-19	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0 has user ID 703c5a50450344d88bdfa419585590af
+05-26-2016:00-44-40	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0	hi, i studied linguistics at u penn and work for apple
+05-26-2016:00-44-40	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-40	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-44-40	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(tinisha blagg, 1.00),  (nena krone, 1.00),  (emmitt nations, 1.00),  (myong kary, 0.00),  (raymond polite, 0.00),  (angelo patch, 0.00),  (branden sjoberg, 0.00),  (celsa navarrete, 0.00),  (janina rousey, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-44-49	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	i work at amazon and so do all my friends except tinisha blagg who works at amazon
+05-26-2016:00-44-50	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0	got any friends into econ?
+05-26-2016:00-44-50	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-50	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	[<major>: econ]
+05-26-2016:00-44-50	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(emmitt nations, 2.00),  (tinisha blagg, 1.00),  (angelo patch, 1.00),  (nena krone, 1.00),  (myong kary, 0.00),  (raymond polite, 0.00),  (branden sjoberg, 0.00),  (celsa navarrete, 0.00),  (janina rousey, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-44-53	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	no friends from apple 
+05-26-2016:00-44-56	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	all are amazon
+05-26-2016:00-45-30	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0	where did you go to school?
+05-26-2016:00-45-30	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-30	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-45-30	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(emmitt nations, 2.00),  (tinisha blagg, 1.00),  (angelo patch, 1.00),  (nena krone, 1.00),  (myong kary, 0.00),  (raymond polite, 0.00),  (branden sjoberg, 0.00),  (celsa navarrete, 0.00),  (janina rousey, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-45-31	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	apple 
+05-26-2016:00-45-33	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	not it 
+05-26-2016:00-45-35	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	
+05-26-2016:00-45-37	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	gg
+05-26-2016:00-46-18	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0	econ, columbia berkley.. anything?
+05-26-2016:00-46-18	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-18	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	[<major>: econ],[<schoolName>: berkley]
+05-26-2016:00-46-18	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(emmitt nations, 3.00),  (angelo patch, 2.00),  (tinisha blagg, 1.00),  (myong kary, 1.00),  (nena krone, 1.00),  (celsa navarrete, 1.00),  (janina rousey, 1.00),  (raymond polite, 0.00),  (branden sjoberg, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-46-19	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	no im not it
+05-26-2016:00-46-33	4bbf8341-996d-4925-bac6-9fbbf7a3f697	User 0	not what... are you actively having a stroke or something?
+05-26-2016:00-46-33	4bbf8341-996d-4925-bac6-9fbbf7a3f697	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-33	4bbf8341-996d-4925-bac6-9fbbf7a3f697	SYNONYMS	
+05-26-2016:00-46-33	4bbf8341-996d-4925-bac6-9fbbf7a3f697	PROBABILITIES	(emmitt nations, 3.00),  (angelo patch, 2.00),  (tinisha blagg, 1.00),  (myong kary, 1.00),  (nena krone, 1.00),  (celsa navarrete, 1.00),  (janina rousey, 1.00),  (raymond polite, 0.00),  (branden sjoberg, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-46-35	4bbf8341-996d-4925-bac6-9fbbf7a3f697	LSTM_UNFEATURIZED	7

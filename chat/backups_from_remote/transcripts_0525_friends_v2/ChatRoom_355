@@ -1,0 +1,49 @@
+05-26-2016:02-23-04	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	joined
+05-26-2016:02-23-04	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1 has user ID 320346516b5b4dd7992b3aa4eb3432f2
+05-26-2016:02-23-09	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at amazon
+05-26-2016:02-23-12	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	i work at apple went ot stanford
+05-26-2016:02-23-12	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-12	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-23-12	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-23-18	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	i went to columbia majored in math and work at apple 
+05-26-2016:02-23-20	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	yes
+05-26-2016:02-23-25	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	lakesha?
+05-26-2016:02-23-25	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lakesha],[<fullName>:]
+05-26-2016:02-23-25	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-23-25	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-23-27	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	Selected:	Brittanie Piggott
+05-26-2016:02-23-59	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	i don't have her
+05-26-2016:02-23-59	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-23-59	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-23-59	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-24-00	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	yes
+05-26-2016:02-24-07	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	Selected 0:	Lakesha Platz
+05-26-2016:02-24-07	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	pass
+05-26-2016:02-24-40	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	hello?
+05-26-2016:02-24-40	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-24-40	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-24-40	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-24-43	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	np
+05-26-2016:02-24-47	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	do you know
+05-26-2016:02-24-47	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-24-47	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-24-47	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-24-48	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	lakesha
+05-26-2016:02-24-48	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lakesha],[<fullName>:]
+05-26-2016:02-24-48	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-24-48	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-24-50	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	no 
+05-26-2016:02-24-52	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	Selected:	Brittanie Piggott
+05-26-2016:02-24-55	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	Selected:	Barbar Scheu
+05-26-2016:02-25-03	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	stop selecting people
+05-26-2016:02-25-03	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-25-03	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-25-03	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-25-05	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	is it elene prouty
+05-26-2016:02-25-10	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	yes
+05-26-2016:02-25-10	19db1210-014a-4df1-a595-6d1fa0588ca6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-25-10	19db1210-014a-4df1-a595-6d1fa0588ca6	SYNONYMS	
+05-26-2016:02-25-10	19db1210-014a-4df1-a595-6d1fa0588ca6	PROBABILITIES	(brittanie piggott, 1.00),  (barbar scheu, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (santina kenley, 0.00),  (liana sams, 0.00),  
+05-26-2016:02-25-13	19db1210-014a-4df1-a595-6d1fa0588ca6	User 1	Selected 5:	Elene Prouty
+05-26-2016:02-25-15	19db1210-014a-4df1-a595-6d1fa0588ca6	LSTM_UNFEATURIZED	Selected:	Elene Prouty
+05-26-2016:02-25-16	---

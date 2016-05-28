@@ -1,0 +1,41 @@
+05-26-2016:01-57-05	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	joined
+05-26-2016:01-57-05	9d7265fa-7145-45c5-935d-d78967e0f474	User 1 has user ID 3405eb473f064113ab164949500dbc28
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	whats up
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 0.00),  (sade kenner, 0.00),  (lillia mikel, 0.00),  (joetta sequeira, 0.00),  (lucienne whitting, 0.00),  (kendrick friday, 0.00),  (josefina ferrigno, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  (brittanie piggott, 0.00),  
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	whats up
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:01-57-32	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 0.00),  (sade kenner, 0.00),  (lillia mikel, 0.00),  (joetta sequeira, 0.00),  (lucienne whitting, 0.00),  (kendrick friday, 0.00),  (josefina ferrigno, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  (brittanie piggott, 0.00),  
+05-26-2016:01-57-32	---
+05-26-2016:01-57-47	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	joined
+05-26-2016:01-57-47	9d7265fa-7145-45c5-935d-d78967e0f474	User 1 has user ID 3405eb473f064113ab164949500dbc28
+05-26-2016:01-57-48	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	i work at uber and so do most of my friends 
+05-26-2016:01-57-53	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	except alberto thurlow from facebook
+05-26-2016:01-57-57	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	ok who went to stanford
+05-26-2016:01-58-04	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	i have one friend from uber
+05-26-2016:01-58-04	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-04	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:01-58-04	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 1.00),  (sade kenner, 1.00),  (lillia mikel, 1.00),  (joetta sequeira, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (liana sams, 1.00),  (delbert gapinski, 1.00),  (brittanie piggott, 1.00),  (lucienne whitting, 0.00),  
+05-26-2016:01-58-09	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	a bunch of my friends work at uber
+05-26-2016:01-58-25	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	she studied linguistics
+05-26-2016:01-58-25	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-25	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:01-58-25	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(lillia mikel, 2.00),  (liana sams, 2.00),  (delbert gapinski, 2.00),  (alberto thurlow, 1.00),  (sade kenner, 1.00),  (joetta sequeira, 1.00),  (lucienne whitting, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (brittanie piggott, 1.00),  
+05-26-2016:01-58-27	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	Selected:	Lillia Mikel
+05-26-2016:01-59-01	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	all my other friends are from apple
+05-26-2016:01-59-01	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-01	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:01-59-01	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(lillia mikel, 2.00),  (liana sams, 2.00),  (delbert gapinski, 2.00),  (alberto thurlow, 1.00),  (sade kenner, 1.00),  (joetta sequeira, 1.00),  (lucienne whitting, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (brittanie piggott, 1.00),  
+05-26-2016:01-59-06	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	do you have any friends that work at uber
+05-26-2016:01-59-15	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	one
+05-26-2016:01-59-15	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-15	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:01-59-15	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(lillia mikel, 2.00),  (liana sams, 2.00),  (delbert gapinski, 2.00),  (alberto thurlow, 1.00),  (sade kenner, 1.00),  (joetta sequeira, 1.00),  (lucienne whitting, 1.00),  (kendrick friday, 1.00),  (josefina ferrigno, 1.00),  (brittanie piggott, 1.00),  
+05-26-2016:01-59-18	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	Selected 6:	Liana Sams
+05-26-2016:01-59-22	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	what about you 
+05-26-2016:01-59-24	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	i work for uber
+05-26-2016:01-59-26	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	i know her 
+05-26-2016:01-59-29	9d7265fa-7145-45c5-935d-d78967e0f474	LSTM_FEATURIZED	Selected:	Liana Sams
+05-26-2016:01-59-29	---

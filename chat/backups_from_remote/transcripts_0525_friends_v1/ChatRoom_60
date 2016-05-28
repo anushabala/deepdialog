@@ -1,0 +1,116 @@
+05-26-2016:00-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	joined
+05-26-2016:00-14-02	ae903f07-5004-48be-ac1e-52c6a6895445	User 1 has user ID 2db20768da994ed4b7ae18963fce7bea
+05-26-2016:00-14-05	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	please be real
+05-26-2016:00-14-05	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-05	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-14-05	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-14-06	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	please be real
+05-26-2016:00-14-06	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-06	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-14-06	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-14-11	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	all but 2 friends work for apple
+05-26-2016:00-14-13	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	please be a real person
+05-26-2016:00-14-13	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-13	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-14-13	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-14-15	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	laverna bjornson 
+05-26-2016:00-14-18	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	or kristie bolduc
+05-26-2016:00-14-22	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	i dont know elene prouty
+05-26-2016:00-14-28	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	omg
+05-26-2016:00-14-28	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-28	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-14-28	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-14-33	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	okay what school and major in economics 
+05-26-2016:00-14-36	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	all my friends work at uber except for one at apple
+05-26-2016:00-14-36	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-36	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-14-36	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-14-39	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	do you know a bernita kerrick
+05-26-2016:00-14-41	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	no
+05-26-2016:00-14-41	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-41	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-14-41	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-14-50	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	i went to university of california - berkeley and majored in economics 
+05-26-2016:00-14-53	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	all of mine work at apple
+05-26-2016:00-14-57	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	thats it laverna bjornson 
+05-26-2016:00-14-59	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	kristie bolduc
+05-26-2016:00-15-01	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	what
+05-26-2016:00-15-01	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-01	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-01	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-06	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	only those are the only left left
+05-26-2016:00-15-08	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Ok just keep listing names
+05-26-2016:00-15-08	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-08	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	[<firstName>: just],[<fullName>: just]
+05-26-2016:00-15-08	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-11	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	go for it
+05-26-2016:00-15-11	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-11	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-11	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-13	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	just list them
+05-26-2016:00-15-13	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-13	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	[<firstName>: just],[<fullName>: just]
+05-26-2016:00-15-13	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-17	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	bernita kerrick and francine bateman 
+05-26-2016:00-15-18	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	no
+05-26-2016:00-15-23	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	all my other friends are from apple
+05-26-2016:00-15-25	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	laverna bjornson
+05-26-2016:00-15-29	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	nope
+05-26-2016:00-15-29	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-29	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-29	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-31	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	kristie bolduc
+05-26-2016:00-15-31	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	keep going
+05-26-2016:00-15-31	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-31	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-31	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-33	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	Selected:	Laverna Bjornson
+05-26-2016:00-15-34	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	nope
+05-26-2016:00-15-34	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-34	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-34	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-37	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	nope not laverna
+05-26-2016:00-15-37	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: laverna],[<fullName>:]
+05-26-2016:00-15-37	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-37	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 2.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-40	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	keep going
+05-26-2016:00-15-40	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-40	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-40	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 2.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-45	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	then you must have laverna bjornson
+05-26-2016:00-15-47	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	what was your major
+05-26-2016:00-15-51	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	do you know kristie bolduc
+05-26-2016:00-15-54	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	nope
+05-26-2016:00-15-54	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-54	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-15-54	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 2.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-58	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	do you know bernita kerrick
+05-26-2016:00-16-02	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	nope
+05-26-2016:00-16-02	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-02	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-16-02	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 2.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-16-03	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	keep going
+05-26-2016:00-16-03	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-03	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-16-03	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 2.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-16-08	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	how about laverna bjornson
+05-26-2016:00-16-11	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	my only friend that works there
+05-26-2016:00-16-24	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	I DO NOT KNOW LAVERNA
+05-26-2016:00-16-24	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: laverna],[<fullName>:]
+05-26-2016:00-16-24	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-16-24	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 3.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-16-26	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	STOP ASKING ABOUT HER
+05-26-2016:00-16-26	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-26	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-16-26	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 3.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-16-28	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	i know her too
+05-26-2016:00-16-31	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	Selected:	Laverna Bjornson
+05-26-2016:00-16-33	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	omg
+05-26-2016:00-16-33	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-33	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-16-33	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 3.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-16-35	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_FEATURIZED	then you
+05-26-2016:00-16-38	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	quinn courter
+05-26-2016:00-16-38	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: quinn courter]
+05-26-2016:00-16-38	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-16-38	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 3.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  

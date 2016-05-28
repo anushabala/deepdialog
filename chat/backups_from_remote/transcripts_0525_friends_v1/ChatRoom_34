@@ -1,0 +1,40 @@
+05-26-2016:00-12-38	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	joined
+05-26-2016:00-12-38	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1 has user ID 2a75ae2923ae4275aca5dac3dcf01773
+05-26-2016:00-12-44	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	all my friend work at facebook and 1 works at facebook
+05-26-2016:00-13-03	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	Do you now gregg?
+05-26-2016:00-13-03	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gregg],[<fullName>:]
+05-26-2016:00-13-03	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-13-04	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	no
+05-26-2016:00-13-21	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	1 friend works where other than facebook?
+05-26-2016:00-13-21	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-21	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	[<firstName>: than],[<fullName>: than]
+05-26-2016:00-13-23	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	clarisa mattison
+05-26-2016:00-13-35	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	no
+05-26-2016:00-13-35	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-35	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-13-38	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	maritza horrell
+05-26-2016:00-13-46	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	no
+05-26-2016:00-13-46	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-46	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-13-49	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	mine are all facebook 
+05-26-2016:00-13-51	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	major
+05-26-2016:00-14-07	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	i have only one from facebook and that was gregg
+05-26-2016:00-14-07	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>: gregg],[<fullName>:]
+05-26-2016:00-14-07	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-14-09	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	what did you study
+05-26-2016:00-14-16	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	economics
+05-26-2016:00-14-16	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>: economics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-16	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-14-18	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	renay guel 
+05-26-2016:00-14-21	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	birgit heid
+05-26-2016:00-14-40	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	where did you go to school?
+05-26-2016:00-14-40	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-40	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-14-42	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	stanford
+05-26-2016:00-14-50	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	brittanie piggott
+05-26-2016:00-14-50	1f3c8549-f041-4776-8ccf-7f55c54259d3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: brittanie piggott]
+05-26-2016:00-14-50	1f3c8549-f041-4776-8ccf-7f55c54259d3	SYNONYMS	
+05-26-2016:00-14-51	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	yes 
+05-26-2016:00-14-53	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	Selected:	Maritza Horrell
+05-26-2016:00-15-01	1f3c8549-f041-4776-8ccf-7f55c54259d3	User 1	Selected 9:	Brittanie Piggott
+05-26-2016:00-15-02	1f3c8549-f041-4776-8ccf-7f55c54259d3	LSTM_UNFEATURIZED	pass

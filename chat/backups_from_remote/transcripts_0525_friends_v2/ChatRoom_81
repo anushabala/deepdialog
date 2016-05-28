@@ -1,0 +1,48 @@
+05-26-2016:01-53-28	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	joined
+05-26-2016:01-53-28	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1 has user ID d41cc2eb9fd942bbb720e448dc2d0051
+05-26-2016:01-53-30	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	hi there!
+05-26-2016:01-53-33	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	hi
+05-26-2016:01-53-33	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-33	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-53-33	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(lashaunda carothers, 0.10),  (renita canney, 0.10),  (sherika rust, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-53-41	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	i'm from university of california - berkeley, physics, google
+05-26-2016:01-53-45	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	major, school, company?
+05-26-2016:01-53-52	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	i have a lot of university of pennsylvania
+05-26-2016:01-53-52	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>: university of pennsylvania],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-52	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-53-52	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.23),  (lashaunda carothers, 0.09),  (renita canney, 0.09),  (dannie leedy, 0.09),  (jesica seaton, 0.09),  (tyson rankins, 0.09),  (leena hensel, 0.09),  (kam wey, 0.09),  (darrel oden, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:01-53-55	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	sherika, lashaunda?
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	no
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.11),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-05	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (dannie leedy, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-54-10	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	are renita or dannie on your list?
+05-26-2016:01-54-17	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	kathaleen
+05-26-2016:01-54-17	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kathaleen],[<fullName>:]
+05-26-2016:01-54-17	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-17	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-54-18	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	vickey
+05-26-2016:01-54-18	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: vickey],[<fullName>:]
+05-26-2016:01-54-18	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-18	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (dannie leedy, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-54-21	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	thanh
+05-26-2016:01-54-21	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: thanh],[<fullName>:]
+05-26-2016:01-54-21	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-21	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-54-23	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	alberto
+05-26-2016:01-54-23	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: alberto],[<fullName>:]
+05-26-2016:01-54-23	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-23	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (dannie leedy, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (darrel oden, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:01-54-25	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	jesica seaton?
+05-26-2016:01-54-26	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	sherika
+05-26-2016:01-54-26	f4bbe9eb-9527-43be-b841-19c1ef5b812a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: sherika],[<fullName>:]
+05-26-2016:01-54-26	f4bbe9eb-9527-43be-b841-19c1ef5b812a	SYNONYMS	
+05-26-2016:01-54-26	f4bbe9eb-9527-43be-b841-19c1ef5b812a	PROBABILITIES	(sherika rust, 0.23),  (lashaunda carothers, 0.09),  (renita canney, 0.09),  (jesica seaton, 0.09),  (tyson rankins, 0.09),  (dannie leedy, 0.09),  (leena hensel, 0.09),  (kam wey, 0.09),  (darrel oden, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:01-54-27	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	yeah
+05-26-2016:01-54-29	f4bbe9eb-9527-43be-b841-19c1ef5b812a	DEFAULT_BOT	Selected:	Sherika Rust
+05-26-2016:01-54-31	f4bbe9eb-9527-43be-b841-19c1ef5b812a	User 1	Selected 4:	Sherika Rust
+05-26-2016:01-54-31	---

@@ -1,0 +1,22 @@
+05-26-2016:02-16-32	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	joined
+05-26-2016:02-16-32	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-16-35	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	hi there!
+05-26-2016:02-16-36	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	hi there
+05-26-2016:02-16-36	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-36	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-16-36	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(susanna pulley, 0.10),  (bernita kerrick, 0.10),  (beau roudebush, 0.10),  (gennie dagley, 0.10),  (ayesha aarons, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (tobi brunette, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  
+05-26-2016:02-16-45	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	i went to university of california - berkeley and majored in computer science
+05-26-2016:02-16-48	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	work at apple
+05-26-2016:02-16-50	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	I went to U penn and studied Linguistics. I now work for Uber
+05-26-2016:02-16-50	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-50	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:02-16-50	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 0.14),  (gennie dagley, 0.12),  (aline allshouse, 0.12),  (tobi brunette, 0.12),  (thanh hartin, 0.12),  (bernita kerrick, 0.08),  (susanna pulley, 0.07),  (beau roudebush, 0.07),  (laverna bjornson, 0.07),  (riva noles, 0.07),  
+05-26-2016:02-16-57	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:02-16-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Do you know ayesha?
+05-26-2016:02-16-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:02-16-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:02-16-59	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 0.24),  (gennie dagley, 0.09),  (aline allshouse, 0.09),  (tobi brunette, 0.09),  (thanh hartin, 0.09),  (bernita kerrick, 0.08),  (susanna pulley, 0.08),  (beau roudebush, 0.08),  (laverna bjornson, 0.08),  (riva noles, 0.08),  
+05-26-2016:02-17-06	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	do you know ayesha aarons gennie dagley or aline allshouse?
+05-26-2016:02-17-08	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	Selected:	Ayesha Aarons
+05-26-2016:02-17-12	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 0	Selected 8:	Ayesha Aarons
+05-26-2016:02-17-13	---

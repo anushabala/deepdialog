@@ -1,0 +1,20 @@
+05-26-2016:00-13-08	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	joined
+05-26-2016:00-13-08	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0 has user ID 9180b76c89914f0b82ffd65a314252b7
+05-26-2016:00-13-12	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	hi
+05-26-2016:00-13-12	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-12	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:00-13-12	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 0.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-13-13	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	hi
+05-26-2016:00-13-24	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	went to columbia majored in cs work for amazon
+05-26-2016:00-13-24	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-24	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	[<major>: cs]
+05-26-2016:00-13-24	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(fletcher hersman, 2.00),  (tinisha blagg, 1.00),  (brigid imai, 1.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-13-26	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	fletcher hersman
+05-26-2016:00-13-38	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	no
+05-26-2016:00-13-38	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-38	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:00-13-38	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(fletcher hersman, 2.00),  (tinisha blagg, 1.00),  (brigid imai, 1.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-13-41	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	tinisha blagg
+05-26-2016:00-13-45	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Selected 7:	Tinisha Blagg
+05-26-2016:00-13-47	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	Selected:	Tinisha Blagg
+05-26-2016:00-13-47	---

@@ -1,0 +1,17 @@
+05-26-2016:00-13-12	92ad6c0e-4f9f-425a-aa61-567741a59647	User 0	joined
+05-26-2016:00-13-12	92ad6c0e-4f9f-425a-aa61-567741a59647	User 0 has user ID 98e391beb9b2443ead4a158ed53df5c8
+05-26-2016:00-13-31	92ad6c0e-4f9f-425a-aa61-567741a59647	User 0	All of my friends work at facebook except for one that works at google.
+05-26-2016:00-13-31	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-31	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	
+05-26-2016:00-13-31	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(maia coffman, 1.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (santina kenley, 0.00),  (thanh hartin, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-13-40	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	hi im maia coffman and i studied computer science at university of pennsylvania 
+05-26-2016:00-13-43	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	i work at uber 
+05-26-2016:00-13-47	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	no uber friends
+05-26-2016:00-14-21	92ad6c0e-4f9f-425a-aa61-567741a59647	User 0	You must have a friend that works at facebook or google then.
+05-26-2016:00-14-21	92ad6c0e-4f9f-425a-aa61-567741a59647	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-21	92ad6c0e-4f9f-425a-aa61-567741a59647	SYNONYMS	
+05-26-2016:00-14-21	92ad6c0e-4f9f-425a-aa61-567741a59647	PROBABILITIES	(maia coffman, 2.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (lillia mikel, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (santina kenley, 0.00),  (thanh hartin, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-14-23	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	no
+05-26-2016:00-14-58	92ad6c0e-4f9f-425a-aa61-567741a59647	User 0	Selected 7:	Maia Coffman
+05-26-2016:00-15-01	92ad6c0e-4f9f-425a-aa61-567741a59647	LSTM_UNFEATURIZED	Selected:	Maia Coffman
+05-26-2016:00-15-01	---

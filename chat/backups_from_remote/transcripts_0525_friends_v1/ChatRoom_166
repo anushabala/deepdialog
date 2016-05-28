@@ -1,0 +1,26 @@
+05-26-2016:00-20-32	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	joined
+05-26-2016:00-20-32	9d7265fa-7145-45c5-935d-d78967e0f474	User 1 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-20-33	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	hey!
+05-26-2016:00-20-34	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	hiya
+05-26-2016:00-20-34	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-34	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-34	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 0.10),  (sade kenner, 0.10),  (lillia mikel, 0.10),  (brittanie piggott, 0.10),  (lucienne whitting, 0.10),  (kendrick friday, 0.10),  (josefina ferrigno, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (joetta sequeira, 0.10),  
+05-26-2016:00-20-39	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	i'm from stanford, linguistics, uber
+05-26-2016:00-20-40	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	all my buddies work for apple, 1 at uber
+05-26-2016:00-20-40	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-40	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-40	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 0.11),  (sade kenner, 0.11),  (lillia mikel, 0.11),  (joetta sequeira, 0.11),  (kendrick friday, 0.11),  (josefina ferrigno, 0.11),  (liana sams, 0.11),  (delbert gapinski, 0.11),  (brittanie piggott, 0.11),  (lucienne whitting, 0.04),  
+05-26-2016:00-20-43	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	what about you?
+05-26-2016:00-20-45	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	alberto?
+05-26-2016:00-20-52	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	hmm nope
+05-26-2016:00-20-52	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-52	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-20-52	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(alberto thurlow, 0.10),  (sade kenner, 0.10),  (lillia mikel, 0.10),  (brittanie piggott, 0.10),  (kendrick friday, 0.10),  (josefina ferrigno, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (joetta sequeira, 0.10),  (lucienne whitting, 0.09),  
+05-26-2016:00-20-55	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	sade kenner?
+05-26-2016:00-21-03	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	nope, the uber one is liana
+05-26-2016:00-21-03	9d7265fa-7145-45c5-935d-d78967e0f474	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: liana],[<fullName>:]
+05-26-2016:00-21-03	9d7265fa-7145-45c5-935d-d78967e0f474	SYNONYMS	
+05-26-2016:00-21-03	9d7265fa-7145-45c5-935d-d78967e0f474	PROBABILITIES	(liana sams, 0.25),  (alberto thurlow, 0.09),  (sade kenner, 0.09),  (lillia mikel, 0.09),  (joetta sequeira, 0.09),  (kendrick friday, 0.09),  (josefina ferrigno, 0.09),  (delbert gapinski, 0.09),  (brittanie piggott, 0.09),  (lucienne whitting, 0.03),  
+05-26-2016:00-21-05	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	yep
+05-26-2016:00-21-07	9d7265fa-7145-45c5-935d-d78967e0f474	DEFAULT_BOT	Selected:	Liana Sams
+05-26-2016:00-21-12	9d7265fa-7145-45c5-935d-d78967e0f474	User 1	Selected 6:	Liana Sams

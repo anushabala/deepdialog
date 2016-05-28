@@ -1,0 +1,40 @@
+05-26-2016:02-17-34	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	joined
+05-26-2016:02-17-34	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1 has user ID 320346516b5b4dd7992b3aa4eb3432f2
+05-26-2016:02-17-50	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	i went to stanford work at google and major economics
+05-26-2016:02-17-50	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>: economics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-50	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-17-50	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 2.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-00	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	hi i went to university of california - berkeley and studied economics i work for facebook 
+05-26-2016:02-18-03	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	do you know tangela raschke
+05-26-2016:02-18-08	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	no
+05-26-2016:02-18-08	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-18-08	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-18-08	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 2.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-11	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	i dont know susanna pulley
+05-26-2016:02-18-14	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	what school did you go to
+05-26-2016:02-18-14	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-18-14	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-18-14	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 2.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-16	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	no
+05-26-2016:02-18-16	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-18-16	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-18-16	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 2.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-19	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	i that work for all my homies
+05-26-2016:02-18-21	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	linguistics
+05-26-2016:02-18-30	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	josh?
+05-26-2016:02-18-30	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: josh],[<fullName>:]
+05-26-2016:02-18-30	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-18-30	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 2.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	im sorry i went to university of california - berkeley
+05-26-2016:02-18-52	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	its tangela
+05-26-2016:02-18-52	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tangela],[<fullName>:]
+05-26-2016:02-18-52	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-18-52	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 3.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-53	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	my bad
+05-26-2016:02-18-53	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-18-53	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-18-53	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(tangela raschke, 3.00),  (susanna pulley, 1.00),  (guillermo mantz, 1.00),  (angelo patch, 1.00),  (carry pavlick, 1.00),  (lucienne whitting, 1.00),  (laurette thrailkill, 1.00),  (emmanuel eliason, 0.00),  (sheilah steitz, 0.00),  (darrel oden, 0.00),  
+05-26-2016:02-18-55	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	Selected:	Tangela Raschke
+05-26-2016:02-18-57	20f4e80e-2b20-4bb9-8a04-b75a4574324b	LSTM_UNFEATURIZED	then you 
+05-26-2016:02-18-57	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 1	Selected 2:	Tangela Raschke
+05-26-2016:02-18-58	---

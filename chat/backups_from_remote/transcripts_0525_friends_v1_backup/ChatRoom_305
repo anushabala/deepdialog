@@ -1,0 +1,21 @@
+05-26-2016:00-25-55	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	joined
+05-26-2016:00-25-55	6d2991af-e241-4e11-9567-601aee1a6b31	User 0 has user ID 36cbf45d6d5740a1aaea3b334abd8b7c
+05-26-2016:00-25-58	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	hi there!
+05-26-2016:00-26-00	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	hey
+05-26-2016:00-26-00	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-26-00	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-26-00	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(myong kary, 0.10),  (raymond polite, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (rick damico, 0.10),  (emmitt nations, 0.10),  (janina rousey, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-28-16	---
+05-26-2016:00-28-23	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	joined
+05-26-2016:00-28-23	6d2991af-e241-4e11-9567-601aee1a6b31	User 0 has user ID 36cbf45d6d5740a1aaea3b334abd8b7c
+05-26-2016:00-28-32	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	i went to university of california - berkeley, majored in math, work at amazon
+05-26-2016:00-28-38	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	hey
+05-26-2016:00-28-38	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-38	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-28-38	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(myong kary, 0.10),  (janina rousey, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (rick damico, 0.10),  (emmitt nations, 0.10),  (raymond polite, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-28-41	6d2991af-e241-4e11-9567-601aee1a6b31	User 0	no match
+05-26-2016:00-28-41	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-41	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	[<major>: math]
+05-26-2016:00-28-41	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(myong kary, 0.10),  (janina rousey, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (rick damico, 0.10),  (emmitt nations, 0.10),  (raymond polite, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-28-46	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:00-28-50	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	hmm, do you know myong?

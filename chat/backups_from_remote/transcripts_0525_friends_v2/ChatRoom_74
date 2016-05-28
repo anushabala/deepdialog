@@ -1,0 +1,44 @@
+05-26-2016:01-52-46	98a60605-a80f-4034-80df-89911ab3089d	User 1	joined
+05-26-2016:01-52-46	98a60605-a80f-4034-80df-89911ab3089d	User 1 has user ID 90f6502026724fe99cc7c507663aa8d0
+05-26-2016:01-53-16	98a60605-a80f-4034-80df-89911ab3089d	User 1	I went to university of pennsylvania and work at apple
+05-26-2016:01-53-16	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>: university of pennsylvania],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-16	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-53-16	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(santina kenley, 1.00),  (liana sams, 1.00),  (elene prouty, 1.00),  (celsa navarrete, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-53-24	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	i have one friend that works at uber the rest are uber
+05-26-2016:01-53-45	98a60605-a80f-4034-80df-89911ab3089d	User 1	all my friends work at apple I majored in computer science
+05-26-2016:01-53-45	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-45	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-53-45	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 2.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (celsa navarrete, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-53-50	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	i dont know anyone from amazon
+05-26-2016:01-54-01	98a60605-a80f-4034-80df-89911ab3089d	User 1	Apple not amazon
+05-26-2016:01-54-01	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-01	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-54-01	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 3.00),  (celsa navarrete, 1.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-54-06	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	i only have friends at apple
+05-26-2016:01-54-23	98a60605-a80f-4034-80df-89911ab3089d	User 1	Who works at apple
+05-26-2016:01-54-23	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-23	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-54-23	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 4.00),  (celsa navarrete, 1.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-54-29	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	i have a friend at amazon named elene prouty 
+05-26-2016:01-54-33	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	do you know either one
+05-26-2016:01-54-40	98a60605-a80f-4034-80df-89911ab3089d	User 1	no
+05-26-2016:01-54-40	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-40	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-54-40	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 4.00),  (celsa navarrete, 1.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-54-41	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	nope
+05-26-2016:01-54-59	98a60605-a80f-4034-80df-89911ab3089d	User 1	where did you got to school
+05-26-2016:01-54-59	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-59	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-54-59	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 4.00),  (celsa navarrete, 1.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-55-01	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	pa
+05-26-2016:01-55-07	98a60605-a80f-4034-80df-89911ab3089d	User 1	Tobi?
+05-26-2016:01-55-07	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tobi],[<fullName>:]
+05-26-2016:01-55-07	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-55-07	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 4.00),  (celsa navarrete, 1.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-55-11	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	celsa navarrete
+05-26-2016:01-55-20	98a60605-a80f-4034-80df-89911ab3089d	User 1	or Francine bateman
+05-26-2016:01-55-20	98a60605-a80f-4034-80df-89911ab3089d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: francine bateman]
+05-26-2016:01-55-20	98a60605-a80f-4034-80df-89911ab3089d	SYNONYMS	
+05-26-2016:01-55-20	98a60605-a80f-4034-80df-89911ab3089d	PROBABILITIES	(elene prouty, 4.00),  (celsa navarrete, 1.00),  (santina kenley, 1.00),  (liana sams, 1.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (johnathan mccolley, 0.00),  (barbar scheu, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  
+05-26-2016:01-55-24	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	or a few from uber 
+05-26-2016:01-55-26	98a60605-a80f-4034-80df-89911ab3089d	LSTM_UNFEATURIZED	no amazon

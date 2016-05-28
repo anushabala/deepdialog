@@ -1,0 +1,31 @@
+05-26-2016:02-08-15	f9704564-c23c-4b19-b6d9-52223708922d	User 0	joined
+05-26-2016:02-08-15	f9704564-c23c-4b19-b6d9-52223708922d	User 0 has user ID 1835740d7d974dcba0bad1f6baf1827f
+05-26-2016:02-08-34	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Hi, I went to U of Penn and studied Physics. I work for Apple as do all of my friends.
+05-26-2016:02-08-34	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-34	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<schoolName>: penn],[<firstName>: as],[<fullName>: as]
+05-26-2016:02-08-43	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	hi i work at google and went to stanford for linguistics my company is facebook 
+05-26-2016:02-08-46	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	you
+05-26-2016:02-08-51	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Selected 3:	Riva Noles
+05-26-2016:02-08-53	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	Selected:	gavin veras
+05-26-2016:02-08-56	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	or mose coletti
+05-26-2016:02-09-05	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Gavin
+05-26-2016:02-09-05	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gavin],[<fullName>:]
+05-26-2016:02-09-05	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:02-09-09	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	Selected:	Denny Harshberger
+05-26-2016:02-09-09	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	gg
+05-26-2016:02-09-31	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Ok, it won't let me select Gavin...
+05-26-2016:02-09-31	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gavin],[<fullName>:]
+05-26-2016:02-09-31	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:02-09-32	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	no 
+05-26-2016:02-09-34	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	Selected:	Lashaunda Carothers
+05-26-2016:02-09-36	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	gg
+05-26-2016:02-10-07	f9704564-c23c-4b19-b6d9-52223708922d	User 0	Selected 9:	Aline Allshouse
+05-26-2016:02-10-07	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	pass
+05-26-2016:02-10-21	f9704564-c23c-4b19-b6d9-52223708922d	User 0	and I think it's broken
+05-26-2016:02-10-21	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-21	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:02-10-23	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	it wont let me 
+05-26-2016:02-10-32	f9704564-c23c-4b19-b6d9-52223708922d	User 0	me either but I definitely have Gavin on my list
+05-26-2016:02-10-33	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: gavin],[<fullName>:]
+05-26-2016:02-10-33	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<firstName>: me, on],[<fullName>: me, on]
+05-26-2016:02-10-34	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	weird

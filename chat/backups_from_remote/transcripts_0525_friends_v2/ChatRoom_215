@@ -1,0 +1,23 @@
+05-26-2016:02-04-07	105f210e-317c-40c9-a7a6-896709b26745	User 0	joined
+05-26-2016:02-04-07	105f210e-317c-40c9-a7a6-896709b26745	User 0 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-04-08	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	hi
+05-26-2016:02-04-13	105f210e-317c-40c9-a7a6-896709b26745	User 0	hi
+05-26-2016:02-04-13	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-13	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	
+05-26-2016:02-04-13	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(sarah lafond, 0.10),  (colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (branden sjoberg, 0.10),  (laverna bjornson, 0.10),  (emmitt nations, 0.10),  (rick damico, 0.10),  (janina rousey, 0.10),  (candis kita, 0.10),  
+05-26-2016:02-04-19	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	i went to columbia and majored in physics
+05-26-2016:02-04-22	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	work at amazon
+05-26-2016:02-04-26	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	major, school, company?
+05-26-2016:02-04-28	105f210e-317c-40c9-a7a6-896709b26745	User 0	i went to U penn and studied math. i now work for apple
+05-26-2016:02-04-28	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>: math],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-28	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:02-04-28	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(colin higby, 0.14),  (emmitt nations, 0.13),  (rick damico, 0.13),  (candis kita, 0.13),  (branden sjoberg, 0.09),  (laverna bjornson, 0.09),  (sarah lafond, 0.08),  (harris schramm, 0.08),  (maryln hagaman, 0.08),  (janina rousey, 0.08),  
+05-26-2016:02-04-32	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	hmm, do you know colin?
+05-26-2016:02-04-38	105f210e-317c-40c9-a7a6-896709b26745	User 0	i do
+05-26-2016:02-04-38	105f210e-317c-40c9-a7a6-896709b26745	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-38	105f210e-317c-40c9-a7a6-896709b26745	SYNONYMS	
+05-26-2016:02-04-38	105f210e-317c-40c9-a7a6-896709b26745	PROBABILITIES	(colin higby, 0.10),  (emmitt nations, 0.10),  (rick damico, 0.10),  (candis kita, 0.10),  (branden sjoberg, 0.10),  (laverna bjornson, 0.10),  (sarah lafond, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (janina rousey, 0.10),  
+05-26-2016:02-04-41	105f210e-317c-40c9-a7a6-896709b26745	User 0	Selected 8:	Colin Higby
+05-26-2016:02-04-45	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	emmitt, rick, candis?
+05-26-2016:02-04-47	105f210e-317c-40c9-a7a6-896709b26745	DEFAULT_BOT	Selected:	Colin Higby
+05-26-2016:02-04-48	---

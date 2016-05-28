@@ -1,0 +1,16 @@
+05-26-2016:00-22-36	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 1	joined
+05-26-2016:00-22-36	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 1 has user ID a46bc7cff940437a8c6d267a51da3626
+05-26-2016:00-22-41	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-22-49	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 1	I went o UC berkeley studied physics and work at amazon
+05-26-2016:00-22-49	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-49	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:00-22-49	7ae95e27-82d3-4096-a3c1-45cdf1748797	PROBABILITIES	(laverna bjornson, 1.00),  (danita hanby, 1.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (lai pettaway, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-22-52	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 1	do you know Danita?
+05-26-2016:00-22-52	7ae95e27-82d3-4096-a3c1-45cdf1748797	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: danita],[<fullName>:]
+05-26-2016:00-22-52	7ae95e27-82d3-4096-a3c1-45cdf1748797	SYNONYMS	
+05-26-2016:00-22-52	7ae95e27-82d3-4096-a3c1-45cdf1748797	PROBABILITIES	(danita hanby, 2.00),  (laverna bjornson, 1.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (lai pettaway, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-22-59	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	i have two friends that work at google and one at google
+05-26-2016:00-23-04	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	danita hanby and laverna bjornson from google
+05-26-2016:00-23-12	7ae95e27-82d3-4096-a3c1-45cdf1748797	User 1	Selected 3:	Danita Hanby
+05-26-2016:00-23-14	7ae95e27-82d3-4096-a3c1-45cdf1748797	LSTM_UNFEATURIZED	Selected:	Danita Hanby
+05-26-2016:00-23-14	---

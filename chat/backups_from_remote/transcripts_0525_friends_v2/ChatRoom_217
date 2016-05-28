@@ -1,0 +1,27 @@
+05-26-2016:02-04-31	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	joined
+05-26-2016:02-04-31	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1 has user ID 823d814dd40c476c905dc96344181367
+05-26-2016:02-04-34	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	hi there!
+05-26-2016:02-04-41	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	hello
+05-26-2016:02-04-41	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-41	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:02-04-41	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (lucia pizarro, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  (thanh hartin, 0.10),  (ngan hornung, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-04-48	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	i went to stanford, majored in linguistics, work at apple
+05-26-2016:02-04-52	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	school major company?
+05-26-2016:02-05-05	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	I went to University of Pennsylvania, majored in math and work at google.
+05-26-2016:02-05-05	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>: math],[<schoolName>: university of pennsylvania],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-05	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:02-05-05	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(lakesha platz, 0.32),  (lucia pizarro, 0.12),  (thanh hartin, 0.12),  (ngan hornung, 0.12),  (elene prouty, 0.12),  (kristie bolduc, 0.04),  (laurette thrailkill, 0.04),  (mose coletti, 0.04),  (laverna bjornson, 0.04),  (carry pavlick, 0.04),  
+05-26-2016:02-05-10	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	do you know lakesha platz?
+05-26-2016:02-05-37	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	no, do you know Lashaunda Carothers?
+05-26-2016:02-05-37	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: lashaunda carothers]
+05-26-2016:02-05-37	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:02-05-37	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(lakesha platz, 0.12),  (lucia pizarro, 0.10),  (thanh hartin, 0.10),  (ngan hornung, 0.10),  (elene prouty, 0.10),  (kristie bolduc, 0.09),  (laurette thrailkill, 0.09),  (mose coletti, 0.09),  (laverna bjornson, 0.09),  (carry pavlick, 0.09),  
+05-26-2016:02-05-44	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	do you know lucia pizarro thanh hartin or ngan hornung?
+05-26-2016:02-06-00	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	Yes I know Ngan.
+05-26-2016:02-06-00	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ngan],[<fullName>:]
+05-26-2016:02-06-00	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:02-06-00	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 0.23),  (lakesha platz, 0.09),  (lucia pizarro, 0.09),  (thanh hartin, 0.09),  (elene prouty, 0.09),  (kristie bolduc, 0.08),  (laurette thrailkill, 0.08),  (mose coletti, 0.08),  (laverna bjornson, 0.08),  (carry pavlick, 0.08),  
+05-26-2016:02-06-02	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	yeah
+05-26-2016:02-06-04	26b33835-8f18-48de-8ddf-08da22b7efa7	DEFAULT_BOT	Selected:	Ngan Hornung
+05-26-2016:02-06-06	26b33835-8f18-48de-8ddf-08da22b7efa7	User 1	Selected 9:	Ngan Hornung
+05-26-2016:02-06-06	---

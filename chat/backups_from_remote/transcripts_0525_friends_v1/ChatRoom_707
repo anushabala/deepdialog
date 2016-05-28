@@ -1,0 +1,29 @@
+05-26-2016:00-46-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	joined
+05-26-2016:00-46-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0 has user ID e5fffaf97f514dcbb80b052cdf171200
+05-26-2016:00-46-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	hi
+05-26-2016:00-46-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-46-51	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(mai buskirk, 0.00),  (maryln drucker, 0.00),  (jesica seaton, 0.00),  (tangela raschke, 0.00),  (josh gouin, 0.00),  (asa cadena, 0.00),  (denny harshberger, 0.00),  (darrel oden, 0.00),  (meda lahr, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-46-52	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	hi
+05-26-2016:00-46-58	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	everyone I know is at uber but one at facebook and one at google
+05-26-2016:00-46-58	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, facebook, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-58	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-46-58	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(mai buskirk, 1.00),  (maryln drucker, 1.00),  (jesica seaton, 1.00),  (tangela raschke, 1.00),  (josh gouin, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (darrel oden, 1.00),  (meda lahr, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-47-01	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	no google friends
+05-26-2016:00-47-13	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	facebook?
+05-26-2016:00-47-13	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-13	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-47-13	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(darrel oden, 2.00),  (mai buskirk, 1.00),  (maryln drucker, 1.00),  (jesica seaton, 1.00),  (tangela raschke, 1.00),  (josh gouin, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-47-17	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	all my friends work for facebook
+05-26-2016:00-47-23	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	great, it's guillermo
+05-26-2016:00-47-23	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: guillermo],[<fullName>:]
+05-26-2016:00-47-23	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-47-23	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(darrel oden, 2.00),  (mai buskirk, 1.00),  (maryln drucker, 1.00),  (jesica seaton, 1.00),  (tangela raschke, 1.00),  (josh gouin, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-47-25	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	darrel oden
+05-26-2016:00-47-26	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Selected 0:	Guillermo Mantz
+05-26-2016:00-47-28	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	Selected:	Mai Buskirk
+05-26-2016:00-47-42	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	...
+05-26-2016:00-47-42	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-42	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-47-42	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(darrel oden, 2.00),  (mai buskirk, 1.00),  (maryln drucker, 1.00),  (jesica seaton, 1.00),  (tangela raschke, 1.00),  (josh gouin, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-47-46	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_UNFEATURIZED	select her you

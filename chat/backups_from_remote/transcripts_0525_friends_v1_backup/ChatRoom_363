@@ -1,0 +1,63 @@
+05-26-2016:00-29-35	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	joined
+05-26-2016:00-29-35	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1 has user ID bf11d5dcaf1846a89a46dd1e48acc385
+05-26-2016:00-29-41	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at google
+05-26-2016:00-29-59	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	who is that friend
+05-26-2016:00-29-59	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-59	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-30-02	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	sarah lafond
+05-26-2016:00-30-07	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	nope dont know her
+05-26-2016:00-30-07	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-07	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-30-10	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	any friends at amazon
+05-26-2016:00-30-17	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	all my friends work at google
+05-26-2016:00-30-17	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-17	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-30-21	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	whos your bud at amazon
+05-26-2016:00-30-25	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	i sent to stanford and majored in CS and work for google
+05-26-2016:00-30-25	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-25	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	[<major>: cs]
+05-26-2016:00-30-28	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	i dont have amazon
+05-26-2016:00-30-28	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-28	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-30-37	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	i went to university of california - berkeley and work at amazon or google or amazon 
+05-26-2016:00-30-39	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	physics 
+05-26-2016:00-30-42	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	do you know a physics
+05-26-2016:00-30-45	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	yes two
+05-26-2016:00-30-45	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-45	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-30-51	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	i have two friends at amazon and one at amazon
+05-26-2016:00-30-54	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	ok tell me about that right
+05-26-2016:00-31-00	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	you tell me
+05-26-2016:00-31-00	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-00	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:00-31-02	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	it wont math 
+05-26-2016:00-31-05	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	mtg rules 
+05-26-2016:00-31-07	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	Selected:	Raymond Polite
+05-26-2016:00-31-11	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	oh boy
+05-26-2016:00-31-11	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-11	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-31-13	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	say
+05-26-2016:00-31-14	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	i dont have that
+05-26-2016:00-31-14	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-14	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-31-19	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	i only have one at amazon janina rousey 
+05-26-2016:00-31-23	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	have any friends at google
+05-26-2016:00-31-30	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	all my friends work for goole
+05-26-2016:00-31-30	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-30	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	[<companyName>: goole]
+05-26-2016:00-31-33	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	i only have amazon
+05-26-2016:00-31-34	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	where did you go to school
+05-26-2016:00-31-34	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-34	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-31-38	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	university of california - berkeley 
+05-26-2016:00-31-39	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	physics
+05-26-2016:00-31-44	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	do you know mai buskirk
+05-26-2016:00-31-44	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: mai buskirk]
+05-26-2016:00-31-44	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	[<firstName>: mai],[<fullName>: mai]
+05-26-2016:00-31-47	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	danyell derose say
+05-26-2016:00-31-48	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	or danyell
+05-26-2016:00-31-48	77ad93aa-b58b-473b-b003-c79c95e0ae91	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: danyell],[<fullName>:]
+05-26-2016:00-31-48	77ad93aa-b58b-473b-b003-c79c95e0ae91	SYNONYMS	
+05-26-2016:00-31-51	77ad93aa-b58b-473b-b003-c79c95e0ae91	User 1	Selected 6:	Danyell Derose
+05-26-2016:00-31-53	77ad93aa-b58b-473b-b003-c79c95e0ae91	LSTM_UNFEATURIZED	Selected:	Danyell Derose
+05-26-2016:00-31-53	---

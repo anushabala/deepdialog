@@ -1,0 +1,28 @@
+05-26-2016:00-42-04	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	joined
+05-26-2016:00-42-04	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1 has user ID 49eb18a45333419eb050c8290882b8b7
+05-26-2016:00-42-06	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	hi there!
+05-26-2016:00-42-10	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	Hey!
+05-26-2016:00-42-10	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-10	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-42-10	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(kristie bolduc, 0.10),  (agueda searcy, 0.10),  (gennie dagley, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-42-19	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:00-42-22	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	work at apple
+05-26-2016:00-42-25	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	I have a bunch of friends at google, one at apple, and one at facebook.
+05-26-2016:00-42-25	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-25	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-42-25	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(kristie bolduc, 0.10),  (agueda searcy, 0.10),  (gennie dagley, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-42-28	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	major school company?
+05-26-2016:00-42-36	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	do you know kristie bolduc agueda searcy or gennie dagley?
+05-26-2016:00-42-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	Stanford Linguistics, and I work at Google.
+05-26-2016:00-42-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-42-38	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 0.37),  (riva noles, 0.14),  (bernita kerrick, 0.14),  (kristie bolduc, 0.05),  (agueda searcy, 0.05),  (gennie dagley, 0.05),  (tobi brunette, 0.05),  (laverna bjornson, 0.05),  (nena krone, 0.05),  (thanh hartin, 0.05),  
+05-26-2016:00-42-42	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	do you know mose coletti?
+05-26-2016:00-42-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	I know mose!
+05-26-2016:00-42-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:00-42-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-42-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 0.29),  (riva noles, 0.08),  (bernita kerrick, 0.08),  (kristie bolduc, 0.08),  (agueda searcy, 0.08),  (gennie dagley, 0.08),  (tobi brunette, 0.08),  (laverna bjornson, 0.08),  (nena krone, 0.08),  (thanh hartin, 0.08),  
+05-26-2016:00-42-51	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	yes!
+05-26-2016:00-42-53	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:00-42-53	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	Selected 2:	Mose Coletti
+05-26-2016:00-42-53	---

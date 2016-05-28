@@ -1,0 +1,21 @@
+05-26-2016:02-20-30	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	joined
+05-26-2016:02-20-30	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-20-36	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	hi there!
+05-26-2016:02-20-36	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-20-36	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:02-20-36	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 0.00),  (samuel tatum, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (santina kenley, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-20-42	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	all work at google except one at google 
+05-26-2016:02-20-46	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	do you know maryln drucker
+05-26-2016:02-20-51	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	 i went to berkeley and studied Linguistics. I now work at Uber
+05-26-2016:02-20-51	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-20-51	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:02-20-51	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 1.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (santina kenley, 1.00),  (jesica seaton, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-21-00	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	i only have one friend from uber and have one friend from university of pennsylvania
+05-26-2016:02-21-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	i know her
+05-26-2016:02-21-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-21-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:02-21-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 1.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (santina kenley, 1.00),  (jesica seaton, 0.00),  (tess lister, 0.00),  (lai pettaway, 0.00),  (denny harshberger, 0.00),  (pearl dollard, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-21-05	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	the last person i worked with had
+05-26-2016:02-21-06	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 0	Selected 4:	Maryln Drucker
+05-26-2016:02-21-08	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	Selected:	Maryln Drucker
+05-26-2016:02-21-08	---

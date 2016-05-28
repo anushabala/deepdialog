@@ -1,0 +1,23 @@
+05-26-2016:01-47-41	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	joined
+05-26-2016:01-47-41	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0 has user ID 6220b1a2181b4a98a05530c345901b7c
+05-26-2016:01-48-21	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	any friend at amazon or facebook
+05-26-2016:01-48-21	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-48-21	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:01-48-21	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 1.00),  (eldon lindholm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (karma echeverria, 1.00),  (kerry carter, 1.00),  (lucienne whitting, 1.00),  (janina rousey, 1.00),  (ngan hornung, 0.00),  
+05-26-2016:01-48-24	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	hi all of my friends work for amazon
+05-26-2016:01-48-39	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	any unique major
+05-26-2016:01-48-39	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-48-39	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:01-48-39	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 1.00),  (eldon lindholm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (karma echeverria, 1.00),  (kerry carter, 1.00),  (lucienne whitting, 1.00),  (janina rousey, 1.00),  (ngan hornung, 0.00),  
+05-26-2016:01-48-44	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	celsa navarrete and eldon lindholm
+05-26-2016:01-48-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	no
+05-26-2016:01-48-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-48-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:01-48-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 1.00),  (eldon lindholm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (karma echeverria, 1.00),  (kerry carter, 1.00),  (lucienne whitting, 1.00),  (janina rousey, 1.00),  (ngan hornung, 0.00),  
+05-26-2016:01-49-01	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	who do you know at facebook
+05-26-2016:01-49-08	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	angelo
+05-26-2016:01-49-08	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: angelo],[<fullName>:]
+05-26-2016:01-49-08	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:01-49-08	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 2.00),  (celsa navarrete, 1.00),  (eldon lindholm, 1.00),  (maryln hagaman, 1.00),  (rick damico, 1.00),  (karma echeverria, 1.00),  (kerry carter, 1.00),  (lucienne whitting, 1.00),  (janina rousey, 1.00),  (ngan hornung, 0.00),  
+05-26-2016:01-49-10	cde8895b-8de7-44fd-b49c-1e654e0fa5de	LSTM_UNFEATURIZED	Selected:	Angelo Patch
+05-26-2016:01-49-14	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Selected 1:	Angelo Patch

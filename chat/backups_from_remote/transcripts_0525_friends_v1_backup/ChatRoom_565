@@ -1,0 +1,41 @@
+05-26-2016:00-39-15	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	joined
+05-26-2016:00-39-15	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1 has user ID 1aed4a98f9874cf79c3c4a88af5b4445
+05-26-2016:00-39-18	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	hello
+05-26-2016:00-39-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	uber?
+05-26-2016:00-39-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-39-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(jon geissler, 0.12),  (keesha ahart, 0.12),  (jody tropea, 0.12),  (barbar scheu, 0.12),  (graig chill, 0.12),  (liana sams, 0.12),  (delbert gapinski, 0.12),  (renita canney, 0.05),  (bernita kerrick, 0.05),  (maryln drucker, 0.05),  
+05-26-2016:00-39-26	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Apple?
+05-26-2016:00-39-26	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-26	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-39-26	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(bernita kerrick, 0.22),  (jon geissler, 0.09),  (keesha ahart, 0.09),  (jody tropea, 0.09),  (barbar scheu, 0.09),  (graig chill, 0.09),  (liana sams, 0.09),  (delbert gapinski, 0.09),  (renita canney, 0.08),  (maryln drucker, 0.08),  
+05-26-2016:00-39-36	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	i'm from university of california - berkeley, studied linguistics, work at uber
+05-26-2016:00-39-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	you?
+05-26-2016:00-39-53	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	nope
+05-26-2016:00-39-53	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-53	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-39-53	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(bernita kerrick, 0.11),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (renita canney, 0.10),  (maryln drucker, 0.10),  
+05-26-2016:00-39-58	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	are bernita or jon on your list?
+05-26-2016:00-40-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Columbia?
+05-26-2016:00-40-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-40-04	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(bernita kerrick, 0.10),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (renita canney, 0.10),  (maryln drucker, 0.10),  
+05-26-2016:00-40-07	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	no
+05-26-2016:00-40-07	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-07	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-40-07	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(bernita kerrick, 0.10),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (renita canney, 0.10),  (maryln drucker, 0.10),  
+05-26-2016:00-40-11	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	keesha, jody, barbar?
+05-26-2016:00-40-15	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	hmm, do you know graig?
+05-26-2016:00-40-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	nope
+05-26-2016:00-40-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-40-24	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(bernita kerrick, 0.10),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (renita canney, 0.10),  (maryln drucker, 0.10),  
+05-26-2016:00-40-30	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	do you know liana sams or delbert gapinski?
+05-26-2016:00-40-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	No
+05-26-2016:00-40-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-40-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(bernita kerrick, 0.10),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  (renita canney, 0.10),  (maryln drucker, 0.10),  
+05-26-2016:00-40-41	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	do you know renita, maryln or bernita?
+05-26-2016:00-40-50	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Selected 4:	Maryln Drucker
+05-26-2016:00-40-52	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	Selected:	Maryln Drucker
+05-26-2016:00-40-52	---

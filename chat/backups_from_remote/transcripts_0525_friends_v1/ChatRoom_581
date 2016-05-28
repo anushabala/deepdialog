@@ -1,0 +1,42 @@
+05-26-2016:00-39-55	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	joined
+05-26-2016:00-39-55	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0 has user ID 9cdf05a6419b496681e6e8e8ad672636
+05-26-2016:00-40-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	I went to Columbia  studied econ
+05-26-2016:00-40-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	[<major>: econ]
+05-26-2016:00-40-05	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 2.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-40-08	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	and work at facebook
+05-26-2016:00-40-08	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-08	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-40-08	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 2.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-40-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	you?
+05-26-2016:00-40-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-40-17	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 2.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-40-30	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	hi im willie wicks and i work at uber and went to u university of california - berkeley and my company is my company is uber 
+05-26-2016:00-40-31	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	you
+05-26-2016:00-40-32	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	no
+05-26-2016:00-40-36	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	lovella bowling or my winters 
+05-26-2016:00-40-36	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Willie?
+05-26-2016:00-40-36	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: willie],[<fullName>:]
+05-26-2016:00-40-36	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-40-36	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 3.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-40-38	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	no
+05-26-2016:00-40-42	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	how about randi thorson or alberto thurlow
+05-26-2016:00-41-06	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	no
+05-26-2016:00-41-06	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-06	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-41-06	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 3.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-41-13	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	my friends at uber went to university of california - berkeley
+05-26-2016:00-41-16	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Birgit?
+05-26-2016:00-41-16	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:00-41-16	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-41-16	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 3.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-41-19	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	computer science
+05-26-2016:00-41-37	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Darrel
+05-26-2016:00-41-37	6b5c0133-4827-41d2-8cd5-3ec9092232dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: darrel],[<fullName>:]
+05-26-2016:00-41-37	6b5c0133-4827-41d2-8cd5-3ec9092232dd	SYNONYMS	
+05-26-2016:00-41-37	6b5c0133-4827-41d2-8cd5-3ec9092232dd	PROBABILITIES	(willie wicks, 3.00),  (lovella bowling, 1.00),  (my winters, 1.00),  (randi thorson, 1.00),  (alberto thurlow, 0.00),  (joetta sequeira, 0.00),  (jon geissler, 0.00),  (santina kenley, 0.00),  (nena krone, 0.00),  (josefina ferrigno, 0.00),  
+05-26-2016:00-41-39	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	willie wicks
+05-26-2016:00-41-46	6b5c0133-4827-41d2-8cd5-3ec9092232dd	User 0	Selected 4:	Willie Wicks
+05-26-2016:00-41-48	6b5c0133-4827-41d2-8cd5-3ec9092232dd	LSTM_UNFEATURIZED	Selected:	Willie Wicks
+05-26-2016:00-41-48	---

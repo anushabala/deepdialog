@@ -1,0 +1,16 @@
+05-26-2016:02-09-50	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	joined
+05-26-2016:02-09-50	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:02-09-56	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_FEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:02-09-59	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	hi, went to stanford for linguistics, work at apple
+05-26-2016:02-09-59	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-59	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:02-09-59	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (samuel tatum, 1.00),  (tamara killeen, 1.00),  (tyson rankins, 1.00),  (oliver roker, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (jesica seaton, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-10-05	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_FEATURIZED	do you have any friends that work at google
+05-26-2016:02-10-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	know delores?
+05-26-2016:02-10-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: delores],[<fullName>:]
+05-26-2016:02-10-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:02-10-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 3.00),  (samuel tatum, 1.00),  (tamara killeen, 1.00),  (tyson rankins, 1.00),  (oliver roker, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (jesica seaton, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-10-09	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_FEATURIZED	yes
+05-26-2016:02-10-12	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Selected 7:	Delores Capell
+05-26-2016:02-10-14	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_FEATURIZED	Selected:	Delores Capell
+05-26-2016:02-10-14	---

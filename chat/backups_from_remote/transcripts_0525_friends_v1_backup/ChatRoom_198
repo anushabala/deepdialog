@@ -1,0 +1,17 @@
+05-26-2016:00-21-38	08e5b476-cd1a-412a-9136-012286542498	User 0	joined
+05-26-2016:00-21-38	08e5b476-cd1a-412a-9136-012286542498	User 0 has user ID 92b6d44523d54a799dfa13983ea851f4
+05-26-2016:00-21-43	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	all my friend work at amazon and 1 works at facebook
+05-26-2016:00-21-49	08e5b476-cd1a-412a-9136-012286542498	User 0	All of my friends work at apple except one at google
+05-26-2016:00-21-49	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-49	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	
+05-26-2016:00-21-49	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(aline allshouse, 1.00),  (gennie dagley, 1.00),  (mitzi hoar, 1.00),  (clarisa mattison, 0.00),  (raymond polite, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-21-51	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	aline allshouse 
+05-26-2016:00-21-53	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	from apple
+05-26-2016:00-22-11	08e5b476-cd1a-412a-9136-012286542498	User 0	nope
+05-26-2016:00-22-11	08e5b476-cd1a-412a-9136-012286542498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-11	08e5b476-cd1a-412a-9136-012286542498	SYNONYMS	
+05-26-2016:00-22-11	08e5b476-cd1a-412a-9136-012286542498	PROBABILITIES	(aline allshouse, 1.00),  (gennie dagley, 1.00),  (mitzi hoar, 1.00),  (clarisa mattison, 0.00),  (raymond polite, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-22-12	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	gennie dagley
+05-26-2016:00-22-18	08e5b476-cd1a-412a-9136-012286542498	User 0	Selected 2:	Gennie Dagley
+05-26-2016:00-22-20	08e5b476-cd1a-412a-9136-012286542498	LSTM_FEATURIZED	Selected:	Gennie Dagley
+05-26-2016:00-22-21	---

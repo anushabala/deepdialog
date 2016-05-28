@@ -1,0 +1,27 @@
+05-26-2016:00-13-17	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	joined
+05-26-2016:00-13-17	4f3b985d-4f5f-4207-a796-7d233772377d	User 0 has user ID 5c76b9749b014ae99f181121477cdb71
+05-26-2016:00-13-32	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Hi. I work at uber, and so do all my friends.
+05-26-2016:00-13-32	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-32	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-13-32	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-13-34	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	hi
+05-26-2016:00-14-19	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Do you have a friend that works at Uber?
+05-26-2016:00-14-19	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-19	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-14-19	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 2.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-14-25	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	i have one friend who works at facebook the rest work with uber
+05-26-2016:00-14-56	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Did any of them study at Stanford?
+05-26-2016:00-14-56	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-56	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-14-56	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 3.00),  (maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-00	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	both a in linguistics
+05-26-2016:00-15-11	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Do you know Barbar?
+05-26-2016:00-15-11	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: barbar],[<fullName>:]
+05-26-2016:00-15-11	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-15-11	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 4.00),  (maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-13	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	no i dont
+05-26-2016:00-15-33	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Any friends from Columbia?
+05-26-2016:00-15-33	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-33	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-15-33	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 4.00),  (maritza horrell, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  (birgit heid, 0.00),  
+05-26-2016:00-15-40	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	i only have one friend from stanford that works for apple

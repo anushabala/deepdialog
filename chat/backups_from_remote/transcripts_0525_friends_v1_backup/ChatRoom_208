@@ -1,0 +1,94 @@
+05-26-2016:00-22-13	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	joined
+05-26-2016:00-22-13	3b581f22-214d-460c-aadc-b43e21c957e2	User 1 has user ID 2db20768da994ed4b7ae18963fce7bea
+05-26-2016:00-22-17	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	please be a real person
+05-26-2016:00-22-17	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-17	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-17	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-22	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-22-23	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	:(
+05-26-2016:00-22-23	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-23	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-23	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-25	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	you 
+05-26-2016:00-22-28	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	susanna pulley
+05-26-2016:00-22-30	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	Selected:	Susanna Pulley
+05-26-2016:00-22-35	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know jacques
+05-26-2016:00-22-35	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jacques],[<fullName>:]
+05-26-2016:00-22-35	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-35	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-40	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know fletcher
+05-26-2016:00-22-40	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: fletcher],[<fullName>:]
+05-26-2016:00-22-40	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-40	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-43	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know lai
+05-26-2016:00-22-43	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lai],[<fullName>:]
+05-26-2016:00-22-43	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	[<firstName>: lai],[<fullName>: lai]
+05-26-2016:00-22-43	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-47	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know zackary
+05-26-2016:00-22-47	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: zackary],[<fullName>:]
+05-26-2016:00-22-47	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-47	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-52	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know lashaunda
+05-26-2016:00-22-52	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashaunda],[<fullName>:]
+05-26-2016:00-22-52	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-52	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-54	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know meda
+05-26-2016:00-22-54	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: meda],[<fullName>:]
+05-26-2016:00-22-54	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-54	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-22-57	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know denny
+05-26-2016:00-22-57	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: denny],[<fullName>:]
+05-26-2016:00-22-57	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	[<firstName>: denny],[<fullName>: denny]
+05-26-2016:00-22-57	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  
+05-26-2016:00-23-00	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know riva
+05-26-2016:00-23-00	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: riva],[<fullName>:]
+05-26-2016:00-23-00	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-00	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  
+05-26-2016:00-23-03	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know kam
+05-26-2016:00-23-03	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kam],[<fullName>:]
+05-26-2016:00-23-03	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-03	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  
+05-26-2016:00-23-06	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	do you know sherika
+05-26-2016:00-23-06	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: sherika],[<fullName>:]
+05-26-2016:00-23-06	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-06	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  
+05-26-2016:00-23-11	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	susanna pulley is the only one at columbia on my list
+05-26-2016:00-23-12	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	nope
+05-26-2016:00-23-14	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no
+05-26-2016:00-23-16	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no
+05-26-2016:00-23-17	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no
+05-26-2016:00-23-18	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no
+05-26-2016:00-23-21	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no i do not
+05-26-2016:00-23-24	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	do you know anyone going to
+05-26-2016:00-23-25	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no 
+05-26-2016:00-23-28	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	susanna pulley
+05-26-2016:00-23-29	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	no 
+05-26-2016:00-23-35	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	any friends from university of california - berkeley
+05-26-2016:00-23-49	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	no
+05-26-2016:00-23-49	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-49	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-49	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  
+05-26-2016:00-23-52	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	that sorry
+05-26-2016:00-23-57	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	what
+05-26-2016:00-23-57	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-57	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-57	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  
+05-26-2016:00-24-00	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	computer science
+05-26-2016:00-24-08	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	yes computer science
+05-26-2016:00-24-08	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-08	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-08	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:00-24-11	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	do you have riva noles 
+05-26-2016:00-24-14	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	YES
+05-26-2016:00-24-14	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-14	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-14	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:00-24-17	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	Selected 7:	Riva Noles
+05-26-2016:00-24-20	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	select riva
+05-26-2016:00-24-20	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: riva],[<fullName>:]
+05-26-2016:00-24-20	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-20	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 4.00),  (thanh hartin, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (gennie dagley, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:00-24-24	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	math or computer science at apple 
+05-26-2016:00-24-25	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	that way
+05-26-2016:00-24-27	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	Selected:	Riva Noles
+05-26-2016:00-24-28	---

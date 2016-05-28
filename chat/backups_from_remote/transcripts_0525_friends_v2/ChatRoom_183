@@ -1,0 +1,46 @@
+05-26-2016:02-00-46	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	joined
+05-26-2016:02-00-46	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-00-48	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	joined
+05-26-2016:02-00-48	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-00-54	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	hi there
+05-26-2016:02-01-02	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	Hi,I work at Amazon and I went to  UC berkely
+05-26-2016:02-01-02	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-02	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	[<schoolName>: berkely]
+05-26-2016:02-01-06	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	i only have one friend from amazon
+05-26-2016:02-01-10	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	how are you
+05-26-2016:02-01-10	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-10	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-01-12	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	
+05-26-2016:02-01-17	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	do you have any friends that work at apple
+05-26-2016:02-01-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	who?
+05-26-2016:02-01-19	---
+05-26-2016:02-01-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-01-20	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	joined
+05-26-2016:02-01-20	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-01-24	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	ok went to ucberkeley major physics 
+05-26-2016:02-01-25	---
+05-26-2016:02-01-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	nena works at apple
+05-26-2016:02-01-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: nena],[<fullName>:]
+05-26-2016:02-01-26	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-01-28	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	joined
+05-26-2016:02-01-28	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-01-30	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	u university of california - berkeley
+05-26-2016:02-01-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	hi there
+05-26-2016:02-01-36	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	im from university of pennsylvania and majored in economics
+05-26-2016:02-01-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	nena?
+05-26-2016:02-01-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: nena],[<fullName>:]
+05-26-2016:02-01-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-01-58	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	what about branden sjoberg or ambrose lenzen
+05-26-2016:02-02-06	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	Selected 4:	Branden Sjoberg
+05-26-2016:02-03-00	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	do you know anyone at google
+05-26-2016:02-03-00	---
+05-26-2016:02-03-09	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	Selected 0:	Denny Harshberger
+05-26-2016:02-03-15	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	joined
+05-26-2016:02-03-15	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1 has user ID afedd3fb1bd44f4fba7e1240e75405ec
+05-26-2016:02-03-20	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	who do you know
+05-26-2016:02-03-30	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	are you there
+05-26-2016:02-03-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	I know people at amazon
+05-26-2016:02-03-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-03-44	---

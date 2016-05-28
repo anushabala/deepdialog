@@ -1,0 +1,26 @@
+05-26-2016:00-42-38	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	joined
+05-26-2016:00-42-38	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0 has user ID de33bf907b2048a38c1d0ff05aa3aa90
+05-26-2016:00-42-42	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	hey there
+05-26-2016:00-42-42	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-42	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-42-42	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (tamara killeen, 0.00),  (clorinda hites, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (agueda searcy, 0.00),  
+05-26-2016:00-42-47	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-42-50	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	or facebook
+05-26-2016:00-42-52	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	i work at facebook and so do all my friends
+05-26-2016:00-42-52	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-52	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-42-52	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(clorinda hites, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (beau roudebush, 0.00),  (tamara killeen, 0.00),  (laverna bjornson, 0.00),  (nena krone, 0.00),  (thanh hartin, 0.00),  (pearl dollard, 0.00),  (agueda searcy, 0.00),  
+05-26-2016:00-42-55	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	clorinda hites
+05-26-2016:00-42-58	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	i know one person at apple
+05-26-2016:00-42-58	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-58	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-42-58	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (tamara killeen, 1.00),  (clorinda hites, 1.00),  (laverna bjornson, 1.00),  (nena krone, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (agueda searcy, 1.00),  
+05-26-2016:00-43-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	oh clorinda
+05-26-2016:00-43-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: clorinda],[<fullName>:]
+05-26-2016:00-43-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-43-01	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(clorinda hites, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (beau roudebush, 1.00),  (tamara killeen, 1.00),  (laverna bjornson, 1.00),  (nena krone, 1.00),  (thanh hartin, 1.00),  (pearl dollard, 1.00),  (agueda searcy, 1.00),  
+05-26-2016:00-43-04	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	Selected 7:	Clorinda Hites
+05-26-2016:00-43-08	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	i only know one person from facebook
+05-26-2016:00-43-12	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	susanna pulley and bernita kerrick
+05-26-2016:00-43-14	c2c42406-5f36-4ae5-abb1-96d8f2f58424	LSTM_FEATURIZED	Selected:	Clorinda Hites
+05-26-2016:00-43-14	---

@@ -1,0 +1,32 @@
+05-26-2016:00-28-44	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	joined
+05-26-2016:00-28-44	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0 has user ID 13b6a7a85f104b41a6368ab0cc90e011
+05-26-2016:00-28-46	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	hey
+05-26-2016:00-28-48	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	hi.
+05-26-2016:00-28-48	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-48	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:00-28-48	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 0.10),  (myong kary, 0.10),  (susanna pulley, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (toney ghee, 0.10),  (tangela raschke, 0.10),  (emmitt nations, 0.10),  (lawanna mars, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-28-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:00-28-58	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	Well all of my friend works at Apple.
+05-26-2016:00-28-58	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-58	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:00-28-58	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 0.18),  (susanna pulley, 0.18),  (toney ghee, 0.18),  (myong kary, 0.07),  (maryln hagaman, 0.07),  (angelo patch, 0.07),  (tangela raschke, 0.07),  (emmitt nations, 0.07),  (lawanna mars, 0.07),  (carley schade, 0.07),  
+05-26-2016:00-29-02	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	work at amazon
+05-26-2016:00-29-06	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	school major company?
+05-26-2016:00-29-12	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	Except for one that works for Uber.
+05-26-2016:00-29-12	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-12	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:00-29-12	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 0.11),  (susanna pulley, 0.11),  (toney ghee, 0.11),  (myong kary, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (tangela raschke, 0.10),  (emmitt nations, 0.10),  (lawanna mars, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-29-19	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	do you know niki bybee or susanna pulley?
+05-26-2016:00-29-27	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	Nope.
+05-26-2016:00-29-27	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-27	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:00-29-27	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 0.10),  (susanna pulley, 0.10),  (toney ghee, 0.10),  (myong kary, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (tangela raschke, 0.10),  (emmitt nations, 0.10),  (lawanna mars, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-29-31	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	hmm, do you know toney?
+05-26-2016:00-29-36	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	Yes.
+05-26-2016:00-29-36	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-36	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:00-29-36	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 0.10),  (susanna pulley, 0.10),  (toney ghee, 0.10),  (myong kary, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (tangela raschke, 0.10),  (emmitt nations, 0.10),  (lawanna mars, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-29-37	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	Selected 0:	Toney Ghee
+05-26-2016:00-29-41	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	hmm, do you know myong?
+05-26-2016:00-29-43	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	Selected:	Toney Ghee
+05-26-2016:00-29-43	---

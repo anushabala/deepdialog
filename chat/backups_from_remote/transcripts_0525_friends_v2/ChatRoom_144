@@ -1,0 +1,37 @@
+05-26-2016:01-58-11	62198576-e7e2-405c-b486-81eb870631cb	User 1	joined
+05-26-2016:01-58-11	62198576-e7e2-405c-b486-81eb870631cb	User 1 has user ID 320346516b5b4dd7992b3aa4eb3432f2
+05-26-2016:01-58-13	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	hi there!
+05-26-2016:01-58-16	62198576-e7e2-405c-b486-81eb870631cb	User 1	hi
+05-26-2016:01-58-16	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-16	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-58-16	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(laurette thrailkill, 0.10),  (tobi brunette, 0.10),  (sheilah steitz, 0.10),  (carry pavlick, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (renay guel, 0.10),  (emerson farnsworth, 0.10),  (fletcher hass, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:01-58-22	62198576-e7e2-405c-b486-81eb870631cb	User 1	any facebook people?
+05-26-2016:01-58-22	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-22	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-58-22	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(laurette thrailkill, 0.11),  (sheilah steitz, 0.11),  (carry pavlick, 0.11),  (justa holdeman, 0.11),  (darrel oden, 0.11),  (renay guel, 0.11),  (emerson farnsworth, 0.11),  (fletcher hass, 0.11),  (tobi brunette, 0.04),  (lakesha platz, 0.04),  
+05-26-2016:01-58-29	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	i went to university of pennsylvania and majored in math
+05-26-2016:01-58-32	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	work at facebook
+05-26-2016:01-58-38	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:01-58-50	62198576-e7e2-405c-b486-81eb870631cb	User 1	cal berkeley google
+05-26-2016:01-58-50	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-50	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:01-58-50	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(laurette thrailkill, 0.10),  (sheilah steitz, 0.10),  (carry pavlick, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (renay guel, 0.10),  (emerson farnsworth, 0.10),  (fletcher hass, 0.10),  (tobi brunette, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:01-58-56	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	do you know laurette thrailkill or sheilah steitz?
+05-26-2016:01-59-06	62198576-e7e2-405c-b486-81eb870631cb	User 1	no
+05-26-2016:01-59-06	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-06	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-59-06	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(laurette thrailkill, 0.10),  (sheilah steitz, 0.10),  (carry pavlick, 0.10),  (justa holdeman, 0.10),  (darrel oden, 0.10),  (renay guel, 0.10),  (emerson farnsworth, 0.10),  (fletcher hass, 0.10),  (tobi brunette, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:01-59-10	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	are carry or justa on your list?
+05-26-2016:01-59-15	62198576-e7e2-405c-b486-81eb870631cb	User 1	any of your friends work at facebook?
+05-26-2016:01-59-15	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-15	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-59-15	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(laurette thrailkill, 0.11),  (sheilah steitz, 0.11),  (carry pavlick, 0.11),  (justa holdeman, 0.11),  (darrel oden, 0.11),  (renay guel, 0.11),  (emerson farnsworth, 0.11),  (fletcher hass, 0.11),  (tobi brunette, 0.04),  (lakesha platz, 0.04),  
+05-26-2016:01-59-18	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	darrel, renay, emerson?
+05-26-2016:01-59-24	62198576-e7e2-405c-b486-81eb870631cb	User 1	darrel
+05-26-2016:01-59-24	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: darrel],[<fullName>:]
+05-26-2016:01-59-24	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-59-24	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.23),  (laurette thrailkill, 0.09),  (sheilah steitz, 0.09),  (carry pavlick, 0.09),  (justa holdeman, 0.09),  (renay guel, 0.09),  (emerson farnsworth, 0.09),  (fletcher hass, 0.09),  (tobi brunette, 0.08),  (lakesha platz, 0.08),  
+05-26-2016:01-59-25	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	yep
+05-26-2016:01-59-27	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	Selected:	Darrel Oden
+05-26-2016:01-59-31	62198576-e7e2-405c-b486-81eb870631cb	User 1	Selected 2:	Darrel Oden
+05-26-2016:01-59-32	---

@@ -1,0 +1,23 @@
+05-26-2016:01-53-34	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	joined
+05-26-2016:01-53-34	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0 has user ID 0dc4687136e14048a9c388d42403327e
+05-26-2016:01-53-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	hello
+05-26-2016:01-53-39	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	Hi
+05-26-2016:01-53-39	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-39	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:01-53-39	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lashaunda carothers, 0.10),  (delores capell, 0.10),  (sherika rust, 0.10),  (francine bateman, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (aline allshouse, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  
+05-26-2016:01-53-46	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	i went to university of pennsylvania and majored in math
+05-26-2016:01-53-49	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	work at google
+05-26-2016:01-53-56	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:01-54-05	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	All of my friends work at Apple except 2 facebook and 1 google.
+05-26-2016:01-54-05	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, facebook, google],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-05	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:01-54-05	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(lashaunda carothers, 0.10),  (delores capell, 0.10),  (tangela raschke, 0.10),  (francine bateman, 0.10),  (tess lister, 0.10),  (aline allshouse, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (sherika rust, 0.10),  
+05-26-2016:01-54-09	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	lashaunda, delores, tangela?
+05-26-2016:01-54-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	I have 1 friend that went to stanford, majored in linguistics and works for google.
+05-26-2016:01-54-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:01-54-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 0.34),  (lashaunda carothers, 0.12),  (kam wey, 0.12),  (denny harshberger, 0.12),  (meda lahr, 0.12),  (sherika rust, 0.05),  (tangela raschke, 0.05),  (tess lister, 0.05),  (francine bateman, 0.02),  (aline allshouse, 0.02),  
+05-26-2016:01-54-40	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	Selected 0:	Delores Capell
+05-26-2016:01-54-45	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	do you know kam wey or denny harshberger?
+05-26-2016:01-54-47	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	Selected:	Delores Capell
+05-26-2016:01-54-48	---

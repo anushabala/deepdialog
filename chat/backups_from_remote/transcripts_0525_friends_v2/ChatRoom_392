@@ -1,0 +1,19 @@
+05-26-2016:02-41-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	joined
+05-26-2016:02-41-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1 has user ID 866d079a19a84daf9f6efed8368f29d2
+05-26-2016:02-41-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	one friend works at facebook
+05-26-2016:02-41-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-41-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:02-41-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:02-42-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	and one at apple
+05-26-2016:02-42-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-42-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:02-42-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (maritza horrell, 1.00),  (emmanuel eliason, 1.00),  (maia coffman, 1.00),  (lorriane hurlbert, 1.00),  (valeri kress, 1.00),  (justa holdeman, 1.00),  (renay guel, 1.00),  (emerson farnsworth, 1.00),  (lucienne whitting, 1.00),  
+05-26-2016:02-42-07	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i went to columbia and majored in computer science 
+05-26-2016:02-42-11	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	all of my friends work at facebook
+05-26-2016:02-42-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	one at facebook 
+05-26-2016:02-42-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 1:	Fletcher Hersman
+05-26-2016:02-42-29	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 3:	Arlen Landers
+05-26-2016:02-42-45	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	one at facebook one at facebook one at facebook one at facebook one at facebook one at facebook one at at at at at at at at at at at fb arlen landers or at fb
+05-26-2016:02-42-49	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i dont know fletcher hersman
+05-26-2016:02-42-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	Selected:	Arlen Landers
+05-26-2016:02-42-51	---

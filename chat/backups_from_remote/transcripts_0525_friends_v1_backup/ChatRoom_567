@@ -1,0 +1,44 @@
+05-26-2016:00-39-18	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	joined
+05-26-2016:00-39-18	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1 has user ID 91d07fd890414b26996e32157d04ac72
+05-26-2016:00-39-23	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-39-31	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	Hi! I work at Google and I stueid CS at Columbia.
+05-26-2016:00-39-31	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-31	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	[<major>: cs]
+05-26-2016:00-39-31	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(tamara killeen, 1.00),  (kristie bolduc, 1.00),  (denny harshberger, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-39-35	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	do you know tamara killeen
+05-26-2016:00-39-39	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	no
+05-26-2016:00-39-39	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-39	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:00-39-39	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(tamara killeen, 1.00),  (kristie bolduc, 1.00),  (denny harshberger, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-39-42	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	what about kristie bolduc
+05-26-2016:00-39-45	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	no
+05-26-2016:00-39-45	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-45	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:00-39-45	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(tamara killeen, 1.00),  (kristie bolduc, 1.00),  (denny harshberger, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-39-49	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	i know tamara killeen at apple
+05-26-2016:00-39-59	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	I don't.
+05-26-2016:00-39-59	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-59	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:00-39-59	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(tamara killeen, 1.00),  (kristie bolduc, 1.00),  (denny harshberger, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-40-01	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	for me
+05-26-2016:00-40-04	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	Most of my friends are at Google
+05-26-2016:00-40-04	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-04	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-40-04	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(denny harshberger, 2.00),  (tamara killeen, 1.00),  (kristie bolduc, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-40-06	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	denny harshberger
+05-26-2016:00-40-07	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	and 2 are at FB
+05-26-2016:00-40-07	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-07	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:00-40-07	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(denny harshberger, 2.00),  (tamara killeen, 1.00),  (kristie bolduc, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-40-09	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	yes
+05-26-2016:00-40-09	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-09	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	
+05-26-2016:00-40-09	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(denny harshberger, 2.00),  (tamara killeen, 1.00),  (kristie bolduc, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-40-10	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	denny
+05-26-2016:00-40-10	cc49112c-dbb8-4999-9632-631b7b5d0431	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: denny],[<fullName>:]
+05-26-2016:00-40-10	cc49112c-dbb8-4999-9632-631b7b5d0431	SYNONYMS	[<firstName>: denny],[<fullName>: denny]
+05-26-2016:00-40-10	cc49112c-dbb8-4999-9632-631b7b5d0431	PROBABILITIES	(denny harshberger, 2.00),  (tamara killeen, 1.00),  (kristie bolduc, 1.00),  (riva noles, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (pearl dollard, 0.00),  
+05-26-2016:00-40-12	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	Selected:	Kristie Bolduc
+05-26-2016:00-40-15	cc49112c-dbb8-4999-9632-631b7b5d0431	User 1	Selected 4:	Denny Harshberger
+05-26-2016:00-40-17	cc49112c-dbb8-4999-9632-631b7b5d0431	LSTM_FEATURIZED	Selected:	Denny Harshberger
+05-26-2016:00-40-17	---

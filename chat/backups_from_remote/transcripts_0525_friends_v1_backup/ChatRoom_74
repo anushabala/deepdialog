@@ -1,0 +1,11 @@
+05-26-2016:00-14-48	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	joined
+05-26-2016:00-14-48	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1 has user ID 500277faa5eb4c05bf3374af1ef38a67
+05-26-2016:00-15-02	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	Hi! All my friends are at Amazon where I work
+05-26-2016:00-15-02	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-02	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-15-02	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 1.00),  (kristie bolduc, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (tamara killeen, 0.00),  (tobi brunette, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-15-08	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_FEATURIZED	hi all of my friends work for apple except one at amazon 
+05-26-2016:00-15-12	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_FEATURIZED	do you know karma echeverria
+05-26-2016:00-15-21	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	Selected 7:	Karma Echeverria
+05-26-2016:00-15-24	6885ed78-157c-49d4-84df-ae8e83c0106c	LSTM_FEATURIZED	Selected:	Karma Echeverria
+05-26-2016:00-15-24	---

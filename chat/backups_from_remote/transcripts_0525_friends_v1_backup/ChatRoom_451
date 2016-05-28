@@ -1,0 +1,45 @@
+05-26-2016:00-32-51	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	joined
+05-26-2016:00-32-51	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0 has user ID f5556e747aa64bfeacd2877a64164995
+05-26-2016:00-33-01	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	hi, i work at uber and all my friends do too
+05-26-2016:00-33-01	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-01	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-33-01	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (denny harshberger, 0.00),  (renay guel, 0.00),  (meda lahr, 0.00),  (fletcher hass, 0.00),  
+05-26-2016:00-33-02	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	no
+05-26-2016:00-33-07	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	except one who works at apple
+05-26-2016:00-33-07	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-07	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-33-07	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (samuel tatum, 0.00),  (josh gouin, 0.00),  (lai pettaway, 0.00),  (denny harshberger, 0.00),  (renay guel, 0.00),  (meda lahr, 0.00),  (fletcher hass, 0.00),  
+05-26-2016:00-33-10	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	i have one friend at google
+05-26-2016:00-33-16	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	no google here
+05-26-2016:00-33-16	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-16	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-33-16	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  
+05-26-2016:00-33-18	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	no facebook 
+05-26-2016:00-33-22	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	all but two of my friends work for google
+05-26-2016:00-33-32	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	no facebook friends here either
+05-26-2016:00-33-32	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-32	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-33-32	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-33-37	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	do you know lashaunda carothers or sherika rust
+05-26-2016:00-33-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	no to either
+05-26-2016:00-33-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-33-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-33-49	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	or those
+05-26-2016:00-34-02	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	i know a bernita at apple
+05-26-2016:00-34-02	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>: bernita],[<fullName>:]
+05-26-2016:00-34-02	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-34-02	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-34-05	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	only google person 
+05-26-2016:00-34-07	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	i have one from uber
+05-26-2016:00-34-12	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	ok who?
+05-26-2016:00-34-12	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-12	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-34-12	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-34-14	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	Selected:	Samuel Tatum
+05-26-2016:00-34-36	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 0	what was his major/college? no one named that here
+05-26-2016:00-34-36	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-36	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:00-34-36	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-34-40	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_UNFEATURIZED	i have no one at google
+05-26-2016:00-37-32	---

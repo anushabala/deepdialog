@@ -1,0 +1,22 @@
+05-26-2016:00-31-47	56748399-82da-486b-9ec5-916e3d1288c3	User 0	joined
+05-26-2016:00-31-47	56748399-82da-486b-9ec5-916e3d1288c3	User 0 has user ID a534a02bf33a4cd493838829b40332f4
+05-26-2016:00-31-50	56748399-82da-486b-9ec5-916e3d1288c3	User 0	Hi
+05-26-2016:00-31-50	56748399-82da-486b-9ec5-916e3d1288c3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-50	56748399-82da-486b-9ec5-916e3d1288c3	SYNONYMS	
+05-26-2016:00-31-50	56748399-82da-486b-9ec5-916e3d1288c3	PROBABILITIES	(brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (lillia mikel, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (kendrick friday, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:00-31-56	56748399-82da-486b-9ec5-916e3d1288c3	LSTM_FEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-31-57	56748399-82da-486b-9ec5-916e3d1288c3	LSTM_FEATURIZED	hi
+05-26-2016:00-32-01	56748399-82da-486b-9ec5-916e3d1288c3	User 0	I went to stanford for linguistics and work at facebook.
+05-26-2016:00-32-01	56748399-82da-486b-9ec5-916e3d1288c3	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-01	56748399-82da-486b-9ec5-916e3d1288c3	SYNONYMS	
+05-26-2016:00-32-01	56748399-82da-486b-9ec5-916e3d1288c3	PROBABILITIES	(delbert gapinski, 2.00),  (brittanie piggott, 1.00),  (lillia mikel, 1.00),  (keesha ahart, 1.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (santina kenley, 0.00),  (graig chill, 0.00),  (kendrick friday, 0.00),  
+05-26-2016:00-32-08	56748399-82da-486b-9ec5-916e3d1288c3	LSTM_FEATURIZED	i went to university of pennsylvania and majored in economics 
+05-26-2016:00-32-10	56748399-82da-486b-9ec5-916e3d1288c3	LSTM_FEATURIZED	i work at fb
+05-26-2016:00-32-24	56748399-82da-486b-9ec5-916e3d1288c3	User 0	My only uber friend is delbert.
+05-26-2016:00-32-24	56748399-82da-486b-9ec5-916e3d1288c3	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: delbert],[<fullName>:]
+05-26-2016:00-32-24	56748399-82da-486b-9ec5-916e3d1288c3	SYNONYMS	
+05-26-2016:00-32-24	56748399-82da-486b-9ec5-916e3d1288c3	PROBABILITIES	(delbert gapinski, 4.00),  (brittanie piggott, 2.00),  (lillia mikel, 2.00),  (keesha ahart, 2.00),  (quinn courter, 1.00),  (jon geissler, 1.00),  (nathanial towery, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (kendrick friday, 1.00),  
+05-26-2016:00-32-27	56748399-82da-486b-9ec5-916e3d1288c3	LSTM_FEATURIZED	i know her 
+05-26-2016:00-32-29	56748399-82da-486b-9ec5-916e3d1288c3	LSTM_FEATURIZED	Selected:	Delbert Gapinski
+05-26-2016:00-32-31	56748399-82da-486b-9ec5-916e3d1288c3	User 0	Selected 3:	Delbert Gapinski
+05-26-2016:00-32-31	---

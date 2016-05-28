@@ -1,0 +1,20 @@
+05-26-2016:02-30-07	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	joined
+05-26-2016:02-30-07	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0 has user ID da1e2946d62d455fa59e363d419f3a2b
+05-26-2016:02-30-09	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	hello
+05-26-2016:02-30-12	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Hi
+05-26-2016:02-30-12	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-30-12	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:02-30-12	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(francine bateman, 0.10),  (susanna pulley, 0.10),  (alberto thurlow, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-30-19	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	i'm from university of pennsylvania, math, apple
+05-26-2016:02-30-23	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	major, school, company?
+05-26-2016:02-30-30	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	I work at amazon, and studied linguistics at berkeley
+05-26-2016:02-30-30	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-30-30	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:02-30-30	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(mose coletti, 0.11),  (francine bateman, 0.10),  (susanna pulley, 0.10),  (alberto thurlow, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-30-37	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	do you know mose coletti or francine bateman?
+05-26-2016:02-30-38	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Selected 7:	Emmitt Nations
+05-26-2016:02-30-40	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	nope
+05-26-2016:02-30-46	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	do you know susanna pulley or alberto thurlow?
+05-26-2016:02-30-57	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Selected 9:	Susanna Pulley
+05-26-2016:02-30-59	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	Selected:	Susanna Pulley
+05-26-2016:02-30-59	---

@@ -1,0 +1,20 @@
+05-26-2016:00-28-21	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	joined
+05-26-2016:00-28-21	ae903f07-5004-48be-ac1e-52c6a6895445	User 1 has user ID bf11d5dcaf1846a89a46dd1e48acc385
+05-26-2016:00-28-25	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	hey
+05-26-2016:00-28-25	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-25	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-28-25	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 0.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  (birgit heid, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-28-34	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	i have one friend that works at apple and the rest work for uber
+05-26-2016:00-28-34	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-34	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-28-34	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-28-40	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	do you know elene prouty?
+05-26-2016:00-28-40	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: elene prouty]
+05-26-2016:00-28-40	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-28-40	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 2.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-28-50	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	i went to university of california - berkeley and studied economics i work at apple
+05-26-2016:00-28-55	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	all friends at fb except for 1 at amazon
+05-26-2016:00-28-58	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	elene prouty at facebook
+05-26-2016:00-29-09	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Selected 0:	Elene Prouty
+05-26-2016:00-29-12	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	Selected:	Elene Prouty
+05-26-2016:00-29-12	---

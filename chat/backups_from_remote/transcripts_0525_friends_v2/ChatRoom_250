@@ -1,0 +1,18 @@
+05-26-2016:02-07-54	b27e5d52-ed34-4c9a-8ee0-64638c08b085	User 0	joined
+05-26-2016:02-07-54	b27e5d52-ed34-4c9a-8ee0-64638c08b085	User 0 has user ID f54a924cc4ae4951b927d029405f688b
+05-26-2016:02-07-55	b27e5d52-ed34-4c9a-8ee0-64638c08b085	DEFAULT_BOT	hey!
+05-26-2016:02-08-03	b27e5d52-ed34-4c9a-8ee0-64638c08b085	DEFAULT_BOT	i'm from university of pennsylvania, math, apple
+05-26-2016:02-08-09	b27e5d52-ed34-4c9a-8ee0-64638c08b085	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:02-08-29	b27e5d52-ed34-4c9a-8ee0-64638c08b085	User 0	I have one friend at apple, the rest work at google
+05-26-2016:02-08-29	b27e5d52-ed34-4c9a-8ee0-64638c08b085	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, google],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-29	b27e5d52-ed34-4c9a-8ee0-64638c08b085	SYNONYMS	
+05-26-2016:02-08-29	b27e5d52-ed34-4c9a-8ee0-64638c08b085	PROBABILITIES	(francine bateman, 0.11),  (bernita kerrick, 0.11),  (beau roudebush, 0.11),  (tamara killeen, 0.11),  (laverna bjornson, 0.11),  (aline allshouse, 0.11),  (thanh hartin, 0.11),  (pearl dollard, 0.11),  (elene prouty, 0.11),  (jon geissler, 0.04),  
+05-26-2016:02-08-35	b27e5d52-ed34-4c9a-8ee0-64638c08b085	DEFAULT_BOT	do you know francine bateman or bernita kerrick?
+05-26-2016:02-08-57	b27e5d52-ed34-4c9a-8ee0-64638c08b085	User 0	no
+05-26-2016:02-08-57	b27e5d52-ed34-4c9a-8ee0-64638c08b085	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-57	b27e5d52-ed34-4c9a-8ee0-64638c08b085	SYNONYMS	
+05-26-2016:02-08-57	b27e5d52-ed34-4c9a-8ee0-64638c08b085	PROBABILITIES	(laverna bjornson, 0.10),  (bernita kerrick, 0.10),  (beau roudebush, 0.10),  (tamara killeen, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (elene prouty, 0.10),  (jon geissler, 0.09),  
+05-26-2016:02-09-02	b27e5d52-ed34-4c9a-8ee0-64638c08b085	DEFAULT_BOT	do you know laverna, beau or tamara?
+05-26-2016:02-09-19	b27e5d52-ed34-4c9a-8ee0-64638c08b085	User 0	Selected 8:	Tamara Killeen
+05-26-2016:02-09-21	b27e5d52-ed34-4c9a-8ee0-64638c08b085	DEFAULT_BOT	Selected:	Tamara Killeen
+05-26-2016:02-09-21	---

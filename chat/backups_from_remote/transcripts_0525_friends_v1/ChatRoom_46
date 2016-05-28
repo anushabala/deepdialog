@@ -1,0 +1,19 @@
+05-26-2016:00-13-16	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 0	joined
+05-26-2016:00-13-16	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 0 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:00-13-44	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 0	i have a friend who works for facebook
+05-26-2016:00-13-44	60014349-2f59-4a43-adc6-6b0f2e2b3030	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-44	60014349-2f59-4a43-adc6-6b0f2e2b3030	SYNONYMS	
+05-26-2016:00-13-44	60014349-2f59-4a43-adc6-6b0f2e2b3030	PROBABILITIES	(candy astorga, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  (tobi brunette, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-13-52	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	hi i went to university of pennsylvania and studied math i work at facebook
+05-26-2016:00-14-17	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 0	not that friend
+05-26-2016:00-14-17	60014349-2f59-4a43-adc6-6b0f2e2b3030	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-17	60014349-2f59-4a43-adc6-6b0f2e2b3030	SYNONYMS	
+05-26-2016:00-14-17	60014349-2f59-4a43-adc6-6b0f2e2b3030	PROBABILITIES	(candy astorga, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  (tobi brunette, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-14-22	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	do you know candy astorga
+05-26-2016:00-14-41	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 0	yes
+05-26-2016:00-14-41	60014349-2f59-4a43-adc6-6b0f2e2b3030	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-41	60014349-2f59-4a43-adc6-6b0f2e2b3030	SYNONYMS	
+05-26-2016:00-14-41	60014349-2f59-4a43-adc6-6b0f2e2b3030	PROBABILITIES	(candy astorga, 1.00),  (laurette thrailkill, 1.00),  (sheilah steitz, 1.00),  (carry pavlick, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  (tobi brunette, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-14-43	60014349-2f59-4a43-adc6-6b0f2e2b3030	LSTM_FEATURIZED	Selected:	Candy Astorga
+05-26-2016:00-14-58	60014349-2f59-4a43-adc6-6b0f2e2b3030	User 0	Selected 0:	Candy Astorga
+05-26-2016:00-14-58	---

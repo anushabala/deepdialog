@@ -1,0 +1,38 @@
+05-26-2016:00-21-19	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	joined
+05-26-2016:00-21-19	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0 has user ID ce285225e2604ccc8e54f5e59622dc97
+05-26-2016:00-21-35	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	All of my friends work at facebook
+05-26-2016:00-21-35	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-35	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-21-35	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-21-37	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	hi
+05-26-2016:00-22-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Do any of your freinds work at facebook?
+05-26-2016:00-22-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-22-14	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 2.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-22-22	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i have a few from google who went to stanford and majored in computer science
+05-26-2016:00-22-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	None of my freinds work for google
+05-26-2016:00-22-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-22-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 2.00),  (lashaunda carothers, 1.00),  (sherika rust, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (zackary rains, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-22-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	ok i went to stanford and majored in computer science 
+05-26-2016:00-22-48	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i work at google
+05-26-2016:00-23-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	How about your friends
+05-26-2016:00-23-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-23-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 2.00),  (lashaunda carothers, 1.00),  (sherika rust, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (zackary rains, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-23-03	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i dont know anyone from there
+05-26-2016:00-23-25	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	You don't have any friends that work for facebook?
+05-26-2016:00-23-25	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-25	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-23-25	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 3.00),  (lashaunda carothers, 1.00),  (sherika rust, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (zackary rains, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-23-29	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i know arlen landers from google
+05-26-2016:00-23-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Again, I have no friends at google
+05-26-2016:00-23-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-23-51	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 3.00),  (lashaunda carothers, 2.00),  (sherika rust, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (zackary rains, 2.00),  (riva noles, 0.00),  
+05-26-2016:00-23-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	i only know one person who works for facebook
+05-26-2016:00-24-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	What is their name?
+05-26-2016:00-24-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-24-09	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 3.00),  (lashaunda carothers, 2.00),  (sherika rust, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (zackary rains, 2.00),  (riva noles, 0.00),  
+05-26-2016:00-24-12	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	lashaunda carothers

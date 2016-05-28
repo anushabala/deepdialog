@@ -1,0 +1,21 @@
+05-26-2016:00-21-03	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	joined
+05-26-2016:00-21-03	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0 has user ID b9b3bf87b41445aca046e520b8eb4cf4
+05-26-2016:00-21-15	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	Hi, Stanford, Ling, Apple here
+05-26-2016:00-21-15	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-15	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	[<major>: ling]
+05-26-2016:00-21-15	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 2.00),  (lashaunda carothers, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (tangela raschke, 0.00),  (sherika rust, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-21-21	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	LSTM_UNFEATURIZED	hi all of my friends work for google and one apple
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	Delores Kapell?
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: delores],[<fullName>:]
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	[<fullName>: delores kapell]
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 3.00),  (lashaunda carothers, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (tangela raschke, 0.00),  (sherika rust, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-21-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	LSTM_UNFEATURIZED	no google
+05-26-2016:00-22-06	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	For your Apple friends, any of them attend Columbia?
+05-26-2016:00-22-06	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-06	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-22-06	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 3.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (lashaunda carothers, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (tangela raschke, 0.00),  (sherika rust, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-22-09	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	LSTM_UNFEATURIZED	ok its delores capell 
+05-26-2016:00-22-11	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	LSTM_UNFEATURIZED	Selected:	Francine Bateman
+05-26-2016:00-22-24	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 0	Selected 0:	Delores Capell
+05-26-2016:00-22-27	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	LSTM_UNFEATURIZED	Selected:	Delores Capell
+05-26-2016:00-22-27	---

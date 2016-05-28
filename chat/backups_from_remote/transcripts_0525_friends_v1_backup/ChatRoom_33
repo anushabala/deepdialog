@@ -1,0 +1,30 @@
+05-26-2016:00-12-38	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	joined
+05-26-2016:00-12-38	66cfe508-e9be-47b1-a9b6-d19115629538	User 0 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-12-41	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	Hiya
+05-26-2016:00-12-41	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-41	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-12-41	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(lashaunda carothers, 0.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (lillia mikel, 0.00),  (archie hiltz, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-12-43	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	hi
+05-26-2016:00-12-52	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	All my friends are at apple, I have one at google one at uber
+05-26-2016:00-12-52	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, google, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-52	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-12-52	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(lashaunda carothers, 1.00),  (brigid imai, 1.00),  (samuel tatum, 1.00),  (lillia mikel, 1.00),  (archie hiltz, 1.00),  (tess lister, 1.00),  (josh gouin, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  
+05-26-2016:00-12-55	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	no google 
+05-26-2016:00-13-00	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	who is the 2 of your friends are from uber
+05-26-2016:00-13-01	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	I went to PA for physics
+05-26-2016:00-13-01	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-01	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-13-01	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(archie hiltz, 2.00),  (denny harshberger, 2.00),  (lashaunda carothers, 1.00),  (brigid imai, 1.00),  (samuel tatum, 1.00),  (lillia mikel, 1.00),  (tess lister, 1.00),  (josh gouin, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  
+05-26-2016:00-13-05	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	i dont know anyone from google
+05-26-2016:00-13-06	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	Selected 8:	Santina Kenley
+05-26-2016:00-13-09	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	just one
+05-26-2016:00-13-09	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-09	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	[<firstName>: just],[<fullName>: just]
+05-26-2016:00-13-09	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(archie hiltz, 2.00),  (denny harshberger, 2.00),  (lashaunda carothers, 1.00),  (brigid imai, 1.00),  (samuel tatum, 1.00),  (lillia mikel, 1.00),  (tess lister, 1.00),  (josh gouin, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  
+05-26-2016:00-13-14	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	i have a friend in linguistics at uber 
+05-26-2016:00-13-18	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	archie hiltz denny harshberger 
+05-26-2016:00-13-22	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	and lashaunda carothers
+05-26-2016:00-13-25	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	my only person at google
+05-26-2016:00-13-28	66cfe508-e9be-47b1-a9b6-d19115629538	User 0	Selected 4:	Archie Hiltz
+05-26-2016:00-13-31	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_UNFEATURIZED	Selected:	Archie Hiltz
+05-26-2016:00-13-31	---

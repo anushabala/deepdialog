@@ -1,0 +1,18 @@
+05-26-2016:00-32-45	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	joined
+05-26-2016:00-32-45	ae903f07-5004-48be-ac1e-52c6a6895445	User 1 has user ID 32231036be314f98a4da42143657f1cb
+05-26-2016:00-32-51	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at amazon
+05-26-2016:00-33-03	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	I have one friend who works at Apple
+05-26-2016:00-33-03	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-03	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-33-03	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-33-08	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	i dont have any friends at facebook 
+05-26-2016:00-33-11	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Elene
+05-26-2016:00-33-11	ae903f07-5004-48be-ac1e-52c6a6895445	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elene],[<fullName>:]
+05-26-2016:00-33-11	ae903f07-5004-48be-ac1e-52c6a6895445	SYNONYMS	
+05-26-2016:00-33-11	ae903f07-5004-48be-ac1e-52c6a6895445	PROBABILITIES	(elene prouty, 2.00),  (laverna bjornson, 1.00),  (kristie bolduc, 1.00),  (bernita kerrick, 1.00),  (francine bateman, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (riva noles, 1.00),  (angelo patch, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-33-16	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	i know 2 people who work at apple 
+05-26-2016:00-33-21	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	the rest of my friends work at amazon
+05-26-2016:00-33-23	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	yea
+05-26-2016:00-33-28	ae903f07-5004-48be-ac1e-52c6a6895445	User 1	Selected 0:	Elene Prouty
+05-26-2016:00-33-31	ae903f07-5004-48be-ac1e-52c6a6895445	LSTM_UNFEATURIZED	Selected:	Elene Prouty
+05-26-2016:00-33-31	---

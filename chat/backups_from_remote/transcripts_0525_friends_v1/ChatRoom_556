@@ -1,0 +1,20 @@
+05-26-2016:00-38-51	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	joined
+05-26-2016:00-38-51	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1 has user ID 9cdf05a6419b496681e6e8e8ad672636
+05-26-2016:00-38-57	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at facebook
+05-26-2016:00-39-02	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	I went to U of Penn stided math and work at amazon
+05-26-2016:00-39-02	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-02	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	[<schoolName>: penn]
+05-26-2016:00-39-02	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 2.00),  (lakesha platz, 2.00),  (lucia pizarro, 1.00),  (thanh hartin, 1.00),  (elene prouty, 1.00),  (kristie bolduc, 0.00),  (laurette thrailkill, 0.00),  (mose coletti, 0.00),  (laverna bjornson, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-39-06	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	and i majored in linguistics
+05-26-2016:00-39-11	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	Tobi or Mitzi?
+05-26-2016:00-39-11	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tobi, mitzi],[<fullName>:]
+05-26-2016:00-39-11	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-39-11	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 3.00),  (lakesha platz, 2.00),  (lucia pizarro, 1.00),  (thanh hartin, 1.00),  (elene prouty, 1.00),  (kristie bolduc, 0.00),  (laurette thrailkill, 0.00),  (mose coletti, 0.00),  (laverna bjornson, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-39-17	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	i only know people at apple i know a couple of people there
+05-26-2016:00-39-27	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	who?
+05-26-2016:00-39-27	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-27	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:00-39-27	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 3.00),  (lakesha platz, 2.00),  (lucia pizarro, 1.00),  (thanh hartin, 1.00),  (elene prouty, 1.00),  (kristie bolduc, 0.00),  (laurette thrailkill, 0.00),  (mose coletti, 0.00),  (laverna bjornson, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-39-29	1e0be0ca-9430-4f3b-8263-9da64571d692	LSTM_UNFEATURIZED	Selected:	Tobi Brunette
+05-26-2016:00-39-33	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	Selected 6:	Tobi Brunette
+05-26-2016:00-39-33	---

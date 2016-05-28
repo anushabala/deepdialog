@@ -1,0 +1,100 @@
+05-26-2016:00-46-12	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	joined
+05-26-2016:00-46-12	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-46-17	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	all my friend work at amazon and 1 works at uber
+05-26-2016:00-46-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	hi, went to penn for cs, work at uber
+05-26-2016:00-46-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	[<major>: cs],[<schoolName>: penn]
+05-26-2016:00-46-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 1.00),  (quinn courter, 1.00),  (maryln hagaman, 1.00),  (rick damico, 1.00),  (ernest sisemore, 1.00),  (raymond polite, 1.00),  (kendrick friday, 1.00),  (tinisha blagg, 0.00),  (harris schramm, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-46-24	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	do you have any friends that work at amazon
+05-26-2016:00-46-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	no amazon
+05-26-2016:00-46-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-46-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (quinn courter, 1.00),  (kendrick friday, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-46-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	how about amazon
+05-26-2016:00-46-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	all uber
+05-26-2016:00-46-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-46-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-46-32	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	Selected:	Janina Rousey
+05-26-2016:00-46-39	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	dont know her
+05-26-2016:00-46-39	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-39	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-46-39	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-46-44	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	do you have any friends at amazon
+05-26-2016:00-46-47	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	no
+05-26-2016:00-46-47	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-47	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-46-47	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-46-49	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	math
+05-26-2016:00-46-57	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	give me your quals
+05-26-2016:00-46-57	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-57	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:00-46-57	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-46-59	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	no
+05-26-2016:00-47-03	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	it would be easier if i knew
+05-26-2016:00-47-03	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-03	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-47-03	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-47-05	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	janina rousey
+05-26-2016:00-47-11	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	no
+05-26-2016:00-47-11	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-11	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-47-11	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-47-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	quinn courter
+05-26-2016:00-47-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	no
+05-26-2016:00-47-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-47-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 2.00),  (quinn courter, 2.00),  (maryln hagaman, 2.00),  (rick damico, 2.00),  (ernest sisemore, 2.00),  (raymond polite, 2.00),  (kendrick friday, 2.00),  (tinisha blagg, 1.00),  (harris schramm, 1.00),  (elene prouty, 0.00),  
+05-26-2016:00-47-23	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	mine are all amazon 
+05-26-2016:00-47-24	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	major
+05-26-2016:00-47-31	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	i know no one at amazon
+05-26-2016:00-47-31	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-31	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-47-31	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-47-35	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	i have lots from amazon
+05-26-2016:00-47-52	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	cool, i know no one from there
+05-26-2016:00-47-52	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-52	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-47-52	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-47-54	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	from columbia
+05-26-2016:00-48-06	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	huh?
+05-26-2016:00-48-06	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-06	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-06	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-08	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	janina rousey
+05-26-2016:00-48-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	dont know her
+05-26-2016:00-48-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-16	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	nope
+05-26-2016:00-48-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	nope
+05-26-2016:00-48-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-19	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-20	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	yes
+05-26-2016:00-48-22	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	yes
+05-26-2016:00-48-22	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-22	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-22	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-24	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	yes 
+05-26-2016:00-48-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	yes
+05-26-2016:00-48-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-29	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	Selected:	Janina Rousey
+05-26-2016:00-48-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	select her
+05-26-2016:00-48-37	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	are you serious?
+05-26-2016:00-48-37	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-37	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-37	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-41	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	select another person wait 10 seconds
+05-26-2016:00-48-41	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	i said i dont know her
+05-26-2016:00-48-41	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-41	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-41	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-48-46	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_FEATURIZED	select another person wait 10 secs
+05-26-2016:00-48-58	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	nice trolling
+05-26-2016:00-48-58	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-58	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-48-58	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 3.00),  (maryln hagaman, 3.00),  (rick damico, 3.00),  (ernest sisemore, 3.00),  (raymond polite, 3.00),  (tinisha blagg, 2.00),  (harris schramm, 2.00),  (quinn courter, 2.00),  (kendrick friday, 2.00),  (elene prouty, 0.00),  
+05-26-2016:00-49-00	---

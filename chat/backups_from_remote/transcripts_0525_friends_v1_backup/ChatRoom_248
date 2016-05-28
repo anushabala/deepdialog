@@ -1,0 +1,23 @@
+05-26-2016:00-23-37	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	joined
+05-26-2016:00-23-37	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0 has user ID a46bc7cff940437a8c6d267a51da3626
+05-26-2016:00-23-46	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	I went to Stanford, studied linguistics and work at apple
+05-26-2016:00-23-47	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-47	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-23-47	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 2.00),  (lashaunda carothers, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (sherika rust, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-23-49	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	you?
+05-26-2016:00-23-49	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-49	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-23-49	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 2.00),  (lashaunda carothers, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (sherika rust, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-23-56	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	i went to university of pennsylvania and majored in math
+05-26-2016:00-24-00	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	most of my friends work for google
+05-26-2016:00-24-04	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Do you know Lakesha?
+05-26-2016:00-24-04	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lakesha],[<fullName>:]
+05-26-2016:00-24-04	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-24-04	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 2.00),  (lashaunda carothers, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (sherika rust, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-24-07	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	no i dont
+05-26-2016:00-24-14	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Or Ngan, Carry or Lucia?
+05-26-2016:00-24-14	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ngan, carry, lucia],[<fullName>:]
+05-26-2016:00-24-14	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:00-24-14	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(ngan hornung, 3.00),  (lashaunda carothers, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (sherika rust, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  
+05-26-2016:00-24-16	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	Selected:	Ngan Hornung
+05-26-2016:00-24-21	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Selected 3:	Ngan Hornung

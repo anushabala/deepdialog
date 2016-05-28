@@ -1,0 +1,51 @@
+05-26-2016:00-22-14	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	joined
+05-26-2016:00-22-14	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0 has user ID 14b15d762f1f4e95b41bef296aed76bb
+05-26-2016:00-22-27	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	I have one friend who works at Amazon.
+05-26-2016:00-22-27	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-27	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-22-27	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (thanh hartin, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-22-35	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	i went to university of pennsylvania and majored in computer science
+05-26-2016:00-22-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Two are at facebook, and the rest work for apple.
+05-26-2016:00-22-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-22-47	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-22-53	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	all my friends work at facebook only one at facebook 
+05-26-2016:00-22-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	clarisa mattison
+05-26-2016:00-22-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Do you know Julissa?
+05-26-2016:00-22-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: julissa],[<fullName>:]
+05-26-2016:00-22-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-22-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-22-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	Selected:	Laurette Thrailkill
+05-26-2016:00-23-00	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	hm
+05-26-2016:00-23-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Nena or Fredrick then it must be?
+05-26-2016:00-23-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: nena],[<fullName>:]
+05-26-2016:00-23-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<firstName>: fredrick],[<fullName>: fredrick]
+05-26-2016:00-23-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-23-32	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	you
+05-26-2016:00-23-59	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Selected 8:	Frederick Willetts
+05-26-2016:00-24-01	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	pass
+05-26-2016:00-24-08	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	What? 
+05-26-2016:00-24-08	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-08	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-08	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-24-12	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	gotta wait 10 seconds
+05-26-2016:00-24-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	I dont think you understand the task
+05-26-2016:00-24-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-30	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-24-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	you have someone named clarisa mattison in computer science
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	No
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-24-52	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-24-55	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	what school
+05-26-2016:00-25-02	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Timer is up.
+05-26-2016:00-25-02	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-02	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:00-25-02	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (brittney hunley, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (thanh hartin, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-25-03	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	yes
+05-26-2016:00-25-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	Youre a computer.
+05-26-2016:00-25-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<major>: computer]
+05-26-2016:00-25-09	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(brittney hunley, 2.00),  (thanh hartin, 2.00),  (clarisa mattison, 1.00),  (laurette thrailkill, 1.00),  (lorriane hurlbert, 1.00),  (carry pavlick, 1.00),  (darrel oden, 1.00),  (emerson farnsworth, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-25-10	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_UNFEATURIZED	oh wow 

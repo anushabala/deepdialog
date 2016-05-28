@@ -1,0 +1,35 @@
+05-26-2016:02-03-30	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	joined
+05-26-2016:02-03-30	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1 has user ID 0dc4687136e14048a9c388d42403327e
+05-26-2016:02-03-32	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	hey
+05-26-2016:02-03-34	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Hi.
+05-26-2016:02-03-34	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-34	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:02-03-34	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(bernita kerrick, 0.10),  (jon geissler, 0.10),  (randi thorson, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (josefina ferrigno, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:02-03-41	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Most of my friends work at google.
+05-26-2016:02-03-41	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-41	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:02-03-41	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(bernita kerrick, 0.10),  (jon geissler, 0.10),  (randi thorson, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (graig chill, 0.10),  (josefina ferrigno, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:02-03-51	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	i went to university of california - berkeley, majored in linguistics, work at uber
+05-26-2016:02-03-57	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:02-04-20	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	went to stanford, majored in economics and work at google.
+05-26-2016:02-04-20	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>: economics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-20	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:02-04-20	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 0.37),  (barbar scheu, 0.14),  (delbert gapinski, 0.14),  (bernita kerrick, 0.05),  (jon geissler, 0.05),  (keesha ahart, 0.05),  (jody tropea, 0.05),  (graig chill, 0.05),  (josefina ferrigno, 0.05),  (liana sams, 0.05),  
+05-26-2016:02-04-23	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	randi, barbar?
+05-26-2016:02-04-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	I have 1 friend who works at uber and went to stanford and majored in economics.
+05-26-2016:02-04-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>: economics],[<schoolName>: stanford],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:02-04-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 0.45),  (barbar scheu, 0.13),  (delbert gapinski, 0.13),  (jon geissler, 0.04),  (keesha ahart, 0.04),  (jody tropea, 0.04),  (graig chill, 0.04),  (josefina ferrigno, 0.04),  (liana sams, 0.04),  (bernita kerrick, 0.02),  
+05-26-2016:02-04-49	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Selected 6:	Renay Guel
+05-26-2016:02-04-53	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	delbert gapinski?
+05-26-2016:02-04-56	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	jon, keesha?
+05-26-2016:02-05-13	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Yes, Randi.
+05-26-2016:02-05-13	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: randi],[<fullName>:]
+05-26-2016:02-05-13	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:02-05-13	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 0.31),  (barbar scheu, 0.08),  (delbert gapinski, 0.08),  (jon geissler, 0.08),  (keesha ahart, 0.08),  (jody tropea, 0.08),  (graig chill, 0.08),  (josefina ferrigno, 0.08),  (liana sams, 0.08),  (bernita kerrick, 0.07),  
+05-26-2016:02-05-18	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	yeah, that's the mutual friend
+05-26-2016:02-05-20	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	Selected:	Randi Thorson
+05-26-2016:02-05-39	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Selected 4:	Lashaunda Carothers
+05-26-2016:02-05-43	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	nope, don't know them
+05-26-2016:02-05-47	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	DEFAULT_BOT	do you know jody tropea?
+05-26-2016:02-05-54	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Selected 5:	Randi Thorson

@@ -1,0 +1,14 @@
+05-26-2016:01-50-52	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	joined
+05-26-2016:01-50-52	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1 has user ID 50d8affd9b5f48c58c7c60d8768aefdc
+05-26-2016:01-51-11	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	I've got a bunch of google friends, two fb friends, and one Uber friend
+05-26-2016:01-51-11	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-11	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:01-51-11	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(jon geissler, 1.00),  (randi thorson, 1.00),  (keesha ahart, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (josefina ferrigno, 1.00),  (liana sams, 1.00),  (delbert gapinski, 1.00),  (bernita kerrick, 0.00),  
+05-26-2016:01-51-14	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_FEATURIZED	i have lots of friends from uber
+05-26-2016:01-51-21	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Randi?
+05-26-2016:01-51-21	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: randi],[<fullName>:]
+05-26-2016:01-51-21	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	SYNONYMS	
+05-26-2016:01-51-21	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	PROBABILITIES	(randi thorson, 2.00),  (jon geissler, 1.00),  (keesha ahart, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (josefina ferrigno, 1.00),  (liana sams, 1.00),  (delbert gapinski, 1.00),  (bernita kerrick, 0.00),  
+05-26-2016:01-51-23	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	LSTM_FEATURIZED	Selected:	Randi Thorson
+05-26-2016:01-51-28	0f0d9e77-f108-4b45-ac11-fdd2c46360ef	User 1	Selected 5:	Randi Thorson
+05-26-2016:01-51-28	---

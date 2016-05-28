@@ -1,0 +1,15 @@
+05-26-2016:00-20-33	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	joined
+05-26-2016:00-20-33	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0 has user ID 4a0f7c3ce0574634b22307eae37f4ea4
+05-26-2016:00-20-39	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	all my friend work at facebook and 1 works at facebook
+05-26-2016:00-20-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	i went to uc berkely, econ major, work at apple
+05-26-2016:00-20-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<major>: econ],[<schoolName>: berkely]
+05-26-2016:00-20-51	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:00-20-58	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	i know two dudes thanh hartin and fletcher hass from apple 
+05-26-2016:00-20-59	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	no
+05-26-2016:00-21-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 0	how are you going to tell me my info is wrong?
+05-26-2016:00-21-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:00-21-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(thanh hartin, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  (clarisa mattison, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (lorriane hurlbert, 0.00),  (carry pavlick, 0.00),  (darrel oden, 0.00),  (emerson farnsworth, 0.00),  
+05-26-2016:00-21-25	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	university of pennsylvania
+05-26-2016:00-22-13	---

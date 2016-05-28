@@ -1,0 +1,18 @@
+05-26-2016:00-30-50	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	joined
+05-26-2016:00-30-50	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0 has user ID 703c5a50450344d88bdfa419585590af
+05-26-2016:00-30-52	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	hi
+05-26-2016:00-31-01	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	i went to university of california - berkeley and majored in linguistics
+05-26-2016:00-31-04	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	work at google
+05-26-2016:00-31-09	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	hi, any friends at uber google or apple?
+05-26-2016:00-31-09	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, google, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-09	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-31-09	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(sherika rust, 0.10),  (lillia mikel, 0.10),  (verlie fredette, 0.10),  (jesica seaton, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-31-16	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-31-18	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	sherika?
+05-26-2016:00-31-21	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	do you know verlie?
+05-26-2016:00-31-21	b343a7f3-6b17-42e5-8417-34c41f3971db	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: verlie],[<fullName>:]
+05-26-2016:00-31-21	b343a7f3-6b17-42e5-8417-34c41f3971db	SYNONYMS	
+05-26-2016:00-31-21	b343a7f3-6b17-42e5-8417-34c41f3971db	PROBABILITIES	(verlie fredette, 0.23),  (sherika rust, 0.09),  (lillia mikel, 0.09),  (jesica seaton, 0.09),  (tangela raschke, 0.09),  (tess lister, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  (meda lahr, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:00-31-25	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	yeah, that's the mutual friend
+05-26-2016:00-31-27	b343a7f3-6b17-42e5-8417-34c41f3971db	DEFAULT_BOT	Selected:	Verlie Fredette
+05-26-2016:00-31-29	b343a7f3-6b17-42e5-8417-34c41f3971db	User 0	Selected 2:	Verlie Fredette

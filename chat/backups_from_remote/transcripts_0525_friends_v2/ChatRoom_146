@@ -1,0 +1,20 @@
+05-26-2016:01-58-21	62198576-e7e2-405c-b486-81eb870631cb	User 0	joined
+05-26-2016:01-58-21	62198576-e7e2-405c-b486-81eb870631cb	User 0 has user ID d4dbb6c2e36c485ebddbd8c330c990b6
+05-26-2016:01-58-29	62198576-e7e2-405c-b486-81eb870631cb	User 0	All of my friends work at facebook
+05-26-2016:01-58-29	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-29	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-58-29	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 1.00),  (lashaunda carothers, 0.00),  (renita canney, 0.00),  (sherika rust, 0.00),  (dannie leedy, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-58-29	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	hi
+05-26-2016:01-58-42	62198576-e7e2-405c-b486-81eb870631cb	User 0	except I have two appple
+05-26-2016:01-58-42	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-42	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	[<companyName>: appple]
+05-26-2016:01-58-42	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 1.00),  (lashaunda carothers, 0.00),  (renita canney, 0.00),  (sherika rust, 0.00),  (dannie leedy, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-58-47	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	i have all google friends and one facebook
+05-26-2016:01-58-55	62198576-e7e2-405c-b486-81eb870631cb	User 0	who works at facebook?
+05-26-2016:01-58-55	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-55	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:01-58-55	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 2.00),  (lashaunda carothers, 0.00),  (renita canney, 0.00),  (sherika rust, 0.00),  (dannie leedy, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (leena hensel, 0.00),  (kam wey, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:01-59-01	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	do you know darrel oden or lashaunda carothers
+05-26-2016:01-59-12	62198576-e7e2-405c-b486-81eb870631cb	User 0	Selected 1:	Darrel Oden
+05-26-2016:01-59-14	62198576-e7e2-405c-b486-81eb870631cb	LSTM_FEATURIZED	Selected:	Darrel Oden
+05-26-2016:01-59-15	---

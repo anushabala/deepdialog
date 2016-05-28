@@ -1,0 +1,27 @@
+05-26-2016:00-39-48	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	joined
+05-26-2016:00-39-48	ee097ca5-ea21-448f-a645-7837f0570d17	User 1 has user ID 98e391beb9b2443ead4a158ed53df5c8
+05-26-2016:00-40-15	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	Most of my friends work at google, one works at apple, one works at facebook and one works at amazon.
+05-26-2016:00-40-15	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple, facebook, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-15	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-40-15	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(clarisa mattison, 1.00),  (brittney hunley, 1.00),  (tamara killeen, 1.00),  (clorinda hites, 1.00),  (jesica seaton, 1.00),  (sheilah steitz, 1.00),  (justa holdeman, 1.00),  (darrel oden, 1.00),  (fletcher hass, 1.00),  (birgit heid, 1.00),  
+05-26-2016:00-40-19	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	1 friend at facebook rest at google 
+05-26-2016:00-40-21	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	1 facebook
+05-26-2016:00-40-44	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	My facebook person is computer science at when to Berkeley
+05-26-2016:00-40-44	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-44	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:00-40-44	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(brittney hunley, 3.00),  (clorinda hites, 3.00),  (justa holdeman, 3.00),  (clarisa mattison, 2.00),  (sheilah steitz, 2.00),  (darrel oden, 2.00),  (fletcher hass, 2.00),  (birgit heid, 2.00),  (tamara killeen, 1.00),  (jesica seaton, 1.00),  
+05-26-2016:00-40-45	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	any apple
+05-26-2016:00-41-04	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	Clorinda at facebook?
+05-26-2016:00-41-04	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>: clorinda],[<fullName>:]
+05-26-2016:00-41-04	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-41-04	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(clorinda hites, 5.00),  (brittney hunley, 4.00),  (justa holdeman, 4.00),  (clarisa mattison, 3.00),  (sheilah steitz, 3.00),  (darrel oden, 3.00),  (fletcher hass, 3.00),  (birgit heid, 3.00),  (tamara killeen, 1.00),  (jesica seaton, 1.00),  
+05-26-2016:00-41-07	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	any from columbia columbia 
+05-26-2016:00-41-12	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	3 at university of california - berkeley
+05-26-2016:00-41-19	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	One apple.
+05-26-2016:00-41-19	ee097ca5-ea21-448f-a645-7837f0570d17	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-41-19	ee097ca5-ea21-448f-a645-7837f0570d17	SYNONYMS	
+05-26-2016:00-41-19	ee097ca5-ea21-448f-a645-7837f0570d17	PROBABILITIES	(clorinda hites, 5.00),  (brittney hunley, 4.00),  (justa holdeman, 4.00),  (clarisa mattison, 3.00),  (sheilah steitz, 3.00),  (darrel oden, 3.00),  (fletcher hass, 3.00),  (birgit heid, 3.00),  (tamara killeen, 2.00),  (jesica seaton, 1.00),  
+05-26-2016:00-41-20	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	clorinda hites
+05-26-2016:00-41-26	ee097ca5-ea21-448f-a645-7837f0570d17	User 1	Selected 4:	Clorinda Hites
+05-26-2016:00-41-27	ee097ca5-ea21-448f-a645-7837f0570d17	LSTM_UNFEATURIZED	Selected:	Clorinda Hites
+05-26-2016:00-41-28	---

@@ -1,0 +1,19 @@
+05-26-2016:00-41-58	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	joined
+05-26-2016:00-41-58	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0 has user ID 5c76b9749b014ae99f181121477cdb71
+05-26-2016:00-42-04	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	I work at Facebook, and so do all my friends
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-42-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-42-19	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	do you know arlen landers or lashaunda carothers
+05-26-2016:00-42-31	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	no
+05-26-2016:00-42-31	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-31	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-42-31	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-42-36	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	those are my only facebook friends
+05-26-2016:00-42-36	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	wait, yes
+05-26-2016:00-42-36	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-36	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-42-36	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 1.00),  (lashaunda carothers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-42-39	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_FEATURIZED	Selected:	Arlen Landers
+05-26-2016:00-42-39	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Selected 9:	Arlen Landers

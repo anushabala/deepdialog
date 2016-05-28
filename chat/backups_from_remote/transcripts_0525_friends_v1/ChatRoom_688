@@ -1,0 +1,59 @@
+05-26-2016:00-45-38	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	joined
+05-26-2016:00-45-38	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0 has user ID 7f8bde01661741c9afd295ad50fca3de
+05-26-2016:00-45-40	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	hey
+05-26-2016:00-45-46	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	i went to columbia and majored in economics
+05-26-2016:00-45-49	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	work at uber
+05-26-2016:00-45-56	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-46-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	I know mostly Uber friends, and one Uber and Google.
+05-26-2016:00-46-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, uber, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-46-07	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(brittanie piggott, 0.14),  (quinn courter, 0.14),  (jon geissler, 0.14),  (nathanial towery, 0.14),  (kathaleen brough, 0.14),  (graig chill, 0.14),  (randi thorson, 0.14),  (candy astorga, 0.02),  (oliver roker, 0.02),  (tamara killeen, 0.02),  
+05-26-2016:00-46-09	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	brittanie?
+05-26-2016:00-46-20	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Err, Facebook I mean, mostly Facebook.
+05-26-2016:00-46-20	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-20	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-46-20	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.43),  (brittanie piggott, 0.07),  (quinn courter, 0.07),  (jon geissler, 0.07),  (nathanial towery, 0.07),  (kathaleen brough, 0.07),  (graig chill, 0.07),  (randi thorson, 0.07),  (oliver roker, 0.06),  (tamara killeen, 0.06),  
+05-26-2016:00-46-23	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	candy, quinn?
+05-26-2016:00-46-30	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Nope, and nope.
+05-26-2016:00-46-30	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-30	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-46-30	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.14),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-46-36	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	do you know jon, nathanial or kathaleen?
+05-26-2016:00-46-44	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	No.
+05-26-2016:00-46-44	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-44	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-46-44	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-46-48	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	graig, randi, oliver?
+05-26-2016:00-46-58	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Eer no.
+05-26-2016:00-46-58	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-58	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-46-58	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-47-01	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	tamara killeen?
+05-26-2016:00-47-12	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Not it either.
+05-26-2016:00-47-12	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-12	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-47-12	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-47-15	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	candy, brittanie?
+05-26-2016:00-47-41	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Im double checking but no mathc so far.
+05-26-2016:00-47-41	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-41	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-47-41	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-47-45	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	do you know quinn courter?
+05-26-2016:00-47-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	No.
+05-26-2016:00-47-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-47-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-47-51	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-47-55	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	do you know jon geissler?
+05-26-2016:00-48-02	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Keep going.
+05-26-2016:00-48-02	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-02	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	
+05-26-2016:00-48-02	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(candy astorga, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (graig chill, 0.10),  (randi thorson, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  
+05-26-2016:00-48-08	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	do you know nathanial, kathaleen or graig?
+05-26-2016:00-48-21	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	No match.
+05-26-2016:00-48-21	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-48-21	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	SYNONYMS	[<major>: math]
+05-26-2016:00-48-21	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	PROBABILITIES	(brittanie piggott, 0.14),  (quinn courter, 0.14),  (jon geissler, 0.14),  (candy astorga, 0.08),  (nathanial towery, 0.08),  (kathaleen brough, 0.08),  (graig chill, 0.08),  (randi thorson, 0.08),  (oliver roker, 0.08),  (tamara killeen, 0.08),  
+05-26-2016:00-48-28	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	do you know randi thorson oliver roker or tamara killeen?
+05-26-2016:00-48-32	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	User 0	Selected 3:	Randi Thorson
+05-26-2016:00-48-34	d7f31b2a-4982-47ff-b3f8-aa6b3bbc2dce	DEFAULT_BOT	Selected:	Randi Thorson
+05-26-2016:00-48-34	---

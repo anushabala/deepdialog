@@ -1,0 +1,28 @@
+05-26-2016:00-29-42	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0	joined
+05-26-2016:00-29-42	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0 has user ID 92b6d44523d54a799dfa13983ea851f4
+05-26-2016:00-29-44	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	hi there!
+05-26-2016:00-29-51	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	i'm university of pennsylvania, computer science, uber
+05-26-2016:00-29-55	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	major, school, company?
+05-26-2016:00-29-56	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0	Most of my friends work at Amazon, one at Apple, one at Uber
+05-26-2016:00-29-56	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-56	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:00-29-56	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(alberto thurlow, 0.10),  (brittanie piggott, 0.10),  (vickey redinger, 0.10),  (lillia mikel, 0.10),  (santina kenley, 0.10),  (kathaleen brough, 0.10),  (thanh hartin, 0.10),  (kendrick friday, 0.10),  (liana sams, 0.10),  (sherika rust, 0.09),  
+05-26-2016:00-30-03	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	do you know alberto thurlow or brittanie piggott?
+05-26-2016:00-30-18	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0	I dont
+05-26-2016:00-30-18	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-18	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-30-18	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(alberto thurlow, 0.10),  (brittanie piggott, 0.10),  (vickey redinger, 0.10),  (lillia mikel, 0.10),  (kathaleen brough, 0.10),  (santina kenley, 0.10),  (thanh hartin, 0.10),  (kendrick friday, 0.10),  (liana sams, 0.10),  (sherika rust, 0.10),  
+05-26-2016:00-30-21	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	vickey redinger?
+05-26-2016:00-30-26	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0	No
+05-26-2016:00-30-26	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-26	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-30-26	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(alberto thurlow, 0.10),  (brittanie piggott, 0.10),  (vickey redinger, 0.10),  (lillia mikel, 0.10),  (santina kenley, 0.10),  (kathaleen brough, 0.10),  (thanh hartin, 0.10),  (kendrick friday, 0.10),  (liana sams, 0.10),  (sherika rust, 0.10),  
+05-26-2016:00-30-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0	WHere do your friends work
+05-26-2016:00-30-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:00-30-30	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(alberto thurlow, 0.10),  (brittanie piggott, 0.10),  (vickey redinger, 0.10),  (lillia mikel, 0.10),  (kathaleen brough, 0.10),  (santina kenley, 0.10),  (thanh hartin, 0.10),  (kendrick friday, 0.10),  (liana sams, 0.10),  (sherika rust, 0.10),  
+05-26-2016:00-30-38	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	do you know lillia mikel santina kenley or kathaleen brough?
+05-26-2016:00-30-43	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	are thanh or kendrick on your list?
+05-26-2016:00-30-49	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 0	Selected 5:	Kendrick Friday
+05-26-2016:00-30-51	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	DEFAULT_BOT	Selected:	Kendrick Friday
+05-26-2016:00-30-52	---

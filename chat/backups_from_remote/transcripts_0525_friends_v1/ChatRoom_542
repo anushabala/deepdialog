@@ -1,0 +1,28 @@
+05-26-2016:00-38-00	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	joined
+05-26-2016:00-38-00	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1 has user ID 3eb197ab54fd455cad5cb177c802ea36
+05-26-2016:00-38-02	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	hi there!
+05-26-2016:00-38-07	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	hey!
+05-26-2016:00-38-07	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-07	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-38-07	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(kristie bolduc, 0.10),  (jon geissler, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  (tobi brunette, 0.10),  (karma echeverria, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-38-14	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	i went to university of pennsylvania and majored in math
+05-26-2016:00-38-17	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	work at apple
+05-26-2016:00-38-21	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	major, school, company?
+05-26-2016:00-38-33	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	I went to Berkeley, computer science and work for amazon
+05-26-2016:00-38-33	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-33	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-38-33	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 0.11),  (riva noles, 0.11),  (kristie bolduc, 0.10),  (jon geissler, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-38-36	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	karma, riva, kristie?
+05-26-2016:00-38-42	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	you have any friends that went to columbia?
+05-26-2016:00-38-42	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-42	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-38-42	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(kristie bolduc, 0.16),  (oliver roker, 0.16),  (tamara killeen, 0.16),  (elene prouty, 0.16),  (karma echeverria, 0.06),  (riva noles, 0.06),  (jon geissler, 0.06),  (tobi brunette, 0.06),  (pearl dollard, 0.06),  (lakesha platz, 0.06),  
+05-26-2016:00-38-48	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	do you know oliver roker or tamara killeen?
+05-26-2016:00-38-50	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	karma
+05-26-2016:00-38-50	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: karma],[<fullName>:]
+05-26-2016:00-38-50	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-38-50	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(karma echeverria, 0.22),  (kristie bolduc, 0.09),  (oliver roker, 0.09),  (tamara killeen, 0.09),  (elene prouty, 0.09),  (riva noles, 0.08),  (jon geissler, 0.08),  (tobi brunette, 0.08),  (pearl dollard, 0.08),  (lakesha platz, 0.08),  
+05-26-2016:00-38-55	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	yep, that's the right answer
+05-26-2016:00-38-57	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	Selected:	Karma Echeverria
+05-26-2016:00-39-00	6885ed78-157c-49d4-84df-ae8e83c0106c	User 1	Selected 7:	Karma Echeverria
+05-26-2016:00-39-01	---

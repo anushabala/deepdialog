@@ -1,0 +1,77 @@
+05-26-2016:00-21-57	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	joined
+05-26-2016:00-21-57	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1 has user ID 49a974312a534c82a8691097b82cda60
+05-26-2016:00-22-00	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	hi
+05-26-2016:00-22-00	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-00	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-22-00	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(alberto thurlow, 0.00),  (vickey redinger, 0.00),  (nathanial towery, 0.00),  (keesha ahart, 0.00),  (julissa bond, 0.00),  (lillia mikel, 0.00),  (ayesha aarons, 0.00),  (johnathan mccolley, 0.00),  (graig chill, 0.00),  (kendrick friday, 0.00),  
+05-26-2016:00-22-06	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:00-22-07	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	hi
+05-26-2016:00-22-09	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	went to stanford, majored in math, work at apple
+05-26-2016:00-22-09	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>: math],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-09	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-22-09	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(alberto thurlow, 1.00),  (julissa bond, 1.00),  (ayesha aarons, 1.00),  (kendrick friday, 1.00),  (vickey redinger, 0.00),  (nathanial towery, 0.00),  (keesha ahart, 0.00),  (lillia mikel, 0.00),  (johnathan mccolley, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-22-12	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	no friends from apple 
+05-26-2016:00-22-14	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	1 uber
+05-26-2016:00-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	all my friends work at apple
+05-26-2016:00-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-22-18	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(julissa bond, 2.00),  (ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (kendrick friday, 1.00),  (vickey redinger, 0.00),  (nathanial towery, 0.00),  (keesha ahart, 0.00),  (lillia mikel, 0.00),  (johnathan mccolley, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-22-21	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	1 friend from uber
+05-26-2016:00-22-26	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	none from uber
+05-26-2016:00-22-26	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-26	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-22-26	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(alberto thurlow, 2.00),  (julissa bond, 2.00),  (ayesha aarons, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-22-31	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	only apple
+05-26-2016:00-22-31	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-31	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-22-31	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(julissa bond, 3.00),  (ayesha aarons, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-22-37	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	alberto thurlow from university of pennsylvania
+05-26-2016:00-22-40	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	i went to columbia
+05-26-2016:00-22-59	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	do you know elene?
+05-26-2016:00-22-59	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elene],[<fullName>:]
+05-26-2016:00-22-59	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-22-59	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(julissa bond, 3.00),  (ayesha aarons, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-23-00	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	no
+05-26-2016:00-23-08	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	Do you know oliver?
+05-26-2016:00-23-08	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: oliver],[<fullName>:]
+05-26-2016:00-23-08	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-23-08	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(julissa bond, 3.00),  (ayesha aarons, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-23-10	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	no uber
+05-26-2016:00-23-19	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	Kristie?
+05-26-2016:00-23-19	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kristie],[<fullName>:]
+05-26-2016:00-23-19	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-23-19	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(julissa bond, 3.00),  (ayesha aarons, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-23-23	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	no one at apple here
+05-26-2016:00-23-41	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	what did you major in?
+05-26-2016:00-23-41	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-41	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-23-41	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(julissa bond, 3.00),  (ayesha aarons, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-23-44	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	linguistics
+05-26-2016:00-23-50	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	Ayesha?
+05-26-2016:00-23-50	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:00-23-50	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-23-50	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(ayesha aarons, 4.00),  (julissa bond, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-23-53	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	ayesha aarons
+05-26-2016:00-23-57	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	yes
+05-26-2016:00-23-57	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-57	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-23-57	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(ayesha aarons, 4.00),  (julissa bond, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-23-59	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	Selected:	Julissa Bond
+05-26-2016:00-24-07	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	No, Ayesha
+05-26-2016:00-24-08	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:00-24-08	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-24-08	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(ayesha aarons, 5.00),  (julissa bond, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-24-12	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	then you must have friends at uber
+05-26-2016:00-24-19	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	Pick Ayesha
+05-26-2016:00-24-19	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:00-24-19	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	[<firstName>: pick],[<fullName>: pick]
+05-26-2016:00-24-19	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(ayesha aarons, 6.00),  (julissa bond, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-24-21	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	Selected:	Alberto Thurlow
+05-26-2016:00-24-25	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	You have her, you knew her full name
+05-26-2016:00-24-25	46cb4226-4761-40e8-a75b-f6e72bd09815	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-25	46cb4226-4761-40e8-a75b-f6e72bd09815	SYNONYMS	
+05-26-2016:00-24-25	46cb4226-4761-40e8-a75b-f6e72bd09815	PROBABILITIES	(ayesha aarons, 6.00),  (julissa bond, 3.00),  (alberto thurlow, 2.00),  (kendrick friday, 2.00),  (vickey redinger, 1.00),  (nathanial towery, 1.00),  (keesha ahart, 1.00),  (lillia mikel, 1.00),  (johnathan mccolley, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-24-26	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	say
+05-26-2016:00-24-30	46cb4226-4761-40e8-a75b-f6e72bd09815	User 1	Selected 4:	Ayesha Aarons
+05-26-2016:00-24-33	46cb4226-4761-40e8-a75b-f6e72bd09815	LSTM_UNFEATURIZED	Selected:	Ayesha Aarons
+05-26-2016:00-24-33	---

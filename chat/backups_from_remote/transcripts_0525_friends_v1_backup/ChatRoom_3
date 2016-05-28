@@ -1,0 +1,26 @@
+05-26-2016:00-10-35	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	joined
+05-26-2016:00-10-35	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0 has user ID 98e391beb9b2443ead4a158ed53df5c8
+05-26-2016:00-10-40	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:00-11-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	I have one friend that works at google that went to columbia and majored in economics.
+05-26-2016:00-11-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>: economics],[<schoolName>: columbia],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-11-03	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 3.00),  (tangela raschke, 2.00),  (josh gouin, 2.00),  (mai buskirk, 1.00),  (maryln drucker, 1.00),  (asa cadena, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (darrel oden, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-11-06	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	i have a single amazon
+05-26-2016:00-11-37	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	All of mine are uber except for one facebook and one google.
+05-26-2016:00-11-37	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, facebook, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-37	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-11-37	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 4.00),  (tangela raschke, 3.00),  (josh gouin, 3.00),  (mai buskirk, 2.00),  (maryln drucker, 2.00),  (asa cadena, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (darrel oden, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-11-45	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	i went to u university of california - berkeley and majored in physics 
+05-26-2016:00-11-47	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	i work at google
+05-26-2016:00-12-05	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	That doesn't even matter.
+05-26-2016:00-12-05	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-05	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-12-05	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 4.00),  (tangela raschke, 3.00),  (josh gouin, 3.00),  (mai buskirk, 2.00),  (maryln drucker, 2.00),  (asa cadena, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (darrel oden, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-12-08	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	who do you know at google
+05-26-2016:00-12-19	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	COLUMBIA/ECONOMICS
+05-26-2016:00-12-19	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-12-19	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	SYNONYMS	
+05-26-2016:00-12-19	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	PROBABILITIES	(jesica seaton, 4.00),  (tangela raschke, 3.00),  (josh gouin, 3.00),  (mai buskirk, 2.00),  (maryln drucker, 2.00),  (asa cadena, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (darrel oden, 1.00),  (carley schade, 0.00),  
+05-26-2016:00-12-21	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	LSTM_FEATURIZED	Selected:	Jesica Seaton
+05-26-2016:00-12-27	f2d1fbbb-d750-4454-8ac6-ac03661f84cf	User 0	Selected 4:	Jesica Seaton
+05-26-2016:00-12-28	---

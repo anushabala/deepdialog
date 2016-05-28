@@ -1,0 +1,28 @@
+05-26-2016:02-13-39	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	joined
+05-26-2016:02-13-39	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:02-13-44	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:02-14-00	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	I have two friends at Uber. QUinn and Geneva.
+05-26-2016:02-14-00	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: quinn, geneva],[<fullName>:]
+05-26-2016:02-14-00	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-14-00	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(geneva hofmeister, 2.00),  (jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (santina kenley, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (colin higby, 0.00),  
+05-26-2016:02-14-04	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	that doesnt help much 
+05-26-2016:02-14-07	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	do you know anyone at amazon
+05-26-2016:02-14-12	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	No, 
+05-26-2016:02-14-12	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-12	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-14-12	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(geneva hofmeister, 2.00),  (jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (santina kenley, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (colin higby, 0.00),  
+05-26-2016:02-14-14	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	how about uber
+05-26-2016:02-14-21	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	Facebook and one at Apple. 
+05-26-2016:02-14-21	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-21	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-14-21	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(geneva hofmeister, 2.00),  (jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (santina kenley, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (colin higby, 0.00),  
+05-26-2016:02-14-26	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	i only have friends from uber 
+05-26-2016:02-14-29	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	thats the uber friend
+05-26-2016:02-14-34	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	WHo are your friends at Uber?
+05-26-2016:02-14-34	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-34	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:02-14-34	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(geneva hofmeister, 3.00),  (jon geissler, 2.00),  (vickey redinger, 2.00),  (keesha ahart, 2.00),  (nathanial towery, 2.00),  (santina kenley, 2.00),  (barbar scheu, 2.00),  (graig chill, 2.00),  (liana sams, 2.00),  (colin higby, 0.00),  
+05-26-2016:02-14-37	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	geneva hofmeister
+05-26-2016:02-14-41	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	Selected 3:	Geneva Hofmeister
+05-26-2016:02-14-44	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_UNFEATURIZED	Selected:	Geneva Hofmeister
+05-26-2016:02-14-44	---

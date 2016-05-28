@@ -1,0 +1,21 @@
+05-26-2016:02-13-27	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	joined
+05-26-2016:02-13-27	6d2991af-e241-4e11-9567-601aee1a6b31	User 1 has user ID 320346516b5b4dd7992b3aa4eb3432f2
+05-26-2016:02-13-29	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	hey!
+05-26-2016:02-13-32	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	hey
+05-26-2016:02-13-32	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-32	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:02-13-32	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(oliver roker, 0.10),  (gennie dagley, 0.10),  (thanh hartin, 0.10),  (francine bateman, 0.10),  (santina kenley, 0.10),  (aline allshouse, 0.10),  (rick damico, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-13-36	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	all my friends work at amazon
+05-26-2016:02-13-36	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-36	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:02-13-36	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 0.23),  (oliver roker, 0.09),  (gennie dagley, 0.09),  (francine bateman, 0.09),  (santina kenley, 0.09),  (aline allshouse, 0.09),  (thanh hartin, 0.09),  (riva noles, 0.09),  (elene prouty, 0.09),  (lakesha platz, 0.09),  
+05-26-2016:02-13-43	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	i went to university of pennsylvania and majored in physics
+05-26-2016:02-13-46	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	work at apple
+05-26-2016:02-13-48	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	rick?
+05-26-2016:02-13-48	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: rick],[<fullName>:]
+05-26-2016:02-13-48	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:02-13-48	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 0.26),  (oliver roker, 0.08),  (gennie dagley, 0.08),  (thanh hartin, 0.08),  (francine bateman, 0.08),  (santina kenley, 0.08),  (aline allshouse, 0.08),  (riva noles, 0.08),  (elene prouty, 0.08),  (lakesha platz, 0.08),  
+05-26-2016:02-13-54	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	what's your school, major, and company?
+05-26-2016:02-13-56	6d2991af-e241-4e11-9567-601aee1a6b31	DEFAULT_BOT	Selected:	Rick Damico
+05-26-2016:02-14-01	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	Selected 9:	Rick Damico
+05-26-2016:02-14-02	---

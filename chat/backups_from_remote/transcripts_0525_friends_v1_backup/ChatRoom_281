@@ -1,0 +1,20 @@
+05-26-2016:00-25-07	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	joined
+05-26-2016:00-25-07	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0 has user ID f2e2c5dce9ed453486311e9db1c69302
+05-26-2016:00-25-13	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Hi. I'm from Colimbia. 
+05-26-2016:00-25-13	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-13	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	[<schoolName>: colimbia]
+05-26-2016:00-25-13	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(brigid imai, 1.00),  (fletcher hersman, 1.00),  (tinisha blagg, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (carry pavlick, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-25-17	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	i have a single amazon friend
+05-26-2016:00-25-30	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	I have many. And one Favebook friend. 
+05-26-2016:00-25-30	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-30	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	[<companyName>: favebook]
+05-26-2016:00-25-30	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(brigid imai, 1.00),  (carry pavlick, 1.00),  (fletcher hersman, 1.00),  (tinisha blagg, 0.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-25-34	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	i went to stanford and linguistics
+05-26-2016:00-25-51	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	You know Tinisha?!
+05-26-2016:00-25-51	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tinisha],[<fullName>:]
+05-26-2016:00-25-51	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	SYNONYMS	
+05-26-2016:00-25-51	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	PROBABILITIES	(tinisha blagg, 1.00),  (brigid imai, 1.00),  (carry pavlick, 1.00),  (fletcher hersman, 1.00),  (samuel tatum, 0.00),  (mose coletti, 0.00),  (tess lister, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  
+05-26-2016:00-25-52	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	yes
+05-26-2016:00-25-58	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	User 0	Selected 7:	Tinisha Blagg
+05-26-2016:00-26-00	1557174f-ca4a-4c55-86f8-0b9756b4f7ca	LSTM_FEATURIZED	Selected:	Tinisha Blagg
+05-26-2016:00-26-01	---

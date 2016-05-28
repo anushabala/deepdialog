@@ -1,0 +1,27 @@
+05-26-2016:02-10-05	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0	joined
+05-26-2016:02-10-05	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:02-10-10	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0	Hi. Im from Columbia
+05-26-2016:02-10-10	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-10	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	SYNONYMS	
+05-26-2016:02-10-10	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	PROBABILITIES	(brigid imai, 1.00),  (jesica seaton, 1.00),  (fletcher hersman, 1.00),  (sherika rust, 0.00),  (lillia mikel, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-10-16	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0	Work for Uber from my Economics degree
+05-26-2016:02-10-16	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	TAGS	[<major>: economics],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-16	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	SYNONYMS	
+05-26-2016:02-10-16	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	PROBABILITIES	(jesica seaton, 2.00),  (brigid imai, 1.00),  (lillia mikel, 1.00),  (tangela raschke, 1.00),  (tess lister, 1.00),  (kam wey, 1.00),  (fletcher hersman, 1.00),  (sherika rust, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-10-22	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:02-10-24	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	Selected:	Brigid Imai
+05-26-2016:02-10-29	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	do you know jesica seaton 
+05-26-2016:02-10-29	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0	Jesica?
+05-26-2016:02-10-29	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jesica],[<fullName>:]
+05-26-2016:02-10-29	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	SYNONYMS	
+05-26-2016:02-10-29	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	PROBABILITIES	(jesica seaton, 3.00),  (brigid imai, 1.00),  (lillia mikel, 1.00),  (tangela raschke, 1.00),  (tess lister, 1.00),  (kam wey, 1.00),  (fletcher hersman, 1.00),  (sherika rust, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-10-31	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	or lillia mikel
+05-26-2016:02-10-33	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0	Selected 5:	Jesica Seaton
+05-26-2016:02-10-37	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	what about tangela raschke or tess lister 
+05-26-2016:02-10-39	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	User 0	Jesica is great!
+05-26-2016:02-10-39	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jesica],[<fullName>:]
+05-26-2016:02-10-39	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	SYNONYMS	
+05-26-2016:02-10-39	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	PROBABILITIES	(jesica seaton, 5.00),  (brigid imai, 1.00),  (lillia mikel, 1.00),  (tangela raschke, 1.00),  (tess lister, 1.00),  (kam wey, 1.00),  (fletcher hersman, 1.00),  (sherika rust, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:02-10-41	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	jesica seaton
+05-26-2016:02-10-43	4638c9b4-8c1e-4ce0-a0fc-c1db59bd5425	LSTM_FEATURIZED	Selected:	Jesica Seaton
+05-26-2016:02-10-44	---

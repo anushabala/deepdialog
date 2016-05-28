@@ -1,0 +1,39 @@
+05-26-2016:01-45-30	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	joined
+05-26-2016:01-45-30	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:01-45-38	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	hi
+05-26-2016:01-45-38	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-45-38	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-45-38	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-45-39	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	hi
+05-26-2016:01-45-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	i went to berkley for cs, work at google
+05-26-2016:01-45-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-45-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	[<major>: cs],[<schoolName>: berkley]
+05-26-2016:01-45-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 1.00),  (justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-45-55	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	i studied computer science and columbia 
+05-26-2016:01-45-58	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	i work at amazon
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	know fletcher?
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: fletcher],[<fullName>:]
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-24	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 1.00),  (justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-46-27	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	the rest are facebook
+05-26-2016:01-46-39	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	i have 1 person from apple.
+05-26-2016:01-46-39	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-39	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-39	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 1.00),  (justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-46-40	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	okay 
+05-26-2016:01-46-42	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	ernest sisemore 
+05-26-2016:01-46-44	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	2 amazon
+05-26-2016:01-46-44	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-44	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-44	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 2.00),  (myong kary, 1.00),  (celsa navarrete, 1.00),  (harris schramm, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (branden sjoberg, 1.00),  (emmitt nations, 1.00),  (justa holdeman, 1.00),  (carley schade, 1.00),  
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	justa holdeman 
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	rest google
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	SYNONYMS	
+05-26-2016:01-46-46	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	PROBABILITIES	(ernest sisemore, 2.00),  (myong kary, 1.00),  (celsa navarrete, 1.00),  (harris schramm, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (branden sjoberg, 1.00),  (emmitt nations, 1.00),  (justa holdeman, 1.00),  (carley schade, 1.00),  
+05-26-2016:01-46-47	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	mtg 
+05-26-2016:01-46-50	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	i mean that friend
+05-26-2016:01-46-52	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	oh okay
+05-26-2016:01-46-55	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	User 1	Selected 4:	Ernest Sisemore
+05-26-2016:01-46-58	3fb8428c-fd5d-4cb9-b7ef-a8cb1d27818d	LSTM_UNFEATURIZED	Selected:	Ernest Sisemore
+05-26-2016:01-46-58	---

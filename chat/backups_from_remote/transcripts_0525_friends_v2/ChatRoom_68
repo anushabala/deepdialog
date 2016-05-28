@@ -1,0 +1,16 @@
+05-26-2016:01-52-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	joined
+05-26-2016:01-52-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0 has user ID aba7e2a8891e493f8f1c4dd00b959490
+05-26-2016:01-52-25	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_FEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:01-52-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	went to columbia, comp sci, work at google
+05-26-2016:01-52-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	[<major>: comp, sci]
+05-26-2016:01-52-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(janina rousey, 2.00),  (eldon lindholm, 2.00),  (myong kary, 1.00),  (celsa navarrete, 1.00),  (nena krone, 1.00),  (raymond polite, 1.00),  (angelo patch, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-52-43	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_FEATURIZED	i went to university of california - berkeley and majored in computer science 
+05-26-2016:01-52-48	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_FEATURIZED	all of my friends work at amazon
+05-26-2016:01-52-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	Eldon?
+05-26-2016:01-52-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: eldon],[<fullName>:]
+05-26-2016:01-52-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:01-52-53	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 3.00),  (janina rousey, 2.00),  (myong kary, 1.00),  (celsa navarrete, 1.00),  (nena krone, 1.00),  (raymond polite, 1.00),  (angelo patch, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:01-52-55	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_FEATURIZED	Selected:	Eldon Lindholm
+05-26-2016:01-52-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 0	Selected 6:	Eldon Lindholm
+05-26-2016:01-52-57	---

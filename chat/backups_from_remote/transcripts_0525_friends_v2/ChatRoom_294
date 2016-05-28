@@ -1,0 +1,29 @@
+05-26-2016:02-13-01	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0	joined
+05-26-2016:02-13-01	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0 has user ID f54a924cc4ae4951b927d029405f688b
+05-26-2016:02-13-02	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	hey
+05-26-2016:02-13-08	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	i went to stanford and majored in economics
+05-26-2016:02-13-11	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	work at google
+05-26-2016:02-13-14	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	what about you?
+05-26-2016:02-13-23	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0	I have 1 friend at google
+05-26-2016:02-13-23	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-23	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-13-23	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(lashaunda carothers, 0.10),  (cori runion, 0.10),  (jesica seaton, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  
+05-26-2016:02-13-29	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know lashaunda carothers or cori runion?
+05-26-2016:02-13-31	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0	One at apple also
+05-26-2016:02-13-31	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-31	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-13-31	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(lashaunda carothers, 0.10),  (cori runion, 0.10),  (jesica seaton, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  
+05-26-2016:02-13-35	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know jesica seaton?
+05-26-2016:02-13-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0	no
+05-26-2016:02-13-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-13-37	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(lashaunda carothers, 0.10),  (cori runion, 0.10),  (jesica seaton, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  
+05-26-2016:02-13-41	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know tangela raschke?
+05-26-2016:02-13-45	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0	yes
+05-26-2016:02-13-45	20f4e80e-2b20-4bb9-8a04-b75a4574324b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-45	20f4e80e-2b20-4bb9-8a04-b75a4574324b	SYNONYMS	
+05-26-2016:02-13-45	20f4e80e-2b20-4bb9-8a04-b75a4574324b	PROBABILITIES	(lashaunda carothers, 0.10),  (cori runion, 0.10),  (jesica seaton, 0.10),  (tangela raschke, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  
+05-26-2016:02-13-47	20f4e80e-2b20-4bb9-8a04-b75a4574324b	User 0	Selected 9:	Tangela Raschke
+05-26-2016:02-13-52	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	do you know tess lister or josh gouin?
+05-26-2016:02-13-53	20f4e80e-2b20-4bb9-8a04-b75a4574324b	DEFAULT_BOT	Selected:	Tangela Raschke
+05-26-2016:02-13-53	---

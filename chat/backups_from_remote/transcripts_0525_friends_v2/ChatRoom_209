@@ -1,0 +1,33 @@
+05-26-2016:02-03-42	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	joined
+05-26-2016:02-03-42	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0 has user ID d0c7a2a435a14fbab09ae4cf03f0538e
+05-26-2016:02-03-44	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	hi there!
+05-26-2016:02-03-48	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	hello
+05-26-2016:02-03-48	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-48	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:02-03-48	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 0.10),  (eldon lindholm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (rick damico, 0.10),  (karma echeverria, 0.10),  (kerry carter, 0.10),  (ngan hornung, 0.10),  (lucienne whitting, 0.10),  (janina rousey, 0.10),  
+05-26-2016:02-03-54	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	i went to stanford and majored in linguistics
+05-26-2016:02-03-57	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	work at amazon
+05-26-2016:02-03-58	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	I have lots of friends who work at apple 
+05-26-2016:02-03-58	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-03-58	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:02-03-58	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(celsa navarrete, 0.10),  (eldon lindholm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (rick damico, 0.10),  (karma echeverria, 0.10),  (kerry carter, 0.10),  (ngan hornung, 0.10),  (lucienne whitting, 0.10),  (janina rousey, 0.10),  
+05-26-2016:02-04-02	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	major school company?
+05-26-2016:02-04-05	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	celsa, eldon?
+05-26-2016:02-04-16	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	I do have a friend that works at Amazon and studied Economics and Berkeley
+05-26-2016:02-04-16	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>: economics],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-16	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:02-04-16	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 0.12),  (celsa navarrete, 0.10),  (eldon lindholm, 0.10),  (maryln hagaman, 0.10),  (rick damico, 0.10),  (karma echeverria, 0.10),  (kerry carter, 0.10),  (janina rousey, 0.10),  (ngan hornung, 0.09),  (lucienne whitting, 0.09),  
+05-26-2016:02-04-21	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	are angelo or maryln on your list?
+05-26-2016:02-04-41	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	What did your friend at Amazon study?
+05-26-2016:02-04-41	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-41	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:02-04-41	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 0.12),  (celsa navarrete, 0.11),  (eldon lindholm, 0.11),  (maryln hagaman, 0.11),  (rick damico, 0.11),  (karma echeverria, 0.11),  (kerry carter, 0.11),  (janina rousey, 0.11),  (ngan hornung, 0.04),  (lucienne whitting, 0.04),  
+05-26-2016:02-04-45	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	do you know rick, karma or kerry?
+05-26-2016:02-05-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	No but where did your friend from Amazon go to school?
+05-26-2016:02-05-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	SYNONYMS	
+05-26-2016:02-05-09	cde8895b-8de7-44fd-b49c-1e654e0fa5de	PROBABILITIES	(angelo patch, 0.12),  (celsa navarrete, 0.12),  (eldon lindholm, 0.12),  (maryln hagaman, 0.12),  (rick damico, 0.12),  (karma echeverria, 0.12),  (kerry carter, 0.12),  (janina rousey, 0.12),  (ngan hornung, 0.04),  (lucienne whitting, 0.04),  
+05-26-2016:02-05-14	cde8895b-8de7-44fd-b49c-1e654e0fa5de	User 0	Selected 1:	Angelo Patch
+05-26-2016:02-05-21	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	do you know janina rousey ngan hornung or lucienne whitting?
+05-26-2016:02-05-23	cde8895b-8de7-44fd-b49c-1e654e0fa5de	DEFAULT_BOT	Selected:	Angelo Patch
+05-26-2016:02-05-24	---

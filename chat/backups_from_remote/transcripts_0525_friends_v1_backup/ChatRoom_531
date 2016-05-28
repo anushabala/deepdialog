@@ -1,0 +1,46 @@
+05-26-2016:00-37-42	62198576-e7e2-405c-b486-81eb870631cb	User 0	joined
+05-26-2016:00-37-42	62198576-e7e2-405c-b486-81eb870631cb	User 0 has user ID 91f4363623904c1396674484be52d0b1
+05-26-2016:00-37-44	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	hi
+05-26-2016:00-37-52	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	i went to university of california - berkeley and majored in physics
+05-26-2016:00-37-55	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	work at google
+05-26-2016:00-37-59	62198576-e7e2-405c-b486-81eb870631cb	User 0	Hello. I work for Facebook after going to Penn.
+05-26-2016:00-37-59	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-59	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:00-37-59	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(sherika rust, 0.15),  (darrel oden, 0.11),  (lashaunda carothers, 0.09),  (renita canney, 0.09),  (dannie leedy, 0.09),  (jesica seaton, 0.09),  (tyson rankins, 0.09),  (leena hensel, 0.09),  (kam wey, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:00-38-03	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	major, school, company?
+05-26-2016:00-38-11	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	do you know sherika rust darrel oden or lashaunda carothers?
+05-26-2016:00-38-19	62198576-e7e2-405c-b486-81eb870631cb	User 0	Most of my friends are from Facebook, but I know a few from Apple.
+05-26-2016:00-38-19	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-19	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:00-38-19	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.11),  (sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (dannie leedy, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-38-25	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	are renita or dannie on your list?
+05-26-2016:00-38-45	62198576-e7e2-405c-b486-81eb870631cb	User 0	No.
+05-26-2016:00-38-45	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-45	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:00-38-45	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.10),  (sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-38-48	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	jesica seaton?
+05-26-2016:00-38-58	62198576-e7e2-405c-b486-81eb870631cb	User 0	Do you know anyone from Apple?
+05-26-2016:00-38-58	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-58	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:00-38-58	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.10),  (sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (dannie leedy, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-39-02	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	tyson, leena, kam?
+05-26-2016:00-39-21	62198576-e7e2-405c-b486-81eb870631cb	User 0	Sorry. Not sure who they are.
+05-26-2016:00-39-21	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-21	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:00-39-21	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.10),  (sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-39-26	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	are fletcher or darrel on your list?
+05-26-2016:00-39-32	62198576-e7e2-405c-b486-81eb870631cb	User 0	Selected 6:	Fletcher Hass
+05-26-2016:00-39-36	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	nope, don't know them
+05-26-2016:00-39-38	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	sherika?
+05-26-2016:00-39-49	62198576-e7e2-405c-b486-81eb870631cb	User 0	Darrel Oden?
+05-26-2016:00-39-49	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: darrel oden]
+05-26-2016:00-39-49	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:00-39-49	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.23),  (sherika rust, 0.09),  (lashaunda carothers, 0.09),  (renita canney, 0.09),  (dannie leedy, 0.09),  (jesica seaton, 0.09),  (tyson rankins, 0.09),  (leena hensel, 0.09),  (kam wey, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:00-39-51	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	yes!
+05-26-2016:00-39-53	62198576-e7e2-405c-b486-81eb870631cb	DEFAULT_BOT	Selected:	Darrel Oden
+05-26-2016:00-39-54	62198576-e7e2-405c-b486-81eb870631cb	User 0	He's my buddy.
+05-26-2016:00-39-54	62198576-e7e2-405c-b486-81eb870631cb	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-54	62198576-e7e2-405c-b486-81eb870631cb	SYNONYMS	
+05-26-2016:00-39-54	62198576-e7e2-405c-b486-81eb870631cb	PROBABILITIES	(darrel oden, 0.11),  (sherika rust, 0.10),  (lashaunda carothers, 0.10),  (renita canney, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (dannie leedy, 0.10),  (leena hensel, 0.10),  (kam wey, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-39-56	62198576-e7e2-405c-b486-81eb870631cb	User 0	Selected 1:	Darrel Oden
+05-26-2016:00-39-57	---

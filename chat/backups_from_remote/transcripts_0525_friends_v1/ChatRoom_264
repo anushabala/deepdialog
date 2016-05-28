@@ -1,0 +1,11 @@
+05-26-2016:00-24-27	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	joined
+05-26-2016:00-24-27	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1 has user ID 91f4363623904c1396674484be52d0b1
+05-26-2016:00-24-56	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	Hi, I work for Apple. Have you met anyone from there?
+05-26-2016:00-24-56	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-56	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-24-56	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-25-05	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	hi i work at amazon and so do most of my friends except for niki bybee at apple
+05-26-2016:00-26-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 1	Hmm, I'm not familiar with Niki. I do ride Uber alot with my favorite driver Alberto.
+05-26-2016:00-26-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: niki, alberto],[<fullName>:]
+05-26-2016:00-26-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-26-01	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(niki bybee, 2.00),  (susanna pulley, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  

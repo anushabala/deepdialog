@@ -1,0 +1,23 @@
+05-26-2016:00-42-40	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	joined
+05-26-2016:00-42-40	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-42-46	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:00-42-48	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	hi, went to berkley for econ, work at apple
+05-26-2016:00-42-48	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-48	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	[<major>: econ],[<schoolName>: berkley]
+05-26-2016:00-42-48	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (tyson rankins, 0.00),  (carry pavlick, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-42-54	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	i went to stanford and majored in linguistics 
+05-26-2016:00-42-55	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	everyone i know is at apple
+05-26-2016:00-42-55	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-55	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-42-55	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 2.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (tyson rankins, 0.00),  (carry pavlick, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-42-59	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	all of my friends work at google
+05-26-2016:00-43-02	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	1 friend from stanford 
+05-26-2016:00-43-06	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	rest are from facebook
+05-26-2016:00-43-14	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	whos the one working at apple
+05-26-2016:00-43-14	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-14	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-43-14	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 3.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (tyson rankins, 0.00),  (carry pavlick, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-43-17	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	mose coletti
+05-26-2016:00-43-21	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 0	Selected 5:	Mose Coletti
+05-26-2016:00-43-22	754ca300-f8c2-45ab-830a-c0db3fb825dd	LSTM_UNFEATURIZED	Selected:	Mose Coletti
+05-26-2016:00-43-22	---

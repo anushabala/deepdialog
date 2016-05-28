@@ -1,0 +1,33 @@
+05-26-2016:00-37-38	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	joined
+05-26-2016:00-37-38	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1 has user ID 36cbf45d6d5740a1aaea3b334abd8b7c
+05-26-2016:00-37-40	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	hi there!
+05-26-2016:00-37-42	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	hey
+05-26-2016:00-37-42	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-42	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-37-42	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(susanna pulley, 0.10),  (kendrick friday, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (kristie bolduc, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-37-47	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	i went to columbia and majored in math
+05-26-2016:00-37-50	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	work at apple
+05-26-2016:00-37-55	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	what about you
+05-26-2016:00-38-05	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	only on worked at apple
+05-26-2016:00-38-05	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-05	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	[<firstName>: jon],[<fullName>: jon geissler]
+05-26-2016:00-38-05	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(susanna pulley, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (kristie bolduc, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  (kendrick friday, 0.09),  
+05-26-2016:00-38-08	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	susanna pulley?
+05-26-2016:00-38-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	and he studied at stanford
+05-26-2016:00-38-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-38-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(riva noles, 0.23),  (susanna pulley, 0.09),  (pearl dollard, 0.09),  (bernita kerrick, 0.09),  (oliver roker, 0.09),  (kristie bolduc, 0.09),  (aline allshouse, 0.09),  (thanh hartin, 0.09),  (lakesha platz, 0.09),  (kendrick friday, 0.08),  
+05-26-2016:00-38-21	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	do you know riva noles?
+05-26-2016:00-38-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	yes
+05-26-2016:00-38-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-38-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(riva noles, 0.11),  (susanna pulley, 0.10),  (bernita kerrick, 0.10),  (oliver roker, 0.10),  (kristie bolduc, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (lakesha platz, 0.10),  (kendrick friday, 0.10),  
+05-26-2016:00-38-31	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	bernita, oliver?
+05-26-2016:00-38-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	no, I know riva
+05-26-2016:00-38-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: riva],[<fullName>:]
+05-26-2016:00-38-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-38-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(riva noles, 0.23),  (susanna pulley, 0.09),  (pearl dollard, 0.09),  (bernita kerrick, 0.09),  (oliver roker, 0.09),  (kristie bolduc, 0.09),  (aline allshouse, 0.09),  (thanh hartin, 0.09),  (lakesha platz, 0.09),  (kendrick friday, 0.09),  
+05-26-2016:00-38-43	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	yes
+05-26-2016:00-38-45	7c29fa38-a546-4e29-91a7-b6e10cb2416d	DEFAULT_BOT	Selected:	Riva Noles
+05-26-2016:00-38-45	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	Selected 0:	Riva Noles
+05-26-2016:00-38-46	---

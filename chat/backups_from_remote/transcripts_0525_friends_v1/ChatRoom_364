@@ -1,0 +1,31 @@
+05-26-2016:00-29-39	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1	joined
+05-26-2016:00-29-39	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1 has user ID d673741132a94163b45a8321621af686
+05-26-2016:00-29-41	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	hey!
+05-26-2016:00-29-45	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	i'm columbia, math, google
+05-26-2016:00-29-52	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-29-59	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1	HI, how are you
+05-26-2016:00-29-59	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-59	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-29-59	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(tyson rankins, 0.10),  (sherika rust, 0.10),  (quinn courter, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (jacques castillon, 0.10),  (lorriane hurlbert, 0.10),  (josh gouin, 0.10),  (asa cadena, 0.10),  (meda lahr, 0.10),  
+05-26-2016:00-30-02	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	tyson rankins?
+05-26-2016:00-30-08	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1	I'm from Pittsburgh math
+05-26-2016:00-30-08	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-08	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-30-08	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(quinn courter, 0.18),  (lauran dyson, 0.18),  (lorriane hurlbert, 0.18),  (jacques castillon, 0.07),  (sherika rust, 0.07),  (jesica seaton, 0.07),  (tyson rankins, 0.07),  (josh gouin, 0.07),  (asa cadena, 0.07),  (meda lahr, 0.07),  
+05-26-2016:00-30-14	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	do you know quinn courter or lauran dyson?
+05-26-2016:00-30-25	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1	I know lauran!
+05-26-2016:00-30-25	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lauran],[<fullName>:]
+05-26-2016:00-30-25	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-30-25	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(lauran dyson, 0.25),  (quinn courter, 0.09),  (lorriane hurlbert, 0.09),  (tyson rankins, 0.08),  (sherika rust, 0.08),  (jesica seaton, 0.08),  (jacques castillon, 0.08),  (josh gouin, 0.08),  (asa cadena, 0.08),  (meda lahr, 0.08),  
+05-26-2016:00-30-28	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	yep!
+05-26-2016:00-30-28	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1	Do you?
+05-26-2016:00-30-28	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-28	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-30-28	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(lauran dyson, 0.12),  (quinn courter, 0.10),  (lorriane hurlbert, 0.10),  (jacques castillon, 0.10),  (sherika rust, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (josh gouin, 0.10),  (asa cadena, 0.10),  (meda lahr, 0.10),  
+05-26-2016:00-30-31	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	Selected:	Lauran Dyson
+05-26-2016:00-30-38	ca482769-2f48-4f15-b626-f73b51ed1b61	User 1	cool
+05-26-2016:00-30-38	ca482769-2f48-4f15-b626-f73b51ed1b61	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-38	ca482769-2f48-4f15-b626-f73b51ed1b61	SYNONYMS	
+05-26-2016:00-30-38	ca482769-2f48-4f15-b626-f73b51ed1b61	PROBABILITIES	(lauran dyson, 0.10),  (quinn courter, 0.10),  (lorriane hurlbert, 0.10),  (tyson rankins, 0.10),  (sherika rust, 0.10),  (jesica seaton, 0.10),  (jacques castillon, 0.10),  (josh gouin, 0.10),  (asa cadena, 0.10),  (meda lahr, 0.10),  
+05-26-2016:00-30-45	ca482769-2f48-4f15-b626-f73b51ed1b61	DEFAULT_BOT	do you know lorriane hurlbert or sherika rust?
+05-26-2016:00-30-53	---

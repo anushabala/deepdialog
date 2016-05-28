@@ -1,0 +1,16 @@
+05-26-2016:00-23-04	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	joined
+05-26-2016:00-23-04	f3b7f27a-d114-4f32-8528-137860182e5e	User 1 has user ID 500277faa5eb4c05bf3374af1ef38a67
+05-26-2016:00-23-05	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	hey!
+05-26-2016:00-23-12	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	i went to university of pennsylvania and majored in math
+05-26-2016:00-23-15	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	work at google
+05-26-2016:00-23-19	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	Hi! I went to UC for CS and work at uber. 
+05-26-2016:00-23-19	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-19	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	[<major>: computer science]
+05-26-2016:00-23-19	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(sherika rust, 0.14),  (leena hensel, 0.14),  (meda lahr, 0.14),  (lashaunda carothers, 0.08),  (tobi brunette, 0.08),  (francine bateman, 0.08),  (tess lister, 0.08),  (kam wey, 0.08),  (denny harshberger, 0.08),  (aline allshouse, 0.08),  
+05-26-2016:00-23-22	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	Do you know Leena?
+05-26-2016:00-23-22	f3b7f27a-d114-4f32-8528-137860182e5e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: leena],[<fullName>:]
+05-26-2016:00-23-22	f3b7f27a-d114-4f32-8528-137860182e5e	SYNONYMS	
+05-26-2016:00-23-22	f3b7f27a-d114-4f32-8528-137860182e5e	PROBABILITIES	(leena hensel, 0.24),  (sherika rust, 0.09),  (meda lahr, 0.09),  (lashaunda carothers, 0.08),  (tobi brunette, 0.08),  (francine bateman, 0.08),  (tess lister, 0.08),  (kam wey, 0.08),  (denny harshberger, 0.08),  (aline allshouse, 0.08),  
+05-26-2016:00-23-25	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	major school company?
+05-26-2016:00-23-27	f3b7f27a-d114-4f32-8528-137860182e5e	DEFAULT_BOT	Selected:	Leena Hensel
+05-26-2016:00-23-30	f3b7f27a-d114-4f32-8528-137860182e5e	User 1	Selected 2:	Leena Hensel

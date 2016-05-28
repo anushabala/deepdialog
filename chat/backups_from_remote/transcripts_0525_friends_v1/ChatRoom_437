@@ -1,0 +1,22 @@
+05-26-2016:00-32-24	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 1	joined
+05-26-2016:00-32-24	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 1 has user ID 4694c142c287424baf730ba851a23848
+05-26-2016:00-32-42	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 1	Hello, all but one friend is at Uber. 
+05-26-2016:00-32-42	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-42	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	SYNONYMS	
+05-26-2016:00-32-42	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	PROBABILITIES	(kendrick friday, 1.00),  (roxie banuelos, 0.00),  (lashaunda carothers, 0.00),  (meda lahr, 0.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (tyson rankins, 0.00),  (lai pettaway, 0.00),  (fletcher hersman, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-32-45	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	LSTM_UNFEATURIZED	i have a friend at google 
+05-26-2016:00-32-47	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 1	The other is at Google. 
+05-26-2016:00-32-47	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-47	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	SYNONYMS	
+05-26-2016:00-32-47	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	PROBABILITIES	(roxie banuelos, 1.00),  (lashaunda carothers, 1.00),  (meda lahr, 1.00),  (brigid imai, 1.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (lai pettaway, 1.00),  (kendrick friday, 1.00),  (fletcher hersman, 1.00),  (zackary rains, 1.00),  
+05-26-2016:00-32-49	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	LSTM_UNFEATURIZED	kendrick friday 
+05-26-2016:00-32-53	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	LSTM_UNFEATURIZED	the rest are at uber
+05-26-2016:00-32-57	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	LSTM_UNFEATURIZED	i dont have any google choices
+05-26-2016:00-33-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 1	Do you know Roxie?
+05-26-2016:00-33-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: roxie],[<fullName>:]
+05-26-2016:00-33-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	SYNONYMS	
+05-26-2016:00-33-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	PROBABILITIES	(roxie banuelos, 2.00),  (lashaunda carothers, 1.00),  (meda lahr, 1.00),  (brigid imai, 1.00),  (samuel tatum, 1.00),  (tyson rankins, 1.00),  (lai pettaway, 1.00),  (kendrick friday, 1.00),  (fletcher hersman, 1.00),  (zackary rains, 1.00),  
+05-26-2016:00-33-23	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	LSTM_UNFEATURIZED	roxie banuelos
+05-26-2016:00-33-28	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 1	Selected 7:	Roxie Banuelos
+05-26-2016:00-33-29	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	LSTM_UNFEATURIZED	Selected:	Roxie Banuelos
+05-26-2016:00-33-29	---

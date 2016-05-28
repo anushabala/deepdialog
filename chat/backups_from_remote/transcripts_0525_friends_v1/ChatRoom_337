@@ -1,0 +1,15 @@
+05-26-2016:00-28-35	9979731b-9a56-42f5-812a-f8a35685d874	User 1	joined
+05-26-2016:00-28-35	9979731b-9a56-42f5-812a-f8a35685d874	User 1 has user ID dfe9e4159a094ff8b26a54b8d7e199c5
+05-26-2016:00-28-40	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_FEATURIZED	all my friend work at amazon and 1 works at google
+05-26-2016:00-29-04	9979731b-9a56-42f5-812a-f8a35685d874	User 1	No amazon here
+05-26-2016:00-29-04	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-04	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-29-04	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(celsa navarrete, 1.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (branden sjoberg, 1.00),  (colin higby, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  (lashawn sharman, 0.00),  
+05-26-2016:00-29-09	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_FEATURIZED	hi i work at amazon and have all friends at amazon 
+05-26-2016:00-29-14	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_FEATURIZED	do you know anyone at google or google
+05-26-2016:00-29-31	9979731b-9a56-42f5-812a-f8a35685d874	User 1	Brigid, Lashawn
+05-26-2016:00-29-31	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: brigid, lashawn],[<fullName>:]
+05-26-2016:00-29-31	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-29-31	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(celsa navarrete, 1.00),  (harris schramm, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (branden sjoberg, 1.00),  (lashawn sharman, 1.00),  (colin higby, 1.00),  (emmitt nations, 1.00),  (candis kita, 1.00),  (carley schade, 1.00),  
+05-26-2016:00-29-32	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_FEATURIZED	Selected:	Lashawn Sharman
+05-26-2016:00-29-38	9979731b-9a56-42f5-812a-f8a35685d874	User 1	Selected 2:	Lashawn Sharman

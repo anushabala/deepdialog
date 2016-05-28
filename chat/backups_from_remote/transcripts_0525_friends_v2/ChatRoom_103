@@ -1,0 +1,21 @@
+05-26-2016:01-55-23	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	joined
+05-26-2016:01-55-23	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0 has user ID 626844e90fde4f2ca789b70acf5a432d
+05-26-2016:01-55-29	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:01-55-57	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Hi
+05-26-2016:01-55-57	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-57	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:01-55-57	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(lashaunda carothers, 0.00),  (sherika rust, 0.00),  (francine bateman, 0.00),  (tangela raschke, 0.00),  (tess lister, 0.00),  (aline allshouse, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (ngan hornung, 0.00),  (meda lahr, 0.00),  
+05-26-2016:01-56-00	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	hi
+05-26-2016:01-56-34	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Your friend at Google, do you know what he's majored in?
+05-26-2016:01-56-34	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-34	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:01-56-34	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (tangela raschke, 1.00),  (tess lister, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (ngan hornung, 1.00),  (meda lahr, 1.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-56-36	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	no friend
+05-26-2016:01-57-06	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Anthing about his school?
+05-26-2016:01-57-06	26b33835-8f18-48de-8ddf-08da22b7efa7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-57-06	26b33835-8f18-48de-8ddf-08da22b7efa7	SYNONYMS	
+05-26-2016:01-57-06	26b33835-8f18-48de-8ddf-08da22b7efa7	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (tangela raschke, 1.00),  (tess lister, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (ngan hornung, 1.00),  (meda lahr, 1.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-57-31	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	all my friends work at google
+05-26-2016:01-57-37	26b33835-8f18-48de-8ddf-08da22b7efa7	User 0	Selected 3:	Ngan Hornung
+05-26-2016:01-57-40	26b33835-8f18-48de-8ddf-08da22b7efa7	LSTM_FEATURIZED	Selected:	Ngan Hornung
+05-26-2016:01-57-40	---

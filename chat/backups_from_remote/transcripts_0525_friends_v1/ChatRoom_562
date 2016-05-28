@@ -1,0 +1,16 @@
+05-26-2016:00-39-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 1	joined
+05-26-2016:00-39-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 1 has user ID 5c76b9749b014ae99f181121477cdb71
+05-26-2016:00-39-05	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	hey!
+05-26-2016:00-39-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 1	HI.
+05-26-2016:00-39-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:00-39-10	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(oliver roker, 0.10),  (tamara killeen, 0.10),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (samuel tatum, 0.10),  (josh gouin, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-39-14	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	i'm columbia, economics, google
+05-26-2016:00-39-18	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	school major company?
+05-26-2016:00-39-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 1	All my Friends work at Apple with me, except the one girl at Uber
+05-26-2016:00-39-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	[<firstName>: my],[<fullName>: my winters]
+05-26-2016:00-39-32	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(oliver roker, 0.11),  (tamara killeen, 0.11),  (jesica seaton, 0.10),  (tyson rankins, 0.10),  (samuel tatum, 0.10),  (josh gouin, 0.10),  (zackary rains, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-39-35	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	hmm, do you know oliver?
+05-26-2016:00-39-48	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 1	Selected 3:	Oliver Roker
+05-26-2016:00-39-49	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	DEFAULT_BOT	Selected:	Oliver Roker

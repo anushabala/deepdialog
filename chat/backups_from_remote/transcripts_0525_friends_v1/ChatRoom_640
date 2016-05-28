@@ -1,0 +1,20 @@
+05-26-2016:00-42-44	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	joined
+05-26-2016:00-42-44	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1 has user ID ed32a596e7f54cd89f9c439941c0d1de
+05-26-2016:00-42-47	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	hi
+05-26-2016:00-42-47	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-47	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-42-47	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(susanna pulley, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (kristie bolduc, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (kendrick friday, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-42-53	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-42-54	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	hi
+05-26-2016:00-43-08	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	I went to stanford and majored in Comp Sci. I work at facebook now
+05-26-2016:00-43-08	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-08	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	[<major>: comp, sci]
+05-26-2016:00-43-08	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (susanna pulley, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (kristie bolduc, 0.00),  (aline allshouse, 0.00),  (kendrick friday, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-43-11	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	do you know riva noles
+05-26-2016:00-43-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	yes
+05-26-2016:00-43-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-43-17	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (susanna pulley, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (kristie bolduc, 0.00),  (aline allshouse, 0.00),  (kendrick friday, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-43-19	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	Selected:	Riva Noles
+05-26-2016:00-43-20	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	Selected 0:	Riva Noles
+05-26-2016:00-43-20	---

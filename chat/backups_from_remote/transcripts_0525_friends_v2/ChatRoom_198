@@ -1,0 +1,30 @@
+05-26-2016:02-02-25	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	joined
+05-26-2016:02-02-25	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1 has user ID 320346516b5b4dd7992b3aa4eb3432f2
+05-26-2016:02-02-28	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	hi there!
+05-26-2016:02-02-32	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	i'm stanford, linguistics, apple
+05-26-2016:02-02-36	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	major school company?
+05-26-2016:02-02-44	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	any apple people?
+05-26-2016:02-02-44	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-44	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-02-44	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(kristie bolduc, 0.11),  (mose coletti, 0.11),  (lucia pizarro, 0.11),  (tobi brunette, 0.11),  (laverna bjornson, 0.11),  (thanh hartin, 0.11),  (elene prouty, 0.11),  (lakesha platz, 0.11),  (laurette thrailkill, 0.04),  (carry pavlick, 0.04),  
+05-26-2016:02-02-46	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	amazon
+05-26-2016:02-02-46	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-46	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-02-46	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(kristie bolduc, 0.10),  (mose coletti, 0.10),  (lucia pizarro, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (thanh hartin, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  (laurette thrailkill, 0.09),  (carry pavlick, 0.09),  
+05-26-2016:02-02-47	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	math
+05-26-2016:02-02-47	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-47	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-02-47	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(lucia pizarro, 0.16),  (tobi brunette, 0.16),  (elene prouty, 0.16),  (lakesha platz, 0.16),  (kristie bolduc, 0.06),  (mose coletti, 0.06),  (laverna bjornson, 0.06),  (thanh hartin, 0.06),  (laurette thrailkill, 0.06),  (carry pavlick, 0.06),  
+05-26-2016:02-02-50	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	kristie?
+05-26-2016:02-02-55	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	are lucia or tobi on your list?
+05-26-2016:02-02-55	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	no
+05-26-2016:02-02-55	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-02-55	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-02-55	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(lucia pizarro, 0.11),  (tobi brunette, 0.11),  (elene prouty, 0.11),  (lakesha platz, 0.11),  (kristie bolduc, 0.10),  (mose coletti, 0.10),  (laverna bjornson, 0.10),  (thanh hartin, 0.10),  (laurette thrailkill, 0.10),  (carry pavlick, 0.10),  
+05-26-2016:02-02-58	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	tobi
+05-26-2016:02-02-58	1e0be0ca-9430-4f3b-8263-9da64571d692	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: tobi],[<fullName>:]
+05-26-2016:02-02-58	1e0be0ca-9430-4f3b-8263-9da64571d692	SYNONYMS	
+05-26-2016:02-02-58	1e0be0ca-9430-4f3b-8263-9da64571d692	PROBABILITIES	(tobi brunette, 0.23),  (lucia pizarro, 0.09),  (elene prouty, 0.09),  (lakesha platz, 0.09),  (kristie bolduc, 0.08),  (mose coletti, 0.08),  (laverna bjornson, 0.08),  (thanh hartin, 0.08),  (laurette thrailkill, 0.08),  (carry pavlick, 0.08),  
+05-26-2016:02-03-02	1e0be0ca-9430-4f3b-8263-9da64571d692	User 1	Selected 6:	Tobi Brunette
+05-26-2016:02-03-05	1e0be0ca-9430-4f3b-8263-9da64571d692	DEFAULT_BOT	Selected:	Tobi Brunette
+05-26-2016:02-03-05	---

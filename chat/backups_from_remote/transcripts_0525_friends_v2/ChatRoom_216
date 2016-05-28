@@ -1,0 +1,115 @@
+05-26-2016:02-04-25	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	joined
+05-26-2016:02-04-25	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:02-04-26	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	joined
+05-26-2016:02-04-26	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0 has user ID f7fd14aaa74e4c73af45b6df4fed4568
+05-26-2016:02-04-34	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	Hi, I go to Sanford, majored in Eco, and work for Google
+05-26-2016:02-04-34	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Hi?
+05-26-2016:02-04-34	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-34	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-04-34	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (jody tropea, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-04-35	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	np friend
+05-26-2016:02-04-40	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	All my firends are facebook
+05-26-2016:02-04-40	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-40	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-04-40	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (jody tropea, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-04-43	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	it has to be ayesha aarons
+05-26-2016:02-04-45	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	All my friends work for Google except 1 who works for Facebook
+05-26-2016:02-04-51	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Bekeley Math
+05-26-2016:02-04-51	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-04-51	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	[<schoolName>: bekeley]
+05-26-2016:02-04-51	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-04-53	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	alberto thurlow 
+05-26-2016:02-04-57	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	anyone at apple
+05-26-2016:02-05-00	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Only Facebook
+05-26-2016:02-05-00	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-00	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-05-00	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-05-04	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Laurette or Elza?
+05-26-2016:02-05-04	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: laurette, elza],[<fullName>:]
+05-26-2016:02-05-04	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-05-04	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-05-07	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	all of them except 1
+05-26-2016:02-05-10	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	nope
+05-26-2016:02-05-14	---
+05-26-2016:02-05-19	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Valeri or Darrel?
+05-26-2016:02-05-19	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: valeri, darrel],[<fullName>:]
+05-26-2016:02-05-19	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-05-19	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-05-20	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0	joined
+05-26-2016:02-05-20	adaeb127-9965-474b-ae6e-45f45dd5a717	User 0 has user ID f7fd14aaa74e4c73af45b6df4fed4568
+05-26-2016:02-05-21	---
+05-26-2016:02-05-21	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	ayesha aarons
+05-26-2016:02-05-29	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Dont know her
+05-26-2016:02-05-29	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-29	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-05-29	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-05-31	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	yes
+05-26-2016:02-05-47	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Who do you know from Facebook?
+05-26-2016:02-05-47	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-47	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-05-47	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-05-48	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	no
+05-26-2016:02-06-12	---
+05-26-2016:02-06-12	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	joined
+05-26-2016:02-06-12	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1 has user ID 17a3b1af275742f9890c1d9eb66923c4
+05-26-2016:02-06-19	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Hello?
+05-26-2016:02-06-19	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-19	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-19	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-21	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	alberto thurlow
+05-26-2016:02-06-31	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Laurette
+05-26-2016:02-06-31	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: laurette],[<fullName>:]
+05-26-2016:02-06-31	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-31	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-33	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Brittney
+05-26-2016:02-06-33	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: brittney],[<fullName>:]
+05-26-2016:02-06-33	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-33	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-35	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	ayesha aarons
+05-26-2016:02-06-35	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Elza
+05-26-2016:02-06-35	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: elza],[<fullName>:]
+05-26-2016:02-06-35	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-35	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-36	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	no
+05-26-2016:02-06-37	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	no 
+05-26-2016:02-06-39	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Justa
+05-26-2016:02-06-39	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: justa],[<fullName>:]
+05-26-2016:02-06-39	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-39	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-41	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Maritza
+05-26-2016:02-06-41	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: maritza],[<fullName>:]
+05-26-2016:02-06-41	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-41	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-42	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Birgit
+05-26-2016:02-06-42	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: birgit],[<fullName>:]
+05-26-2016:02-06-42	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-42	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-44	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	i have one at apple 
+05-26-2016:02-06-47	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	jody tropea
+05-26-2016:02-06-49	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	alberto thurlow
+05-26-2016:02-06-49	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Lawanna
+05-26-2016:02-06-49	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lawanna],[<fullName>:]
+05-26-2016:02-06-49	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-49	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-50	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	no
+05-26-2016:02-06-51	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	no
+05-26-2016:02-06-53	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	no
+05-26-2016:02-06-53	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Clorinda
+05-26-2016:02-06-53	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: clorinda],[<fullName>:]
+05-26-2016:02-06-53	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-53	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-54	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Darrel
+05-26-2016:02-06-54	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: darrel],[<fullName>:]
+05-26-2016:02-06-54	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-54	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-55	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	Valeri
+05-26-2016:02-06-55	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: valeri],[<fullName>:]
+05-26-2016:02-06-55	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-06-55	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-06-57	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	ayesha aarons
+05-26-2016:02-07-00	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	alberto thurlow
+05-26-2016:02-07-01	adaeb127-9965-474b-ae6e-45f45dd5a717	User 1	That's all my friends at Facebook
+05-26-2016:02-07-01	adaeb127-9965-474b-ae6e-45f45dd5a717	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-01	adaeb127-9965-474b-ae6e-45f45dd5a717	SYNONYMS	
+05-26-2016:02-07-01	adaeb127-9965-474b-ae6e-45f45dd5a717	PROBABILITIES	(ayesha aarons, 2.00),  (alberto thurlow, 1.00),  (jody tropea, 1.00),  (sade kenner, 0.00),  (keesha ahart, 0.00),  (santina kenley, 0.00),  (kathaleen brough, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:02-07-06	adaeb127-9965-474b-ae6e-45f45dd5a717	LSTM_FEATURIZED	jody tropea and sade kenner from columbia

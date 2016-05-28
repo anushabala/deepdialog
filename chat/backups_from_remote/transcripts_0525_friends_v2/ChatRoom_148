@@ -1,0 +1,58 @@
+05-26-2016:01-58-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	joined
+05-26-2016:01-58-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1 has user ID 40bd30211b2d487e9643711a379ad7cf
+05-26-2016:01-58-36	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at uber
+05-26-2016:01-58-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	please be a good person
+05-26-2016:01-58-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-58-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.00),  (gennie dagley, 0.00),  (toney ghee, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:01-58-39	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	you 
+05-26-2016:01-58-41	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	oliver roker
+05-26-2016:01-58-47	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	amazon, apple, and google, facebook
+05-26-2016:01-58-47	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, apple, google, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-58-47	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-58-47	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 1.00),  (gennie dagley, 1.00),  (toney ghee, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (lakesha platz, 1.00),  (santina kenley, 0.00),  
+05-26-2016:01-58-50	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	no one in apple
+05-26-2016:01-59-06	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Most of them go to berkeley, 1 goes to upenn, and one at columbia
+05-26-2016:01-59-06	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-06	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	[<schoolName>: berkeley],[<firstName>: most],[<fullName>: most]
+05-26-2016:01-59-06	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 2.00),  (elene prouty, 2.00),  (gennie dagley, 1.00),  (toney ghee, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (lakesha platz, 1.00),  (santina kenley, 0.00),  
+05-26-2016:01-59-07	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	ok
+05-26-2016:01-59-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	I have a friend that goes to upenn, economics, and works at amazon
+05-26-2016:01-59-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>: economics],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-59-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 3.00),  (toney ghee, 2.00),  (elene prouty, 2.00),  (gennie dagley, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (lakesha platz, 1.00),  (santina kenley, 0.00),  
+05-26-2016:01-59-45	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	do you know toney ghee or elene prouty
+05-26-2016:01-59-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	my 2nd friend goes to berkely, major in economics, and works at apple
+05-26-2016:01-59-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>: economics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-59-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	[<schoolName>: berkely]
+05-26-2016:01-59-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 5.00),  (toney ghee, 4.00),  (elene prouty, 3.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (lakesha platz, 2.00),  (santina kenley, 0.00),  
+05-26-2016:02-00-05	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	yes she is my apple friend by the another person then that is it way 
+05-26-2016:02-00-09	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	what was my info from top
+05-26-2016:02-00-16	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Selected 1:	Susanna Pulley
+05-26-2016:02-00-18	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	Selected:	Oliver Roker
+05-26-2016:02-00-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	we're suppose to find matching friend with the same school, major and company
+05-26-2016:02-00-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	[<firstName>: same],[<fullName>: same]
+05-26-2016:02-00-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 5.00),  (toney ghee, 4.00),  (elene prouty, 3.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (lakesha platz, 2.00),  (santina kenley, 0.00),  
+05-26-2016:02-00-33	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	university of pennsylvania
+05-26-2016:02-00-39	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Selected 0:	Emmitt Nations
+05-26-2016:02-00-41	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	pass
+05-26-2016:02-00-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	are you a robot or stupid?
+05-26-2016:02-00-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-00-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 5.00),  (toney ghee, 4.00),  (elene prouty, 3.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (lakesha platz, 2.00),  (santina kenley, 0.00),  
+05-26-2016:02-00-54	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	Selected:	Toney Ghee
+05-26-2016:02-01-15	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Selected 2:	Maryln Hagaman
+05-26-2016:02-01-17	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_UNFEATURIZED	pass
+05-26-2016:02-01-24	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	pass
+05-26-2016:02-01-24	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-24	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-01-24	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 5.00),  (toney ghee, 4.00),  (elene prouty, 3.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (lakesha platz, 2.00),  (santina kenley, 0.00),  
+05-26-2016:02-01-25	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	pass
+05-26-2016:02-01-25	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-25	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-01-25	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 5.00),  (toney ghee, 4.00),  (elene prouty, 3.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (lakesha platz, 2.00),  (santina kenley, 0.00),  
+05-26-2016:02-01-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	pass
+05-26-2016:02-01-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-01-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 5.00),  (toney ghee, 4.00),  (elene prouty, 3.00),  (gennie dagley, 2.00),  (francine bateman, 2.00),  (aline allshouse, 2.00),  (thanh hartin, 2.00),  (riva noles, 2.00),  (lakesha platz, 2.00),  (santina kenley, 0.00),  

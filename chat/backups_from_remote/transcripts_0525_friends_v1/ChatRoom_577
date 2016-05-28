@@ -1,0 +1,26 @@
+05-26-2016:00-39-41	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	joined
+05-26-2016:00-39-41	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-39-42	868ed725-1ec0-42c4-a075-6a9158bf96a0	DEFAULT_BOT	hey
+05-26-2016:00-39-44	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	hi
+05-26-2016:00-39-44	868ed725-1ec0-42c4-a075-6a9158bf96a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-44	868ed725-1ec0-42c4-a075-6a9158bf96a0	SYNONYMS	
+05-26-2016:00-39-44	868ed725-1ec0-42c4-a075-6a9158bf96a0	PROBABILITIES	(kristie bolduc, 0.10),  (giovanni wilbur, 0.10),  (jon geissler, 0.10),  (oliver roker, 0.10),  (tamara killeen, 0.10),  (tobi brunette, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-39-49	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	went to stanford for physics, work at google
+05-26-2016:00-39-49	868ed725-1ec0-42c4-a075-6a9158bf96a0	TAGS	[<major>: physics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-49	868ed725-1ec0-42c4-a075-6a9158bf96a0	SYNONYMS	
+05-26-2016:00-39-49	868ed725-1ec0-42c4-a075-6a9158bf96a0	PROBABILITIES	(giovanni wilbur, 0.34),  (kristie bolduc, 0.13),  (pearl dollard, 0.13),  (riva noles, 0.13),  (jon geissler, 0.05),  (oliver roker, 0.05),  (tamara killeen, 0.05),  (tobi brunette, 0.05),  (elene prouty, 0.05),  (lakesha platz, 0.05),  
+05-26-2016:00-39-57	868ed725-1ec0-42c4-a075-6a9158bf96a0	DEFAULT_BOT	i went to university of pennsylvania, majored in math, work at apple
+05-26-2016:00-40-00	868ed725-1ec0-42c4-a075-6a9158bf96a0	DEFAULT_BOT	what about you?
+05-26-2016:00-40-01	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	everyone is at google, 2 are at apple
+05-26-2016:00-40-01	868ed725-1ec0-42c4-a075-6a9158bf96a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-01	868ed725-1ec0-42c4-a075-6a9158bf96a0	SYNONYMS	
+05-26-2016:00-40-01	868ed725-1ec0-42c4-a075-6a9158bf96a0	PROBABILITIES	(giovanni wilbur, 0.14),  (kristie bolduc, 0.11),  (pearl dollard, 0.11),  (riva noles, 0.11),  (oliver roker, 0.10),  (tamara killeen, 0.10),  (tobi brunette, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  (jon geissler, 0.04),  
+05-26-2016:00-40-09	868ed725-1ec0-42c4-a075-6a9158bf96a0	DEFAULT_BOT	do you know giovanni wilbur kristie bolduc or pearl dollard?
+05-26-2016:00-40-17	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	giovanni, yes
+05-26-2016:00-40-17	868ed725-1ec0-42c4-a075-6a9158bf96a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: giovanni],[<fullName>:]
+05-26-2016:00-40-17	868ed725-1ec0-42c4-a075-6a9158bf96a0	SYNONYMS	
+05-26-2016:00-40-17	868ed725-1ec0-42c4-a075-6a9158bf96a0	PROBABILITIES	(giovanni wilbur, 0.24),  (kristie bolduc, 0.09),  (pearl dollard, 0.09),  (riva noles, 0.09),  (oliver roker, 0.08),  (tamara killeen, 0.08),  (tobi brunette, 0.08),  (elene prouty, 0.08),  (lakesha platz, 0.08),  (jon geissler, 0.08),  
+05-26-2016:00-40-18	868ed725-1ec0-42c4-a075-6a9158bf96a0	DEFAULT_BOT	yeah
+05-26-2016:00-40-19	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	Selected 3:	Giovanni Wilbur
+05-26-2016:00-40-21	868ed725-1ec0-42c4-a075-6a9158bf96a0	DEFAULT_BOT	Selected:	Giovanni Wilbur
+05-26-2016:00-40-22	---

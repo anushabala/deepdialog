@@ -1,0 +1,46 @@
+05-26-2016:01-52-39	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	joined
+05-26-2016:01-52-39	9108ae01-942f-42cd-987c-f574a2703fb7	User 1 has user ID 6220b1a2181b4a98a05530c345901b7c
+05-26-2016:01-52-46	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	all my friend work at google and 1 works at facebook
+05-26-2016:01-52-53	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	anyone from google or apple
+05-26-2016:01-52-53	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-53	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:01-52-53	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(jacques castillon, 1.00),  (mai buskirk, 1.00),  (cori runion, 1.00),  (lashawn sharman, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-52-55	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	no
+05-26-2016:01-53-07	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	lashawn sharman
+05-26-2016:01-53-07	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: lashawn sharman]
+05-26-2016:01-53-07	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:01-53-07	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 2.00),  (jacques castillon, 1.00),  (mai buskirk, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-53-12	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	how about anyone that works at google 
+05-26-2016:01-53-18	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	you dont know anyone at google or google
+05-26-2016:01-53-24	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	see lashawn
+05-26-2016:01-53-24	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashawn],[<fullName>:]
+05-26-2016:01-53-24	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:01-53-24	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 3.00),  (jacques castillon, 1.00),  (mai buskirk, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-53-28	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	tell me facebook so on does that
+05-26-2016:01-53-53	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	agueda
+05-26-2016:01-53-53	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: agueda],[<fullName>:]
+05-26-2016:01-53-53	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:01-53-53	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 3.00),  (jacques castillon, 1.00),  (mai buskirk, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-53-56	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	what is your school
+05-26-2016:01-54-05	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	man don't go that far
+05-26-2016:01-54-05	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-05	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	[<firstName>: man],[<fullName>: man]
+05-26-2016:01-54-05	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 3.00),  (mai buskirk, 2.00),  (jacques castillon, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-54-10	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	what is your google what 
+05-26-2016:01-54-10	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	just stay on company
+05-26-2016:01-54-10	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-10	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	[<firstName>: on, just],[<fullName>: on, just]
+05-26-2016:01-54-10	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 3.00),  (mai buskirk, 2.00),  (jacques castillon, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-54-13	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	what about you study
+05-26-2016:01-54-15	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	see lashawn
+05-26-2016:01-54-15	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashawn],[<fullName>:]
+05-26-2016:01-54-15	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:01-54-15	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 4.00),  (mai buskirk, 2.00),  (jacques castillon, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-54-18	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	oh okay
+05-26-2016:01-54-20	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	Selected:	Lashawn Sharman
+05-26-2016:01-54-20	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	agueda
+05-26-2016:01-54-20	9108ae01-942f-42cd-987c-f574a2703fb7	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: agueda],[<fullName>:]
+05-26-2016:01-54-20	9108ae01-942f-42cd-987c-f574a2703fb7	SYNONYMS	
+05-26-2016:01-54-20	9108ae01-942f-42cd-987c-f574a2703fb7	PROBABILITIES	(lashawn sharman, 4.00),  (mai buskirk, 2.00),  (jacques castillon, 1.00),  (cori runion, 1.00),  (lauran dyson, 1.00),  (tangela raschke, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  (maritza horrell, 0.00),  
+05-26-2016:01-54-22	9108ae01-942f-42cd-987c-f574a2703fb7	LSTM_UNFEATURIZED	sorry
+05-26-2016:01-54-24	9108ae01-942f-42cd-987c-f574a2703fb7	User 1	Selected 0:	Lashawn Sharman

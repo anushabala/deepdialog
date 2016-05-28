@@ -1,0 +1,16 @@
+05-26-2016:00-43-01	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 1	joined
+05-26-2016:00-43-01	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 1 has user ID 703c5a50450344d88bdfa419585590af
+05-26-2016:00-43-22	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 1	hi, i studied linguistics at berkley and now i work for google
+05-26-2016:00-43-22	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-22	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	[<schoolName>: berkley]
+05-26-2016:00-43-22	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(vickey redinger, 1.00),  (lillia mikel, 1.00),  (liana sams, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (jon geissler, 0.00),  (jody tropea, 0.00),  (santina kenley, 0.00),  (valeri kress, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-43-28	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_UNFEATURIZED	i work at uber and have two friends at facebook 
+05-26-2016:00-43-31	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_UNFEATURIZED	and one at uber
+05-26-2016:00-43-45	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 1	do you know lillia?
+05-26-2016:00-43-45	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lillia],[<fullName>:]
+05-26-2016:00-43-45	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-43-45	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(lillia mikel, 2.00),  (vickey redinger, 1.00),  (liana sams, 1.00),  (alberto thurlow, 0.00),  (sade kenner, 0.00),  (jon geissler, 0.00),  (jody tropea, 0.00),  (santina kenley, 0.00),  (valeri kress, 0.00),  (willie wicks, 0.00),  
+05-26-2016:00-43-50	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_UNFEATURIZED	lillia mikel and vickey redinger from uber
+05-26-2016:00-43-52	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 1	Selected 8:	Lillia Mikel
+05-26-2016:00-43-54	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_UNFEATURIZED	Selected:	Lillia Mikel
+05-26-2016:00-43-55	---

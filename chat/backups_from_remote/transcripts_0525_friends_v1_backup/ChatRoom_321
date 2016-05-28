@@ -1,0 +1,48 @@
+05-26-2016:00-28-22	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	joined
+05-26-2016:00-28-22	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1 has user ID 98e391beb9b2443ead4a158ed53df5c8
+05-26-2016:00-28-28	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	all my friend work at google and 1 works at apple
+05-26-2016:00-28-40	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Which major is your apple friend?
+05-26-2016:00-28-40	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-40	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-28-40	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(tamara killeen, 1.00),  (oliver roker, 1.00),  (delores capell, 0.00),  (samuel tatum, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-28-42	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	tamara killeen
+05-26-2016:00-28-49	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Major.
+05-26-2016:00-28-49	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-49	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-28-49	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(tamara killeen, 1.00),  (oliver roker, 1.00),  (delores capell, 0.00),  (samuel tatum, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-28-51	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	economics
+05-26-2016:00-29-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	I have a google friend, nvm
+05-26-2016:00-29-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-29-08	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 1.00),  (samuel tatum, 1.00),  (tamara killeen, 1.00),  (jesica seaton, 1.00),  (tyson rankins, 1.00),  (oliver roker, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  
+05-26-2016:00-29-12	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	i dont know anyone from google 
+05-26-2016:00-29-14	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	or google 
+05-26-2016:00-29-16	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	none there
+05-26-2016:00-29-27	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	You just said all of them work at google...
+05-26-2016:00-29-27	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-27	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	[<firstName>: just],[<fullName>: just]
+05-26-2016:00-29-27	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (samuel tatum, 2.00),  (jesica seaton, 2.00),  (tyson rankins, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (fletcher hersman, 2.00),  (tamara killeen, 1.00),  (oliver roker, 1.00),  
+05-26-2016:00-29-33	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	know delores capell or samuel tatum
+05-26-2016:00-29-53	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Is this a robot?
+05-26-2016:00-29-53	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-53	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-29-53	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (samuel tatum, 2.00),  (jesica seaton, 2.00),  (tyson rankins, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (fletcher hersman, 2.00),  (tamara killeen, 1.00),  (oliver roker, 1.00),  
+05-26-2016:00-29-58	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	i work at google and have that one 
+05-26-2016:00-30-00	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	oh 
+05-26-2016:00-30-05	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	okay i know two people at apple and one at apple
+05-26-2016:00-30-10	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	No.
+05-26-2016:00-30-10	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-10	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-30-10	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 2.00),  (samuel tatum, 2.00),  (jesica seaton, 2.00),  (tyson rankins, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (fletcher hersman, 2.00),  (tamara killeen, 1.00),  (oliver roker, 1.00),  
+05-26-2016:00-30-13	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	do you know jesica seaton
+05-26-2016:00-30-15	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	The person is at google.
+05-26-2016:00-30-15	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-15	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-30-15	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 3.00),  (samuel tatum, 3.00),  (jesica seaton, 3.00),  (tyson rankins, 3.00),  (zackary rains, 3.00),  (kam wey, 3.00),  (denny harshberger, 3.00),  (fletcher hersman, 3.00),  (tamara killeen, 1.00),  (oliver roker, 1.00),  
+05-26-2016:00-30-20	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Are you a robot?
+05-26-2016:00-30-20	2e7f1729-4091-4da0-a52a-9fa61ea91640	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-20	2e7f1729-4091-4da0-a52a-9fa61ea91640	SYNONYMS	
+05-26-2016:00-30-20	2e7f1729-4091-4da0-a52a-9fa61ea91640	PROBABILITIES	(delores capell, 3.00),  (samuel tatum, 3.00),  (jesica seaton, 3.00),  (tyson rankins, 3.00),  (zackary rains, 3.00),  (kam wey, 3.00),  (denny harshberger, 3.00),  (fletcher hersman, 3.00),  (tamara killeen, 1.00),  (oliver roker, 1.00),  
+05-26-2016:00-30-29	2e7f1729-4091-4da0-a52a-9fa61ea91640	User 1	Selected 7:	Delores Capell
+05-26-2016:00-30-30	2e7f1729-4091-4da0-a52a-9fa61ea91640	LSTM_UNFEATURIZED	Selected:	Delores Capell
+05-26-2016:00-30-30	---

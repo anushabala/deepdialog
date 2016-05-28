@@ -1,0 +1,25 @@
+05-26-2016:00-38-23	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	joined
+05-26-2016:00-38-23	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0 has user ID ed32a596e7f54cd89f9c439941c0d1de
+05-26-2016:00-38-24	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	hey
+05-26-2016:00-38-26	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	hi
+05-26-2016:00-38-26	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-26	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-38-26	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (julissa bond, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (asa cadena, 0.10),  (liana sams, 0.10),  
+05-26-2016:00-38-36	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	i went to university of pennsylvania, majored in linguistics, work at google
+05-26-2016:00-38-37	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	I went to stanford and majored in economics
+05-26-2016:00-38-37	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>: economics],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-37	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-38-37	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(jesica seaton, 0.20),  (tess lister, 0.20),  (sherika rust, 0.07),  (brigid imai, 0.07),  (vickey redinger, 0.07),  (julissa bond, 0.07),  (lauran dyson, 0.07),  (samuel tatum, 0.07),  (asa cadena, 0.07),  (liana sams, 0.07),  
+05-26-2016:00-38-39	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	you?
+05-26-2016:00-38-42	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	I work at uber
+05-26-2016:00-38-42	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-42	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-38-42	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 0.20),  (liana sams, 0.20),  (jesica seaton, 0.08),  (tess lister, 0.08),  (sherika rust, 0.07),  (brigid imai, 0.07),  (julissa bond, 0.07),  (lauran dyson, 0.07),  (samuel tatum, 0.07),  (asa cadena, 0.07),  
+05-26-2016:00-38-45	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	vickey, liana?
+05-26-2016:00-38-55	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	vickey
+05-26-2016:00-38-55	de93470f-1956-4dd3-940b-ae83a5ed0c7b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: vickey],[<fullName>:]
+05-26-2016:00-38-55	de93470f-1956-4dd3-940b-ae83a5ed0c7b	SYNONYMS	
+05-26-2016:00-38-55	de93470f-1956-4dd3-940b-ae83a5ed0c7b	PROBABILITIES	(vickey redinger, 0.25),  (liana sams, 0.09),  (jesica seaton, 0.08),  (tess lister, 0.08),  (sherika rust, 0.08),  (brigid imai, 0.08),  (julissa bond, 0.08),  (lauran dyson, 0.08),  (samuel tatum, 0.08),  (asa cadena, 0.08),  
+05-26-2016:00-38-57	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	yep!
+05-26-2016:00-38-59	de93470f-1956-4dd3-940b-ae83a5ed0c7b	DEFAULT_BOT	Selected:	Vickey Redinger
+05-26-2016:00-39-00	de93470f-1956-4dd3-940b-ae83a5ed0c7b	User 0	Selected 6:	Vickey Redinger

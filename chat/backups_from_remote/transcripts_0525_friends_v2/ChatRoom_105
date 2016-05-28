@@ -1,0 +1,50 @@
+05-26-2016:01-55-22	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	joined
+05-26-2016:01-55-22	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0 has user ID 0dc4687136e14048a9c388d42403327e
+05-26-2016:01-55-25	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	hi there!
+05-26-2016:01-55-26	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Hi.
+05-26-2016:01-55-26	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-26	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:01-55-26	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (julissa bond, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (liana sams, 0.10),  
+05-26-2016:01-55-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	All of my friends work at apple.
+05-26-2016:01-55-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-55-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:01-55-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.23),  (sherika rust, 0.09),  (brigid imai, 0.09),  (vickey redinger, 0.09),  (jesica seaton, 0.09),  (lauran dyson, 0.09),  (samuel tatum, 0.09),  (tess lister, 0.09),  (kam wey, 0.09),  (liana sams, 0.09),  
+05-26-2016:01-55-41	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	i went to university of pennsylvania and majored in linguistics
+05-26-2016:01-55-44	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	work at google
+05-26-2016:01-55-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	what about you
+05-26-2016:01-56-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	I went to berkeley, majored in physics and work at apple.
+05-26-2016:01-56-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:01-56-05	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.12),  (sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (liana sams, 0.10),  
+05-26-2016:01-56-06	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	
+05-26-2016:01-56-06	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-06	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:01-56-06	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.10),  (sherika rust, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (kam wey, 0.10),  (liana sams, 0.10),  
+05-26-2016:01-56-10	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	hmm, do you know julissa?
+05-26-2016:01-56-12	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	sherika?
+05-26-2016:01-56-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	I have 1 friend that wen to stanford, majored in cs and works at apple.
+05-26-2016:01-56-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	[<major>: computer science]
+05-26-2016:01-56-28	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(sherika rust, 0.15),  (julissa bond, 0.10),  (kam wey, 0.10),  (brigid imai, 0.09),  (vickey redinger, 0.09),  (jesica seaton, 0.09),  (lauran dyson, 0.09),  (samuel tatum, 0.09),  (tess lister, 0.09),  (liana sams, 0.09),  
+05-26-2016:01-56-30	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	kam?
+05-26-2016:01-56-31	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Selected 0:	Riva Noles
+05-26-2016:01-56-35	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	nope, don't know them
+05-26-2016:01-56-40	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	do you know brigid, vickey or jesica?
+05-26-2016:01-56-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	No.
+05-26-2016:01-56-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:01-56-47	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(sherika rust, 0.11),  (julissa bond, 0.10),  (kam wey, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (liana sams, 0.10),  
+05-26-2016:01-56-51	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	lauran, samuel, tess?
+05-26-2016:01-56-58	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	No.
+05-26-2016:01-56-58	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-56-58	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:01-56-58	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(sherika rust, 0.10),  (julissa bond, 0.10),  (kam wey, 0.10),  (brigid imai, 0.10),  (vickey redinger, 0.10),  (jesica seaton, 0.10),  (lauran dyson, 0.10),  (samuel tatum, 0.10),  (tess lister, 0.10),  (liana sams, 0.10),  
+05-26-2016:01-57-03	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	are liana or sherika on your list?
+05-26-2016:01-57-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Do any of your friends work at apple?
+05-26-2016:01-57-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-57-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	SYNONYMS	
+05-26-2016:01-57-33	748ff2ad-1561-4b13-8434-7f96fa5fb498	PROBABILITIES	(julissa bond, 0.23),  (sherika rust, 0.09),  (kam wey, 0.09),  (brigid imai, 0.09),  (vickey redinger, 0.09),  (jesica seaton, 0.09),  (lauran dyson, 0.09),  (samuel tatum, 0.09),  (tess lister, 0.09),  (liana sams, 0.09),  
+05-26-2016:01-57-36	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	julissa?
+05-26-2016:01-57-43	748ff2ad-1561-4b13-8434-7f96fa5fb498	User 0	Selected 3:	Julissa Bond
+05-26-2016:01-57-46	748ff2ad-1561-4b13-8434-7f96fa5fb498	DEFAULT_BOT	Selected:	Julissa Bond
+05-26-2016:01-57-46	---

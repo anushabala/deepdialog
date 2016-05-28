@@ -1,0 +1,33 @@
+05-26-2016:00-32-45	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	joined
+05-26-2016:00-32-45	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1 has user ID 1bcce11fb5744fc685ee73f49a4de6cc
+05-26-2016:00-32-47	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	hi
+05-26-2016:00-32-56	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	i went to university of pennsylvania, majored in linguistics, work at uber
+05-26-2016:00-33-00	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	major, school, company?
+05-26-2016:00-33-21	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Hi, I'm Colette. I went to University of California, My major was CS, and I work at apple
+05-26-2016:00-33-21	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-21	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	[<major>: computer science],[<schoolName>: university of california berkeley]
+05-26-2016:00-33-21	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 0.15),  (ayesha aarons, 0.11),  (alberto thurlow, 0.09),  (sade kenner, 0.09),  (keesha ahart, 0.09),  (kathaleen brough, 0.09),  (santina kenley, 0.09),  (graig chill, 0.09),  (liana sams, 0.09),  (delbert gapinski, 0.09),  
+05-26-2016:00-33-22	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	jody?
+05-26-2016:00-33-46	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	No, I don't know a Jody. Do you know Gennie?
+05-26-2016:00-33-46	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jody, gennie],[<fullName>:]
+05-26-2016:00-33-46	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-33-46	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 0.24),  (ayesha aarons, 0.09),  (alberto thurlow, 0.08),  (sade kenner, 0.08),  (keesha ahart, 0.08),  (kathaleen brough, 0.08),  (santina kenley, 0.08),  (graig chill, 0.08),  (liana sams, 0.08),  (delbert gapinski, 0.08),  
+05-26-2016:00-33-47	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	yep!
+05-26-2016:00-33-50	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	Selected:	Jody Tropea
+05-26-2016:00-34-09	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	No, I don't know Jody. You do know Gennie?
+05-26-2016:00-34-09	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jody, gennie],[<fullName>:]
+05-26-2016:00-34-09	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-34-09	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 0.26),  (ayesha aarons, 0.08),  (alberto thurlow, 0.08),  (sade kenner, 0.08),  (keesha ahart, 0.08),  (kathaleen brough, 0.08),  (santina kenley, 0.08),  (graig chill, 0.08),  (liana sams, 0.08),  (delbert gapinski, 0.08),  
+05-26-2016:00-34-10	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	yeah
+05-26-2016:00-34-13	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	Selected:	Jody Tropea
+05-26-2016:00-34-25	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Do you know Aline?
+05-26-2016:00-34-25	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: aline],[<fullName>:]
+05-26-2016:00-34-25	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-34-25	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(jody tropea, 0.12),  (ayesha aarons, 0.10),  (alberto thurlow, 0.10),  (sade kenner, 0.10),  (keesha ahart, 0.10),  (kathaleen brough, 0.10),  (santina kenley, 0.10),  (graig chill, 0.10),  (liana sams, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:00-34-31	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	are ayesha or alberto on your list?
+05-26-2016:00-34-41	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	I know Ayesha!
+05-26-2016:00-34-41	7d936b30-0136-419f-8d2d-20c8b4ddd19b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: ayesha],[<fullName>:]
+05-26-2016:00-34-41	7d936b30-0136-419f-8d2d-20c8b4ddd19b	SYNONYMS	
+05-26-2016:00-34-41	7d936b30-0136-419f-8d2d-20c8b4ddd19b	PROBABILITIES	(ayesha aarons, 0.23),  (jody tropea, 0.09),  (alberto thurlow, 0.09),  (sade kenner, 0.09),  (keesha ahart, 0.09),  (kathaleen brough, 0.09),  (santina kenley, 0.09),  (graig chill, 0.09),  (liana sams, 0.09),  (delbert gapinski, 0.09),  
+05-26-2016:00-34-43	7d936b30-0136-419f-8d2d-20c8b4ddd19b	DEFAULT_BOT	yes!
+05-26-2016:00-34-45	7d936b30-0136-419f-8d2d-20c8b4ddd19b	User 1	Selected 2:	Ayesha Aarons

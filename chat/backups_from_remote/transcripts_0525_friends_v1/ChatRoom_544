@@ -1,0 +1,18 @@
+05-26-2016:00-38-15	f9704564-c23c-4b19-b6d9-52223708922d	User 1	joined
+05-26-2016:00-38-15	f9704564-c23c-4b19-b6d9-52223708922d	User 1 has user ID d113d61506a1486d857e09f41cf4ef4e
+05-26-2016:00-38-41	f9704564-c23c-4b19-b6d9-52223708922d	User 1	All of my friends either went to Standford or Columbia.
+05-26-2016:00-38-41	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-41	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<schoolName>: standford]
+05-26-2016:00-38-48	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_FEATURIZED	i only have one friend at apple one at apple and the rest at apple
+05-26-2016:00-39-00	f9704564-c23c-4b19-b6d9-52223708922d	User 1	One works at Facebook, the rest mixed between Google and Apple.
+05-26-2016:00-39-00	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, google, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-00	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-06	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_FEATURIZED	i went to university of pennsylvania and majored in physics 
+05-26-2016:00-39-10	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_FEATURIZED	all of my friends work at apple
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	User 1	Is any a Lingustics majored form Stanford?
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<major>: lingustics]
+05-26-2016:00-39-59	f9704564-c23c-4b19-b6d9-52223708922d	User 1	Is their name Mose?
+05-26-2016:00-39-59	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:00-39-59	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-40-00	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_FEATURIZED	no

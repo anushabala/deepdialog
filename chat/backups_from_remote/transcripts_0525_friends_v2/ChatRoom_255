@@ -1,0 +1,64 @@
+05-26-2016:02-08-22	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	joined
+05-26-2016:02-08-22	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0 has user ID 3405eb473f064113ab164949500dbc28
+05-26-2016:02-08-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	hello
+05-26-2016:02-08-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-08-26	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 0.00),  (myong kary, 0.00),  (susanna pulley, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (toney ghee, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-08-32	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:02-08-33	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	hi
+05-26-2016:02-08-44	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	we all work at apple
+05-26-2016:02-08-44	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-44	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-08-44	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (toney ghee, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-08-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	i went to university of california - berkeley and economics
+05-26-2016:02-08-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	except one from uber
+05-26-2016:02-08-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-08-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-08-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (toney ghee, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-08-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	i work at amazon and facebook
+05-26-2016:02-09-19	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	do you know anyone from uber
+05-26-2016:02-09-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-09-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (toney ghee, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-09-22	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	i know a niki bybee
+05-26-2016:02-09-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	no
+05-26-2016:02-09-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-09-29	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (toney ghee, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-09-33	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	do you have any that works at facebook 
+05-26-2016:02-09-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	facebook friend susanna pulley 
+05-26-2016:02-09-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	no
+05-26-2016:02-09-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-09-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-09-40	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 1.00),  (susanna pulley, 1.00),  (toney ghee, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-09-42	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	toney ghee 
+05-26-2016:02-09-45	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	they are all them
+05-26-2016:02-09-47	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	economics
+05-26-2016:02-10-05	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	yes two from apple
+05-26-2016:02-10-05	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-05	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-10-05	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 2.00),  (susanna pulley, 2.00),  (toney ghee, 2.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-10-08	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	do you know myong kary
+05-26-2016:02-10-13	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	no
+05-26-2016:02-10-13	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-13	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-10-13	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 2.00),  (susanna pulley, 2.00),  (toney ghee, 2.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-10-16	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	what about niki bybee
+05-26-2016:02-10-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	no
+05-26-2016:02-10-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-10-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 2.00),  (susanna pulley, 2.00),  (toney ghee, 2.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (lawanna mars, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-10-23	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	i work at facebook
+05-26-2016:02-10-31	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	no one from facebook
+05-26-2016:02-10-31	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-31	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-10-31	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 2.00),  (susanna pulley, 2.00),  (toney ghee, 2.00),  (lawanna mars, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-10-37	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	i only have one friend at facebook the rest at amazon
+05-26-2016:02-10-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	all mine are from apple
+05-26-2016:02-10-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:02-10-51	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(niki bybee, 3.00),  (susanna pulley, 3.00),  (toney ghee, 3.00),  (lawanna mars, 1.00),  (myong kary, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (tangela raschke, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:02-10-54	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	susanna pulley 
+05-26-2016:02-10-57	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	LSTM_FEATURIZED	Selected:	Toney Ghee
+05-26-2016:02-11-04	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 0	Selected 0:	Toney Ghee
+05-26-2016:02-11-05	---

@@ -1,0 +1,27 @@
+05-26-2016:00-37-39	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	joined
+05-26-2016:00-37-39	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-37-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	hiya
+05-26-2016:00-37-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-37-41	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(laverna bjornson, 0.00),  (susanna pulley, 0.00),  (alberto thurlow, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-37-48	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at uber
+05-26-2016:00-37-49	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	hi
+05-26-2016:00-37-49	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	I went to berkeley for economics
+05-26-2016:00-37-49	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>: economics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-49	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: berkeley]
+05-26-2016:00-37-49	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(susanna pulley, 1.00),  (laverna bjornson, 0.00),  (alberto thurlow, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-37-55	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	do any of your friends work for apple
+05-26-2016:00-37-57	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	who at apple?
+05-26-2016:00-37-57	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-57	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-37-57	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(susanna pulley, 2.00),  (laverna bjornson, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (lakesha platz, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-37-59	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	none of those 
+05-26-2016:00-38-05	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	i went to university of pennsylvania for math
+05-26-2016:00-38-10	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	niki or susanna?
+05-26-2016:00-38-10	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: niki, susanna],[<fullName>:]
+05-26-2016:00-38-10	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:00-38-10	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(susanna pulley, 3.00),  (laverna bjornson, 1.00),  (mose coletti, 1.00),  (tobi brunette, 1.00),  (francine bateman, 1.00),  (aline allshouse, 1.00),  (pearl dollard, 1.00),  (riva noles, 1.00),  (lakesha platz, 1.00),  (alberto thurlow, 0.00),  
+05-26-2016:00-38-13	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	susanna pulley
+05-26-2016:00-38-15	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Selected 9:	Susanna Pulley
+05-26-2016:00-38-17	f73251a9-f8c5-44c9-bff7-43587d78dff1	LSTM_UNFEATURIZED	Selected:	Susanna Pulley
+05-26-2016:00-38-17	---

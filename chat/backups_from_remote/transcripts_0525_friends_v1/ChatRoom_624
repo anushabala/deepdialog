@@ -1,0 +1,19 @@
+05-26-2016:00-42-10	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	joined
+05-26-2016:00-42-10	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1 has user ID c02639cbd0744fe9a8796b2fd5ef1d30
+05-26-2016:00-42-12	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	hi
+05-26-2016:00-42-21	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	i went to university of california - berkeley and majored in economics
+05-26-2016:00-42-24	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	work at apple
+05-26-2016:00-42-27	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	what about you
+05-26-2016:00-42-29	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	hi went to stanford and work at google 
+05-26-2016:00-42-29	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-29	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-42-29	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 0.20),  (riva noles, 0.20),  (kristie bolduc, 0.07),  (agueda searcy, 0.07),  (gennie dagley, 0.07),  (tobi brunette, 0.07),  (laverna bjornson, 0.07),  (nena krone, 0.07),  (thanh hartin, 0.07),  (bernita kerrick, 0.07),  
+05-26-2016:00-42-34	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	do you know mose, riva or kristie?
+05-26-2016:00-42-45	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	mose you rock 
+05-26-2016:00-42-45	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:00-42-45	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	[<firstName>: rick],[<fullName>: rick damico]
+05-26-2016:00-42-45	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(mose coletti, 0.12),  (riva noles, 0.10),  (kristie bolduc, 0.10),  (agueda searcy, 0.10),  (gennie dagley, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-42-47	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	yes!
+05-26-2016:00-42-48	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	Selected 2:	Mose Coletti
+05-26-2016:00-42-50	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:00-42-50	---

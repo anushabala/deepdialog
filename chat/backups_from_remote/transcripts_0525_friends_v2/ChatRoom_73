@@ -1,0 +1,23 @@
+05-26-2016:01-52-34	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	joined
+05-26-2016:01-52-34	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1 has user ID f54a924cc4ae4951b927d029405f688b
+05-26-2016:01-52-36	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	hi there!
+05-26-2016:01-52-42	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	i'm university of pennsylvania, math, apple
+05-26-2016:01-52-45	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	what about you
+05-26-2016:01-52-58	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Berkley math amazon
+05-26-2016:01-52-58	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-58	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:01-52-58	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 0.12),  (jon geissler, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (elene prouty, 0.10),  (laverna bjornson, 0.09),  (bernita kerrick, 0.09),  (beau roudebush, 0.09),  (oliver roker, 0.09),  (pearl dollard, 0.09),  
+05-26-2016:01-53-03	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	do you know kerry, jon or francine?
+05-26-2016:01-53-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	I have 1 friend at facebook
+05-26-2016:01-53-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:01-53-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 0.10),  (francine bateman, 0.10),  (jon geissler, 0.10),  (aline allshouse, 0.10),  (elene prouty, 0.10),  (bernita kerrick, 0.10),  (beau roudebush, 0.10),  (oliver roker, 0.10),  (laverna bjornson, 0.10),  (pearl dollard, 0.10),  
+05-26-2016:01-53-14	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	do you know aline, elene or bernita?
+05-26-2016:01-53-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Kerry
+05-26-2016:01-53-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: kerry],[<fullName>:]
+05-26-2016:01-53-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:01-53-23	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(kerry carter, 0.23),  (jon geissler, 0.09),  (francine bateman, 0.09),  (aline allshouse, 0.09),  (elene prouty, 0.09),  (laverna bjornson, 0.09),  (bernita kerrick, 0.09),  (beau roudebush, 0.09),  (oliver roker, 0.09),  (pearl dollard, 0.09),  
+05-26-2016:01-53-25	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	yep!
+05-26-2016:01-53-27	8ff6608a-5c51-4459-9745-3d84af50e8d2	DEFAULT_BOT	Selected:	Kerry Carter
+05-26-2016:01-53-27	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 1	Selected 7:	Kerry Carter
+05-26-2016:01-53-27	---

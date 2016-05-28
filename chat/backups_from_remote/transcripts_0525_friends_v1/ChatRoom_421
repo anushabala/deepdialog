@@ -1,0 +1,17 @@
+05-26-2016:00-32-00	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	joined
+05-26-2016:00-32-00	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0 has user ID 050865ae296d40fe99077ed5c99975a7
+05-26-2016:00-32-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	Hi!
+05-26-2016:00-32-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	
+05-26-2016:00-32-04	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (mose coletti, 0.00),  (jenny hird, 0.00),  (tobi brunette, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (brittanie piggott, 0.00),  
+05-26-2016:00-32-06	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	LSTM_FEATURIZED	hi
+05-26-2016:00-32-31	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	most my friends work at google
+05-26-2016:00-32-31	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-31	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	[<firstName>: most],[<fullName>: most]
+05-26-2016:00-32-31	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(mose coletti, 1.00),  (kristie bolduc, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (jenny hird, 0.00),  (tobi brunette, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (brittanie piggott, 0.00),  
+05-26-2016:00-32-37	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	LSTM_FEATURIZED	i went to stanford work at apple and majored in math 
+05-26-2016:00-32-39	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	LSTM_FEATURIZED	Selected:	Mose Coletti
+05-26-2016:00-33-07	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	User 0	i went to columbia, majore din econ, work at google
+05-26-2016:00-33-07	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	TAGS	[<major>:],[<schoolName>: columbia],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-07	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	SYNONYMS	[<major>: econ]
+05-26-2016:00-33-07	76fe8cfc-c6fe-498d-ae2d-b1bd8af49ac3	PROBABILITIES	(oliver roker, 2.00),  (kristie bolduc, 1.00),  (mose coletti, 1.00),  (elene prouty, 1.00),  (bernita kerrick, 0.00),  (jenny hird, 0.00),  (tobi brunette, 0.00),  (pearl dollard, 0.00),  (riva noles, 0.00),  (brittanie piggott, 0.00),  

@@ -1,0 +1,19 @@
+05-26-2016:00-28-24	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	joined
+05-26-2016:00-28-24	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1 has user ID 9c99fda5034a4beb85362cafc4517ab4
+05-26-2016:00-28-36	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	hiya
+05-26-2016:00-28-36	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-36	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:00-28-36	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(colin higby, 0.00),  (jon geissler, 0.00),  (vickey redinger, 0.00),  (keesha ahart, 0.00),  (nathanial towery, 0.00),  (santina kenley, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (geneva hofmeister, 0.00),  
+05-26-2016:00-28-38	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_FEATURIZED	hi
+05-26-2016:00-28-51	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	all my friends work at facebook, two at uber, one at apple, one at google
+05-26-2016:00-28-51	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, uber, apple, google],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-51	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:00-28-51	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (santina kenley, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  
+05-26-2016:00-28-57	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_FEATURIZED	i work at uber and so do most of my friends
+05-26-2016:00-28-59	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	I went to Columbia for math and work at facebook
+05-26-2016:00-28-59	e58f8b9d-1247-4915-92ee-d3b4dee908c1	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-59	e58f8b9d-1247-4915-92ee-d3b4dee908c1	SYNONYMS	
+05-26-2016:00-28-59	e58f8b9d-1247-4915-92ee-d3b4dee908c1	PROBABILITIES	(geneva hofmeister, 3.00),  (jon geissler, 2.00),  (nathanial towery, 2.00),  (colin higby, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (santina kenley, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  
+05-26-2016:00-29-03	e58f8b9d-1247-4915-92ee-d3b4dee908c1	User 1	Selected 3:	Geneva Hofmeister
+05-26-2016:00-29-05	e58f8b9d-1247-4915-92ee-d3b4dee908c1	LSTM_FEATURIZED	Selected:	Geneva Hofmeister
+05-26-2016:00-29-05	---

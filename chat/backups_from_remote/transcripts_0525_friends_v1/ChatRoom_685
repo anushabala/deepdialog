@@ -1,0 +1,21 @@
+05-26-2016:00-45-31	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	User 1	joined
+05-26-2016:00-45-31	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	User 1 has user ID a534a02bf33a4cd493838829b40332f4
+05-26-2016:00-45-33	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	DEFAULT_BOT	hi
+05-26-2016:00-45-35	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	User 1	Hi. Human?
+05-26-2016:00-45-35	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-35	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	SYNONYMS	
+05-26-2016:00-45-35	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	PROBABILITIES	(susanna pulley, 0.10),  (mose coletti, 0.10),  (jesica seaton, 0.10),  (kristie bolduc, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (lai pettaway, 0.10),  (pearl dollard, 0.10),  (elene prouty, 0.10),  
+05-26-2016:00-45-42	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	DEFAULT_BOT	i went to columbia, majored in economics, work at apple
+05-26-2016:00-45-49	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	User 1	I went to stanford for economics and work at google.
+05-26-2016:00-45-49	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	TAGS	[<major>: economics],[<schoolName>: stanford],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-49	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	SYNONYMS	
+05-26-2016:00-45-49	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	PROBABILITIES	(jesica seaton, 0.28),  (lai pettaway, 0.28),  (susanna pulley, 0.10),  (mose coletti, 0.10),  (kristie bolduc, 0.04),  (tobi brunette, 0.04),  (laverna bjornson, 0.04),  (aline allshouse, 0.04),  (pearl dollard, 0.04),  (elene prouty, 0.04),  
+05-26-2016:00-45-54	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	User 1	All my friends work at google.
+05-26-2016:00-45-54	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-54	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	SYNONYMS	
+05-26-2016:00-45-54	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	PROBABILITIES	(jesica seaton, 0.23),  (lai pettaway, 0.23),  (susanna pulley, 0.07),  (mose coletti, 0.07),  (kristie bolduc, 0.07),  (tobi brunette, 0.07),  (laverna bjornson, 0.07),  (aline allshouse, 0.07),  (pearl dollard, 0.07),  (elene prouty, 0.07),  
+05-26-2016:00-46-00	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-46-03	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	DEFAULT_BOT	jesica, lai?
+05-26-2016:00-46-09	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	User 1	Selected 7:	Jesica Seaton
+05-26-2016:00-46-11	f363ff93-aa83-4ff5-9e2d-1f5f546aa6e6	DEFAULT_BOT	Selected:	Jesica Seaton
+05-26-2016:00-46-12	---

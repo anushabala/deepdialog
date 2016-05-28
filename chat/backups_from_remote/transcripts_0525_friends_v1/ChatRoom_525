@@ -1,0 +1,23 @@
+05-26-2016:00-37-47	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 0	joined
+05-26-2016:00-37-47	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 0 has user ID 1bcce11fb5744fc685ee73f49a4de6cc
+05-26-2016:00-37-50	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	hi there!
+05-26-2016:00-37-57	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	i went to stanford and majored in computer science
+05-26-2016:00-38-00	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	work at uber
+05-26-2016:00-38-03	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	what about you
+05-26-2016:00-38-09	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 0	Hi, I'm Lauren and I went to COlumbia, majored in math, and work at Google!
+05-26-2016:00-38-09	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	TAGS	[<major>: math],[<schoolName>: columbia],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-09	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	SYNONYMS	[<firstName>: lauran],[<fullName>: lauran dyson]
+05-26-2016:00-38-09	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	PROBABILITIES	(roxie banuelos, 0.11),  (brittanie piggott, 0.11),  (nathanial towery, 0.11),  (willie wicks, 0.11),  (vickey redinger, 0.10),  (johnathan mccolley, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (barbar scheu, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:00-38-15	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	are roxie or brittanie on your list?
+05-26-2016:00-38-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 0	I know one person from Uber. Do you know Kendrick?
+05-26-2016:00-38-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>: kendrick],[<fullName>:]
+05-26-2016:00-38-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	SYNONYMS	
+05-26-2016:00-38-21	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	PROBABILITIES	(brittanie piggott, 0.11),  (nathanial towery, 0.11),  (willie wicks, 0.11),  (vickey redinger, 0.11),  (johnathan mccolley, 0.11),  (keesha ahart, 0.11),  (jody tropea, 0.11),  (barbar scheu, 0.11),  (delbert gapinski, 0.11),  (roxie banuelos, 0.04),  
+05-26-2016:00-38-25	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	nathanial, willie?
+05-26-2016:00-38-32	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 0	I know a Roxie.
+05-26-2016:00-38-32	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: roxie],[<fullName>:]
+05-26-2016:00-38-32	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	SYNONYMS	
+05-26-2016:00-38-32	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	PROBABILITIES	(roxie banuelos, 0.22),  (brittanie piggott, 0.09),  (nathanial towery, 0.09),  (willie wicks, 0.09),  (vickey redinger, 0.09),  (johnathan mccolley, 0.09),  (keesha ahart, 0.09),  (jody tropea, 0.09),  (barbar scheu, 0.09),  (delbert gapinski, 0.09),  
+05-26-2016:00-38-34	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	yep
+05-26-2016:00-38-35	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	User 0	Selected 3:	Roxie Banuelos
+05-26-2016:00-38-38	44f410b7-b6a7-4db9-bf64-ffb8d4f1dbd4	DEFAULT_BOT	Selected:	Roxie Banuelos

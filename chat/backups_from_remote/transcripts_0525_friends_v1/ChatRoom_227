@@ -1,0 +1,58 @@
+05-26-2016:00-22-46	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	joined
+05-26-2016:00-22-46	3b581f22-214d-460c-aadc-b43e21c957e2	User 0 has user ID d4dbb6c2e36c485ebddbd8c330c990b6
+05-26-2016:00-22-53	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	All of my friends work at google
+05-26-2016:00-22-53	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-22-53	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-22-53	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (jacques castillon, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-22-58	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	i know someone from apple though 
+05-26-2016:00-23-02	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	who
+05-26-2016:00-23-02	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-02	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-02	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (jacques castillon, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-23-06	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	lashaunda carothers or sherika rust
+05-26-2016:00-23-09	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	Selected:	Jacques Castillon
+05-26-2016:00-23-40	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	I don't have either
+05-26-2016:00-23-40	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-40	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-40	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (jacques castillon, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-23-43	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	Selected:	Zackary Rains
+05-26-2016:00-23-48	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	no
+05-26-2016:00-23-48	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-48	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-23-48	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (jacques castillon, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (lai pettaway, 1.00),  (riva noles, 0.00),  
+05-26-2016:00-23-50	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	joshmedatang 
+05-26-2016:00-23-51	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	gg
+05-26-2016:00-24-01	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	who works at google
+05-26-2016:00-24-01	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-01	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-01	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (jacques castillon, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (riva noles, 0.00),  
+05-26-2016:00-24-04	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	lashaunda carothers
+05-26-2016:00-24-09	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	who works at apple
+05-26-2016:00-24-09	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-09	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-09	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (jacques castillon, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (riva noles, 1.00),  
+05-26-2016:00-24-11	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	sherika rust
+05-26-2016:00-24-18	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	someone else
+05-26-2016:00-24-18	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-18	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-18	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (jacques castillon, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (riva noles, 1.00),  
+05-26-2016:00-24-20	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	jacques castillon
+05-26-2016:00-24-25	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	no
+05-26-2016:00-24-25	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-25	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-25	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (jacques castillon, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (riva noles, 1.00),  
+05-26-2016:00-24-28	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	zackary rains 
+05-26-2016:00-24-30	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	kam wey 
+05-26-2016:00-24-31	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	no
+05-26-2016:00-24-31	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-31	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-24-31	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (jacques castillon, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (fletcher hersman, 2.00),  (lai pettaway, 2.00),  (riva noles, 1.00),  
+05-26-2016:00-24-34	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	denny harshberger 
+05-26-2016:00-24-36	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	meda lahr
+05-26-2016:00-24-39	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	lashaunda carothers 
+05-26-2016:00-24-42	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	fletcher hersman 
+05-26-2016:00-24-44	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	lai pettaway 
+05-26-2016:00-24-46	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	or riva noles
+05-26-2016:00-24-56	3b581f22-214d-460c-aadc-b43e21c957e2	User 0	Selected 6:	Riva Noles
+05-26-2016:00-24-57	3b581f22-214d-460c-aadc-b43e21c957e2	LSTM_FEATURIZED	Selected:	Riva Noles
+05-26-2016:00-24-58	---

@@ -1,0 +1,22 @@
+05-26-2016:02-05-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	joined
+05-26-2016:02-05-40	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1 has user ID eeda79c3219e41078214f92b60c61a51
+05-26-2016:02-05-41	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	hey
+05-26-2016:02-05-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	hiii
+05-26-2016:02-05-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:02-05-46	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.10),  (maritza horrell, 0.10),  (emmanuel eliason, 0.10),  (maia coffman, 0.10),  (lorriane hurlbert, 0.10),  (valeri kress, 0.10),  (justa holdeman, 0.10),  (renay guel, 0.10),  (emerson farnsworth, 0.10),  (lucienne whitting, 0.10),  
+05-26-2016:02-05-53	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	i went to columbia and majored in computer science
+05-26-2016:02-05-56	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	work at facebook
+05-26-2016:02-06-00	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	major school company?
+05-26-2016:02-06-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	i went to standford and studied computer science. I now work at google
+05-26-2016:02-06-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	[<schoolName>: stanford]
+05-26-2016:02-06-02	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.14),  (maritza horrell, 0.13),  (renay guel, 0.13),  (lucienne whitting, 0.13),  (maia coffman, 0.09),  (justa holdeman, 0.09),  (emmanuel eliason, 0.08),  (lorriane hurlbert, 0.08),  (valeri kress, 0.08),  (emerson farnsworth, 0.08),  
+05-26-2016:02-06-05	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	arlen, maritza?
+05-26-2016:02-06-16	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	i know arlen
+05-26-2016:02-06-16	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: arlen],[<fullName>:]
+05-26-2016:02-06-16	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:02-06-16	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(arlen landers, 0.24),  (maritza horrell, 0.09),  (renay guel, 0.09),  (lucienne whitting, 0.09),  (maia coffman, 0.08),  (justa holdeman, 0.08),  (emmanuel eliason, 0.08),  (lorriane hurlbert, 0.08),  (valeri kress, 0.08),  (emerson farnsworth, 0.08),  
+05-26-2016:02-06-18	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	yeah
+05-26-2016:02-06-20	6606c4d4-a07f-451c-b1a4-b695349ccd1a	DEFAULT_BOT	Selected:	Arlen Landers
+05-26-2016:02-06-23	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 1	Selected 3:	Arlen Landers

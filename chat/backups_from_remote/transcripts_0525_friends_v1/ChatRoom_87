@@ -1,0 +1,33 @@
+05-26-2016:00-15-25	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	joined
+05-26-2016:00-15-25	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0 has user ID df0cd8a9ae3440dd8bb566891a8d9689
+05-26-2016:00-15-33	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Almost all my friends work at apple
+05-26-2016:00-15-33	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-33	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-15-33	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(aline allshouse, 1.00),  (gennie dagley, 1.00),  (clarisa mattison, 0.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-15-35	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	hi
+05-26-2016:00-16-04	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	you there?
+05-26-2016:00-16-04	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-04	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-16-04	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(aline allshouse, 1.00),  (gennie dagley, 1.00),  (clarisa mattison, 0.00),  (colin higby, 0.00),  (jon geissler, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-16-11	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	went to university of pennsylvania majored in math work for amazon 
+05-26-2016:00-16-14	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	do you know aline allshouse
+05-26-2016:00-16-22	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	I don't know anyone at amazon
+05-26-2016:00-16-22	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-22	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-16-22	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(colin higby, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (aline allshouse, 1.00),  (emmitt nations, 1.00),  (gennie dagley, 1.00),  (raymond polite, 1.00),  (carley schade, 1.00),  (clarisa mattison, 0.00),  (jon geissler, 0.00),  
+05-26-2016:00-16-25	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	do you know colin higby
+05-26-2016:00-16-30	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	no
+05-26-2016:00-16-30	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-30	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-16-30	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(colin higby, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (aline allshouse, 1.00),  (emmitt nations, 1.00),  (gennie dagley, 1.00),  (raymond polite, 1.00),  (carley schade, 1.00),  (clarisa mattison, 0.00),  (jon geissler, 0.00),  
+05-26-2016:00-16-34	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	what about angelo patch
+05-26-2016:00-16-47	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	nope
+05-26-2016:00-16-47	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-47	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-16-47	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(colin higby, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (aline allshouse, 1.00),  (emmitt nations, 1.00),  (gennie dagley, 1.00),  (raymond polite, 1.00),  (carley schade, 1.00),  (clarisa mattison, 0.00),  (jon geissler, 0.00),  
+05-26-2016:00-16-50	d680fbb4-6463-4e25-9c53-df11bdcf276c	LSTM_FEATURIZED	i know a rick damico
+05-26-2016:00-17-00	d680fbb4-6463-4e25-9c53-df11bdcf276c	User 0	Never heard of him
+05-26-2016:00-17-00	d680fbb4-6463-4e25-9c53-df11bdcf276c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-17-00	d680fbb4-6463-4e25-9c53-df11bdcf276c	SYNONYMS	
+05-26-2016:00-17-00	d680fbb4-6463-4e25-9c53-df11bdcf276c	PROBABILITIES	(colin higby, 1.00),  (angelo patch, 1.00),  (rick damico, 1.00),  (aline allshouse, 1.00),  (emmitt nations, 1.00),  (gennie dagley, 1.00),  (raymond polite, 1.00),  (carley schade, 1.00),  (clarisa mattison, 0.00),  (jon geissler, 0.00),  
+05-26-2016:00-19-06	---

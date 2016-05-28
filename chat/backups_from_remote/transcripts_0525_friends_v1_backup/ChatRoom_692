@@ -1,0 +1,33 @@
+05-26-2016:00-45-55	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	joined
+05-26-2016:00-45-55	6d2991af-e241-4e11-9567-601aee1a6b31	User 1 has user ID b4f4c656b1214f87a73da708f9200c09
+05-26-2016:00-45-59	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	Hi buddy
+05-26-2016:00-45-59	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-45-59	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-45-59	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(gennie dagley, 0.00),  (oliver roker, 0.00),  (rick damico, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-46-04	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	all my friend work at apple and 1 works at uber
+05-26-2016:00-46-07	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	Selected:	Gennie Dagley
+05-26-2016:00-46-19	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	I dont know her
+05-26-2016:00-46-19	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-19	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-46-19	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(gennie dagley, 0.00),  (oliver roker, 0.00),  (rick damico, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-46-23	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	what it was the one
+05-26-2016:00-46-29	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	You don't have any friends at amazon?
+05-26-2016:00-46-29	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-29	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-46-29	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 1.00),  (gennie dagley, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-46-31	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	no
+05-26-2016:00-46-44	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	Any physics friends?
+05-26-2016:00-46-44	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-46-44	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-46-44	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 2.00),  (santina kenley, 1.00),  (gennie dagley, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-46-50	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	rick damico santina kenley and oliver roker 
+05-26-2016:00-46-53	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	francine bateman 
+05-26-2016:00-46-55	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	lots
+05-26-2016:00-47-02	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	I know Rick!
+05-26-2016:00-47-02	6d2991af-e241-4e11-9567-601aee1a6b31	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: rick],[<fullName>:]
+05-26-2016:00-47-02	6d2991af-e241-4e11-9567-601aee1a6b31	SYNONYMS	
+05-26-2016:00-47-02	6d2991af-e241-4e11-9567-601aee1a6b31	PROBABILITIES	(rick damico, 3.00),  (santina kenley, 1.00),  (gennie dagley, 0.00),  (oliver roker, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-47-04	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	Selected:	Gennie Dagley
+05-26-2016:00-47-06	6d2991af-e241-4e11-9567-601aee1a6b31	User 1	Selected 9:	Rick Damico
+05-26-2016:00-47-08	6d2991af-e241-4e11-9567-601aee1a6b31	LSTM_UNFEATURIZED	Selected:	Rick Damico
+05-26-2016:00-47-08	---

@@ -1,0 +1,51 @@
+05-26-2016:02-14-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	joined
+05-26-2016:02-14-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1 has user ID f54a924cc4ae4951b927d029405f688b
+05-26-2016:02-14-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	all my friend work at google and 1 works at facebook
+05-26-2016:02-14-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	I have one friend who works at apple and the rest work for amazon
+05-26-2016:02-14-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-14-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-14-57	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-15-02	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	all mine work at google
+05-26-2016:02-15-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	I guess we don't have any in common?
+05-26-2016:02-15-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-15-19	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-15-23	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	no friends from amazon 
+05-26-2016:02-15-27	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	all my other friends work at google
+05-26-2016:02-15-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	any apple?
+05-26-2016:02-15-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-15-31	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-15-33	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	no 
+05-26-2016:02-15-38	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	anyone for that works at facebook
+05-26-2016:02-15-49	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	no, only amazon and 1 apple
+05-26-2016:02-15-49	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon, apple],[<firstName>:],[<fullName>:]
+05-26-2016:02-15-49	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-15-49	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 2.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-15-55	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	i went to columbia and majored in computer science
+05-26-2016:02-16-08	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	Selected 7:	Nena Krone
+05-26-2016:02-16-11	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	Selected:	Eldon Lindholm
+05-26-2016:02-16-12	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	gg
+05-26-2016:02-16-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	oops
+05-26-2016:02-16-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-16-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-16-37	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 2.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-16-40	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	select her
+05-26-2016:02-16-45	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	eldon
+05-26-2016:02-16-45	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: eldon],[<fullName>:]
+05-26-2016:02-16-45	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-16-45	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 3.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-16-47	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	you 
+05-26-2016:02-16-50	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	it name lashaunda carothers
+05-26-2016:02-16-55	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	no eldon
+05-26-2016:02-16-55	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: eldon],[<fullName>:]
+05-26-2016:02-16-55	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-16-55	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 4.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (brittney hunley, 0.00),  (kam wey, 0.00),  (jesica seaton, 0.00),  (justa holdeman, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:02-16-59	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	then you have google 
+05-26-2016:02-17-02	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	choose it 
+05-26-2016:02-17-04	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	Selected:	Brigid Imai
+05-26-2016:02-17-17	113d2c34-e16e-4771-8a5a-7aba6146a4a0	User 1	no google
+05-26-2016:02-17-17	113d2c34-e16e-4771-8a5a-7aba6146a4a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-17-17	113d2c34-e16e-4771-8a5a-7aba6146a4a0	SYNONYMS	
+05-26-2016:02-17-17	113d2c34-e16e-4771-8a5a-7aba6146a4a0	PROBABILITIES	(eldon lindholm, 4.00),  (lashaunda carothers, 1.00),  (brigid imai, 1.00),  (kam wey, 1.00),  (jesica seaton, 1.00),  (denny harshberger, 1.00),  (meda lahr, 1.00),  (fletcher hersman, 1.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  
+05-26-2016:02-17-20	113d2c34-e16e-4771-8a5a-7aba6146a4a0	LSTM_UNFEATURIZED	sec wait

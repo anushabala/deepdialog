@@ -1,0 +1,21 @@
+05-26-2016:00-28-23	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	joined
+05-26-2016:00-28-23	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:00-28-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	hi there
+05-26-2016:00-28-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-28-27	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(susanna pulley, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (kristie bolduc, 0.00),  (aline allshouse, 0.00),  (thanh hartin, 0.00),  (kendrick friday, 0.00),  (riva noles, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-28-32	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	all work at apple except one at uber 
+05-26-2016:00-28-35	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	do you know susanna pulley
+05-26-2016:00-28-39	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	All of my friends work at facebook except for one at apple
+05-26-2016:00-28-39	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-39	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-28-39	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(susanna pulley, 1.00),  (pearl dollard, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (kristie bolduc, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (riva noles, 1.00),  (lakesha platz, 1.00),  (kendrick friday, 0.00),  
+05-26-2016:00-28-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	Riva Noles
+05-26-2016:00-28-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: riva noles]
+05-26-2016:00-28-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	SYNONYMS	
+05-26-2016:00-28-41	7c29fa38-a546-4e29-91a7-b6e10cb2416d	PROBABILITIES	(riva noles, 2.00),  (susanna pulley, 1.00),  (pearl dollard, 1.00),  (bernita kerrick, 1.00),  (oliver roker, 1.00),  (kristie bolduc, 1.00),  (aline allshouse, 1.00),  (thanh hartin, 1.00),  (lakesha platz, 1.00),  (kendrick friday, 0.00),  
+05-26-2016:00-28-44	7c29fa38-a546-4e29-91a7-b6e10cb2416d	User 1	Selected 0:	Riva Noles
+05-26-2016:00-28-49	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	i went to columbia and majored in math 
+05-26-2016:00-28-52	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	all of mine work at apple
+05-26-2016:00-28-54	7c29fa38-a546-4e29-91a7-b6e10cb2416d	LSTM_FEATURIZED	Selected:	Riva Noles
+05-26-2016:00-28-54	---

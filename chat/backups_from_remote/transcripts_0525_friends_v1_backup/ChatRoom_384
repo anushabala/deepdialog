@@ -1,0 +1,19 @@
+05-26-2016:00-30-27	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 1	joined
+05-26-2016:00-30-27	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 1 has user ID 37b8b92ba0c94abc80d5d11f575ccbfc
+05-26-2016:00-30-35	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 1	hi, went to berkley for cs, work at fb
+05-26-2016:00-30-35	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-35	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	[<major>: cs],[<schoolName>: berkley]
+05-26-2016:00-30-35	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(frederick willetts, 1.00),  (riva noles, 1.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (lai pettaway, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-30-41	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	hi all of my friends work at apple and one at google
+05-26-2016:00-30-52	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 1	do you know pavlick
+05-26-2016:00-30-52	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-52	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	
+05-26-2016:00-30-52	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(frederick willetts, 1.00),  (riva noles, 1.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (lai pettaway, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-30-55	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	frederick willetts and riva noles
+05-26-2016:00-31-02	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 1	Selected 3:	Frederick Willetts
+05-26-2016:00-31-04	b88077d0-d38e-4381-a1a2-8494f9a1196c	User 1	fred yes
+05-26-2016:00-31-04	b88077d0-d38e-4381-a1a2-8494f9a1196c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-04	b88077d0-d38e-4381-a1a2-8494f9a1196c	SYNONYMS	
+05-26-2016:00-31-04	b88077d0-d38e-4381-a1a2-8494f9a1196c	PROBABILITIES	(frederick willetts, 2.00),  (riva noles, 1.00),  (francine bateman, 0.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (lai pettaway, 0.00),  (elene prouty, 0.00),  
+05-26-2016:00-31-06	b88077d0-d38e-4381-a1a2-8494f9a1196c	LSTM_FEATURIZED	Selected:	Frederick Willetts
+05-26-2016:00-31-06	---

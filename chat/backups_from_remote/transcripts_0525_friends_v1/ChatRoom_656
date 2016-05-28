@@ -1,0 +1,31 @@
+05-26-2016:00-43-44	061d1345-1a85-486e-86eb-6a30510235fe	User 0	joined
+05-26-2016:00-43-44	061d1345-1a85-486e-86eb-6a30510235fe	User 0 has user ID 49a974312a534c82a8691097b82cda60
+05-26-2016:00-43-46	061d1345-1a85-486e-86eb-6a30510235fe	User 0	hi
+05-26-2016:00-43-46	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-46	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-43-46	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-43-52	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at amazon
+05-26-2016:00-43-53	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	hi
+05-26-2016:00-44-01	061d1345-1a85-486e-86eb-6a30510235fe	User 0	went to stanford, majored in linguistics, work for facebook
+05-26-2016:00-44-01	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>: linguistics],[<schoolName>: stanford],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-01	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-44-01	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-44-04	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	no friends from facebook 
+05-26-2016:00-44-07	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	who are they
+05-26-2016:00-44-10	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Apple or uber?
+05-26-2016:00-44-10	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-10	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-44-10	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-44-15	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	i only have friends at amazon 
+05-26-2016:00-44-17	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	thats it
+05-26-2016:00-44-23	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Barbar?
+05-26-2016:00-44-23	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: barbar],[<fullName>:]
+05-26-2016:00-44-23	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-44-23	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-44-25	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Mose?
+05-26-2016:00-44-25	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: mose],[<fullName>:]
+05-26-2016:00-44-25	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-44-25	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-44-27	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	Selected:	Justa Holdeman
+05-26-2016:00-44-33	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Selected 7:	Justa Holdeman
+05-26-2016:00-44-33	---

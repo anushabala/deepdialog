@@ -1,0 +1,21 @@
+05-26-2016:02-24-51	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	joined
+05-26-2016:02-24-51	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0 has user ID 8038940418f44af2851465a50e02ce17
+05-26-2016:02-24-53	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	hi
+05-26-2016:02-24-53	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-24-53	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-24-53	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(beau roudebush, 0.00),  (bernita kerrick, 0.00),  (quinn courter, 0.00),  (oliver roker, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (danita hanby, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-25-00	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_FEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:02-25-02	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_FEATURIZED	hi
+05-26-2016:02-25-03	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	Do any of your friends work at amazon?
+05-26-2016:02-25-03	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-25-03	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-25-03	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(beau roudebush, 0.00),  (bernita kerrick, 0.00),  (quinn courter, 0.00),  (oliver roker, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (danita hanby, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-25-06	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_FEATURIZED	no friends from amazon 
+05-26-2016:02-25-10	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_FEATURIZED	all my other friends are from apple
+05-26-2016:02-25-10	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	Danita?
+05-26-2016:02-25-10	e9321f77-7a83-4b8d-a885-1b39bc622341	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: danita],[<fullName>:]
+05-26-2016:02-25-10	e9321f77-7a83-4b8d-a885-1b39bc622341	SYNONYMS	
+05-26-2016:02-25-10	e9321f77-7a83-4b8d-a885-1b39bc622341	PROBABILITIES	(danita hanby, 1.00),  (beau roudebush, 0.00),  (bernita kerrick, 0.00),  (quinn courter, 0.00),  (oliver roker, 0.00),  (mose coletti, 0.00),  (tobi brunette, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-25-13	e9321f77-7a83-4b8d-a885-1b39bc622341	LSTM_FEATURIZED	Selected:	Danita Hanby
+05-26-2016:02-25-17	e9321f77-7a83-4b8d-a885-1b39bc622341	User 0	Selected 9:	Danita Hanby
+05-26-2016:02-26-18	---

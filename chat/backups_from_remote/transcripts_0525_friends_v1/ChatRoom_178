@@ -1,0 +1,32 @@
+05-26-2016:00-20-55	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	joined
+05-26-2016:00-20-55	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1 has user ID 45374118e1b24237a48e440811588327
+05-26-2016:00-20-56	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	hi
+05-26-2016:00-20-59	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	hi
+05-26-2016:00-20-59	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-59	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-20-59	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(kristie bolduc, 0.10),  (delores capell, 0.10),  (laurette thrailkill, 0.10),  (mose coletti, 0.10),  (lucia pizarro, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  (thanh hartin, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:00-21-07	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	i went to stanford, majored in linguistics, work at apple
+05-26-2016:00-21-14	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-21-19	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	My name is Dexter, I went to UPenn, Majored in Math and work at Google.
+05-26-2016:00-21-19	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>: math],[<schoolName>:],[<companyName>: google],[<firstName>: dexter],[<fullName>:]
+05-26-2016:00-21-19	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-21-19	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 0.16),  (lucia pizarro, 0.16),  (elene prouty, 0.16),  (lakesha platz, 0.16),  (kristie bolduc, 0.06),  (laurette thrailkill, 0.06),  (mose coletti, 0.06),  (laverna bjornson, 0.06),  (carry pavlick, 0.06),  (thanh hartin, 0.06),  
+05-26-2016:00-21-23	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	do you know delores capell?
+05-26-2016:00-21-30	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	Most of my friends work at Google.
+05-26-2016:00-21-30	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-30	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	[<firstName>: mose],[<fullName>: mose coletti]
+05-26-2016:00-21-30	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(mose coletti, 0.33),  (delores capell, 0.09),  (lucia pizarro, 0.07),  (elene prouty, 0.07),  (lakesha platz, 0.07),  (kristie bolduc, 0.07),  (laurette thrailkill, 0.07),  (laverna bjornson, 0.07),  (carry pavlick, 0.07),  (thanh hartin, 0.07),  
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	and...I do
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	[<firstName>: randi],[<fullName>: randi thorson]
+05-26-2016:00-21-32	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(mose coletti, 0.10),  (delores capell, 0.10),  (lucia pizarro, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  (kristie bolduc, 0.10),  (laurette thrailkill, 0.10),  (laverna bjornson, 0.10),  (carry pavlick, 0.10),  (thanh hartin, 0.10),  
+05-26-2016:00-21-33	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	yep!
+05-26-2016:00-21-35	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:00-21-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	I know Delores!
+05-26-2016:00-21-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: delores],[<fullName>:]
+05-26-2016:00-21-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	SYNONYMS	
+05-26-2016:00-21-36	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	PROBABILITIES	(delores capell, 0.23),  (mose coletti, 0.09),  (lucia pizarro, 0.09),  (elene prouty, 0.09),  (lakesha platz, 0.09),  (kristie bolduc, 0.09),  (laurette thrailkill, 0.09),  (laverna bjornson, 0.09),  (carry pavlick, 0.09),  (thanh hartin, 0.09),  
+05-26-2016:00-21-37	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	yep!
+05-26-2016:00-21-39	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	DEFAULT_BOT	Selected:	Delores Capell
+05-26-2016:00-21-42	e998ac4d-2ea6-4c4c-a5ad-3e60dacbd179	User 1	Selected 4:	Delores Capell
+05-26-2016:00-21-42	---

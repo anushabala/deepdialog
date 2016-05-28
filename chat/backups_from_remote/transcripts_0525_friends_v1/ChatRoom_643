@@ -1,0 +1,30 @@
+05-26-2016:00-42-53	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	joined
+05-26-2016:00-42-53	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0 has user ID 57f6f4d89f8f49da9f659b5885bc6cc8
+05-26-2016:00-42-55	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	hi
+05-26-2016:00-42-55	38c26a81-aa71-4efa-8b10-10d211f6ef44	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-42-55	38c26a81-aa71-4efa-8b10-10d211f6ef44	SYNONYMS	
+05-26-2016:00-42-55	38c26a81-aa71-4efa-8b10-10d211f6ef44	PROBABILITIES	(shannon espiritu, 0.10),  (lashaunda carothers, 0.10),  (brigid imai, 0.10),  (brittney hunley, 0.10),  (kam wey, 0.10),  (jesica seaton, 0.10),  (justa holdeman, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-42-57	38c26a81-aa71-4efa-8b10-10d211f6ef44	DEFAULT_BOT	hi there!
+05-26-2016:00-43-02	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	I went to Stanford and studied Math
+05-26-2016:00-43-02	38c26a81-aa71-4efa-8b10-10d211f6ef44	TAGS	[<major>: math],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-02	38c26a81-aa71-4efa-8b10-10d211f6ef44	SYNONYMS	
+05-26-2016:00-43-02	38c26a81-aa71-4efa-8b10-10d211f6ef44	PROBABILITIES	(lashaunda carothers, 0.15),  (brigid imai, 0.15),  (kam wey, 0.15),  (denny harshberger, 0.15),  (meda lahr, 0.15),  (shannon espiritu, 0.05),  (brittney hunley, 0.05),  (justa holdeman, 0.05),  (jesica seaton, 0.05),  (fletcher hersman, 0.05),  
+05-26-2016:00-43-04	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	I work at Uber
+05-26-2016:00-43-04	38c26a81-aa71-4efa-8b10-10d211f6ef44	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-04	38c26a81-aa71-4efa-8b10-10d211f6ef44	SYNONYMS	
+05-26-2016:00-43-04	38c26a81-aa71-4efa-8b10-10d211f6ef44	PROBABILITIES	(shannon espiritu, 0.22),  (lashaunda carothers, 0.09),  (brigid imai, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  (meda lahr, 0.09),  (brittney hunley, 0.08),  (jesica seaton, 0.08),  (justa holdeman, 0.08),  (fletcher hersman, 0.08),  
+05-26-2016:00-43-12	38c26a81-aa71-4efa-8b10-10d211f6ef44	DEFAULT_BOT	i went to columbia, majored in computer science, work at google
+05-26-2016:00-43-15	38c26a81-aa71-4efa-8b10-10d211f6ef44	DEFAULT_BOT	what about you
+05-26-2016:00-43-21	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	I already typed it
+05-26-2016:00-43-21	38c26a81-aa71-4efa-8b10-10d211f6ef44	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-43-21	38c26a81-aa71-4efa-8b10-10d211f6ef44	SYNONYMS	
+05-26-2016:00-43-21	38c26a81-aa71-4efa-8b10-10d211f6ef44	PROBABILITIES	(shannon espiritu, 0.11),  (lashaunda carothers, 0.10),  (brigid imai, 0.10),  (kam wey, 0.10),  (denny harshberger, 0.10),  (meda lahr, 0.10),  (brittney hunley, 0.10),  (justa holdeman, 0.10),  (jesica seaton, 0.10),  (fletcher hersman, 0.10),  
+05-26-2016:00-43-24	38c26a81-aa71-4efa-8b10-10d211f6ef44	DEFAULT_BOT	shannon, lashaunda?
+05-26-2016:00-43-36	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	Shannon
+05-26-2016:00-43-36	38c26a81-aa71-4efa-8b10-10d211f6ef44	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: shannon],[<fullName>:]
+05-26-2016:00-43-36	38c26a81-aa71-4efa-8b10-10d211f6ef44	SYNONYMS	
+05-26-2016:00-43-36	38c26a81-aa71-4efa-8b10-10d211f6ef44	PROBABILITIES	(shannon espiritu, 0.23),  (lashaunda carothers, 0.09),  (brigid imai, 0.09),  (kam wey, 0.09),  (denny harshberger, 0.09),  (meda lahr, 0.09),  (brittney hunley, 0.09),  (jesica seaton, 0.09),  (justa holdeman, 0.09),  (fletcher hersman, 0.09),  
+05-26-2016:00-43-41	38c26a81-aa71-4efa-8b10-10d211f6ef44	DEFAULT_BOT	yeah, that's the mutual friend
+05-26-2016:00-43-43	38c26a81-aa71-4efa-8b10-10d211f6ef44	DEFAULT_BOT	Selected:	Shannon Espiritu
+05-26-2016:00-43-45	38c26a81-aa71-4efa-8b10-10d211f6ef44	User 0	Selected 5:	Shannon Espiritu
+05-26-2016:00-43-45	---

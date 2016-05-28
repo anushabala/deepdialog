@@ -1,0 +1,45 @@
+05-26-2016:00-28-21	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	joined
+05-26-2016:00-28-21	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0 has user ID a09f74abe74c487bbdb688badeee24d8
+05-26-2016:00-28-28	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	all my friend work at google and 1 works at google
+05-26-2016:00-28-38	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	I have almost all Uber
+05-26-2016:00-28-38	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-38	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-28-38	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(lillia mikel, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (samuel tatum, 0.00),  (jacques castillon, 0.00),  (tess lister, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-28-41	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	lillia mikel 
+05-26-2016:00-28-44	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	and lashaunda carothers
+05-26-2016:00-28-53	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	From University of Pennsylvania
+05-26-2016:00-28-53	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>: university of pennsylvania],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-28-53	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-28-53	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(samuel tatum, 1.00),  (lillia mikel, 1.00),  (tess lister, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (jacques castillon, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-28-55	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	Selected:	Lillia Mikel
+05-26-2016:00-29-08	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	just do the freaking HIT without selecting random names
+05-26-2016:00-29-08	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-08	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	[<firstName>: just],[<fullName>: just]
+05-26-2016:00-29-08	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(samuel tatum, 1.00),  (lillia mikel, 1.00),  (tess lister, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (jacques castillon, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-29-11	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	say
+05-26-2016:00-29-35	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	Do you have any Uber that majored in Physics?
+05-26-2016:00-29-35	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-35	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-29-35	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(lillia mikel, 2.00),  (samuel tatum, 1.00),  (tess lister, 1.00),  (denny harshberger, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (jacques castillon, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-29-37	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	samuel tatum
+05-26-2016:00-30-07	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	What are your majors??
+05-26-2016:00-30-07	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-07	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-30-07	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(lillia mikel, 2.00),  (samuel tatum, 1.00),  (tess lister, 1.00),  (denny harshberger, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (jacques castillon, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-30-09	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	i work at google
+05-26-2016:00-30-29	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	You work at idiot because you aren't even trying to read.
+05-26-2016:00-30-29	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-29	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-30-29	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(lillia mikel, 2.00),  (samuel tatum, 1.00),  (tess lister, 1.00),  (denny harshberger, 1.00),  (lashaunda carothers, 0.00),  (brigid imai, 0.00),  (jacques castillon, 0.00),  (josh gouin, 0.00),  (kam wey, 0.00),  (meda lahr, 0.00),  
+05-26-2016:00-30-37	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	i went to university of california - berkeley and work at google
+05-26-2016:00-30-49	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	I DO NOT HAVE GOOGLE
+05-26-2016:00-30-49	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-49	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-30-49	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(samuel tatum, 2.00),  (lillia mikel, 2.00),  (tess lister, 2.00),  (denny harshberger, 2.00),  (lashaunda carothers, 1.00),  (brigid imai, 1.00),  (jacques castillon, 1.00),  (josh gouin, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  
+05-26-2016:00-30-52	b25447a9-dede-4833-b9cf-58ae4dbb22de	User 0	ALL UBER
+05-26-2016:00-30-52	b25447a9-dede-4833-b9cf-58ae4dbb22de	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-52	b25447a9-dede-4833-b9cf-58ae4dbb22de	SYNONYMS	
+05-26-2016:00-30-52	b25447a9-dede-4833-b9cf-58ae4dbb22de	PROBABILITIES	(lillia mikel, 3.00),  (samuel tatum, 2.00),  (tess lister, 2.00),  (denny harshberger, 2.00),  (lashaunda carothers, 1.00),  (brigid imai, 1.00),  (jacques castillon, 1.00),  (josh gouin, 1.00),  (kam wey, 1.00),  (meda lahr, 1.00),  
+05-26-2016:00-30-56	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	i have lots of friends at google
+05-26-2016:00-30-59	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	mostly 1 google 
+05-26-2016:00-31-01	b25447a9-dede-4833-b9cf-58ae4dbb22de	LSTM_FEATURIZED	1 uber

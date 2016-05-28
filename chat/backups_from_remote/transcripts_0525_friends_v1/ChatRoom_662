@@ -1,0 +1,20 @@
+05-26-2016:00-44-12	9b3737ac-4a8a-4627-b8ff-403dacfe3356	User 1	joined
+05-26-2016:00-44-12	9b3737ac-4a8a-4627-b8ff-403dacfe3356	User 1 has user ID bf11d5dcaf1846a89a46dd1e48acc385
+05-26-2016:00-44-16	9b3737ac-4a8a-4627-b8ff-403dacfe3356	User 1	hey
+05-26-2016:00-44-16	9b3737ac-4a8a-4627-b8ff-403dacfe3356	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-16	9b3737ac-4a8a-4627-b8ff-403dacfe3356	SYNONYMS	
+05-26-2016:00-44-16	9b3737ac-4a8a-4627-b8ff-403dacfe3356	PROBABILITIES	(candy astorga, 0.00),  (oliver roker, 0.00),  (tamara killeen, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (samuel tatum, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-44-21	9b3737ac-4a8a-4627-b8ff-403dacfe3356	LSTM_UNFEATURIZED	i went to columbia and studied economics i work at google
+05-26-2016:00-44-22	9b3737ac-4a8a-4627-b8ff-403dacfe3356	User 1	i have 2 apple friends and the rest are facebook
+05-26-2016:00-44-22	9b3737ac-4a8a-4627-b8ff-403dacfe3356	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-22	9b3737ac-4a8a-4627-b8ff-403dacfe3356	SYNONYMS	
+05-26-2016:00-44-22	9b3737ac-4a8a-4627-b8ff-403dacfe3356	PROBABILITIES	(candy astorga, 1.00),  (oliver roker, 1.00),  (tamara killeen, 1.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (samuel tatum, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-44-28	9b3737ac-4a8a-4627-b8ff-403dacfe3356	LSTM_UNFEATURIZED	i work at google and so does every single friend
+05-26-2016:00-44-38	9b3737ac-4a8a-4627-b8ff-403dacfe3356	User 1	do you know candy?
+05-26-2016:00-44-38	9b3737ac-4a8a-4627-b8ff-403dacfe3356	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: candy],[<fullName>:]
+05-26-2016:00-44-38	9b3737ac-4a8a-4627-b8ff-403dacfe3356	SYNONYMS	
+05-26-2016:00-44-38	9b3737ac-4a8a-4627-b8ff-403dacfe3356	PROBABILITIES	(candy astorga, 2.00),  (oliver roker, 1.00),  (tamara killeen, 1.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (samuel tatum, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-44-43	9b3737ac-4a8a-4627-b8ff-403dacfe3356	LSTM_UNFEATURIZED	my friend candy astorga works at apple
+05-26-2016:00-44-44	9b3737ac-4a8a-4627-b8ff-403dacfe3356	User 1	Selected 4:	Candy Astorga
+05-26-2016:00-44-46	9b3737ac-4a8a-4627-b8ff-403dacfe3356	LSTM_UNFEATURIZED	Selected:	Candy Astorga
+05-26-2016:00-44-46	---

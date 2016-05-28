@@ -1,0 +1,30 @@
+05-26-2016:00-13-56	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	joined
+05-26-2016:00-13-56	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1 has user ID e87516b6b7214293b0f5d21b54e6fa5f
+05-26-2016:00-14-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	hey there, most of my friends work at google with me
+05-26-2016:00-14-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<firstName>: me, most],[<fullName>: me, most]
+05-26-2016:00-14-22	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 1.00),  (maryln drucker, 1.00),  (bernita kerrick, 0.00),  (jon geissler, 0.00),  (keesha ahart, 0.00),  (jody tropea, 0.00),  (barbar scheu, 0.00),  (graig chill, 0.00),  (liana sams, 0.00),  (delbert gapinski, 0.00),  
+05-26-2016:00-14-23	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	hi
+05-26-2016:00-14-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Another works at apple, and the last one at uber
+05-26-2016:00-14-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-14-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 1.00),  (bernita kerrick, 1.00),  (jon geissler, 1.00),  (keesha ahart, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (delbert gapinski, 1.00),  (maryln drucker, 1.00),  
+05-26-2016:00-14-38	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	no uber people here 
+05-26-2016:00-14-41	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	all work at google
+05-26-2016:00-15-10	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	my google friends majored in linguistics and econ, mostly
+05-26-2016:00-15-10	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-10	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<major>: econ]
+05-26-2016:00-15-10	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 3.00),  (maryln drucker, 3.00),  (bernita kerrick, 2.00),  (keesha ahart, 2.00),  (barbar scheu, 2.00),  (liana sams, 2.00),  (delbert gapinski, 2.00),  (jon geissler, 1.00),  (jody tropea, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-15-11	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	Selected:	Renita Canney
+05-26-2016:00-15-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	which one is that?
+05-26-2016:00-15-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-15-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 3.00),  (maryln drucker, 3.00),  (bernita kerrick, 2.00),  (keesha ahart, 2.00),  (barbar scheu, 2.00),  (liana sams, 2.00),  (delbert gapinski, 2.00),  (jon geissler, 1.00),  (jody tropea, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-15-32	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	maryln drucker
+05-26-2016:00-15-44	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	no 
+05-26-2016:00-15-44	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-44	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:00-15-44	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(renita canney, 3.00),  (maryln drucker, 3.00),  (bernita kerrick, 2.00),  (keesha ahart, 2.00),  (barbar scheu, 2.00),  (liana sams, 2.00),  (delbert gapinski, 2.00),  (jon geissler, 1.00),  (jody tropea, 1.00),  (graig chill, 1.00),  
+05-26-2016:00-15-45	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	yes 
+05-26-2016:00-15-48	d41c7c96-99c3-4096-8089-fa0eff2f67b4	LSTM_UNFEATURIZED	bernita kerrick
+05-26-2016:00-15-57	---

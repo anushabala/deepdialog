@@ -1,0 +1,26 @@
+05-26-2016:00-15-19	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	joined
+05-26-2016:00-15-19	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1 has user ID 1c2891370fe549a3963eaa69861c5593
+05-26-2016:00-15-21	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	hey
+05-26-2016:00-15-24	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	sup
+05-26-2016:00-15-24	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-24	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-15-24	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(kristie bolduc, 0.10),  (agueda searcy, 0.10),  (gennie dagley, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-15-32	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	mostly google 1 aple 1 facebook
+05-26-2016:00-15-32	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-32	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	[<companyName>: apple]
+05-26-2016:00-15-32	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(kristie bolduc, 0.10),  (agueda searcy, 0.10),  (gennie dagley, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-15-42	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	i went to university of california - berkeley, majored in economics, work at apple
+05-26-2016:00-15-45	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	what about you
+05-26-2016:00-15-46	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	stanford columbia u of penn
+05-26-2016:00-15-46	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>: stanford, columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-46	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:00-15-46	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(gennie dagley, 0.13),  (tobi brunette, 0.13),  (thanh hartin, 0.13),  (kristie bolduc, 0.09),  (mose coletti, 0.09),  (laverna bjornson, 0.09),  (riva noles, 0.09),  (agueda searcy, 0.08),  (nena krone, 0.08),  (bernita kerrick, 0.08),  
+05-26-2016:00-15-53	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	do you know gennie dagley tobi brunette or thanh hartin?
+05-26-2016:00-16-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	nope
+05-26-2016:00-16-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-16-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	SYNONYMS	
+05-26-2016:00-16-15	754ca300-f8c2-45ab-830a-c0db3fb825dd	PROBABILITIES	(gennie dagley, 0.10),  (tobi brunette, 0.10),  (thanh hartin, 0.10),  (kristie bolduc, 0.10),  (mose coletti, 0.10),  (laverna bjornson, 0.10),  (riva noles, 0.10),  (agueda searcy, 0.10),  (nena krone, 0.10),  (bernita kerrick, 0.10),  
+05-26-2016:00-16-19	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	kristie, mose, laverna?
+05-26-2016:00-16-25	754ca300-f8c2-45ab-830a-c0db3fb825dd	User 1	Selected 2:	Mose Coletti
+05-26-2016:00-16-27	754ca300-f8c2-45ab-830a-c0db3fb825dd	DEFAULT_BOT	Selected:	Mose Coletti
+05-26-2016:00-16-28	---

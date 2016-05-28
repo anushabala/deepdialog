@@ -1,0 +1,21 @@
+05-26-2016:02-09-57	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	joined
+05-26-2016:02-09-57	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0 has user ID 2704ee6a83ab4e24bd9377340576133c
+05-26-2016:02-10-29	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	Hi, I went UC Berkey, majored in CS and work at Amazon
+05-26-2016:02-10-29	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-29	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	[<major>: cs]
+05-26-2016:02-10-29	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(thanh hartin, 1.00),  (candis kita, 1.00),  (francine bateman, 0.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (kristie bolduc, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-10-30	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_UNFEATURIZED	no
+05-26-2016:02-10-44	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	Where did you go to school?
+05-26-2016:02-10-44	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-10-44	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-10-44	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(thanh hartin, 1.00),  (candis kita, 1.00),  (francine bateman, 0.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (kristie bolduc, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-10-48	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_UNFEATURIZED	university of pennsylvania 
+05-26-2016:02-10-50	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_UNFEATURIZED	linguistics 
+05-26-2016:02-10-54	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_UNFEATURIZED	all work at apple except one at amazon
+05-26-2016:02-11-10	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	Do you know Candis?
+05-26-2016:02-11-10	a9166c22-6d1a-4957-a30b-6b7696cf1362	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: candis],[<fullName>:]
+05-26-2016:02-11-10	a9166c22-6d1a-4957-a30b-6b7696cf1362	SYNONYMS	
+05-26-2016:02-11-10	a9166c22-6d1a-4957-a30b-6b7696cf1362	PROBABILITIES	(candis kita, 2.00),  (thanh hartin, 1.00),  (francine bateman, 0.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (kristie bolduc, 0.00),  (laverna bjornson, 0.00),  (aline allshouse, 0.00),  (pearl dollard, 0.00),  (elene prouty, 0.00),  
+05-26-2016:02-11-12	a9166c22-6d1a-4957-a30b-6b7696cf1362	LSTM_UNFEATURIZED	Selected:	Candis Kita
+05-26-2016:02-11-17	a9166c22-6d1a-4957-a30b-6b7696cf1362	User 0	Selected 0:	Candis Kita
+05-26-2016:02-11-18	---

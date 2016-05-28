@@ -1,0 +1,45 @@
+05-26-2016:00-23-19	1d07a865-9dab-425f-9d69-a88843916658	User 0	joined
+05-26-2016:00-23-19	1d07a865-9dab-425f-9d69-a88843916658	User 0 has user ID df0cd8a9ae3440dd8bb566891a8d9689
+05-26-2016:00-23-25	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	all my friend work at uber and 1 works at facebook
+05-26-2016:00-23-26	1d07a865-9dab-425f-9d69-a88843916658	User 0	all my friends work at apple
+05-26-2016:00-23-26	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-26	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-23-26	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 1.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-23-28	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	Selected:	Oliver Roker
+05-26-2016:00-23-39	1d07a865-9dab-425f-9d69-a88843916658	User 0	nope
+05-26-2016:00-23-39	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-39	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-23-39	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 1.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-23-42	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	hit the wrong one person
+05-26-2016:00-24-09	1d07a865-9dab-425f-9d69-a88843916658	User 0	which one is it?
+05-26-2016:00-24-09	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-09	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-24-09	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 1.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-24-12	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	it is oliver roker 
+05-26-2016:00-24-15	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	and one
+05-26-2016:00-24-25	1d07a865-9dab-425f-9d69-a88843916658	User 0	i don't know oliver roker
+05-26-2016:00-24-25	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: oliver roker]
+05-26-2016:00-24-25	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-24-25	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 2.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-24-26	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	yes
+05-26-2016:00-24-34	1d07a865-9dab-425f-9d69-a88843916658	User 0	nope
+05-26-2016:00-24-34	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-34	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-24-34	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 2.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-24-37	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	Selected:	Oliver Roker
+05-26-2016:00-25-00	1d07a865-9dab-425f-9d69-a88843916658	User 0	I don't know them
+05-26-2016:00-25-00	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-00	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-25-00	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 2.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (jon geissler, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-25-02	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	select her 
+05-26-2016:00-25-03	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	you 
+05-26-2016:00-25-06	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	choose her please
+05-26-2016:00-25-13	1d07a865-9dab-425f-9d69-a88843916658	User 0	she is not on my list
+05-26-2016:00-25-13	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-13	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	[<firstName>: on],[<fullName>: on]
+05-26-2016:00-25-13	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 2.00),  (jon geissler, 1.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  
+05-26-2016:00-25-15	1d07a865-9dab-425f-9d69-a88843916658	LSTM_FEATURIZED	jon geissler
+05-26-2016:00-25-20	1d07a865-9dab-425f-9d69-a88843916658	User 0	nope
+05-26-2016:00-25-20	1d07a865-9dab-425f-9d69-a88843916658	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-25-20	1d07a865-9dab-425f-9d69-a88843916658	SYNONYMS	
+05-26-2016:00-25-20	1d07a865-9dab-425f-9d69-a88843916658	PROBABILITIES	(oliver roker, 2.00),  (jon geissler, 1.00),  (tamara killeen, 1.00),  (gregg brian, 0.00),  (brittanie piggott, 0.00),  (quinn courter, 0.00),  (nathanial towery, 0.00),  (kathaleen brough, 0.00),  (candy astorga, 0.00),  (graig chill, 0.00),  

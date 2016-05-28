@@ -1,0 +1,23 @@
+05-26-2016:00-19-42	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	joined
+05-26-2016:00-19-42	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0 has user ID 90f6502026724fe99cc7c507663aa8d0
+05-26-2016:00-19-43	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	hey
+05-26-2016:00-19-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	hello
+05-26-2016:00-19-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-19-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-19-49	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(gregg brian, 0.10),  (brittanie piggott, 0.10),  (quinn courter, 0.10),  (jon geissler, 0.10),  (nathanial towery, 0.10),  (kathaleen brough, 0.10),  (candy astorga, 0.10),  (graig chill, 0.10),  (delbert gapinski, 0.10),  (joetta sequeira, 0.10),  
+05-26-2016:00-19-55	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	i went to columbia and majored in economics
+05-26-2016:00-19-58	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	work at uber
+05-26-2016:00-20-05	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	what's all your information (major school company)
+05-26-2016:00-20-27	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	I went to university of pennsylvania
+05-26-2016:00-20-27	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>: university of pennsylvania],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-27	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-20-27	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(jon geissler, 0.20),  (graig chill, 0.20),  (gregg brian, 0.07),  (brittanie piggott, 0.07),  (quinn courter, 0.07),  (nathanial towery, 0.07),  (kathaleen brough, 0.07),  (candy astorga, 0.07),  (delbert gapinski, 0.07),  (joetta sequeira, 0.07),  
+05-26-2016:00-20-33	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	do you know jon geissler or graig chill?
+05-26-2016:00-20-46	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	II know Jon 
+05-26-2016:00-20-46	31e387a1-7401-42c9-aaeb-916269ac5e2e	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: jon],[<fullName>:]
+05-26-2016:00-20-46	31e387a1-7401-42c9-aaeb-916269ac5e2e	SYNONYMS	
+05-26-2016:00-20-46	31e387a1-7401-42c9-aaeb-916269ac5e2e	PROBABILITIES	(jon geissler, 0.25),  (graig chill, 0.09),  (gregg brian, 0.08),  (brittanie piggott, 0.08),  (quinn courter, 0.08),  (nathanial towery, 0.08),  (kathaleen brough, 0.08),  (candy astorga, 0.08),  (delbert gapinski, 0.08),  (joetta sequeira, 0.08),  
+05-26-2016:00-20-47	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	yeah
+05-26-2016:00-20-50	31e387a1-7401-42c9-aaeb-916269ac5e2e	DEFAULT_BOT	Selected:	Jon Geissler
+05-26-2016:00-20-51	31e387a1-7401-42c9-aaeb-916269ac5e2e	User 0	Selected 8:	Jon Geissler
+05-26-2016:00-20-51	---

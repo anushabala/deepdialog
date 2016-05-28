@@ -1,0 +1,26 @@
+05-26-2016:00-39-40	9979731b-9a56-42f5-812a-f8a35685d874	User 0	joined
+05-26-2016:00-39-40	9979731b-9a56-42f5-812a-f8a35685d874	User 0 has user ID 97931f4dd706430eb167d7b62c330b5e
+05-26-2016:00-40-25	9979731b-9a56-42f5-812a-f8a35685d874	User 0	hi know anyone who works at google?
+05-26-2016:00-40-25	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-25	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-40-25	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(brigid imai, 1.00),  (samuel tatum, 1.00),  (lashawn sharman, 1.00),  (tess lister, 1.00),  (zackary rains, 1.00),  (kam wey, 1.00),  (denny harshberger, 1.00),  (fletcher hersman, 1.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-40-29	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_UNFEATURIZED	1 friend at google rest at google 
+05-26-2016:00-40-32	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_UNFEATURIZED	one is at facebook
+05-26-2016:00-40-46	9979731b-9a56-42f5-812a-f8a35685d874	User 0	did your google friend major in comp sci?
+05-26-2016:00-40-46	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-40-46	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<major>: comp, sci]
+05-26-2016:00-40-46	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(lashawn sharman, 3.00),  (fletcher hersman, 3.00),  (brigid imai, 2.00),  (samuel tatum, 2.00),  (tess lister, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-40-50	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_UNFEATURIZED	lashawn sharman and fletcher hersman
+05-26-2016:00-41-01	9979731b-9a56-42f5-812a-f8a35685d874	User 0	i know lashawn
+05-26-2016:00-41-01	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashawn],[<fullName>:]
+05-26-2016:00-41-01	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	
+05-26-2016:00-41-01	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(lashawn sharman, 4.00),  (fletcher hersman, 3.00),  (brigid imai, 2.00),  (samuel tatum, 2.00),  (tess lister, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-41-02	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_UNFEATURIZED	Selected:	Brigid Imai
+05-26-2016:00-41-26	9979731b-9a56-42f5-812a-f8a35685d874	User 0	do i just click lashawn then?
+05-26-2016:00-41-26	9979731b-9a56-42f5-812a-f8a35685d874	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lashawn],[<fullName>:]
+05-26-2016:00-41-26	9979731b-9a56-42f5-812a-f8a35685d874	SYNONYMS	[<firstName>: just],[<fullName>: just]
+05-26-2016:00-41-26	9979731b-9a56-42f5-812a-f8a35685d874	PROBABILITIES	(lashawn sharman, 5.00),  (fletcher hersman, 3.00),  (brigid imai, 2.00),  (samuel tatum, 2.00),  (tess lister, 2.00),  (zackary rains, 2.00),  (kam wey, 2.00),  (denny harshberger, 2.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  
+05-26-2016:00-41-28	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_UNFEATURIZED	select them
+05-26-2016:00-41-35	9979731b-9a56-42f5-812a-f8a35685d874	User 0	Selected 0:	Lashawn Sharman
+05-26-2016:00-41-36	9979731b-9a56-42f5-812a-f8a35685d874	LSTM_UNFEATURIZED	Selected:	Lashawn Sharman
+05-26-2016:00-41-37	---

@@ -1,0 +1,23 @@
+05-26-2016:02-12-17	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	joined
+05-26-2016:02-12-17	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1 has user ID 1835740d7d974dcba0bad1f6baf1827f
+05-26-2016:02-12-19	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	hey!
+05-26-2016:02-12-27	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	i'm from university of california - berkeley, linguistics, uber
+05-26-2016:02-12-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	school major company?
+05-26-2016:02-12-32	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Hi, I went to U of Penn for physics and work for google
+05-26-2016:02-12-32	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>: physics],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-12-32	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<schoolName>: university of pennsylvania]
+05-26-2016:02-12-32	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(graig chill, 0.13),  (jon geissler, 0.12),  (keesha ahart, 0.12),  (jody tropea, 0.12),  (liana sams, 0.12),  (renita canney, 0.08),  (maryln drucker, 0.08),  (bernita kerrick, 0.07),  (barbar scheu, 0.07),  (delbert gapinski, 0.07),  
+05-26-2016:02-12-39	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	do you know graig chill jon geissler or keesha ahart?
+05-26-2016:02-13-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	No, do you know Santina?
+05-26-2016:02-13-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: santina],[<fullName>:]
+05-26-2016:02-13-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	
+05-26-2016:02-13-02	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(graig chill, 0.10),  (jon geissler, 0.10),  (keesha ahart, 0.10),  (jody tropea, 0.10),  (liana sams, 0.10),  (renita canney, 0.10),  (maryln drucker, 0.10),  (bernita kerrick, 0.10),  (barbar scheu, 0.10),  (delbert gapinski, 0.10),  
+05-26-2016:02-13-05	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	jody tropea?
+05-26-2016:02-13-29	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	No, Marlyln?
+05-26-2016:02-13-29	d41c7c96-99c3-4096-8089-fa0eff2f67b4	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-13-29	d41c7c96-99c3-4096-8089-fa0eff2f67b4	SYNONYMS	[<firstName>: maryln],[<fullName>: maryln drucker, maryln hagaman]
+05-26-2016:02-13-29	d41c7c96-99c3-4096-8089-fa0eff2f67b4	PROBABILITIES	(maryln drucker, 0.33),  (graig chill, 0.07),  (jon geissler, 0.07),  (keesha ahart, 0.07),  (jody tropea, 0.07),  (liana sams, 0.07),  (renita canney, 0.07),  (bernita kerrick, 0.07),  (barbar scheu, 0.07),  (delbert gapinski, 0.07),  
+05-26-2016:02-13-31	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	yes!
+05-26-2016:02-13-33	d41c7c96-99c3-4096-8089-fa0eff2f67b4	DEFAULT_BOT	Selected:	Maryln Drucker
+05-26-2016:02-13-35	d41c7c96-99c3-4096-8089-fa0eff2f67b4	User 1	Selected 4:	Maryln Drucker
+05-26-2016:02-13-36	---

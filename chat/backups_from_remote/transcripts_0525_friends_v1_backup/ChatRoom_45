@@ -1,0 +1,21 @@
+05-26-2016:00-13-17	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	joined
+05-26-2016:00-13-17	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0 has user ID 46420fd169d640eeaa49e67390dcba34
+05-26-2016:00-13-43	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Hi friend 
+05-26-2016:00-13-43	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-13-43	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-13-43	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(lashaunda carothers, 0.00),  (arlen landers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-13-50	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	i have one friend that works at google the rest are google
+05-26-2016:00-14-26	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	What school did they go to 
+05-26-2016:00-14-26	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-26	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	
+05-26-2016:00-14-26	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(lashaunda carothers, 0.00),  (arlen landers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-14-27	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	we that one 
+05-26-2016:00-14-29	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	lashaunda carothers
+05-26-2016:00-15-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	not on my list of friends 
+05-26-2016:00-15-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-15-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	SYNONYMS	[<firstName>: on],[<fullName>: on]
+05-26-2016:00-15-13	6606c4d4-a07f-451c-b1a4-b695349ccd1a	PROBABILITIES	(lashaunda carothers, 0.00),  (arlen landers, 0.00),  (sherika rust, 0.00),  (fletcher hersman, 0.00),  (lai pettaway, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (meda lahr, 0.00),  (riva noles, 0.00),  (zackary rains, 0.00),  
+05-26-2016:00-15-17	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	what about arlen landers or sherika rust
+05-26-2016:00-15-42	6606c4d4-a07f-451c-b1a4-b695349ccd1a	User 0	Selected 9:	Arlen Landers
+05-26-2016:00-15-44	6606c4d4-a07f-451c-b1a4-b695349ccd1a	LSTM_UNFEATURIZED	Selected:	Arlen Landers
+05-26-2016:00-15-44	---

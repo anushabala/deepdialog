@@ -1,0 +1,51 @@
+05-26-2016:00-31-04	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	joined
+05-26-2016:00-31-04	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0 has user ID 7bfab934edfc40db9bcd5cbf967346fa
+05-26-2016:00-31-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	Hi
+05-26-2016:00-31-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-31-08	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 0.00),  (maryln hagaman, 0.00),  (emmanuel eliason, 0.00),  (angelo patch, 0.00),  (branden sjoberg, 0.00),  (raymond polite, 0.00),  (kerry carter, 0.00),  (emmitt nations, 0.00),  (janina rousey, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-31-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	hi
+05-26-2016:00-31-25	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	You have any friends at Amazon?
+05-26-2016:00-31-25	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-31-25	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-31-25	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 1.00),  (maryln hagaman, 1.00),  (angelo patch, 1.00),  (branden sjoberg, 1.00),  (raymond polite, 1.00),  (kerry carter, 1.00),  (emmitt nations, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  (emmanuel eliason, 0.00),  
+05-26-2016:00-31-32	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i went to university of california - berkeley and majored in math 
+05-26-2016:00-31-35	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	all of my friends work at amazon
+05-26-2016:00-32-12	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	I went to UPenn and majored in math
+05-26-2016:00-32-12	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: math],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-12	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-32-12	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 2.00),  (branden sjoberg, 2.00),  (kerry carter, 2.00),  (maryln hagaman, 1.00),  (emmanuel eliason, 1.00),  (angelo patch, 1.00),  (raymond polite, 1.00),  (emmitt nations, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  
+05-26-2016:00-32-14	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	celsa navarrete
+05-26-2016:00-32-42	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	I don't know that person
+05-26-2016:00-32-42	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-42	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-32-42	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 2.00),  (branden sjoberg, 2.00),  (kerry carter, 2.00),  (maryln hagaman, 1.00),  (emmanuel eliason, 1.00),  (angelo patch, 1.00),  (raymond polite, 1.00),  (emmitt nations, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  
+05-26-2016:00-32-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i know someone from amazon
+05-26-2016:00-32-50	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	Any economics friends?
+05-26-2016:00-32-50	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: economics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-50	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-32-50	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 2.00),  (angelo patch, 2.00),  (branden sjoberg, 2.00),  (kerry carter, 2.00),  (emmitt nations, 2.00),  (maryln hagaman, 1.00),  (emmanuel eliason, 1.00),  (raymond polite, 1.00),  (janina rousey, 1.00),  (carley schade, 1.00),  
+05-26-2016:00-32-52	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	computer science 
+05-26-2016:00-32-55	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	any physics majors 
+05-26-2016:00-33-00	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	any friends work at amazon amazon or amazon
+05-26-2016:00-33-03	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	I have no computer science
+05-26-2016:00-33-03	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: computer science],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-03	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-33-03	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 2.00),  (maryln hagaman, 2.00),  (angelo patch, 2.00),  (branden sjoberg, 2.00),  (raymond polite, 2.00),  (kerry carter, 2.00),  (emmitt nations, 2.00),  (janina rousey, 2.00),  (emmanuel eliason, 1.00),  (carley schade, 1.00),  
+05-26-2016:00-33-06	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	i only have two at amazon
+05-26-2016:00-33-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	one physics
+05-26-2016:00-33-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: physics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-33-09	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 2.00),  (maryln hagaman, 2.00),  (angelo patch, 2.00),  (branden sjoberg, 2.00),  (raymond polite, 2.00),  (kerry carter, 2.00),  (emmitt nations, 2.00),  (janina rousey, 2.00),  (carley schade, 2.00),  (emmanuel eliason, 1.00),  
+05-26-2016:00-33-12	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	celsa navarrete
+05-26-2016:00-33-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	one amazon
+05-26-2016:00-33-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-33-46	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 3.00),  (maryln hagaman, 3.00),  (angelo patch, 3.00),  (branden sjoberg, 3.00),  (raymond polite, 3.00),  (kerry carter, 3.00),  (emmitt nations, 3.00),  (janina rousey, 3.00),  (carley schade, 3.00),  (emmanuel eliason, 1.00),  
+05-26-2016:00-33-51	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	everyone i know works at amazon
+05-26-2016:00-33-52	8ff6608a-5c51-4459-9745-3d84af50e8d2	User 0	Upenn, math, amazon
+05-26-2016:00-33-52	8ff6608a-5c51-4459-9745-3d84af50e8d2	TAGS	[<major>: math],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-52	8ff6608a-5c51-4459-9745-3d84af50e8d2	SYNONYMS	
+05-26-2016:00-33-52	8ff6608a-5c51-4459-9745-3d84af50e8d2	PROBABILITIES	(celsa navarrete, 5.00),  (branden sjoberg, 5.00),  (kerry carter, 5.00),  (maryln hagaman, 4.00),  (angelo patch, 4.00),  (raymond polite, 4.00),  (emmitt nations, 4.00),  (janina rousey, 4.00),  (carley schade, 4.00),  (emmanuel eliason, 2.00),  
+05-26-2016:00-33-55	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	branden sjoberg 
+05-26-2016:00-33-58	8ff6608a-5c51-4459-9745-3d84af50e8d2	LSTM_FEATURIZED	what company

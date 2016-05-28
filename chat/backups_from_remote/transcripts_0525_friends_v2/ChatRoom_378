@@ -1,0 +1,36 @@
+05-26-2016:02-30-46	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	joined
+05-26-2016:02-30-46	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-30-48	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	hey!
+05-26-2016:02-30-50	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	hi there
+05-26-2016:02-30-50	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-30-50	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-30-50	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.10),  (sherika rust, 0.10),  (brigid imai, 0.10),  (cori runion, 0.10),  (lorriane hurlbert, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (ngan hornung, 0.10),  (fletcher hersman, 0.10),  (elene prouty, 0.10),  
+05-26-2016:02-30-55	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	i went to columbia and majored in math
+05-26-2016:02-30-58	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	work at google
+05-26-2016:02-31-02	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	major, school, company?
+05-26-2016:02-31-02	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	do you know anyone who works at google?
+05-26-2016:02-31-02	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:02-31-02	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-31-02	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.11),  (sherika rust, 0.11),  (brigid imai, 0.11),  (cori runion, 0.11),  (tess lister, 0.11),  (josh gouin, 0.11),  (ngan hornung, 0.11),  (fletcher hersman, 0.11),  (lorriane hurlbert, 0.04),  (elene prouty, 0.04),  
+05-26-2016:02-31-06	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	lashaunda carothers?
+05-26-2016:02-31-23	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	do you know anyone who works at uber
+05-26-2016:02-31-23	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-31-23	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-31-23	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.10),  (sherika rust, 0.10),  (brigid imai, 0.10),  (cori runion, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (ngan hornung, 0.10),  (fletcher hersman, 0.10),  (lorriane hurlbert, 0.09),  (elene prouty, 0.09),  
+05-26-2016:02-31-29	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	do you know sherika rust or brigid imai?
+05-26-2016:02-31-35	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	Selected 0:	Lucienne Whitting
+05-26-2016:02-31-37	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	nah
+05-26-2016:02-31-41	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	hmm, do you know cori?
+05-26-2016:02-31-46	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	no
+05-26-2016:02-31-46	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-31-46	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-31-46	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.10),  (sherika rust, 0.10),  (brigid imai, 0.10),  (cori runion, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (ngan hornung, 0.10),  (fletcher hersman, 0.10),  (lorriane hurlbert, 0.10),  (elene prouty, 0.10),  
+05-26-2016:02-31-52	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	do you know tess lister or josh gouin?
+05-26-2016:02-31-53	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	do you know anyone who works at amazon
+05-26-2016:02-31-53	54aeb89e-f39c-41cb-8a46-aa86d06394cd	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-31-53	54aeb89e-f39c-41cb-8a46-aa86d06394cd	SYNONYMS	
+05-26-2016:02-31-53	54aeb89e-f39c-41cb-8a46-aa86d06394cd	PROBABILITIES	(lashaunda carothers, 0.10),  (sherika rust, 0.10),  (brigid imai, 0.10),  (cori runion, 0.10),  (tess lister, 0.10),  (josh gouin, 0.10),  (ngan hornung, 0.10),  (fletcher hersman, 0.10),  (lorriane hurlbert, 0.10),  (elene prouty, 0.10),  
+05-26-2016:02-32-00	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	do you know ngan hornung or fletcher hersman?
+05-26-2016:02-32-07	54aeb89e-f39c-41cb-8a46-aa86d06394cd	User 0	Selected 4:	Ngan Hornung
+05-26-2016:02-32-09	54aeb89e-f39c-41cb-8a46-aa86d06394cd	DEFAULT_BOT	Selected:	Ngan Hornung
+05-26-2016:02-32-09	---

@@ -1,0 +1,63 @@
+05-26-2016:00-31-58	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	joined
+05-26-2016:00-31-58	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0 has user ID b7a6a0a4dfd4492398932052bc074c73
+05-26-2016:00-32-00	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	hi
+05-26-2016:00-32-10	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	one uber, one amazon, all else apple
+05-26-2016:00-32-10	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, amazon, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-10	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-32-10	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-32-20	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	i went to university of california - berkeley and majored in computer science
+05-26-2016:00-32-23	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	work at amazon
+05-26-2016:00-32-27	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	school major company?
+05-26-2016:00-32-29	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	thats irrelevant
+05-26-2016:00-32-29	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-29	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-32-29	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-32-33	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	hmm, do you know colin?
+05-26-2016:00-32-45	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	do you have friends at uber or amazon?
+05-26-2016:00-32-45	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber, amazon],[<firstName>:],[<fullName>:]
+05-26-2016:00-32-45	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-32-45	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-32-51	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	are harris or maryln on your list?
+05-26-2016:00-33-09	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	against the rules.
+05-26-2016:00-33-09	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-09	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-33-09	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-33-13	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	do you know angelo patch?
+05-26-2016:00-33-13	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-33-13	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-13	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-33-13	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-33-21	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	do you know branden sjoberg karma echeverria or celsa navarrete?
+05-26-2016:00-33-37	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-33-37	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-37	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-33-37	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-33-40	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	emmitt, candis?
+05-26-2016:00-33-45	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-33-45	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-45	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-33-45	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-33-48	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	carley, colin?
+05-26-2016:00-33-51	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-33-51	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-51	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-33-51	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-33-56	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	are harris or maryln on your list?
+05-26-2016:00-34-01	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-34-01	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-01	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-34-01	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-34-05	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	hmm, do you know angelo?
+05-26-2016:00-34-08	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-34-08	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-08	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-34-08	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-34-12	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	branden sjoberg?
+05-26-2016:00-34-15	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	no.
+05-26-2016:00-34-15	6885ed78-157c-49d4-84df-ae8e83c0106c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-15	6885ed78-157c-49d4-84df-ae8e83c0106c	SYNONYMS	
+05-26-2016:00-34-15	6885ed78-157c-49d4-84df-ae8e83c0106c	PROBABILITIES	(colin higby, 0.10),  (harris schramm, 0.10),  (maryln hagaman, 0.10),  (angelo patch, 0.10),  (branden sjoberg, 0.10),  (karma echeverria, 0.10),  (celsa navarrete, 0.10),  (emmitt nations, 0.10),  (candis kita, 0.10),  (carley schade, 0.10),  
+05-26-2016:00-34-20	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	hmm, do you know karma?
+05-26-2016:00-34-25	6885ed78-157c-49d4-84df-ae8e83c0106c	User 0	Selected 6:	Karma Echeverria
+05-26-2016:00-34-27	6885ed78-157c-49d4-84df-ae8e83c0106c	DEFAULT_BOT	Selected:	Karma Echeverria
+05-26-2016:00-34-27	---

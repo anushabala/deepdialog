@@ -1,0 +1,27 @@
+05-26-2016:01-50-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1	joined
+05-26-2016:01-50-25	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1 has user ID 823d814dd40c476c905dc96344181367
+05-26-2016:01-51-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1	Hello.  I went to Stanford and majored in Computer Science.  I now work for Uber.  How about you?
+05-26-2016:01-51-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>: computer science],[<schoolName>: stanford],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-51-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:01-51-04	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (kendrick friday, 1.00),  (geneva hofmeister, 1.00),  (kristie bolduc, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-51-10	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	i work at apple and went to columbia math
+05-26-2016:01-51-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1	Do you know Quinn Courter?
+05-26-2016:01-51-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: quinn courter]
+05-26-2016:01-51-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:01-51-41	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (kendrick friday, 1.00),  (geneva hofmeister, 1.00),  (kristie bolduc, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-51-43	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	no
+05-26-2016:01-52-22	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1	Do you know Nathanial Towery?
+05-26-2016:01-52-22	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: nathanial towery]
+05-26-2016:01-52-22	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:01-52-22	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (kendrick friday, 1.00),  (geneva hofmeister, 1.00),  (kristie bolduc, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-52-22	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	no
+05-26-2016:01-52-42	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1	Do you know Brittanie Piggott?
+05-26-2016:01-52-42	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: brittanie piggott]
+05-26-2016:01-52-42	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:01-52-42	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(riva noles, 2.00),  (thanh hartin, 1.00),  (kendrick friday, 1.00),  (geneva hofmeister, 1.00),  (kristie bolduc, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-52-43	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	no
+05-26-2016:01-52-58	bdf0853c-a0e9-4a20-b613-a774af5cd855	User 1	Do you know Geneva Hofmeister?
+05-26-2016:01-52-58	bdf0853c-a0e9-4a20-b613-a774af5cd855	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: geneva hofmeister]
+05-26-2016:01-52-58	bdf0853c-a0e9-4a20-b613-a774af5cd855	SYNONYMS	
+05-26-2016:01-52-58	bdf0853c-a0e9-4a20-b613-a774af5cd855	PROBABILITIES	(riva noles, 2.00),  (geneva hofmeister, 2.00),  (thanh hartin, 1.00),  (kendrick friday, 1.00),  (kristie bolduc, 0.00),  (pearl dollard, 0.00),  (bernita kerrick, 0.00),  (oliver roker, 0.00),  (susanna pulley, 0.00),  (aline allshouse, 0.00),  
+05-26-2016:01-53-02	bdf0853c-a0e9-4a20-b613-a774af5cd855	LSTM_FEATURIZED	do you know anyone with that friend

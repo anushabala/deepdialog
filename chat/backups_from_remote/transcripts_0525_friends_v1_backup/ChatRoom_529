@@ -1,0 +1,86 @@
+05-26-2016:00-37-42	f9704564-c23c-4b19-b6d9-52223708922d	User 0	joined
+05-26-2016:00-37-42	f9704564-c23c-4b19-b6d9-52223708922d	User 0 has user ID f5556e747aa64bfeacd2877a64164995
+05-26-2016:00-37-52	f9704564-c23c-4b19-b6d9-52223708922d	User 0	hi, all my friends work at apple with me.
+05-26-2016:00-37-54	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-37-54	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	[<firstName>: me],[<fullName>: me]
+05-26-2016:00-37-54	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-37-55	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	lashaunda carothers 
+05-26-2016:00-37-58	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	or sherika rust
+05-26-2016:00-38-02	f9704564-c23c-4b19-b6d9-52223708922d	User 0	yeah, no
+05-26-2016:00-38-02	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-02	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-38-02	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-38-07	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	those are randi thorson or josh gouin
+05-26-2016:00-38-18	f9704564-c23c-4b19-b6d9-52223708922d	User 0	"avoid listing out names"
+05-26-2016:00-38-18	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-18	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-38-18	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-38-21	f9704564-c23c-4b19-b6d9-52223708922d	User 1	joined
+05-26-2016:00-38-21	f9704564-c23c-4b19-b6d9-52223708922d	User 1 has user ID 703c5a50450344d88bdfa419585590af
+05-26-2016:00-38-21	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	only ones left o 
+05-26-2016:00-38-23	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	Selected:	Samuel Tatum
+05-26-2016:00-38-28	f9704564-c23c-4b19-b6d9-52223708922d	User 1	hi
+05-26-2016:00-38-28	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-28	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-38-28	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(tangela raschke, 0.00),  (samuel tatum, 0.00),  (tamara killeen, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (josh gouin, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-38-29	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	hi
+05-26-2016:00-38-38	f9704564-c23c-4b19-b6d9-52223708922d	User 1	do you have any friends at facebook?
+05-26-2016:00-38-38	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-38	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-38-38	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(tangela raschke, 0.00),  (samuel tatum, 0.00),  (tamara killeen, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (josh gouin, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-38-41	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	no one from google here
+05-26-2016:00-38-52	f9704564-c23c-4b19-b6d9-52223708922d	User 1	what about apple?
+05-26-2016:00-38-52	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-38-52	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-38-52	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(tamara killeen, 1.00),  (tangela raschke, 0.00),  (samuel tatum, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (josh gouin, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-38-54	---
+05-26-2016:00-38-55	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	no apple friends
+05-26-2016:00-38-58	f9704564-c23c-4b19-b6d9-52223708922d	User 0	joined
+05-26-2016:00-38-58	f9704564-c23c-4b19-b6d9-52223708922d	User 0 has user ID f5556e747aa64bfeacd2877a64164995
+05-26-2016:00-39-09	f9704564-c23c-4b19-b6d9-52223708922d	User 1	facebook?
+05-26-2016:00-39-09	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-09	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-09	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(tamara killeen, 1.00),  (tangela raschke, 0.00),  (samuel tatum, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (josh gouin, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-39-10	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	all 
+05-26-2016:00-39-13	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	3 economics linguistics 
+05-26-2016:00-39-14	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	or google
+05-26-2016:00-39-18	f9704564-c23c-4b19-b6d9-52223708922d	User 1	do you know carry?
+05-26-2016:00-39-18	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: carry],[<fullName>:]
+05-26-2016:00-39-18	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-18	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(tamara killeen, 1.00),  (tangela raschke, 0.00),  (samuel tatum, 0.00),  (jesica seaton, 0.00),  (tyson rankins, 0.00),  (josh gouin, 0.00),  (zackary rains, 0.00),  (kam wey, 0.00),  (denny harshberger, 0.00),  (fletcher hersman, 0.00),  
+05-26-2016:00-39-21	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	tamara killeen say
+05-26-2016:00-39-24	f9704564-c23c-4b19-b6d9-52223708922d	User 0	hi, i work at apple and all my friends work at apple too
+05-26-2016:00-39-25	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, apple],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-25	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-25	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 1.00),  (sherika rust, 1.00),  (samuel tatum, 1.00),  (randi thorson, 1.00),  (josh gouin, 1.00),  (lai pettaway, 1.00),  (denny harshberger, 1.00),  (renay guel, 1.00),  (meda lahr, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-39-28	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	i dont know anyone at google 
+05-26-2016:00-39-31	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	or facebook
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	User 0	no one said google
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-34	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (samuel tatum, 2.00),  (josh gouin, 2.00),  (lai pettaway, 2.00),  (denny harshberger, 2.00),  (meda lahr, 2.00),  (randi thorson, 1.00),  (renay guel, 1.00),  (fletcher hass, 1.00),  
+05-26-2016:00-39-37	f9704564-c23c-4b19-b6d9-52223708922d	User 0	or facebook
+05-26-2016:00-39-37	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-37	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-37	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (samuel tatum, 2.00),  (josh gouin, 2.00),  (lai pettaway, 2.00),  (denny harshberger, 2.00),  (renay guel, 2.00),  (meda lahr, 2.00),  (fletcher hass, 2.00),  (randi thorson, 1.00),  
+05-26-2016:00-39-41	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	do any of your friends work for google
+05-26-2016:00-39-43	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	i only have uber
+05-26-2016:00-39-44	f9704564-c23c-4b19-b6d9-52223708922d	User 0	no!
+05-26-2016:00-39-44	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-44	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-44	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (samuel tatum, 2.00),  (josh gouin, 2.00),  (lai pettaway, 2.00),  (denny harshberger, 2.00),  (renay guel, 2.00),  (meda lahr, 2.00),  (fletcher hass, 2.00),  (randi thorson, 1.00),  
+05-26-2016:00-39-46	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	uber 
+05-26-2016:00-39-49	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	lashaunda carothers
+05-26-2016:00-39-53	f9704564-c23c-4b19-b6d9-52223708922d	User 1	Selected 8:	Carry Pavlick
+05-26-2016:00-39-54	f9704564-c23c-4b19-b6d9-52223708922d	User 0	you suck
+05-26-2016:00-39-54	f9704564-c23c-4b19-b6d9-52223708922d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-39-54	f9704564-c23c-4b19-b6d9-52223708922d	SYNONYMS	
+05-26-2016:00-39-54	f9704564-c23c-4b19-b6d9-52223708922d	PROBABILITIES	(lashaunda carothers, 2.00),  (sherika rust, 2.00),  (samuel tatum, 2.00),  (josh gouin, 2.00),  (lai pettaway, 2.00),  (denny harshberger, 2.00),  (renay guel, 2.00),  (meda lahr, 2.00),  (fletcher hass, 2.00),  (randi thorson, 1.00),  
+05-26-2016:00-39-55	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	Selected:	Tangela Raschke
+05-26-2016:00-39-56	---
+05-26-2016:00-40-02	f9704564-c23c-4b19-b6d9-52223708922d	User 0	joined
+05-26-2016:00-40-02	f9704564-c23c-4b19-b6d9-52223708922d	User 0 has user ID f5556e747aa64bfeacd2877a64164995
+05-26-2016:00-40-03	f9704564-c23c-4b19-b6d9-52223708922d	LSTM_UNFEATURIZED	Selected:	Sherika Rust
+05-26-2016:00-40-07	---
+05-26-2016:00-40-19	f9704564-c23c-4b19-b6d9-52223708922d	User 0	joined
+05-26-2016:00-40-19	f9704564-c23c-4b19-b6d9-52223708922d	User 0 has user ID f5556e747aa64bfeacd2877a64164995

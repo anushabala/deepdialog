@@ -1,0 +1,15 @@
+05-26-2016:01-52-20	fe264055-a001-4e3b-a8d5-b099796b952d	User 0	joined
+05-26-2016:01-52-20	fe264055-a001-4e3b-a8d5-b099796b952d	User 0 has user ID 0626ee3f3e0348bdb0e9427130c9739d
+05-26-2016:01-52-36	fe264055-a001-4e3b-a8d5-b099796b952d	User 0	Hi - all of my list has apple and 1 ber
+05-26-2016:01-52-36	fe264055-a001-4e3b-a8d5-b099796b952d	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-36	fe264055-a001-4e3b-a8d5-b099796b952d	SYNONYMS	[<schoolName>: ber],[<companyName>: ber]
+05-26-2016:01-52-36	fe264055-a001-4e3b-a8d5-b099796b952d	PROBABILITIES	(lovella bowling, 1.00),  (alberto thurlow, 1.00),  (brittanie piggott, 1.00),  (lillia mikel, 1.00),  (kathaleen brough, 1.00),  (jody tropea, 1.00),  (barbar scheu, 1.00),  (johnathan mccolley, 1.00),  (liana sams, 1.00),  (willie wicks, 1.00),  
+05-26-2016:01-52-38	fe264055-a001-4e3b-a8d5-b099796b952d	User 0	uber
+05-26-2016:01-52-38	fe264055-a001-4e3b-a8d5-b099796b952d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-38	fe264055-a001-4e3b-a8d5-b099796b952d	SYNONYMS	
+05-26-2016:01-52-38	fe264055-a001-4e3b-a8d5-b099796b952d	PROBABILITIES	(lovella bowling, 2.00),  (alberto thurlow, 2.00),  (brittanie piggott, 2.00),  (lillia mikel, 2.00),  (kathaleen brough, 2.00),  (jody tropea, 2.00),  (barbar scheu, 2.00),  (johnathan mccolley, 2.00),  (liana sams, 2.00),  (willie wicks, 2.00),  
+05-26-2016:01-52-43	fe264055-a001-4e3b-a8d5-b099796b952d	LSTM_FEATURIZED	hi all of my friends work for uber
+05-26-2016:01-52-46	fe264055-a001-4e3b-a8d5-b099796b952d	LSTM_FEATURIZED	pick the uber
+05-26-2016:01-52-50	fe264055-a001-4e3b-a8d5-b099796b952d	User 0	Selected 0:	Lovella Bowling
+05-26-2016:01-52-53	fe264055-a001-4e3b-a8d5-b099796b952d	LSTM_FEATURIZED	Selected:	Lovella Bowling
+05-26-2016:01-52-53	---

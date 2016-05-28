@@ -1,0 +1,26 @@
+05-26-2016:01-52-11	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	joined
+05-26-2016:01-52-11	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1 has user ID b9d3306a0cd74f34a88b109fedce48bd
+05-26-2016:01-52-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	Hello
+05-26-2016:01-52-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:01-52-14	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(tinisha blagg, 0.00),  (janina rousey, 0.00),  (harris schramm, 0.00),  (quinn courter, 0.00),  (maryln hagaman, 0.00),  (rick damico, 0.00),  (ernest sisemore, 0.00),  (raymond polite, 0.00),  (kendrick friday, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-52-17	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	hi
+05-26-2016:01-52-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	I went to Uni of Penn, majored in CS, and work at Uber
+05-26-2016:01-52-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	[<major>: cs],[<schoolName>: uni, penn]
+05-26-2016:01-52-27	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(janina rousey, 1.00),  (quinn courter, 1.00),  (maryln hagaman, 1.00),  (rick damico, 1.00),  (ernest sisemore, 1.00),  (raymond polite, 1.00),  (kendrick friday, 1.00),  (tinisha blagg, 0.00),  (harris schramm, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-52-31	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	i went to columbia and math 
+05-26-2016:01-52-33	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	work at fb
+05-26-2016:01-52-38	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	Kendrick Friday?
+05-26-2016:01-52-38	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: kendrick friday]
+05-26-2016:01-52-38	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:01-52-38	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(kendrick friday, 2.00),  (janina rousey, 1.00),  (quinn courter, 1.00),  (maryln hagaman, 1.00),  (rick damico, 1.00),  (ernest sisemore, 1.00),  (raymond polite, 1.00),  (tinisha blagg, 0.00),  (harris schramm, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-52-43	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	how about kendrick friday 
+05-26-2016:01-52-46	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	Selected:	Janina Rousey
+05-26-2016:01-52-49	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	Sound good =)
+05-26-2016:01-52-49	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-52-49	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	SYNONYMS	
+05-26-2016:01-52-49	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	PROBABILITIES	(kendrick friday, 2.00),  (janina rousey, 1.00),  (quinn courter, 1.00),  (maryln hagaman, 1.00),  (rick damico, 1.00),  (ernest sisemore, 1.00),  (raymond polite, 1.00),  (tinisha blagg, 0.00),  (harris schramm, 0.00),  (elene prouty, 0.00),  
+05-26-2016:01-52-51	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	Selected:	Quinn Courter
+05-26-2016:01-52-53	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	User 1	Selected 3:	Kendrick Friday
+05-26-2016:01-52-56	65198d51-9ce0-4a6b-b3d1-6a9ac2cdf0ff	LSTM_UNFEATURIZED	Selected:	Kendrick Friday

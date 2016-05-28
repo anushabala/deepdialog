@@ -1,0 +1,27 @@
+05-26-2016:02-07-02	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	joined
+05-26-2016:02-07-02	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:02-07-04	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	hello
+05-26-2016:02-07-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	hi there
+05-26-2016:02-07-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:02-07-08	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(francine bateman, 0.10),  (susanna pulley, 0.10),  (alberto thurlow, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-07-16	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	i went to university of pennsylvania, majored in math, work at apple
+05-26-2016:02-07-19	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	what about you
+05-26-2016:02-07-33	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	all of my friends went to berkeley except rick damico and emmitt nations
+05-26-2016:02-07-33	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: rick damico, emmitt nations]
+05-26-2016:02-07-33	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:02-07-33	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(francine bateman, 0.10),  (susanna pulley, 0.10),  (alberto thurlow, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (laverna bjornson, 0.10),  (aline allshouse, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-07-36	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	francine?
+05-26-2016:02-07-50	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	no, also i know myong kary
+05-26-2016:02-07-50	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: myong kary]
+05-26-2016:02-07-50	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:02-07-50	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(laverna bjornson, 0.10),  (susanna pulley, 0.10),  (alberto thurlow, 0.10),  (mose coletti, 0.10),  (tobi brunette, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (pearl dollard, 0.10),  (riva noles, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:02-07-53	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	laverna bjornson?
+05-26-2016:02-08-26	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	no, my friends who work at apple are susanna pulley, niki bybee
+05-26-2016:02-08-26	f73251a9-f8c5-44c9-bff7-43587d78dff1	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>: susanna pulley, niki bybee]
+05-26-2016:02-08-26	f73251a9-f8c5-44c9-bff7-43587d78dff1	SYNONYMS	
+05-26-2016:02-08-26	f73251a9-f8c5-44c9-bff7-43587d78dff1	PROBABILITIES	(susanna pulley, 0.25),  (francine bateman, 0.09),  (mose coletti, 0.09),  (tobi brunette, 0.09),  (laverna bjornson, 0.09),  (aline allshouse, 0.09),  (pearl dollard, 0.09),  (riva noles, 0.09),  (lakesha platz, 0.09),  (alberto thurlow, 0.03),  
+05-26-2016:02-08-28	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	yes!
+05-26-2016:02-08-30	f73251a9-f8c5-44c9-bff7-43587d78dff1	DEFAULT_BOT	Selected:	Susanna Pulley
+05-26-2016:02-08-32	f73251a9-f8c5-44c9-bff7-43587d78dff1	User 0	Selected 9:	Susanna Pulley
+05-26-2016:02-08-33	---

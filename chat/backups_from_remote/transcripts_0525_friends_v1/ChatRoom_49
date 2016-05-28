@@ -1,0 +1,19 @@
+05-26-2016:00-13-36	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	joined
+05-26-2016:00-13-36	3b581f22-214d-460c-aadc-b43e21c957e2	User 1 has user ID a09f74abe74c487bbdb688badeee24d8
+05-26-2016:00-13-38	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	hey!
+05-26-2016:00-13-48	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	i went to university of california - berkeley and majored in computer science
+05-26-2016:00-13-51	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	work at apple
+05-26-2016:00-13-53	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	you?
+05-26-2016:00-14-06	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	I have no berkely. I went to stanford for computer science!
+05-26-2016:00-14-06	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>: computer science],[<schoolName>: stanford],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-14-06	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	[<schoolName>: university of california berkeley]
+05-26-2016:00-14-06	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 0.13),  (mose coletti, 0.10),  (thanh hartin, 0.10),  (susanna pulley, 0.09),  (bernita kerrick, 0.09),  (beau roudebush, 0.09),  (gennie dagley, 0.09),  (tobi brunette, 0.09),  (laverna bjornson, 0.09),  (aline allshouse, 0.09),  
+05-26-2016:00-14-11	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	are riva or mose on your list?
+05-26-2016:00-14-18	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	riva stanford
+05-26-2016:00-14-18	3b581f22-214d-460c-aadc-b43e21c957e2	TAGS	[<major>:],[<schoolName>: stanford],[<companyName>:],[<firstName>: riva],[<fullName>:]
+05-26-2016:00-14-18	3b581f22-214d-460c-aadc-b43e21c957e2	SYNONYMS	
+05-26-2016:00-14-18	3b581f22-214d-460c-aadc-b43e21c957e2	PROBABILITIES	(riva noles, 0.42),  (mose coletti, 0.15),  (thanh hartin, 0.05),  (susanna pulley, 0.05),  (bernita kerrick, 0.05),  (beau roudebush, 0.05),  (gennie dagley, 0.05),  (tobi brunette, 0.05),  (laverna bjornson, 0.05),  (aline allshouse, 0.05),  
+05-26-2016:00-14-20	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	yep!
+05-26-2016:00-14-22	3b581f22-214d-460c-aadc-b43e21c957e2	DEFAULT_BOT	Selected:	Riva Noles
+05-26-2016:00-14-24	3b581f22-214d-460c-aadc-b43e21c957e2	User 1	Selected 7:	Riva Noles
+05-26-2016:00-14-24	---

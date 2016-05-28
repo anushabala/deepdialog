@@ -1,0 +1,15 @@
+05-26-2016:00-11-00	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 0	joined
+05-26-2016:00-11-00	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 0 has user ID 2db20768da994ed4b7ae18963fce7bea
+05-26-2016:00-11-07	0a682e0f-8bb5-443c-80e1-ed161812af2c	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at facebook
+05-26-2016:00-11-14	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 0	ok that facebook friend is gonna be a match
+05-26-2016:00-11-14	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-14	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	[<major>: match]
+05-26-2016:00-11-14	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 2.00),  (jon geissler, 1.00),  (gennie dagley, 1.00),  (tobi brunette, 1.00),  (aline allshouse, 1.00),  (angelo patch, 0.00),  (emmitt nations, 0.00),  (rick damico, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-11-16	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 0	who is it
+05-26-2016:00-11-16	0a682e0f-8bb5-443c-80e1-ed161812af2c	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-11-16	0a682e0f-8bb5-443c-80e1-ed161812af2c	SYNONYMS	
+05-26-2016:00-11-16	0a682e0f-8bb5-443c-80e1-ed161812af2c	PROBABILITIES	(clarisa mattison, 2.00),  (jon geissler, 1.00),  (gennie dagley, 1.00),  (tobi brunette, 1.00),  (aline allshouse, 1.00),  (angelo patch, 0.00),  (emmitt nations, 0.00),  (rick damico, 0.00),  (raymond polite, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-11-19	0a682e0f-8bb5-443c-80e1-ed161812af2c	LSTM_UNFEATURIZED	clarisa mattison
+05-26-2016:00-11-22	0a682e0f-8bb5-443c-80e1-ed161812af2c	User 0	Selected 9:	Clarisa Mattison
+05-26-2016:00-11-25	0a682e0f-8bb5-443c-80e1-ed161812af2c	LSTM_UNFEATURIZED	Selected:	Clarisa Mattison
+05-26-2016:00-11-25	---

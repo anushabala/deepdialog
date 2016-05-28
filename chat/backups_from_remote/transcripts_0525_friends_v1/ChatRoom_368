@@ -1,0 +1,43 @@
+05-26-2016:00-29-45	061d1345-1a85-486e-86eb-6a30510235fe	User 0	joined
+05-26-2016:00-29-45	061d1345-1a85-486e-86eb-6a30510235fe	User 0 has user ID 2db20768da994ed4b7ae18963fce7bea
+05-26-2016:00-29-49	061d1345-1a85-486e-86eb-6a30510235fe	User 0	hey
+05-26-2016:00-29-49	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-29-49	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-29-49	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (justa holdeman, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-29-56	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	all my friend work at amazon and 1 works at facebook
+05-26-2016:00-29-58	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	hi
+05-26-2016:00-30-03	061d1345-1a85-486e-86eb-6a30510235fe	User 0	ok which is the one at facebook
+05-26-2016:00-30-03	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-03	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-30-03	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 1.00),  (myong kary, 0.00),  (celsa navarrete, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (branden sjoberg, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-30-05	061d1345-1a85-486e-86eb-6a30510235fe	User 0	that'll be a match
+05-26-2016:00-30-05	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-05	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	[<major>: match]
+05-26-2016:00-30-05	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(celsa navarrete, 1.00),  (branden sjoberg, 1.00),  (justa holdeman, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-30-09	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	any computer science majors
+05-26-2016:00-30-11	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	celsa navarrete
+05-26-2016:00-30-14	061d1345-1a85-486e-86eb-6a30510235fe	User 0	what
+05-26-2016:00-30-14	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-14	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-30-14	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(celsa navarrete, 1.00),  (branden sjoberg, 1.00),  (justa holdeman, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-30-18	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	only 2 at amazon for me 
+05-26-2016:00-30-19	061d1345-1a85-486e-86eb-6a30510235fe	User 0	that can't be right, check again
+05-26-2016:00-30-19	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-30-19	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-30-19	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(celsa navarrete, 1.00),  (branden sjoberg, 1.00),  (justa holdeman, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-30-22	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	branden sjoberg and justa holdeman
+05-26-2016:00-30-24	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	myong kary
+05-26-2016:00-30-27	061d1345-1a85-486e-86eb-6a30510235fe	User 0	justa
+05-26-2016:00-30-27	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: justa],[<fullName>:]
+05-26-2016:00-30-27	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-30-27	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 2.00),  (celsa navarrete, 1.00),  (branden sjoberg, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-30-30	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	Selected:	Harris Schramm
+05-26-2016:00-30-34	061d1345-1a85-486e-86eb-6a30510235fe	User 0	choose justa holdeman
+05-26-2016:00-30-34	061d1345-1a85-486e-86eb-6a30510235fe	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: justa holdeman]
+05-26-2016:00-30-34	061d1345-1a85-486e-86eb-6a30510235fe	SYNONYMS	
+05-26-2016:00-30-34	061d1345-1a85-486e-86eb-6a30510235fe	PROBABILITIES	(justa holdeman, 3.00),  (celsa navarrete, 1.00),  (branden sjoberg, 1.00),  (myong kary, 0.00),  (harris schramm, 0.00),  (maryln hagaman, 0.00),  (angelo patch, 0.00),  (rick damico, 0.00),  (emmitt nations, 0.00),  (carley schade, 0.00),  
+05-26-2016:00-30-36	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	yes 
+05-26-2016:00-30-38	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	Selected:	Celsa Navarrete
+05-26-2016:00-30-50	061d1345-1a85-486e-86eb-6a30510235fe	User 0	Selected 7:	Justa Holdeman
+05-26-2016:00-30-53	061d1345-1a85-486e-86eb-6a30510235fe	LSTM_UNFEATURIZED	Selected:	Justa Holdeman
+05-26-2016:00-30-53	---

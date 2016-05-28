@@ -1,0 +1,24 @@
+05-26-2016:00-33-26	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	joined
+05-26-2016:00-33-26	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0 has user ID 36cbf45d6d5740a1aaea3b334abd8b7c
+05-26-2016:00-33-28	c2c42406-5f36-4ae5-abb1-96d8f2f58424	DEFAULT_BOT	hello
+05-26-2016:00-33-29	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	hey
+05-26-2016:00-33-29	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-29	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-33-29	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 0.10),  (bernita kerrick, 0.10),  (beau roudebush, 0.10),  (tamara killeen, 0.10),  (clorinda hites, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (agueda searcy, 0.10),  
+05-26-2016:00-33-39	c2c42406-5f36-4ae5-abb1-96d8f2f58424	DEFAULT_BOT	i went to university of california - berkeley and majored in computer science
+05-26-2016:00-33-41	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	one of my friends works at apple, the others facebook
+05-26-2016:00-33-41	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:00-33-41	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-33-41	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(susanna pulley, 0.10),  (bernita kerrick, 0.10),  (beau roudebush, 0.10),  (tamara killeen, 0.10),  (clorinda hites, 0.10),  (laverna bjornson, 0.10),  (nena krone, 0.10),  (thanh hartin, 0.10),  (pearl dollard, 0.10),  (agueda searcy, 0.10),  
+05-26-2016:00-33-44	c2c42406-5f36-4ae5-abb1-96d8f2f58424	DEFAULT_BOT	work at apple
+05-26-2016:00-33-47	c2c42406-5f36-4ae5-abb1-96d8f2f58424	DEFAULT_BOT	what about you?
+05-26-2016:00-34-08	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	no, my friend went to columbia and studied physics
+05-26-2016:00-34-08	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>: physics],[<schoolName>: columbia],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-08	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-34-08	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(laverna bjornson, 0.37),  (tamara killeen, 0.14),  (pearl dollard, 0.14),  (susanna pulley, 0.05),  (bernita kerrick, 0.05),  (beau roudebush, 0.05),  (clorinda hites, 0.05),  (nena krone, 0.05),  (thanh hartin, 0.05),  (agueda searcy, 0.05),  
+05-26-2016:00-34-14	c2c42406-5f36-4ae5-abb1-96d8f2f58424	DEFAULT_BOT	do you know laverna, tamara or pearl?
+05-26-2016:00-34-31	c2c42406-5f36-4ae5-abb1-96d8f2f58424	User 0	you are not supposed to do that
+05-26-2016:00-34-31	c2c42406-5f36-4ae5-abb1-96d8f2f58424	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-34-31	c2c42406-5f36-4ae5-abb1-96d8f2f58424	SYNONYMS	
+05-26-2016:00-34-31	c2c42406-5f36-4ae5-abb1-96d8f2f58424	PROBABILITIES	(laverna bjornson, 0.13),  (tamara killeen, 0.10),  (pearl dollard, 0.10),  (susanna pulley, 0.09),  (bernita kerrick, 0.09),  (beau roudebush, 0.09),  (clorinda hites, 0.09),  (nena krone, 0.09),  (thanh hartin, 0.09),  (agueda searcy, 0.09),  
+05-26-2016:00-34-37	c2c42406-5f36-4ae5-abb1-96d8f2f58424	DEFAULT_BOT	do you know susanna pulley or bernita kerrick?

@@ -1,0 +1,31 @@
+05-26-2016:00-20-39	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	joined
+05-26-2016:00-20-39	4f3b985d-4f5f-4207-a796-7d233772377d	User 0 has user ID a46bc7cff940437a8c6d267a51da3626
+05-26-2016:00-20-44	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	all my friend work at facebook and 1 works at uber
+05-26-2016:00-20-52	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	All my friends are uber
+05-26-2016:00-20-52	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-20-52	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-20-52	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 1.00),  (maritza horrell, 0.00),  (laurette thrailkill, 0.00),  (brittney hunley, 0.00),  (mose coletti, 0.00),  (carry pavlick, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-20-55	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	all friends work at apple
+05-26-2016:00-21-01	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	i went to u of pennsylvanis, and majored in linguistics
+05-26-2016:00-21-01	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>: linguistics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-01	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	[<schoolName>: pennsylvanis]
+05-26-2016:00-21-01	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 2.00),  (laurette thrailkill, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (maritza horrell, 0.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-21-02	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	you?
+05-26-2016:00-21-02	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-02	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-21-02	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 2.00),  (laurette thrailkill, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (maritza horrell, 0.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-21-05	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	what was your major
+05-26-2016:00-21-07	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	linguistics
+05-26-2016:00-21-08	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	who works at uber
+05-26-2016:00-21-08	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-08	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-21-08	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 3.00),  (laurette thrailkill, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (maritza horrell, 0.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-21-10	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	barbar scheu
+05-26-2016:00-21-14	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	its her
+05-26-2016:00-21-14	4f3b985d-4f5f-4207-a796-7d233772377d	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-21-14	4f3b985d-4f5f-4207-a796-7d233772377d	SYNONYMS	
+05-26-2016:00-21-14	4f3b985d-4f5f-4207-a796-7d233772377d	PROBABILITIES	(barbar scheu, 3.00),  (laurette thrailkill, 1.00),  (mose coletti, 1.00),  (carry pavlick, 1.00),  (maritza horrell, 0.00),  (brittney hunley, 0.00),  (justa holdeman, 0.00),  (renay guel, 0.00),  (fletcher hass, 0.00),  (birgit heid, 0.00),  
+05-26-2016:00-21-16	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	Selected:	Laurette Thrailkill
+05-26-2016:00-21-17	4f3b985d-4f5f-4207-a796-7d233772377d	User 0	Selected 5:	Barbar Scheu
+05-26-2016:00-21-18	4f3b985d-4f5f-4207-a796-7d233772377d	LSTM_UNFEATURIZED	Selected:	Barbar Scheu
+05-26-2016:00-21-18	---

@@ -1,0 +1,16 @@
+05-26-2016:00-44-30	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	joined
+05-26-2016:00-44-30	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:00-44-37	868ed725-1ec0-42c4-a075-6a9158bf96a0	LSTM_FEATURIZED	all my friend work at apple and 1 works at apple
+05-26-2016:00-44-39	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	hi there
+05-26-2016:00-44-39	868ed725-1ec0-42c4-a075-6a9158bf96a0	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-44-39	868ed725-1ec0-42c4-a075-6a9158bf96a0	SYNONYMS	
+05-26-2016:00-44-39	868ed725-1ec0-42c4-a075-6a9158bf96a0	PROBABILITIES	(kristie bolduc, 0.00),  (pearl dollard, 0.00),  (jon geissler, 0.00),  (oliver roker, 0.00),  (tamara killeen, 0.00),  (tobi brunette, 0.00),  (giovanni wilbur, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-44-42	868ed725-1ec0-42c4-a075-6a9158bf96a0	LSTM_FEATURIZED	Selected:	Kristie Bolduc
+05-26-2016:00-44-57	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	I have two friends who work at apple. Giovanni wilbur and jenny hird
+05-26-2016:00-44-57	868ed725-1ec0-42c4-a075-6a9158bf96a0	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>: giovanni wilbur, jenny hird]
+05-26-2016:00-44-57	868ed725-1ec0-42c4-a075-6a9158bf96a0	SYNONYMS	[<firstName>: jenny],[<fullName>: jenny]
+05-26-2016:00-44-57	868ed725-1ec0-42c4-a075-6a9158bf96a0	PROBABILITIES	(giovanni wilbur, 2.00),  (kristie bolduc, 1.00),  (pearl dollard, 1.00),  (oliver roker, 1.00),  (tamara killeen, 1.00),  (tobi brunette, 1.00),  (riva noles, 1.00),  (elene prouty, 1.00),  (lakesha platz, 1.00),  (jon geissler, 0.00),  
+05-26-2016:00-45-02	868ed725-1ec0-42c4-a075-6a9158bf96a0	LSTM_FEATURIZED	i have one friend who went to stanford 
+05-26-2016:00-45-05	868ed725-1ec0-42c4-a075-6a9158bf96a0	LSTM_FEATURIZED	Selected:	Giovanni Wilbur
+05-26-2016:00-45-09	868ed725-1ec0-42c4-a075-6a9158bf96a0	User 1	Selected 3:	Giovanni Wilbur
+05-26-2016:00-45-09	---

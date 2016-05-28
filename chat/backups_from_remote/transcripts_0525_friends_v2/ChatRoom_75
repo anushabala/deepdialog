@@ -1,0 +1,40 @@
+05-26-2016:01-52-54	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	joined
+05-26-2016:01-52-54	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1 has user ID 89ab107fb5644c9c966165a31b66fd70
+05-26-2016:01-52-56	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	hello
+05-26-2016:01-53-02	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Hi
+05-26-2016:01-53-02	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-02	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-53-02	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.10),  (gennie dagley, 0.10),  (toney ghee, 0.10),  (francine bateman, 0.10),  (santina kenley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:01-53-11	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Do any of your friends work at amazon?
+05-26-2016:01-53-11	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-11	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-53-11	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.10),  (gennie dagley, 0.10),  (toney ghee, 0.10),  (francine bateman, 0.10),  (santina kenley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:01-53-20	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	i went to university of pennsylvania, majored in physics, work at apple
+05-26-2016:01-53-24	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	major, school, company?
+05-26-2016:01-53-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	I major in economics. Do any of your friends major in econmics?
+05-26-2016:01-53-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>: economics],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-53-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-53-52	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.20),  (toney ghee, 0.20),  (gennie dagley, 0.07),  (francine bateman, 0.07),  (santina kenley, 0.07),  (aline allshouse, 0.07),  (thanh hartin, 0.07),  (riva noles, 0.07),  (elene prouty, 0.07),  (lakesha platz, 0.07),  
+05-26-2016:01-53-56	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	hmm, do you know oliver?
+05-26-2016:01-54-07	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	No
+05-26-2016:01-54-07	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-07	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-54-07	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.11),  (toney ghee, 0.11),  (gennie dagley, 0.10),  (francine bateman, 0.10),  (santina kenley, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  
+05-26-2016:01-54-12	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	do you know toney ghee or gennie dagley?
+05-26-2016:01-54-15	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Do any of them work at apple?
+05-26-2016:01-54-15	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-15	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-54-15	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.11),  (toney ghee, 0.11),  (gennie dagley, 0.11),  (francine bateman, 0.11),  (aline allshouse, 0.11),  (thanh hartin, 0.11),  (riva noles, 0.11),  (elene prouty, 0.11),  (lakesha platz, 0.11),  (santina kenley, 0.04),  
+05-26-2016:01-54-17	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	francine?
+05-26-2016:01-54-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	No
+05-26-2016:01-54-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-54-38	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.10),  (toney ghee, 0.10),  (gennie dagley, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  (santina kenley, 0.09),  
+05-26-2016:01-54-45	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	do you know aline allshouse thanh hartin or riva noles?
+05-26-2016:01-54-46	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Do any work at FB or google?
+05-26-2016:01-54-46	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:01-54-46	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	SYNONYMS	
+05-26-2016:01-54-46	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	PROBABILITIES	(oliver roker, 0.10),  (toney ghee, 0.10),  (gennie dagley, 0.10),  (francine bateman, 0.10),  (aline allshouse, 0.10),  (thanh hartin, 0.10),  (riva noles, 0.10),  (elene prouty, 0.10),  (lakesha platz, 0.10),  (santina kenley, 0.10),  
+05-26-2016:01-54-49	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	elene prouty?
+05-26-2016:01-55-04	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	User 1	Selected 5:	Toney Ghee
+05-26-2016:01-55-06	bf73a71e-4085-4b3d-aa8a-fdbae72af83a	DEFAULT_BOT	Selected:	Toney Ghee

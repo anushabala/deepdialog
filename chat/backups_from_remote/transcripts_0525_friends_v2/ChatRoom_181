@@ -1,0 +1,36 @@
+05-26-2016:02-00-35	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	joined
+05-26-2016:02-00-35	62f07f79-b605-4f76-82bc-7bebe611334b	User 0 has user ID 0626ee3f3e0348bdb0e9427130c9739d
+05-26-2016:02-00-42	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	all my friend work at apple and 1 works at amazon
+05-26-2016:02-00-52	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	hi sorry - all of mine are at facebook
+05-26-2016:02-00-52	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-52	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:02-00-52	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:02-00-53	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	any  of them?
+05-26-2016:02-00-53	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-00-53	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:02-00-53	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:02-01-00	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	you dont know lawanna mars or birgit heid 
+05-26-2016:02-01-03	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	or susanna pulley
+05-26-2016:02-01-05	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	Selected:	Lawanna Mars
+05-26-2016:02-01-16	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	sorry no match
+05-26-2016:02-01-16	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-16	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	[<major>: match]
+05-26-2016:02-01-16	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 1.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:02-01-18	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	lawanna mars say
+05-26-2016:02-01-29	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	dont have lawanna
+05-26-2016:02-01-29	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: lawanna],[<fullName>:]
+05-26-2016:02-01-29	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:02-01-29	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 2.00),  (birgit heid, 1.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:02-01-30	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	yes
+05-26-2016:02-01-41	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	is that your only facebook?
+05-26-2016:02-01-41	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-01-41	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	
+05-26-2016:02-01-41	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 3.00),  (birgit heid, 2.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:02-01-46	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	you have to university of california - berkeley
+05-26-2016:02-02-08	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	My two are birgit heid and clorinda hites from berekley
+05-26-2016:02-02-08	62f07f79-b605-4f76-82bc-7bebe611334b	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>: birgit heid, clorinda hites]
+05-26-2016:02-02-08	62f07f79-b605-4f76-82bc-7bebe611334b	SYNONYMS	[<schoolName>: berekley]
+05-26-2016:02-02-08	62f07f79-b605-4f76-82bc-7bebe611334b	PROBABILITIES	(lawanna mars, 3.00),  (birgit heid, 3.00),  (susanna pulley, 0.00),  (bernita kerrick, 0.00),  (angelo patch, 0.00),  (frederick willetts, 0.00),  (julissa bond, 0.00),  (laverna bjornson, 0.00),  (oliver roker, 0.00),  (nena krone, 0.00),  
+05-26-2016:02-02-10	62f07f79-b605-4f76-82bc-7bebe611334b	LSTM_FEATURIZED	Selected:	Birgit Heid
+05-26-2016:02-02-14	62f07f79-b605-4f76-82bc-7bebe611334b	User 0	Selected 7:	Birgit Heid
+05-26-2016:02-02-14	---

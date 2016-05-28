@@ -1,0 +1,21 @@
+05-26-2016:00-23-31	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	joined
+05-26-2016:00-23-31	66cfe508-e9be-47b1-a9b6-d19115629538	User 1 has user ID f94b43baecaa464190913e14959c8ebe
+05-26-2016:00-23-36	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	hi there
+05-26-2016:00-23-36	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-36	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-23-36	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(oliver roker, 0.00),  (gennie dagley, 0.00),  (thanh hartin, 0.00),  (francine bateman, 0.00),  (santina kenley, 0.00),  (aline allshouse, 0.00),  (archie hiltz, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-23-41	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_FEATURIZED	all my friend work at apple and 1 works at google
+05-26-2016:00-23-44	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_FEATURIZED	Selected:	Oliver Roker
+05-26-2016:00-23-48	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	All of my friends work at google except one at uber
+05-26-2016:00-23-48	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>: google, uber],[<firstName>:],[<fullName>:]
+05-26-2016:00-23-48	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-23-48	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(santina kenley, 1.00),  (archie hiltz, 1.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (thanh hartin, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-23-51	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_FEATURIZED	oliver roker
+05-26-2016:00-24-11	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	nope. Who works at google for you?
+05-26-2016:00-24-11	66cfe508-e9be-47b1-a9b6-d19115629538	TAGS	[<major>:],[<schoolName>:],[<companyName>: google],[<firstName>:],[<fullName>:]
+05-26-2016:00-24-11	66cfe508-e9be-47b1-a9b6-d19115629538	SYNONYMS	
+05-26-2016:00-24-11	66cfe508-e9be-47b1-a9b6-d19115629538	PROBABILITIES	(archie hiltz, 2.00),  (santina kenley, 1.00),  (oliver roker, 0.00),  (gennie dagley, 0.00),  (thanh hartin, 0.00),  (francine bateman, 0.00),  (aline allshouse, 0.00),  (riva noles, 0.00),  (elene prouty, 0.00),  (lakesha platz, 0.00),  
+05-26-2016:00-24-16	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_FEATURIZED	my friend archie hiltz went to stanford
+05-26-2016:00-24-20	66cfe508-e9be-47b1-a9b6-d19115629538	User 1	Selected 1:	Archie Hiltz
+05-26-2016:00-24-23	66cfe508-e9be-47b1-a9b6-d19115629538	LSTM_FEATURIZED	Selected:	Archie Hiltz
+05-26-2016:00-24-23	---

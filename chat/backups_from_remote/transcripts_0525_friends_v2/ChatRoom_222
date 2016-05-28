@@ -1,0 +1,31 @@
+05-26-2016:02-04-46	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	joined
+05-26-2016:02-04-46	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0 has user ID ebb03f64d9994dfea749f8777106c8bb
+05-26-2016:02-04-51	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	all my friend work at uber and 1 works at uber
+05-26-2016:02-05-23	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	ihave 2 friends at uber
+05-26-2016:02-05-23	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>: uber],[<firstName>:],[<fullName>:]
+05-26-2016:02-05-23	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:02-05-23	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (barbar scheu, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  
+05-26-2016:02-05-28	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	what about jon geissler or vickey redinger
+05-26-2016:02-06-08	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	none of those
+05-26-2016:02-06-08	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-08	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:02-06-08	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (barbar scheu, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  
+05-26-2016:02-06-11	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	last friend keesha ahart
+05-26-2016:02-06-29	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	not her
+05-26-2016:02-06-29	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-29	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:02-06-29	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (barbar scheu, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (geneva hofmeister, 1.00),  (colin higby, 0.00),  
+05-26-2016:02-06-34	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	do any of your friends work with me at amazon
+05-26-2016:02-06-49	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	none of my frinds work at amazon
+05-26-2016:02-06-49	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>: amazon],[<firstName>:],[<fullName>:]
+05-26-2016:02-06-49	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:02-06-49	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(colin higby, 1.00),  (jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (barbar scheu, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (geneva hofmeister, 1.00),  
+05-26-2016:02-06-53	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	i dont have any friends there 
+05-26-2016:02-06-57	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	i know a single uber friend
+05-26-2016:02-07-26	1004abd1-58bf-43aa-a488-efff1b9bb61a	User 0	what school did you go to
+05-26-2016:02-07-26	1004abd1-58bf-43aa-a488-efff1b9bb61a	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-07-26	1004abd1-58bf-43aa-a488-efff1b9bb61a	SYNONYMS	
+05-26-2016:02-07-26	1004abd1-58bf-43aa-a488-efff1b9bb61a	PROBABILITIES	(colin higby, 1.00),  (jon geissler, 1.00),  (vickey redinger, 1.00),  (keesha ahart, 1.00),  (nathanial towery, 1.00),  (barbar scheu, 1.00),  (santina kenley, 1.00),  (graig chill, 1.00),  (liana sams, 1.00),  (geneva hofmeister, 1.00),  
+05-26-2016:02-07-28	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	ucb 
+05-26-2016:02-07-31	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	colin higby 
+05-26-2016:02-07-33	1004abd1-58bf-43aa-a488-efff1b9bb61a	LSTM_UNFEATURIZED	jon geissler

@@ -1,0 +1,31 @@
+05-26-2016:02-27-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	joined
+05-26-2016:02-27-18	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1 has user ID 00e9a46033224dbd9833878a3ae6d745
+05-26-2016:02-27-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Hello. ONe friend at Apple the rest are at Facebook.
+05-26-2016:02-27-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: apple, facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:02-27-34	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(susanna pulley, 1.00),  (bernita kerrick, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:02-27-37	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	i have one friend at apple
+05-26-2016:02-27-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Thanh?
+05-26-2016:02-27-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: thanh],[<fullName>:]
+05-26-2016:02-27-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:02-27-40	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(susanna pulley, 1.00),  (bernita kerrick, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (lawanna mars, 1.00),  (birgit heid, 1.00),  (angelo patch, 0.00),  
+05-26-2016:02-27-43	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	susanna pulley
+05-26-2016:02-27-53	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Any facebook friends?
+05-26-2016:02-27-53	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>: facebook],[<firstName>:],[<fullName>:]
+05-26-2016:02-27-53	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:02-27-53	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(lawanna mars, 2.00),  (birgit heid, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (angelo patch, 0.00),  
+05-26-2016:02-27-59	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	any from university of california - berkeley 
+05-26-2016:02-28-02	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	linguistics 
+05-26-2016:02-28-03	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	apple
+05-26-2016:02-28-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Darrel?
+05-26-2016:02-28-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>: darrel],[<fullName>:]
+05-26-2016:02-28-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	
+05-26-2016:02-28-15	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(lawanna mars, 2.00),  (birgit heid, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (angelo patch, 0.00),  
+05-26-2016:02-28-17	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	no
+05-26-2016:02-28-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Brigit?
+05-26-2016:02-28-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	TAGS	[<major>:],[<schoolName>:],[<companyName>:],[<firstName>:],[<fullName>:]
+05-26-2016:02-28-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	SYNONYMS	[<firstName>: brigit],[<fullName>: brigit]
+05-26-2016:02-28-22	c08894d1-87ea-4912-8a4e-c30d6cf08f56	PROBABILITIES	(birgit heid, 3.00),  (lawanna mars, 2.00),  (susanna pulley, 1.00),  (bernita kerrick, 1.00),  (frederick willetts, 1.00),  (julissa bond, 1.00),  (laverna bjornson, 1.00),  (oliver roker, 1.00),  (nena krone, 1.00),  (angelo patch, 0.00),  
+05-26-2016:02-28-24	c08894d1-87ea-4912-8a4e-c30d6cf08f56	LSTM_FEATURIZED	Selected:	Birgit Heid
+05-26-2016:02-28-28	c08894d1-87ea-4912-8a4e-c30d6cf08f56	User 1	Selected 8:	Birgit Heid
+05-26-2016:02-28-28	---
