@@ -327,6 +327,7 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout
   Supports dataset mapping x to multiple y.  If so, it treats
   any of those y as acceptable answers.
   """
+  print '### evaluate(%s)' % name
   is_correct_list = []
   tokens_correct_list = []
   x_len_list = []
@@ -379,7 +380,7 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout
     print 'Example %d' % example_num
     print '  x      = {}'.format(x_words)
     print '  y      = {}'.format(y_words_all[0])
-    print '  yinds  = {}'.format(y_inds_all[0])
+    #print '  yinds  = {}'.format(y_inds_all[0])
 
     y_pred = decode(model, x_inds)
     y_pred_words = out_vocabulary.indices_to_sentence(y_pred)
@@ -389,8 +390,8 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout
     y_inds_all_flat = [list(itertools.chain(*t)) for t in y_inds_all]
     y_words_all_flat = [" ".join(t) for t in y_words_all]
 
-    print '  yindsallflat       = {}'.format(y_inds_all_flat)
-    print '  ywordsallflat      = {}'.format(y_words_all_flat)
+    #print '  yindsallflat       = {}'.format(y_inds_all_flat)
+    #print '  ywordsallflat      = {}'.format(y_words_all_flat)
 
     #y_pred_flat = list(itertools.chain(*y_pred))
     #y_pred_words_flat = list(itertools.chain(*y_pred_words))
@@ -463,12 +464,13 @@ def run():
 
   logstats.init(OPTIONS.stats_file)
 
+  # Read data
   if OPTIONS.train_data:
     train_raw, train_metadata = load_dataset('train', OPTIONS.train_data)
-    try:
-      assert len(train_raw) == len(train_metadata)
-    except AssertionError:
-      print len(train_raw), len(train_metadata)
+  if OPTIONS.dev_data:
+    dev_raw, dev_metadata = load_dataset('dev', OPTIONS.dev_data)
+
+  # Create vocab
   if OPTIONS.load_params:
     print >> sys.stderr, 'Loading saved params from %s' % OPTIONS.load_params
     spec = specutil.load(OPTIONS.load_params)
@@ -482,11 +484,35 @@ def run():
   else:
     raise Exception('Must either provide parameters to load or training data.')
 
-  model = get_model(spec)
+  def evaluate_after_epoch(it):
+    # Evaluate on both training and dev data
+    if OPTIONS.train_data:
+      eval_fh = open_if_specified(OPTIONS.train_eval_file, "w")
+      evaluate('train', model, in_vocabulary, out_vocabulary, train_data_for_eval, train_metadata, eval_fh)
+      close_if_specified(eval_fh)
+    if OPTIONS.dev_data:
+      eval_fh = open_if_specified(OPTIONS.dev_eval_file, "w")
+      evaluate('dev', dev_model, in_vocabulary, out_vocabulary, dev_data_for_eval, dev_metadata, eval_fh)
+      close_if_specified(eval_fh)
 
+  # Set up models
+  model = get_model(spec)
+  model.add_listener(evaluate_after_epoch)
+  dev_model = update_model(model, dev_raw)
+
+  # Preprocess data
   if OPTIONS.train_data:
     train_data = preprocess_data(in_vocabulary, out_vocabulary, train_raw)
     train_data_for_eval = preprocess_data_for_eval(in_vocabulary, out_vocabulary, train_raw)
+  if OPTIONS.dev_data:
+    dev_data = preprocess_data(dev_model.in_vocabulary,
+                               dev_model.out_vocabulary, dev_raw)
+    dev_data_for_eval = preprocess_data_for_eval(dev_model.in_vocabulary,
+                                                 dev_model.out_vocabulary, dev_raw)
+
+
+  # Train!
+  if OPTIONS.train_data:
     model.train(train_data, T=OPTIONS.num_epochs, eta=OPTIONS.learning_rate,
                 batch_size=OPTIONS.batch_size, verbose=True)
 
@@ -494,23 +520,6 @@ def run():
     print >> sys.stderr, 'Saving parameters...'
     spec.save(OPTIONS.save_params)
 
-  if OPTIONS.train_data:
-    print 'Training data:'
-    eval_fh = open_if_specified(OPTIONS.train_eval_file, "w")
-    evaluate('train', model, in_vocabulary, out_vocabulary, train_data_for_eval, train_metadata, eval_fh)
-    close_if_specified(eval_fh)
-
-  if OPTIONS.dev_data:
-    dev_raw, dev_metadata = load_dataset('dev', OPTIONS.dev_data)
-    dev_model = update_model(model, dev_raw)
-    dev_data = preprocess_data(dev_model.in_vocabulary,
-                               dev_model.out_vocabulary, dev_raw)
-    dev_data_for_eval = preprocess_data_for_eval(dev_model.in_vocabulary,
-                                                 dev_model.out_vocabulary, dev_raw)
-    print 'Testing data:'
-    eval_fh = open_if_specified(OPTIONS.dev_eval_file, "w")
-    evaluate('dev', dev_model, in_vocabulary, out_vocabulary, dev_data_for_eval, dev_metadata, eval_fh)
-    close_if_specified(eval_fh)
 
 def main():
   _parse_args()

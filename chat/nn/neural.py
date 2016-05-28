@@ -52,6 +52,9 @@ class NeuralModel(object):
         """Do all necessary setup (e.g. compile theano functions)."""
         raise NotImplementedError
 
+    def add_listener(self, listener):
+        self.listeners.append(listener)
+
     def get_objective_and_gradients(self, x, y):
         """Get objective and gradients.
 
@@ -65,12 +68,12 @@ class NeuralModel(object):
         """Decode x to predict y, greedily."""
         raise NotImplementedError
 
-    def on_train_epoch(self, t):
+    def on_train_epoch(self, it):
         """Optional method to do things every epoch."""
         # for p in self.params:
         #   print '%s: %s' % (p.name, p.get_value())
         for listener in self.listeners:
-            listener(t, self)
+            listener(it)
 
     def train(self, dataset, eta=0.1, T=10, verbose=False, batch_size=1):
         print 'NeuralModel.train()'
@@ -86,7 +89,7 @@ class NeuralModel(object):
                 nll = self._train_batch(cur_examples, eta, do_update=do_update)
                 total_nll += nll
                 if verbose:
-                    print 'NeuralModel.train(): iter %d, nll = %g' % (it, nll)
+                    print 'NeuralModel.train(): iter %d, %d/%d examples, nll = %g' % (it, i, len(dataset), nll)
             t1 = time.time()
             logstats.add('train', 'nll', total_nll)
             logstats.add('train', 'time', t1 - t0)

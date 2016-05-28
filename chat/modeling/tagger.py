@@ -281,6 +281,7 @@ class EntityTagger(object):
     def possible_prefix_matches(self, word):
         possible_matches = defaultdict(list)
         prefixes = get_prefixes(word)
+        print prefixes
         for prefix in prefixes:
             for entity_type in Entity.types():
                 if entity_type == Entity.FIRST_NAME or entity_type == Entity.FULL_NAME:
