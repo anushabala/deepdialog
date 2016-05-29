@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
     all_models = ["lstm_unfeat", "lstm_feat", "bot"]
     models = []
-    if params["lstms"]["use_feat_lstm"]:
+    if params["lstms"].get("use_feat_lstm"):
         num_bots += 1
         print "Loading model with features from from %s" % params["lstms"]["lstm_feat"]
         spec = specutil.load(params["lstms"]["lstm_feat"])
@@ -84,7 +84,7 @@ if __name__ == '__main__':
         models.append("lstm_feat")
     else:
         app.config["lstm_feat"] = None
-    if params["lstms"]["use_unfeat_lstm"]:
+    if params["lstms"].get("use_unfeat_lstm"):
         num_bots += 1
         print "Loading model without features from %s" % params["lstms"]["lstm_unfeat"]
         spec = specutil.load(params["lstms"]["lstm_unfeat"])
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     else:
         app.config["lstm_unfeat"] = None
 
-    if params["use_bots"]:
+    if params.get("use_bots"):
         num_bots += 1
         app.config["use_bots"] = True
         models.append("bot")

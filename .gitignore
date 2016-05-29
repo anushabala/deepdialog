@@ -1,2 +1,5 @@
 *.pyc
 output
+venv
+chat.log
+chat_state.db

@@ -19,9 +19,10 @@ class Executor(object):
     '''
     Executes logical forms on a world state (scenario, state, ...)
     '''
-    def __init__(self, scenario, agent):
+    def __init__(self, scenario, agent, args):
         self.scenario = scenario
         self.agent = agent
+        self.args = args
 
         # Convert JSON format into a nicer table format so we can do joins
         self.table = []  # List of dictionaries
@@ -68,32 +69,36 @@ class Executor(object):
 
         # Generate my relations
         for f in apply_relation_of('A'):  # e.g., CompanyOf(A)
-            yield get_first(f)
+            if self.args.formulas_mode == 'full':
+                yield get_first(f)
             yield f
 
         # Generate relations of my friends
         for f in apply_relation_of(['FriendOfA']):  # e.g., CompanyOf(FriendOfA)[0]
-            yield get_first(f)
+            if self.args.formulas_mode == 'full':
+                yield get_first(f)
             yield f
 
         # Generate friends
         for f in ['FriendOfA']:  # e.g., FriendOfA
-            yield get_first(f)
+            if self.args.formulas_mode == 'full':
+                yield get_first(f)
             yield f
 
-        # Generate friends with properties mentioned in the utterances
-        for f in apply_has_relation([get_last('MentionOfB'), 'MentionOfA', get_last('MentionOfB'), 'MentionOfB', 'NextMention']):  # e.g., Count(And(FriendOfA,HasCompany(NextMention)))
-            for combine in [intersect, diff]:
-                for select in [count, get_first]:
-                    yield select(combine('FriendOfA', f))
+        if self.args.formulas_mode == 'full':
+            # Generate friends with properties mentioned in the utterances
+            for f in apply_has_relation([get_last('MentionOfB'), 'MentionOfA', get_last('MentionOfB'), 'MentionOfB', 'NextMention']):  # e.g., Count(And(FriendOfA,HasCompany(NextMention)))
+                for combine in [intersect, diff]:
+                    for select in [count, get_first]:
+                        yield select(combine('FriendOfA', f))
 
-        # Generate friends not mentioned before
-        yield diff('FriendOfA', 'MentionOfA')
+            # Generate friends not mentioned before
+            yield diff('FriendOfA', 'MentionOfA')
 
-        # Last things mentioned
-        yield get_last('MentionOfA')
-        yield get_last('MentionOfB')
-        yield 'MentionOfB'
+            # Last things mentioned
+            yield get_last('MentionOfA')
+            yield get_last('MentionOfB')
+            yield 'MentionOfB'
 
     def execute(self, state, who, tokens, i, formula):
         # Base cases
@@ -103,7 +108,8 @@ class Executor(object):
             if formula == 'FriendOfA':
                 return [row['Name'] for row in self.table[1:]]
             if formula == 'MentionOfA':
-                return state.mentions[self.agent]
+                # Include both things in previous utterances (in state) and in same utterances
+                return state.mentions[self.agent] + [x for x in tokens[:i-1] if is_entity(x)]
             if formula == 'MentionOfB':
                 return state.mentions[1-self.agent]
             if formula == 'NextMention':
@@ -138,7 +144,7 @@ class Executor(object):
         if func == 'And':
             return [x for x in args[0] if x in args[1]]
         if func == 'Diff':
-            if len(args[1]) == 0:  # Pragmatic failure: subtracting off nothing
+            if len(args[1]) == 0:  # Presupposition failure: subtracting off nothing
                 return None
             return [x for x in args[0] if x not in args[1]]
 

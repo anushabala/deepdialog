@@ -1,40 +1,44 @@
 {
-    "status_params": {
-	"waiting": {
-	    "num_seconds": 15
-	},
-	
-	"chat": {
-	    "num_seconds": 300,
-	    "presentation_config": {
-		"numerical_preferences": false,
-		"numerical_prices": false
-    	    }
-	},
-	
-	"single_task": {
-	    "num_seconds": -1,
-	    "max_tasks": 5
-	},
-	
-	"finished": {
-	    "num_seconds": 15
-	}
+  "status_params": {
+    "waiting": {
+      "num_seconds": 15
+    },
+  
+    "chat": {
+      "num_seconds": 300,
+      "presentation_config": {
+        "numerical_preferences": false,
+        "numerical_prices": false
+      }
     },
     
-    "scenarios_json_file": "friend_scenarios.json",
-    "single_tasks_json_file": "single_tasks.json",
-    "connection_timeout_num_seconds": 15,
-  	"templates_dir": "friend_templates",
-    
-    "db": {
-	"location": "/home/mkayser/research/deepdialog/chat/chat_state.db"
+    "single_task": {
+      "num_seconds": -1,
+      "max_tasks": 5
     },
     
-    "logging": {
-	"app_logs": "/home/mkayser/research/deepdialog/chat/chat.log",
-	"chat_dir": "/home/mkayser/research/deepdialog/chat/transcripts",
-	"chat_delimiter": "---"
+    "finished": {
+      "num_seconds": 15
     }
-}
+  },
+  
+  "scenarios_json_file": "chat/friends_scenarios.json",
+  "single_tasks_json_file": "single_tasks.json",
+  "connection_timeout_num_seconds": 15,
+  "templates_dir": "friend_templates",
+    
+  "db": {
+    "location": "chat_state.db"
+  },
 
+  "bots": {"templates": []},
+  "lstms": {
+    "use_bots": 1
+  },
+    
+  "logging": {
+    "app_logs": "chat.log",
+    "chat_dir": "transcripts",
+    "chat_delimiter": "---"
+  }
+}

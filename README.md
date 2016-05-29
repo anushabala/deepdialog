@@ -33,7 +33,14 @@ There are two steps:
     # Visualize
     cat output/friends/0520_friends.train.json | jq . | less
     cat output/friends/0520_friends.train.json | jq -r '.[].seqs[].seq[].formula_tokens[]' | sort | uniq -c | sort -nr | less
+    cat output/friends/0520_friends.entity_phrase.json | jq . | less
 
     # Train a model
     mkdir -p output/friends/0520_friends.run
     PYTHONPATH=. python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 -c lstm -m encoderdecoder --data-prefix output/friends/0520_friends --out-dir output/friends/0520_friends.run
+
+# Setting up the webserver
+
+    virtualenv venv
+    venv/bin/pip install -r chat/requirements.txt
+    PYTHONPATH=. venv/bin/python chat/start_app.py -p chat/params.json
