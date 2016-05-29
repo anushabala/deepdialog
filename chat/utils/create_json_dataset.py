@@ -53,7 +53,7 @@ def verify_example(lexicon, scenarios, args, ex):
     scenario = scenarios[ex['scenario_id']]
     agent = ex['agent']
     tracker = DialogueTracker(lexicon, scenario, agent, args, {})
-    tracker.executor.dump_kb()
+    #tracker.executor.dump_kb()
     for seq in ex['seqs']:
         #print '### possible state'
         for act in seq['seq']:
