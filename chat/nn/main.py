@@ -77,6 +77,7 @@ def _parse_args():
                       help='Use beam search with given beam size (default is greedy).')
 
   # Input paths
+  parser.add_argument('--data-prefix', help='If train and dev not specified, then construct paths using this.')
   parser.add_argument('--train-data', help='Path to training data.')
   parser.add_argument('--dev-data', help='Path to dev data.')
   parser.add_argument('--load-params', help='Path to load parameters, will ignore other passed arguments.')
@@ -294,12 +295,12 @@ def print_accuracy_metrics(name, is_correct_list, tokens_correct_list,
       'accuracy': seq_accuracy,
   })
   print 'Sequence-level accuracy: %d/%d = %g' % (num_correct, num_examples, seq_accuracy)
-  for i in sorted(num_correct_per_len):
-    cur_num_correct = num_correct_per_len[i]
-    cur_num_examples = num_per_len[i]
-    cur_accuracy = float(cur_num_correct) / cur_num_examples
-    print '  input length = %d: %d/%d = %g correct' % (
-        i - 1, cur_num_correct, cur_num_examples, cur_accuracy)
+  #for i in sorted(num_correct_per_len):
+  #  cur_num_correct = num_correct_per_len[i]
+  #  cur_num_examples = num_per_len[i]
+  #  cur_accuracy = float(cur_num_correct) / cur_num_examples
+  #  print '  input length = %d: %d/%d = %g correct' % (
+  #      i - 1, cur_num_correct, cur_num_examples, cur_accuracy)
 
   # Print token-level accuracy
   logstats.add(name, 'token', {
@@ -308,12 +309,12 @@ def print_accuracy_metrics(name, is_correct_list, tokens_correct_list,
       'accuracy': token_accuracy,
   })
   print 'Token-level accuracy: %d/%d = %g' % (num_tokens_correct, num_tokens, token_accuracy)
-  for i in sorted(tokens_correct_per_len):
-    cur_num_tokens_correct = tokens_correct_per_len[i]
-    cur_num_tokens = tokens_per_len[i]
-    cur_accuracy = float(cur_num_tokens_correct) / cur_num_tokens
-    print '  input length = %d: %d/%d = %g correct' % (
-        i - 1, cur_num_tokens_correct, cur_num_tokens, cur_accuracy)
+  #for i in sorted(tokens_correct_per_len):
+  #  cur_num_tokens_correct = tokens_correct_per_len[i]
+  #  cur_num_tokens = tokens_per_len[i]
+  #  cur_accuracy = float(cur_num_tokens_correct) / cur_num_tokens
+  #  print '  input length = %d: %d/%d = %g correct' % (
+  #      i - 1, cur_num_tokens_correct, cur_num_tokens, cur_accuracy)
 
 def decode(model, x_inds):
   if OPTIONS.beam_size == 0:
@@ -349,12 +350,11 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout
     x_inds = []
     y_inds = []
 
-    for xi,yi in pairs:
+    for xi, yi in pairs:
       x_words.append(in_vocabulary.indices_to_sentence(xi))
       y_words.append(out_vocabulary.indices_to_sentence(yi))
       x_inds.append(tuple(xi))
       y_inds.append(tuple(yi))
-      
 
     x_words = tuple(x_words)
     y_words = tuple(y_words)
@@ -431,8 +431,8 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout
           "y_ref_len": len(y_inds),
           "token_accuracy": float(tokens_correct)/float(len(y_inds))
         },
-        "agent_idx":all_metadata_list[example_num][0],
-        "scenario_id":all_metadata_list[example_num][1]
+        "agent_idx": all_metadata_list[example_num][0],
+        "scenario_id": all_metadata_list[example_num][1]
       }
 
       eval_info.append(sent_info)
@@ -457,10 +457,14 @@ def run():
   configure_theano()
 
   # Set default output flags
-  if not OPTIONS.save_params: OPTIONS.save_params = os.path.join(OPTIONS.out_dir, 'params')
-  if not OPTIONS.stats_file: OPTIONS.stats_file = os.path.join(OPTIONS.out_dir, 'stats.json')
-  if not OPTIONS.train_eval_file: OPTIONS.train_eval_file = os.path.join(OPTIONS.out_dir, 'train_eval.json')
-  if not OPTIONS.dev_eval_file: OPTIONS.dev_eval_file = os.path.join(OPTIONS.out_dir, 'dev_eval.json')
+  if OPTIONS.out_dir:
+    if not OPTIONS.save_params: OPTIONS.save_params = os.path.join(OPTIONS.out_dir, 'params')
+    if not OPTIONS.stats_file: OPTIONS.stats_file = os.path.join(OPTIONS.out_dir, 'stats.json')
+    if not OPTIONS.train_eval_file: OPTIONS.train_eval_file = os.path.join(OPTIONS.out_dir, 'train_eval.json')
+    if not OPTIONS.dev_eval_file: OPTIONS.dev_eval_file = os.path.join(OPTIONS.out_dir, 'dev_eval.json')
+  if OPTIONS.data_prefix:
+    if not OPTIONS.train_data: OPTIONS.train_data = OPTIONS.data_prefix + '.train'
+    if not OPTIONS.dev_data: OPTIONS.dev_data = OPTIONS.data_prefix + '.dev'
 
   logstats.init(OPTIONS.stats_file)
 
