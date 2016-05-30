@@ -87,7 +87,7 @@ def parse_transcript(scenarios, transcript_file, include_bots=False):
                     # print line
                     # print agent_num
                     # print choices[agent_num]
-                    dialogue.append((agent_num, "SELECT NAME "+choices[agent_num].lower()))
+                    dialogue.append((agent_num, "_select_name_ "+choices[agent_num].lower()))
                 elif line[3] == SELECT_RESTAURANT:
                     choices[agent_num] = line[4]
             else:

@@ -3,6 +3,7 @@ import string
 import random
 import json
 from collections import defaultdict
+import re
 from chat.modeling.executor import Executor, is_entity
 from chat.modeling.sample_utils import normalize_weights, sorted_candidates
 
@@ -140,9 +141,12 @@ class DialogueTracker(object):
 
     def parse_add(self, who, utterance):
         utterance = utterance.encode('utf-8').lower()
-        utterance = utterance.translate(string.maketrans('', ''), string.punctuation)  # Remove punctuation
-        raw_tokens = utterance.split(' ')
-        #print '##### parse_add who=%s %s' % (who, raw_tokens)
+
+        # utterance = utterance.translate(string.maketrans('', ''), string.punctuation)  # Remove punctuation
+        # raw_tokens = utterance.split(' ')
+
+        raw_tokens = re.findall(r"[\w']+|[.,!?;]", utterance)
+        print '##### parse_add who=%s orig_utterance=%s %s' % (who, utterance, raw_tokens)
 
         # Convert (some) tokens into entities
         entity_candidates = self.convert_raw_to_entities(raw_tokens)
