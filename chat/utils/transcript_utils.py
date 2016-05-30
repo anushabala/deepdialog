@@ -7,6 +7,7 @@ restaurant_regex = 'Selected *[0-9]*: (.*)'
 user_id_regex = r'User ([0-9]) has user ID (.*)'
 SELECT_RESTAURANT = 'Selected restaurant:'
 NO_OUTCOME = "NO_OUTCOME"
+COMPLETE = 'COMPLETE'
 TOO_SHORT = "TOO_SHORT"
 SHORT = "SHORT"
 BOTS = ["DEFAULT_BOT", "LSTM_UNFEATURIZED", "LSTM_FEATURIZED"]
@@ -38,7 +39,7 @@ def is_transcript_short(transcript):
     return False, None
 
 
-def parse_transcript(transcript_file, include_bots=False):
+def parse_transcript(scenarios, transcript_file, include_bots=False):
     infile = open(transcript_file, 'r')
     transcript = {}
     choices = {}
@@ -104,8 +105,15 @@ def parse_transcript(transcript_file, include_bots=False):
             if key != BOT_NUM and BOT_NUM in choices.keys() and choices[key] == choices[BOT_NUM]:
                 transcript["outcome"] = choices[key]
     else:
-        if 0 in choices.keys() and 1 in choices.keys() and choices[0] == choices[1]:
-            transcript["outcome"] = choices[0]
+        scenario = scenarios[transcript["scenario"]]
+        agents = scenario["agents"]
+        if 0 in choices.keys() and 1 in choices.keys():
+            if 'connection' in agents[0]:  # For Matchmaking
+                if choices[0] == agents[0]["connection"]["name"] and choices[1] == agents[1]["connection"]["name"]:
+                    transcript["outcome"] = COMPLETE
+            else:  # For MutualFriends
+                if choices[0] == choices[1]:
+                    transcript["outcome"] = COMPLETE
 
     infile.close()
     return transcript

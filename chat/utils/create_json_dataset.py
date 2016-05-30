@@ -8,6 +8,8 @@ import math
 from collections import defaultdict
 from chat.modeling.lexicon import Lexicon
 from chat.modeling.dialogue_tracker import DialogueTracker
+from chat.modeling.sample_utils import sample_candidates, normalize_weights
+from chat.nn import logstats
 
 def new_lex_mapping():
     return defaultdict(lambda : defaultdict(float))
@@ -23,8 +25,10 @@ def create_example(lexicon, scenario, agent, args, stats):
         'agent': agent,
     }
     tracker = DialogueTracker(lexicon, scenario, agent, args, stats)
+    tracker.executor.kb.dump()
     for (who, utterance) in transcript['dialogue']:
         tracker.parse_add(who, utterance)
+    stats['num_states'].append(len(tracker.states))
     states = tracker.get_states()
 
     #print '%s states: max_prob=%s' % (len(states), states[0].prob if len(states) > 0 else 'n/a')
@@ -34,15 +38,13 @@ def create_example(lexicon, scenario, agent, args, stats):
     if len(states) == 0:  # Failed to generate this example
         return None, None
 
-    ex['seqs'] = [state.to_json() for state in states]
+    weights = [state.weight() for state in states]
+    probs = normalize_weights(weights)
+    def messages_to_json(state):
+        return [message.to_json() for message in state.messages]
+    ex['states'] = [{'prob': prob, 'messages': messages_to_json(state)} for state, prob in zip(states, probs)]
 
-    # Construct lexical mapping
-    lex_mapping = new_lex_mapping()
-    for state in states:
-        for entity, phrase in state.lex_pairs:
-            lex_mapping[entity][phrase] += state.prob
-
-    return (ex, lex_mapping)
+    return ex, sum(weights)
 
 def summarize_stats(stats):
     return '%s / %s / %s (%d)' % (min(stats), 1.0 * sum(stats) / len(stats), max(stats), len(stats))
@@ -54,15 +56,16 @@ def verify_example(lexicon, scenarios, args, ex):
     agent = ex['agent']
     tracker = DialogueTracker(lexicon, scenario, agent, args, {})
     #tracker.executor.dump_kb()
-    for seq in ex['seqs']:
+    for state in ex['states']:
         #print '### possible state'
-        for act in seq['seq']:
-            who = act['who']
-            formula_tokens = act['formula_tokens']
+        for message in state['messages']:
+            who = message['who']
+            formula_token_candidates = message['formula_token_candidates']
+            formula_tokens = map(sample_candidates, formula_token_candidates)
             # If not agent, provide entity tokens (otherwise, no way to guess people not in our KB).
-            entity_tokens = None if who == agent else act['entity_tokens']
+            entity_tokens = None if who == agent else message['entity_tokens']
             utterance = tracker.generate_add(who, formula_tokens, entity_tokens)
-            orig_utterance = ' '.join(act['raw_tokens'])
+            orig_utterance = ' '.join(message['raw_tokens'])
             #print '---  formula: %s' % ' '.join(formula_tokens)
             #print '   generated: %s' % utterance
             #print '    original: %s%s' % (orig_utterance, ' (DIFF)' if utterance != orig_utterance else '')
@@ -76,13 +79,17 @@ if __name__ == "__main__":
     parser.add_argument('--beam-size', type=int, help='Maximum number of candidate states to generate per agent/scenario', default=5)
     parser.add_argument('--random', type=int, help='Random seed', default=1)
     parser.add_argument('--max-examples', type=int, help='Maximum number of examples to process')
+    parser.add_argument('--input-offset', type=int, help='Start here', default=0)
     parser.add_argument('--formulas-mode', type=str, help='Which formulas to include', default='full')
+    parser.add_argument('--train-frac', type=float, help='Fraction of examples to use for training', default=0.9)
+    parser.add_argument('--agents', type=int, help='Fraction of examples to use for training', nargs='+', default=[0, 1])
 
     args = parser.parse_args()
+    logstats.init(args.out_prefix + 'stats.json')
     random.seed(args.random)
     scenarios = load_scenarios(args.scenarios)
     lexicon = Lexicon(scenarios)
-    #lexicon.test()
+    lexicon.test()
 
     train_examples = []
     dev_examples = []
@@ -95,10 +102,9 @@ if __name__ == "__main__":
 
     stats = defaultdict(list)
     total_log_prob = 0
-    lex_mapping = new_lex_mapping()
-    for i, f in enumerate(sorted(paths)):
+    for i, f in enumerate(sorted(paths)[args.input_offset:]):
         print '### Reading %d/%d: %s' % (i, len(paths), f)
-        transcript = parse_transcript(f, include_bots=False)
+        transcript = parse_transcript(scenarios, f, include_bots=False)
         if transcript is None:
             continue
         valid, reason = is_transcript_valid(transcript)
@@ -107,14 +113,13 @@ if __name__ == "__main__":
             continue
 
         r = random.random()
-        for agent in [0, 1]:
+        for agent in args.agents:
             scenario_id = transcript['scenario']
-            ex, ex_lex_mapping = create_example(lexicon, scenarios[scenario_id], agent, args, stats)
+            ex, weight = create_example(lexicon, scenarios[scenario_id], agent, args, stats)
             if ex:
-                verify_example(lexicon, scenarios, args, ex)
-                total_log_prob += math.log(ex['seqs'][0]['prob'])
-                is_train = r < 0.9
-                if is_train: update_lex_mapping(lex_mapping, ex_lex_mapping)
+                #verify_example(lexicon, scenarios, args, ex)
+                total_log_prob += math.log(weight)
+                is_train = r < args.train_frac
                 examples = train_examples if is_train else dev_examples
                 examples.append(ex)
             else:
@@ -124,15 +129,20 @@ if __name__ == "__main__":
 
     print 'Created %d train examples, %d dev examples, threw away %d empty examples, total_log_prob = %s' % \
         (len(train_examples), len(dev_examples), num_empty_examples, total_log_prob)
+    logstats.add('num_train_examples', len(train_examples))
+    logstats.add('num_dev_examples', len(dev_examples))
+    logstats.add('num_empty_examples', num_empty_examples)
+    logstats.add('total_log_prob', total_log_prob)
     for key, values in stats.items():
+        logstats.add(key, 1.0 * sum(values) / len(values))
         print key, '=', summarize_stats(values)
 
     # Write examples
     def output(name, examples):
-        path = args.out_prefix + '.' + name
+        path = args.out_prefix + name
         print 'Outputting to %s: %d entries' % (path, len(examples))
         with open(path, 'w') as out:
             out.write(json.dumps(examples))
     output('train.json', train_examples)
     output('dev.json', dev_examples)
-    output('entity_phrase.json', dict((':'.join(k), v) for k, v in lex_mapping.items()))
+    #output('entity_phrase.json', dict((':'.join(k), v) for k, v in lex_mapping.items()))

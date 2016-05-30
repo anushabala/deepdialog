@@ -1,13 +1,5 @@
-import string
-import sys
-import json
-import os
-import re
 from collections import defaultdict
-import random
-import csv
-
-## Helper functions
+from kb import KB
 
 def get_prefixes(entity, min_length=3, max_length=5):
     # computer science => ['comp sci', ...]
@@ -50,37 +42,59 @@ def get_edits(entity):
     if len(entity) < 3:
         return []
     edits = []
-    for i in range(len(entity)):
+    for i in range(len(entity) + 1):
         prefix = entity[:i]
         # Insert
         suffix = entity[i:]
         for c in alphabet:
             new_word = prefix + c + suffix
             edits.append(new_word)
+
+        if i == len(entity):
+            continue
+
         # Delete
         suffix = entity[i+1:]
         new_word = prefix + suffix
         edits.append(new_word)
+
         # Substitute
         suffix = entity[i+1:]
         for c in alphabet:
             if c != entity[i]:
                 new_word = prefix + c + suffix
                 edits.append(new_word)
+
         # Transposition
-        #for j in range(i+1, len(entity)):
-        #    mid = entity[i+1:j]
-        #    suffix = entity[j+1:]
-        #    new_word = prefix + entity[j] + mid + entity[i] + suffix
-        #    new_word = new_word.strip()
-        #    if new_word != entity:
-        #        edits.add(new_word)
+        for j in range(i+1, len(entity)):
+            mid = entity[i+1:j]
+            suffix = entity[j+1:]
+            new_word = prefix + entity[j] + mid + entity[i] + suffix
+            new_word = new_word.strip()
+            if new_word != entity:
+                edits.append(new_word)
     return edits
 
+
+def get_morphological_variants(entity):
+    # cooking => cook, cooker
+    results = []
+    for suffix in ['ing']:
+        if entity.endswith(suffix):
+            base = entity[:-len(suffix)]
+            results.append(base)
+            results.append(base + 's')
+            results.append(base + 'er')
+            results.append(base + 'ers')
+    return results
 
 ############################################################
 
 class Lexicon(object):
+    '''
+    A lexicon maps freeform phrases to canonicalized entity.
+    The current lexicon just uses several heuristics to do the matching.
+    '''
     def __init__(self, scenarios):
         self.scenarios = scenarios
         self.entities = {}  # Mapping from (canonical) entity to type (assume type is unique)
@@ -93,21 +107,13 @@ class Lexicon(object):
 
     def load_entities(self):
         for scenario in self.scenarios.values():
-            for agent in scenario['agents']:
-                self._add_person(agent['info'])
-                for friend in agent['friends']:
-                    self._add_person(friend)
-
-    def _add_person(self, person_info):
-        self._add_entity('person', person_info['name'])
-        self._add_entity('company', person_info['company']['name'])
-        self._add_entity('school', person_info['school']['name'])
-        self._add_entity('major', person_info['school']['major'])
+            for agent in [0, 1]:
+                self.kb = KB(scenario, agent)
+                for row in self.kb.table:
+                    for entity, type in row.values():
+                        self._add_entity(type, entity)
 
     def _add_entity(self, type, entity):
-        # Normalize
-        entity = entity.encode('utf-8').lower()
-
         # Keep track of number of times words in this entity shows up
         if entity not in self.entities:
             for word in entity.split(' '):
@@ -149,11 +155,12 @@ class Lexicon(object):
                 synonyms.append(phrase)
                 if type != 'person':
                     synonyms.extend(get_edits(phrase))
+                    synonyms.extend(get_morphological_variants(phrase))
                     synonyms.extend(get_prefixes(phrase))
                     synonyms.extend(get_acronyms(phrase))
 
             # Add to lexicon
-            for synonym in synonyms:
+            for synonym in set(synonyms):
                 #print synonym, '=>', entity
                 self.lexicon[synonym].append((entity, type))
 
@@ -164,5 +171,7 @@ class Lexicon(object):
                 self.lexicon[phrase].append((str(i), 'number'))
 
     def test(self):
-        for x in ['i', 'physics', 'comp sci', 'econ', 'penn', 'cs', 'upenn', 'u penn', 'u of p', 'ucb', 'berekely', 'jessica']:
+        phrases = ['i', 'physics', 'comp sci', 'econ', 'penn', 'cs', 'upenn', 'u penn', 'u of p', 'ucb', 'berekely', 'jessica']
+        phrases = ['foodie', 'evening', 'evenings', 'food']
+        for x in phrases:
             print x, '=>', self.lookup(x)

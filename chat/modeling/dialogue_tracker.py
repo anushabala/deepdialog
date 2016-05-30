@@ -4,10 +4,16 @@ import random
 import json
 from collections import defaultdict
 from chat.modeling.executor import Executor, is_entity
+from chat.modeling.sample_utils import normalize_weights, sorted_candidates
 
-def parse_formula(buf, i=0):  # Return thing parsed
+# ['And', ['FriendOf', 'A'], ['HasCompany', ['Get', ['MentionOf', 'B'], '1']]]
+#  <=>
+# '!And(FriendsOf(A),HasCompany(Get(MentionOf(B),1)))'
+
+def parse_formula(buf):
+    assert buf[0] == '!'
     n = len(buf)
-    pos = [i]
+    pos = [1]
     def find(c):
         i = buf.find(c, pos[0])
         return i if i != -1 else n
@@ -25,50 +31,96 @@ def parse_formula(buf, i=0):  # Return thing parsed
         return result
     return recurse()
 
+def render_formula(formula):
+    def recurse(formula):
+        if not is_entity(formula):
+            return formula
+        return  formula[0] + '(' + ','.join(map(recurse, formula[1:])) + ')'
+    return '!' + recurse(formula)
+
 #print parse_formula('asdf(3452,23(23),3f(3(f)),f)')
+
+class Message(object):
+    '''
+    Represents a single message.
+    Corresponds to one interpretation of the raw tokens as entity tokens,
+    but stores all possible formulas that lead to the resulting entities.
+    Note:
+    - who: person who sent the message
+      e.g., 0 or 1
+    - raw_tokens: raw words
+      e.g., ['studied', 'comp sci']
+    - entity_tokens: entities
+      e.g., ['studied', ('computer science', 'major')]
+    - formula_token_candidates: list of candidate formulas for each token
+      e.g., [[('studied', 1)], [(('MajorOf', 'A'), 1), (('MajorOf', ('FriendOf', 'A')), 0.2)]]
+    entity_tokens and formula_tokens are aligned.
+    '''
+    def __init__(self, who, raw_tokens, entity_tokens, formula_token_candidates):
+        self.who = who
+        self.raw_tokens = raw_tokens
+        self.entity_tokens = entity_tokens
+        self.formula_token_candidates = formula_token_candidates
+        # Compute weight
+        self.weight = 1
+        for i in range(len(formula_token_candidates)):
+            # Marginalize over candidates at each position
+            psi = 0
+            for token, weight in formula_token_candidates[i]:
+                psi += weight
+            self.weight *= psi 
+
+    def to_json(self):
+        def render(candidates):
+            candidates = sorted_candidates(candidates)
+            str_tokens = [render_formula(token) if is_entity(token) else token for token, weight in candidates]
+            probs = normalize_weights([weight for token, weight in candidates])
+            return zip(str_tokens, probs)
+                 
+        return {
+            'who': self.who,
+            'raw_tokens': self.raw_tokens,
+            'entity_tokens': self.entity_tokens,
+            'formula_token_candidates': map(render, self.formula_token_candidates),
+        }
 
 class DialogueState(object):
     '''
-    Corresponds to one interpretation of the history.
+    Stores a list of messages.
     '''
     def __init__(self):
-        self.seq = []  # List of (who, raw_tokens, entity_tokens, formula_tokens) tuples
-        self.mentions = [[], []]  # List of entities mentioned for agent and opp
-        self.lex_pairs = []
-        self.prob = 1.0
+        self.messages = []  # List of messages
+        self.mentions = [[], []]  # List of entities mentioned for agent (A) and partner (B)
 
-    def extend(self, who, raw_tokens, entity_tokens, formula_tokens, prob, lex_pairs):
+    def extend(self, message):
         new = DialogueState()
-        new.seq = self.seq + [(who, raw_tokens, entity_tokens, formula_tokens)]
+        new.messages = self.messages + [message]
+        # Update mentions of entities (only for efficiency)
         new.mentions = [self.mentions[0], self.mentions[1]]
-        new.prob = self.prob * prob
-        new.lex_pairs = self.lex_pairs + lex_pairs  # Collect lexical mappings
-        for token in entity_tokens: # Update mentions of entities
+        for token in message.entity_tokens:
             if is_entity(token):
-                new.mentions[who] = new.mentions[who] + [token]
+                new.mentions[message.who] = new.mentions[message.who] + [token]
         return new
 
-    def formula_token_to_str(self, token, top_level=True):
-        # ['And', ['FriendOf', 'A'], ['HasCompany', ['Get', ['MentionOf', 'B'], '1']]] => !And(FriendsOf(A),HasCompany(Get(MentionOf(B),1)))
-        if not is_entity(token):
-            return token
-        return ('!' if top_level else '') + token[0] + '(' + ','.join(self.formula_token_to_str(x, False) for x in token[1:]) + ')'
+    def weight(self):
+        w = 1
+        for message in self.messages:
+            w *= message.weight
+        return w
 
     def dump(self):
-        print '>>> prob=%s' % self.prob
-        for who, raw_tokens, entity_tokens, formula_tokens in self.seq:
-            print '  who=%s: %s | %s' % (who, ' '.join(raw_tokens), ' '.join(map(self.formula_token_to_str, formula_tokens)))
-
-    def to_json(self):
-        return {'prob': self.prob, 'seq': [
-            {
-                'who': who,
-                'raw_tokens': raw_tokens,
-                'entity_tokens': entity_tokens,
-                'formula_tokens': map(self.formula_token_to_str, formula_tokens),
-            } \
-            for (who, raw_tokens, entity_tokens, formula_tokens) in self.seq
-        ]}
+        def render_candidates(candidates):
+            return ','.join( \
+                (render_formula(token) if is_entity(token) else token) + ('' if weight == 1 else ':%.3f' % weight) \
+                for token, weight in sorted_candidates(candidates) \
+            )
+        print '>>> weight=%s' % self.weight()
+        for message in self.messages:
+            print '  who=%s: %s | %s' % (
+                message.who,
+                ' '.join(message.raw_tokens),
+                ' '.join(map(render_candidates, message.formula_token_candidates))
+            )
 
 class DialogueTracker(object):
     '''
@@ -90,90 +142,99 @@ class DialogueTracker(object):
         utterance = utterance.encode('utf-8').lower()
         utterance = utterance.translate(string.maketrans('', ''), string.punctuation)  # Remove punctuation
         raw_tokens = utterance.split(' ')
-        print '##### parse_add who=%s %s' % (who, raw_tokens)
+        #print '##### parse_add who=%s %s' % (who, raw_tokens)
 
         # Convert (some) tokens into entities
-        candidates = self.convert_raw_to_entities(raw_tokens)
-        #for c in candidates:
-            #print self.agent, who, utterance, '=>', c
+        entity_candidates = self.convert_raw_to_entities(raw_tokens)
+        #for entity_tokens in entity_candidates:
+            #print '>>', entity_tokens
 
-        # Convert entities into logical forms
         new_states = []
         for si, state in enumerate(self.states):
-            for entity_tokens, lex_pairs in candidates:
-                #print '---- state %s/%s: %s' % (si, len(self.states), entity_tokens)
-                for formula_tokens, prob in self.convert_entities_to_formulas(state, who, entity_tokens):
-                    new_states.append(state.extend(who, raw_tokens, entity_tokens, formula_tokens, prob, lex_pairs))
+            #print '---- state %s/%s: %s' % (si, len(self.states), entity_tokens)
+            for entity_tokens in entity_candidates:
+                formula_token_candidates = self.convert_entities_to_formulas(state, who, entity_tokens)
+                if not formula_token_candidates:
+                    continue
+                message = Message(who, raw_tokens, entity_tokens, formula_token_candidates)
+                new_states.append(state.extend(message))
         self.states = new_states
-        self.stats['num_states'].append(len(self.states))
 
         # Sort and prune!
-        self.states = sorted(self.states, key=lambda s: s.prob, reverse=True)
+        self.states = sorted(self.states, key=lambda s: s.weight, reverse=True)
         self.states = self.states[:self.args.beam_size]
+
+    def compute_state_probs(self):
+        return normalize_weights([state.weight() for state in self.states])
 
     def generate_add(self, who, str_formula_tokens, init_entity_tokens=None):
         # Returns the raw utterance and updates the dialogue tracker.
-        # Should be really passing in multiple generated_tokens.
-        # Example: ['i', 'went', 'to', '!SchoolOf(A)']
-        # Called when the model generates formula_tokens and we want to actually want to render to an utterance.
-        is_formula = [s.startswith('!') for s in str_formula_tokens]
-        formula_tokens = [parse_formula(s, 1) if s.startswith('!') else s for s in str_formula_tokens]
-
-        new_states = []
-        for state in self.states:
-            if init_entity_tokens:
-                entity_tokens = list(init_entity_tokens)
-            else:
-                entity_tokens = [formula_tokens[i] if not is_formula[i] else None for i in range(len(formula_tokens))]
-            prob = 1.0
-
-            # Need to take multiple passes since some formulas depend on existence of following entities (e.g., 'two at Facebook')
-            while True:
-                changed = False
-                for i in range(len(entity_tokens)):
-                    if entity_tokens[i] is not None:
-                        continue
-                    formula = formula_tokens[i]
-                    # Execute: SchoolOf(A) => 'university of pennsylvania'
-                    choices = self.executor.execute(state, who, entity_tokens, i, formula)
-                    if choices is None:  # Error or just not ready to execute (e.g., if formula has NextMention)
-                        continue
-                    if len(choices) == 0:  # Probably we got derailed...fail carefully
-                        continue
-                    if any(c is None for c in choices):
-                        continue
-                    #print formula, '=>', choices
-                    entity_tokens[i] = random.choice(choices)
-                    prob *= 1.0 / len(choices)
-                    changed = True
-                if not changed:
-                    break
-
-            #print 'RRRR', formula_tokens
-            if any(token is None for token in entity_tokens):
-                print 'Failed execution of %s, pruning state' % str_formula_tokens
-                continue
-
-            # Now generate the raw token from the entity from the lexical mapping
-            # Example: 'university of pennsylvania' => 'upenn'
-            # For now, just write things out explicitly.  Later, incorporate lexical mapping
-            raw_tokens = [token[0] if is_entity(token) else token for token in entity_tokens]
-            new_states.append(state.extend(who, raw_tokens, entity_tokens, formula_tokens, prob, []))
-
-        self.states = new_states
-
+        # Returns None if execution fails.
+        # Example of str_formula_tokens: ['i', 'went', 'to', '!SchoolOf(A)']
+        # Called when the RNN model generates formula_tokens and we want to actually want to render to an utterance.
+        # Assume there is only one state.
         if len(self.states) == 0:
-            return '(fail)'
+            return None
+        if len(self.states) > 1:
+            raise Exception('Can only handle the one state case')
+        is_formula = [s.startswith('!') for s in str_formula_tokens]
+        formula_tokens = [parse_formula(s) if s.startswith('!') else s for s in str_formula_tokens]
+        formula_weights = [1.0] * len(formula_tokens)
 
-        # Return an utterance
-        state = self.states[0]  # Choose a state (probably should be highest prob)
-        raw_tokens = state.seq[-1][1]  # Last utterance, get tokens
+        state = self.states[0]
+        if init_entity_tokens:
+            entity_tokens = list(init_entity_tokens)
+        else:
+            entity_tokens = [formula_tokens[i] if not is_formula[i] else None for i in range(len(formula_tokens))]
+
+        # Need to take multiple passes since some formulas depend on existence of following entities (e.g., 'two at Facebook')
+        while True:
+            changed = False
+            for i in range(len(entity_tokens)):
+                if entity_tokens[i] is not None:
+                    continue
+                formula = formula_tokens[i]
+                # Execute: SchoolOf(A) => 'university of pennsylvania'
+                choices = self.executor.execute(state, who, entity_tokens, i, formula)
+                if choices is None:  # Error or just not ready to execute (e.g., if formula has NextMention)
+                    continue
+                if len(choices) == 0:  # Probably we got derailed...fail carefully
+                    continue
+                if any(c is None for c in choices):
+                    continue
+                #print formula, '=>', choices
+                entity_tokens[i] = random.choice(choices)
+                formula_weights[i] = 1.0 / len(choices)
+                changed = True
+            if not changed:
+                break
+
+        if any(token is None for token in entity_tokens):
+            print 'WARNING: failed execution of %s' % str_formula_tokens
+            # Note: don't update state in this case.
+            return None
+
+        # Now generate the raw token from the entity from the lexical mapping
+        # Example: 'university of pennsylvania' => 'upenn'
+        # For now, just write things out explicitly.  Later, incorporate lexical mapping
+        raw_tokens = [token[0] if is_entity(token) else token for token in entity_tokens]
+
+        # Update the state
+        formula_token_candidates = map(lambda x : [x], zip(formula_tokens, formula_weights))
+        message = Message(who, raw_tokens, entity_tokens, formula_token_candidates)
+        state = state.extend(message)
+        self.states = [state]
+
+        # Return the utterance
         return ' '.join(raw_tokens)
 
     def convert_raw_to_entities(self, raw_tokens):
+        '''
+        Return a list of Message's corresponding to raw_tokens.
+        '''
         # Example: ['i', 'work', 'at', 'apple'] => [(['i', 'work', 'at', ('apple', 'company')], [('apple', 'company'), 'apple'], ...]
         i = 0
-        candidates = [([], [])]  # Each candidate is a (list of entity tokens, list of (entity, raw))
+        candidates = [[]]  # Each candidate is a (list of entity tokens)
         while i < len(raw_tokens):
             # Find longest phrase (if any) that matches an entity
             for l in range(5, 0, -1):
@@ -182,28 +243,35 @@ class DialogueTracker(object):
                 if len(results) > 0:
                     j = i + l
                     break
-            if not results:
+            if not results:  # No entity match, just treat as normal token
                 results = [raw_tokens[i]]
                 j = i + 1
             new_candidates = []
-            for entity_tokens, lex_pairs in candidates:
+            for entity_tokens in candidates:
                 for r in results:
-                    new_lex_pairs = lex_pairs + [(r, ' '.join(raw_tokens[i:j]))] if is_entity(r) else lex_pairs
-                    new_candidates.append((entity_tokens + [r], new_lex_pairs))
+                    new_candidates.append(entity_tokens + [r])
             i = j
             candidates = new_candidates
+
         return candidates
 
     def convert_entities_to_formulas(self, state, who, entity_tokens):
-        # Example: ['i', 'work', 'at', ('apple', 'company')] => [['i', 'work', 'at', ('Get', ('CompanyOf', 'A'), '1')], ...]
-        # Each candidate formula is associated with a probability of generating the actual entity given the formula,
-        # assuming a uniform distribution over entities.
-        candidates = [([], 1.0)]
+        '''
+        Example:
+            ['i', 'work', 'at', ('apple', 'company')] =>
+            [['i', 'work', 'at', ('Get', ('CompanyOf', 'A'), '1')], ...]
+        Each candidate formula is associated with a probability of generating the actual entity given the formula,
+        assuming a uniform distribution over entities.
+
+        Return a list of messages
+        '''
+        formula_token_candidates = []
+
         for i, token in enumerate(entity_tokens):
-            # Go through all the entity tokens and abstract them into logical forms.
-            results = []
+            candidates = []  # List of formula tokens that could be at position i
+            formula_token_candidates.append(candidates)
             if not is_entity(token):
-                results.append((token, 1))
+                candidates.append((token, 1))
             else:
                 #print '- %s' % (token,)
                 # Find all the ways that we could execute to this entity
@@ -213,19 +281,14 @@ class DialogueTracker(object):
                     # If the executor returns a list containing the answer, then return it, weighting it properly.
                     if pred_token and token in pred_token:
                         prob = 1.0 / len(pred_token)
-                        #print '  %s =[%s * %s]=> %s' % (formula, state.prob, prob, pred_token[0])
-                        results.append((formula, prob))
+                        #print '  %s: %s | %s' % (formula, prob, [x for x in pred_token if x])
+                        candidates.append((formula, prob))
                 self.stats['num_formulas_per_token'].append(len(formulas))
-                self.stats['num_valid_formulas_per_token'].append(len(results))
-            if len(results) == 0:
+                self.stats['num_consistent_formulas_per_token'].append(len(candidates))
+            if len(candidates) == 0:
                 print 'WARNING: no way to generate %s' % (token,)
-                self.executor.dump_kb()
+                self.executor.kb.dump()
                 state.dump()
-            new_candidates = []
-            for c, prob in candidates:
-                for r, p in results:
-                    new_candidates.append((c + [r], prob * p))
-            candidates = new_candidates
-            candidates = sorted(candidates, key=lambda (c, p): p, reverse=True)
-            candidates = candidates[:self.args.beam_size]
-        return candidates
+                return None
+
+        return formula_token_candidates

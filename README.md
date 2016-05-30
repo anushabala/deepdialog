@@ -9,24 +9,32 @@ There are two steps:
 
     # Upload data
     cl upload data/backups_from_remote/transcripts_0520_friends
+    cl upload data/backups_from_remote/transcripts_0524_dating
     cl upload data/friends_scenarios.json
     cl upload data/matchmaking_scenarios.json
+
     # Upload code
     cl upload chat
+    cl mimic chat^2 chat  # Rerun everything
 
-    # Generate dataset: raw transcripts => JSON logical forms dataset
-    cl run :chat raw:transcripts_0520_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw --out-prefix tagged' --name tagged
+    # Generate datasets: raw transcripts => JSON logical forms dataset
+    cl run :chat raw:transcripts_0520_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw --out-prefix ./' --name friends.tagged
+    cl run :chat raw:transcripts_0524_dating scenarios.json:matchmaking_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw --out-prefix ./' --name matchmaking.tagged
+    cl download matchmaking.tagged/tagged.train.json -o output/0524_dating.train.json
 
 # Running locally
 
-    # Generate dataset
+    # Generate datasets
     mkdir -p output
-    PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios data/friends_scenarios.json --transcripts data/backups_from_remote/transcripts_0520_friends --out-prefix output/0520_friends
+    PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios data/friends_scenarios.json --transcripts data/backups_from_remote/transcripts_0520_friends --out-prefix output/0520_friends.
+    PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios data/matchmaking_scenarios.json --transcripts data/backups_from_remote/transcripts_0524_dating --out-prefix output/0524_dating.
 
     # Visualize
-    cat output/friends/0520_friends.train.json | jq . | less
-    cat output/friends/0520_friends.train.json | jq -r '.[].seqs[].seq[].formula_tokens[]' | sort | uniq -c | sort -nr | less
-    cat output/friends/0520_friends.entity_phrase.json | jq . | less
+    cat output/0520_friends.train.json | jq . | less
+    cat output/0520_friends.train.json | jq -r '.[].seqs[].seq[].formula_tokens[]' | sort | uniq -c | sort -nr | less
+    cat output/0520_friends.entity_phrase.json | jq . | less
+    cat output/0524_dating.train.json | jq -r '.[].seqs[].seq[].formula_tokens[]' | sort | uniq -c | sort -nr | less
+    cat output/0524_dating.entity_phrase.json | jq . | less
 
 # Old commands (deprecated)
 
