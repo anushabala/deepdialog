@@ -118,7 +118,9 @@ class EncoderDecoderModel(NeuralModel):
         p_y_seq = info[0]
         log_p_y = info[1]
         gradients_list = info[2:]
-        objective = -log_p_y
+        # objective = -log_p_y
+        #anushabala (05/30)
+        objective = p_y_seq
         gradients = dict(itertools.izip(self.params, gradients_list))
         # print 'P(y_i): %s' % p_y_seq
         return (objective, gradients)

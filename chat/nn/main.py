@@ -11,6 +11,7 @@ import theano
 import os
 
 # IRW imports
+from chat.nn import utils
 from encoderdecoder import EncoderDecoderModel
 from encdecspec import VanillaEncDecSpec, GRUEncDecSpec, LSTMEncDecSpec
 import spec as specutil
@@ -75,6 +76,8 @@ def _parse_args():
                       help='Use 32-bit floats (default is 64-bit/double precision).')
   parser.add_argument('--beam-size', '-k', type=int, default=0,
                       help='Use beam search with given beam size (default is greedy).')
+  parser.add_argument('--num_samples', type=int, default=1,
+                      help='Number of candidatesto sample for each training example.')
 
   # Input paths
   parser.add_argument('--data-prefix', help='If train and dev not specified, then construct paths using this.')
@@ -133,29 +136,30 @@ def configure_theano():
 
 def load_dataset(name, path):
   print 'load_dataset(%s, %s)' % (name, path)
-  # Dataset format: each line is an example.
-  # Each example is tab-separated with the following fields:
-  # - <input> | ... | <input>: sequence of inputs
-  # - <output> | ... | <output>: corresponding sequence of outputs
-  # - <agent>: agent id (0 or 1)
-  # - <scenario>: specifies the world
-  # Outputs a list of examples, each example is [(i, o), ..., (i, o)]
-  data = []
-  metadata = []
-  with open(path) as f:
-    for line in f:
-      columns = line.rstrip('\n').split('\t')
-      left_seqs = [s.strip() for s in columns[0].split("|")]
-      right_seqs = [s.strip() for s in columns[1].split("|")]
-      agent_idx = int(columns[2])
-      scenario_id = columns[3]
-      metadata.append((agent_idx, scenario_id))
-      assert(len(left_seqs) == len(right_seqs))
-      data.append(list(zip(left_seqs, right_seqs)))
-  
+  # Dataset format: Let X be the top-level JSON object.
+  # X is a list of examples.
+  # X[i]['states'] is a list of states (possible parses of the raw tokens into entities).
+  # X[i]['states'][j].prob: sample this state with this probability.
+  # X[i]['states'][j].messages: list of messages (one person talking)
+  # X[i]['states'][j].messages[k]['formula_token_candidates'][p]: is a list of candidates for the p-th position
+  # X[i]['states'][j].messages[k]['formula_token_candidates'][p][l]: the l-th candidate, which is a token-prob pair
+  # with open(path) as f:
+  #   for line in f:
+  #     columns = line.rstrip('\n').split('\t')
+  #     left_seqs = [s.strip() for s in columns[0].split("|")]
+  #     right_seqs = [s.strip() for s in columns[1].split("|")]
+  #     agent_idx = int(columns[2])
+  #     scenario_id = columns[3]
+  #     metadata.append((agent_idx, scenario_id))
+  #     assert(len(left_seqs) == len(right_seqs))
+  #     data.append(list(zip(left_seqs, right_seqs)))
+  #
+
+  # just load the whole JSON file, don't do any processing (everything done at training time)
+  data = json.load(open(path, 'r'))
   logstats.add('data', name, 'num_examples', len(data))
 
-  return data, metadata
+  return data
 
 def get_input_vocabulary(dataset):
   sentences = [x[0] for l in dataset for x in l]
@@ -197,29 +201,6 @@ def update_model(model, dataset):
     model = get_model(spec)  # Create a new model!
   return model
 
-def sentence_pairs_to_indices(in_vocabulary, out_vocabulary, pairs, eos_on_output):
-  all_x_inds = []
-  all_y_inds = []
-  #print pairs
-  for x,y in pairs:
-    x0_inds = in_vocabulary.sentence_to_indices(x)
-    y0_inds = [-1 for i in x0_inds]
-    y1_inds = out_vocabulary.sentence_to_indices(y, add_eos=eos_on_output)
-    x1_inds = [-1 for i in y1_inds]
-
-    all_x_inds.extend(x0_inds + x1_inds)
-    all_y_inds.extend(y0_inds + y1_inds)
-  return (all_x_inds, all_y_inds)
-  
-def sentence_pairs_to_indices_for_eval(in_vocabulary, out_vocabulary, pairs, eos_on_output):
-  results = []
-  for x,y in pairs:
-    x_inds = in_vocabulary.sentence_to_indices(x)
-    y_inds = out_vocabulary.sentence_to_indices(y, add_eos=eos_on_output)
-    results.append((x_inds,y_inds))
-
-  return results
-  
 
 def preprocess_data(in_vocabulary, out_vocabulary, raw):
   print 'preprocess_data(): %s examples' % len(raw)
@@ -227,7 +208,7 @@ def preprocess_data(in_vocabulary, out_vocabulary, raw):
   data = []
   for ex in raw:
     kwargs = {}
-    x_inds, y_inds = sentence_pairs_to_indices(in_vocabulary, out_vocabulary, ex, eos_on_output)
+    x_inds, y_inds = utils.sentence_pairs_to_indices(in_vocabulary, out_vocabulary, ex, eos_on_output)
     #print "x_inds: {}".format(x_inds)
     #print "y_inds: {}".format(y_inds)
 
@@ -245,7 +226,7 @@ def preprocess_data_for_eval(in_vocabulary, out_vocabulary, raw):
   data = []
   for ex in raw:
     kwargs = {}
-    pairs = sentence_pairs_to_indices_for_eval(in_vocabulary, out_vocabulary, ex, eos_on_output)
+    pairs = utils.sentence_pairs_to_indices_for_eval(in_vocabulary, out_vocabulary, ex, eos_on_output)
 
     if OPTIONS.reverse_input:
       raise Exception("This option is not currently supported.")
@@ -322,7 +303,7 @@ def decode(model, x_inds):
   else:
     return model.decode_beam(x_inds, beam_size=OPTIONS.beam_size)
 
-def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, metadata, fout):
+def evaluate(name, model, in_vocabulary, out_vocabulary, dataset, fout):
   """Evaluate the model.
 
   Supports dataset mapping x to multiple y.  If so, it treats
@@ -470,9 +451,9 @@ def run():
 
   # Read data
   if OPTIONS.train_data:
-    train_raw, train_metadata = load_dataset('train', OPTIONS.train_data)
+    train_raw = load_dataset('train', OPTIONS.train_data)
   if OPTIONS.dev_data:
-    dev_raw, dev_metadata = load_dataset('dev', OPTIONS.dev_data)
+    dev_raw = load_dataset('dev', OPTIONS.dev_data)
 
   # Create vocab
   if OPTIONS.load_params:
@@ -492,33 +473,33 @@ def run():
     # Evaluate on both training and dev data
     if OPTIONS.train_data:
       eval_fh = open_if_specified(OPTIONS.train_eval_file, "w")
-      evaluate('train', model, in_vocabulary, out_vocabulary, train_data_for_eval, train_metadata, eval_fh)
+      evaluate('train', model, in_vocabulary, out_vocabulary, train_raw, eval_fh)
       close_if_specified(eval_fh)
     if OPTIONS.dev_data:
       eval_fh = open_if_specified(OPTIONS.dev_eval_file, "w")
-      evaluate('dev', dev_model, in_vocabulary, out_vocabulary, dev_data_for_eval, dev_metadata, eval_fh)
+      evaluate('dev', dev_model, in_vocabulary, out_vocabulary, dev_raw, eval_fh)
       close_if_specified(eval_fh)
 
   # Set up models
   model = get_model(spec)
-  model.add_listener(evaluate_after_epoch)
+  # model.add_listener(evaluate_after_epoch)
   dev_model = update_model(model, dev_raw)
 
   # Preprocess data
-  if OPTIONS.train_data:
-    train_data = preprocess_data(in_vocabulary, out_vocabulary, train_raw)
-    train_data_for_eval = preprocess_data_for_eval(in_vocabulary, out_vocabulary, train_raw)
-  if OPTIONS.dev_data:
-    dev_data = preprocess_data(dev_model.in_vocabulary,
-                               dev_model.out_vocabulary, dev_raw)
-    dev_data_for_eval = preprocess_data_for_eval(dev_model.in_vocabulary,
-                                                 dev_model.out_vocabulary, dev_raw)
+  # if OPTIONS.train_data:
+    # train_data = preprocess_data(in_vocabulary, out_vocabulary, train_raw)
+    # train_data_for_eval = preprocess_data_for_eval(in_vocabulary, out_vocabulary, train_raw)
+  # if OPTIONS.dev_data:
+  #   dev_data = preprocess_data(dev_model.in_vocabulary,
+  #                              dev_model.out_vocabulary, dev_raw)
+  #   dev_data_for_eval = preprocess_data_for_eval(dev_model.in_vocabulary,
+  #                                                dev_model.out_vocabulary, dev_raw)
 
 
   # Train!
   if OPTIONS.train_data:
-    model.train(train_data, T=OPTIONS.num_epochs, eta=OPTIONS.learning_rate,
-                batch_size=OPTIONS.batch_size, verbose=True)
+    model.train(train_raw, T=OPTIONS.num_epochs, eta=OPTIONS.learning_rate,
+                batch_size=OPTIONS.batch_size, verbose=True, num_samples=OPTIONS.num_samples)
 
   if OPTIONS.save_params:
     print >> sys.stderr, 'Saving parameters...'

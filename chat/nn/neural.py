@@ -8,7 +8,9 @@ import theano
 from theano.ifelse import ifelse
 from theano import tensor as T
 import time
+from chat.nn import utils
 import logstats
+from sample_candidates import sample_dialogue
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
 
@@ -75,7 +77,7 @@ class NeuralModel(object):
         for listener in self.listeners:
             listener(it)
 
-    def train(self, dataset, eta=0.1, T=10, verbose=False, batch_size=1):
+    def train(self, dataset, eta=0.1, T=10, verbose=False, batch_size=1, num_samples=1):
         print 'NeuralModel.train()'
         # batch_size = size for mini batch.  Defaults to SGD.
         for it in range(T):
@@ -86,7 +88,7 @@ class NeuralModel(object):
             for i in range(0, len(dataset), batch_size):
                 do_update = i + batch_size <= len(dataset)
                 cur_examples = dataset[i:(i + batch_size)]
-                nll = self._train_batch(cur_examples, eta, do_update=do_update)
+                nll = self._train_batch(cur_examples, eta, do_update=do_update, num_samples=num_samples)
                 total_nll += nll
                 if verbose:
                     print 'NeuralModel.train(): iter %d, %d/%d examples, nll = %g' % (it, i, len(dataset), nll)
@@ -97,7 +99,7 @@ class NeuralModel(object):
                 it, total_nll, t1 - t0)
             self.on_train_epoch(it)
 
-    def _train_batch(self, examples, eta, do_update=True):
+    def _train_batch(self, examples, eta, do_update=True, num_samples=1):
         """Run training given a batch of training examples.
 
         Returns negative log-likelihood.
@@ -106,22 +108,58 @@ class NeuralModel(object):
         objective = 0
         gradients = {}
         for ex in examples:
-            x_inds, y_inds, kwargs = ex
+            # todo add all the changes here - sample candidate, tokens, etc!
+            # x_inds, y_inds
             # print 'xi: %s' % x_inds
             # print 'yi: %s' % y_inds
             # print 'x: %s' % self.in_vocabulary.indices_to_sentence(x_inds)
             # print 'y: %s' % self.out_vocabulary.indices_to_sentence(y_inds)
+            already_sampled_x = []
+            already_sampled_y = []
+            ex_objective = 0.0
+            max_tries = 5
+            for i in xrange(0, num_samples):
+                x, y = sample_dialogue(ex)
 
-            assert len(x_inds) == len(y_inds)
+                tries = 0
+                while x in already_sampled_x and y in already_sampled_y and tries <= max_tries:
+                    # todo find a better way to find out if there are no more possible candidates -
+                    # probably not important right now for sample size = 1
+                    x, y = sample_dialogue(ex)
 
-            cur_objective, cur_gradients = self.get_objective_and_gradients(
-                x_inds, y_inds, total_examples=len(examples), **kwargs)
-            objective += cur_objective
-            for p in self.params:
-                if p in gradients:
-                    gradients[p] += cur_gradients[p] / len(examples)
-                else:
-                    gradients[p] = cur_gradients[p] / len(examples)
+                if x in already_sampled_x and y in already_sampled_y:
+                    # give up
+                    break
+
+                print "input seq: ", x
+                print "output seq", y
+
+                assert len(x) == len(y)
+                already_sampled_x.append(x)
+                already_sampled_y.append(y)
+                pairs = zip(x, y)
+
+                x_inds, y_inds = utils.sentence_pairs_to_indices(self.spec.in_vocabulary,
+                                                                 self.spec.out_vocabulary,
+                                                                 pairs,
+                                                                 eos_on_output=True)
+
+                print "x_inds: ", x_inds
+                print "y_inds", y_inds
+                p_y_seq, cur_gradients = self.get_objective_and_gradients(x_inds, y_inds)
+                p_y_seq = T.sum(p_y_seq)
+                ex_objective += p_y_seq
+                for p in self.params:
+                    # weight gradient by probability of candidate
+                    if p in gradients:
+                        gradients[p] += p_y_seq * cur_gradients[p] / len(examples)
+                    else:
+                        gradients[p] = p_y_seq * cur_gradients[p] / len(examples)
+
+            # loss w.r.t. one example is log of sum of losses of candidates
+            ex_objective = -T.log(ex_objective)
+            # add to total objective
+            objective += ex_objective
         if do_update:
             for p in self.params:
                 self._perform_sgd_step(p, gradients[p], eta)
