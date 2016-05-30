@@ -3,6 +3,23 @@ There are two steps:
 - Read the raw transcripts and output a sequence-to-sequence dataset.
 - Train a sequence-to-sequence model.
 
+# Dataset JSON format
+
+Each example in the dataset specifies a proposal distribution over possible sequences.
+
+    Let X be the top-level JSON object.
+    X is a list of examples.
+    X[i]['states'] is a list of states (possible parses of the raw tokens into entities).
+    X[i]['states'][j].prob: sample this state with this probability.
+    X[i]['states'][j].messages: list of messages (one person talking)
+    X[i]['states'][j].messages[k]['formula_token_candidates'][p]: is a list of candidates for the p-th position
+    X[i]['states'][j].messages[k]['formula_token_candidates'][p][l]: the l-th candidate, which is a token-prob pair
+
+The distribution is gotten by:
+
+- Sampling a state according to the given probabilities.
+- For each token, sample a candidate token independently according the given probability.
+
 # Running on CodaLab
 
     cl work nlp::pliang-dialog
