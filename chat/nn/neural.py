@@ -118,6 +118,8 @@ class NeuralModel(object):
             already_sampled_y = []
             ex_objective = 0.0
             max_tries = 5
+            ex_gradients = []
+            ex_probs = []
             for i in xrange(0, num_samples):
                 x, y = sample_dialogue(ex)
 
@@ -148,14 +150,22 @@ class NeuralModel(object):
                 print "y_inds", y_inds
                 p_y_seq, cur_gradients = self.get_objective_and_gradients(x_inds, y_inds)
                 p_y_seq = T.sum(p_y_seq)
-                ex_objective += p_y_seq
-                for p in self.params:
-                    # weight gradient by probability of candidate
-                    if p in gradients:
-                        gradients[p] += p_y_seq * cur_gradients[p] / len(examples)
-                    else:
-                        gradients[p] = p_y_seq * cur_gradients[p] / len(examples)
+                # ex_objective += p_y_seq
+                ex_probs.append(p_y_seq)
+                ex_gradients.append(cur_gradients)
 
+            gradients_and_probs = zip(ex_probs, ex_gradients)
+            norm_factor = T.sum(ex_probs)
+            for p in self.params:
+                for candidate_prob, candidate_gradients in gradients_and_probs:
+                    # weight gradient by probability of candidate
+                    candidate_prob /= norm_factor
+                    if p in gradients:
+                        gradients[p] += candidate_prob * candidate_gradients[p] / len(examples)
+                    else:
+                        gradients[p] = candidate_prob * candidate_gradients[p] / len(examples)
+
+            ex_objective += T.sum(ex_probs)
             # loss w.r.t. one example is log of sum of losses of candidates
             ex_objective = -T.log(ex_objective)
             # add to total objective

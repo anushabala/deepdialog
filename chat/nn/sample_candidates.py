@@ -8,7 +8,7 @@ SAY_TOKEN = "SAY"
 
 def sample_state(example):
     probs = [state["prob"] for state in example["states"]]
-    choice = np.random.choice(xrange(example["states"]),p=probs)
+    choice = np.random.choice(xrange(len(example["states"])), p=probs)
 
     return example["states"][choice]
 
