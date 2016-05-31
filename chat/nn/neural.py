@@ -8,7 +8,7 @@ import theano
 from theano.ifelse import ifelse
 from theano import tensor as T
 import time
-from chat.nn import utils
+import utils
 import logstats
 from sample_candidates import sample_dialogue
 
