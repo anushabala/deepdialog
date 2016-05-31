@@ -169,14 +169,14 @@ def get_sentences_from_raw_data(raw_data):
         sentence = []
         for token_candidates in message["formula_token_candidates"]:
           if len(token_candidates) == 1:
-            sentence.append(token_candidates[0])
+            sentence.append(token_candidates[0][0])
           else:
             sentence.extend([t[0] for t in token_candidates])
         print sentence
-        sentences.append(sentence)
+        sentences.append(" ".join(sentence))
 
 def get_input_vocabulary(dataset):
-  sentences = [x[0] for l in dataset for x in l]
+  # sentences = [x[0] for l in dataset for x in l]
   constructor = VOCAB_TYPES[OPTIONS.input_vocab_type]
   if OPTIONS.float32:
     return constructor(sentences, OPTIONS.input_embedding_dim,
