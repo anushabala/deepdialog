@@ -11,7 +11,7 @@ import theano
 import os
 
 # IRW imports
-from chat.nn import utils
+import utils
 from encoderdecoder import EncoderDecoderModel
 from encdecspec import VanillaEncDecSpec, GRUEncDecSpec, LSTMEncDecSpec
 import spec as specutil
