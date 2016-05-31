@@ -27,6 +27,7 @@ def sample_logical_form(message):
 
 
 def create_sequences_from_dialogue(dialogue, this_agent):
+    print dialogue
     first_agent = dialogue[0][0]
     other_agent = 1 - this_agent
     if first_agent != this_agent:
@@ -39,7 +40,7 @@ def create_sequences_from_dialogue(dialogue, this_agent):
     y = []
     current_seqs = []
     for (agent, tokens) in dialogue:
-        if tokens[0] != SELECT_TOKEN:
+        if tokens[0] != SELECT_TOKEN and tokens[0] != START_TOKEN:
             tokens.insert(0, SAY_TOKEN)
 
         seq = " ".join(tokens)
