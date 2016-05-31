@@ -150,22 +150,24 @@ class NeuralModel(object):
                 #print "y_inds", y_inds
                 p_y_seq, cur_gradients = self.get_objective_and_gradients(x_inds, y_inds)
                 #print "Raw probabilities per token:", p_y_seq
-                p_y_seq = numpy.prod(p_y_seq)
+                # p_y_seq = numpy.prod(p_y_seq)
                 #p_y_seq = 1.0 # just to see what happens 
                 #print "Probability of candidate sequence:", p_y_seq
                 # ex_objective += p_y_seq
                 ex_probs.append(p_y_seq)
                 ex_gradients.append(cur_gradients)
 
-            gradients_and_probs = zip(ex_probs, ex_gradients)
-            norm_factor = numpy.sum(ex_probs)
+            ex_probs = numpy.array(ex_probs, dtype=numpy.float32)
+            position_norms = ex_probs.sum(ex_probs, axis=0, keepdims=True)
+            ex_probs /= position_norms
+            gradients_and_probs = zip(xrange(0, num_samples), ex_gradients)
             for p in self.params:
                 #print p
-                for candidate_prob, candidate_gradients in gradients_and_probs:
+                for idx, candidate_gradients in gradients_and_probs:
                     # weight gradient by probability of candidate
                     #print "candidate sequence probability:", candidate_prob
-                    candidate_prob /= norm_factor
-                    
+                    candidate_prob = ex_probs[idx]
+                    candidate_prob = numpy.prod(candidate_prob)
                     #print "prob norm factor:", norm_factor
                     #print "candidate sequence probability:", candidate_prob
                     if p in gradients:
