@@ -179,6 +179,7 @@ def get_sentences_from_raw_data(raw_data, input_data=True):
             sentence.extend([t[0] for t in token_candidates])
         print sentence
         sentences.append(" ".join(sentence))
+  return sentences
 
 def get_input_vocabulary(raw_data):
   sentences = get_sentences_from_raw_data(raw_data, True)

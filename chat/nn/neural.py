@@ -41,14 +41,14 @@ class NeuralModel(object):
         self.out_vocabulary = spec.out_vocabulary
         self.float_type = float_type
         self.params = spec.get_params()
-        print "NeuralModel(): got all params"
+        #print "NeuralModel(): got all params"
         self.all_shared = spec.get_all_shared()
-        print "NeuralModel(): got all theano shared variables"
+        #print "NeuralModel(): got all theano shared variables"
         self.listeners = listeners
 
-        print "NeuralModel(): starting setup"
+        #print "NeuralModel(): starting setup"
         self.setup()
-        print "NeuralModel(): setup complete"
+        #print "NeuralModel(): setup complete"
 
     def setup(self, test_only=False):
         """Do all necessary setup (e.g. compile theano functions)."""
@@ -78,8 +78,8 @@ class NeuralModel(object):
             listener(it)
 
     def train(self, dataset, eta=0.1, T=10, verbose=False, batch_size=1, num_samples=1):
-        print 'NeuralModel.train()'
-        # batch_size = size for mini batch.  Defaults to SGD.
+        #print 'NeuralModel.train()'
+        #n batch_size = size for mini batch.  Defaults to SGD.
         for it in range(T):
             logstats.add('train', 'iteration', it)
             t0 = time.time()
@@ -133,8 +133,8 @@ class NeuralModel(object):
                     # give up
                     break
 
-                print "input seq: ", x
-                print "output seq", y
+                #print "input seq: ", x
+                #print "output seq", y
 
                 assert len(x) == len(y)
                 already_sampled_x.append(x)
@@ -146,32 +146,42 @@ class NeuralModel(object):
                                                                  pairs,
                                                                  eos_on_output=True)
 
-                print "x_inds: ", x_inds
-                print "y_inds", y_inds
+                #print "x_inds: ", x_inds
+                #print "y_inds", y_inds
                 p_y_seq, cur_gradients = self.get_objective_and_gradients(x_inds, y_inds)
-                p_y_seq = T.sum(p_y_seq)
+                #print "Raw probabilities per token:", p_y_seq
+                p_y_seq = numpy.prod(p_y_seq)
+                #p_y_seq = 1.0 # just to see what happens 
+                #print "Probability of candidate sequence:", p_y_seq
                 # ex_objective += p_y_seq
                 ex_probs.append(p_y_seq)
                 ex_gradients.append(cur_gradients)
 
             gradients_and_probs = zip(ex_probs, ex_gradients)
-            norm_factor = T.sum(ex_probs)
+            norm_factor = numpy.sum(ex_probs)
             for p in self.params:
+                #print p
                 for candidate_prob, candidate_gradients in gradients_and_probs:
                     # weight gradient by probability of candidate
+                    #print "candidate sequence probability:", candidate_prob
                     candidate_prob /= norm_factor
+                    
+                    #print "prob norm factor:", norm_factor
+                    #print "candidate sequence probability:", candidate_prob
                     if p in gradients:
                         gradients[p] += candidate_prob * candidate_gradients[p] / len(examples)
                     else:
                         gradients[p] = candidate_prob * candidate_gradients[p] / len(examples)
 
-            ex_objective += T.sum(ex_probs)
+            ex_objective += numpy.sum(ex_probs)
             # loss w.r.t. one example is log of sum of losses of candidates
-            ex_objective = -T.log(ex_objective)
+            ex_objective = -numpy.log(ex_objective)
             # add to total objective
             objective += ex_objective
+            #print gradients.keys()
         if do_update:
             for p in self.params:
+                #print p, type(gradients[p]), gradients[p]
                 self._perform_sgd_step(p, gradients[p], eta)
         return objective
 
