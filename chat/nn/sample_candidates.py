@@ -1,10 +1,6 @@
 __author__ = 'anushabala'
 import numpy as np
-
-START_TOKEN = "_start_dialogue_"
-SELECT_TOKEN = "_select_name_"
-SAY_TOKEN = "_say_"
-PASS_TOKEN = "_action_pass_" 
+from vocabulary import Vocabulary
 
 
 def sample_state(example):
@@ -38,11 +34,11 @@ def create_sequences_from_dialogue(dialogue, this_agent):
     #print other_agent
     #print first_agent == this_agent
     if first_agent != this_agent:
-        dialogue[0][1].insert(0, START_TOKEN)
+        dialogue[0][1].insert(0, Vocabulary.START_TOKEN)
         current_agent = first_agent
 
     else:
-        dialogue.insert(0, (other_agent, [START_TOKEN]))
+        dialogue.insert(0, (other_agent, [Vocabulary.START_TOKEN]))
         current_agent = other_agent
 
     #print dialogue
@@ -50,8 +46,8 @@ def create_sequences_from_dialogue(dialogue, this_agent):
     y = []
     current_seqs = []
     for (agent, tokens) in dialogue:
-        if tokens[0] != SELECT_TOKEN and tokens[0] != START_TOKEN:
-            tokens.insert(0, SAY_TOKEN)
+        if tokens[0] != Vocabulary.SELECT_TOKEN and tokens[0] != Vocabulary.START_TOKEN:
+            tokens.insert(0, Vocabulary.SAY_TOKEN)
 
         seq = " ".join(tokens)
         if current_agent != agent:
@@ -65,7 +61,7 @@ def create_sequences_from_dialogue(dialogue, this_agent):
     agent_list.append(" ".join(current_seqs))
 
     if current_agent == other_agent and len(x) == len(y)+1:
-        y.append(PASS_TOKEN)
+        y.append(Vocabulary.PASS_TOKEN)
     return x, y
 
 

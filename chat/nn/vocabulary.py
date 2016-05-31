@@ -24,6 +24,10 @@ class Vocabulary:
     UNKNOWN = 'UNK'
     UNKNOWN_INDEX = 1
     NUM_SPECIAL_SYMBOLS = 2
+    START_TOKEN = "_start_"
+    SELECT_TOKEN = "_select_name_"
+    SAY_TOKEN = "_say_"
+    PASS_TOKEN = "_action_pass_"
 
     def get_theano_embedding(self, index):
         """Get theano embedding for given word index."""
@@ -88,7 +92,8 @@ class RawVocabulary(Vocabulary):
           word_list: List of words that occurred in the training data.
           emb_size: dimension of word embeddings
         """
-        self.word_list = [self.END_OF_SENTENCE, self.UNKNOWN] + word_list
+        self.word_list = [self.END_OF_SENTENCE, self.UNKNOWN, self.START_TOKEN,
+                          self.SAY_TOKEN, self.SELECT_TOKEN, self.PASS_TOKEN] + word_list
         self.word_to_index = dict((x[1], x[0]) for x in enumerate(self.word_list))
         self.emb_size = emb_size
         self.float_type = float_type

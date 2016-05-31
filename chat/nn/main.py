@@ -161,6 +161,20 @@ def load_dataset(name, path):
 
   return data
 
+def get_sentences_from_raw_data(raw_data):
+  sentences = []
+  for ex in raw_data:
+    for state in ex["states"]:
+      for message in state["messages"]:
+        sentence = []
+        for token_candidates in message["formula_token_candidates"]:
+          if len(token_candidates) == 1:
+            sentence.append(token_candidates[0])
+          else:
+            sentence.extend([t[0] for t in token_candidates])
+        print sentence
+        sentences.append(sentence)
+
 def get_input_vocabulary(dataset):
   sentences = [x[0] for l in dataset for x in l]
   constructor = VOCAB_TYPES[OPTIONS.input_vocab_type]
@@ -452,8 +466,10 @@ def run():
   # Read data
   if OPTIONS.train_data:
     train_raw = load_dataset('train', OPTIONS.train_data)
+    train_sentences = get_sentences_from_raw_data(train_raw)
   if OPTIONS.dev_data:
     dev_raw = load_dataset('dev', OPTIONS.dev_data)
+    dev_sentences = get_sentences_from_raw_data(dev_raw)
 
   # Create vocab
   if OPTIONS.load_params:
@@ -463,8 +479,8 @@ def run():
     out_vocabulary = spec.out_vocabulary
   elif OPTIONS.train_data:
     print >> sys.stderr, 'Initializing parameters...'
-    in_vocabulary = get_input_vocabulary(train_raw)
-    out_vocabulary = get_output_vocabulary(train_raw)
+    in_vocabulary = get_input_vocabulary(train_sentences)
+    out_vocabulary = get_output_vocabulary(train_sentences)
     spec = get_continuous_spec(in_vocabulary, out_vocabulary)
   else:
     raise Exception('Must either provide parameters to load or training data.')
@@ -487,7 +503,7 @@ def run():
 
   # Preprocess data
   # if OPTIONS.train_data:
-    # train_data = preprocess_data(in_vocabulary, out_vocabulary, train_raw)
+  #   train_data = preprocess_data(in_vocabulary, out_vocabulary, train_raw)
     # train_data_for_eval = preprocess_data_for_eval(in_vocabulary, out_vocabulary, train_raw)
   # if OPTIONS.dev_data:
   #   dev_data = preprocess_data(dev_model.in_vocabulary,
