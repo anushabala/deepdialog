@@ -11,16 +11,26 @@ def normalize_weights(weights):
     if s == 0:
         print 'WARNING: zero normalization'
         return weights
-    return [1.0 * w / s for w in weights]
+    return [1.0 * weight / s for weight in weights]
+
+def normalize_candidates(candidates):
+    '''
+    [('a', 2), ('b', 8)] => [('a', 0.2), ('b', 0.8)]
+    '''
+    s = sum([weight for token, weight in candidates])
+    return [(k, weight / s) for k, weight in candidates]
 
 def sample_candidates(candidates):
     '''
-    [('a', 0.2), ('b', 0.8)] => 'a' or 'b'
+    [('a', 2), ('b', 8)] => 'a' or 'b'
     '''
     weights = [weight for token, weight in candidates]
     sums = numpy.array(weights).cumsum()
     i = sums.searchsorted(random.random() * sums[-1])
-    return candidates[i][0]
+    return candidates[i]
 
 def sorted_candidates(candidates):
+    '''
+    [('a', 2), ('b', 8)] => [('b', 8), ('a', 2)]
+    '''
     return sorted(candidates, key=lambda (token, weight) : weight, reverse=True)

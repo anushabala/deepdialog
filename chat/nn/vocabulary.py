@@ -28,7 +28,7 @@ class Vocabulary:
     SELECT_TOKEN = "_select_name_"
     SAY_TOKEN = "_say_"
     PASS_TOKEN = "_action_pass_"
-
+    
     def get_theano_embedding(self, index):
         """Get theano embedding for given word index."""
         raise NotImplementedError

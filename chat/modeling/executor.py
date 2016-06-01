@@ -4,9 +4,12 @@ import random
 from collections import defaultdict
 from kb import KB
 
-def of(rel): return rel + 'Of'
-def has(rel): return 'Has' + rel
-def is_entity(token): return not isinstance(token, basestring)
+def of(rel):
+    return rel + 'Of'
+def has(rel):
+    return 'Has' + rel
+def is_entity(token):
+    return not isinstance(token, basestring)
 
 def sort_by_freq(l):
     # Return the distinct elements of l sorted by descending frequency
@@ -108,7 +111,7 @@ class Executor(object):
                 return [row['Name'] for row in table[1:]]
             if formula == 'MentionOfA':
                 # Include both things in previous utterances (in state) and in same utterances
-                return state.mentions[self.agent] + ([x for x in tokens[:i-1] if is_entity(x)] if i > 0 else [])
+                return state.mentions[self.agent] + ([x for x in tokens[:i-1] if is_entity(x)] if i-1 >= 0 else [])
             if formula == 'MentionOfB':
                 return state.mentions[1-self.agent]
             if formula == 'NextMention':
@@ -124,9 +127,12 @@ class Executor(object):
 
         func, args = formula[0], formula[1:]
         if func == 'MagicType':
+            if i >= len(tokens):  # Current position not available (at generation test time)
+                return None
             return [tokens[i]] + [None] * 100  # Just return the token with junk to lower the prob
         if func == 'Value':
             return [args[0]]  # Don't recursively execute arguments
+        orig_args = args
         args = [self.execute(state, who, tokens, i, arg) for arg in args]
         if any(arg is None for arg in args):  # None signifies failure
             return None

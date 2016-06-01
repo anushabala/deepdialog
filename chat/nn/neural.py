@@ -9,7 +9,7 @@ from theano.ifelse import ifelse
 from theano import tensor as T
 import time
 import utils
-import logstats
+from chat.lib import logstats
 from sample_candidates import sample_dialogue
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
@@ -108,7 +108,6 @@ class NeuralModel(object):
         objective = 0
         gradients = {}
         for ex in examples:
-            # todo add all the changes here - sample candidate, tokens, etc!
             # x_inds, y_inds
             # print 'xi: %s' % x_inds
             # print 'yi: %s' % y_inds
@@ -120,6 +119,8 @@ class NeuralModel(object):
             ex_candidate_probs = [] # stores all p_theta(z_i)
             ex_cond_probs_unnorm = [] # stores p(x|z_i) unnormalized
 
+            # TODO: push all sampling logic into sample_candidates.sample_dialogues(ex, num_samples)
+            # todo should we be sampling with replacement? removed that code for now (anushabala 06/01)
             for i in xrange(0, num_samples):
                 x, y, cond_prob, norm_cond_prob, unnorm_cond_prob = sample_dialogue(ex)
                 candidate_prob = numpy.sum(numpy.log(unnorm_cond_prob))

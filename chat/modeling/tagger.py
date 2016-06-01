@@ -1,3 +1,5 @@
+### DEPRECATED - see Lexicon and DialogueTracker
+
 import string
 import sys
 

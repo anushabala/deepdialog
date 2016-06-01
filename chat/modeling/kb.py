@@ -37,5 +37,7 @@ class KB(object):
 
     def dump(self):
         print '############ KB %s, agent=%s:' % (self.scenario_id, self.agent,)
-        for row in self.table:
-            print ' ', row
+        all_relations = ['Name'] + self.relations
+        widths = [max(len(str(row[rel])) for row in self.table) for rel in all_relations]
+        for row in [dict((rel, rel) for rel in all_relations)] + self.table:
+            print ' ', ' '.join(('%%-%ds' % widths[i]) % (row[rel],) for i, rel in enumerate(all_relations))

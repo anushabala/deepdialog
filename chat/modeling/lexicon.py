@@ -133,7 +133,7 @@ class Lexicon(object):
             if ' ' in entity:
                 for word in entity.split(' '):
                     if len(word) >= 3 and self.word_counts[word] == 1:
-                        phrases.append(word) 
+                        phrases.append(word)
             # Consider removing stop words
             mod_entity = entity
             for s in [' of ', ' - ']:
