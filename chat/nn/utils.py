@@ -1,4 +1,6 @@
 __author__ = 'anushabala'
+import numpy as np
+
 
 def sentence_pairs_to_indices(in_vocabulary, out_vocabulary, pairs, eos_on_output):
   all_x_inds = []
@@ -23,3 +25,11 @@ def sentence_pairs_to_indices_for_eval(in_vocabulary, out_vocabulary, pairs, eos
     results.append((x_inds,y_inds))
 
   return results
+
+
+def normalize_distribution(probs):
+  norm_probs = probs - np.max(probs)
+  norm_probs = np.exp(norm_probs)
+  norm_probs /=  np.sum(norm_probs)
+
+  return norm_probs

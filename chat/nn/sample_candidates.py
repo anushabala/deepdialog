@@ -12,15 +12,22 @@ def sample_state(example):
 
 def sample_logical_form(message):
     sampled_tokens = []
+    sampled_probs = []
+    normalized_probs = []
     for candidate_set in message['formula_token_candidates']:
         if len(candidate_set) == 1:
             sampled_tokens.append(candidate_set[0][0])
         else:
+            candidate_to_prob = {candidate[0]:candidate[1] for candidate in candidate_set}
             candidate_tokens = [candidate[0] for candidate in candidate_set]
-            probs = [candidate[1] for candidate in candidate_set]
-            token = np.random.choice(candidate_tokens, p=probs)
+            probs = np.array([candidate[1] for candidate in candidate_set])
+            norm_factor = np.sum(probs)
+            candidate_to_norm_prob = {candidate[0]:candidate[1]/norm_factor for candidate in candidate_set}
+            token = np.random.choice(candidate_tokens, p=probs/norm_factor)
             sampled_tokens.append(token)
-    return sampled_tokens
+            sampled_probs.append(candidate_to_prob[token])
+            normalized_probs.append(candidate_to_prob[token])
+    return sampled_tokens, sampled_probs, normalized_probs
 
 
 def create_sequences_from_dialogue(dialogue, this_agent):
@@ -69,12 +76,16 @@ def sample_dialogue(example):
     selected_state = sample_state(example)
     this_agent = example["agent"]
     dialogue = []
+    candidate_probs = []
+    candidate_unnorm_probs = []
     for message in selected_state["messages"]:
         agent_idx = message["who"]
-        tokens = sample_logical_form(message)
+        tokens, probs, unnorm_probs = sample_logical_form(message)
+        candidate_probs.extend(probs)
+        candidate_unnorm_probs.extend(unnorm_probs)
         dialogue.append((agent_idx, tokens))
 
-    return create_sequences_from_dialogue(dialogue, this_agent)
+    return create_sequences_from_dialogue(dialogue, this_agent), candidate_probs, candidate_unnorm_probs
 
 
 def get_raw_token_sequence(state, this_agent):
