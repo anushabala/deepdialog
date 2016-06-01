@@ -174,10 +174,10 @@ class NeuralModel(object):
                         gradients[p] += candidate_prob * candidate_gradients[p] / len(examples)
                     else:
                         gradients[p] = candidate_prob * candidate_gradients[p] / len(examples)
-
+            ex_probs = numpy.prod(ex_probs, axis=1)
             ex_objective += numpy.sum(ex_probs)
             # loss w.r.t. one example is log of sum of losses of candidates
-            ex_objective = -numpy.log(ex_objective)
+            ex_objective = numpy.log(ex_objective)
             # add to total objective
             objective += ex_objective
             #print gradients.keys()
