@@ -26,7 +26,7 @@ def sample_logical_form(message):
             token = np.random.choice(candidate_tokens, p=probs/norm_factor)
             sampled_tokens.append(token)
             sampled_probs.append(candidate_to_prob[token])
-            normalized_probs.append(candidate_to_prob[token])
+            normalized_probs.append(candidate_to_norm_prob[token])
     return sampled_tokens, sampled_probs, normalized_probs
 
 

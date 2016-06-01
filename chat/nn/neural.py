@@ -114,31 +114,20 @@ class NeuralModel(object):
             # print 'yi: %s' % y_inds
             # print 'x: %s' % self.in_vocabulary.indices_to_sentence(x_inds)
             # print 'y: %s' % self.out_vocabulary.indices_to_sentence(y_inds)
-            already_sampled_x = []
-            already_sampled_y = []
-            ex_objective = 0.0
             max_tries = 5
             ex_gradients = []
-            ex_probs = []
+            ex_objective = []
+            ex_candidate_probs = [] # stores all p_theta(z_i)
+            ex_cond_probs_unnorm = [] # stores p(x|z_i) unnormalized
+
             for i in xrange(0, num_samples):
-                x, y = sample_dialogue(ex)
-
-                tries = 0
-                while x in already_sampled_x and y in already_sampled_y and tries <= max_tries:
-                    # todo find a better way to find out if there are no more possible candidates -
-                    # probably not important right now for sample size = 1
-                    x, y = sample_dialogue(ex)
-
-                if x in already_sampled_x and y in already_sampled_y:
-                    # give up
-                    break
-
+                x, y, cond_prob, norm_cond_prob, unnorm_cond_prob = sample_dialogue(ex)
+                candidate_prob = numpy.sum(numpy.log(unnorm_cond_prob))
+                ex_cond_probs_unnorm.append(candidate_prob)
                 #print "input seq: ", x
                 #print "output seq", y
 
                 assert len(x) == len(y)
-                already_sampled_x.append(x)
-                already_sampled_y.append(y)
                 pairs = zip(x, y)
 
                 x_inds, y_inds = utils.sentence_pairs_to_indices(self.spec.in_vocabulary,
@@ -149,35 +138,32 @@ class NeuralModel(object):
                 #print "x_inds: ", x_inds
                 #print "y_inds", y_inds
                 p_y_seq, cur_gradients = self.get_objective_and_gradients(x_inds, y_inds)
+
                 #print "Raw probabilities per token:", p_y_seq
-                # p_y_seq = numpy.prod(p_y_seq)
-                #p_y_seq = 1.0 # just to see what happens 
                 #print "Probability of candidate sequence:", p_y_seq
                 # ex_objective += p_y_seq
-                ex_probs.append(p_y_seq)
+
+                ex_candidate_probs.append(numpy.sum(numpy.log(p_y_seq)))
+
                 ex_gradients.append(cur_gradients)
 
-            ex_probs = numpy.array(ex_probs, dtype=numpy.float32)
-            position_norms = ex_probs.sum(axis=0, keepdims=True)
-            ex_probs /= position_norms
+            ex_candidate_probs_norm = ex_candidate_probs/numpy.sum(ex_candidate_probs)
             gradients_and_probs = zip(xrange(0, num_samples), ex_gradients)
             for p in self.params:
                 #print p
                 for idx, candidate_gradients in gradients_and_probs:
                     # weight gradient by probability of candidate
                     #print "candidate sequence probability:", candidate_prob
-                    candidate_prob = ex_probs[idx]
-                    candidate_prob = numpy.prod(candidate_prob)
                     #print "prob norm factor:", norm_factor
                     #print "candidate sequence probability:", candidate_prob
+                    candidate_prob = ex_candidate_probs_norm[idx]
                     if p in gradients:
                         gradients[p] += candidate_prob * candidate_gradients[p] / len(examples)
                     else:
                         gradients[p] = candidate_prob * candidate_gradients[p] / len(examples)
-            ex_probs = numpy.prod(ex_probs, axis=1)
-            ex_objective += numpy.sum(ex_probs)
+            for idx in xrange(0, num_samples):
+                ex_objective += ex_candidate_probs_norm[idx] * (ex_candidate_probs[idx] + ex_cond_probs_unnorm[idx] - numpy.log(ex_candidate_probs_norm[idx]))
             # loss w.r.t. one example is log of sum of losses of candidates
-            ex_objective = numpy.log(ex_objective)
             # add to total objective
             objective += ex_objective
             #print gradients.keys()
