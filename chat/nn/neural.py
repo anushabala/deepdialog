@@ -158,7 +158,7 @@ class NeuralModel(object):
                 ex_gradients.append(cur_gradients)
 
             ex_probs = numpy.array(ex_probs, dtype=numpy.float32)
-            position_norms = ex_probs.sum(ex_probs, axis=0, keepdims=True)
+            position_norms = ex_probs.sum(axis=0, keepdims=True)
             ex_probs /= position_norms
             gradients_and_probs = zip(xrange(0, num_samples), ex_gradients)
             for p in self.params:

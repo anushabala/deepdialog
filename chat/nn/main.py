@@ -362,7 +362,7 @@ def evaluate(name, model, in_vocabulary, out_vocabulary, raw_data, fout):
 
     total_nll = 0.0
     for ex in raw_data:
-        x_raw, y_raw = sample_candidates.get_raw_token_sequence(ex["states"][0])
+        x_raw, y_raw = sample_candidates.get_raw_token_sequence(ex["states"][0], ex["agent"])
         ex_eval = {"x_raw":x_raw, "y_raw":y_raw, "candidates":[]}
         already_sampled_x = []
         already_sampled_y = []

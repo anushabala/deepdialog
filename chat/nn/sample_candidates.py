@@ -77,11 +77,11 @@ def sample_dialogue(example):
     return create_sequences_from_dialogue(dialogue, this_agent)
 
 
-def get_raw_token_sequence(state):
+def get_raw_token_sequence(state, this_agent):
     dialogue = []
     for message in state["messages"]:
         agent_idx = message["who"]
         tokens = message["raw_tokens"]
         dialogue.append((agent_idx, tokens))
 
-    return create_sequences_from_dialogue(dialogue, this_agent=state["agent"])
+    return create_sequences_from_dialogue(dialogue, this_agent=this_agent)
