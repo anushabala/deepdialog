@@ -9,7 +9,7 @@ from theano.ifelse import ifelse
 from theano import tensor as T
 import time
 import utils
-import logstats
+from chat.lib import logstats
 from sample_candidates import sample_dialogue
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
@@ -120,6 +120,7 @@ class NeuralModel(object):
             max_tries = 5
             ex_gradients = []
             ex_probs = []
+            # TODO: push all sampling logic into sample_candidates.sample_dialogues(ex, num_samples)
             for i in xrange(0, num_samples):
                 x, y = sample_dialogue(ex)
 

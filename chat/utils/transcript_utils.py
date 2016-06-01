@@ -1,6 +1,7 @@
 __author__ = 'anushabala'
 import re
 import json
+from chat.modeling import tokens as mytokens
 
 user_regex = r'User ([0-9])'
 restaurant_regex = 'Selected *[0-9]*: (.*)'
@@ -87,7 +88,7 @@ def parse_transcript(scenarios, transcript_file, include_bots=False):
                     # print line
                     # print agent_num
                     # print choices[agent_num]
-                    dialogue.append((agent_num, "_select_name_ "+choices[agent_num].lower()))
+                    dialogue.append((agent_num, mytokens.SELECT_NAME + ' ' + choices[agent_num].lower()))
                 elif line[3] == SELECT_RESTAURANT:
                     choices[agent_num] = line[4]
             else:

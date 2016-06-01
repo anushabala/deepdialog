@@ -1,3 +1,5 @@
+### DEPRECATED
+
 __author__ = 'anushabala'
 
 from argparse import ArgumentParser
@@ -332,7 +334,7 @@ if __name__ == "__main__":
     for transcript_dir in args.transcripts:
         for name in os.listdir(transcript_dir):
             f = os.path.join(transcript_dir, name)
-            transcript = parse_transcript(f, include_bots=False)
+            transcript = parse_transcript(scenarios, f, include_bots=False)
             if transcript is None:
                 continue
             valid, reason = is_transcript_valid(transcript)
