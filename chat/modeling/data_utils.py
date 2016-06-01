@@ -29,12 +29,12 @@ def messages_to_sequences(agent, messages):
     Encode the list of (who, tokens) pairs into pairs of sequences for training.
     Input: [(0, hi), (0, i know 2 people at facebook), (1, cool), (0, SELECT_NAME alice), (1, SELECT_NAME alice)]
     Output: [[END_TURN], [SAY, hi, END, SAY, i, ...], ...]
-        Partner                     Agent
-        =======                     =====
-        END_TURN                    SAY hi END
-                                    SAY i know 2 people at facebook END_TURN
-        SAY cool END_TURN           SELECT_NAME alice END_TURN
-        SELECT_NAME alice END_TURN  END_TURN
+        Partner                         Agent
+        =======                         =====
+        END_TURN                        SAY hi END
+                                        SAY i know 2 people at facebook END_TURN
+        SAY cool END_TURN               SAY SELECT_NAME alice END_TURN
+        SAY SELECT_NAME alice END_TURN  END_TURN
     Note that we pad with END_TURN to make the sequences returned:
         [partner, agent, ..., partner, agent]
     '''
@@ -51,10 +51,12 @@ def messages_to_sequences(agent, messages):
     if messages[0][0] != 1 - agent:  # Pad so partner starts
         add(mytokens.END_TURN)
     for i, (who, tokens) in enumerate(messages):
-        if tokens[0] != mytokens.SELECT_NAME:
-            add(mytokens.SAY)
+        # Start message
+        add(mytokens.SAY)
+        # Contents of message
         for token in tokens:
             add(token)
+        # End message
         if i+1 == len(messages) or messages[i+1][0] != who:
             add(mytokens.END_TURN)
         else:
