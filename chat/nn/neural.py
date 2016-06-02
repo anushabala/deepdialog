@@ -19,6 +19,8 @@ from chat.lib.bleu import compute_bleu
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
 
+NUM_CANDIDATES = 10
+
 class NeuralBox(RecurrentBox):
     def __init__(self, model):
         self.model = model
@@ -29,7 +31,7 @@ class NeuralBox(RecurrentBox):
         # Distribution over next tokens
         write_dist = self.model._decoder_write(self.h_t)
         # Take the largest ones
-        indices = nlargest(10, range(len(write_dist)), key=lambda i: write_dist[i])
+        indices = nlargest(NUM_CANDIDATES, range(len(write_dist)), key=lambda i: write_dist[i])
         candidates = [(self.model.out_vocabulary.get_word(i), write_dist[i]) for i in indices]
         #print 'GENERATE', candidates
         return candidates
@@ -113,6 +115,9 @@ class NeuralModel(object):
             self.do_iter('train', it, train_examples)
             self.do_iter('dev', it, dev_examples)
             self.on_train_epoch(it)
+            if self.args.save_params:
+                print 'Saving parameters...'
+                self.spec.save(self.args.save_params)
 
     def do_iter(self, mode, it, examples):
         if len(examples) == 0:
@@ -122,13 +127,14 @@ class NeuralModel(object):
         if is_train:
             examples = list(examples)
             random.shuffle(examples)
+        eval_period = self.args.train_eval_period if is_train else self.args.dev_eval_period
 
         # Go over all the examples in batches
         for i in range(0, len(examples), self.args.batch_size):
             # Get a batch
             batch_examples = examples[i:(i + self.args.batch_size)]
             # Do stuff
-            batch_summary_map = self._do_batch(batch_examples, do_update=is_train)
+            batch_summary_map = self._do_batch(batch_examples, eval_period, do_update=is_train)
             # Update/print out stats
             logstats.update_summary_map(summary_map, batch_summary_map)
             logstats.add(mode, summary_map)
@@ -143,16 +149,18 @@ class NeuralModel(object):
         Return the average BLEU score across messages.
         """
         agent = ex['agent']
-        state = ex['states'][0]
+        state = ex['states'][0]  # Just do it with respect to the first state
         scenario = self.scenarios[ex['scenario_id']]
         messages = state['messages']
         sum_bleu = 0
+        print 'evaluate_example: scenario_id=%s, agent=%s' % (ex['scenario_id'], agent)
         for mi, message in enumerate(messages):
             # Try to predict the mi-th message
             who = message['who']
+            true_tokens = message['raw_tokens']
+            print 'TRUE(%d): %s' % (mi, map(str, true_tokens),)
             if who != agent:
                 continue
-            true_tokens = message['raw_tokens']
             box = NeuralBox(self)
 
             # Feed in the true tokens up to (but not including) mi
@@ -163,16 +171,17 @@ class NeuralModel(object):
             # Predict the mi-th message
             pred_tokens, end_turn = tracker.generate_add(who)
             bleu = compute_bleu(reference=true_tokens, candidate=pred_tokens)
-            print 'TRUE(%d): %s' % (mi, true_tokens,)
-            print 'PRED(%d): %s' % (mi, pred_tokens,)
+            print 'PRED(%d): %s' % (mi, map(str, pred_tokens),)
             print 'BLEU(%d): %s' % (mi, bleu,)
             sum_bleu += bleu
         return sum_bleu / len(message)
 
 
-    def _do_batch(self, examples, do_update=True):
-        """Run training given a batch of training examples.
+    def _do_batch(self, examples, eval_period, do_update=True):
+        """
+        Run training given a batch of training examples.
         Returns objective function and bleu.
+        eval_period: call evaluate every this many examples.
         If do_update is False, compute objective but don't do the gradient step.
         """
         t0 = time.time()
@@ -183,19 +192,20 @@ class NeuralModel(object):
             ex_gradients = []
             ex_log_weights = []
 
-            # Evaluate on end-to-end metrics
-            bleu = 1.0 * self.evaluate_example(ex) / len(examples)
-            logstats.update_summary(summary_map['bleu'], bleu)
+            # Evaluate on end-to-end metric
+            if hash(ex['scenario_id']) % eval_period == 0:
+                bleu = 1.0 * self.evaluate_example(ex) / len(examples)
+                logstats.update_summary(summary_map['bleu'], bleu)
 
             # Sample num_samples trajectories.
-            samples = set()
+            #samples = set()
             for i in range(self.args.num_samples):
                 # Sample a trajectory q(x, y | observations) \propto p(observations | x, y)
                 # log_weight = \log p(observations | x, y)
                 messages, log_weight = data_utils.sample_trajectory(ex['states'])
                 sequences = data_utils.messages_to_sequences(ex['agent'], messages)
                 assert len(sequences) % 2 == 0
-                samples.add(str(sequences))
+                #samples.add(str(sequences))
                 print 'UPDATE TOWARDS', i, sequences
 
                 # Convert to indices:

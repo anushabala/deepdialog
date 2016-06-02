@@ -52,6 +52,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     logstats.init(args.out_prefix + 'stats.json')
+    logstats.add_args('options', args)
     random.seed(args.random)
 
     # Create lexicon
@@ -84,6 +85,7 @@ if __name__ == "__main__":
         for agent in args.agents:
             scenario_id = transcript['scenario']
             ex, weight = create_example(lexicon, scenarios[scenario_id], agent, args, summary_map)
+            logstats.update(summary_map)
             if ex:
                 total_log_prob += math.log(weight)
                 is_train = r < args.train_frac
@@ -100,7 +102,6 @@ if __name__ == "__main__":
     logstats.add('num_dev_examples', len(dev_examples))
     logstats.add('num_empty_examples', num_empty_examples)
     logstats.add('total_log_prob', total_log_prob)
-    logstats.update(summary_map)
     logstats.dump_summary_map(summary_map)
 
     # Write examples

@@ -23,33 +23,32 @@ The distribution is gotten by:
 # Running on CodaLab
 
     cl work nlp::pliang-dialog
-    cl work main::pliang-dialog
 
-    # Upload data
+    # Upload raw data
+    cl work main::pliang-dialog-data
     cl upload data/backups_from_remote/transcripts_0520_friends
     cl upload data/backups_from_remote/transcripts_0523_friends
     cl upload data/backups_from_remote/transcripts_0524_dating
     cl upload data/friends_scenarios.json
     cl upload data/matchmaking_scenarios.json
 
-    # Upload code
-    cl upload chat
-    cl mimic chat^2 chat  # Rerun everything
-
     # Generate datasets: raw transcripts => JSON logical forms dataset
-    cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./' --name friends.tagged
-    cl run :chat raw:transcripts_0524_dating scenarios.json:matchmaking_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw --out-prefix ./' --name matchmaking.tagged
+    cl work main::pliang-dialog-data
+    cl upload chat
+    cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode verbatim' --name friends.verbatim --request-network
+    cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode basic' --name friends.basic --request-network
+    cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode recurse' --name friends.recurse --request-network
+    cl run :chat raw:transcripts_0524_dating scenarios.json:matchmaking_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw --out-prefix ./' --name matchmaking.tagged --request-network
 
     # Download datasets (optional)
     cl download matchmaking.tagged/tagged.train.json -o output/0524_dating.train.json
 
     # Train a model
+    cl work main::pliang-dialog
     cl upload chat
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 --scenarios scenarios.json --data-prefix tagged/ --out-dir .' -n friends.run --request-network
-    # more 5
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 --num-samples 5 --scenarios scenarios.json --data-prefix tagged/ --out-dir .' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.verbatim 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10' -n friends.run --request-network
     # small
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-max-examples 1 --dev-max-examples 0' -n friends.run --request-network
     cl cat ^/stdout | grep objective | tail
 
 # Running locally

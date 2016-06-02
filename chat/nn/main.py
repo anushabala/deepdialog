@@ -84,9 +84,11 @@ def _parse_args():
     parser.add_argument('--train-max-examples', type=int, help='Maximum number of training examples.')
     parser.add_argument('--dev-data', help='Path to dev data.')
     parser.add_argument('--dev-max-examples', type=int, help='Maximum number of dev examples.')
+    parser.add_argument('--train-eval-period', type=int, default=1, help='Evaluate on BLEU every this number of examples.')
+    parser.add_argument('--dev-eval-period', type=int, default=1, help='Evaluate on BLEU every this number of examples.')
     parser.add_argument('--load-params', help='Path to load parameters, will ignore other passed arguments.')
 
-    # Output paths (mostly)
+    # Output paths
     parser.add_argument('--out-dir', help='If specify, save all files to this directory.')
     parser.add_argument('--save-params', help='Path to save parameters.')
     parser.add_argument('--stats-file', help='Path to save statistics (JSON format).')
@@ -259,8 +261,7 @@ def run():
         if not OPTIONS.dev_data: OPTIONS.dev_data = OPTIONS.data_prefix + 'dev.json'
 
     logstats.init(OPTIONS.stats_file)
-
-    logstats.add('options', dict((arg, getattr(OPTIONS, arg)) for arg in vars(OPTIONS)))
+    logstats.add_args('options', OPTIONS)
 
     # Read data
     if OPTIONS.train_data:
@@ -292,11 +293,6 @@ def run():
 
     # Train!
     model.train_loop(train_examples, dev_examples)
-
-    if OPTIONS.save_params:
-        print >> sys.stderr, 'Saving parameters...'
-        spec.save(OPTIONS.save_params)
-
 
 if __name__ == '__main__':
     _parse_args()

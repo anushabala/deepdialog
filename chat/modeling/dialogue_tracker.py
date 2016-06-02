@@ -194,6 +194,9 @@ class DialogueTracker(object):
 
         # Update the RecurrentBox.
         if self.box:
+            if len(self.states) == 0:
+                print 'WARNING: parse_add failed on raw_tokens=%s; entity_candidates=%s' % (raw_tokens, entity_candidates)
+                return
             # Choose most probable state.
             state = self.states[0]
             self.states = [state]
@@ -217,9 +220,6 @@ class DialogueTracker(object):
                 # Commit to that choice
                 self.box.observe(token, write=write)
             self.box.observe(mytokens.END_TURN if end_turn else mytokens.END, write=write)
-
-    def compute_state_probs(self):
-        return sample_utils.normalize_weights([state.weight() for state in self.states])
 
     def generate_add(self, who):
         MAX_TOKENS = 20
@@ -262,6 +262,10 @@ class DialogueTracker(object):
             #print 'execute', formula, choices
             entity_tokens[i] = random.choice(choices)
             formula_weights[i] *= 1.0 / len(choices)
+
+        if len(state.messages) == 0: # If agent starting, then pad
+            self.box.observe(mytokens.START, write=False)
+            self.box.observe(mytokens.END_TURN, write=False)
 
         # Generate a formula list
         # Ideally, we want to reject options which can't be executed properly,
@@ -402,13 +406,13 @@ class DialogueTracker(object):
                     # If the executor returns a list containing the answer, then return it, weighting it properly.
                     if pred_token and token in pred_token:
                         prob = 1.0 / len(pred_token)
-                        #print '  %s: %s | %s' % (formula, prob, [x for x in pred_token if x])
                         candidates.append((formula, prob))
+                    #print '  %s | %s' % (formula, [x for x in pred_token if x] if pred_token else pred_token)
                 if self.summary_map:
                     logstats.update_summary(self.summary_map['num_formulas_per_token'], len(formulas))
                     logstats.update_summary(self.summary_map['num_consistent_formulas_per_token'], len(candidates))
                 if len(candidates) == 0:
-                    print 'WARNING: no way to generate %s' % (token,)
+                    print 'WARNING: no way to generate %s; entity_tokens = %s; here\'s the context:' % (token, entity_tokens)
                     self.executor.kb.dump()
                     state.dump()
                     return None

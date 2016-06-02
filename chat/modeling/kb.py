@@ -8,7 +8,7 @@ class KB(object):
         self.agent = agent
 
         self.table = []  # List of people (dictionary mapping attribute to person
-        def normalize(s): return s.lower()
+        def normalize(s): return s.encode('utf-8').lower()
         def convert(person_info):
             row = {}
             row['Name'] = (normalize(person_info['name']), 'person')
@@ -32,8 +32,9 @@ class KB(object):
         for friend in agent_info['friends']:
             self.table.append(convert(friend))
 
-        # Compute relations
-        self.relations = list(k for k in self.table[0].keys() if k != 'Name')
+        # Compute types and relations
+        self.types = sorted(list(set(v[1] for v in self.table[0].values())))  # e.g., person
+        self.relations = sorted(list(k for k in self.table[0].keys() if k != 'Name'))  # School
 
     def dump(self):
         print '############ KB %s, agent=%s:' % (self.scenario_id, self.agent,)

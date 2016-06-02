@@ -18,15 +18,21 @@ def add(*args):
             s[k] = {}
         s = s[k]
     s[args[-2]] = args[-1]
+    flush()
 
-    if stats_path:
-        out = open(stats_path, 'w')
-        print >>out, json.dumps(STATS)
-        out.close()
+def add_args(key, args):
+    add(key, dict((arg, getattr(args, arg)) for arg in vars(args)))
 
 def update(stats):
     for k in stats:
         STATS[k] = stats[k]
+    flush()
+
+def flush():
+    if stats_path:
+        out = open(stats_path, 'w')
+        print >>out, json.dumps(STATS)
+        out.close()
 
 ############################################################
 
