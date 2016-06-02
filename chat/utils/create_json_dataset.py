@@ -6,7 +6,7 @@ import json
 import math
 from collections import defaultdict
 import transcript_utils
-from chat.modeling.lexicon import Lexicon
+from chat.modeling.lexicon import Lexicon, load_scenarios
 from chat.modeling import dialogue_tracker
 from chat.lib import sample_utils, logstats
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     random.seed(args.random)
 
     # Create lexicon
-    scenarios = transcript_utils.load_scenarios(args.scenarios)
+    scenarios = load_scenarios(args.scenarios)
     lexicon = Lexicon(scenarios)
     #lexicon.test()
 

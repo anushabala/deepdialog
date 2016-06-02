@@ -16,11 +16,6 @@ HUMAN = "human"
 BOT_METADATA = ["TAGS", "SYNONYMS", "PROBABILITIES"]
 
 
-def load_scenarios(scenarios_file):
-    json_scenarios = json.load(open(scenarios_file, 'r'), encoding='utf-8')
-    return {scenario["uuid"]:scenario for scenario in json_scenarios}
-
-
 def is_transcript_valid(transcript):
     if transcript["outcome"] == NO_OUTCOME:
         return False, NO_OUTCOME

@@ -1,5 +1,6 @@
 import random
 import numpy
+import math
 
 def normalize_weights(weights):
     '''
@@ -12,6 +13,11 @@ def normalize_weights(weights):
         print 'WARNING: zero normalization'
         return weights
     return [1.0 * weight / s for weight in weights]
+
+def exp_normalize_weights(weights):
+    m = max(weights)
+    weights = [math.exp(w - m) for w in weights]  # Ensure no underflow
+    return normalize_weights(weights)
 
 def normalize_candidates(candidates):
     '''

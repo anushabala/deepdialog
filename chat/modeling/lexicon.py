@@ -1,5 +1,12 @@
+import json
 from collections import defaultdict
 from kb import KB
+
+def load_scenarios(scenarios_file):
+    json_scenarios = json.load(open(scenarios_file, 'r'), encoding='utf-8')
+    return {scenario["uuid"]: scenario for scenario in json_scenarios}
+
+### Helper functions
 
 def get_prefixes(entity, min_length=3, max_length=5):
     # computer science => ['comp sci', ...]

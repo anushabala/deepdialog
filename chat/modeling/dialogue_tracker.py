@@ -202,8 +202,8 @@ class DialogueTracker(object):
             # likely under a combination of the weight p(x|z) and the RNN probability p(z).
             message = state.messages[-1]
             if len(state.messages) == 1 and message.who == self.agent:  # If agent starting, then pad
-                self.box.observe(mytokens.PARTNER_SILENCE)
-            self.box.observe(mytokens.SAY)
+                self.box.observe(mytokens.END_TURN, write=False)
+            self.box.observe(mytokens.SAY, write=False)
             for i, candidates in enumerate(message.formula_token_candidates):
                 if not isinstance(candidates, list):
                     token = candidates
@@ -213,14 +213,14 @@ class DialogueTracker(object):
                     candidates = [(token, distrib.get(token, 0) * weight) for token, weight in candidates]
                     token = sample_utils.sample_candidates(candidates)[0]
                 # Commit to that choice
-                self.box.observe(token)
-            self.box.observe(mytokens.END_TURN if end_turn else mytokens.END)
+                self.box.observe(token, write=False)
+            self.box.observe(mytokens.END_TURN if end_turn else mytokens.END, write=False)
 
     def compute_state_probs(self):
         return sample_utils.normalize_weights([state.weight() for state in self.states])
 
     def generate_add(self, who):
-        MAX_TOKENS = 100
+        MAX_TOKENS = 20
         '''
         Returns (tokens, end_turn) updates the dialogue tracker.
         Returns None if execution fails.
@@ -264,7 +264,7 @@ class DialogueTracker(object):
         # Generate a formula list
         # Ideally, we want to reject options which can't be executed properly,
         # but this might result in cyclic dependencies
-        self.box.observe(mytokens.SAY)
+        self.box.observe(mytokens.SAY, write=True)
         end_turn = True
         while len(formula_tokens) < MAX_TOKENS:
             # Get candidate next tokens (formulas)
@@ -272,7 +272,7 @@ class DialogueTracker(object):
             #print 'GEN %s => %s' % (self.box.prev_token, candidates)
             if len(candidates) == 0:
                 print 'WARNING: no candidates!'
-                self.box.observe(mytokens.END_TURN)  # Force an end
+                self.box.observe(mytokens.END_TURN, write=True)  # Force an end
                 break
 
             # Filter formulas that don't execute and try to convert to formula
@@ -296,7 +296,7 @@ class DialogueTracker(object):
                 break
             (token, formula), weight = sample_utils.sample_candidates(candidates)
             # Commit to that choice
-            self.box.observe(token)
+            self.box.observe(token, write=True)
             if token == mytokens.END or token == mytokens.END_TURN:
                 end_turn = (token == mytokens.END_TURN)
                 break
@@ -306,7 +306,7 @@ class DialogueTracker(object):
             entity_tokens.append(None if formula else token)
             formula_weights.append(weight)
             execute(len(formula_tokens) - 1)
-        print 'generate_add: formula =', str_formula_tokens
+        #print 'generate_add: formula =', str_formula_tokens
 
         # Take additional passes to resolve formulas that depend on existence
         # of following entities (e.g., '[two] at Facebook').
@@ -326,7 +326,14 @@ class DialogueTracker(object):
         # Now generate the raw token from the entity from the lexical mapping
         # Example: 'university of pennsylvania' => 'upenn'
         # For now, just write things out explicitly.  Later, incorporate lexical mapping
-        raw_tokens = [(token[0] if token else None) if is_entity(token) else token for token in entity_tokens]
+        raw_tokens = []
+        for token in entity_tokens:
+            if token is None:
+                raw_tokens.append('???')
+            elif is_entity(token):
+                raw_tokens.extend(' '.join(token[0]))  # 'university of pennsylvania'
+            else:
+                raw_tokens.append(token)
 
         # Update the state
         formula_token_candidates = [ \

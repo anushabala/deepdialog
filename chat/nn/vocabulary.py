@@ -24,10 +24,6 @@ class Vocabulary:
     UNKNOWN = 'UNK'
     UNKNOWN_INDEX = 1
     NUM_SPECIAL_SYMBOLS = 2
-    START_TOKEN = "_start_"
-    SELECT_TOKEN = "_select_name_"
-    SAY_TOKEN = "_say_"
-    PASS_TOKEN = "_action_pass_"
     
     def get_theano_embedding(self, index):
         """Get theano embedding for given word index."""
@@ -42,45 +38,25 @@ class Vocabulary:
         return self.get_theano_params()
 
     def get_index(self, word):
+        if word is None:
+            return -1
         if word in self.word_to_index:
             return self.word_to_index[word]
         return self.word_to_index[self.UNKNOWN]
 
-    def sentence_to_indices(self, sentence, add_eos=True):
-        words = sentence.split(' ')
-        if add_eos:
-            words.append(self.END_OF_SENTENCE)
-        indices = [self.get_index(w) for w in words]
-        return indices
+    def get_word(self, index):
+        if index == -1:
+            return None
+        return self.word_list[index]
 
-    def indices_to_sentence(self, indices):
-        return ' '.join(self.word_list[i] if i >= 0 else "----" for i in indices)
+    def words_to_indices(self, words):
+        return [self.get_index(w) for w in words]
+
+    def indices_to_words(self, indices):
+        return [self.get_word(i) for i in indices]
 
     def size(self):
         return len(self.word_list)
-
-    @classmethod
-    def extract_from_sentences(cls, sentences, emb_size, **kwargs):
-        """Get list of all words used in a list of sentences."""
-        words = set()
-        for s in sentences:
-            if '' in s.split(' '):
-                print 'Found empty string: "%s"' % s
-            words.update(s.split(' '))
-        word_list = sorted(list(words))
-        print 'Extracted vocabulary of size %d' % len(word_list)
-        return cls(word_list, emb_size, **kwargs)
-
-    @classmethod
-    def extract_from_sdf(cls, sdf_data, emb_size, **kwargs):
-        """Get list of all words used in sentences in these SDF records."""
-        sentences = []
-        for records in sdf_data:
-            for r in records:
-                sentences.append(r.utterance)
-                sentences.append(r.canonical_utterance)
-        return cls.extract_from_sentences(sentences, emb_size, **kwargs)
-
 
 class RawVocabulary(Vocabulary):
     """A vocabulary that's initialized randomly."""
@@ -92,8 +68,7 @@ class RawVocabulary(Vocabulary):
           word_list: List of words that occurred in the training data.
           emb_size: dimension of word embeddings
         """
-        self.word_list = [self.END_OF_SENTENCE, self.UNKNOWN, self.START_TOKEN,
-                          self.SAY_TOKEN, self.SELECT_TOKEN, self.PASS_TOKEN] + word_list
+        self.word_list = [self.UNKNOWN] + word_list
         self.word_to_index = dict((x[1], x[0]) for x in enumerate(self.word_list))
         self.emb_size = emb_size
         self.float_type = float_type

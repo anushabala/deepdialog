@@ -4,16 +4,45 @@ import numpy
 import os
 import random
 import sys
+import math
+import time
 import theano
 from theano.ifelse import ifelse
 from theano import tensor as T
-import time
-import utils
-from chat.lib import logstats
-from sample_candidates import sample_dialogue
+from heapq import nlargest
+from chat.lib import logstats, sample_utils
+from chat.modeling import data_utils, dialogue_tracker, recurrent_box
+from chat.modeling.lexicon import Lexicon, load_scenarios
+from chat.modeling.recurrent_box import RecurrentBox
+from chat.lib.bleu import compute_bleu
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
 
+class NeuralBox(RecurrentBox):
+    def __init__(self, model):
+        self.model = model
+        # Hidden state
+        self.h_t = self.model.spec.get_init_state().eval()
+
+    def generate(self):
+        # Distribution over next tokens
+        write_dist = self.model._decoder_write(self.h_t)
+        # Take the largest ones
+        indices = nlargest(10, range(len(write_dist)), key=lambda i: write_dist[i])
+        candidates = [(self.model.out_vocabulary.get_word(i), write_dist[i]) for i in indices]
+        #print 'GENERATE', candidates
+        return candidates
+
+    def observe(self, token, write):
+        #print 'OBSERVE', token, write
+        if write:
+            # Observe something we just wrote
+            y_t = self.model.out_vocabulary.get_index(token)
+            self.h_t = self.model._decoder_step(y_t, self.h_t)
+        else:
+            # Observe something we read
+            x_t = self.model.in_vocabulary.get_index(token)
+            self.h_t = self.model._encode(numpy.array([x_t]), self.h_t)
 
 class NeuralModel(object):
     """A generic continuous neural sequence-to-sequence model.
@@ -29,26 +58,29 @@ class NeuralModel(object):
       de: dimension of word embeddings
     """
 
-    def __init__(self, spec, float_type=numpy.float64, listeners=[]):
+    def __init__(self, args, spec, float_type=numpy.float64, listeners=[]):
         """Initialize.
 
         Args:
           spec: Spec object.
           float_type: Floating point type (default 64-bit/double precision)
         """
+        self.args = args
         self.spec = spec
         self.in_vocabulary = spec.in_vocabulary
         self.out_vocabulary = spec.out_vocabulary
         self.float_type = float_type
         self.params = spec.get_params()
-        #print "NeuralModel(): got all params"
         self.all_shared = spec.get_all_shared()
-        #print "NeuralModel(): got all theano shared variables"
         self.listeners = listeners
 
-        #print "NeuralModel(): starting setup"
+        # Create lexicon (for DialogueTracker)
+        self.scenarios = load_scenarios(args.scenarios)
+        self.lexicon = Lexicon(self.scenarios)
+
+        print "NeuralModel(): starting setup"
         self.setup()
-        #print "NeuralModel(): setup complete"
+        print "NeuralModel(): setup complete"
 
     def setup(self, test_only=False):
         """Do all necessary setup (e.g. compile theano functions)."""
@@ -66,182 +98,156 @@ class NeuralModel(object):
         """
         raise NotImplementedError
 
-    def decode_greedy(self, x, max_len=100):
-        """Decode x to predict y, greedily."""
-        raise NotImplementedError
-
     def on_train_epoch(self, it):
         """Optional method to do things every epoch."""
         # for p in self.params:
         #   print '%s: %s' % (p.name, p.get_value())
         for listener in self.listeners:
             listener(it)
-
-    def train(self, dataset, eta=0.1, T=10, verbose=False, batch_size=1, num_samples=1):
-        #print 'NeuralModel.train()'
-        #n batch_size = size for mini batch.  Defaults to SGD.
-        for it in range(T):
-            logstats.add('train', 'iteration', it)
-            t0 = time.time()
-            total_nll = 0
-            random.shuffle(dataset)
-            for i in range(0, len(dataset), batch_size):
-                do_update = i + batch_size <= len(dataset)
-                cur_examples = dataset[i:(i + batch_size)]
-                nll = self._train_batch(cur_examples, eta, do_update=do_update, num_samples=num_samples)
-                total_nll += nll
-                if verbose:
-                    print 'NeuralModel.train(): iter %d, %d/%d examples, nll = %g' % (it, i, len(dataset), nll)
-            t1 = time.time()
-            logstats.add('train', 'nll', total_nll)
-            logstats.add('train', 'time', t1 - t0)
-            print 'NeuralModel.train(): iter %d: total nll = %g (%g seconds)' % (
-                it, total_nll, t1 - t0)
+        
+    def train_loop(self, train_examples, dev_examples):
+        print 'NeuralModel.train_loop()'
+        for it in range(self.args.num_epochs):
+            self.do_iter('train', it, train_examples)
+            self.do_iter('dev', it, dev_examples)
             self.on_train_epoch(it)
 
-    def _train_batch(self, examples, eta, do_update=True, num_samples=1):
-        """Run training given a batch of training examples.
+    def do_iter(self, mode, it, examples):
+        if len(examples) == 0:
+            return
+        is_train = (mode == 'train')
+        logstats.add(mode, 'iteration', it)
+        total_objective = 0
+        total_bleu = 0
+        num_batches = 0
+        if is_train:
+            examples = list(examples)
+            random.shuffle(examples)
 
-        Returns negative log-likelihood.
-        If do_update is False, compute nll but don't do the gradient step.
+        # Go over all the examples
+        t0 = time.time()
+        for i in range(0, len(examples), self.args.batch_size):
+            do_update = i + self.args.batch_size <= len(examples)
+            batch_examples = examples[i:(i + self.args.batch_size)]
+            objective, bleu = self._do_batch(batch_examples, do_update=is_train)
+            total_objective += objective
+            total_bleu += bleu
+            num_batches += 1
+            print 'NeuralModel.do_iter(%s), iter %d, %d/%d examples, objective = %g, bleu = %g' % (\
+                mode, it, i, len(examples),
+                total_objective / num_batches,
+                total_bleu / num_batches,
+            )
+        t1 = time.time()
+
+        logstats.add(mode, 'objective', total_objective)
+        logstats.add(mode, 'time', t1 - t0)
+        print 'NeuralModel.%s(): iter %d: total objective = %g (%g seconds)' % (
+            mode, it, total_objective, t1 - t0)
+
+    def evaluate_example(self, ex):
+        """
+        Go through each message of the agent and try to predict it given the perfect past.
+        Return the average BLEU score across messages.
+        """
+        agent = ex['agent']
+        state = ex['states'][0]
+        scenario = self.scenarios[ex['scenario_id']]
+        messages = state['messages']
+        sum_bleu = 0
+        for mi, message in enumerate(messages):
+            # Try to predict the mi-th message
+            who = message['who']
+            if who != agent:
+                continue
+            true_tokens = message['raw_tokens']
+            box = NeuralBox(self)
+
+            # Feed in the true tokens up to (but not including) mi
+            tracker = dialogue_tracker.DialogueTracker(self.lexicon, scenario, agent, self.args, box, None)
+            for mj in range(0, mi):
+                tracker.parse_add(messages[mj]['who'], messages[mj]['raw_tokens'], end_turn=messages[mj]['who'] != messages[mj+1]['who'])
+
+            # Predict the mi-th message
+            pred_tokens, end_turn = tracker.generate_add(who)
+            bleu = compute_bleu(reference=true_tokens, candidate=pred_tokens)
+            print 'TRUE(%d): %s' % (mi, true_tokens,)
+            print 'PRED(%d): %s' % (mi, pred_tokens,)
+            print 'BLEU(%d): %s' % (mi, bleu,)
+            sum_bleu += bleu
+        return sum_bleu / len(message)
+
+
+    def _do_batch(self, examples, do_update=True):
+        """Run training given a batch of training examples.
+        Returns objective function and bleu.
+        If do_update is False, compute objective but don't do the gradient step.
         """
         objective = 0
+        bleu = 0
         gradients = {}
-        for ex in examples:
-            # x_inds, y_inds
-            # print 'xi: %s' % x_inds
-            # print 'yi: %s' % y_inds
-            # print 'x: %s' % self.in_vocabulary.indices_to_sentence(x_inds)
-            # print 'y: %s' % self.out_vocabulary.indices_to_sentence(y_inds)
-            max_tries = 5
+        for ex in examples:  # Go over all examples in the mini-batch
+            ex_scores = []
             ex_gradients = []
-            ex_objective = []
-            ex_candidate_probs = [] # stores all p_theta(z_i)
-            ex_cond_probs_unnorm = [] # stores p(x|z_i) unnormalized
+            ex_log_weights = []
 
-            # TODO: push all sampling logic into sample_candidates.sample_dialogues(ex, num_samples)
-            # todo should we be sampling with replacement? removed that code for now (anushabala 06/01)
-            for i in xrange(0, num_samples):
-                x, y, cond_prob, norm_cond_prob, unnorm_cond_prob = sample_dialogue(ex)
-                candidate_prob = numpy.sum(numpy.log(unnorm_cond_prob))
-                ex_cond_probs_unnorm.append(candidate_prob)
-                #print "input seq: ", x
-                #print "output seq", y
+            # Evaluate on end-to-end metrics
+            bleu += 1.0 * self.evaluate_example(ex) / len(examples)
 
-                assert len(x) == len(y)
-                pairs = zip(x, y)
+            # Sample num_samples trajectories.
+            samples = set()
+            for i in range(self.args.num_samples):
+                # Sample a trajectory q(x, y | observations) \propto p(observations | x, y)
+                # log_weight = \log p(observations | x, y)
+                messages, log_weight = data_utils.sample_trajectory(ex['states'])
+                sequences = data_utils.messages_to_sequences(ex['agent'], messages)
+                assert len(sequences) % 2 == 0
+                samples.add(str(sequences))
+                #print 'UPDATE TOWARDS', i, sequences
 
-                x_inds, y_inds = utils.sentence_pairs_to_indices(self.spec.in_vocabulary,
-                                                                 self.spec.out_vocabulary,
-                                                                 pairs,
-                                                                 eos_on_output=True)
+                # Convert to indices:
+                #   sequences = [partner, agent, ..., partner, agent]
+                #   x_inds = [partner, -1,    ..., partner, -1]
+                #   y_inds = [-1,      agent, ..., -1,       agent]
+                x_tokens = [token if i % 2 == 0 else None for i, seq in enumerate(sequences) for token in seq] # Partner
+                y_tokens = [token if i % 2 == 1 else None for i, seq in enumerate(sequences) for token in seq] # Agent
+                x_inds = self.spec.in_vocabulary.words_to_indices(x_tokens)
+                y_inds = self.spec.out_vocabulary.words_to_indices(y_tokens)
 
-                #print "x_inds: ", x_inds
-                #print "y_inds", y_inds
-                p_y_seq, cur_gradients = self.get_objective_and_gradients(x_inds, y_inds)
+                # Compute gradients
+                sample_objective, sample_gradients = self.get_objective_and_gradients(x_inds, y_inds)
+                ex_scores.append(-sample_objective)  # log(p(y | x))
+                ex_gradients.append(sample_gradients)
+                ex_log_weights.append(log_weight)  # p(observations | x, y)
 
-                #print "Raw probabilities per token:", p_y_seq
-                #print "Probability of candidate sequence:", p_y_seq
-                # ex_objective += p_y_seq
+            # Get a distribution over the samples r(y) \propto p(y | x)
+            ex_probs = sample_utils.exp_normalize_weights(ex_scores)
+            #print 'PROBS', ex_probs
+            #print '%d/%d unique' % (len(samples), self.args.num_samples)
 
-                ex_candidate_probs.append(numpy.sum(numpy.log(p_y_seq)))
+            # Aggregate gradients
+            if do_update:
+                for i in range(self.args.num_samples):
+                    for key in self.params:
+                        g = ex_gradients[i][key] * ex_probs[i] / len(examples)
+                        if key in gradients:
+                            gradients[key] += g
+                        else:
+                            gradients[key] = g
 
-                ex_gradients.append(cur_gradients)
-
-            ex_candidate_probs_norm = ex_candidate_probs/numpy.sum(ex_candidate_probs)
-            gradients_and_probs = zip(xrange(0, num_samples), ex_gradients)
-            for p in self.params:
-                #print p
-                for idx, candidate_gradients in gradients_and_probs:
-                    # weight gradient by probability of candidate
-                    #print "candidate sequence probability:", candidate_prob
-                    #print "prob norm factor:", norm_factor
-                    #print "candidate sequence probability:", candidate_prob
-                    candidate_prob = ex_candidate_probs_norm[idx]
-                    if p in gradients:
-                        gradients[p] += candidate_prob * candidate_gradients[p] / len(examples)
-                    else:
-                        gradients[p] = candidate_prob * candidate_gradients[p] / len(examples)
-            for idx in xrange(0, num_samples):
-                ex_objective += ex_candidate_probs_norm[idx] * (ex_candidate_probs[idx] + ex_cond_probs_unnorm[idx] - numpy.log(ex_candidate_probs_norm[idx]))
-            # loss w.r.t. one example is log of sum of losses of candidates
-            # add to total objective
+            # Compute lower bound on the log-likelihood:
+            # r(y) \log [p(y | x) p(observations | x, y)] - \log r(y)
+            ex_objective = 0.0
+            for i in range(self.args.num_samples):
+                ex_objective += ex_probs[i] * (ex_scores[i] + ex_log_weights[i] - math.log(ex_probs[i]))
             objective += ex_objective
-            #print gradients.keys()
+
         if do_update:
             for p in self.params:
-                #print p, type(gradients[p]), gradients[p]
-                self._perform_sgd_step(p, gradients[p], eta)
-        return objective
+                self._perform_sgd_step(p, gradients[p])
+        return objective, bleu
 
-    """
-    def decode_greedy(self, x, max_len=100):
-      r, w = self._get_map(x, max_len)
-      r_list = list(r)
-      w_list = list(w)
-      try:
-        eos_ind = w_list.index(Vocabulary.END_OF_SENTENCE_INDEX)
-      except ValueError:
-        eos_ind = len(w_list) - 1
-      r_out = r_list[:(eos_ind+1)]
-      w_out = w_list[:(eos_ind+1)]
-      return r_out, w_out
-
-    def decode_beam(self, x, max_len=100, beam_size=5):
-      print 'decode_beam'
-      BeamState = collections.namedtuple(
-          'BeamState', ['r_seq', 'w_seq', 'h_prev', 'next_read', 'log_p'])
-      best_finished_state = None
-      max_log_p = float('-Inf')
-      beam = []
-      # Start with a read
-      beam.append([BeamState([x[0]], [-1], self.spec.h0.get_value(), 1, 0)])
-      for i in range(1, max_len):
-        candidates = []
-        for state in beam[i-1]:
-          if state.w_seq[-1] == Vocabulary.END_OF_SENTENCE_INDEX:
-            if state.log_p > max_log_p:
-              max_log_p = state.log_p
-              best_finished_state = state
-            continue
-          if state.log_p < max_log_p: continue  # Prune here
-          h_t, p_r, p_dist_w = self._step_forward(
-              state.r_seq[-1], state.w_seq[-1], state.h_prev)
-          if state.next_read < len(x):
-            read_state = BeamState(
-                state.r_seq + [x[state.next_read]], state.w_seq + [-1], h_t,
-                state.next_read + 1, state.log_p + numpy.log(p_r))
-            candidates.append(read_state)
-          else:
-            p_r = 0  # Force write
-          if p_r < 1:
-            write_candidates = sorted(enumerate(p_dist_w), key=lambda x: x[1],
-                                      reverse=True)[:beam_size]
-            for index, prob in write_candidates:
-              new_state = BeamState(
-                  state.r_seq + [-1], state.w_seq + [index], h_t, state.next_read,
-                  state.log_p + numpy.log(1 - p_r) + numpy.log(prob))
-              candidates.append(new_state)
-        beam.append(sorted(
-            candidates, key=lambda x: x.log_p, reverse=True)[:beam_size])
-
-      return (best_finished_state.r_seq, best_finished_state.w_seq)
-    """
-
-    def get_gradient_seq(self, y_seq):
-        """Utility to compute gradient with respect to a sequence."""
-
-        def grad_fn(j, y, *params):
-            return T.grad(y[j], self.params, disconnected_inputs='warn')
-
-        results, _ = theano.scan(fn=grad_fn,
-                                 sequences=T.arange(y_seq.shape[0]),
-                                 non_sequences=[y_seq] + self.params,
-                                 strict=True)
-        # results[i][j] is gradient of y[j] w.r.t. self.params[i]
-        return results
-
-    def _perform_sgd_step(self, param, gradient, eta):
+    def _perform_sgd_step(self, param, gradient):
         """Do a gradient descent step."""
         # print param.name
         # print param.get_value()
@@ -252,5 +258,5 @@ class NeuralModel(object):
             gradient = gradient * CLIP_THRESH / grad_norm
             new_norm = numpy.sqrt(numpy.sum(gradient ** 2))
             # print 'Clipped norm of %s from %g to %g' % (param, grad_norm, new_norm)
-        new_value = old_value - eta * gradient
+        new_value = old_value - self.args.learning_rate * gradient
         param.set_value(new_value)

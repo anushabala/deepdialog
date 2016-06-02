@@ -4,7 +4,8 @@ from argparse import ArgumentParser
 import os
 import shutil
 import codecs
-from transcript_utils import parse_transcript, is_transcript_short, is_transcript_valid, load_scenarios
+from transcript_utils import parse_transcript, is_transcript_short, is_transcript_valid
+from chat.modeling.lexicon import load_scenarios
 
 NO_OUTCOME = "NO_OUTCOME"
 TOO_SHORT = "TOO_SHORT"

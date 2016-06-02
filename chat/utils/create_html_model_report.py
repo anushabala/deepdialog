@@ -9,7 +9,7 @@ import json
 import os
 from chat.modeling.tagger import Entity
 from chat.modeling.chatbot import ChatBot
-from transcript_utils import load_scenarios
+from chat.modeling.lexicon import load_scenarios
 import numpy as np
 
 SEQ_DELIM = "</s>"

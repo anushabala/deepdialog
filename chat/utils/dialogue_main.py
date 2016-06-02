@@ -1,7 +1,6 @@
 import argparse
 import json
-from transcript_utils import load_scenarios
-from chat.modeling.lexicon import Lexicon
+from chat.modeling.lexicon import Lexicon, load_scenarios
 from chat.modeling import dialogue_tracker
 from chat.modeling.recurrent_box import BigramBox, learn_bigram_model
 from chat.lib import sample_utils
@@ -13,9 +12,9 @@ if __name__ == '__main__':
     dialogue_tracker.add_arguments(parser)
     args = parser.parse_args()
 
-    model = learn_bigram_model(json.load(open(args.train)))
     scenarios = load_scenarios(args.scenarios)
     lexicon = Lexicon(scenarios)
+    model = learn_bigram_model(json.load(open(args.train)))
 
     for scenario in scenarios.values():
         agent = 0

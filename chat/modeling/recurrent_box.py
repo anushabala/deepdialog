@@ -4,7 +4,7 @@ from chat.lib import sample_utils
 from chat.modeling import tokens as mytokens
 from chat.modeling import data_utils
 
-def RecurrentBox(object):
+class RecurrentBox(object):
     '''
     This is an abstract interface that the RNN models should implement.
     The DialogueTracker uses the RNN model.
@@ -16,9 +16,10 @@ def RecurrentBox(object):
         '''
         raise NotImplementedError
 
-    def observe(self, token):
+    def observe(self, token, write):
         '''
-        Update internal state upon observing token.
+        Update internal state upon observing token
+        write: whether we wrote this or are reading it
         '''
         raise NotImplementedError
 
@@ -35,7 +36,7 @@ class BigramBox(object):
     def generate(self):
         return self.cpt[self.prev_token].items()
 
-    def observe(self, token):
+    def observe(self, token, write):
         self.prev_token = token
 
 def learn_bigram_model(data):
