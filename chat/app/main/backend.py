@@ -1,16 +1,16 @@
 from __future__ import with_statement
 import sqlite3
-from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, FinishedSession
 import datetime
 import time
 import logging
 import uuid
+import random
+
 from flask import Markup
 
+from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, FinishedSession
 from chat.modeling.chatbot import ChatBot
-from chat.modeling.lstmbot import LSTMChatBot
-from chat.nn.encdecspec import EncoderDecoderSpec
-import random
+from chat.modeling.lstmbot import ModelBot
 
 logger = logging.getLogger(__name__)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -104,7 +104,8 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots, bot_selections, tagger, featurized_lstm_model, unfeaturized_lstm, bot_waiting_probabilities):
+    def __init__(self, config, scenarios, bots, bot_selections, featurized_lstm_model, unfeaturized_lstm,
+                 bot_waiting_probabilities, lexicon, args=None):
         self.config = config
         self.featurized_lstm = featurized_lstm_model
         self.unfeaturized_lstm = unfeaturized_lstm
@@ -117,10 +118,11 @@ class BackendConnection(object):
             self.lstm_probability = probs[1]
             self.lstm_unfeaturized_probability = probs[2]
             self.human_probability = 1 - (self.bot_probability + self.lstm_probability + self.lstm_unfeaturized_probability)
+        self.args = args
+        self.lexicon = lexicon
 
         self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
         self.scenarios = scenarios
-        self.tagger = tagger
         self.bots = bots
         self.bot_selections = bot_selections
         self.waiting_bot_probability = bot_waiting_probabilities["bot"]
@@ -761,6 +763,7 @@ class BackendConnection(object):
             scenario_id = random.choice(list(self.scenarios.keys()))
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0, 1])
+            # todo fix this!
             bot = ChatBot(self.scenarios[scenario_id], 1 - my_agent_index, self.tagger)
             self.bots[userid] = bot
             self._update_user(cursor, userid,
@@ -778,9 +781,7 @@ class BackendConnection(object):
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0,1])
             name = "LSTM_FEATURIZED" if model == self.featurized_lstm else "LSTM_UNFEATURIZED"
-            include_features = True if model == self.featurized_lstm else False
-            bot = LSTMChatBot(self.scenarios[scenario_id], 1-my_agent_index, self.tagger,
-                              model, name=name, include_features=include_features)
+            bot = ModelBot(self.scenarios[scenario_id], 1-my_agent_index, model, self.lexicon, name=name, args=self.args)
             self.bots[userid] = bot
             self._update_user(cursor, userid,
                               status=Status.Chat,

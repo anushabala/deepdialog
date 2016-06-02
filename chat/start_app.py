@@ -8,9 +8,12 @@ import os
 import shutil
 import json
 from argparse import ArgumentParser
+from chat.modeling.lexicon import Lexicon
 from nn import spec as specutil
 from nn.encoderdecoder import EncoderDecoderModel
-import logging
+from utils.dialogue_main import learn_bigram_model
+from modeling.recurrent_box import BigramBox
+from modeling.dialogue_tracker import add_arguments
 
 
 # initialize database with table for chat rooms and active users
@@ -44,6 +47,7 @@ if __name__ == '__main__':
     parser.add_argument('--host', help="Host IP address to run app on - defaults to localhost", type=str, default="127.0.0.1")
     parser.add_argument('--port', help="Port to run app on", type=int, default=5000)
     parser.add_argument('--log', help="File to log app output to", type=str, default="chat.log")
+    add_arguments(parser)
     args = parser.parse_args()
     params_file = args.p
     with open(params_file) as fin:
@@ -67,7 +71,7 @@ if __name__ == '__main__':
     app.config["lstms"] = defaultdict(None)
     app.config["bot_selections"] = defaultdict(None)
     app.config["lstm_selections"] = defaultdict(None)
-    app.config["tagger"] = EntityTagger(scenarios_dict, params["bots"]["templates"])
+    app.config["lexicon"] = Lexicon(scenarios_dict)
 
     num_bots = 0
     app.config["bot_waiting_probability"] = {}
@@ -79,7 +83,9 @@ if __name__ == '__main__':
         num_bots += 1
         print "Loading model with features from from %s" % params["lstms"]["lstm_feat"]
         spec = specutil.load(params["lstms"]["lstm_feat"])
-        feat_model = EncoderDecoderModel(spec)
+        # feat_model = EncoderDecoderModel(args, spec)
+        cpt = learn_bigram_model(json.load(open(params["train"], 'r')))
+        feat_model = BigramBox(cpt)
         app.config["lstm_feat"] = feat_model
         models.append("lstm_feat")
     else:
@@ -88,7 +94,7 @@ if __name__ == '__main__':
         num_bots += 1
         print "Loading model without features from %s" % params["lstms"]["lstm_unfeat"]
         spec = specutil.load(params["lstms"]["lstm_unfeat"])
-        model = EncoderDecoderModel(spec)
+        model = EncoderDecoderModel(args, spec)
         app.config["lstm_unfeat"] = model
         models.append("lstm_unfeat")
     else:
@@ -105,6 +111,7 @@ if __name__ == '__main__':
     bot_probability = 1.0/(num_bots+1) if num_bots > 0 else 0
     app.config["bot_waiting_probability"] = {m:bot_waiting_probability if m in models else 0 for m in all_models}
     app.config["bot_probability"] = {m:bot_probability if m in models else 0 for m in all_models}
+    app.config["args"] = args
     init_database(params["db"]["location"], bot_probability=app.config["bot_probability"])
     # logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
     socketio.run(app, host=args.host, port=args.port)
