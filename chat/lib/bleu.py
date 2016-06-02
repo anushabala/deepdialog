@@ -49,9 +49,9 @@ def compute_bleu(candidate, reference, smoothed=True):
 
 
 def test():
-    candidate = 'hey do you know anyone who goes to stanford'
+    candidate = 'a b c'
     candidate = candidate.split()
-    reference = 'do you know anyone who went to stanford'
+    reference = 'a b d'
     reference = reference.split()
 
     print compute_bleu(candidate, reference)

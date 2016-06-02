@@ -10,19 +10,19 @@ from chat.modeling.lexicon import Lexicon, load_scenarios
 from chat.modeling import dialogue_tracker
 from chat.lib import sample_utils, logstats
 
-def create_example(lexicon, scenario, agent, args, stats):
+def create_example(lexicon, scenario, agent, args, summary_map):
     # Return example (JSON) and lexical mapping
     ex = {
         'scenario_id': scenario['uuid'],
         'agent': agent,
     }
-    tracker = dialogue_tracker.DialogueTracker(lexicon, scenario, agent, args, None, stats)
+    tracker = dialogue_tracker.DialogueTracker(lexicon, scenario, agent, args, None, summary_map)
     tracker.executor.kb.dump()
     dialogue = transcript['dialogue']
     for i, (who, utterance) in enumerate(dialogue):
         end_turn = i+1 == len(dialogue) or dialogue[i+1][0] != who
         tracker.parse_add(who, dialogue_tracker.utterance_to_tokens(utterance), end_turn)
-    stats['num_states'].append(len(tracker.states))
+    logstats.update_summary(summary_map['num_states'], len(tracker.states))
     states = tracker.get_states()
 
     #print '%s states: max_prob=%s' % (len(states), states[0].prob if len(states) > 0 else 'n/a')
@@ -38,9 +38,6 @@ def create_example(lexicon, scenario, agent, args, stats):
     ex['states'] = [{'weight': weight, 'messages': messages_to_json(state)} for state, weight in zip(states, weights)]
 
     return ex, sum(weights)
-
-def summarize_stats(stats):
-    return '%s / %s / %s (%d)' % (min(stats), 1.0 * sum(stats) / len(stats), max(stats), len(stats))
 
 if __name__ == "__main__":
     parser = ArgumentParser()
@@ -71,7 +68,7 @@ if __name__ == "__main__":
             f = os.path.join(transcript_dir, name)
             paths.append(f)
 
-    stats = defaultdict(list)
+    summary_map = defaultdict(dict)
     total_log_prob = 0
     for i, f in enumerate(sorted(paths)[args.input_offset:]):
         print '### Reading %d/%d: %s' % (i, len(paths), f)
@@ -86,7 +83,7 @@ if __name__ == "__main__":
         r = random.random()
         for agent in args.agents:
             scenario_id = transcript['scenario']
-            ex, weight = create_example(lexicon, scenarios[scenario_id], agent, args, stats)
+            ex, weight = create_example(lexicon, scenarios[scenario_id], agent, args, summary_map)
             if ex:
                 total_log_prob += math.log(weight)
                 is_train = r < args.train_frac
@@ -103,9 +100,8 @@ if __name__ == "__main__":
     logstats.add('num_dev_examples', len(dev_examples))
     logstats.add('num_empty_examples', num_empty_examples)
     logstats.add('total_log_prob', total_log_prob)
-    for key, values in stats.items():
-        logstats.add(key, 1.0 * sum(values) / len(values))
-        print key, '=', summarize_stats(values)
+    logstats.update(summary_map)
+    logstats.dump_summary_map(summary_map)
 
     # Write examples
     def output(name, examples):

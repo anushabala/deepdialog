@@ -10,6 +10,7 @@ import theano
 from theano.ifelse import ifelse
 from theano import tensor as T
 from heapq import nlargest
+from collections import defaultdict
 from chat.lib import logstats, sample_utils
 from chat.modeling import data_utils, dialogue_tracker, recurrent_box
 from chat.modeling.lexicon import Lexicon, load_scenarios
@@ -108,6 +109,7 @@ class NeuralModel(object):
     def train_loop(self, train_examples, dev_examples):
         print 'NeuralModel.train_loop()'
         for it in range(self.args.num_epochs):
+            logstats.add('iteration', it)
             self.do_iter('train', it, train_examples)
             self.do_iter('dev', it, dev_examples)
             self.on_train_epoch(it)
@@ -116,34 +118,24 @@ class NeuralModel(object):
         if len(examples) == 0:
             return
         is_train = (mode == 'train')
-        logstats.add(mode, 'iteration', it)
-        total_objective = 0
-        total_bleu = 0
-        num_batches = 0
+        summary_map = defaultdict(dict)
         if is_train:
             examples = list(examples)
             random.shuffle(examples)
 
-        # Go over all the examples
-        t0 = time.time()
+        # Go over all the examples in batches
         for i in range(0, len(examples), self.args.batch_size):
-            do_update = i + self.args.batch_size <= len(examples)
+            # Get a batch
             batch_examples = examples[i:(i + self.args.batch_size)]
-            objective, bleu = self._do_batch(batch_examples, do_update=is_train)
-            total_objective += objective
-            total_bleu += bleu
-            num_batches += 1
-            print 'NeuralModel.do_iter(%s), iter %d, %d/%d examples, objective = %g, bleu = %g' % (\
+            # Do stuff
+            batch_summary_map = self._do_batch(batch_examples, do_update=is_train)
+            # Update/print out stats
+            logstats.update_summary_map(summary_map, batch_summary_map)
+            logstats.add(mode, summary_map)
+            print 'NeuralModel.do_iter(%s), iter %d, %d/%d examples, %s' % (\
                 mode, it, i, len(examples),
-                total_objective / num_batches,
-                total_bleu / num_batches,
+                logstats.summary_map_to_str(summary_map)
             )
-        t1 = time.time()
-
-        logstats.add(mode, 'objective', total_objective)
-        logstats.add(mode, 'time', t1 - t0)
-        print 'NeuralModel.%s(): iter %d: total objective = %g (%g seconds)' % (
-            mode, it, total_objective, t1 - t0)
 
     def evaluate_example(self, ex):
         """
@@ -183,8 +175,8 @@ class NeuralModel(object):
         Returns objective function and bleu.
         If do_update is False, compute objective but don't do the gradient step.
         """
-        objective = 0
-        bleu = 0
+        t0 = time.time()
+        summary_map = defaultdict(dict)
         gradients = {}
         for ex in examples:  # Go over all examples in the mini-batch
             ex_scores = []
@@ -192,7 +184,8 @@ class NeuralModel(object):
             ex_log_weights = []
 
             # Evaluate on end-to-end metrics
-            bleu += 1.0 * self.evaluate_example(ex) / len(examples)
+            bleu = 1.0 * self.evaluate_example(ex) / len(examples)
+            logstats.update_summary(summary_map['bleu'], bleu)
 
             # Sample num_samples trajectories.
             samples = set()
@@ -203,7 +196,7 @@ class NeuralModel(object):
                 sequences = data_utils.messages_to_sequences(ex['agent'], messages)
                 assert len(sequences) % 2 == 0
                 samples.add(str(sequences))
-                #print 'UPDATE TOWARDS', i, sequences
+                print 'UPDATE TOWARDS', i, sequences
 
                 # Convert to indices:
                 #   sequences = [partner, agent, ..., partner, agent]
@@ -229,6 +222,7 @@ class NeuralModel(object):
             if do_update:
                 for i in range(self.args.num_samples):
                     for key in self.params:
+                        # Scale gradient by size of mini-batch
                         g = ex_gradients[i][key] * ex_probs[i] / len(examples)
                         if key in gradients:
                             gradients[key] += g
@@ -237,15 +231,24 @@ class NeuralModel(object):
 
             # Compute lower bound on the log-likelihood:
             # r(y) \log [p(y | x) p(observations | x, y)] - \log r(y)
-            ex_objective = 0.0
+            ex_likelihood = 0.0
+            ex_entropy = 0.0
             for i in range(self.args.num_samples):
-                ex_objective += ex_probs[i] * (ex_scores[i] + ex_log_weights[i] - math.log(ex_probs[i]))
-            objective += ex_objective
+                ex_likelihood += ex_probs[i] * (ex_scores[i] + ex_log_weights[i])
+                ex_entropy += ex_probs[i] * -math.log(ex_probs[i])
+            ex_objective = -(ex_likelihood + ex_entropy)
+            logstats.update_summary(summary_map['likelihood'], ex_likelihood)
+            logstats.update_summary(summary_map['entropy'], ex_entropy)
+            logstats.update_summary(summary_map['objective'], ex_objective)
 
         if do_update:
             for p in self.params:
                 self._perform_sgd_step(p, gradients[p])
-        return objective, bleu
+
+        t1 = time.time()
+        logstats.update_summary(summary_map['time'], t1 - t0)
+
+        return summary_map
 
     def _perform_sgd_step(self, param, gradient):
         """Do a gradient descent step."""

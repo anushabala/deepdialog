@@ -44,7 +44,13 @@ The distribution is gotten by:
     cl download matchmaking.tagged/tagged.train.json -o output/0524_dating.train.json
 
     # Train a model
+    cl upload chat
     cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 --scenarios scenarios.json --data-prefix tagged/ --out-dir .' -n friends.run --request-network
+    # more 5
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 --num-samples 5 --scenarios scenarios.json --data-prefix tagged/ --out-dir .' -n friends.run --request-network
+    # small
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
+    cl cat ^/stdout | grep objective | tail
 
 # Running locally
 
@@ -67,7 +73,7 @@ The distribution is gotten by:
     PYTHONPATH=. venv/bin/python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 -c lstm -m encoderdecoder --data-prefix output/0520_friends --out-dir output/0520_friends.run
 
     # Train small model
-    PYTHONPATH=. venv/bin/python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 --num-samples 5 --data-prefix output/0520_friends. --out-dir output/0520_friends.run --train-max-examples 1 --dev-max-examples 0 --scenarios data/friends_scenarios.json --num-epochs 1000
+    PYTHONPATH=. venv/bin/python chat/nn/main.py -d 125 -i 50 -o 50 -t 35 --batch-size 5 --num-samples 5 --data-prefix output/0520_friends. --out-dir output/0520_friends.run --train-max-examples 1 --dev-max-examples 0 --scenarios data/friends_scenarios.json --num-epochs 10
 
 # Setting up the webserver
 

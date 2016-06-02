@@ -42,23 +42,25 @@ VOCAB_TYPES = collections.OrderedDict([
 # Global options
 OPTIONS = None
 
-
 def _parse_args():
     global OPTIONS
-    parser = argparse.ArgumentParser(
-        description='Test neural alignment model on toy data.')
+    parser = argparse.ArgumentParser()
     parser.add_argument('--hidden-size', '-d', type=int,
                         help='Dimension of hidden units')
     parser.add_argument('--input-embedding-dim', '-i', type=int,
                         help='Dimension of input vectors.')
     parser.add_argument('--output-embedding-dim', '-o', type=int,
                         help='Dimension of output word vectors.')
+
     parser.add_argument('--num-epochs', '-t', type=int, default=0,
                         help='Number of epochs to train (default is no training).')
     parser.add_argument('--learning-rate', '-r', type=float, default=0.1,
                         help='Learning rate (default = 0.1).')
     parser.add_argument('--batch-size', '-b', type=int, default=1,
                         help='Size of mini-batch (default is SGD).')
+    parser.add_argument('--num-samples', type=int, default=1,
+                        help='Number of candidates to sample for each training example.')
+
     parser.add_argument('--continuous-spec', '-c',
                         help='type of continuous model (options: [%s])' % (
                             ', '.join(CONTINUOUS_MODELS)), default='lstm')
@@ -71,14 +73,10 @@ def _parse_args():
     parser.add_argument('--output-vocab-type',
                         help='type of output vocabulary (options: [%s])' % (
                             ', '.join(VOCAB_TYPES)), default='raw')
-    parser.add_argument('--no-eos-on-output', action='store_true',
-                        help='Do not add end of sentence token to output sequence.')
     parser.add_argument('--reverse-input', action='store_true',
                         help='Reverse the input sentence (intended for encoder-decoder).')
     parser.add_argument('--float32', action='store_true',
                         help='Use 32-bit floats (default is 64-bit/double precision).')
-    parser.add_argument('--num-samples', type=int, default=1,
-                        help='Number of candidatesto sample for each training example.')
 
     # Input paths
     parser.add_argument('--data-prefix', help='If train and dev not specified, then construct paths using this.')
@@ -261,6 +259,8 @@ def run():
         if not OPTIONS.dev_data: OPTIONS.dev_data = OPTIONS.data_prefix + 'dev.json'
 
     logstats.init(OPTIONS.stats_file)
+
+    logstats.add('options', dict((arg, getattr(OPTIONS, arg)) for arg in vars(OPTIONS)))
 
     # Read data
     if OPTIONS.train_data:

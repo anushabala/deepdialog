@@ -5,7 +5,7 @@ import json
 from collections import defaultdict
 import re
 from chat.modeling.executor import Executor, is_entity
-from chat.lib import sample_utils
+from chat.lib import sample_utils, logstats
 from chat.nn import vocabulary
 from chat.modeling import tokens as mytokens
 
@@ -14,8 +14,7 @@ def utterance_to_tokens(utterance):
     'hi there!' => ['hi', 'there', '!']
     '''
     utterance = utterance.encode('utf-8').lower()
-    # utterance = utterance.translate(string.maketrans('', ''), string.punctuation)  # Remove punctuation
-    # raw_tokens = utterance.split(' ')
+    # Split on punctuation
     tokens = re.findall(r"[\w']+|[.,!?;]", utterance)
     return tokens 
 
@@ -157,14 +156,14 @@ class DialogueTracker(object):
     - parse_add(who, tokens, end_turn): when receive an utterance
     - tokens, end_turn = generate_add(who): when want to send an utterance
     '''
-    def __init__(self, lexicon, scenario, agent, args, box, stats):
+    def __init__(self, lexicon, scenario, agent, args, box, summary_map):
         self.lexicon = lexicon
         self.scenario = scenario
         self.agent = agent
         self.args = args
         self.executor = Executor(scenario, agent, args)
         self.box = box
-        self.stats = stats
+        self.summary_map = summary_map
         self.states = [DialogueState()]  # Possible dialogue states that we could be in.
 
     def get_states(self):
@@ -200,10 +199,13 @@ class DialogueTracker(object):
             self.states = [state]
             # Go through the positions and choose the formula that's most
             # likely under a combination of the weight p(x|z) and the RNN probability p(z).
+            # Make sure this is consistent with data_utils.messages_to_sequences
             message = state.messages[-1]
             if len(state.messages) == 1 and message.who == self.agent:  # If agent starting, then pad
+                self.box.observe(mytokens.START, write=False)
                 self.box.observe(mytokens.END_TURN, write=False)
-            self.box.observe(mytokens.SAY, write=False)
+            write = message.who == self.agent  # Are we writing?
+            self.box.observe(mytokens.SAY, write=write)
             for i, candidates in enumerate(message.formula_token_candidates):
                 if not isinstance(candidates, list):
                     token = candidates
@@ -213,8 +215,8 @@ class DialogueTracker(object):
                     candidates = [(token, distrib.get(token, 0) * weight) for token, weight in candidates]
                     token = sample_utils.sample_candidates(candidates)[0]
                 # Commit to that choice
-                self.box.observe(token, write=False)
-            self.box.observe(mytokens.END_TURN if end_turn else mytokens.END, write=False)
+                self.box.observe(token, write=write)
+            self.box.observe(mytokens.END_TURN if end_turn else mytokens.END, write=write)
 
     def compute_state_probs(self):
         return sample_utils.normalize_weights([state.weight() for state in self.states])
@@ -331,7 +333,7 @@ class DialogueTracker(object):
             if token is None:
                 raw_tokens.append('???')
             elif is_entity(token):
-                raw_tokens.extend(' '.join(token[0]))  # 'university of pennsylvania'
+                raw_tokens.extend(token[0].split(' '))  # 'university of pennsylvania'
             else:
                 raw_tokens.append(token)
 
@@ -402,9 +404,9 @@ class DialogueTracker(object):
                         prob = 1.0 / len(pred_token)
                         #print '  %s: %s | %s' % (formula, prob, [x for x in pred_token if x])
                         candidates.append((formula, prob))
-                if self.stats:
-                    self.stats['num_formulas_per_token'].append(len(formulas))
-                    self.stats['num_consistent_formulas_per_token'].append(len(candidates))
+                if self.summary_map:
+                    logstats.update_summary(self.summary_map['num_formulas_per_token'], len(formulas))
+                    logstats.update_summary(self.summary_map['num_consistent_formulas_per_token'], len(candidates))
                 if len(candidates) == 0:
                     print 'WARNING: no way to generate %s' % (token,)
                     self.executor.kb.dump()
