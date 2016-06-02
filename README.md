@@ -46,9 +46,12 @@ The distribution is gotten by:
     # Train a model
     cl work main::pliang-dialog
     cl upload chat
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.verbatim 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.basic 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode basic' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode recurse' -n friends.run --request-network
     # small
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.tagged 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-max-examples 1 --dev-max-examples 0' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.verbatim 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode verbatim --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.basic 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode basic --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode recurse --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
     cl cat ^/stdout | grep objective | tail
 
 # Running locally

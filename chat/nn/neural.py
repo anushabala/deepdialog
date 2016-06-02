@@ -158,7 +158,7 @@ class NeuralModel(object):
             # Try to predict the mi-th message
             who = message['who']
             true_tokens = message['raw_tokens']
-            print 'TRUE(%d): %s' % (mi, map(str, true_tokens),)
+            print 'TRUE(%d,who=%s): %s' % (mi, who, map(str, true_tokens),)
             if who != agent:
                 continue
             box = NeuralBox(self)
@@ -171,7 +171,7 @@ class NeuralModel(object):
             # Predict the mi-th message
             pred_tokens, end_turn = tracker.generate_add(who)
             bleu = compute_bleu(reference=true_tokens, candidate=pred_tokens)
-            print 'PRED(%d): %s' % (mi, map(str, pred_tokens),)
+            print 'PRED(%d,who=%s): %s' % (mi, who, map(str, pred_tokens),)
             print 'BLEU(%d): %s' % (mi, bleu,)
             sum_bleu += bleu
         return sum_bleu / len(message)
