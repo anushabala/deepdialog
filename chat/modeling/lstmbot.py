@@ -40,7 +40,7 @@ class ModelBot(ChatBotBase):
         self.selection = None
         self.next_message = None
         self.partner_selected_connection = False
-        self.partner_selection_message = None
+        self.partner_selection = None
 
         self.friends = scenario["agents"][agent_num]["friends"]
         self.full_names_cased = {}
@@ -104,10 +104,12 @@ class ModelBot(ChatBotBase):
         # Override LSTM output if partner selects connection
         if self.partner_selected_connection:
             print "partner selected connection, overriding output"
-            self.next_message = self.partner_selection_message
-        else:
-            message = " ".join(tokens)
-            self.next_message = message
+            self.selection = self.partner_selection
+            self.next_message = None
+            return self.send_selection_if_possible()
+
+        message = " ".join(tokens)
+        self.next_message = message
 
         return self.send_message_if_possible()
 
@@ -123,11 +125,11 @@ class ModelBot(ChatBotBase):
         selection = selection.lower()
         selection_message = "%s %s" % (special_tokens.SELECT_NAME, selection.lower())
         self.receive(selection_message)
-        if selection in self.full_names_cased.values() or selection in self.full_names_cased.values():
-
+        print selection, selection_message
+        if selection in self.full_names_cased.keys() or selection in self.full_names_cased.values():
             print "partner selected connection"
             self.partner_selected_connection = True
-            self.partner_selection_message = selection_message
+            self.partner_selection = selection_message
 
     def end_chat(self):
         self.my_turn = False
