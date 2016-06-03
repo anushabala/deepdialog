@@ -110,14 +110,23 @@ class NeuralModel(object):
         
     def train_loop(self, train_examples, dev_examples):
         print 'NeuralModel.train_loop()'
+        best_dev_objective = 1e100
         for it in range(self.args.num_epochs):
             logstats.add('iteration', it)
-            self.do_iter('train', it, train_examples)
-            self.do_iter('dev', it, dev_examples)
+            train_summary_map = self.do_iter('train', it, train_examples)
+            dev_summary_map = self.do_iter('dev', it, dev_examples)
             self.on_train_epoch(it)
+            dev_objective = dev_summary_map['objective']['mean']
+            # Save parameters
             if self.args.save_params:
-                print 'Saving parameters...'
                 self.spec.save(self.args.save_params)
+            # Keep track of the best model so far
+            if dev_objective < best_dev_objective:
+                best_dev_objective = dev_objective
+                logstats.add('best_iteration', it)
+                print 'Best dev accuracy so far at iteration %s: %s' % (it, dev_objective)
+                if self.args.save_params:
+                    self.spec.save(self.args.save_params + '.best')
 
     def do_iter(self, mode, it, examples):
         if len(examples) == 0:
@@ -138,10 +147,15 @@ class NeuralModel(object):
             # Update/print out stats
             logstats.update_summary_map(summary_map, batch_summary_map)
             logstats.add(mode, summary_map)
-            print 'NeuralModel.do_iter(%s), iter %d, %d/%d examples, %s' % (\
+            print 'NeuralModel.do_iter(%s): iter %d, %d/%d examples, %s' % (\
                 mode, it, i, len(examples),
                 logstats.summary_map_to_str(summary_map)
             )
+        print 'NeuralModel.do_iter(%s): iter %d DONE, %s' % (\
+            mode, it,
+            logstats.summary_map_to_str(summary_map)
+        )
+        return summary_map
 
     def evaluate_example(self, ex):
         """
@@ -153,7 +167,7 @@ class NeuralModel(object):
         scenario = self.scenarios[ex['scenario_id']]
         messages = state['messages']
         sum_bleu = 0
-        print 'evaluate_example: scenario_id=%s, agent=%s' % (ex['scenario_id'], agent)
+        print 'evaluate_example: scenario_id(%s), agent=%s' % (ex['scenario_id'], agent)
         for mi, message in enumerate(messages):
             # Try to predict the mi-th message
             who = message['who']
