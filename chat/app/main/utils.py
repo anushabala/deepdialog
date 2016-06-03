@@ -25,8 +25,7 @@ def get_backend():
         backend = g._backend = BackendConnection(app.config["user_params"], app.config["scenarios"],
                                                  app.config["paired_bots"], app.config["bot_selections"],
                                                  app.config["bots"], app.config["pairing_probabilities"],
-                                                 app.config["waiting_probabilities"],app.config["lexicon"],
-                                                 args=app.config["args"])
+                                                 app.config["waiting_probabilities"],app.config["lexicon"])
     return backend
 
 

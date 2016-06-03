@@ -12,8 +12,8 @@ from chat.modeling.lexicon import Lexicon
 from chat.nn.neural import NeuralBox
 from nn import spec as specutil
 from nn.encoderdecoder import EncoderDecoderModel
-from utils.dialogue_main import learn_bigram_model
-from modeling.recurrent_box import BigramBox
+from modeling.recurrent_box import learn_ngram_model
+from modeling.recurrent_box import NgramBox
 from modeling.dialogue_tracker import add_arguments
 
 
@@ -48,6 +48,7 @@ if __name__ == '__main__':
     parser.add_argument('--log', help="File to log app output to", type=str, default="chat.log")
     add_arguments(parser)
     args = parser.parse_args()
+
     params_file = args.p
     with open(params_file) as fin:
        params = json.load(fin)
@@ -75,23 +76,27 @@ if __name__ == '__main__':
 
     model_names = []
     models = {}
+
     for (bot_name, info) in params["bots"].iteritems():
         if info["use_bot"]:
             model_names.append(bot_name)
             model_path = info["path"]
-            if bot_name == "bigram":
-                cpt = learn_bigram_model(json.load(open(model_path, 'r')))
-                box = BigramBox(cpt)
-            elif bot_name == "baseline":
-                # todo baselinebox?
-                cpt = learn_bigram_model(json.load(open(model_path, 'r')))
-                box = BigramBox(cpt)
+            model_type = info["type"]
+            formulas_mode = info["formulas_mode"]
+            model_args = parser.parse_args()
+            model_args.formulas_mode = formulas_mode
+            print "Loading model=%s type=%s path=%s" % (bot_name, model_type, model_path)
+            if model_type == "ngram":
+                n = info["ngrams"]
+                cpt = learn_ngram_model(n, json.load(open(model_path, 'r')))
+                box = NgramBox(cpt)
             else:
+                # info["type"] == "lstm"
                 spec = specutil.load(model_path)
                 model = EncoderDecoderModel(args, spec)
                 box = NeuralBox(model)
 
-            models[bot_name] = box
+            models[bot_name] = (box, model_args)
 
     num_bots = len(model_names)
     bot_waiting_probability = bot_probability = 1.0/(num_bots+1) if num_bots > 0 else 0

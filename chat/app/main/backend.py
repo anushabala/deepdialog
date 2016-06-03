@@ -103,10 +103,9 @@ class Messages(object):
 
 class BackendConnection(object):
     def __init__(self, config, scenarios, paired_bots, bot_selections, bots, pairing_probabilities,
-                 waiting_probabilities, lexicon, args=None):
+                 waiting_probabilities, lexicon):
         self.config = config
         self.conn = sqlite3.connect(config["db"]["location"])
-        self.args = args
         self.lexicon = lexicon
 
         self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
@@ -694,8 +693,8 @@ class BackendConnection(object):
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0, 1])
             # todo fix this!
-            box = self.bots[bot_name]
-            bot = ModelBot(self.scenarios[scenario_id], 1-my_agent_index, box, self.lexicon, name=bot_name, args=self.args)
+            box, args = self.bots[bot_name]
+            bot = ModelBot(self.scenarios[scenario_id], 1-my_agent_index, box, self.lexicon, name=bot_name, args=args)
             self.paired_bots[userid] = bot
             self._update_user(cursor, userid,
                               status=Status.Chat,
