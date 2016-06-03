@@ -140,11 +140,18 @@ class Executor(object):
                     for g in apply_relation_of(['FriendOfA']):  # e.g., last company mentioned
                         yield select(intersect(f, g))
 
-    def execute(self, state, who, tokens, i, formula):
+    def execute(self, state, who, tokens, i, formula, cache={}):
         '''
         Note: return None if this logical form is invalid.
         Things that are invalid: no-ops (e.g. getting a single element)
         '''
+        if formula in cache:
+            return cache[formula]
+        result = self.execute_compute(state, who, tokens, i, formula)
+        cache[formula] = result
+        return result
+
+    def execute_compute(self, state, who, tokens, i, formula):
         table = self.kb.table
         # Base cases
         if isinstance(formula, basestring):

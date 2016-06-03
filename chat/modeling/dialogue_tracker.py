@@ -43,6 +43,7 @@ def parse_formula(buf):
                     pos[0] += 1
                     result.append(recurse())
                 pos[0] += 1
+                result = tuple(result)
         return result
     return recurse()
 
@@ -409,8 +410,10 @@ class DialogueTracker(object):
                 #print '- %s' % (token,)
                 # Find all the ways that we could execute to this entity
                 formulas = list(self.executor.generate_formulas(state, who, entity_tokens, i))
+                executor_cache = {}
                 for formula in formulas:
-                    pred_token = self.executor.execute(state, who, entity_tokens, i, formula)
+                    #print 'EXEC', formula
+                    pred_token = self.executor.execute(state, who, entity_tokens, i, formula, executor_cache)
                     # If the executor returns a list containing the answer, then return it, weighting it properly.
                     if pred_token and token in pred_token:
                         prob = 1.0 / len(pred_token)

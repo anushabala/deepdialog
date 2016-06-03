@@ -71,7 +71,7 @@ The distribution is gotten by:
     PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios data/matchmaking_scenarios.json --transcripts data/backups_from_remote/transcripts_0524_dating --out-prefix output/0524_dating.
 
     # Try out the dialogue manager with simple n-gram model
-    PYTHONPATH=. python chat/utils/dialogue_main.py --scenarios data/friends_scenarios.json --train output/0520_friends.train.json --dev output/0520_friends.dev.json --n 4
+    PYTHONPATH=. python chat/utils/dialogue_main.py --formulas-mode recurse --scenarios data/friends_scenarios.json --train output/0520_friends.train.json --dev output/0520_friends.dev.json --n 4
 
     # Visualize
     cat output/0520_friends.train.json | jq . | less
