@@ -24,34 +24,47 @@ class RecurrentBox(object):
         raise NotImplementedError
 
 
-class BigramBox(object):
+class NgramBox(object):
     '''
     A simple of example of a RecurrentBox that's a simple bigram model:
         p(token | prev_token)
     '''
     def __init__(self, cpt):
         self.cpt = cpt
-        self.prev_token = None
+        self.prev_tokens = []
 
     def generate(self):
-        return self.cpt[self.prev_token].items()
+        result = None
+        # Find the largest n that matches (could use better interpolation)
+        for n in range(1, len(self.prev_tokens)+2):
+            history = tuple(self.prev_tokens[(len(self.prev_tokens)-(n-1)):])
+            new_result = self.cpt.get(history)
+            #print self.prev_tokens, n, history, 'hh'
+            if new_result is None:
+                break
+            result = new_result
+        #print n
+        #print list(result.keys())[:10]
+        return result.items()
 
     def observe(self, token, write):
-        self.prev_token = token
+        #print 'OBSERVE', token
+        self.prev_tokens.append(token)
+        if len(self.prev_tokens) >= 10:
+            self.prev_tokens.pop(0)
 
-def learn_bigram_model(data):
-    print 'learn_bigram_model on %d examples' % len(data)
+def learn_ngram_model(n, data):
+    print 'learn_ngram_model on %d examples' % len(data)
     cpt = ConditionalProbabilityTable()
     for ex in data:
         states = ex['states']
-        for i in range(5):  # Sample several trajectories
+        for trial in range(5):  # Sample several trajectories
             messages, log_weight = data_utils.sample_trajectory(states) 
             seqs = data_utils.messages_to_sequences(ex['agent'], messages)
-            prev_token = None
-            for seq in seqs:
-                for token in seq:
-                    cpt[prev_token][token] += 1
-                    prev_token = token 
+            tokens = [token for seq in seqs for token in seq]
+            for i in range(len(tokens)):
+                for j in range(max(0, i - n + 1), i + 1):
+                    cpt[tuple(tokens[j:i])][tokens[i]] += 1
     cpt.normalize()
     #cpt.dump()
     return cpt

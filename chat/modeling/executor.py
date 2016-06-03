@@ -183,7 +183,7 @@ class Executor(object):
             # Type
             t = args[1]
             # Return all elements that match the type
-            return [x for x in s if x[1] == t]
+            return [x for x in s if x is not None and x[1] == t]
 
         orig_args = args
         args = [self.execute(state, who, tokens, i, arg) for arg in args]

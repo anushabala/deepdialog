@@ -43,7 +43,7 @@ def summary_to_str(s):
     return '%g / %g / %g (%g)' % (s['min'], s['mean'], s['max'], s['count'])
 
 def summary_map_to_str(m):
-    return ' '.join('%s=%g' % (k, s['mean']) for k, s in sorted(m.items()))
+    return ' '.join('%s=%g' % (k, s['mean'] if isinstance(s, dict) else s) for k, s in sorted(m.items()))
 
 def update_summary_map(m1, m2):
     for k, s in m2.items():

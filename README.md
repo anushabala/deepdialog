@@ -44,15 +44,24 @@ The distribution is gotten by:
     cl download matchmaking.tagged/tagged.train.json -o output/0524_dating.train.json
 
     # Train a model
-    cl work main::pliang-dialog
+    cl work main::pliang-dialog2
     cl upload chat
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode recurse' -n friends.run --request-network
-    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 5 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode recurse' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.verbatim 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 15 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode verbatim' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.basic 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 15 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode basic' -n friends.run --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 15 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode recurse' -n friends.run --request-network
+    # try numsamples
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 10 --batch-size 5 --num-samples 5 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --train-eval-period 10 --formulas-mode recurse' -n friends.run --request-network
     # small
     cl run :chat scenarios.json:friends_scenarios.json tagged:friends.verbatim 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode verbatim --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
     cl run :chat scenarios.json:friends_scenarios.json tagged:friends.basic 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode basic --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
     cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode recurse --train-max-examples 5 --dev-max-examples 0' -n friends.run --request-network
+    cl upload chat
     cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'THEANO_FLAGS=device=gpu1,nvcc.fastmath=True,openmp=True,blas.ldflags=-lopenblas PYTHONPATH=. python chat/nn/main.py -d 100 -i 50 -o 50 -t 100 --batch-size 5 --num-samples 1 --scenarios scenarios.json --data-prefix tagged/ --out-dir . --formulas-mode recurse --train-max-examples 5 --dev-max-examples 5' -n friends.run --request-network
+
+    # Train simple n-gram model
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.recurse 'PYTHONPATH=. python chat/utils/dialogue_main.py --formulas-mode recurse --scenarios scenarios.json --train tagged/train.json --dev tagged/dev.json --stats-file stats.json --n 13' -n friends.ngram --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.basic 'PYTHONPATH=. python chat/utils/dialogue_main.py --formulas-mode basic --scenarios scenarios.json --train tagged/train.json --dev tagged/dev.json --stats-file stats.json --n 13' -n friends.ngram --request-network
+    cl run :chat scenarios.json:friends_scenarios.json tagged:friends.verbatim 'PYTHONPATH=. python chat/utils/dialogue_main.py --formulas-mode verbatim --scenarios scenarios.json --train tagged/train.json --dev tagged/dev.json --stats-file stats.json --n 13' -n friends.ngram --request-network
 
 # Running locally
 
@@ -61,8 +70,8 @@ The distribution is gotten by:
     PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios data/friends_scenarios.json --transcripts data/backups_from_remote/transcripts_0520_friends --out-prefix output/0520_friends.
     PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios data/matchmaking_scenarios.json --transcripts data/backups_from_remote/transcripts_0524_dating --out-prefix output/0524_dating.
 
-    # Try out the dialogue manager with simple bigram model
-    PYTHONPATH=. python chat/utils/dialogue_main.py --scenarios data/friends_scenarios.json --train output/0520_friends.train.json
+    # Try out the dialogue manager with simple n-gram model
+    PYTHONPATH=. python chat/utils/dialogue_main.py --scenarios data/friends_scenarios.json --train output/0520_friends.train.json --dev output/0520_friends.dev.json --n 4
 
     # Visualize
     cat output/0520_friends.train.json | jq . | less

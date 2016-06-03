@@ -8,6 +8,7 @@ from chat.modeling.executor import Executor, is_entity
 from chat.lib import sample_utils, logstats
 from chat.nn import vocabulary
 from chat.modeling import tokens as mytokens
+from chat.lib.bleu import compute_bleu
 
 def utterance_to_tokens(utterance):
     '''
@@ -217,7 +218,9 @@ class DialogueTracker(object):
                     # Reweight by p(z)
                     candidates = [(token, distrib.get(token, 0) * weight) for token, weight in candidates]
                     token = sample_utils.sample_candidates(candidates)[0]
+                    token = render_formula(token)
                 # Commit to that choice
+                assert isinstance(token, basestring)
                 self.box.observe(token, write=write)
             self.box.observe(mytokens.END_TURN if end_turn else mytokens.END, write=write)
 
@@ -233,6 +236,15 @@ class DialogueTracker(object):
         if len(self.states) > 1:
             raise Exception('Can only handle the one state case')
 
+        def choices_is_okay(choices):
+            if choices is None:  # Error or just not ready to execute (e.g., if formula has NextMention)
+                return False
+            if len(choices) == 0:
+                return False
+            if any(c is None for c in choices):  # Rule out MagicType
+                return False
+            return True
+            
         state = self.states[0]
         entity_tokens = []
         formula_tokens = []
@@ -243,25 +255,21 @@ class DialogueTracker(object):
                 return True
             i = len(entity_tokens)
             choices = self.executor.execute(state, who, entity_tokens, i, formula)
-            #print 'try_execute', formula, choices
-            if choices is None:  # Error or just not ready to execute (e.g., if formula has NextMention)
-                return False
-            if len(choices) == 0:  # Probably we got derailed...fail carefully
-                return False
-            if any(c is None for c in choices):  # Rule out MagicType
-                return False
-            return True
+            return choices_is_okay(choices)
 
         def execute(i):
             if entity_tokens[i] is not None:
-                return
+                return False
             # Execute the i-th formula and try to fill it out
             formula = formula_tokens[i]
             # Execute: SchoolOf(A) => 'university of pennsylvania'
             choices = self.executor.execute(state, who, entity_tokens, i, formula)
+            if not choices_is_okay(choices):
+                return False
             #print 'execute', formula, choices
             entity_tokens[i] = random.choice(choices)
             formula_weights[i] *= 1.0 / len(choices)
+            return True
 
         if len(state.messages) == 0: # If agent starting, then pad
             self.box.observe(mytokens.START, write=False)
@@ -298,9 +306,10 @@ class DialogueTracker(object):
 
             # Choose a formula
             if sum(weight for (token, formula), weight in candidates) == 0:
-                print 'WARNING: no valid candidates among ', candidates
+                print 'WARNING: no valid candidates among', candidates
                 break
             (token, formula), weight = sample_utils.sample_candidates(candidates)
+            assert isinstance(token, basestring)
             # Commit to that choice
             self.box.observe(token, write=True)
             if token == mytokens.END or token == mytokens.END_TURN:
@@ -312,7 +321,7 @@ class DialogueTracker(object):
             entity_tokens.append(None if formula else token)
             formula_weights.append(weight)
             execute(len(formula_tokens) - 1)
-        #print 'generate_add: formula =', str_formula_tokens
+        print '  generate_add: formula =', str_formula_tokens
 
         # Take additional passes to resolve formulas that depend on existence
         # of following entities (e.g., '[two] at Facebook').
@@ -321,8 +330,7 @@ class DialogueTracker(object):
             for i in range(len(entity_tokens)):
                 if entity_tokens[i] is not None:
                     continue
-                execute(i)
-                changed = True
+                changed = execute(i)
             if not changed:
                 break
 
@@ -418,3 +426,51 @@ class DialogueTracker(object):
                     return None
 
         return formula_token_candidates
+
+def evaluate_example(scenario, lexicon, args, ex, create_box):
+    """
+    Go through each message of the agent and try to predict it given the perfect past.
+    Return the average BLEU score across messages.
+    """
+    agent = ex['agent']
+    state = ex['states'][0]  # Just do it with respect to the first state
+    messages = state['messages']
+    summary_map = {}
+    sum_bleu = 0
+    print '## evaluate_example: scenario_id(%s), agent=%s' % (ex['scenario_id'], agent)
+    for mi, message in enumerate(messages):
+        # Try to predict the mi-th message
+        who = message['who']
+        true_tokens = message['raw_tokens']
+        print 'TRUE(%d,who=%s): %s' % (mi, who, map(str, true_tokens),)
+        if who != agent:
+            continue
+        box = create_box()
+
+        # Feed in the true tokens up to (but not including) mi
+        tracker = DialogueTracker(lexicon, scenario, agent, args, box, None)
+        for mj in range(0, mi):
+            tracker.parse_add(messages[mj]['who'], messages[mj]['raw_tokens'], end_turn=messages[mj]['who'] != messages[mj+1]['who'])
+
+        # Predict the mi-th message
+        pred_tokens, end_turn = tracker.generate_add(who)
+        if pred_tokens is None:
+            continue
+        bleu = compute_bleu(reference=true_tokens, candidate=pred_tokens)
+
+        # Because conversation is asynchronous, we might try to answer a question that comes later.
+        # Compute the BLEU score with respect to anything that follows.
+        future_bleus = [compute_bleu(reference=messages[mk]['raw_tokens'], candidate=pred_tokens) for mk in range(mi, len(messages))]
+        max_future_bleu = max(future_bleus)
+
+        message_summary_map = {'bleu': bleu, 'max_future_bleu': max_future_bleu}
+
+        try:
+            pred_tokens = [x.encode('utf-8') for x in pred_tokens]
+        except:
+            print 'WARNING: can\'t encode utf-8'
+        print 'PRED(%d,who=%s): %s' % (mi, who, map(str, pred_tokens),)
+        print 'BLEU(%d,who=%s): %s' % (mi, who, logstats.summary_map_to_str(message_summary_map))
+
+        logstats.update_summary_map(summary_map, message_summary_map)
+    return summary_map

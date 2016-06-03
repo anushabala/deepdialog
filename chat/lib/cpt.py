@@ -11,6 +11,9 @@ class ConditionalProbabilityTable(object):
     def __getitem__(self, k1):
         return self.data[k1]
 
+    def get(self, k1):
+        return self.data.get(k1)
+
     def update(self, source):
         for k1, source_m in source.items():
             target_m = self.data[k1]

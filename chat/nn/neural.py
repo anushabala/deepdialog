@@ -15,7 +15,6 @@ from chat.lib import logstats, sample_utils
 from chat.modeling import data_utils, dialogue_tracker, recurrent_box
 from chat.modeling.lexicon import Lexicon, load_scenarios
 from chat.modeling.recurrent_box import RecurrentBox
-from chat.lib.bleu import compute_bleu
 
 CLIP_THRESH = 3.0  # Clip gradient if norm is larger than this
 
@@ -157,40 +156,6 @@ class NeuralModel(object):
         )
         return summary_map
 
-    def evaluate_example(self, ex):
-        """
-        Go through each message of the agent and try to predict it given the perfect past.
-        Return the average BLEU score across messages.
-        """
-        agent = ex['agent']
-        state = ex['states'][0]  # Just do it with respect to the first state
-        scenario = self.scenarios[ex['scenario_id']]
-        messages = state['messages']
-        sum_bleu = 0
-        print 'evaluate_example: scenario_id(%s), agent=%s' % (ex['scenario_id'], agent)
-        for mi, message in enumerate(messages):
-            # Try to predict the mi-th message
-            who = message['who']
-            true_tokens = message['raw_tokens']
-            print 'TRUE(%d,who=%s): %s' % (mi, who, map(str, true_tokens),)
-            if who != agent:
-                continue
-            box = NeuralBox(self)
-
-            # Feed in the true tokens up to (but not including) mi
-            tracker = dialogue_tracker.DialogueTracker(self.lexicon, scenario, agent, self.args, box, None)
-            for mj in range(0, mi):
-                tracker.parse_add(messages[mj]['who'], messages[mj]['raw_tokens'], end_turn=messages[mj]['who'] != messages[mj+1]['who'])
-
-            # Predict the mi-th message
-            pred_tokens, end_turn = tracker.generate_add(who)
-            bleu = compute_bleu(reference=true_tokens, candidate=pred_tokens)
-            print 'PRED(%d,who=%s): %s' % (mi, who, map(str, pred_tokens),)
-            print 'BLEU(%d): %s' % (mi, bleu,)
-            sum_bleu += bleu
-        return sum_bleu / len(message)
-
-
     def _do_batch(self, examples, eval_period, do_update=True):
         """
         Run training given a batch of training examples.
@@ -208,8 +173,11 @@ class NeuralModel(object):
 
             # Evaluate on end-to-end metric
             if hash(ex['scenario_id']) % eval_period == 0:
-                bleu = 1.0 * self.evaluate_example(ex) / len(examples)
-                logstats.update_summary(summary_map['bleu'], bleu)
+                scenario = self.scenarios[ex['scenario_id']]
+                ex_summary_map = dialogue_tracker.evaluate_example(
+                    scenario, self.lexicon, self.args, ex, lambda : NeuralBox(self)
+                )
+                logstats.update_summary_map(summary_map, ex_summary_map)
 
             # Sample num_samples trajectories.
             #samples = set()
