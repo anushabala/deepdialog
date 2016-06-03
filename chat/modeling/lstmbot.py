@@ -69,9 +69,9 @@ class ModelBot(ChatBotBase):
     MAX_OUT_LEN = 50
     MENTION_WINDOW = 3
 
-    def __init__(self, scenario, agent_num, model, lexicon, name='LSTM', args=None):
+    def __init__(self, scenario, agent_num, box, lexicon, name='LSTM', args=None):
         # self.box = NeuralBox(model)
-        self.box = model
+        self.box = box
         self.args = args
         self.tracker = DialogueTracker(lexicon, scenario, agent_num, args, self.box, None)
         self.name = name

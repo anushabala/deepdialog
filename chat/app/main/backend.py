@@ -9,7 +9,7 @@ import random
 from flask import Markup
 
 from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, FinishedSession
-from chat.modeling.chatbot import ChatBot
+import numpy as np
 from chat.modeling.lstmbot import ModelBot
 
 logger = logging.getLogger(__name__)
@@ -41,9 +41,7 @@ class Status(object):
         return self._names[self]
 
 class Partner(object):
-    BaselineBot = 'bot'
     Human = 'human'
-    LSTMBot = 'lstm'
 
 def current_timestamp_in_seconds():
     return int(time.mktime(datetime.datetime.now().timetuple()))
@@ -104,30 +102,20 @@ class Messages(object):
 
 
 class BackendConnection(object):
-    def __init__(self, config, scenarios, bots, bot_selections, featurized_lstm_model, unfeaturized_lstm,
-                 bot_waiting_probabilities, lexicon, args=None):
+    def __init__(self, config, scenarios, paired_bots, bot_selections, bots, pairing_probabilities,
+                 waiting_probabilities, lexicon, args=None):
         self.config = config
-        self.featurized_lstm = featurized_lstm_model
-        self.unfeaturized_lstm = unfeaturized_lstm
         self.conn = sqlite3.connect(config["db"]["location"])
-        with self.conn:
-            cursor = self.conn.cursor()
-            cursor.execute('''SELECT prob_bot, prob_lstm_feat, prob_lstm_unfeat FROM ChatCounts WHERE id=1''')
-            probs = cursor.fetchone()
-            self.bot_probability = probs[0]
-            self.lstm_probability = probs[1]
-            self.lstm_unfeaturized_probability = probs[2]
-            self.human_probability = 1 - (self.bot_probability + self.lstm_probability + self.lstm_unfeaturized_probability)
         self.args = args
         self.lexicon = lexicon
 
         self.do_survey = True if "end_survey" in config.keys() and config["end_survey"] == 1 else False
         self.scenarios = scenarios
-        self.bots = bots
+        self.paired_bots = paired_bots
         self.bot_selections = bot_selections
-        self.waiting_bot_probability = bot_waiting_probabilities["bot"]
-        self.waiting_lstm_probability = bot_waiting_probabilities["lstm_feat"]
-        self.waiting_lstm_unfeaturized_probability = bot_waiting_probabilities["lstm_unfeat"]
+        self.bots = bots
+        self.pairing_probabilities = pairing_probabilities
+        self.waiting_probabilities = waiting_probabilities
 
     def close(self):
         self.conn.close()
@@ -232,9 +220,9 @@ class BackendConnection(object):
                             message = Messages.ChatExpired
 
                         if self.is_user_partner_bot(userid):
-                            user_bot = self.bots[userid]
+                            user_bot = self.paired_bots[userid]
                             user_bot.end_chat()
-                            self.bots[userid] = None
+                            self.paired_bots[userid] = None
                             self.bot_selections[userid] = None
 
                         self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
@@ -247,9 +235,9 @@ class BackendConnection(object):
                         self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='',
                                           num_single_tasks_completed=0)
                         if self.is_user_partner_bot(userid):
-                            user_bot = self.bots[userid]
+                            user_bot = self.paired_bots[userid]
                             user_bot.end_chat()
-                            self.bots[userid] = None
+                            self.paired_bots[userid] = None
                             self.bot_selections[userid] = None
 
                         return Status.Waiting
@@ -625,7 +613,7 @@ class BackendConnection(object):
             logger.info("Updating user %s to status FINISHED from status survey" % userid)
             self._update_user(cursor, userid, status=Status.Finished)
             if self.is_user_partner_bot(userid):
-                self.bots[userid] = None
+                self.paired_bots[userid] = None
                 self.bot_selections[userid] = None
 
         try:
@@ -694,95 +682,21 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def attempt_join_room(self, userid, use_bot=True):
-        def _redistribute_probabilities(probs_and_ratios):
-            lower_bound = min(1/len(probs_and_ratios) - 0.1, 0.05)
-            upper_bound = min(1/len(probs_and_ratios) + 0.1, 0.95)
-        def _change_bot_probability(cursor):
-            humans, bots, lstms, total = _get_num_chats(cursor)
-            if total == 0:  # only change probabilities every 50 chats or so
-                return
-            #todo fix this later (lstms)
-            # humans = float(humans)/total
-            # bots = float(bots)/total
-            # lstms = float(lstms)/total
-            #
-            # if 0.2 <= bots <= 0.4 and 0.2 <= humans <= 0.4 and 0.2 <= lstms <= 0.4:
-            #     return
-            # if bots <= 0.2:
-            #     if humans >= 0.4 and self.human_probability >= 0.15:
-            #         self.human_probability -= 0.1
-            #     if lstms >= 0.4 >= 0.15:
-            #         self.lstm_probability -= 0.1
-            #     self.bot_probability = 1 - (self.lstm_probability+ self.human_probability)
-            # if humans <= 0.2:
-            #     if bots >= 0.4 and self.bot_probability >=0.15:
-            #         self.bot_probability -= 0.1
-            #     if lstms >= 0.4 and self.lstm_probability >= 0.4
-            # humans = float(humans)/total
-            # if total % 50 == 0:
-            #     if 0.25 <= humans <= 0.4:
-            #         return
-            #     if humans < 0.4 and self.bot_probability >= 0.15:
-            #         self.bot_probability -= 0.1
-            #         #print "Decreased bot probability to ", self.bot_probability
-            #         cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
-            #     if humans > 0.6 and self.bot_probability <= 0.85:
-            #         self.bot_probability += 0.1
-            #         #print "Increased bot probability to ", self.bot_probability
-            #         cursor.execute('''UPDATE ChatCounts SET prob=? WHERE id=?''', (self.bot_probability, 1))
 
-        def _get_num_chats(cursor):
-            cursor.execute("SELECT humans, bots, lstms_feat, lstms_unfeat FROM ChatCounts WHERE id=?", (1,))
+        def _add_bot_chat(cursor, bot_name):
+            cursor.execute("SELECT count from ChatCounts WHERE id=?", (bot_name,))
             x = cursor.fetchone()
-            humans = x[0]
-            bots = x[1]
-            lstms_feat = x[2]
-            lstms_unfeat = x[3]
-            return humans, bots, lstms_feat, lstms_unfeat, humans+bots
+            count = x[0]
+            cursor.execute("UPDATE ChatCounts SET count=? WHERE id=?", (count+1, bot_name))
 
-        def _add_bot_chat(cursor):
-            cursor.execute("SELECT bots from ChatCounts WHERE id=?", (1,))
-            x = cursor.fetchone()
-            bots = x[0]
-            cursor.execute("UPDATE ChatCounts SET bots=? WHERE id=?", (bots+1, 1))
-
-        def _add_human_chat(cursor):
-            cursor.execute("SELECT humans from ChatCounts WHERE id=?", (1,))
-            x = cursor.fetchone()
-            humans = x[0]
-            cursor.execute("UPDATE ChatCounts SET humans=? WHERE id=?", (humans+1, 1))
-
-        def _add_lstm_chat(cursor, featurized=True):
-            key = "lstms_feat" if featurized else "lstms_unfeat"
-            cursor.execute("SELECT %s from ChatCounts WHERE id=?" % key, (1,))
-            x = cursor.fetchone()
-            lstms = x[0]
-            cursor.execute("UPDATE ChatCounts SET %s=? WHERE id=?" % key, (lstms+1, 1))
-
-        def _pair_with_bot(userid):
+        def _pair_with_bot(userid, bot_name):
             scenario_id = random.choice(list(self.scenarios.keys()))
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0, 1])
             # todo fix this!
-            bot = ChatBot(self.scenarios[scenario_id], 1 - my_agent_index, self.tagger)
-            self.bots[userid] = bot
-            self._update_user(cursor, userid,
-                              status=Status.Chat,
-                              room_id=next_room_id,
-                              partner_id=0,
-                              scenario_id=scenario_id,
-                              agent_index=my_agent_index,
-                              selected_index=-1,
-                              message="")
-            return next_room_id
-
-        def _pair_with_lstm(userid, model=self.featurized_lstm):
-            scenario_id = random.choice(list(self.scenarios.keys()))
-            next_room_id = _get_max_room_id(cursor) + 1
-            my_agent_index = random.choice([0,1])
-            name = "LSTM_FEATURIZED" if model == self.featurized_lstm else "LSTM_UNFEATURIZED"
-            bot = ModelBot(self.scenarios[scenario_id], 1-my_agent_index, model, self.lexicon, name=name, args=self.args)
-            self.bots[userid] = bot
+            box = self.bots[bot_name]
+            bot = ModelBot(self.scenarios[scenario_id], 1-my_agent_index, box, self.lexicon, name=bot_name, args=self.args)
+            self.paired_bots[userid] = bot
             self._update_user(cursor, userid,
                               status=Status.Chat,
                               room_id=next_room_id,
@@ -813,45 +727,29 @@ class BackendConnection(object):
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 others = _get_other_waiting_users(cursor, userid)
                 logger.debug("Found %d other unpaired users" % len(others))
-                if len(others) == 0:
-                    r = random.random()
-                    if use_bot:
-                        if r < self.waiting_bot_probability:
-                            room_id = _pair_with_bot(userid)
-                            _add_bot_chat(cursor)
-                            print "Pairing with baseline", r
-                            return room_id
-                        elif self.waiting_bot_probability <= r < self.waiting_bot_probability + self.waiting_lstm_probability:
-                            room_id = _pair_with_lstm(userid, self.featurized_lstm)
-                            print "Pairing with featurized LSTM", r
-                            _add_lstm_chat(cursor)
-                            return room_id
-                        elif self.waiting_bot_probability + self.waiting_lstm_probability <= r < self.waiting_bot_probability + self.waiting_lstm_probability + self.waiting_lstm_unfeaturized_probability:
-                            room_id = _pair_with_lstm(userid, self.unfeaturized_lstm)
-                            print "Pairing with unfeaturized LSTM", r
-                            _add_lstm_chat(cursor, featurized=False)
-                            return room_id
-                        else:
-                            return None
-                    else:
-                        return None
-                if len(others) > 0:
-                    r = random.random()
-                    if use_bot:
-                        if r < self.bot_probability:
-                            room_id = _pair_with_bot(userid)
-                            _add_bot_chat(cursor)
-                            return room_id
-                        elif self.bot_probability <= r < self.bot_probability + self.lstm_probability:
-                            room_id = _pair_with_lstm(userid, self.featurized_lstm)
-                            _add_lstm_chat(cursor)
-                            return room_id
-                        elif self.bot_probability + self.lstm_probability <= r < self.bot_probability + self.lstm_probability + self.lstm_unfeaturized_probability:
-                            room_id = _pair_with_lstm(userid, self.unfeaturized_lstm)
-                            _add_lstm_chat(cursor, featurized=False)
-                            return room_id
 
-                    _add_human_chat(cursor)
+                if len(others) == 0:
+                    bot_types = self.waiting_probabilities.keys()
+                    bot_probs = self.waiting_probabilities.values()
+                    bot_name = np.random.choice(bot_types, p=bot_probs)
+
+                    if bot_name == Partner.Human:
+                        return None
+                    else:
+                        room_id = _pair_with_bot(userid, bot_name)
+                        _add_bot_chat(cursor, bot_name)
+                        return room_id
+
+                if len(others) > 0:
+                    bot_types = self.waiting_probabilities.keys()
+                    bot_probs = self.waiting_probabilities.values()
+                    bot_name = np.random.choice(bot_types, p=bot_probs)
+                    if bot_name != Partner.Human:
+                        room_id = _pair_with_bot(userid, bot_name)
+                        _add_bot_chat(cursor, bot_name)
+                        return room_id
+
+                    _add_bot_chat(cursor, bot_name)
                     scenario_id = random.choice(list(self.scenarios.keys()))
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor) + 1
@@ -882,12 +780,12 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def is_user_partner_bot(self, userid):
-        return userid in self.bots.keys() and self.bots[userid] is not None
+        return userid in self.paired_bots.keys() and self.paired_bots[userid] is not None
 
     def get_user_bot(self, userid):
-        if userid not in self.bots.keys():
+        if userid not in self.paired_bots.keys():
             return None
-        return self.bots[userid]
+        return self.paired_bots[userid]
 
     def make_bot_selection(self, userid, bot_selection):
         def _get_points(scenario, agent_index, restaurant_name):

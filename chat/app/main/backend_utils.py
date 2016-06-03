@@ -1,6 +1,5 @@
 __author__ = 'anushabala'
 
-
 class FinishedSession(object):
     def __init__(self, message, num_seconds, mturk_code=None):
         self.message = message

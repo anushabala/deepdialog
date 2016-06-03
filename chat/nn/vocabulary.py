@@ -86,7 +86,7 @@ class RawVocabulary(Vocabulary):
         return [self.emb_mat]
 
     def __getstate__(self):
-        return self.word_list[2:], self.emb_size, self.float_type, numpy.asarray(self.emb_mat.get_value())
+        return self.word_list[1:], self.emb_size, self.float_type, numpy.asarray(self.emb_mat.get_value())
 
     def __setstate__(self, state):
         self.emb_mat = theano.shared(
