@@ -123,6 +123,7 @@ class NeuralModel(object):
             if dev_objective < best_dev_objective:
                 best_dev_objective = dev_objective
                 logstats.add('best_iteration', it)
+                logstats.add('best_dev', dev_summary_map)
                 print 'Best dev accuracy so far at iteration %s: %s' % (it, dev_objective)
                 if self.args.save_params:
                     self.spec.save(self.args.save_params + '.best')
