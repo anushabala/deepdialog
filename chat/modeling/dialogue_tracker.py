@@ -418,7 +418,7 @@ class DialogueTracker(object):
                     if pred_token and token in pred_token:
                         prob = 1.0 / len(pred_token)
                         candidates.append((formula, prob))
-                    #print '  %s | %s' % (formula, [x for x in pred_token if x] if pred_token else pred_token)
+                    #print '  %s => %s' % (formula, [x for x in pred_token if x] if pred_token else pred_token)
                 if self.summary_map:
                     logstats.update_summary(self.summary_map['num_formulas_per_token'], len(formulas))
                     logstats.update_summary(self.summary_map['num_consistent_formulas_per_token'], len(candidates))

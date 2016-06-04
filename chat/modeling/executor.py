@@ -61,6 +61,30 @@ class Executor(object):
         if self.agent != who:
             yield ('MagicType', tokens[i][1])  # MagicType(company)
 
+        if self.args.formulas_mode == 'tight':
+            # Relations
+            for f in apply_relation_of('A'):
+                yield f  # e.g., CompanyOf(A)
+            for f in apply_relation_of(['FriendOfA']):
+                yield f  # e.g., CompanyOf(FriendOfA)
+                yield diff(f, 'MentionOfA')
+                yield intersect(f, 'MentionOfB')
+            # Friends
+            yield 'FriendOfA'
+            yield intersect('FriendOfA', 'MentionOfB')
+            for f in apply_has_relation(['MentionOfB']):
+                yield intersect('FriendOfA', f)  # And(FriendOfA,HasCompany(MentionOfB))
+
+            # Generate things that the partner said
+            for t in self.kb.types:
+                yield select_type('MentionOfB', t)
+
+            # Generate numbers in basic mode, or else there's no way they can't get generated.
+            if self.args.formulas_mode == 'basic':
+                for i in range(1, 10 + 1):
+                    yield ('Value', (str(i), 'number'))
+            return
+
         if self.args.formulas_mode == 'recurse':
             # More recursive and braindead way of generating logical forms.
             # Leads to many more hypotheses.
@@ -145,10 +169,10 @@ class Executor(object):
         Note: return None if this logical form is invalid.
         Things that are invalid: no-ops (e.g. getting a single element)
         '''
-        if formula in cache:
-            return cache[formula]
+        #if formula in cache:
+            #return cache[formula]
         result = self.execute_compute(state, who, tokens, i, formula)
-        cache[formula] = result
+        #cache[formula] = result
         return result
 
     def execute_compute(self, state, who, tokens, i, formula):
@@ -156,6 +180,7 @@ class Executor(object):
         # Base cases
         if isinstance(formula, basestring):
             if formula == 'A':
+                #print 'AAAAAAAAAAAAA',  [table[0]['Name']]  # agent
                 return [table[0]['Name']]  # agent
             if formula == 'FriendOfA':
                 return [row['Name'] for row in table[1:]]
@@ -200,6 +225,7 @@ class Executor(object):
         # Joins (note: this is done with respect to the table, which is A + friends)
         if func.endswith('Of'):
             rel = func[:-2]
+            #print 'OOOOOOOOOOO', args[0], [row['Name'] for row in table][0], '=>', sort_by_freq([row[rel] for row in table if row['Name'] in args[0]])
             return sort_by_freq([row[rel] for row in table if row['Name'] in args[0]])
         if func.startswith('Has'):
             rel = func[3:]
