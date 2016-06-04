@@ -97,7 +97,7 @@ def bot(message):
     bot = backend.get_user_bot(userid())
     # time.sleep(random.uniform(2,4))
     bot_selection, bot_message = bot.send()
-    # chat_info = get_backend().get_chat_info(userid())
+    chat_info = get_backend().get_chat_info(userid())
     if bot_selection:
         selection, is_match = backend.make_bot_selection(userid(), bot_selection)
         if is_match:
@@ -108,11 +108,11 @@ def bot(message):
         else:
             emit_message_to_self("Your friend has selected:\"{}\"".format(bot_selection))
         # todo get some logging info back from bot?
-        # write_bot_log({"name":bot.name, "selection":selection}, chat_info)
+        write_bot_log({"name":bot.name, "selection":selection}, chat_info)
 
     if bot_message is not None and "PASS" not in bot_message:
         emit_message_to_self("Friend: {}".format(bot_message))
-        # write_bot_log({"name":bot.name, "message":bot_message}, chat_info)
+        write_bot_log({"name":bot.name, "message":bot_message}, chat_info)
 
 
 @socketio.on('text', namespace='/chat')

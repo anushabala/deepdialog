@@ -118,7 +118,7 @@ class NeuralModel(object):
             dev_objective = dev_summary_map['objective']['mean']
             # Save parameters
             if self.args.save_params:
-                self.spec.save(self.args.save_params)
+                self.spec.save(self.args.save_params + '.'+it)
             # Keep track of the best model so far
             if dev_objective < best_dev_objective:
                 best_dev_objective = dev_objective

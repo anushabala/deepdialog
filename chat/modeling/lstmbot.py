@@ -4,7 +4,6 @@ from chat.modeling.dialogue_tracker import DialogueTracker
 from chat.nn import encdecspec
 import sys
 
-from chat.nn.neural import NeuralBox
 import chat.nn.vocabulary as vocabulary
 import datetime
 from dialogue_tracker import utterance_to_tokens
@@ -16,54 +15,9 @@ sys.modules['vocabulary'] = vocabulary
 
 __author__ = 'anushabala'
 
-START = "START"
-SELECT = "SELECT NAME"
-SAY_DELIM = "SAY "
-
-
-def get_tag_and_features(token):
-    if "<" not in token and ">" not in token:
-        # not a tagged entity, return nonetypes
-        return None, None
-
-    token = token.split(">_<")
-    assert len(token) > 0
-
-    tag = token[0].strip("<>")
-    if len(token) == 1:
-        return tag, None
-
-    features = [t.strip("<>") for t in token[1:]]
-    return tag, features
-
-def get_all_entities_with_tag(tag, json_info):
-    if tag == Entity.to_tag(Entity.FULL_NAME):
-        return list({friend["name"].lower() for friend in json_info["friends"]})
-    if tag == Entity.to_tag(Entity.COMPANY_NAME):
-        return list({friend["company"]["name"].lower() for friend in json_info["friends"]})
-    if tag == Entity.to_tag(Entity.SCHOOL_NAME):
-        return list({friend["school"]["name"].lower() for friend in json_info["friends"]})
-    if tag == Entity.to_tag(Entity.MAJOR):
-        return list({friend["school"]["major"].lower() for friend in json_info["friends"]})
-
-
-def split_into_utterances(pred_seq):
-    seqs = pred_seq.split(SAY_DELIM)
-    if seqs[0].strip() == START and len(seqs) > 1:
-        seqs.pop(0)
-    new_seqs = []
-    for s in seqs:
-        if SELECT in s:
-            i = s.index(SELECT)
-            new_seqs.append(s[:i])
-            new_seqs.append(s[i:])
-        else:
-            new_seqs.append(s)
-    return new_seqs
-
 
 class ModelBot(ChatBotBase):
-    CHAR_RATE = 10.5
+    CHAR_RATE = 13
     SELECTION_DELAY = 1000
     EPSILON = 1500
     MAX_OUT_LEN = 50
@@ -71,8 +25,10 @@ class ModelBot(ChatBotBase):
 
     def __init__(self, scenario, agent_num, box, lexicon, name='LSTM', args=None):
         # self.box = NeuralBox(model)
+
         self.box = box
         self.args = args
+        print args.formulas_mode
         self.tracker = DialogueTracker(lexicon, scenario, agent_num, args, self.box, None)
         self.name = name
         self.agent_num = agent_num
@@ -84,12 +40,13 @@ class ModelBot(ChatBotBase):
         self.selection = None
         self.next_message = None
         self.partner_selected_connection = False
-        self.partner_selection_message = None
+        self.partner_selection = None
 
         self.friends = scenario["agents"][agent_num]["friends"]
         self.full_names_cased = {}
         self.friend_names = []
         self.create_mappings()
+        print "my friends: ", self.friend_names
 
     # todo do we really need this?
     def create_mappings(self):
@@ -123,7 +80,6 @@ class ModelBot(ChatBotBase):
             return None, None
 
         if not self.my_turn:
-
             return None, None
 
         # first check if previous messages need to be sent first
@@ -147,10 +103,13 @@ class ModelBot(ChatBotBase):
 
         # Override LSTM output if partner selects connection
         if self.partner_selected_connection:
-            self.next_message = self.partner_selection_message
-        else:
-            message = " ".join(tokens)
-            self.next_message = message
+            print "partner selected connection, overriding output"
+            self.selection = self.partner_selection
+            self.next_message = None
+            return self.send_selection_if_possible()
+
+        message = " ".join(tokens)
+        self.next_message = message
 
         return self.send_message_if_possible()
 
@@ -166,9 +125,11 @@ class ModelBot(ChatBotBase):
         selection = selection.lower()
         selection_message = "%s %s" % (special_tokens.SELECT_NAME, selection.lower())
         self.receive(selection_message)
-        if selection in self.probabilities.keys():
+        print selection, selection_message
+        if selection in self.full_names_cased.keys() or selection in self.full_names_cased.values():
+            print "partner selected connection"
             self.partner_selected_connection = True
-            self.partner_selection_message = selection_message
+            self.partner_selection = selection_message
 
     def end_chat(self):
         self.my_turn = False
