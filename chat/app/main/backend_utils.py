@@ -30,6 +30,7 @@ class UserChatSession(object):
         self.agent_index = agent_index
         self.scenario = scenario
         self.agent_info = scenario["agents"][agent_index]
+        self.partner_info = scenario["agents"][1-agent_index]
         self.num_seconds = num_seconds
 
     def to_dict(self):

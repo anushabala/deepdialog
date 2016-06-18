@@ -293,7 +293,61 @@
 			{% endfor %}
 			</tbody>
 			</table>
-			<h3>Choose a friend below:</h3>
+		{% if debug %}
+		</div>
+		<div id="other_prefs" style="float:left">
+		<h3>Partner information</h3>
+				<table class="cuisine_preferences_list">
+						<tr>
+							<td>Name</td>
+							<td>
+							{{ partner["info"]["name"] }}
+							</td>
+					  </tr>
+					  <tr>
+							<td>School</td>
+							<td>
+							{{ partner["info"]["school"]["name"] }}
+							</td>
+					  </tr>
+					  <tr>
+							<td>Major</td>
+							<td>
+							{{ partner["info"]["school"]["major"] }}
+							</td>
+					  </tr>
+					  <tr>
+							<td>Company</td>
+							<td>
+							{{ partner["info"]["company"]["name"] }}
+							</td>
+					  </tr>
+				</table>
+		</div>
+		<div id="other_friends" style="float:left">
+            <h3>Partner friends</h3>
+			<table class="sortable">
+			<thead>
+			<tr>
+			<th>Name</th>
+			<th>School</th>
+			<th>Major</th>
+			<th>Company</th>
+			</tr>
+			</thead>
+			<tbody>
+				{% for friend in partner["friends"] %}
+				<tr>
+					<td><b>{{ friend["name"] }}</b></td>
+					<td>{{ friend["school"]["name"]}}</td> 
+					<td>{{ friend["school"]["major"]}}</td> 
+					<td>{{ friend["company"]["name"]}}</td> 
+				</tr>
+			{% endfor %}
+			</tbody>
+			</table>
+		
+		<h3>Choose a friend below:</h3>
 				<select id="ddRestaurants">
 					<option value="-1">Select a friend</option>
 					{% set ctr = 0 %}
@@ -302,7 +356,19 @@
 					{% set ctr = ctr + 1 %}
 					{% endfor %}
 				</select>
-        </div>
+		</div>
+		{% else %}
+		<h3>Choose a friend below:</h3>
+				<select id="ddRestaurants">
+					<option value="-1">Select a friend</option>
+					{% set ctr = 0 %}
+					{% for friend in agent["friends"] %}
+					<option value={{ctr}}>{{ friend["name"] }}</option>
+					{% set ctr = ctr + 1 %}
+					{% endfor %}
+				</select>
+				</div>
+		{% endif %}
         </div>
 
     </div>

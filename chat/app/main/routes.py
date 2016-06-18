@@ -41,12 +41,8 @@ def index():
     the session."""
 
     set_or_get_userid()
-
     if not request.args.get('key'):
-        if request.args.get('mturk'):
-            return redirect(url_for('main.index', key=generate_unique_key(), mturk=request.args.get('mturk')))
-        else:
-            return redirect(url_for('main.index', key=generate_unique_key()))
+        return redirect(url_for('main.index', key=generate_unique_key(), **request.args))
 
     backend = get_backend()
     backend.create_user_if_necessary(userid())
@@ -60,6 +56,7 @@ def index():
     elif 'key' not in session:
         session['key'] = key
 
+    debug = True if request.args.get('debug') is not None and request.args.get('debug') == '1' else False
     status = backend.get_updated_status(userid())
     logger.info("Got updated status %s for user %s" % (Status._names[status], userid()[:6]))
     session["mturk"] = True if request.args.get('mturk') and int(request.args.get('mturk')) == 1 else None
@@ -103,7 +100,9 @@ def index():
                                agent=chat_info.agent_info,
                                num_seconds=chat_info.num_seconds,
                                config=presentation_config,
-                               bot=bot)
+                               bot=bot,
+                               debug=debug,
+                               partner=chat_info.partner_info)
     elif status == Status.Survey:
         return render_template('survey.html')
 

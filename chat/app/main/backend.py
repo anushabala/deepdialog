@@ -692,7 +692,6 @@ class BackendConnection(object):
             scenario_id = random.choice(list(self.scenarios.keys()))
             next_room_id = _get_max_room_id(cursor) + 1
             my_agent_index = random.choice([0, 1])
-            # todo fix this!
             box, args = self.bots[bot_name]
             bot = ModelBot(self.scenarios[scenario_id], 1-my_agent_index, box, self.lexicon, name=bot_name, args=args)
             self.paired_bots[userid] = bot

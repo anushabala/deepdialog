@@ -65,6 +65,8 @@ class Executor(object):
             # Relations
             for f in apply_relation_of('A'):
                 yield f  # e.g., CompanyOf(A)
+                yield diff(f, 'MentionOfA')
+                yield intersect(f, 'MentionOfB')
             for f in apply_relation_of(['FriendOfA']):
                 yield f  # e.g., CompanyOf(FriendOfA)
                 yield diff(f, 'MentionOfA')
