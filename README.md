@@ -38,6 +38,7 @@ The distribution is gotten by:
     cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode verbatim' --name friends.verbatim --request-network
     cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode basic' --name friends.basic --request-network
     cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode recurse' --name friends.recurse --request-network
+    cl run :chat raw1:transcripts_0520_friends raw2:transcripts_0523_friends scenarios.json:friends_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw1 raw2 --out-prefix ./ --formulas-mode tight' --name friends.tight --request-network
     cl run :chat raw:transcripts_0524_dating scenarios.json:matchmaking_scenarios.json 'PYTHONPATH=. python chat/utils/create_json_dataset.py --scenarios scenarios.json --transcripts raw --out-prefix ./' --name matchmaking.tagged --request-network
 
     # Download datasets (optional)
